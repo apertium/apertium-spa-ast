@@ -2364,6 +2364,606 @@
           <r>ar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+	</pardef>
+	<pardef n="/ser__vblex">
+      <e>
+        <p>
+          <l>soi</l> 
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>so</l> 
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yes</l> 
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ye</l> 
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>somos</l> 
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sois</l> 
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>son</l> 
+          <r>ser<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>fui</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fuisti</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fuesti</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fosti</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>foi</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fo</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fuimos</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fuemos</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fomos</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fuistis</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fuestis</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fostis</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fueron</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>foron</l> 
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>yera</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yeres</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yera</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yéramos</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>yéremos</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yerais</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>yereis</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yeren</l> 
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>fuera</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fuere</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fora</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fore</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fueras</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>	  
+      <e r="LR">
+        <p>
+          <l>fueres</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>foras</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>	  
+      <e r="LR">
+        <p>
+          <l>fores</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l>fuera</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>	  	  
+      <e r="LR">
+        <p>
+          <l>fuere</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fora</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>	  	  
+      <e r="LR">
+        <p>
+          <l>fore</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fuéramos</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fuéremos</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fóramos</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fóremos</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fuerais</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fuereis</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>	  
+      <e r="LR">
+        <p>
+          <l>forais</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>foreis</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>fueran</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>	  
+      <e r="LR">
+        <p>
+          <l>fueren</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>foran</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>	  
+      <e r="LR">
+        <p>
+          <l>foren</l> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>seya</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sía</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seyas</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sías</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seya</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sía</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seyamos</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>síamos</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seyáis</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>síais</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seyan</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sían</l> 
+          <r>ser<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>seré</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedré</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>serás</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedrás</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>será</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedrá</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seremos</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedremos</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seréis</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedréis</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>serán</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedrán</l> 
+          <r>ser<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>sería</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedría</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seríes</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedríes</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sería</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedría</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p3"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seríamos</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>seríemos</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedríamos</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedríemos</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seríais</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>seríeis</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedríais</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedríeis</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seríen</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sedríen</l> 
+          <r>ser<s n="vbser"/><s n="cni"/><s n="p3"/><s n="pl"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>ser</l> 
+          <r>ser<s n="vbser"/><s n="inf"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>siendo</l> 
+          <r>ser<s n="vbser"/><s n="ger"/></r> 
+        </p>
+      </e>
+	  
+      <e>
+        <p>
+          <l>sío</l> 
+          <r>ser<s n="vbser"/><s n="pp"/><s n="nt"/><s n="sg"/></r> 
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>sé</l> 
+          <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sei</l> 
+          <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r> 
+        </p>
+      </e>
 	</pardef>	  
 
     <!-- Axetivos -->
@@ -3133,7 +3733,9 @@
     <e><i>xirpi</i><par n="unvi/ar__vblex"/></e>
     <e><i>xordi</i><par n="unvi/ar__vblex"/></e>
     <e><i>xuxuri</i><par n="unvi/ar__vblex"/></e>
-    <e><i>zurdi</i><par n="unvi/ar__vblex"/></e>	
+    <e><i>zurdi</i><par n="unvi/ar__vblex"/></e>    <e lm="ser"><par n="/ser__vbser"/></e>
+    <e lm="ser"><i>per</i><par n="/ser__vbser"/></e>
+
     <!-- Preposiciones -->
     <e lm="con"><i/><par n="/con__pr"/></e>
     <e lm="en"><i/><par n="/en__pr"/></e>
