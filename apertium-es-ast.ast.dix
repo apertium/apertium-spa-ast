@@ -3733,7 +3733,8 @@
     <e><i>xirpi</i><par n="unvi/ar__vblex"/></e>
     <e><i>xordi</i><par n="unvi/ar__vblex"/></e>
     <e><i>xuxuri</i><par n="unvi/ar__vblex"/></e>
-    <e><i>zurdi</i><par n="unvi/ar__vblex"/></e>    <e lm="ser"><par n="/ser__vbser"/></e>
+    <e><i>zurdi</i><par n="unvi/ar__vblex"/></e>
+    <e lm="ser"><par n="/ser__vbser"/></e>
     <e lm="ser"><i>per</i><par n="/ser__vbser"/></e>
 
     <!-- Preposiciones -->
@@ -4323,7 +4324,7 @@
     <e lm="alcaloide"><i>alcaloide</i><par n="pie__n"/></e>
     <e lm="alcance"><i>alcance</i><par n="pie__n"/></e>
     <e lm="alcanfor"><i>alcanfor</i><par n="mes__n"/></e>
-    <e lm="alcantarell"><i>alcantarell</i><par n="aclar_áu__n"/></e>
+    <e lm="alcantarell"><i>alcantarell</i><par n="aclar/áu__n"/></e>
     <e lm="alcantariella"><i>alcantariell</i><par n="alde/a__n"/></e>
     <e lm="alcanzadura"><i>alcanzadur</i><par n="alde/a__n"/></e>
     <e lm="alcanzamientu"><i>alcanzamient</i><par n="us/u__n"/></e>
@@ -5574,7 +5575,7 @@
     <e lm="badazu"><i>badaz</i><par n="us/u__n"/></e>
     <e lm="badea"><i>bade</i><par n="alde/a__n"/></e>
     <e lm="badil"><i>badil</i><par n="mes__n"/></e>
-    <e lm="bag"><i>bag</i><par n="ayalg_a__n"/></e>
+    <e lm="bag"><i>bag</i><par n="ayalg/a__n"/></e>
     <e lm="bagax"><i>bagax</i><par n="mes__n"/></e>
     <e lm="bagaxe"><i>bagaxe</i><par n="pie__n"/></e>
     <e lm="bagul"><i>bagul</i><par n="mes__n"/></e>
@@ -5938,7 +5939,7 @@
     <e lm="calcetu"><i>calcet</i><par n="us/u__n"/></e>
     <e lm="carambelu"><i>carambel</i><par n="us/u__n"/></e>
     <e lm="carne"><i>carne</i><par n="abordaxe__n"/></e>
-    <e lm="carne"><i>carne</i><par n="imaxe__n"/></e>
+    <e lm="carne"><i>carne</i><par n="im/axe__n"/></e>
     <e lm="chicolate"><i>chicolate</i><par n="pie__n"/></e>
     <e lm="chigre"><i>chigre</i><par n="pie__n"/></e>
     <e lm="churru"><i>churr</i><par n="us/u__n"/></e>
@@ -6024,7 +6025,7 @@
     <e lm="sinónimu"><i>sinónim</i><par n="us/u__n"/></e>
     <e lm="tarabica"><i>tarabi</i><par n="músi/ca__n"/></e>
     <e lm="tardíu"><i>tardí</i><par n="us/u__n"/></e>
-    <e lm="tarmada"><i>tarma</i><par n="inverna/da__n"/></e>
+    <e lm="tarmada"><i>tarma</i><par n="iverna/da__n"/></e>
     <e lm="todiellu"><i>todiell</i><par n="us/u__n"/></e>
     <e lm="torna"><i>torn</i><par n="alde/a__n"/></e>
     <e lm="traducción"><i>traducci</i><par n="aici/ón__n"/></e>
