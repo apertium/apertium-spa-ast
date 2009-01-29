@@ -2365,7 +2365,7 @@
         </p>
       </e>
 	</pardef>
-	<pardef n="/ser__vblex">
+	<pardef n="/ser__vbser">
       <e>
         <p>
           <l>soi</l> 
@@ -3059,7 +3059,7 @@
     <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
 
     <!-- Verbos -->
-    <e>añ</i><par n="fal/ar__vblex"/></e>
+    <e><i>añ</i><par n="fal/ar__vblex"/></e>
     <e><i>aball</i><par n="fal/ar__vblex"/></e>
     <e><i>abarquin</i><par n="fal/ar__vblex"/></e>
     <e><i>abas</i><par n="fal/ar__vblex"/></e>
@@ -3217,7 +3217,7 @@
     <e><i>cunt</i><par n="fal/ar__vblex"/></e>
     <e><i>cur</i><par n="fal/ar__vblex"/></e>
     <e><i>dañ</i><par n="fal/ar__vblex"/></e>
-    <e><i>dañ</i>declar</i><par n="fal/ar__vblex"/></e>
+    <e><i>declar</i><par n="fal/ar__vblex"/></e>
     <e><i>delat</i><par n="fal/ar__vblex"/></e>
     <e><i>desafit</i><par n="fal/ar__vblex"/></e>
     <e><i>desagaf</i><par n="fal/ar__vblex"/></e>
@@ -3317,7 +3317,7 @@
     <e><i>exercit</i><par n="fal/ar__vblex"/></e>
     <e><i>factur</i><par n="fal/ar__vblex"/></e>
     <e><i>fal</i><par n="fal/ar__vblex"/></e>
-    <e>fall</i><par n="fal/ar__vblex"/></e>
+    <e><i>fall</i><par n="fal/ar__vblex"/></e>
     <e><i>falt</i><par n="fal/ar__vblex"/></e>
     <e><i>fart</i><par n="fal/ar__vblex"/></e>
     <e><i>felicit</i><par n="fal/ar__vblex"/></e>
