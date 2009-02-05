@@ -155,7 +155,8 @@
     <e><p><l>abolladura<s n="n"/></l><r>abolladura<s n="n"/></r></p></e>
     <e r="RL"><p><l>abolladura<s n="n"/><s n="f"/></l><r>abollamientu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abollón<s n="n"/></l><r>abollón<s n="n"/></r></p></e>
-    <e r="RL"><p><l>modorra<s n="n"/><s n="sg"/></l><r>aboques<s n="n"/><s n="pl"/></r></p></e>
+<!--    <e r="RL"><p><l>modorra<s n="n"/><s n="sg"/></l><r>aboques<s n="n"/><s 
+n="pl"/></r></p></e>-->
     <e r="RL"><p><l>abombamiento<s n="n"/></l><r>abombamientu<s n="n"/></r></p></e>
     <e><p><l>abombamiento<s n="n"/><s n="m"/></l><r>abombadura<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>abono<s n="n"/></l><r>abonamientu<s n="n"/></r></p></e>
@@ -892,9 +893,11 @@
     <e><p><l>anáfora</l><r>anáfora</r></p></e>
     <e r="RL"><p><l>anales</l><r>anales</r></p></e>
     <e><p><l>analfabetismo<s n="n"/></l><r>analfabetismu<s n="n"/></r></p></e>
-    <e r="LR"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analís<s n="n"/><s n="ND"/></r></p></e>
+   <!-- <e r="LR"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analís<s n="n"/><s 
+n="ND"/></r></p></e>
     <e r="RL"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analís<s n="n"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analises<s n="n"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analises<s n="n"/><s 
+n="pl"/></r></p></e>-->
     <e><p><l>analista</l><r>analista</r></p></e>
     <e><p><l>analogía<s n="n"/></l><r>analoxía<s n="n"/></r></p></e>
     <e><p><l>analgésico<s n="n"/></l><r>analxésicu<s n="n"/></r></p></e>
@@ -1057,9 +1060,12 @@
     <e><p><l>antropomorfo<s n="n"/></l><r>antropomorfu<s n="n"/></r></p></e>
     <e><p><l>antroponimia</l><r>antroponimia</r></p></e>
     <e><p><l>antropónimo<s n="n"/></l><r>antropónimu<s n="n"/></r></p></e>
-    <e r="RL"><p><l>carnaval<s n="n"/><s n="m"/><s n="ND"/></l><r>antroxu<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-    <e r="LR"><p><l>carnaval<s n="n"/><s n="m"/><s n="sg"/></l><r>antroxu<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-    <e r="LR"><p><l>carnaval<s n="n"/><s n="m"/><s n="pl"/></l><r>antroxu<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<!--    <e r="RL"><p><l>carnaval<s n="n"/><s n="m"/><s n="ND"/></l><r>antroxu<s n="n"/><s 
+n="m"/><s n="sp"/></r></p></e>-->
+<!--    <e r="LR"><p><l>carnaval<s n="n"/><s n="m"/><s n="sg"/></l><r>antroxu<s n="n"/><s 
+n="m"/><s n="sp"/></r></p></e>-->
+<!--    <e r="LR"><p><l>carnaval<s n="n"/><s n="m"/><s n="pl"/></l><r>antroxu<s n="n"/><s 
+n="m"/><s n="sp"/></r></p></e>-->
     <e><p><l>anualidad<s n="n"/></l><r>anualidá<s n="n"/></r></p></e>
     <e><p><l>anuario<s n="n"/></l><r>anuariu<s n="n"/></r></p></e>
     <e><p><l>anudadura<s n="n"/></l><r>anuedadura<s n="n"/></r></p></e>

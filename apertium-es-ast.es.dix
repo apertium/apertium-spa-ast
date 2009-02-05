@@ -66372,6 +66372,7 @@
 <l/>
 <r><s n="n"/><s n="f"/><s n="sg"/></r>
 </p>
+</e>
 </pardef>
 <pardef n="bedel__n">
 <e>
@@ -66382,13 +66383,13 @@
 </e>
 <e>
 <p>
-<l>a<l/>
+<l>a</l>
 <r><s n="n"/><s n="f"/><s n="sg"/></r>
 </p>
 </e>
 <e>
 <p>
-<l>es<l/>
+<l>es</l>
 <r><s n="n"/><s n="mf"/><s n="pl"/></r>
 </p>
 </e>
@@ -68069,13 +68070,14 @@
 <r>ermen<s n="n"/><s n="m"/><s n="sg"/></r>
 </p>
 </e>
-</pardef>	</pardefs>
+</pardef>
+	</pardefs>
 <section id="main" type="standard">
 
     <!-- Nomes ordenaos alfabéticamente. Por favor, trata de mantener l'orde nes entraes nueves. ¡Gracies!-->
     <!-- Noums are in alphabetical order. Please, try to keep it in order, it would be easy for all. Thanks!-->
 
-    <e><i>balear</i><par n="capital__n"></e>
+    <e><i>balear</i><par n="capital__n"/></e>
     <e><i>abadejo</i><par n="abandono__n"/></e>
     <e><i>abadía</i><par n="abundancia__n"/></e>
     <e><i>abad</i><par n="abad__n"/></e>
@@ -68098,7 +68100,7 @@
     <e><i>abdicaci</i><par n="acci_ón__n"/></e>
     <e><i>abd</i><par n="abd_omen__n"/></e>
     <e><i>abecedario</i><par n="abandono__n"/></e>
-    <e><i>abecé</i><par n="abandon_o__n"/></e>
+    <e><i>abecé</i><par n="abandono__n"/></e>
     <e><i>abedular</i><par n="abril__n"/></e>
     <e><i>abedul</i><par n="dos__n"/></e>
     <e><i>abeja</i><par n="abundancia__n"/></e>
@@ -68112,17 +68114,17 @@
     <e><i>abeto</i><par n="abandono__n"/></e>
     <e><i>abismo</i><par n="abandono__n"/></e>
     <e><i>ablandamiento</i><par n="abandono__n"/></e>
-    <e><i>ablativo</i><par n="abandon_o__n"/></e>
+    <e><i>ablativo</i><par n="abandono__n"/></e>
     <e><i>abluci</i><par n="acci_ón__n"/></e>
     <e><i>abogacía</i><par n="abogacía__n"/></e>
     <e><i>abogad</i><par n="abogad_o__n"/></e>
-    <e><i>aboleng</i><par n="abandon_o__n"/></e>
+    <e><i>aboleng</i><par n="abandono__n"/></e>
     <e><i>abolici</i><par n="acci_ón__n"/></e>
-    <e><i>abolicionism</i><par n="abandon_o__n"/></e>
+    <e><i>abolicionism</i><par n="abandono__n"/></e>
     <e><i>abolladura</i><par n="abundancia__n"/></e>
     <e><i>aboll</i><par n="avi_ón__n"/></e>
-    <e><i>abombamient</i><par n="abandon_o__n"/></e>
-    <e><i>abon</i><par n="abandon_o__n"/></e>
+    <e><i>abombamient</i><par n="abandono__n"/></e>
+    <e><i>abon</i><par n="abandono__n"/></e>
     <e><i>abordaje</i><par n="abandono__n"/></e>
     <e><i>aborrecimiento</i><par n="abandono__n"/></e>
     <e><i>aborto</i><par n="abandono__n"/></e>
@@ -68142,25 +68144,25 @@
     <e><i>abrillantador</i><par n="abril__n"/></e>
     <e><i>abrillantamiento</i><par n="abandono__n"/></e>
     <e><i>abrimiento</i><par n="abandono__n"/></e>
-    <e><i>abrochadura</i><par n="abundancia__n"></e>
-    <e><i>abrochamiento</i><par n="abandono__n"></e>
+    <e><i>abrochadura</i><par n="abundancia__n"/></e>
+    <e><i>abrochamiento</i><par n="abandono__n"/></e>
     <e><i>abscisa</i><par n="abundancia__n"/></e>
-    <e><i>ábside</i><par n="abandono__n"></e>
+    <e><i>ábside</i><par n="abandono__n"/></e>
     <e><i>absoluci</i><par n="acci_ón__n"/></e>
-    <e><i>absolutismo</i><par n="abandono__n"></e>
-    <e><i>absorbimiento</i><par n="abandono__n"></e>
+    <e><i>absolutismo</i><par n="abandono__n"/></e>
+    <e><i>absorbimiento</i><par n="abandono__n"/></e>
     <e><i>absorci</i><par n="acci_ón__n"/></e>
     <e><i>abstenci</i><par n="acci_ón__n"/></e>
     <e><i>abstencionismo</i><par n="abandono__n"/></e>
     <e><i>abstinencia</i><par n="abundancia__n"/></e>
     <e><i>abstracci</i><par n="acci_ón__n"/></e>
-    <e><i>absurdo</i><par n="abandono__n"></e>
+    <e><i>absurdo</i><par n="abandono__n"/></e>
     <e><i>abucheo</i><par n="abandono__n"/></e>
     <e><i>abuel</i><par n="abogad_o__n"/></e>
-    <e><i>abultamiento</i><par n="abandono__n"></e>
+    <e><i>abultamiento</i><par n="abandono__n"/></e>
     <e><i>abundancia</i><par n="abundancia__n"/></e>
-    <e><i>aburguesamiento</i><par n="abandono__n"></e>
-    <e><i>aburrimiento</i><par n="abandono__n"></e>
+    <e><i>aburguesamiento</i><par n="abandono__n"/></e>
+    <e><i>aburrimiento</i><par n="abandono__n"/></e>
     <e><i>abuso</i><par n="abandono__n"/></e>
     <e><i>academia</i><par n="abundancia__n"/></e>
     <e><i>académic</i><par n="abogad_o__n"/></e>
@@ -68273,8 +68275,8 @@
     <e><i>acumulaci</i><par n="acci_ón__n"/></e>
     <e><i>acumulador</i><par n="abril__n"/></e>
     <e><i>acuñaci</i><par n="acci_ón__n"/></e>
-    <e><i>acupuntor</i><par n="redactor__n"></e>
-    <e><i>acupuntura</i><par n="abogacía__n"></e>
+    <e><i>acupuntor</i><par n="redactor__n"/></e>
+    <e><i>acupuntura</i><par n="abogacía__n"/></e>
     <e><i>acusaci</i><par n="acci_ón__n"/></e>
     <e><i>acusad</i><par n="abogad_o__n"/></e>
     <e><i>acusativo</i><par n="abandono__n"/></e>
@@ -68297,14 +68299,14 @@
     <e><i>adivino</i><par n="abandono__n"/></e>
     <e><i>adjetivaci</i><par n="acci_ón__n"/></e>
     <e><i>adjetivo</i><par n="abandono__n"/></e>
-    <e><i>adjudicaci</i><par n="acci_ón__n"></e>
+    <e><i>adjudicaci</i><par n="acci_ón__n"/></e>
     <e><i>adjunt</i><par n="abogad_o__n"/></e>
-    <e><i>adjuraci</i><par n="acci_ón__n"></e>
+    <e><i>adjuraci</i><par n="acci_ón__n"/></e>
     <e><i>administraci</i><par n="acci_ón__n"/></e>
     <e><i>administrador</i><par n="redactor__n"/></e>
     <e><i>administrativ</i><par n="abogad_o__n"/></e>
     <e><i>admiraci</i><par n="acci_ón__n"/></e>
-    <e><i>admisi</i><par n="acci_ón__n"></e>
+    <e><i>admisi</i><par n="acci_ón__n"/></e>
     <e><i>admonici</i><par n="acci_ón__n"/></e>
     <e><i>adobe</i><par n="abandono__n"/></e>
     <e><i>adobera</i><par n="abundancia__n"/></e>
@@ -68361,13 +68363,13 @@
     <e><i>afilador</i><par n="redactor__n"/></e>
     <e><i>afiladura</i><par n="abundancia__n"/></e>
     <e><i>afiliaci</i><par n="acci_ón__n"/></e>
-    <e><i>afinador</i><par n="redactor__n"></e>
+    <e><i>afinador</i><par n="redactor__n"/></e>
     <e><i>afinamiento</i><par n="abandono__n"/></e>
     <e><i>afinidad</i><par n="a__n"/></e>
     <e><i>af</i><par n="af_án__n"/></e>
     <e><i>afirmaci</i><par n="acci_ón__n"/></e>
     <e><i>afletamiento</i><par n="abandono__n"/></e>
-    <e><i>aflicci</i><par n="acci_ón__n"></e>
+    <e><i>aflicci</i><par n="acci_ón__n"/></e>
     <e><i>afligimiento</i><par n="abandono__n"/></e>
     <e><i>aflojamiento</i><par n="abandono__n"/></e>
     <e><i>afloramiento</i><par n="abandono__n"/></e>
@@ -68385,7 +68387,7 @@
     <e><i>agarradero</i><par n="abandono__n"/></e>
     <e><i>agarrador</i><par n="abril__n"/></e>
     <e><i>agarre</i><par n="abandono__n"/></e>
-    <e><i>agarr</i><par n="avi_ón__n"></e>
+    <e><i>agarr</i><par n="avi_ón__n"/></e>
     <e><i>agarro</i><par n="abandono__n"/></e>
     <e><i>agasajo</i><par n="abandono__n"/></e>
     <e><i>ágata</i><par n="abundancia__n"/></e>
@@ -68443,13 +68445,13 @@
     <e><i>agude</i><par n="actri_z__n"/></e>
     <e><i>agudeza</i><par n="abundancia__n"/></e>
     <e><i>agüero</i><par n="abandono__n"/></e>
-    <e><i>aguij</i><par n="acci_ón__n"></e>
+    <e><i>aguij</i><par n="acci_ón__n"/></e>
     <e><i>aguijonada</i><par n="abundancia__n"/></e>
     <e><i>aguijonazo</i><par n="abandono__n"/></e>
     <e><i>águila</i><par n="abundancia__n"/></e>
     <e><i>aguilando</i><par n="abandono__n"/></e>
     <e><i>aguilera</i><par n="abundancia__n"/></e>
-    <e><i>aguil</i><par n="acci_ón__n"></e>
+    <e><i>aguil</i><par n="acci_ón__n"/></e>
     <e><i>aguinaldo</i><par n="abandono__n"/></e>
     <e><i>aguja</i><par n="abundancia__n"/></e>
     <e><i>agujazo</i><par n="abandono__n"/></e>
@@ -68473,14 +68475,14 @@
     <e><i>aislamiento</i><par n="abandono__n"/></e>
     <e><i>ajada</i><par n="abundancia__n"/></e>
     <e><i>ajedrecista</i><par n="modelo__n"/></e>
-    <e><i>ajedre</i><par n="altavo_z__n"></e>
+    <e><i>ajedre</i><par n="altavo_z__n"/></e>
     <e><i>ajenjo</i><par n="abandono__n"/></e>
     <e><i>ajer</i><par n="abogad_o__n"/></e>
     <e><i>ajetreo</i><par n="abandono__n"/></e>
     <e><i>ajo</i><par n="abandono__n"/></e>
     <e><i>ajuar</i><par n="abril__n"/></e>
     <e><i>ajuntamiento</i><par n="abandono__n"/></e>
-    <e><i>ajustador</i><par n="redactor__n"></e>
+    <e><i>ajustador</i><par n="redactor__n"/></e>
     <e><i>ajustamiento</i><par n="abandono__n"/></e>
     <e><i>ajuste</i><par n="abandono__n"/></e>
     <e><i>alabamiento</i><par n="abandono__n"/></e>
@@ -68489,7 +68491,7 @@
     <e><i>alacena</i><par n="abundancia__n"/></e>
     <e><i>alacr</i><par n="af_án__n"/></e>
     <e><i>ala</i><par n="abundancia__n"/></e>
-    <e><i>alalim</i><par n="avi_ón__n"></e>
+    <e><i>alalim</i><par n="avi_ón__n"/></e>
     <e><i>alambique</i><par n="abandono__n"/></e>
     <e><i>alambrada</i><par n="abundancia__n"/></e>
     <e><i>alambrado</i><par n="abandono__n"/></e>
@@ -68514,14 +68516,14 @@
     <e><i>albañil</i><par n="capital__n"/></e>
     <e><i>albarca</i><par n="abundancia__n"/></e>
     <e><i>albarda</i><par n="abundancia__n"/></e>
-    <e><i>albarder</i><par n="abogad_o__n"></e>
+    <e><i>albarder</i><par n="abogad_o__n"/></e>
     <e><i>albareque</i><par n="abandono__n"/></e>
     <e><i>albaricoque</i><par n="abandono__n"/></e>
     <e><i>albaricoquero</i><par n="abandono__n"/></e>
     <e><i>albar</i><par n="af_án__n"/></e>
     <e><i>alberca</i><par n="abundancia__n"/></e>
     <e><i>albergue</i><par n="abandono__n"/></e>
-    <e><i>alberguer</i><par n="abogad_o__n"></e>
+    <e><i>alberguer</i><par n="abogad_o__n"/></e>
     <e><i>albinismo</i><par n="abandono__n"/></e>
     <e><i>albóndiga</i><par n="abundancia__n"/></e>
     <e><i>alborada</i><par n="abundancia__n"/></e>
@@ -68587,7 +68589,7 @@
     <e><i>alfalfal</i><par n="abril__n"/></e>
     <e><i>alfalfar</i><par n="abril__n"/></e>
     <e><i>alfanje</i><par n="abandono__n"/></e>
-    <e><i>alfarecía</i><par n="abundancia__n"></e>
+    <e><i>alfarecía</i><par n="abundancia__n"/></e>
     <e><i>alfareme</i><par n="abandono__n"/></e>
     <e><i>alfarería</i><par n="abundancia__n"/></e>
     <e><i>alfarer</i><par n="abogad_o__n"/></e>
@@ -68608,8 +68610,8 @@
     <e><i>algarroba</i><par n="abundancia__n"/></e>
     <e><i>álgebra</i><par n="abundancia__n"/></e>
     <e><i>algebrista</i><par n="modelo__n"/></e>
-    <e><i>algod</i><par n="avi_ón__n"></e>
-    <e><i>algodonal</i><par n="a__n"></e>
+    <e><i>algod</i><par n="avi_ón__n"/></e>
+    <e><i>algodonal</i><par n="a__n"/></e>
     <e><i>algodoner</i><par n="abogad_o__n"/></e>
     <e><i>alguacil</i><par n="abril__n"/></e>
     <e><i>alhaja</i><par n="abundancia__n"/></e>
@@ -68650,7 +68652,7 @@
     <e><i>almendral</i><par n="abril__n"/></e>
     <e><i>almendrilla</i><par n="abundancia__n"/></e>
     <e><i>almibar</i><par n="abril__n"/></e>
-    <e><i>almid</i><par n="acci_ón__n"></e>
+    <e><i>almid</i><par n="acci_ón__n"/></e>
     <e><i>almirante</i><par n="modelo__n"/></e>
     <e><i>almohada</i><par n="abundancia__n"/></e>
     <e><i>almorrana</i><par n="abundancia__n"/></e>
@@ -68696,7 +68698,7 @@
     <e><i>aluminio</i><par n="abandono__n"/></e>
     <e><i>alumnado</i><par n="abandono__n"/></e>
     <e><i>alumn</i><par n="abogad_o__n"/></e>
-    <e><i>alusi</i><par n="acci_ón__n"></e>
+    <e><i>alusi</i><par n="acci_ón__n"/></e>
     <e><i>alveolo</i><par n="abandono__n"/></e>
     <e><i>alzacuello</i><par n="abandono__n"/></e>
     <e><i>alzadura</i><par n="abundancia__n"/></e>
@@ -68755,19 +68757,19 @@
     <e><i>amor</i><par n="abril__n"/></e>
     <e><i>amortajadura</i><par n="abundancia__n"/></e>
     <e><i>amortecimiento</i><par n="abandono__n"/></e>
-    <e><i>amortiguaci</i><par n="acci_ón__n"></e>
+    <e><i>amortiguaci</i><par n="acci_ón__n"/></e>
     <e><i>amortiguador</i><par n="abril__n"/></e>
     <e><i>amortiguamiento</i><par n="abandono__n"/></e>
-    <e><i>amortizaci</i><par n="aici_ón__n"></e>
+    <e><i>amortizaci</i><par n="acci_ón__n"/></e>
     <e><i>amotinamiento</i><par n="abandono__n"/></e>
     <e><i>amparamiento</i><par n="abandono__n"/></e>
     <e><i>amparo</i><par n="abandono__n"/></e>
     <e><i>amperio</i><par n="abandono__n"/></e>
     <e><i>ampliaci</i><par n="acci_ón__n"/></e>
     <e><i>ampliadora</i><par n="abundancia__n"/></e>
-    <e><i>amplificaci</i><par n="acci_ón__n"></e>
-    <e><i>amplificador</i><par n="abril__n"></e>
-    <e><i>amplitud</i><par n="a__n"></e>
+    <e><i>amplificaci</i><par n="acci_ón__n"/></e>
+    <e><i>amplificador</i><par n="abril__n"/></e>
+    <e><i>amplitud</i><par n="a__n"/></e>
     <e><i>ampolla</i><par n="abundancia__n"/></e>
     <e><i>amueblamiento</i><par n="abandono__n"/></e>
     <e><i>amujeramiento</i><par n="abandono__n"/></e>
@@ -68795,7 +68797,7 @@
     <e><i>ancla</i><par n="abundancia__n"/></e>
     <e><i>andador</i><par n="abril__n"/></e>
     <e><i>andadura</i><par n="abundancia__n"/></e>
-    <e><i>anda</i><par n="altavo_z__n"></e>
+    <e><i>anda</i><par n="altavo_z__n"/></e>
     <e><i>andalucismo</i><par n="abandono__n"/></e>
     <e><i>andalu</i><par n="andalu_z__n"/></e>
     <e><i>andamio</i><par n="abandono__n"/></e>
@@ -68805,11 +68807,11 @@
     <e><i>andanza</i><par n="abundancia__n"/></e>
     <e><i>andarina</i><par n="abundancia__n"/></e>
     <e><i>andarivel</i><par n="abril__n"/></e>
-    <e><i>andarríos</i><par n="análisis__n"></e>
-    <e><i>and</i><par n="almac_én__n"></e>
+    <e><i>andarríos</i><par n="análisis__n"/></e>
+    <e><i>and</i><par n="almac_én__n"/></e>
     <e><i>andolina</i><par n="abundancia__n"/></e>
     <e><i>andorina</i><par n="abundancia__n"/></e>
-    <e><i>andosc</i><par n="abogado__n"/></e>
+    <e><i>andosc</i><par n="abogad_o__n"/></e>
     <e><i>andrajo</i><par n="abandono__n"/></e>
     <e><i>androceo</i><par n="abandono__n"/></e>
     <e><i>androide</i><par n="abandono__n"/></e>
@@ -68866,11 +68868,11 @@
     <e><i>anta</i><par n="abundancia__n"/></e>
     <e><i>antebrazo</i><par n="abandono__n"/></e>
     <e><i>antecedente</i><par n="abandono__n"/></e>
-    <e><i>antecesor</i><par n="redactor__n"></e>
+    <e><i>antecesor</i><par n="redactor__n"/></e>
     <e><i>ante</i><par n="abandono__n"/></e>
     <e><i>antelaci</i><par n="acci_ón__n"/></e>
     <e><i>antena</i><par n="abundancia__n"/></e>
-    <e><i>anteojo</i><par n="abandono__n"></e>
+    <e><i>anteojo</i><par n="abandono__n"/></e>
     <e><i>antepasad</i><par n="abogad_o__n"/></e>
     <e><i>antepecho</i><par n="abandono__n"/></e>
     <e><i>anteportada</i><par n="abundancia__n"/></e>
@@ -68902,21 +68904,21 @@
     <e><i>antifonal</i><par n="abril__n"/></e>
     <e><i>antigualla</i><par n="abundancia__n"/></e>
     <e><i>antigüedad</i><par n="a__n"/></e>
-    <e><i>antiimperialismo</i><par n="abandono__n"></e>
-    <e><i>antilogaritmo</i><par n="abandono__n"></e>
-    <e><i>antílope</i><par n="abandono__n"></e>
-    <e><i>antimilitarismo</i><par n="abandono__n"></e>
-    <e><i>antimonio</i><par n="abandono__n"></e>
+    <e><i>antiimperialismo</i><par n="abandono__n"/></e>
+    <e><i>antilogaritmo</i><par n="abandono__n"/></e>
+    <e><i>antílope</i><par n="abandono__n"/></e>
+    <e><i>antimilitarismo</i><par n="abandono__n"/></e>
+    <e><i>antimonio</i><par n="abandono__n"/></e>
     <e><i>antinomia</i><par n="abundancia__n"/></e>
     <e><i>antioxidante</i><par n="abandono__n"/></e>
     <e><i>antipapa</i><par n="abundancia__n"/></e>
     <e><i>antiparra</i><par n="abundancia__n"/></e>
-    <e><i>antipartícul</i><par n="abundancia__n"></e>
+    <e><i>antipartícul</i><par n="abundancia__n"/></e>
     <e><i>antipatía</i><par n="abundancia__n"/></e>
-    <e><i>antípod</i><par n="abundancia__n"></e>
+    <e><i>antípod</i><par n="abundancia__n"/></e>
     <e><i>antirreformismo</i><par n="abandono__n"/></e>
     <e><i>antisemitismo</i><par n="abandono__n"/></e>
-    <e><i>antítesis</i><par n="crisis__n"></e>
+    <e><i>antítesis</i><par n="crisis__n"/></e>
     <e><i>antojamiento</i><par n="abandono__n"/></e>
     <e><i>antojana</i><par n="abundancia__n"/></e>
     <e><i>antojanza</i><par n="abundancia__n"/></e>
@@ -68940,8 +68942,8 @@
     <e><i>anudadura</i><par n="abundancia__n"/></e>
     <e><i>anudamiento</i><par n="abandono__n"/></e>
     <e><i>anuencia</i><par n="abundancia__n"/></e>
-    <e><i>anulaci</i><par n="acci_ón__n"></e>
-    <e><i>anunciaci</i><par n="acci_ón__n"></e>
+    <e><i>anulaci</i><par n="acci_ón__n"/></e>
+    <e><i>anunciaci</i><par n="acci_ón__n"/></e>
     <e><i>anunciamiento</i><par n="abandono__n"/></e>
     <e><i>anuncio</i><par n="abandono__n"/></e>
     <e><i>anur</i><par n="abogad_o__n"/></e>
@@ -68955,7 +68957,7 @@
     <e><i>apaciguamiento</i><par n="abandono__n"/></e>
     <e><i>apadrinamiento</i><par n="abandono__n"/></e>
     <e><i>apagamiento</i><par n="abandono__n"/></e>
-    <e><i>apag</i><par n="avi_ón__n"></e>
+    <e><i>apag</i><par n="avi_ón__n"/></e>
     <e><i>apaleadura</i><par n="abundancia__n"/></e>
     <e><i>apaleamiento</i><par n="abandono__n"/></e>
     <e><i>apaleo</i><par n="abandono__n"/></e>
@@ -68964,10 +68966,10 @@
     <e><i>aparatosidad</i><par n="a__n"/></e>
     <e><i>aparcamiento</i><par n="abandono__n"/></e>
     <e><i>aparcería</i><par n="abundancia__n"/></e>
-    <e><i>aparcer</i><par n="abogad_o__n"></e>
+    <e><i>aparcer</i><par n="abogad_o__n"/></e>
     <e><i>aparecid</i><par n="abogad_o__n"/></e>
     <e><i>aparecimiento</i><par n="abandono__n"/></e>
-    <e><i>aparejador</i><par n="redactor__n"></e>
+    <e><i>aparejador</i><par n="redactor__n"/></e>
     <e><i>aparejo</i><par n="abandono__n"/></e>
     <e><i>aparici</i><par n="acci_ón__n"/></e>
     <e><i>apariencia</i><par n="abundancia__n"/></e>
@@ -68993,7 +68995,7 @@
     <e><i>apertura</i><par n="abundancia__n"/></e>
     <e><i>apetencia</i><par n="abundancia__n"/></e>
     <e><i>apetito</i><par n="abandono__n"/></e>
-    <e><i>apicultor</i><par n="redactor__n"></e>
+    <e><i>apicultor</i><par n="redactor__n"/></e>
     <e><i>apilamiento</i><par n="abandono__n"/></e>
     <e><i>apiñamiento</i><par n="abandono__n"/></e>
     <e><i>apio</i><par n="abandono__n"/></e>
@@ -69017,21 +69019,21 @@
     <e><i>aportillado</i><par n="abandono__n"/></e>
     <e><i>aposentamiento</i><par n="abandono__n"/></e>
     <e><i>aposento</i><par n="abandono__n"/></e>
-    <e><i>aposici</i><par n="acci_ón__n"></e>
+    <e><i>aposici</i><par n="acci_ón__n"/></e>
     <e><i>apostasía</i><par n="abundancia__n"/></e>
     <e><i>apóstata</i><par n="abundancia__n"/></e>
     <e><i>apostema</i><par n="abundancia__n"/></e>
-    <e><i>apostolado</i><par n="abandono__n"></e>
-    <e><i>apóstol</i><par n="abril__n"></e>
-    <e><i>apostrofaci</i><par n="acci_ón__n"></e>
-    <e><i>apóstrofe</i><par n="abandono__n"></e>
-    <e><i>apóstrofo</i><par n="abandono__n"></e>
+    <e><i>apostolado</i><par n="abandono__n"/></e>
+    <e><i>apóstol</i><par n="abril__n"/></e>
+    <e><i>apostrofaci</i><par n="acci_ón__n"/></e>
+    <e><i>apóstrofe</i><par n="abandono__n"/></e>
+    <e><i>apóstrofo</i><par n="abandono__n"/></e>
     <e><i>apostura</i><par n="abundancia__n"/></e>
     <e><i>apotema</i><par n="abundancia__n"/></e>
     <e><i>apoteosis</i><par n="crisis__n"/></e>
     <e><i>apoyadura</i><par n="abundancia__n"/></e>
     <e><i>apoyo</i><par n="abandono__n"/></e>
-    <e><i>apreciaci</i><par n="acci_ón__n"></e>
+    <e><i>apreciaci</i><par n="acci_ón__n"/></e>
     <e><i>apreciamiento</i><par n="abandono__n"/></e>
     <e><i>aprecio</i><par n="abandono__n"/></e>
     <e><i>apremiamiento</i><par n="abandono__n"/></e>
@@ -69040,22 +69042,22 @@
     <e><i>aprendi</i><par n="portavo_z__n"/></e>
     <e><i>aprendimiento</i><par n="abandono__n"/></e>
     <e><i>aprendizaje</i><par n="abandono__n"/></e>
-    <e><i>aprensi</i><par n="aici_ón__n"></e>
+    <e><i>aprensi</i><par n="acci_ón__n"/></e>
     <e><i>apresamiento</i><par n="abandono__n"/></e>
     <e><i>apresto</i><par n="abandono__n"/></e>
     <e><i>apresuramiento</i><par n="abandono__n"/></e>
-    <e><i>apret</i><par n="avi_ón__n"></e>
+    <e><i>apret</i><par n="avi_ón__n"/></e>
     <e><i>apretujamiento</i><par n="abandono__n"/></e>
-    <e><i>apretuj</i><par n="avi_ón__n"></e>
+    <e><i>apretuj</i><par n="avi_ón__n"/></e>
     <e><i>apretura</i><par n="abundancia__n"/></e>
     <e><i>aprobaci</i><par n="acci_ón__n"/></e>
     <e><i>aprobado</i><par n="abandono__n"/></e>
-    <e><i>apropia</i><par n="acci_ón__n"></e>
+    <e><i>apropia</i><par n="acci_ón__n"/></e>
     <e><i>aprovechamiento</i><par n="abandono__n"/></e>
-    <e><i>aproximaci</i><par n="acci_ón__n"></e>
+    <e><i>aproximaci</i><par n="acci_ón__n"/></e>
     <e><i>aptitud</i><par n="a__n"/></e>
     <e><i>apuesta</i><par n="abundancia__n"/></e>
-    <e><i>apuntador</i><par n="redactor__n"></e>
+    <e><i>apuntador</i><par n="redactor__n"/></e>
     <e><i>apuntalamiento</i><par n="abandono__n"/></e>
     <e><i>apuntamiento</i><par n="abandono__n"/></e>
     <e><i>apunte</i><par n="abandono__n"/></e>
@@ -69066,18 +69068,18 @@
     <e><i>árabe</i><par n="modelo__n"/></e>
     <e><i>arabesco</i><par n="abandono__n"/></e>
     <e><i>arabismo</i><par n="abandono__n"/></e>
-    <e><i>arabizaci</i><par n="acci_ón__n"></e>
+    <e><i>arabizaci</i><par n="acci_ón__n"/></e>
     <e><i>arácnido</i><par n="abandono__n"/></e>
     <e><i>arada</i><par n="abundancia__n"/></e>
     <e><i>arado</i><par n="abandono__n"/></e>
-    <e><i>arador</i><par n="redactor__n"></e>
+    <e><i>arador</i><par n="redactor__n"/></e>
     <e><i>aradura</i><par n="abundancia__n"/></e>
     <e><i>aragonesismo</i><par n="abandono__n"/></e>
-    <e><i>aragon</i><par n="franc_és__n"></e>
+    <e><i>aragon</i><par n="franc_és__n"/></e>
     <e><i>ara</i><par n="abundancia__n"/></e>
     <e><i>arameo</i><par n="abandono__n"/></e>
     <e><i>aramio</i><par n="abandono__n"/></e>
-    <e><i>arancel</i><par n="abril__n"></e>
+    <e><i>arancel</i><par n="abril__n"/></e>
     <e><i>arandanedo</i><par n="abandono__n"/></e>
     <e><i>arándano</i><par n="abandono__n"/></e>
     <e><i>arandel</i><par n="abundancia__n"/></e>
@@ -69097,8 +69099,8 @@
     <e><i>arbotante</i><par n="abandono__n"/></e>
     <e><i>arbusto</i><par n="abandono__n"/></e>
     <e><i>arcabucería</i><par n="abundancia__n"/></e>
-    <e><i>arcabucer</i><par n="abogad_o__n"></e>
-    <e><i>arcabu</i><par n="altavo_z__n"></e>
+    <e><i>arcabucer</i><par n="abogad_o__n"/></e>
+    <e><i>arcabu</i><par n="altavo_z__n"/></e>
     <e><i>arcada</i><par n="abundancia__n"/></e>
     <e><i>arca</i><par n="abundancia__n"/></e>
     <e><i>arcaísmo</i><par n="abandono__n"/></e>
@@ -69116,7 +69118,7 @@
     <e><i>archivística</i><par n="abogacía__n"/></e>
     <e><i>archivist</i><par n="modelo__n"/></e>
     <e><i>archivo</i><par n="abandono__n"/></e>
-    <e><i>arc</i><par n="almac_én__n"></e>
+    <e><i>arc</i><par n="almac_én__n"/></e>
     <e><i>arciprestazgo</i><par n="abandono__n"/></e>
     <e><i>arcipreste</i><par n="abandono__n"/></e>
     <e><i>arco</i><par n="abandono__n"/></e>
@@ -69139,16 +69141,16 @@
     <e><i>argaña</i><par n="abundancia__n"/></e>
     <e><i>argentin</i><par n="abogad_o__n"/></e>
     <e><i>argolla</i><par n="abundancia__n"/></e>
-    <e><i>argoll</i><par n="avi_ón__n"></e>
+    <e><i>argoll</i><par n="avi_ón__n"/></e>
     <e><i>árgoma</i><par n="abundancia__n"/></e>
     <e><i>argomar</i><par n="abril__n"/></e>
     <e><i>argot</i><par n="abandono__n"/></e>
-    <e><i>argumentaci</i><par n="acci_ón__n"></e>
+    <e><i>argumentaci</i><par n="acci_ón__n"/></e>
     <e><i>argumento</i><par n="abandono__n"/></e>
     <e><i>ari</i><par n="abogad_o__n"/></e>
     <e><i>arista</i><par n="abundancia__n"/></e>
     <e><i>aristocracia</i><par n="abundancia__n"/></e>
-    <e><i>aristócrat</i><par n="modelo__n"></e>
+    <e><i>aristócrat</i><par n="modelo__n"/></e>
     <e><i>aristotelismo</i><par n="abandono__n"/></e>
     <e><i>aritmética</i><par n="abundancia__n"/></e>
     <e><i>aritmétic</i><par n="abogad_o__n"/></e>
@@ -69167,7 +69169,7 @@
     <e><i>armeni</i><par n="abogad_o__n"/></e>
     <e><i>armería</i><par n="abundancia__n"/></e>
     <e><i>armer</i><par n="abogad_o__n"/></e>
-    <e><i>arm</i><par n="avi_ón__n"></e>
+    <e><i>arm</i><par n="avi_ón__n"/></e>
     <e><i>armisticio</i><par n="abandono__n"/></e>
     <e><i>armonía</i><par n="abundancia__n"/></e>
     <e><i>arna</i><par n="abundancia__n"/></e>
@@ -69175,11 +69177,11 @@
     <e><i>aro</i><par n="abandono__n"/></e>
     <e><i>aroma</i><par n="abandono__n"/></e>
     <e><i>aromaticidad</i><par n="a__n"/></e>
-    <e><i>aromatizaci</i><par n="acci_ón__n"></e>
+    <e><i>aromatizaci</i><par n="acci_ón__n"/></e>
     <e><i>arpa</i><par n="abundancia__n"/></e>
     <e><i>arpegio</i><par n="abandono__n"/></e>
     <e><i>arpillera</i><par n="abundancia__n"/></e>
-    <e><i>arp</i><par n="avi_ón__n"></e>
+    <e><i>arp</i><par n="avi_ón__n"/></e>
     <e><i>arqueología</i><par n="abundancia__n"/></e>
     <e><i>arqueólog</i><par n="abogad_o__n"/></e>
     <e><i>arquer</i><par n="abogad_o__n"/></e>
@@ -69221,7 +69223,7 @@
     <e><i>arribaz</i><par n="avi_ón__n"/></e>
     <e><i>arriendo</i><par n="abandono__n"/></e>
     <e><i>arriería</i><par n="abundancia__n"/></e>
-    <e><i>arrier</i><par n="abogad_o__n"></e>
+    <e><i>arrier</i><par n="abogad_o__n"/></e>
     <e><i>arrinconamiento</i><par n="abandono__n"/></e>
     <e><i>arritmia</i><par n="abundancia__n"/></e>
     <e><i>arroba</i><par n="abundancia__n"/></e>
@@ -69248,30 +69250,30 @@
     <e><i>artemisa</i><par n="abundancia__n"/></e>
     <e><i>arteria</i><par n="abundancia__n"/></e>
     <e><i>artería</i><par n="abundancia__n"/></e>
-    <e><i>arterioesclerosis</i><par n="crisis__n"></e>
+    <e><i>arterioesclerosis</i><par n="crisis__n"/></e>
     <e><i>arteriola</i><par n="abundancia__n"/></e>
     <e><i>arteriopatía</i><par n="abundancia__n"/></e>
     <e><i>artesa</i><par n="abundancia__n"/></e>
     <e><i>artesanado</i><par n="abandono__n"/></e>
     <e><i>artesanía</i><par n="abundancia__n"/></e>
-    <e><i>artesan</i><par n="abogad_o__n"></e>
-    <e><i>articulaci</i><par n="acci_ón__n"></e>
+    <e><i>artesan</i><par n="abogad_o__n"/></e>
+    <e><i>articulaci</i><par n="acci_ón__n"/></e>
     <e><i>articulado</i><par n="abandono__n"/></e>
     <e><i>articulista</i><par n="agente__n"/></e>
-    <e><i>articulista</i><par n="modelo__n"></e>
+    <e><i>articulista</i><par n="modelo__n"/></e>
     <e><i>artículo</i><par n="abandono__n"/></e>
     <e><i>artificialidad</i><par n="a__n"/></e>
-    <e><i>artificier</i><par n="abogad_o__n"></e>
+    <e><i>artificier</i><par n="abogad_o__n"/></e>
     <e><i>artificier</i><par n="abogad_o__n"/></e>
     <e><i>artificio</i><par n="abandono__n"/></e>
     <e><i>artificiosidad</i><par n="a__n"/></e>
     <e><i>artillería</i><par n="abundancia__n"/></e>
-    <e><i>artiller</i><par n="abogad_o__n"></e>
+    <e><i>artiller</i><par n="abogad_o__n"/></e>
     <e><i>artilugio</i><par n="abandono__n"/></e>
     <e><i>artiodáctilo</i><par n="abandono__n"/></e>
     <e><i>artista</i><par n="agente__n"/></e>
     <e><i>arto</i><par n="abandono__n"/></e>
-    <e><i>artritis</i><par n="crisis__n"></e>
+    <e><i>artritis</i><par n="crisis__n"/></e>
     <e><i>artrópodo</i><par n="abandono__n"/></e>
     <e><i>artrosis</i><par n="crisis__n"/></e>
     <e><i>arza</i><par n="abundancia__n"/></e>
@@ -69286,12 +69288,12 @@
     <e><i>asalto</i><par n="abandono__n"/></e>
     <e><i>asamblea</i><par n="abundancia__n"/></e>
     <e><i>ascendencia</i><par n="abundancia__n"/></e>
-    <e><i>ascendiente</i><par n="agente__n"></e>
+    <e><i>ascendiente</i><par n="agente__n"/></e>
     <e><i>ascensi</i><par n="acci_ón__n"/></e>
     <e><i>ascenso</i><par n="abandono__n"/></e>
     <e><i>ascensor</i><par n="abril__n"/></e>
     <e><i>ascensorist</i><par n="modelo__n"/></e>
-    <e><i>ascesis</i><par n="crisis__n"></e>
+    <e><i>ascesis</i><par n="crisis__n"/></e>
     <e><i>asceta</i><par n="modelo__n"/></e>
     <e><i>ascética</i><par n="abundancia__n"/></e>
     <e><i>ascetismo</i><par n="abandono__n"/></e>
@@ -69320,9 +69322,9 @@
     <e><i>asignatura</i><par n="abundancia__n"/></e>
     <e><i>asilo</i><par n="abandono__n"/></e>
     <e><i>asimetría</i><par n="abundancia__n"/></e>
-    <e><i>asimilaci</i><par n="acci_ón__n"></e>
+    <e><i>asimilaci</i><par n="acci_ón__n"/></e>
     <e><i>as</i><par n="a__n"/></e>
-    <e><i>asiri</i><par n="abogad_o__n"></e>
+    <e><i>asiri</i><par n="abogad_o__n"/></e>
     <e><i>asistencia</i><par n="abundancia__n"/></e>
     <e><i>asistenta</i><par n="abundancia__n"/></e>
     <e><i>asistente</i><par n="agente__n"/></e>
@@ -69338,12 +69340,12 @@
     <e><i>aspaviento</i><par n="abandono__n"/></e>
     <e><i>aspecto</i><par n="abandono__n"/></e>
     <e><i>aspereza</i><par n="abundancia__n"/></e>
-    <e><i>asper</i><par n="avi_ón__n"></e>
-    <e><i>aspersi</i><par n="avi_ón__n"></e>
-    <e><i>aspersor</i><par n="abril__n"></e>
+    <e><i>asper</i><par n="avi_ón__n"/></e>
+    <e><i>aspersi</i><par n="avi_ón__n"/></e>
+    <e><i>aspersor</i><par n="abril__n"/></e>
     <e><i>aspiraci</i><par n="acci_ón__n"/></e>
     <e><i>aspiradora</i><par n="abundancia__n"/></e>
-    <e><i>aspirador</i><par n="abril__n"></e>
+    <e><i>aspirador</i><par n="abril__n"/></e>
     <e><i>aspirante</i><par n="agente__n"/></e>
     <e><i>asquerosidad</i><par n="a__n"/></e>
     <e><i>asta</i><par n="abundancia__n"/></e>
@@ -69368,15 +69370,15 @@
     <e><i>asturianidad</i><par n="a__n"/></e>
     <e><i>asturian</i><par n="abogad_o__n"/></e>
     <e><i>asturianismo</i><par n="abandono__n"/></e>
-    <e><i>asturianizaci</i><par n="acci_ón__n"></e>
-    <e><i>asturianoleonés</i><par n="inter_és__n"></e>
-    <e><i>asturiense</i><par n="agente__n"></e>
+    <e><i>asturianizaci</i><par n="acci_ón__n"/></e>
+    <e><i>asturianoleonés</i><par n="inter_és__n"/></e>
+    <e><i>asturiense</i><par n="agente__n"/></e>
     <e><i>asuelo</i><par n="abandono__n"/></e>
     <e><i>asueto</i><par n="abandono__n"/></e>
     <e><i>asunci</i><par n="acci_ón__n"/></e>
     <e><i>asunto</i><par n="abandono__n"/></e>
-    <e><i>atabal</i><par n="abril__n"></e>
-    <e><i>atacador</i><par n="redactor__n"></e>
+    <e><i>atabal</i><par n="abril__n"/></e>
+    <e><i>atacador</i><par n="redactor__n"/></e>
     <e><i>atacadura</i><par n="abundancia__n"/></e>
     <e><i>atacamiento</i><par n="abandono__n"/></e>
     <e><i>atadero</i><par n="abandono__n"/></e>
@@ -69405,15 +69407,15 @@
     <e><i>atestiguamiento</i><par n="abandono__n"/></e>
     <e><i>ático</i><par n="abandono__n"/></e>
     <e><i>at</i><par n="at_ún__n"/></e>
-    <e><i>atizador</i><par n="redactor__n"></e>
-    <e><i>atlante</i><par n="agente__n"></e>
-    <e><i>atlas</i><par n="análisis__n"></e>
+    <e><i>atizador</i><par n="redactor__n"/></e>
+    <e><i>atlante</i><par n="agente__n"/></e>
+    <e><i>atlas</i><par n="análisis__n"/></e>
     <e><i>atleta</i><par n="agente__n"/></e>
     <e><i>atletismo</i><par n="abandono__n"/></e>
     <e><i>atmósfera</i><par n="abundancia__n"/></e>
     <e><i>atolladero</i><par n="abandono__n"/></e>
-    <e><i>atomism</i><par n="abadex_u__n"></e>
-    <e><i>atomizaci</i><par n="acci_ón__n"></e>
+    <e><i>atomism</i><par n="abandono__n"/></e>
+    <e><i>atomizaci</i><par n="acci_ón__n"/></e>
     <e><i>átomo</i><par n="abandono__n"/></e>
     <e><i>atontamiento</i><par n="abandono__n"/></e>
     <e><i>atoramiento</i><par n="abandono__n"/></e>
@@ -69421,7 +69423,7 @@
     <e><i>atracadero</i><par n="abandono__n"/></e>
     <e><i>atracador</i><par n="redactor__n"/></e>
     <e><i>atracci</i><par n="acci_ón__n"/></e>
-    <e><i>atrac</i><par n="avi_ón__n"></e>
+    <e><i>atrac</i><par n="avi_ón__n"/></e>
     <e><i>atraco</i><par n="abandono__n"/></e>
     <e><i>atragantamiento</i><par n="abandono__n"/></e>
     <e><i>atraimiento</i><par n="abandono__n"/></e>
@@ -69431,9 +69433,9 @@
     <e><i>atraque</i><par n="abandono__n"/></e>
     <e><i>atraso</i><par n="abandono__n"/></e>
     <e><i>atrevimiento</i><par n="abandono__n"/></e>
-    <e><i>atribuci</i><par n="acci_ón__n"></e>
+    <e><i>atribuci</i><par n="acci_ón__n"/></e>
     <e><i>atributo</i><par n="abandono__n"/></e>
-    <e><i>atril</i><par n="abril__n"></e>
+    <e><i>atril</i><par n="abril__n"/></e>
     <e><i>atrincheramiento</i><par n="abandono__n"/></e>
     <e><i>atrio</i><par n="abandono__n"/></e>
     <e><i>atrocidad</i><par n="a__n"/></e>
@@ -69445,25 +69447,25 @@
     <e><i>atunero</i><par n="abandono__n"/></e>
     <e><i>aturdimiento</i><par n="abandono__n"/></e>
     <e><i>aturullamiento</i><par n="abandono__n"/></e>
-    <e><i>audici</i><par n="acci_ón__n"></e>
+    <e><i>audici</i><par n="acci_ón__n"/></e>
     <e><i>audiencia</i><par n="abundancia__n"/></e>
     <e><i>audífono</i><par n="abandono__n"/></e>
     <e><i>auditoría</i><par n="abundancia__n"/></e>
-    <e><i>auditorio</i><par n="abandono__n"></e>
-    <e><i>auditor</i><par n="redactor__n"></e>
+    <e><i>auditorio</i><par n="abandono__n"/></e>
+    <e><i>auditor</i><par n="redactor__n"/></e>
     <e><i>auge</i><par n="abandono__n"/></e>
-    <e><i>auguraci</i><par n="acci_ón__n"></e>
+    <e><i>auguraci</i><par n="acci_ón__n"/></e>
     <e><i>augurio</i><par n="abandono__n"/></e>
     <e><i>augur</i><par n="abril__n"/></e>
     <e><i>aula</i><par n="abundancia__n"/></e>
     <e><i>aulario</i><par n="abandono__n"/></e>
     <e><i>aulladero</i><par n="abandono__n"/></e>
     <e><i>aullido</i><par n="abandono__n"/></e>
-    <e><i>aumentaci</i><par n="acci_ón__n"></e>
+    <e><i>aumentaci</i><par n="acci_ón__n"/></e>
     <e><i>aumento</i><par n="abandono__n"/></e>
     <e><i>aurícula</i><par n="abundancia__n"/></e>
     <e><i>aurora</i><par n="abundancia__n"/></e>
-    <e><i>auscultaci</i><par n="acci_ón__n"></e>
+    <e><i>auscultaci</i><par n="acci_ón__n"/></e>
     <e><i>ausencia</i><par n="abundancia__n"/></e>
     <e><i>austeridad</i><par n="a__n"/></e>
     <e><i>australopiteco</i><par n="abandono__n"/></e>
@@ -69477,10 +69479,10 @@
     <e><i>autocontrol</i><par n="abril__n"/></e>
     <e><i>autocracia</i><par n="abundancia__n"/></e>
     <e><i>autócrat</i><par n="modelo__n"/></e>
-    <e><i>autodeterminaci</i><par n="acci_ón__n"></e>
+    <e><i>autodeterminaci</i><par n="acci_ón__n"/></e>
     <e><i>autodidacta</i><par n="modelo__n"/></e>
     <e><i>autoescuela</i><par n="abundancia__n"/></e>
-    <e><i>autogesti</i><par n="acci_ón__n"></e>
+    <e><i>autogesti</i><par n="acci_ón__n"/></e>
     <e><i>autogobierno</i><par n="abandono__n"/></e>
     <e><i>autografía</i><par n="abundancia__n"/></e>
     <e><i>autógrafo</i><par n="abandono__n"/></e>
@@ -69488,7 +69490,7 @@
     <e><i>autómata</i><par n="modelo__n"/></e>
     <e><i>automático</i><par n="abandono__n"/></e>
     <e><i>automatismo</i><par n="abandono__n"/></e>
-    <e><i>automatizaci</i><par n="acci_ón__n"></e>
+    <e><i>automatizaci</i><par n="acci_ón__n"/></e>
     <e><i>automovilismo</i><par n="abandono__n"/></e>
     <e><i>autonomía</i><par n="abundancia__n"/></e>
     <e><i>autopista</i><par n="abundancia__n"/></e>
@@ -69504,7 +69506,7 @@
     <e><i>autovía</i><par n="abundancia__n"/></e>
     <e><i>auxiliar</i><par n="capital__n"/></e>
     <e><i>auxilio</i><par n="abandono__n"/></e>
-    <e><i>aval</i><par n="abril__n"></e>
+    <e><i>aval</i><par n="abril__n"/></e>
     <e><i>avance</i><par n="abandono__n"/></e>
     <e><i>avaricia</i><par n="abundancia__n"/></e>
     <e><i>avasallamiento</i><par n="abandono__n"/></e>
@@ -69562,12 +69564,12 @@
     <e><i>azadón</i><par n="avi_ón__n"/></e>
     <e><i>azafate</i><par n="abandono__n"/></e>
     <e><i>azafr</i><par n="af_án__n"/></e>
-    <e><i>azahar</i><par n="abril__n"></e>
+    <e><i>azahar</i><par n="abril__n"/></e>
     <e><i>azaría</i><par n="abundancia__n"/></e>
     <e><i>azar</i><par n="abril__n"/></e>
     <e><i>azogue</i><par n="abandono__n"/></e>
     <e><i>azoramiento</i><par n="abandono__n"/></e>
-    <e><i>azor</i><par n="abril__n"></e>
+    <e><i>azor</i><par n="abril__n"/></e>
     <e><i>azotamiento</i><par n="abandono__n"/></e>
     <e><i>azotea</i><par n="abundancia__n"/></e>
     <e><i>azote</i><par n="abandono__n"/></e>
@@ -69584,7 +69586,7 @@
     <e><i>babada</i><par n="abundancia__n"/></e>
     <e><i>babadero</i><par n="abandono__n"/></e>
     <e><i>baba</i><par n="abundancia__n"/></e>
-    <e><i>babel</i><par n="capital__n"></e>
+    <e><i>babel</i><par n="capital__n"/></e>
     <e><i>babeo</i><par n="abandono__n"/></e>
     <e><i>babera</i><par n="abundancia__n"/></e>
     <e><i>babero</i><par n="abandono__n"/></e>
@@ -69601,7 +69603,7 @@
     <e><i>bacanal</i><par n="a__n"/></e>
     <e><i>bache</i><par n="abandono__n"/></e>
     <e><i>bachillerato</i><par n="abandono__n"/></e>
-    <e><i>bachiller</i><par n="capital__n"></e>
+    <e><i>bachiller</i><par n="capital__n"/></e>
     <e><i>bacía</i><par n="abundancia__n"/></e>
     <e><i>bacilo</i><par n="abandono__n"/></e>
     <e><i>bacinilla</i><par n="abundancia__n"/></e>
@@ -69638,8 +69640,8 @@
     <e><i>bajera</i><par n="abundancia__n"/></e>
     <e><i>bajero</i><par n="abandono__n"/></e>
     <e><i>bajeza</i><par n="abundancia__n"/></e>
-    <e><i>baj</i><par n="avi_ón__n"></e>
-    <e><i>bajista</i><par n="agente__n"></e>
+    <e><i>baj</i><par n="avi_ón__n"/></e>
+    <e><i>bajista</i><par n="agente__n"/></e>
     <e><i>bajo</i><par n="abandono__n"/></e>
     <e><i>bajorrelieve</i><par n="abandono__n"/></e>
     <e><i>bajura</i><par n="abundancia__n"/></e>
@@ -69669,7 +69671,7 @@
     <e><i>baldamiento</i><par n="abandono__n"/></e>
     <e><i>balde</i><par n="abandono__n"/></e>
     <e><i>baldeo</i><par n="abandono__n"/></e>
-    <e><i>bald</i><par n="avi_ón__n"></e>
+    <e><i>bald</i><par n="avi_ón__n"/></e>
     <e><i>baldosa</i><par n="abundancia__n"/></e>
     <e><i>baleo</i><par n="abandono__n"/></e>
     <e><i>balicosidad</i><par n="a__n"/></e>
@@ -69757,7 +69759,7 @@
     <e><i>barbo</i><par n="abandono__n"/></e>
     <e><i>barcada</i><par n="abundancia__n"/></e>
     <e><i>barca</i><par n="abundancia__n"/></e>
-    <e><i>barcal</i><par n="abril__n"></e>
+    <e><i>barcal</i><par n="abril__n"/></e>
     <e><i>barcaza</i><par n="abundancia__n"/></e>
     <e><i>barco</i><par n="abandono__n"/></e>
     <e><i>barda</i><par n="abundancia__n"/></e>
@@ -69787,17 +69789,17 @@
     <e><i>barraca</i><par n="abundancia__n"/></e>
     <e><i>barrac</i><par n="avi_ón__n"/></e>
     <e><i>barragana</i><par n="abundancia__n"/></e>
-    <e><i>barrag</i><par n="af_án__n"></e>
+    <e><i>barrag</i><par n="af_án__n"/></e>
     <e><i>barra</i><par n="abundancia__n"/></e>
     <e><i>barranca</i><par n="abundancia__n"/></e>
-    <e><i>barrancal</i><par n="abril__n"></e>
+    <e><i>barrancal</i><par n="abril__n"/></e>
     <e><i>barranco</i><par n="abandono__n"/></e>
     <e><i>barraquera</i><par n="abundancia__n"/></e>
     <e><i>barraquer</i><par n="abogad_o__n"/></e>
     <e><i>barredero</i><par n="abandono__n"/></e>
     <e><i>barredura</i><par n="abundancia__n"/></e>
     <e><i>barrena</i><par n="abundancia__n"/></e>
-    <e><i>barrender</i><par n="abogad_o__n"></e>
+    <e><i>barrender</i><par n="abogad_o__n"/></e>
     <e><i>barreno</i><par n="abandono__n"/></e>
     <e><i>barreña</i><par n="abundancia__n"/></e>
     <e><i>barreño</i><par n="abandono__n"/></e>
@@ -69805,27 +69807,27 @@
     <e><i>barrero</i><par n="abandono__n"/></e>
     <e><i>barreta</i><par n="abundancia__n"/></e>
     <e><i>barriada</i><par n="abundancia__n"/></e>
-    <e><i>barrial</i><par n="abril__n"></e>
+    <e><i>barrial</i><par n="abril__n"/></e>
     <e><i>barricada</i><par n="abundancia__n"/></e>
     <e><i>barrica</i><par n="abundancia__n"/></e>
     <e><i>barrido</i><par n="abandono__n"/></e>
     <e><i>barriga</i><par n="abundancia__n"/></e>
     <e><i>barrila</i><par n="abundancia__n"/></e>
-    <e><i>barril</i><par n="abril__n"></e>
+    <e><i>barril</i><par n="abril__n"/></e>
     <e><i>barrio</i><par n="abandono__n"/></e>
-    <e><i>barr</i><par n="avi_ón__n"></e>
-    <e><i>barrizal</i><par n="abril__n"></e>
-    <e><i>barroc</i><par n="abogad_o__n"></e>
+    <e><i>barr</i><par n="avi_ón__n"/></e>
+    <e><i>barrizal</i><par n="abril__n"/></e>
+    <e><i>barroc</i><par n="abogad_o__n"/></e>
     <e><i>barro</i><par n="abandono__n"/></e>
     <e><i>barroquismo</i><par n="abandono__n"/></e>
     <e><i>barrote</i><par n="abandono__n"/></e>
     <e><i>barrueco</i><par n="abandono__n"/></e>
     <e><i>bartolillo</i><par n="abandono__n"/></e>
     <e><i>barullo</i><par n="abandono__n"/></e>
-    <e><i>barz</i><par n="avi_ón__n"></e>
+    <e><i>barz</i><par n="avi_ón__n"/></e>
     <e><i>basa</i><par n="abundancia__n"/></e>
     <e><i>basalto</i><par n="abandono__n"/></e>
-    <e><i>basculador</i><par n="abril__n"></e>
+    <e><i>basculador</i><par n="abril__n"/></e>
     <e><i>báscula</i><par n="abundancia__n"/></e>
     <e><i>base</i><par n="abundancia__n"/></e>
     <e><i>basílica</i><par n="abundancia__n"/></e>
@@ -69833,7 +69835,7 @@
     <e><i>basna</i><par n="abundancia__n"/></e>
     <e><i>bastard</i><par n="abogad_o__n"/></e>
     <e><i>bastida</i><par n="abundancia__n"/></e>
-    <e><i>bastidor</i><par n="abril__n"></e>
+    <e><i>bastidor</i><par n="abril__n"/></e>
     <e><i>bastilla</i><par n="abundancia__n"/></e>
     <e><i>bast</i><par n="avi_ón__n"/></e>
     <e><i>basto</i><par n="abandono__n"/></e>
@@ -69847,15 +69849,15 @@
     <e><i>batata</i><par n="abundancia__n"/></e>
     <e><i>batea</i><par n="abundancia__n"/></e>
     <e><i>bate</i><par n="abandono__n"/></e>
-    <e><i>batel</i><par n="abril__n"></e>
+    <e><i>batel</i><par n="abril__n"/></e>
     <e><i>batería</i><par n="abundancia__n"/></e>
     <e><i>baticola</i><par n="abundancia__n"/></e>
     <e><i>batida</i><par n="abundancia__n"/></e>
     <e><i>batidera</i><par n="abundancia__n"/></e>
     <e><i>batido</i><par n="abandono__n"/></e>
     <e><i>batidora</i><par n="abundancia__n"/></e>
-    <e><i>batidor</i><par n="abril__n"></e>
-    <e><i>batiente</i><par n="abundancia__n"></e>
+    <e><i>batidor</i><par n="abril__n"/></e>
+    <e><i>batiente</i><par n="abundancia__n"/></e>
     <e><i>batifondo</i><par n="abandono__n"/></e>
     <e><i>batimetría</i><par n="abundancia__n"/></e>
     <e><i>batímetro</i><par n="abandono__n"/></e>
@@ -69864,7 +69866,7 @@
     <e><i>batuda</i><par n="abundancia__n"/></e>
     <e><i>batuta</i><par n="abundancia__n"/></e>
     <e><i>baúl</i><par n="abril__n"/></e>
-    <e><i>baupr</i><par n="franc_és__n"></e>
+    <e><i>baupr</i><par n="franc_és__n"/></e>
     <e><i>bautismo</i><par n="abandono__n"/></e>
     <e><i>bautizo</i><par n="abandono__n"/></e>
     <e><i>bauxita</i><par n="abundancia__n"/></e>
@@ -69872,12 +69874,12 @@
     <e><i>bayoneta</i><par n="abundancia__n"/></e>
     <e><i>bayonetazo</i><par n="abandono__n"/></e>
     <e><i>baza</i><par n="abundancia__n"/></e>
-    <e><i>bazar</i><par n="abril__n"></e>
+    <e><i>bazar</i><par n="abril__n"/></e>
     <e><i>bazo</i><par n="abandono__n"/></e>
     <e><i>beatería</i><par n="abundancia__n"/></e>
-    <e><i>beatificaci</i><par n="acci_ón__n"></e>
+    <e><i>beatificaci</i><par n="acci_ón__n"/></e>
     <e><i>beat</i><par n="abogad_o__n"/></e>
-    <e><i>beatitud</i><par n="a__n"></e>
+    <e><i>beatitud</i><par n="a__n"/></e>
     <e><i>bebedero</i><par n="abandono__n"/></e>
     <e><i>bebedor</i><par n="redactor__n"/></e>
     <e><i>bebida</i><par n="abundancia__n"/></e>
@@ -69890,7 +69892,7 @@
     <e><i>bedel</i><par n="bedel__n"/></e>
     <e><i>begonia</i><par n="abundancia__n"/></e>
     <e><i>be</i><par n="abundancia__n"/></e>
-    <e><i>béisbol</i><par n="abril__n"></e>
+    <e><i>béisbol</i><par n="abril__n"/></e>
     <e><i>beleño</i><par n="abandono__n"/></e>
     <e><i>belesa</i><par n="abundancia__n"/></e>
     <e><i>belga</i><par n="agente__n"/></e>
@@ -69898,11 +69900,11 @@
     <e><i>belicista</i><par n="agente__n"/></e>
     <e><i>beligerancia</i><par n="abundancia__n"/></e>
     <e><i>belio</i><par n="abandono__n"/></e>
-    <e><i>bel</i><par n="almac_én__n"></e>
+    <e><i>bel</i><par n="almac_én__n"/></e>
     <e><i>belladona</i><par n="abundancia__n"/></e>
     <e><i>belleza</i><par n="abundancia__n"/></e>
     <e><i>bellota</i><par n="abundancia__n"/></e>
-    <e><i>bemol</i><par n="abril__n"></e>
+    <e><i>bemol</i><par n="abril__n"/></e>
     <e><i>benceno</i><par n="abandono__n"/></e>
     <e><i>bencina</i><par n="abundancia__n"/></e>
     <e><i>bendici</i><par n="acci_ón__n"/></e>
@@ -69919,14 +69921,14 @@
     <e><i>bercianista</i><par n="agente__n"/></e>
     <e><i>bereber</i><par n="abril__n"/></e>
     <e><i>berenjena</i><par n="abundancia__n"/></e>
-    <e><i>berenjenal</i><par n="abril__n"></e>
-    <e><i>bergante</i><par n="agente__n"></e>
+    <e><i>berenjenal</i><par n="abril__n"/></e>
+    <e><i>bergante</i><par n="agente__n"/></e>
     <e><i>bergant</i><par n="bot_ín__n"/></e>
     <e><i>berilio</i><par n="abandono__n"/></e>
     <e><i>berilo</i><par n="abandono__n"/></e>
     <e><i>berlina</i><par n="abundancia__n"/></e>
-    <e><i>bermej</i><par n="avi_ón__n"></e>
-    <e><i>bermejor</i><par n="abril__n"></e>
+    <e><i>bermej</i><par n="avi_ón__n"/></e>
+    <e><i>bermejor</i><par n="abril__n"/></e>
     <e><i>bermejura</i><par n="abundancia__n"/></e>
     <e><i>bermudas</i><par n="vacaciones__n"/></e>
     <e><i>berrido</i><par n="abandono__n"/></e>
@@ -69989,7 +69991,7 @@
     <e><i>bola</i><par n="abundancia__n"/></e>
     <e><i>boleto</i><par n="abandono__n"/></e>
     <e><i>bolivian</i><par n="abogad_o__n"/></e>
-    <e><i>bollo</i><par n="abandon_o__n"/></e>
+    <e><i>bollo</i><par n="abandono__n"/></e>
     <e><i>bolsa</i><par n="abundancia__n"/></e>
     <e><i>bolsillo</i><par n="abandono__n"/></e>
     <e><i>bomba</i><par n="abundancia__n"/></e>
@@ -71912,7 +71914,7 @@
     <e><i>llor</i><par n="anglosaj_ón__n"/></e>
     <e><i>lluvia</i><par n="abundancia__n"/></e>
     <e><i>loanza</i><par n="abundancia__n"/></e>
-    <e><i>lobanillo</i><par n="abandon_o__n"/></e>
+    <e><i>lobanillo</i><par n="abandono__n"/></e>
     <e><i>lob</i><par n="abogad_o__n"/></e>
     <e><i>localidad</i><par n="a__n"/></e>
     <e><i>local</i><par n="abril__n"/></e>
