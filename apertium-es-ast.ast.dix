@@ -1293,7 +1293,7 @@
       </e>
       <e>
         <p>
-          <l>na</l>
+          <l>no</l>
           <r>en<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r>
         </p>
       </e>
@@ -1331,6 +1331,34 @@
         </p>
       </e>
     </pardef>
+    <pardef n="ni__cnjcoo">
+      <e>
+        <p>
+          <l>ni</l>
+          <r>ni<s n="cnjcoo"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>nin</l>
+          <r>ni<s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="o__cnjcoo">
+      <e>
+        <p>
+          <l>o</l>
+          <r>o<s n="cnjcoo"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>u</l>
+          <r>o<s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="pero__cnjcoo">
       <e>
         <p>
@@ -1339,6 +1367,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="conque__cnjadv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjadv">
+        </p>
+      </e>
+    </pardef>      
     <pardef n="que__cnjsub">
       <e>
         <p>
@@ -3047,16 +3083,36 @@
     <e lm="un"><i>un</i><par n="un__det"/></e>
     <e lm="tou"><i>to</i><par n="to/u__det"/></e>
     <e lm="aquel"><i>aquel</i><par n="aquel__det"/></e>
+    <e r="LR" lm="aquél"><i>aquél</i><par n="aquel__det"/></e>
     <e lm="naquel"><p><l>naquel</l><r>en<s n="pr"/><j/>aquel</r></p><par n="aquel__det"/></e>
     <e lm="esi"><i>es</i><par n="es/i__det"/></e>
     <e lm="esti"><i>est</i><par n="es/i__det"/></e>
+    <e r="LR" lm="aquesi"><i>aques</i><par n="es/i__det"/></e>
+    <e r="LR" lm="aquesti"><i>aquest</i><par n="es/i__det"/></e>
+    <e r="LR" lm="ési"><i>és</i><par n="es/i__det"/></e>
+    <e r="LR" lm="ésti"><i>ést</i><par n="es/i__det"/></e>
     <e lm="nesi"><p><l>nes</l><r>en<s n="pr"/><j/>es</r></p><par n="es/i__det"/></e>
     <e lm="nesti"><p><l>nest</l><r>en<s n="pr"/><j/>es</r></p><par n="es/i__det"/></e>
 
     <!-- Conxunciones -->
     <e lm="y"><i/><par n="y__cnjcoo"/></e>
+    <e lm="ni"><i/><par n="ni__cnjcoo"/></e> 
+    <e lm="o"><i/><par n="o__cnjcoo"/></e>
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
+    <e lm="mas"><i>mas</i><par n="pero__cnjcoo"/></e>
     <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
+    <e lm="sinón"><i>sinón</i><par n="pero__cnjcoo"/></e>
+    <e lm="conque"><i>conque</i><par n="conque__cnjadv"/></e>
+    <e lm="de mou que"><i>de<b/>mou<b/>que</i><par n="conque__cnjadv"/></e>
+    <e lm="de manera que"><i>de<b/>manera<b/>que</i><par n="conque__cnjadv"/></e>
+    <e lm="de mou y manera que"><i>de<b/>mou<b/>y<b/>manera<b/>que</i><par n="conque__cnjadv"/></e>
+    <e lm="asina que"><i>asina<b/>que</i><par n="conque__cnjadv"/></e>
+    <e lm="poro"><i>poro</i><par n="conque__cnjadv"/></e>
+    <e lm="entós"><i>entós</i><par n="conque__cnjadv"/></e>
+    <e lm="asina"><i>asina</i><par n="conque__cnjadv"/></e>
+    <e lm="sicasí"><i>sicasí</i><par n="conque__cnjadv"/></e>
+    <e lm="d'esta miente"><i>d'esta<b/>miente</i><par n="conque__cnjadv"/></e>
+    <e lm="d'otra miente"><i>d'otra<b/>miente</i><par n="conque__cnjadv"/></e>
 
     <!-- Verbos -->
     <e><i>añ</i><par n="fal/ar__vblex"/></e>
@@ -3745,27 +3801,389 @@
     <e lm="a"><i>a</i><par n="según__pr"/></e>
     <e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="ante"><i>ante</i><par n="según__pr"/></e>
-    <e lm="baxo"><i>baxo</i><par n="según__pr"/></e>
+    <e r="LR" lm="énte"><i>énte</i><par n="según__pr"/></e>
     <e lm="cabo"><i>cabo</i><par n="según__pr"/></e>
+    <e r="LR" lm="co"><i>co</i><par n="según__pr"/></e>
     <e lm="contra"><i>contra</i><par n="según__pr"/></e>
-    <e lm="tra"><i>tra</i><par n="según__pr"/></e>
+    <e r="LR" lm="escontra"><i>escontra</i><par n="según__pr"/></e>
     <e lm="de"><i>de</i><par n="según__pr"/></e>
     <e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="dende"><i>dende</i><par n="según__pr"/></e>
     <e lm="ente"><i>ente</i><par n="según__pr"/></e>
     <e lm="hasta"><i>hasta</i><par n="según__pr"/></e>
+    <e r="LR" lm="fasta"><i>fasta</i><par n="según__pr"/></e>
     <e lm="hacia"><i>hacia</i><par n="según__pr"/></e>
+    <e r="LR" lm="haza"><i>haza</i><par n="según__pr"/></e>
     <e lm="pa"><i>pa</i><par n="según__pr"/></e>
     <e lm="pal"><p><l>pal</l><r>pa<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="según"><i>según</i><par n="según__pr"/></e>
     <e lm="sin"><i>sin</i><par n="según__pr"/></e>
+    <e r="LR" lm="ensin"><i>ensin</i><par n="según__pr"/></e>
     <e lm="so"><i>so</i><par n="según__pr"/></e>
     <e lm="sol"><p><l>sol</l><r>so<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="sobre"><i>sobre</i><par n="según__pr"/></e>
+    <e r="LR" lm="sobro"><i>sobro</i><par n="según__pr"/></e>
 
-    <!-- Adverb -->
-    <e lm="tamién"><i>tamién</i><par n="tamién__adv"/></e>
-    <e lm="más"><i>más</i><par n="tamién__adv"/></e>
+    <!-- Alverbios -->
+    <e><i>abaxo</i><par n="tamién__adv"/></e> 
+    <e><i>abaxón</i><par n="tamién__adv"/></e>
+    <e><i>abaxones</i><par n="tamién__adv"/></e>
+    <e><i>abenagüéi</i><par n="tamién__adv"/></e>
+    <e><i>abenayá</i><par n="tamién__adv"/></e>
+    <e><i>abentestate</i><par n="tamién__adv"/></e>
+    <e><i>abondo</i><par n="tamién__adv"/></e>
+    <e><i>acá</i><par n="tamién__adv"/></e>
+    <e><i>acacullá</i><par n="tamién__adv"/></e>
+    <e><i>acaldía</i><par n="tamién__adv"/></e>
+    <e><i>acaso</i><par n="tamién__adv"/></e>
+    <e><i>aceite</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>aceites</i><par n="tamién__adv"/></e>
+    <e><i>acó</i><par n="tamién__adv"/></e>
+    <e><i>acordies</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>acuantagüéi</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>acuantayá</i><par n="tamién__adv"/></e>
+    <e><i>acullá</i><par n="tamién__adv"/></e>
+    <e><i>aculló</i><par n="tamién__adv"/></e>
+    <e><i>acutrá</i><par n="tamién__adv"/></e>
+    <e><i>adelantre</i><par n="tamién__adv"/></e>
+    <e><i>además</i><par n="tamién__adv"/></e>
+    <e><i>adientro</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>adré</i><par n="tamién__adv"/></e>
+    <e><i>adrede</i><par n="tamién__adv"/></e>
+    <e><i>adrémente</i><par n="tamién__adv"/></e>
+    <e><i>adulces</i><par n="tamién__adv"/></e>
+    <e><i>aende</i><par n="tamién__adv"/></e>
+    <e><i>afuera</i><par n="tamién__adv"/></e>
+    <e><i>agora</i><par n="tamién__adv"/></e>
+    <e><i>aguaño</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>ahí</i><par n="tamién__adv"/></e>
+    <e><i>ahína</i><par n="tamién__adv"/></e>
+    <e><i>aína</i><par n="tamién__adv"/></e>
+    <e><i>aínda</i><par n="tamién__adv"/></e>
+    <e><i>aínes</i><par n="tamién__adv"/></e>
+    <e><i>alantre</i><par n="tamién__adv"/></e>
+    <e><i>alantrón</i><par n="tamién__adv"/></e>
+    <e><i>alantrones</i><par n="tamién__adv"/></e>
+    <e><i>albentestate</i><par n="tamién__adv"/></e>
+    <e><i>alcuando</i><par n="tamién__adv"/></e>
+    <e><i>alerta</i><par n="tamién__adv"/></e>
+    <e><i>algo</i><par n="tamién__adv"/></e>
+    <e><i>alingor</i><par n="tamién__adv"/></e>
+    <e><i>allá</i><par n="tamién__adv"/></e>
+    <e><i>allabaxo</i><par n="tamién__adv"/></e>
+    <e><i>allalantre</i><par n="tamién__adv"/></e>
+    <e><i>allalantrón</i><par n="tamién__adv"/></e>
+    <e><i>allalantrones</i><par n="tamién__adv"/></e>
+    <e><i>allarriba</i><par n="tamién__adv"/></e>
+    <e><i>allarribón</i><par n="tamién__adv"/></e>
+    <e><i>allarribones</i><par n="tamién__adv"/></e>
+    <e><i>allí</i><par n="tamién__adv"/></e>
+    <e><i>allina</i><par n="tamién__adv"/></e>
+    <e><i>alló</i><par n="tamién__adv"/></e>
+    <e><i>alluende</i><par n="tamién__adv"/></e>
+    <e><i>alluendi</i><par n="tamién__adv"/></e>
+    <e><i>alredor</i><par n="tamién__adv"/></e>
+    <e><i>alto</i><par n="tamién__adv"/></e>
+    <e><i>alzadamente</i><par n="tamién__adv"/></e>
+    <e><i>amás</i><par n="tamién__adv"/></e>
+    <e><i>amodo</i><par n="tamién__adv"/></e>
+    <e><i>amoroso</i><par n="tamién__adv"/></e>
+    <e><i>amunchayá</i><par n="tamién__adv"/></e>
+    <e><i>andagora</i><par n="tamién__adv"/></e>
+    <e><i>anguaño</i><par n="tamién__adv"/></e>
+    <e><i>ansí</i><par n="tamién__adv"/></e>
+    <e><i>antantanueche</i><par n="tamién__adv"/></e>
+    <e><i>antantayeri</i><par n="tamién__adv"/></e>
+    <e><i>antanueche</i><par n="tamién__adv"/></e>
+    <e><i>antaño</i><par n="tamién__adv"/></e>
+    <e><i>antayeri</i><par n="tamién__adv"/></e>
+    <e><i>antemanadamente</i><par n="tamién__adv"/></e>
+    <e><i>antes</i><par n="tamién__adv"/></e>
+    <e><i>antesdanueche</i><par n="tamién__adv"/></e>
+    <e><i>antesdayeri</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>antias</i><par n="tamién__adv"/></e>
+    <e><i>antieri</i><par n="tamién__adv"/></e>
+    <e><i>antiguadamente</i><par n="tamién__adv"/></e>
+    <e><i>antiguamente</i><par n="tamién__adv"/></e>
+    <e><i>anueche</i><par n="tamién__adv"/></e>
+    <e><i>aparte</i><par n="tamién__adv"/></e>
+    <e><i>apenes</i><par n="tamién__adv"/></e>
+    <e><i>apocagüéi</i><par n="tamién__adv"/></e>
+    <e><i>apocayá</i><par n="tamién__adv"/></e>
+    <e><i>apode</i><par n="tamién__adv"/></e>
+    <e><i>apré</i><par n="tamién__adv"/></e>
+    <e><i>aprés</i><par n="tamién__adv"/></e>
+    <e><i>apriesa</i><par n="tamién__adv"/></e>
+    <e><i>apuntadamente</i><par n="tamién__adv"/></e>
+    <e><i>aquende</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>aquí</i><par n="tamién__adv"/></e>
+    <e><i>arré</i><par n="tamién__adv"/></e>
+    <e><i>arrede</i><par n="tamién__adv"/></e>
+    <e><i>arredemente</i><par n="tamién__adv"/></e>
+    <e><i>arreimente</i><par n="tamién__adv"/></e>
+    <e><i>arrémente</i><par n="tamién__adv"/></e>
+    <e><i>arrentes</i><par n="tamién__adv"/></e>
+    <e><i>arréu</i><par n="tamién__adv"/></e>
+    <e><i>arriba</i><par n="tamién__adv"/></e>
+    <e><i>arribón</i><par n="tamién__adv"/></e>
+    <e><i>arribona</i><par n="tamién__adv"/></e>
+    <e><i>arribones</i><par n="tamién__adv"/></e>
+    <e><i>arribota</i><par n="tamién__adv"/></e>
+    <e><i>arrimaterreru</i><par n="tamién__adv"/></e>
+    <e><i>arriques</i><par n="tamién__adv"/></e>
+    <e><i>arruches</i><par n="tamién__adv"/></e>
+    <e><i>asina</i><par n="tamién__adv"/></e>
+    <e><i>asperxes</i><par n="tamién__adv"/></e>
+    <e><i>asumedio</i><par n="tamién__adv"/></e>
+    <e><i>atrás</i><par n="tamién__adv"/></e>
+    <e><i>au</i><par n="tamién__adv"/></e>
+    <e><i>aú</i><par n="tamién__adv"/></e>
+    <e><i>aúnda</i><par n="tamién__adv"/></e>
+    <e><i>auquier</i><par n="tamién__adv"/></e>
+    <e><i>auquiera</i><par n="tamién__adv"/></e>
+    <e><i>avante</i><par n="tamién__adv"/></e>
+    <e><i>axaxe</i><par n="tamién__adv"/></e>
+    <e><i>axina</i><par n="tamién__adv"/></e>
+    <e><i>ayeri</i><par n="tamién__adv"/></e>
+    <e><i>ayundes</i><par n="tamién__adv"/></e>
+    <e><i>ayures</i><par n="tamién__adv"/></e>
+    <e><i>ayuri</i><par n="tamién__adv"/></e>
+    <e><i>bastantina</i><par n="tamién__adv"/></e>
+    <e><i>baxo</i><par n="tamién__adv"/></e>
+    <e><i>bien</i><par n="tamién__adv"/></e>
+    <e><i>bienayá</i><par n="tamién__adv"/></e>
+    <e><i>bizarramente</i><par n="tamién__adv"/></e>
+    <e><i>bonablemente</i><par n="tamién__adv"/></e>
+    <e><i>bonamente</i><par n="tamién__adv"/></e>
+    <e><i>bono</i><par n="tamién__adv"/></e>
+    <e><i>bramente</i><par n="tamién__adv"/></e>
+    <e><i>bravamente</i><par n="tamién__adv"/></e>
+    <e><i>caldía</i><par n="tamién__adv"/></e>
+    <e><i>casi</i><par n="tamién__adv"/></e>
+    <e><i>casimente</i><par n="tamién__adv"/></e>
+    <e><i>ceo</i><par n="tamién__adv"/></e>
+    <e><i>cerca</i><par n="tamién__adv"/></e>
+    <e><i>cezures</i><par n="tamién__adv"/></e>
+    <e><i>cierca</i><par n="tamién__adv"/></e>
+    <e><i>claro</i><par n="tamién__adv"/></e>
+    <e><i>como</i><par n="tamién__adv"/></e>
+    <e><i>cómo</i><par n="tamién__adv"/></e>
+    <e><i>cuándo</i><par n="tamién__adv"/></e>
+    <e><i>cuandoquiera</i><par n="tamién__adv"/></e>
+    <e r="LR"><i>cuantagüé</i><par n="tamién__adv"/></e>
+    <e><i>cuantagüéi</i><par n="tamién__adv"/></e>
+    <e><i>cuantayá</i><par n="tamién__adv"/></e>
+    <e><i>cuánto</i><par n="tamién__adv"/></e>
+    <e><i>cuasi</i><par n="tamién__adv"/></e>
+    <e><i>cuasimente</i><par n="tamién__adv"/></e>
+    <e><i>cuasique</i><par n="tamién__adv"/></e>
+    <e><i>dacuando</i><par n="tamién__adv"/></e>
+    <e><i>dafechamente</i><par n="tamién__adv"/></e>
+    <e><i>dafechu</i><par n="tamién__adv"/></e>
+    <e><i>dafurto</i><par n="tamién__adv"/></e>
+    <e><i>dalcuando</i><par n="tamién__adv"/></e>
+    <e><i>dalgo</i><par n="tamién__adv"/></e>
+    <e><i>damecío</i><par n="tamién__adv"/></e>
+    <e><i>damedies</i><par n="tamién__adv"/></e>
+    <e><i>dapoco</i><par n="tamién__adv"/></e>
+    <e><i>daqué</i><par n="tamién__adv"/></e>
+    <e><i>daquella</i><par n="tamién__adv"/></e>
+    <e><i>darrera</i><par n="tamién__adv"/></e>
+    <e><i>darréu</i><par n="tamién__adv"/></e>
+    <e><i>datercio</i><par n="tamién__adv"/></e>
+    <e><i>datraviés</i><par n="tamién__adv"/></e>
+    <e><i>daveres</i><par n="tamién__adv"/></e>
+    <e><i>davezu</i><par n="tamién__adv"/></e>
+    <e><i>dayundes</i><par n="tamién__adv"/></e>
+    <e><i>dayures</i><par n="tamién__adv"/></e>
+    <e><i>dayuri</i><par n="tamién__adv"/></e>
+    <e><i>debaxo</i><par n="tamién__adv"/></e>
+    <e><i>delantre</i><par n="tamién__adv"/></e>
+    <e><i>demasiao</i><par n="tamién__adv"/></e>
+    <e><i>demientres</i><par n="tamién__adv"/></e>
+    <e><i>dempués</i><par n="tamién__adv"/></e>
+    <e><i>denantes</i><par n="tamién__adv"/></e>
+    <e><i>depriesa</i><par n="tamién__adv"/></e>
+    <e><i>depués</i><par n="tamién__adv"/></e>
+    <e><i>desa</i><par n="tamién__adv"/></e>
+    <e><i>desagüé</i><par n="tamién__adv"/></e>
+    <e><i>desagüéi</i><par n="tamién__adv"/></e>
+    <e><i>desayá</i><par n="tamién__adv"/></e>
+    <e><i>desayacón</i><par n="tamién__adv"/></e>
+    <e><i>descá</i><par n="tamién__adv"/></e>
+    <e><i>desiguida</i><par n="tamién__adv"/></e>
+    <e><i>despacio</i><par n="tamién__adv"/></e>
+    <e><i>después</i><par n="tamién__adv"/></e>
+    <e><i>desta</i><par n="tamién__adv"/></e>
+    <e><i>detrás</i><par n="tamién__adv"/></e>
+    <e><i>dicalluéu</i><par n="tamién__adv"/></e>
+    <e><i>dicapronto</i><par n="tamién__adv"/></e>
+    <e><i>dientro</i><par n="tamién__adv"/></e>
+    <e><i>duble</i><par n="tamién__adv"/></e>
+    <e><i>efectivamente</i><par n="tamién__adv"/></e>
+    <e><i>ehí</i><par n="tamién__adv"/></e>
+    <e><i>ehína</i><par n="tamién__adv"/></e>
+    <e><i>ellí</i><par n="tamién__adv"/></e>
+    <e><i>ellina</i><par n="tamién__adv"/></e>
+    <e><i>embaxo</i><par n="tamién__adv"/></e>
+    <e><i>empara</i><par n="tamién__adv"/></e>
+    <e><i>empardieces</i><par n="tamién__adv"/></e>
+    <e><i>enagora</i><par n="tamién__adv"/></e>
+    <e><i>enaína</i><par n="tamién__adv"/></e>
+    <e><i>enantes</i><par n="tamién__adv"/></e>
+    <e><i>enanties</i><par n="tamién__adv"/></e>
+    <e><i>encima</i><par n="tamién__adv"/></e>
+    <e><i>encomalu</i><par n="tamién__adv"/></e>
+    <e><i>endagora</i><par n="tamién__adv"/></e>
+    <e><i>endagüéi</i><par n="tamién__adv"/></e>
+    <e><i>endayuri</i><par n="tamién__adv"/></e>
+    <e><i>ende</i><par n="tamién__adv"/></e>
+    <e><i>endelantre</i><par n="tamién__adv"/></e>
+    <e><i>endenantes</i><par n="tamién__adv"/></e>
+    <e><i>endexamás</i><par n="tamién__adv"/></e>
+    <e><i>enforma</i><par n="tamién__adv"/></e>
+    <e><i>enfrente</i><par n="tamién__adv"/></e>
+    <e><i>enriba</i><par n="tamién__adv"/></e>
+    <e><i>ensembre</i><par n="tamién__adv"/></e>
+    <e><i>ensiguida</i><par n="tamién__adv"/></e>
+    <e><i>entá</i><par n="tamién__adv"/></e>
+    <e><i>entanto</i><par n="tamién__adv"/></e>
+    <e><i>entavía</i><par n="tamién__adv"/></e>
+    <e><i>ententanueche</i><par n="tamién__adv"/></e>
+    <e><i>entóncenes</i><par n="tamién__adv"/></e>
+    <e><i>entoncies</i><par n="tamién__adv"/></e>
+    <e><i>entós</i><par n="tamién__adv"/></e>
+    <e><i>entovía</i><par n="tamién__adv"/></e>
+    <e><i>entrín</i><par n="tamién__adv"/></e>
+    <e><i>enxamás</i><par n="tamién__adv"/></e>
+    <e><i>equí</i><par n="tamién__adv"/></e>
+    <e><i>escapao</i><par n="tamién__adv"/></e>
+    <e><i>escasamente</i><par n="tamién__adv"/></e>
+    <e><i>escontra</i><par n="tamién__adv"/></e>
+    <e><i>escurque</i><par n="tamién__adv"/></e>
+    <e><i>espacio</i><par n="tamién__adv"/></e>
+    <e><i>espués</i><par n="tamién__adv"/></e>
+    <e><i>farto</i><par n="tamién__adv"/></e>
+    <e><i>fenomenal</i><par n="tamién__adv"/></e>
+    <e><i>formal</i><par n="tamién__adv"/></e>
+    <e><i>fuera</i><par n="tamién__adv"/></e>
+    <e><i>gratis</i><par n="tamién__adv"/></e>
+    <e><i>guapamente</i><par n="tamién__adv"/></e>
+    <e><i>güei</i><par n="tamién__adv"/></e>
+    <e><i>igual</i><par n="tamién__adv"/></e>
+    <e><i>inda</i><par n="tamién__adv"/></e>
+    <e><i>inxente</i><par n="tamién__adv"/></e>
+    <e><i>llargo</i><par n="tamién__adv"/></e>
+    <e><i>llexos</i><par n="tamién__adv"/></e>
+    <e><i>llonxe</i><par n="tamién__adv"/></e>
+    <e><i>lloñe</i><par n="tamién__adv"/></e>
+    <e><i>llueu</i><par n="tamién__adv"/></e>
+    <e><i>malagustu</i><par n="tamién__adv"/></e>
+    <e><i>malamente</i><par n="tamién__adv"/></e>
+    <e><i>malapenes</i><par n="tamién__adv"/></e>
+    <e><i>malpenes</i><par n="tamién__adv"/></e>
+    <e><i>más</i><par n="tamién__adv"/></e>
+    <e><i>mañana</i><par n="tamién__adv"/></e>
+    <e><i>masina</i><par n="tamién__adv"/></e>
+    <e><i>medio</i><par n="tamién__adv"/></e>
+    <e><i>menos</i><par n="tamién__adv"/></e>
+    <e><i>mentanto</i><par n="tamién__adv"/></e>
+    <e><i>mesmamente</i><par n="tamién__adv"/></e>
+    <e><i>mesmo</i><par n="tamién__adv"/></e>
+    <e><i>metá</i><par n="tamién__adv"/></e>
+    <e><i>metanes</i><par n="tamién__adv"/></e>
+    <e><i>metániques</i><par n="tamién__adv"/></e>
+    <e><i>metanos</i><par n="tamién__adv"/></e>
+    <e><i>meyor</i><par n="tamién__adv"/></e>
+    <e><i>mientres</i><par n="tamién__adv"/></e>
+    <e><i>mui</i><par n="tamién__adv"/></e>
+    <e><i>munchayá</i><par n="tamién__adv"/></e>
+    <e><i>muncho</i><par n="tamién__adv"/></e>
+    <e><i>nada</i><par n="tamién__adv"/></e>
+    <e><i>namái</i><par n="tamién__adv"/></e>
+    <e><i>namás</i><par n="tamién__adv"/></e>
+    <e><i>nayundes</i><par n="tamién__adv"/></e>
+    <e><i>nenyures</i><par n="tamién__adv"/></e>
+    <e><i>nenyuri</i><par n="tamién__adv"/></e>
+    <e><i>niundes</i><par n="tamién__adv"/></e>
+    <e><i>no</i><par n="tamién__adv"/></e>
+    <e><i>non</i><par n="tamién__adv"/></e>
+    <e><i>noramala</i><par n="tamién__adv"/></e>
+    <e><i>nunca</i><par n="tamién__adv"/></e>
+    <e><i>ñada</i><par n="tamién__adv"/></e>
+    <e><i>ñon</i><par n="tamién__adv"/></e>
+    <e><i>ñoramala</i><par n="tamién__adv"/></e>
+    <e><i>ñun</i><par n="tamién__adv"/></e>
+    <e><i>ñunca</i><par n="tamién__adv"/></e>
+    <e><i>onde</i><par n="tamién__adv"/></e>
+    <e><i>ónde</i><par n="tamién__adv"/></e>
+    <e><i>ondequier</i><par n="tamién__adv"/></e>
+    <e><i>ondequiera</i><par n="tamién__adv"/></e>
+    <e><i>otramiente</i><par n="tamién__adv"/></e>
+    <e><i>pasiquín</i><par n="tamién__adv"/></e>
+    <e><i>pémeque</i><par n="tamién__adv"/></e>
+    <e><i>peor</i><par n="tamién__adv"/></e>
+    <e><i>poco</i><par n="tamién__adv"/></e>
+    <e><i>poro</i><par n="tamién__adv"/></e>
+    <e><i>precisamente</i><par n="tamién__adv"/></e>
+    <e><i>primero</i><par n="tamién__adv"/></e>
+    <e><i>pronto</i><par n="tamién__adv"/></e>
+    <e><i>pueque</i><par n="tamién__adv"/></e>
+    <e><i>puralmente</i><par n="tamién__adv"/></e>
+    <e><i>puramente</i><par n="tamién__adv"/></e>
+    <e><i>qué</i><par n="tamién__adv"/></e>
+    <e><i>quiciabes</i><par n="tamién__adv"/></e>
+    <e><i>quiciabesmente</i><par n="tamién__adv"/></e>
+    <e><i>quiciás</i><par n="tamién__adv"/></e>
+    <e><i>quitante</i><par n="tamién__adv"/></e>
+    <e><i>recién</i><par n="tamién__adv"/></e>
+    <e><i>sabidamente</i><par n="tamién__adv"/></e>
+    <e><i>según</i><par n="tamién__adv"/></e>
+    <e><i>seguramente</i><par n="tamién__adv"/></e>
+    <e><i>seguro</i><par n="tamién__adv"/></e>
+    <e><i>seique</i><par n="tamién__adv"/></e>
+    <e><i>sele</i><par n="tamién__adv"/></e>
+    <e><i>selemente</i><par n="tamién__adv"/></e>
+    <e><i>sero</i><par n="tamién__adv"/></e>
+    <e><i>sí</i><par n="tamién__adv"/></e>
+    <e><i>sicasí</i><par n="tamién__adv"/></e>
+    <e><i>siempre</i><par n="tamién__adv"/></e>
+    <e><i>siempres</i><par n="tamién__adv"/></e>
+    <e><i>siquier</i><par n="tamién__adv"/></e>
+    <e><i>siquiera</i><par n="tamién__adv"/></e>
+    <e><i>siquieramente</i><par n="tamién__adv"/></e>
+    <e><i>solamente</i><par n="tamién__adv"/></e>
+    <e><i>solo</i><par n="tamién__adv"/></e>
+    <e><i>sólo</i><par n="tamién__adv"/></e>
+    <e><i>tá</i><par n="tamién__adv"/></e>
+    <e><i>talamente</i><par n="tamién__adv"/></e>
+    <e><i>tamién</i><par n="tamién__adv"/></e>
+    <e><i>tampoco</i><par n="tamién__adv"/></e>
+    <e><i>tanina</i><par n="tamién__adv"/></e>
+    <e><i>tanto</i><par n="tamién__adv"/></e>
+    <e><i>tarde</i><par n="tamién__adv"/></e>
+    <e><i>tempranico</i><par n="tamién__adv"/></e>
+    <e><i>tempranín</i><par n="tamién__adv"/></e>
+    <e><i>temprano</i><par n="tamién__adv"/></e>
+    <e><i>total</i><par n="tamién__adv"/></e>
+    <e><i>tovía</i><par n="tamién__adv"/></e>
+    <e><i>tresantanueche</i><par n="tamién__adv"/></e>
+    <e><i>tresantayeri</i><par n="tamién__adv"/></e>
+    <e><i>tresantieri</i><par n="tamién__adv"/></e>
+    <e><i>trespasao</i><par n="tamién__adv"/></e>
+    <e><i>u</i><par n="tamién__adv"/></e>
+    <e><i>ú</i><par n="tamién__adv"/></e>
+    <e><i>últimamente</i><par n="tamién__adv"/></e>
+    <e><i>uquier</i><par n="tamién__adv"/></e>
+    <e><i>uquiera</i><par n="tamién__adv"/></e>
+    <e><i>vaya</i><par n="tamién__adv"/></e>
+    <e><i>volao</i><par n="tamién__adv"/></e>
+    <e><i>xá</i><par n="tamién__adv"/></e>
+    <e><i>xamás</i><par n="tamién__adv"/></e>
+    <e><i>xusto</i><par n="tamién__adv"/></e>
+    <e><i>yá</i><par n="tamién__adv"/></e>
+    <e><i>zárzanamente</i><par n="tamién__adv"/></e>
+    <e><i>perbién</i><par n="tamién__adv"/></e>
 
     <!-- Adjectives -->
     <e lm="otru"><i>otr</i><par n="otr/u__adj"/></e>
