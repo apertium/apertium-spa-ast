@@ -1463,10 +1463,182 @@
         </p>
       </e>
     </pardef>
-    <pardef n="un__det">
+    <pardef n="po/cu__det">
       <e>
         <p>
-          <l>as</l>
+          <l>ques</l>
+          <r>cu<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ca</l>
+          <r>cu<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cos</l>
+          <r>cu<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cu</l>
+          <r>cu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>co</l>
+          <r>cu<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="abond/u__det">
+      <e>
+        <p>
+          <l>es</l>
+          <r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>u</l>
+          <r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>u<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="demasi/áu__det">
+      <e>
+        <p>
+          <l>aes</l>
+          <r>áu<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ada</l>
+          <r>áu<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aos</l>
+          <r>áu<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>áu</l>
+          <r>áu<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ao</l>
+          <r>áu<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="/un__det">
+      <e>
+        <p>
+          <l>unes</l>
+          <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>una</l>
+          <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>unos</l>
+          <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>un</l>
+          <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ún</l>
+          <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>uno</l>
+          <r>un<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="dalg/ún__det">
+      <e>
+        <p>
+          <l>unes</l>
+          <r>ún<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>una</l>
+          <r>ún<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>unos</l>
+          <r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ún</l>
+          <r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>unu</l>
+          <r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>uno</l>
+          <r>ún<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="tal__det">
+      <e>
+        <p>
+          <l>es</l>
           <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
@@ -1488,10 +1660,70 @@
           <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>u</l>
+          <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>o</l>
           <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="damb/os__det">
+      <e>
+        <p>
+          <l>es</l>
+          <r>os<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>os<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="d/él__det">
+      <e>
+        <p>
+          <l>elles</l>
+          <r>él<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ella</l>
+          <r>él<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ellos</l>
+          <r>él<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>él</l>
+          <r>él<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ello</l>
+          <r>él<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cada__det">
+      <e>
+        <p>
+          <l/>
+          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -3080,7 +3312,7 @@
 
     <!-- Determinantes -->
     <e lm="el"><i/><par n="/el__det"/></e>
-    <e lm="un"><i>un</i><par n="un__det"/></e>
+    <e lm="un"><i>un</i><par n="/un__det"/></e>
     <e lm="tou"><i>to</i><par n="to/u__det"/></e>
     <e lm="aquel"><i>aquel</i><par n="aquel__det"/></e>
     <e r="LR" lm="aquél"><i>aquél</i><par n="aquel__det"/></e>
@@ -3093,6 +3325,22 @@
     <e r="LR" lm="ésti"><i>ést</i><par n="es/i__det"/></e>
     <e lm="nesi"><p><l>nes</l><r>en<s n="pr"/><j/>es</r></p><par n="es/i__det"/></e>
     <e lm="nesti"><p><l>nest</l><r>en<s n="pr"/><j/>es</r></p><par n="es/i__det"/></e>
+    <e lm="pocu"><i>po</i><par n="po/cu__det"/></e>
+    <e lm="abondu"><i>abond</i><par n="abond/u__det"/></e>
+    <e lm="munchu"><i>munch</i><par n="abond/u__det"/></e>
+    <e lm="demasiáu"><i>demasi</i><par n="demasi/áu__det"/></e>
+    <e lm="tou"><i>to</i><par n="abond/u__det"/></e>
+    <e lm="tantu"><i>tant</i><par n="abond/u__det"/></e>
+    <e lm="dalgún"><i>dalg</i><par n="dalg/ún__det"/></e>
+    <e lm="nengún"><i>neng</i><par n="dalg/ún__det"/></e>
+    <e lm="dél"><i>d</i><par n="d/él__det"/></e>
+    <e lm="cada"><i>cada</i><par n="cada__det"/></e>
+    <e lm="mesmu"><i>mesm</i><par n="abond/u__det"/></e>
+    <e lm="otru"><i>otr</i><par n="abond/u__det"/></e>
+    <e lm="demás"><i>demás</i><par n="cada__det"/></e>
+    <e lm="tal"><i>tal</i><par n="tal__det"/></e>
+    <e lm="dambos"><i>damb</i><par n="damb/os__det"/></e>
+    <e lm="entrambos"><i>entramb</i><par n="damb/os__det"/></e>
 
     <!-- Conxunciones -->
     <e lm="y"><i/><par n="y__cnjcoo"/></e>
