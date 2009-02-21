@@ -1529,11 +1529,52 @@
         </p>
       </e>
     </pardef>
-    <pardef n="que__rel">
+    <!-- Relativos Átonos -->
+    <pardef n="onde__rel">
       <e>
         <p>
           <l/>
-          <r><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r>
+          <r><s n="rel"/><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cuant_o__rel">
+      <e>
+        <p>
+          <l>es</l>
+          <r>u<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>u<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>u<s n="rel"/><s n="nn"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>u<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>u</l>
+          <r>u<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="quien__rel">
+      <e>
+        <p>
+          <l/>
+          <r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -3454,7 +3495,15 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
-    <e lm="que"><i>que</i><par n="que__rel"/></e>
+    <!-- Relativos Átonos. Los tónicos especifíquense nes sos funciones correspondientes-->
+    <e><i>cuando</i><par n="onde__rel"/></e>
+    <e><i>como</i><par n="onde__rel"/></e>
+    <e><i>cuant</i><par n="cuant_u__rel"/></e>
+    <e><i>onde</i><par n="onde__rel"/></e>
+    <e r="LR"><i>u</i><par n="onde__rel"/></e>
+    <e r="LR"><i>au</i><par n="onde__rel"/></e>
+    <e><i>que</i><par n="que__rel"/></e>
+    <e><i>quien</i><par n="quien__rel"/></e>
 
     <!-- Determinantes -->
     <e lm="el"><i/><par n="/el__det"/></e>
