@@ -213,7 +213,7 @@
     <pardef n="cuarent/a__num">
       <e>
         <p>
-          <l>a</>
+          <l>a</l>
           <r>a<s n="num"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
@@ -233,7 +233,7 @@
     <pardef n="cuarenta_y_un__num">
       <e>
         <p>
-          </l>
+          <l/>
           <r><s n="num"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
@@ -1517,7 +1517,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="cnjadv">
+          <r><s n="cnjadv"/></r>
         </p>
       </e>
     </pardef>      
@@ -3498,11 +3498,11 @@
     <!-- Relativos Átonos. Los tónicos especifíquense nes sos funciones correspondientes-->
     <e><i>cuando</i><par n="onde__rel"/></e>
     <e><i>como</i><par n="onde__rel"/></e>
-    <e><i>cuant</i><par n="cuant_u__rel"/></e>
+    <e><i>cuant</i><par n="cuant_o__rel"/></e>
     <e><i>onde</i><par n="onde__rel"/></e>
     <e r="LR"><i>u</i><par n="onde__rel"/></e>
     <e r="LR"><i>au</i><par n="onde__rel"/></e>
-    <e><i>que</i><par n="que__rel"/></e>
+    <e><i>que</i><par n="quien__rel"/></e>
     <e><i>quien</i><par n="quien__rel"/></e>
 
     <!-- Determinantes -->
@@ -3587,7 +3587,9 @@
     <e lm="cuarenta y seis"><i>cuarenta<b/>y<b/>seis</i><par n="seis__num"/></e>
     <e lm="cuarenta y siete"><i>cuarenta<b/>y<b/>siete</i><par n="nueve__num"/></e>
     <e lm="cuarenta y tres"><i>cuarenta<b/>y<b/>tres</i><par n="seis__num"/></e>
+<!--
     <e lm="cuarenta y un"><i>cuarenta<b/>y<b/>un</i><par n="cuarenta_y_un__num"/></e>
+-->
     <e lm="cuatro"><i>cuatro</i><par n="nueve__num"/></e>
     <e lm="cuatrocientos"><i>cuatrocient</i><par n="cuatrocient/os__num"/></e>
     <e lm="diecinueve"><i>diecinueve</i><par n="nueve__num"/></e>
@@ -3640,7 +3642,9 @@
     <e lm="sesenta y seis"><i>sesenta<b/>y<b/>seis</i><par n="seis__num"/></e>
     <e lm="sesenta y siete"><i>sesenta<b/>y<b/>siete</i><par n="nueve__num"/></e>
     <e lm="sesenta y tres"><i>sesenta<b/>y<b/>tres</i><par n="seis__num"/></e>
+<!--
     <e lm="sesenta y un"><i>sesenta<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>
+-->
     <e lm="setecientos"><i>setecient</i><par n="cuatrocient/os__num"/></e>
     <e lm="setenta"><i>setent</i><par n="cuarent/a__num"/></e>
     <e lm="setenta y cinco"><i>setenta<b/>y<b/>cinco</i><par n="nueve__num"/></e>
