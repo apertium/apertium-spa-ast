@@ -11,3 +11,4 @@ ast-tagger-data/ast.crp.txt -text
 ast-tagger-data/astwiki-20090122-pages-articles.xml.bz2 -text
 dev/asturian.freqlist.txt -text
 /es-ast-unsupervised.make -text
+/es-ast.prob -text svneol=unset#unset
