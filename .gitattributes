@@ -1,6 +1,6 @@
 * text=auto !eol
 /README -text
-/apertium-br-fr.br.acx -text
+/apertium-es-ast.ast.acx -text
 /apertium-es-ast.ast.dix -text
 /apertium-es-ast.ast.tsx -text
 /apertium-es-ast.es-ast.dix -text
