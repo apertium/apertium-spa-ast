@@ -619,6 +619,20 @@
         </p>
       </e>
     </pardef>
+    <pardef n="llave__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="franc/és__n">
       <e>
         <p>
@@ -1108,20 +1122,6 @@
         <p>
           <l>es</l>
           <r>a<s n="n"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="ciud/á__n">
-      <e>
-        <p>
-          <l>á</l>
-          <r>á<s n="n"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>aes</l>
-          <r>á<s n="n"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -7846,7 +7846,6 @@
     <e lm="asturianu"><i>asturian</i><par n="asturian/u__adj"/></e>
 
     <!-- Nomes -->
-    <e><i>ab</i><par n="ab/á__n"/></e>
     <e><i>abadex</i><par n="us/u__n"/></e>
     <e><i>abadí</i><par n="alde/a__n"/></e>
     <e><i>abalanzamient</i><par n="us/u__n"/></e>
@@ -7930,6 +7929,7 @@
     <e><i>abey</i><par n="us/u__n"/></e>
     <e><i>abicañ</i><par n="us/u__n"/></e>
     <e><i>abin</i><par n="avi/ón__n"/></e>
+    <e><i>ab</i><par n="ab/á__n"/></e>
     <e><i>abism</i><par n="us/u__n"/></e>
     <e><i>ablaga</i><par n="iverna/da__n"/></e>
     <e><i>ablag</i><par n="aclar/áu__n"/></e>
@@ -8195,10 +8195,12 @@
     <e><i>act</i><par n="us/u__n"/></e>
     <e><i>actitú</i><par n="a__n"/></e>
     <e><i>activaci</i><par n="aici/ón__n"/></e>
-    <e><i>actuaci</i><par n="aici/ón__n"/></e>
+    <e><i>activid</i><par n="activid/á__n"/></e>
     <e><i>activism</i><par n="us/u__n"/></e>
     <e><i>actor</i><par n="mes__n"/></e>
     <e><i>actri</i><par n="actri/z__n"/></e>
+    <e><i>actuaci</i><par n="aici/ón__n"/></e>
+    <e><i>actualid</i><par n="activid/á__n"/></e>
     <e><i>actualizaci</i><par n="aici/ón__n"/></e>
     <e><i>acuarel</i><par n="alde/a__n"/></e>
     <e><i>acuari</i><par n="us/u__n"/></e>
@@ -8225,6 +8227,7 @@
     <e><i>acústi</i><par n="músi/ca__n"/></e>
     <e><i>adal</i><par n="alde/a__n"/></e>
     <e><i>adarme</i><par n="abordaxe__n"/></e>
+    <e><i>adautabilid</i><par n="activid/á__n"/></e>
     <e><i>adautaci</i><par n="aici/ón__n"/></e>
     <e><i>adax</i><par n="us/u__n"/></e>
     <e><i>adefex</i><par n="us/u__n"/></e>
@@ -8271,6 +8274,7 @@
     <e><i>aduan</i><par n="alde/a__n"/></e>
     <e><i>adulteraci</i><par n="aici/ón__n"/></e>
     <e><i>adulteri</i><par n="us/u__n"/></e>
+    <e><i>adversid</i><par n="activid/á__n"/></e>
     <e><i>advient</i><par n="us/u__n"/></e>
     <e><i>aerodinámi</i><par n="músi/ca__n"/></e>
     <e><i>aeródrom</i><par n="us/u__n"/></e>
@@ -8306,6 +8310,7 @@
     <e><i>aferí</i><par n="us/u__n"/></e>
     <e><i>aferruy</i><par n="us/u__n"/></e>
     <e><i>afeut</i><par n="us/u__n"/></e>
+    <e><i>afeutivid</i><par n="activid/á__n"/></e>
     <e><i>afiamient</i><par n="us/u__n"/></e>
     <e><i>afianzamient</i><par n="us/u__n"/></e>
     <e><i>afici</i><par n="aici/ón__n"/></e>
@@ -8323,6 +8328,7 @@
     <e><i>afinador</i><par n="mes__n"/></e>
     <e><i>afinador</i><par n="redactor__n"/></e>
     <e><i>afinamient</i><par n="us/u__n"/></e>
+    <e><i>afinid</i><par n="activid/á__n"/></e>
     <e><i>af</i><par n="af/án__n"/></e>
     <e><i>af</i><par n="us/u__n"/></e>
     <e><i>afirmaci</i><par n="aici/ón__n"/></e>
@@ -8441,6 +8447,7 @@
     <e><i>agreg</i><par n="aclar/áu__n"/></e>
     <e><i>agreg</i><par n="us/u__n"/></e>
     <e><i>agresi</i><par n="aici/ón__n"/></e>
+    <e><i>agresivid</i><par n="activid/á__n"/></e>
     <e><i>agrete</i><par n="abordaxe__n"/></e>
     <e><i>agricultor</i><par n="redactor__n"/></e>
     <e><i>agricultur</i><par n="alde/a__n"/></e>
@@ -8818,11 +8825,11 @@
     <e><i>allugamient</i><par n="us/u__n"/></e>
     <e><i>allumamient</i><par n="us/u__n"/></e>
     <e><i>allum</i><par n="aclar/áu__n"/></e>
-    <e><i>almac</i><par n="almac/én__n"/></e>
     <e><i>almacenamient</i><par n="us/u__n"/></e>
     <e><i>almacenaxe</i><par n="abordaxe__n"/></e>
     <e><i>almacenax</i><par n="mes__n"/></e>
     <e><i>almach</i><par n="us/u__n"/></e>
+    <e><i>almac</i><par n="almac/én__n"/></e>
     <e><i>almanaque</i><par n="abordaxe__n"/></e>
     <e><i>almangre</i><par n="abordaxe__n"/></e>
     <e><i>almanque</i><par n="abordaxe__n"/></e>
@@ -8919,6 +8926,7 @@
     <e><i>alzamient</i><par n="us/u__n"/></e>
     <e><i>alzaparrill</i><par n="alde/a__n"/></e>
     <e><i>alzapremi</i><par n="us/u__n"/></e>
+    <e><i>amabilid</i><par n="activid/á__n"/></e>
     <e><i>amagamient</i><par n="us/u__n"/></e>
     <e><i>amag</i><par n="us/u__n"/></e>
     <e><i>amagosta</i><par n="iverna/da__n"/></e>
@@ -8940,6 +8948,7 @@
     <e><i>amapol</i><par n="alde/a__n"/></e>
     <e><i>amarg</i><par n="us/u__n"/></e>
     <e><i>amargor</i><par n="mes__n"/></e>
+    <e><i>amargurid</i><par n="activid/á__n"/></e>
     <e><i>amarguri</i><par n="us/u__n"/></e>
     <e><i>amargur</i><par n="alde/a__n"/></e>
     <e><i>amargux</i><par n="us/u__n"/></e>
@@ -8973,7 +8982,7 @@
     <e><i>ámbare</i><par n="abordaxe__n"/></e>
     <e><i>ambientaci</i><par n="aici/ón__n"/></e>
     <e><i>ambiente</i><par n="abordaxe__n"/></e>
-    <e><i>ambigüed</i><par n="ciud/á__n"/></e>
+    <e><i>ambigüed</i><par n="activid/á__n"/></e>
     <e><i>ámbit</i><par n="us/u__n"/></e>
     <e><i>ambolant</i><par n="cam/ín__n"/></e>
     <e><i>ambuend</i><par n="alde/a__n"/></e>
@@ -9002,7 +9011,7 @@
     <e><i>amillaramient</i><par n="us/u__n"/></e>
     <e><i>aminoácid</i><par n="us/u__n"/></e>
     <e><i>am</i><par n="us/u__n"/></e>
-    <e><i>amist</i><par n="ciud/á__n"/></e>
+    <e><i>amist</i><par n="activid/á__n"/></e>
     <e><i>amnistí</i><par n="alde/a__n"/></e>
     <e><i>amoblamient</i><par n="us/u__n"/></e>
     <e><i>amoci</i><par n="us/u__n"/></e>
@@ -9211,6 +9220,7 @@
     <e><i>anónim</i><par n="us/u__n"/></e>
     <e><i>anorex</i><par n="alde/a__n"/></e>
     <e><i>anorici</i><par n="us/u__n"/></e>
+    <e><i>anormalid</i><par n="activid/á__n"/></e>
     <e><i>anotaci</i><par n="aici/ón__n"/></e>
     <e><i>anotadur</i><par n="alde/a__n"/></e>
     <e><i>anotamient</i><par n="us/u__n"/></e>
@@ -9221,7 +9231,7 @@
     <e><i>anovulaci</i><par n="aici/ón__n"/></e>
     <e><i>anox</i><par n="us/u__n"/></e>
     <e><i>anoy</i><par n="us/u__n"/></e>
-    <e><i>ansied</i><par n="ciud/á__n"/></e>
+    <e><i>ansied</i><par n="activid/á__n"/></e>
     <e><i>antagonism</i><par n="us/u__n"/></e>
     <e><i>antebraz</i><par n="us/u__n"/></e>
     <e><i>antecedente</i><par n="abordaxe__n"/></e>
@@ -9238,6 +9248,7 @@
     <e><i>anteporta</i><par n="iverna/da__n"/></e>
     <e><i>anteposici</i><par n="aici/ón__n"/></e>
     <e><i>antepuert</i><par n="us/u__n"/></e>
+    <e><i>anteriorid</i><par n="activid/á__n"/></e>
     <e><i>anter</i><par n="alde/a__n"/></e>
     <e><i>antesal</i><par n="alde/a__n"/></e>
     <e><i>antevíspor</i><par n="alde/a__n"/></e>
@@ -9250,6 +9261,7 @@
     <e><i>anticlinal</i><par n="mes__n"/></e>
     <e><i>anticomunism</i><par n="us/u__n"/></e>
     <e><i>anticonceici</i><par n="aici/ón__n"/></e>
+    <e><i>anticonstitucionalid</i><par n="activid/á__n"/></e>
     <e><i>anticrist</i><par n="us/u__n"/></e>
     <e><i>anticuari</i><par n="us/u__n"/></e>
     <e><i>anticuerp</i><par n="us/u__n"/></e>
@@ -9260,7 +9272,7 @@
     <e><i>antífon</i><par n="alde/a__n"/></e>
     <e><i>antífrasis</i><par n="crisis__n"/></e>
     <e><i>antiguall</i><par n="alde/a__n"/></e>
-    <e><i>antigüed</i><par n="ciud/á__n"/></e>
+    <e><i>antigüed</i><par n="activid/á__n"/></e>
     <e><i>antiguos</i><par n="llunes__n"/></e>
     <e><i>anti</i><par n="avi/ón__n"/></e>
     <e><i>antilogaritm</i><par n="us/u__n"/></e>
@@ -9294,6 +9306,7 @@
     <e><i>antrotopónim</i><par n="us/u__n"/></e>
     <e><i>antrox</i><par n="us/u__n"/></e>
     <e><i>antroy</i><par n="us/u__n"/></e>
+    <e><i>anualid</i><par n="activid/á__n"/></e>
     <e><i>anuari</i><par n="us/u__n"/></e>
     <e><i>anubrer</i><par n="us/u__n"/></e>
     <e><i>anuedadur</i><par n="alde/a__n"/></e>
@@ -9585,7 +9598,7 @@
     <e><i>arb</i><par n="aclar/áu__n"/></e>
     <e><i>arb</i><par n="alde/a__n"/></e>
     <e><i>arbitramient</i><par n="us/u__n"/></e>
-    <e><i>arbitraried</i><par n="ciud/á__n"/></e>
+    <e><i>arbitraried</i><par n="activid/á__n"/></e>
     <e><i>arbitraxe</i><par n="abordaxe__n"/></e>
     <e><i>arbitrax</i><par n="mes__n"/></e>
     <e><i>árbitr</i><par n="llob/u__n"/></e>
@@ -9971,9 +9984,11 @@
     <e><i>articulamient</i><par n="us/u__n"/></e>
     <e><i>articul</i><par n="aclar/áu__n"/></e>
     <e><i>artícul</i><par n="us/u__n"/></e>
+    <e><i>artificialid</i><par n="activid/á__n"/></e>
     <e><i>artificier</i><par n="llob/u__n"/></e>
     <e><i>artificier</i><par n="us/u__n"/></e>
     <e><i>artifici</i><par n="us/u__n"/></e>
+    <e><i>artificiosid</i><par n="activid/á__n"/></e>
     <e><i>artillerí</i><par n="alde/a__n"/></e>
     <e><i>artiller</i><par n="llob/u__n"/></e>
     <e><i>artiller</i><par n="us/u__n"/></e>
@@ -9991,6 +10006,7 @@
     <e><i>aruel</i><par n="us/u__n"/></e>
     <e><i>arumamient</i><par n="us/u__n"/></e>
     <e><i>arume</i><par n="abordaxe__n"/></e>
+    <e><i>arumosid</i><par n="activid/á__n"/></e>
     <e><i>aruñamient</i><par n="us/u__n"/></e>
     <e><i>aruñaz</i><par n="us/u__n"/></e>
     <e><i>aruñ</i><par n="avi/ón__n"/></e>
@@ -10094,6 +10110,7 @@
     <e><i>aspirador</i><par n="alde/a__n"/></e>
     <e><i>aspirador</i><par n="redactor__n"/></e>
     <e><i>aspl</i><par n="avi/ón__n"/></e>
+    <e><i>asquerosid</i><par n="activid/á__n"/></e>
     <e><i>astenci</i><par n="aici/ón__n"/></e>
     <e><i>astencionism</i><par n="us/u__n"/></e>
     <e><i>asterisc</i><par n="us/u__n"/></e>
@@ -10116,6 +10133,7 @@
     <e><i>astrónom</i><par n="us/u__n"/></e>
     <e><i>asturc</i><par n="avi/ón__n"/></e>
     <e><i>asturiana</i><par n="iverna/da__n"/></e>
+    <e><i>asturianid</i><par n="activid/á__n"/></e>
     <e><i>asturianí</i><par n="alde/a__n"/></e>
     <e><i>asturian</i><par n="llob/u__n"/></e>
     <e><i>asturian</i><par n="us/u__n"/></e>
@@ -10126,7 +10144,6 @@
     <e><i>asuel</i><par n="us/u__n"/></e>
     <e><i>asunci</i><par n="aici/ón__n"/></e>
     <e><i>asunt</i><par n="us/u__n"/></e>
-    <e><i>at</i><par n="at/ún__n"/></e>
     <e><i>atabal</i><par n="mes__n"/></e>
     <e><i>atab</i><par n="ablan/éu__n"/></e>
     <e><i>atabler</i><par n="us/u__n"/></e>
@@ -10195,6 +10212,7 @@
     <e><i>atib</i><par n="alde/a__n"/></e>
     <e><i>átic</i><par n="us/u__n"/></e>
     <e><i>átig</i><par n="us/u__n"/></e>
+    <e><i>at</i><par n="at/ún__n"/></e>
     <e><i>atizador</i><par n="mes__n"/></e>
     <e><i>atizador</i><par n="redactor__n"/></e>
     <e><i>atizadur</i><par n="alde/a__n"/></e>
@@ -10328,8 +10346,10 @@
     <e><i>aurícul</i><par n="alde/a__n"/></e>
     <e><i>auror</i><par n="alde/a__n"/></e>
     <e><i>auscultaci</i><par n="aici/ón__n"/></e>
+    <e><i>austerid</i><par n="activid/á__n"/></e>
     <e><i>australopitec</i><par n="us/u__n"/></e>
     <e><i>austr</i><par n="us/u__n"/></e>
+    <e><i>autenticid</i><par n="activid/á__n"/></e>
     <e><i>aut</i><par n="us/u__n"/></e>
     <e><i>autobiografí</i><par n="alde/a__n"/></e>
     <e><i>autobiógraf</i><par n="llob/u__n"/></e>
@@ -10355,6 +10375,7 @@
     <e><i>automovilism</i><par n="us/u__n"/></e>
     <e><i>autonomí</i><par n="alde/a__n"/></e>
     <e><i>autopist</i><par n="alde/a__n"/></e>
+    <e><i>autorid</i><par n="activid/á__n"/></e>
     <e><i>autorí</i><par n="alde/a__n"/></e>
     <e><i>autor</i><par n="mes__n"/></e>
     <e><i>autoritarism</i><par n="us/u__n"/></e>
@@ -10443,6 +10464,7 @@
     <e><i>axetigu</i><par n="us/u__n"/></e>
     <e><i>axetivaci</i><par n="aici/ón__n"/></e>
     <e><i>axetiv</i><par n="us/u__n"/></e>
+    <e><i>axilid</i><par n="activid/á__n"/></e>
     <e><i>axofre</i><par n="abordaxe__n"/></e>
     <e><i>axoloxí</i><par n="alde/a__n"/></e>
     <e><i>axom</i><par n="alde/a__n"/></e>
@@ -10769,6 +10791,7 @@
     <e><i>barbadiell</i><par n="alde/a__n"/></e>
     <e><i>barbadur</i><par n="alde/a__n"/></e>
     <e><i>barba</i><par n="iverna/da__n"/></e>
+    <e><i>barbarid</i><par n="activid/á__n"/></e>
     <e><i>barbarie</i><par n="llave__n"/></e>
     <e><i>barbarism</i><par n="us/u__n"/></e>
     <e><i>barbay</i><par n="alde/a__n"/></e>
@@ -11104,6 +11127,7 @@
     <e><i>beles</i><par n="alde/a__n"/></e>
     <e><i>belg</i><par n="ayalg/a__n"/></e>
     <e><i>belicism</i><par n="us/u__n"/></e>
+    <e><i>belicosid</i><par n="activid/á__n"/></e>
     <e><i>beliell</i><par n="alde/a__n"/></e>
     <e><i>beliell</i><par n="us/u__n"/></e>
     <e><i>beli</i><par n="us/u__n"/></e>
@@ -11121,6 +11145,7 @@
     <e><i>benefici</i><par n="abog/áu__n"/></e>
     <e><i>benefici</i><par n="us/u__n"/></e>
     <e><i>beneit</i><par n="us/u__n"/></e>
+    <e><i>benid</i><par n="activid/á__n"/></e>
     <e><i>ben</i><par n="cam/ín__n"/></e>
     <e><i>benital</i><par n="mes__n"/></e>
     <e><i>benit</i><par n="us/u__n"/></e>
@@ -11180,6 +11205,7 @@
     <e><i>berzuel</i><par n="alde/a__n"/></e>
     <e><i>bes</i><par n="alde/a__n"/></e>
     <e><i>bes</i><par n="us/u__n"/></e>
+    <e><i>bestialid</i><par n="activid/á__n"/></e>
     <e><i>besug</i><par n="us/u__n"/></e>
     <e><i>besuguer</i><par n="alde/a__n"/></e>
     <e><i>bet</i><par n="alde/a__n"/></e>
@@ -11352,6 +11378,7 @@
     <e><i>bisbuel</i><par n="us/u__n"/></e>
     <e><i>biscata</i><par n="iverna/da__n"/></e>
     <e><i>biseici</i><par n="aici/ón__n"/></e>
+    <e><i>bisexualid</i><par n="activid/á__n"/></e>
     <e><i>bisgüel</i><par n="llob/u__n"/></e>
     <e><i>bisgüel</i><par n="us/u__n"/></e>
     <e><i>bisll</i><par n="us/u__n"/></e>
@@ -11557,7 +11584,7 @@
     <e><i>bonan</i><par n="adivinan/za__n"/></e>
     <e><i>bonaventuran</i><par n="adivinan/za__n"/></e>
     <e><i>bonaventur</i><par n="alde/a__n"/></e>
-    <e><i>bond</i><par n="ciud/á__n"/></e>
+    <e><i>bond</i><par n="activid/á__n"/></e>
     <e><i>boneta</i><par n="iverna/da__n"/></e>
     <e><i>bonete</i><par n="abordaxe__n"/></e>
     <e><i>bong</i><par n="us/u__n"/></e>
@@ -11837,8 +11864,9 @@
     <e><i>brusel</i><par n="alde/a__n"/></e>
     <e><i>brusel</i><par n="mes__n"/></e>
     <e><i>brus</i><par n="alde/a__n"/></e>
-    <e><i>brusqued</i><par n="ciud/á__n"/></e>
+    <e><i>brusqued</i><par n="activid/á__n"/></e>
     <e><i>brusquer</i><par n="alde/a__n"/></e>
+    <e><i>brutalid</i><par n="activid/á__n"/></e>
     <e><i>bruxarra</i><par n="iverna/da__n"/></e>
     <e><i>bruxerí</i><par n="alde/a__n"/></e>
     <e><i>bruxilerí</i><par n="alde/a__n"/></e>
@@ -12257,6 +12285,7 @@
     <e><i>cadriler</i><par n="alde/a__n"/></e>
     <e><i>cadril</i><par n="mes__n"/></e>
     <e><i>cadrouc</i><par n="us/u__n"/></e>
+    <e><i>caducid</i><par n="activid/á__n"/></e>
     <e><i>caduern</i><par n="us/u__n"/></e>
     <e><i>caell</i><par n="alde/a__n"/></e>
     <e><i>caell</i><par n="avi/ón__n"/></e>
@@ -12384,6 +12413,7 @@
     <e><i>calambr</i><par n="us/u__n"/></e>
     <e><i>calambriz</i><par n="us/u__n"/></e>
     <e><i>calament</i><par n="us/u__n"/></e>
+    <e><i>calamid</i><par n="activid/á__n"/></e>
     <e><i>calamin</i><par n="alde/a__n"/></e>
     <e><i>calamiñer</i><par n="us/u__n"/></e>
     <e><i>calam</i><par n="avi/ón__n"/></e>
@@ -12509,6 +12539,7 @@
     <e><i>calicat</i><par n="alde/a__n"/></e>
     <e><i>cálice</i><par n="abordaxe__n"/></e>
     <e><i>calicor</i><par n="mes__n"/></e>
+    <e><i>calid</i><par n="activid/á__n"/></e>
     <e><i>calidoscopi</i><par n="us/u__n"/></e>
     <e><i>caliend</i><par n="alde/a__n"/></e>
     <e><i>calientamanes</i><par n="aboques__n"/></e>
@@ -12828,7 +12859,7 @@
     <e><i>canque</i><par n="abordaxe__n"/></e>
     <e><i>canrái</i><par n="abordaxe__n"/></e>
     <e><i>cansanci</i><par n="us/u__n"/></e>
-    <e><i>cansed</i><par n="ciud/á__n"/></e>
+    <e><i>cansed</i><par n="activid/á__n"/></e>
     <e><i>canser</i><par n="alde/a__n"/></e>
     <e><i>cantader</i><par n="alde/a__n"/></e>
     <e><i>cantador</i><par n="alde/a__n"/></e>
@@ -12865,6 +12896,7 @@
     <e><i>cantex</i><par n="us/u__n"/></e>
     <e><i>cantia</i><par n="iverna/da__n"/></e>
     <e><i>cántic</i><par n="us/u__n"/></e>
+    <e><i>cantid</i><par n="activid/á__n"/></e>
     <e><i>cantiell</i><par n="us/u__n"/></e>
     <e><i>cantig</i><par n="ayalg/a__n"/></e>
     <e><i>canti</i><par n="aclar/áu__n"/></e>
@@ -12949,6 +12981,7 @@
     <e><i>capacha</i><par n="iverna/da__n"/></e>
     <e><i>capach</i><par n="aclar/áu__n"/></e>
     <e><i>capach</i><par n="us/u__n"/></e>
+    <e><i>capacid</i><par n="activid/á__n"/></e>
     <e><i>capacitaci</i><par n="aici/ón__n"/></e>
     <e><i>capacor</i><par n="us/u__n"/></e>
     <e><i>capader</i><par n="alde/a__n"/></e>
@@ -13182,6 +13215,7 @@
     <e><i>caricol</i><par n="mes__n"/></e>
     <e><i>caricote</i><par n="abordaxe__n"/></e>
     <e><i>caricox</i><par n="mes__n"/></e>
+    <e><i>carid</i><par n="activid/á__n"/></e>
     <e><i>caries</i><par n="aboques__n"/></e>
     <e><i>carif</i><par n="us/u__n"/></e>
     <e><i>cari</i><par n="aclar/áu__n"/></e>
@@ -13529,6 +13563,7 @@
     <e><i>castellar</i><par n="mes__n"/></e>
     <e><i>casticism</i><par n="us/u__n"/></e>
     <e><i>casticist</i><par n="alde/a__n"/></e>
+    <e><i>castid</i><par n="activid/á__n"/></e>
     <e><i>castiell</i><par n="us/u__n"/></e>
     <e><i>castig</i><par n="ayalg/a__n"/></e>
     <e><i>castig</i><par n="us/u__n"/></e>
@@ -13546,6 +13581,7 @@
     <e><i>castrona</i><par n="iverna/da__n"/></e>
     <e><i>castroner</i><par n="llob/u__n"/></e>
     <e><i>castroner</i><par n="us/u__n"/></e>
+    <e><i>casualid</i><par n="activid/á__n"/></e>
     <e><i>casuari</i><par n="us/u__n"/></e>
     <e><i>casuísti</i><par n="músi/ca__n"/></e>
     <e><i>casull</i><par n="alde/a__n"/></e>
@@ -13558,6 +13594,7 @@
     <e><i>catador</i><par n="alde/a__n"/></e>
     <e><i>catadur</i><par n="alde/a__n"/></e>
     <e><i>catafalc</i><par n="us/u__n"/></e>
+    <e><i>catalanid</i><par n="activid/á__n"/></e>
     <e><i>catalan</i><par n="alde/a__n"/></e>
     <e><i>catalanism</i><par n="us/u__n"/></e>
     <e><i>catalanizaci</i><par n="aici/ón__n"/></e>
@@ -13602,6 +13639,7 @@
     <e><i>cat</i><par n="alde/a__n"/></e>
     <e><i>cat</i><par n="us/u__n"/></e>
     <e><i>cátod</i><par n="us/u__n"/></e>
+    <e><i>catolicid</i><par n="activid/á__n"/></e>
     <e><i>catolicism</i><par n="us/u__n"/></e>
     <e><i>catolizaci</i><par n="aici/ón__n"/></e>
     <e><i>catorceav</i><par n="us/u__n"/></e>
@@ -13614,7 +13652,9 @@
     <e><i>caudañ</i><par n="us/u__n"/></e>
     <e><i>caudiell</i><par n="us/u__n"/></e>
     <e><i>cauneich</i><par n="us/u__n"/></e>
+    <e><i>causalid</i><par n="activid/á__n"/></e>
     <e><i>caus</i><par n="alde/a__n"/></e>
+    <e><i>causticid</i><par n="activid/á__n"/></e>
     <e><i>cáusul</i><par n="alde/a__n"/></e>
     <e><i>cavader</i><par n="alde/a__n"/></e>
     <e><i>cavader</i><par n="us/u__n"/></e>
@@ -13625,6 +13665,7 @@
     <e><i>caviar</i><par n="mes__n"/></e>
     <e><i>cavicorni</i><par n="us/u__n"/></e>
     <e><i>cavicuern</i><par n="alde/a__n"/></e>
+    <e><i>cavid</i><par n="activid/á__n"/></e>
     <e><i>caví</i><par n="alde/a__n"/></e>
     <e><i>cavilaci</i><par n="aici/ón__n"/></e>
     <e><i>cavilgadur</i><par n="alde/a__n"/></e>
@@ -13758,6 +13799,7 @@
     <e><i>celax</i><par n="mes__n"/></e>
     <e><i>celd</i><par n="alde/a__n"/></e>
     <e><i>celebraci</i><par n="aici/ón__n"/></e>
+    <e><i>celebrid</i><par n="activid/á__n"/></e>
     <e><i>celebr</i><par n="us/u__n"/></e>
     <e><i>celembr</i><par n="us/u__n"/></e>
     <e><i>celentere</i><par n="us/u__n"/></e>
@@ -13958,7 +14000,7 @@
     <e><i>chabol</i><par n="alde/a__n"/></e>
     <e><i>chabol</i><par n="us/u__n"/></e>
     <e><i>chacal</i><par n="mes__n"/></e>
-    <e><i>chachach</i><par n="ciud/á__n"/></e>
+    <e><i>chachach</i><par n="activid/á__n"/></e>
     <e><i>cháchar</i><par n="alde/a__n"/></e>
     <e><i>chacol</i><par n="cam/ín__n"/></e>
     <e><i>chafardin</i><par n="alde/a__n"/></e>
@@ -14489,6 +14531,7 @@
     <e><i>circoni</i><par n="us/u__n"/></e>
     <e><i>circuit</i><par n="us/u__n"/></e>
     <e><i>circulaci</i><par n="aici/ón__n"/></e>
+    <e><i>circularid</i><par n="activid/á__n"/></e>
     <e><i>círcul</i><par n="us/u__n"/></e>
     <e><i>circuncisi</i><par n="aici/ón__n"/></e>
     <e><i>circunflex</i><par n="us/u__n"/></e>
@@ -14557,7 +14600,7 @@
     <e><i>ciudadan</i><par n="llob/u__n"/></e>
     <e><i>ciudadan</i><par n="us/u__n"/></e>
     <e><i>ciudadel</i><par n="alde/a__n"/></e>
-    <e><i>ciud</i><par n="ciud/á__n"/></e>
+    <e><i>ciud</i><par n="activid/á__n"/></e>
     <e><i>civil</i><par n="esquimal__n"/></e>
     <e><i>civilist</i><par n="alde/a__n"/></e>
     <e><i>civilizaci</i><par n="aici/ón__n"/></e>
@@ -14572,6 +14615,7 @@
     <e><i>clamiyer</i><par n="us/u__n"/></e>
     <e><i>clamor</i><par n="ablan/éu__n"/></e>
     <e><i>clamor</i><par n="mes__n"/></e>
+    <e><i>clandestinid</i><par n="activid/á__n"/></e>
     <e><i>clangori</i><par n="us/u__n"/></e>
     <e><i>clangor</i><par n="us/u__n"/></e>
     <e><i>clare</i><par n="adivinan/za__n"/></e>
@@ -14579,6 +14623,7 @@
     <e><i>claretian</i><par n="llob/u__n"/></e>
     <e><i>claretian</i><par n="us/u__n"/></e>
     <e><i>claria</i><par n="iverna/da__n"/></e>
+    <e><i>clarid</i><par n="activid/á__n"/></e>
     <e><i>clari</i><par n="avi/ón__n"/></e>
     <e><i>clarina</i><par n="iverna/da__n"/></e>
     <e><i>clariner</i><par n="llob/u__n"/></e>
@@ -14816,6 +14861,7 @@
     <e><i>colete</i><par n="abordaxe__n"/></e>
     <e><i>colet</i><par n="alde/a__n"/></e>
     <e><i>coleut</i><par n="alde/a__n"/></e>
+    <e><i>coleutivid</i><par n="activid/á__n"/></e>
     <e><i>coleutiv</i><par n="us/u__n"/></e>
     <e><i>coleutivism</i><par n="us/u__n"/></e>
     <e><i>coleutivizaci</i><par n="aici/ón__n"/></e>
@@ -14965,6 +15011,7 @@
     <e><i>comisari</i><par n="us/u__n"/></e>
     <e><i>comisi</i><par n="aici/ón__n"/></e>
     <e><i>comité</i><par n="abordaxe__n"/></e>
+    <e><i>comodid</i><par n="activid/á__n"/></e>
     <e><i>cómod</i><par n="alde/a__n"/></e>
     <e><i>comod</i><par n="cam/ín__n"/></e>
     <e><i>compadecimient</i><par n="us/u__n"/></e>
@@ -14981,19 +15028,23 @@
     <e><i>compars</i><par n="alde/a__n"/></e>
     <e><i>compartimient</i><par n="us/u__n"/></e>
     <e><i>compasi</i><par n="aici/ón__n"/></e>
+    <e><i>compatibilid</i><par n="activid/á__n"/></e>
     <e><i>compaut</i><par n="us/u__n"/></e>
     <e><i>compaxinaci</i><par n="aici/ón__n"/></e>
     <e><i>compendi</i><par n="us/u__n"/></e>
     <e><i>compensaci</i><par n="aici/ón__n"/></e>
     <e><i>competici</i><par n="aici/ón__n"/></e>
+    <e><i>competitivid</i><par n="activid/á__n"/></e>
     <e><i>compilaci</i><par n="aici/ón__n"/></e>
     <e><i>compinche</i><par n="abordaxe__n"/></e>
     <e><i>complementaci</i><par n="aici/ón__n"/></e>
-    <e><i>complementaried</i><par n="ciud/á__n"/></e>
+    <e><i>complementaried</i><par n="activid/á__n"/></e>
     <e><i>complement</i><par n="us/u__n"/></e>
+    <e><i>complexid</i><par n="activid/á__n"/></e>
     <e><i>complex</i><par n="aici/ón__n"/></e>
     <e><i>complex</i><par n="us/u__n"/></e>
     <e><i>complicaci</i><par n="aici/ón__n"/></e>
+    <e><i>complicid</i><par n="activid/á__n"/></e>
     <e><i>componedori</i><par n="us/u__n"/></e>
     <e><i>componedur</i><par n="alde/a__n"/></e>
     <e><i>componend</i><par n="alde/a__n"/></e>
@@ -15022,6 +15073,7 @@
     <e><i>comunicaci</i><par n="aici/ón__n"/></e>
     <e><i>comunicante</i><par n="axente__n"/></e>
     <e><i>comunic</i><par n="aclar/áu__n"/></e>
+    <e><i>comunid</i><par n="activid/á__n"/></e>
     <e><i>comuni</i><par n="aici/ón__n"/></e>
     <e><i>comunism</i><par n="us/u__n"/></e>
     <e><i>comuñer</i><par n="llob/u__n"/></e>
@@ -15031,6 +15083,7 @@
     <e><i>concana</i><par n="iverna/da__n"/></e>
     <e><i>cóncan</i><par n="us/u__n"/></e>
     <e><i>concaus</i><par n="alde/a__n"/></e>
+    <e><i>concavid</i><par n="activid/á__n"/></e>
     <e><i>conceici</i><par n="aici/ón__n"/></e>
     <e><i>concelebraci</i><par n="aici/ón__n"/></e>
     <e><i>concen</i><par n="us/u__n"/></e>
@@ -15084,6 +15137,7 @@
     <e><i>conduct</i><par n="alde/a__n"/></e>
     <e><i>conduct</i><par n="us/u__n"/></e>
     <e><i>conductism</i><par n="us/u__n"/></e>
+    <e><i>conductivid</i><par n="activid/á__n"/></e>
     <e><i>conductor</i><par n="redactor__n"/></e>
     <e><i>conexal</i><par n="mes__n"/></e>
     <e><i>conexer</i><par n="alde/a__n"/></e>
@@ -15113,6 +15167,7 @@
     <e><i>confitur</i><par n="alde/a__n"/></e>
     <e><i>conflict</i><par n="us/u__n"/></e>
     <e><i>conformaci</i><par n="aici/ón__n"/></e>
+    <e><i>conformid</i><par n="activid/á__n"/></e>
     <e><i>conformism</i><par n="us/u__n"/></e>
     <e><i>confrade</i><par n="axente__n"/></e>
     <e><i>confraderí</i><par n="alde/a__n"/></e>
@@ -15148,6 +15203,7 @@
     <e><i>conquiy</i><par n="us/u__n"/></e>
     <e><i>conrobl</i><par n="alde/a__n"/></e>
     <e><i>consagraci</i><par n="aici/ón__n"/></e>
+    <e><i>consanguineid</i><par n="activid/á__n"/></e>
     <e><i>consens</i><par n="us/u__n"/></e>
     <e><i>consentimient</i><par n="us/u__n"/></e>
     <e><i>conseñamient</i><par n="us/u__n"/></e>
@@ -15177,6 +15233,7 @@
     <e><i>constelaci</i><par n="aici/ón__n"/></e>
     <e><i>constip</i><par n="aclar/áu__n"/></e>
     <e><i>constituci</i><par n="aici/ón__n"/></e>
+    <e><i>constitucionalid</i><par n="activid/á__n"/></e>
     <e><i>construcci</i><par n="aici/ón__n"/></e>
     <e><i>constructor</i><par n="alde/a__n"/></e>
     <e><i>constructor</i><par n="redactor__n"/></e>
@@ -15192,6 +15249,7 @@
     <e><i>consumidor</i><par n="redactor__n"/></e>
     <e><i>consum</i><par n="us/u__n"/></e>
     <e><i>consumism</i><par n="us/u__n"/></e>
+    <e><i>contabilid</i><par n="activid/á__n"/></e>
     <e><i>contable</i><par n="axente__n"/></e>
     <e><i>contact</i><par n="us/u__n"/></e>
     <e><i>contadorí</i><par n="alde/a__n"/></e>
@@ -15214,6 +15272,7 @@
     <e><i>contindaxe</i><par n="abordaxe__n"/></e>
     <e><i>contindax</i><par n="mes__n"/></e>
     <e><i>continente</i><par n="abordaxe__n"/></e>
+    <e><i>continuid</i><par n="activid/á__n"/></e>
     <e><i>cont</i><par n="ablan/éu__n"/></e>
     <e><i>cont</i><par n="us/u__n"/></e>
     <e><i>contomeñ</i><par n="us/u__n"/></e>
@@ -15249,7 +15308,7 @@
     <e><i>contraposici</i><par n="aici/ón__n"/></e>
     <e><i>contrapropuest</i><par n="alde/a__n"/></e>
     <e><i>contrapunt</i><par n="us/u__n"/></e>
-    <e><i>contraried</i><par n="ciud/á__n"/></e>
+    <e><i>contraried</i><par n="activid/á__n"/></e>
     <e><i>contrarreform</i><par n="alde/a__n"/></e>
     <e><i>contrasentí</i><par n="us/u__n"/></e>
     <e><i>contrastamient</i><par n="us/u__n"/></e>
@@ -15282,6 +15341,7 @@
     <e><i>conversi</i><par n="aici/ón__n"/></e>
     <e><i>convertidor</i><par n="redactor__n"/></e>
     <e><i>convertimient</i><par n="us/u__n"/></e>
+    <e><i>convexid</i><par n="activid/á__n"/></e>
     <e><i>convey</i><par n="us/u__n"/></e>
     <e><i>convida</i><par n="iverna/da__n"/></e>
     <e><i>convid</i><par n="aclar/áu__n"/></e>
@@ -15306,8 +15366,10 @@
     <e><i>conxur</i><par n="us/u__n"/></e>
     <e><i>conxust</i><par n="alde/a__n"/></e>
     <e><i>coñá</i><par n="abordaxe__n"/></e>
+    <e><i>coñ</i><par n="activid/á__n"/></e>
     <e><i>coñ</i><par n="us/u__n"/></e>
     <e><i>coñocimient</i><par n="us/u__n"/></e>
+    <e><i>cooficialid</i><par n="activid/á__n"/></e>
     <e><i>cooperaci</i><par n="aici/ón__n"/></e>
     <e><i>cooperativ</i><par n="alde/a__n"/></e>
     <e><i>cooperativism</i><par n="us/u__n"/></e>
@@ -15341,7 +15403,7 @@
     <e><i>copon</i><par n="alde/a__n"/></e>
     <e><i>copr</i><par n="alde/a__n"/></e>
     <e><i>coproducci</i><par n="aici/ón__n"/></e>
-    <e><i>copropied</i><par n="ciud/á__n"/></e>
+    <e><i>copropied</i><par n="activid/á__n"/></e>
     <e><i>copropietari</i><par n="llob/u__n"/></e>
     <e><i>copropietari</i><par n="us/u__n"/></e>
     <e><i>copt</i><par n="llob/u__n"/></e>
@@ -15399,6 +15461,7 @@
     <e><i>corder</i><par n="cam/ín__n"/></e>
     <e><i>corder</i><par n="llob/u__n"/></e>
     <e><i>corder</i><par n="us/u__n"/></e>
+    <e><i>cordialid</i><par n="activid/á__n"/></e>
     <e><i>cordiell</i><par n="alde/a__n"/></e>
     <e><i>cordi</i><par n="avi/ón__n"/></e>
     <e><i>cord</i><par n="aclar/áu__n"/></e>
@@ -15575,7 +15638,7 @@
     <e><i>cortapis</i><par n="alde/a__n"/></e>
     <e><i>cortat</i><par n="us/u__n"/></e>
     <e><i>cortaúñes</i><par n="llunes__n"/></e>
-    <e><i>corted</i><par n="ciud/á__n"/></e>
+    <e><i>corted</i><par n="activid/á__n"/></e>
     <e><i>cortega</i><par n="iverna/da__n"/></e>
     <e><i>corte</i><par n="abordaxe__n"/></e>
     <e><i>corte</i><par n="adivinan/za__n"/></e>
@@ -15806,11 +15869,13 @@
     <e><i>cráter</i><par n="mes__n"/></e>
     <e><i>creaci</i><par n="aici/ón__n"/></e>
     <e><i>creacionism</i><par n="us/u__n"/></e>
+    <e><i>creativid</i><par n="activid/á__n"/></e>
     <e><i>creatur</i><par n="alde/a__n"/></e>
     <e><i>creceder</i><par n="alde/a__n"/></e>
     <e><i>creciente</i><par n="abordaxe__n"/></e>
     <e><i>crecimient</i><par n="us/u__n"/></e>
     <e><i>crec</i><par n="atardec/ida__n"/></e>
+    <e><i>credibilid</i><par n="activid/á__n"/></e>
     <e><i>cred</i><par n="us/u__n"/></e>
     <e><i>crédit</i><par n="us/u__n"/></e>
     <e><i>cre</i><par n="us/u__n"/></e>
@@ -15870,7 +15935,7 @@
     <e><i>cristalizaci</i><par n="aici/ón__n"/></e>
     <e><i>cristalografí</i><par n="alde/a__n"/></e>
     <e><i>cristaloide</i><par n="abordaxe__n"/></e>
-    <e><i>cristiand</i><par n="ciud/á__n"/></e>
+    <e><i>cristiand</i><par n="activid/á__n"/></e>
     <e><i>cristian</i><par n="llob/u__n"/></e>
     <e><i>cristian</i><par n="us/u__n"/></e>
     <e><i>cristianism</i><par n="us/u__n"/></e>
@@ -15913,7 +15978,7 @@
     <e><i>cruciy</i><par n="avi/ón__n"/></e>
     <e><i>crude</i><par n="adivinan/za__n"/></e>
     <e><i>crudill</i><par n="us/u__n"/></e>
-    <e><i>crueld</i><par n="ciud/á__n"/></e>
+    <e><i>crueld</i><par n="activid/á__n"/></e>
     <e><i>cru</i><par n="actri/z__n"/></e>
     <e><i>crume</i><par n="abordaxe__n"/></e>
     <e><i>crustace</i><par n="us/u__n"/></e>
@@ -15946,6 +16011,7 @@
     <e><i>cuadruman</i><par n="us/u__n"/></e>
     <e><i>cuadrúped</i><par n="us/u__n"/></e>
     <e><i>cuádrupl</i><par n="us/u__n"/></e>
+    <e><i>cualid</i><par n="activid/á__n"/></e>
     <e><i>cuantificaci</i><par n="aici/ón__n"/></e>
     <e><i>cuantí</i><par n="alde/a__n"/></e>
     <e><i>cuant</i><par n="us/u__n"/></e>
@@ -16132,6 +16198,7 @@
     <e><i>cul</i><par n="cam/ín__n"/></e>
     <e><i>cul</i><par n="us/u__n"/></e>
     <e><i>culombi</i><par n="us/u__n"/></e>
+    <e><i>culpabilid</i><par n="activid/á__n"/></e>
     <e><i>culp</i><par n="alde/a__n"/></e>
     <e><i>culteranism</i><par n="us/u__n"/></e>
     <e><i>cult</i><par n="us/u__n"/></e>
@@ -16191,6 +16258,7 @@
     <e><i>cureñ</i><par n="alde/a__n"/></e>
     <e><i>curi</i><par n="us/u__n"/></e>
     <e><i>curiose</i><par n="adivinan/za__n"/></e>
+    <e><i>curiosid</i><par n="activid/á__n"/></e>
     <e><i>curios</i><par n="us/u__n"/></e>
     <e><i>curiosur</i><par n="alde/a__n"/></e>
     <e><i>cur</i><par n="alde/a__n"/></e>
@@ -16320,6 +16388,7 @@
     <e><i>debell</i><par n="alde/a__n"/></e>
     <e><i>deber</i><par n="mes__n"/></e>
     <e><i>debile</i><par n="adivinan/za__n"/></e>
+    <e><i>debilid</i><par n="activid/á__n"/></e>
     <e><i>debilitaci</i><par n="aici/ón__n"/></e>
     <e><i>debilitamient</i><par n="us/u__n"/></e>
     <e><i>debill</i><par n="alde/a__n"/></e>
@@ -16382,6 +16451,7 @@
     <e><i>definici</i><par n="aici/ón__n"/></e>
     <e><i>deflaci</i><par n="aici/ón__n"/></e>
     <e><i>deformaci</i><par n="aici/ón__n"/></e>
+    <e><i>deformid</i><par n="activid/á__n"/></e>
     <e><i>defraudaci</i><par n="aici/ón__n"/></e>
     <e><i>defraudadur</i><par n="alde/a__n"/></e>
     <e><i>degañ</i><par n="us/u__n"/></e>
@@ -16392,6 +16462,7 @@
     <e><i>degradadur</i><par n="alde/a__n"/></e>
     <e><i>degred</i><par n="us/u__n"/></e>
     <e><i>deguayes</i><par n="aboques__n"/></e>
+    <e><i>deid</i><par n="activid/á__n"/></e>
     <e><i>de</i><par n="af/án__n"/></e>
     <e><i>de</i><par n="llave__n"/></e>
     <e><i>de</i><par n="us/u__n"/></e>
@@ -16460,6 +16531,7 @@
     <e><i>denominador</i><par n="mes__n"/></e>
     <e><i>denominador</i><par n="redactor__n"/></e>
     <e><i>denotaci</i><par n="aici/ón__n"/></e>
+    <e><i>densid</i><par n="activid/á__n"/></e>
     <e><i>densímetr</i><par n="us/u__n"/></e>
     <e><i>dentadume</i><par n="abordaxe__n"/></e>
     <e><i>dentadur</i><par n="alde/a__n"/></e>
@@ -16486,6 +16558,7 @@
     <e><i>depilaci</i><par n="aici/ón__n"/></e>
     <e><i>deporte</i><par n="abordaxe__n"/></e>
     <e><i>deportist</i><par n="acróbat/a__n"/></e>
+    <e><i>deportivid</i><par n="activid/á__n"/></e>
     <e><i>depósit</i><par n="us/u__n"/></e>
     <e><i>depredaci</i><par n="aici/ón__n"/></e>
     <e><i>deprendimient</i><par n="us/u__n"/></e>
@@ -16755,17 +16828,17 @@
     <e><i>desiguadur</i><par n="alde/a__n"/></e>
     <e><i>desigualadur</i><par n="alde/a__n"/></e>
     <e><i>desigualamient</i><par n="us/u__n"/></e>
-    <e><i>desiguald</i><par n="ciud/á__n"/></e>
+    <e><i>desiguald</i><par n="activid/á__n"/></e>
     <e><i>desigüe</i><par n="abordaxe__n"/></e>
     <e><i>desilusi</i><par n="aici/ón__n"/></e>
+    <e><i>desinfinid</i><par n="activid/á__n"/></e>
     <e><i>desinflamaci</i><par n="aici/ón__n"/></e>
     <e><i>desinformaci</i><par n="aici/ón__n"/></e>
     <e><i>desintegraci</i><par n="aici/ón__n"/></e>
     <e><i>desintoxicaci</i><par n="aici/ón__n"/></e>
     <e><i>des</i><par n="ablan/éu__n"/></e>
     <e><i>des</i><par n="músi/ca__n"/></e>
-
-    <e><i>desllealt</i><par n="ciud/á__n"/></e>
+    <e><i>desllealt</i><par n="activid/á__n"/></e>
     <e><i>desllinde</i><par n="abordaxe__n"/></e>
     <e><i>desllucimient</i><par n="us/u__n"/></e>
     <e><i>desmangadur</i><par n="alde/a__n"/></e>
@@ -16946,9 +17019,10 @@
     <e><i>diezm</i><par n="us/u__n"/></e>
     <e><i>diferenciaci</i><par n="aici/ón__n"/></e>
     <e><i>diferencial</i><par n="mes__n"/></e>
-    <e><i>dificult</i><par n="ciud/á__n"/></e>
+    <e><i>dificult</i><par n="activid/á__n"/></e>
     <e><i>difunt</i><par n="us/u__n"/></e>
     <e><i>dignatari</i><par n="us/u__n"/></e>
+    <e><i>dignid</i><par n="activid/á__n"/></e>
     <e><i>dignificaci</i><par n="aici/ón__n"/></e>
     <e><i>dígraf</i><par n="us/u__n"/></e>
     <e><i>digurindaines</i><par n="aboques__n"/></e>
@@ -17013,6 +17087,7 @@
     <e><i>discípul</i><par n="us/u__n"/></e>
     <e><i>discóbol</i><par n="us/u__n"/></e>
     <e><i>discografí</i><par n="alde/a__n"/></e>
+    <e><i>disconformid</i><par n="activid/á__n"/></e>
     <e><i>discote</i><par n="músi/ca__n"/></e>
     <e><i>discreci</i><par n="aici/ón__n"/></e>
     <e><i>discriminaci</i><par n="aici/ón__n"/></e>
@@ -17061,9 +17136,11 @@
     <e><i>distrit</i><par n="us/u__n"/></e>
     <e><i>dit</i><par n="alde/a__n"/></e>
     <e><i>diuresis</i><par n="crisis__n"/></e>
+    <e><i>diversid</i><par n="activid/á__n"/></e>
     <e><i>diviall</i><par n="us/u__n"/></e>
     <e><i>dividend</i><par n="us/u__n"/></e>
     <e><i>divilluri</i><par n="us/u__n"/></e>
+    <e><i>divinid</i><par n="activid/á__n"/></e>
     <e><i>divisi</i><par n="aici/ón__n"/></e>
     <e><i>divis</i><par n="alde/a__n"/></e>
     <e><i>divisor</i><par n="mes__n"/></e>
@@ -17089,6 +17166,7 @@
     <e><i>doceav</i><par n="us/u__n"/></e>
     <e><i>doce</i><par n="abordaxe__n"/></e>
     <e><i>docen</i><par n="alde/a__n"/></e>
+    <e><i>docilid</i><par n="activid/á__n"/></e>
     <e><i>doctorand</i><par n="us/u__n"/></e>
     <e><i>doctor</i><par n="aclar/áu__n"/></e>
     <e><i>doctor</i><par n="redactor__n"/></e>
@@ -17171,11 +17249,13 @@
     <e><i>droguer</i><par n="us/u__n"/></e>
     <e><i>dromedari</i><par n="us/u__n"/></e>
     <e><i>dru</i><par n="atardec/ida__n"/></e>
+    <e><i>dualid</i><par n="activid/á__n"/></e>
     <e><i>dualism</i><par n="us/u__n"/></e>
     <e><i>duble</i><par n="abordaxe__n"/></e>
     <e><i>dubl</i><par n="us/u__n"/></e>
     <e><i>dúcil</i><par n="mes__n"/></e>
     <e><i>duc</i><par n="aclar/áu__n"/></e>
+    <e><i>ductilid</i><par n="activid/á__n"/></e>
     <e><i>dud</i><par n="alde/a__n"/></e>
     <e><i>duelg</i><par n="us/u__n"/></e>
     <e><i>duel</i><par n="alde/a__n"/></e>
@@ -17258,7 +17338,7 @@
     <e><i>edificaci</i><par n="aici/ón__n"/></e>
     <e><i>edifici</i><par n="us/u__n"/></e>
     <e><i>edil</i><par n="esquimal__n"/></e>
-    <e><i>ed</i><par n="ciud/á__n"/></e>
+    <e><i>ed</i><par n="activid/á__n"/></e>
     <e><i>editorial</i><par n="a__n"/></e>
     <e><i>editorialist</i><par n="alde/a__n"/></e>
     <e><i>editor</i><par n="redactor__n"/></e>
@@ -17268,9 +17348,11 @@
     <e><i>educador</i><par n="redactor__n"/></e>
     <e><i>efeb</i><par n="us/u__n"/></e>
     <e><i>efect</i><par n="us/u__n"/></e>
+    <e><i>efectivid</i><par n="activid/á__n"/></e>
     <e><i>efe</i><par n="llave__n"/></e>
     <e><i>efeméride</i><par n="llave__n"/></e>
     <e><i>efeut</i><par n="us/u__n"/></e>
+    <e><i>efeutivid</i><par n="activid/á__n"/></e>
     <e><i>efixe</i><par n="llave__n"/></e>
     <e><i>efix</i><par n="mes__n"/></e>
     <e><i>églog</i><par n="ayalg/a__n"/></e>
@@ -17282,6 +17364,7 @@
     <e><i>e</i><par n="avi/ón__n"/></e>
     <e><i>eixuel</i><par n="alde/a__n"/></e>
     <e><i>elasmobranqui</i><par n="us/u__n"/></e>
+    <e><i>elasticid</i><par n="activid/á__n"/></e>
     <e><i>elástic</i><par n="us/u__n"/></e>
     <e><i>elásti</i><par n="músi/ca__n"/></e>
     <e><i>elecci</i><par n="aici/ón__n"/></e>
@@ -17443,6 +17526,7 @@
     <e><i>emisor</i><par n="alde/a__n"/></e>
     <e><i>emisor</i><par n="redactor__n"/></e>
     <e><i>emoci</i><par n="aici/ón__n"/></e>
+    <e><i>emotivid</i><par n="activid/á__n"/></e>
     <e><i>empacador</i><par n="alde/a__n"/></e>
     <e><i>empacador</i><par n="mes__n"/></e>
     <e><i>empacador</i><par n="redactor__n"/></e>
@@ -17729,7 +17813,7 @@
     <e><i>eneld</i><par n="us/u__n"/></e>
     <e><i>enemig</i><par n="astrólog/u__n"/></e>
     <e><i>enemig</i><par n="us/u__n"/></e>
-    <e><i>enemist</i><par n="ciud/á__n"/></e>
+    <e><i>enemist</i><par n="activid/á__n"/></e>
     <e><i>energúmen</i><par n="us/u__n"/></e>
     <e><i>enerxí</i><par n="alde/a__n"/></e>
     <e><i>enfaba</i><par n="iverna/da__n"/></e>
@@ -17740,7 +17824,7 @@
     <e><i>enfarn</i><par n="alde/a__n"/></e>
     <e><i>énfasis</i><par n="crisis__n"/></e>
     <e><i>enfastiadur</i><par n="alde/a__n"/></e>
-    <e><i>enfermed</i><par n="ciud/á__n"/></e>
+    <e><i>enfermed</i><par n="activid/á__n"/></e>
     <e><i>enfermerí</i><par n="alde/a__n"/></e>
     <e><i>enfermer</i><par n="llob/u__n"/></e>
     <e><i>enfermer</i><par n="us/u__n"/></e>
@@ -17980,6 +18064,7 @@
     <e><i>entexil</i><par n="mes__n"/></e>
     <e><i>entibaci</i><par n="aici/ón__n"/></e>
     <e><i>entibador</i><par n="redactor__n"/></e>
+    <e><i>entid</i><par n="activid/á__n"/></e>
     <e><i>entierr</i><par n="us/u__n"/></e>
     <e><i>entiest</i><par n="us/u__n"/></e>
     <e><i>entind</i><par n="alde/a__n"/></e>
@@ -18175,7 +18260,7 @@
     <e><i>er</i><par n="us/u__n"/></e>
     <e><i>erisipel</i><par n="alde/a__n"/></e>
     <e><i>ermedal</i><par n="mes__n"/></e>
-    <e><i>ermed</i><par n="ciud/á__n"/></e>
+    <e><i>ermed</i><par n="activid/á__n"/></e>
     <e><i>erm</i><par n="us/u__n"/></e>
     <e><i>ermitañ</i><par n="llob/u__n"/></e>
     <e><i>ermitañ</i><par n="us/u__n"/></e>
@@ -18404,6 +18489,7 @@
     <e><i>escenografí</i><par n="alde/a__n"/></e>
     <e><i>escenógraf</i><par n="llob/u__n"/></e>
     <e><i>escenógraf</i><par n="us/u__n"/></e>
+    <e><i>escentricid</i><par n="activid/á__n"/></e>
     <e><i>escepci</i><par n="aici/ón__n"/></e>
     <e><i>escepticism</i><par n="us/u__n"/></e>
     <e><i>esces</i><par n="us/u__n"/></e>
@@ -18438,6 +18524,7 @@
     <e><i>escofin</i><par n="alde/a__n"/></e>
     <e><i>escolanci</i><par n="us/u__n"/></e>
     <e><i>escolaní</i><par n="alde/a__n"/></e>
+    <e><i>escolarid</i><par n="activid/á__n"/></e>
     <e><i>escolarizaci</i><par n="aici/ón__n"/></e>
     <e><i>escolásti</i><par n="músi/ca__n"/></e>
     <e><i>escolingader</i><par n="us/u__n"/></e>
@@ -18587,6 +18674,7 @@
     <e><i>escurecer</i><par n="mes__n"/></e>
     <e><i>escurecimient</i><par n="us/u__n"/></e>
     <e><i>escurec</i><par n="atardec/ida__n"/></e>
+    <e><i>escurid</i><par n="activid/á__n"/></e>
     <e><i>escurindain</i><par n="alde/a__n"/></e>
     <e><i>escurriat</i><par n="us/u__n"/></e>
     <e><i>escurrider</i><par n="us/u__n"/></e>
@@ -18599,6 +18687,7 @@
     <e><i>escus</i><par n="aclar/áu__n"/></e>
     <e><i>escus</i><par n="alde/a__n"/></e>
     <e><i>ese</i><par n="llave__n"/></e>
+    <e><i>esencialid</i><par n="activid/á__n"/></e>
     <e><i>esencialism</i><par n="us/u__n"/></e>
     <e><i>esfaidur</i><par n="alde/a__n"/></e>
     <e><i>esfaimient</i><par n="us/u__n"/></e>
@@ -18841,6 +18930,7 @@
     <e><i>españ</i><par n="atardec/ida__n"/></e>
     <e><i>españ</i><par n="us/u__n"/></e>
     <e><i>española</i><par n="iverna/da__n"/></e>
+    <e><i>españolid</i><par n="activid/á__n"/></e>
     <e><i>españolism</i><par n="us/u__n"/></e>
     <e><i>españolizaci</i><par n="aici/ón__n"/></e>
     <e><i>esparab</i><par n="af/án__n"/></e>
@@ -18884,10 +18974,13 @@
     <e><i>espayador</i><par n="alde/a__n"/></e>
     <e><i>espechugadur</i><par n="alde/a__n"/></e>
     <e><i>espechugamient</i><par n="us/u__n"/></e>
+    <e><i>especialid</i><par n="activid/á__n"/></e>
     <e><i>especializaci</i><par n="aici/ón__n"/></e>
     <e><i>especie</i><par n="llave__n"/></e>
     <e><i>especificaci</i><par n="aici/ón__n"/></e>
+    <e><i>especificid</i><par n="activid/á__n"/></e>
     <e><i>espécime</i><par n="abordaxe__n"/></e>
+    <e><i>espectacularid</i><par n="activid/á__n"/></e>
     <e><i>espectácul</i><par n="us/u__n"/></e>
     <e><i>espectador</i><par n="redactor__n"/></e>
     <e><i>espectr</i><par n="us/u__n"/></e>
@@ -18991,6 +19084,7 @@
     <e><i>espírit</i><par n="us/u__n"/></e>
     <e><i>espiritism</i><par n="us/u__n"/></e>
     <e><i>espiritist</i><par n="alde/a__n"/></e>
+    <e><i>espiritualid</i><par n="activid/á__n"/></e>
     <e><i>espiritualism</i><par n="us/u__n"/></e>
     <e><i>espirriadur</i><par n="alde/a__n"/></e>
     <e><i>espirria</i><par n="iverna/da__n"/></e>
@@ -19030,6 +19124,7 @@
     <e><i>espondilosis</i><par n="crisis__n"/></e>
     <e><i>espond</i><par n="ablan/éu__n"/></e>
     <e><i>esponente</i><par n="abordaxe__n"/></e>
+    <e><i>espontaneid</i><par n="activid/á__n"/></e>
     <e><i>esponxadur</i><par n="alde/a__n"/></e>
     <e><i>esponxer</i><par n="alde/a__n"/></e>
     <e><i>esponx</i><par n="aclar/áu__n"/></e>
@@ -19062,6 +19157,7 @@
     <e><i>espresi</i><par n="aici/ón__n"/></e>
     <e><i>espresionism</i><par n="us/u__n"/></e>
     <e><i>espres</i><par n="us/u__n"/></e>
+    <e><i>espresivid</i><par n="activid/á__n"/></e>
     <e><i>esprimider</i><par n="alde/a__n"/></e>
     <e><i>espr</i><par n="avi/ón__n"/></e>
     <e><i>espr</i><par n="cam/ín__n"/></e>
@@ -19128,6 +19224,7 @@
     <e><i>esrabadur</i><par n="alde/a__n"/></e>
     <e><i>esraizadur</i><par n="alde/a__n"/></e>
     <e><i>esraizamient</i><par n="us/u__n"/></e>
+    <e><i>estabilid</i><par n="activid/á__n"/></e>
     <e><i>estabilizador</i><par n="mes__n"/></e>
     <e><i>estabilizador</i><par n="redactor__n"/></e>
     <e><i>establecimient</i><par n="us/u__n"/></e>
@@ -19251,6 +19348,7 @@
     <e><i>estereotip</i><par n="us/u__n"/></e>
     <e><i>estéric</i><par n="us/u__n"/></e>
     <e><i>esteriell</i><par n="alde/a__n"/></e>
+    <e><i>esterilid</i><par n="activid/á__n"/></e>
     <e><i>estéril</i><par n="mes__n"/></e>
     <e><i>esterilizaci</i><par n="aici/ón__n"/></e>
     <e><i>esterior</i><par n="mes__n"/></e>
@@ -19325,7 +19423,6 @@
     <e><i>estop</i><par n="us/u__n"/></e>
     <e><i>estopon</i><par n="alde/a__n"/></e>
     <e><i>estoque</i><par n="abordaxe__n"/></e>
-
     <e><i>estorbici</i><par n="us/u__n"/></e>
     <e><i>estorb</i><par n="us/u__n"/></e>
     <e><i>estorbis</i><par n="alde/a__n"/></e>
@@ -19365,7 +19462,7 @@
     <e><i>estranxer</i><par n="us/u__n"/></e>
     <e><i>estranxerism</i><par n="us/u__n"/></e>
     <e><i>estrañamient</i><par n="us/u__n"/></e>
-    <e><i>estrañed</i><par n="ciud/á__n"/></e>
+    <e><i>estrañed</i><par n="activid/á__n"/></e>
     <e><i>estrañe</i><par n="adivinan/za__n"/></e>
     <e><i>estrapadur</i><par n="alde/a__n"/></e>
     <e><i>estrapa</i><par n="iverna/da__n"/></e>
@@ -19400,6 +19497,7 @@
     <e><i>estremecedur</i><par n="alde/a__n"/></e>
     <e><i>estremecimient</i><par n="us/u__n"/></e>
     <e><i>estremeñ</i><par n="us/u__n"/></e>
+    <e><i>estremid</i><par n="activid/á__n"/></e>
     <e><i>estrem</i><par n="us/u__n"/></e>
     <e><i>estremix</i><par n="us/u__n"/></e>
     <e><i>estrenadur</i><par n="alde/a__n"/></e>
@@ -19484,6 +19582,7 @@
     <e><i>etan</i><par n="us/u__n"/></e>
     <e><i>etap</i><par n="alde/a__n"/></e>
     <e><i>éter</i><par n="mes__n"/></e>
+    <e><i>eternid</i><par n="activid/á__n"/></e>
     <e><i>éti</i><par n="músi/ca__n"/></e>
     <e><i>etilen</i><par n="us/u__n"/></e>
     <e><i>etil</i><par n="us/u__n"/></e>
@@ -19522,6 +19621,7 @@
     <e><i>evanxelist</i><par n="acróbat/a__n"/></e>
     <e><i>evanxelizaci</i><par n="aici/ón__n"/></e>
     <e><i>evaporamient</i><par n="us/u__n"/></e>
+    <e><i>eventualid</i><par n="activid/á__n"/></e>
     <e><i>evocaci</i><par n="aici/ón__n"/></e>
     <e><i>evoluci</i><par n="aici/ón__n"/></e>
     <e><i>evolucionism</i><par n="us/u__n"/></e>
@@ -19532,6 +19632,7 @@
     <e><i>executiv</i><par n="alde/a__n"/></e>
     <e><i>executiv</i><par n="us/u__n"/></e>
     <e><i>exe</i><par n="abordaxe__n"/></e>
+    <e><i>exemplarid</i><par n="activid/á__n"/></e>
     <e><i>exemplari</i><par n="us/u__n"/></e>
     <e><i>exemplar</i><par n="mes__n"/></e>
     <e><i>exemplificaci</i><par n="aici/ón__n"/></e>
@@ -19595,13 +19696,14 @@
     <e><i>fach</i><par n="aclar/áu__n"/></e>
     <e><i>faciend</i><par n="alde/a__n"/></e>
     <e><i>faciguy</i><par n="us/u__n"/></e>
+    <e><i>facilid</i><par n="activid/á__n"/></e>
     <e><i>facin</i><par n="alde/a__n"/></e>
     <e><i>fac</i><par n="us/u__n"/></e>
     <e><i>facsímil</i><par n="mes__n"/></e>
     <e><i>factor</i><par n="mes__n"/></e>
     <e><i>facturaci</i><par n="aici/ón__n"/></e>
     <e><i>factur</i><par n="alde/a__n"/></e>
-    <e><i>facult</i><par n="ciud/á__n"/></e>
+    <e><i>facult</i><par n="activid/á__n"/></e>
     <e><i>fad</i><par n="us/u__n"/></e>
     <e><i>fagáce</i><par n="alde/a__n"/></e>
     <e><i>fagocit</i><par n="us/u__n"/></e>
@@ -19680,7 +19782,7 @@
     <e><i>falop</i><par n="us/u__n"/></e>
     <e><i>falpayar</i><par n="mes__n"/></e>
     <e><i>falqu</i><par n="cam/ín__n"/></e>
-    <e><i>falsed</i><par n="ciud/á__n"/></e>
+    <e><i>falsed</i><par n="activid/á__n"/></e>
     <e><i>false</i><par n="iverna/da__n"/></e>
     <e><i>falsete</i><par n="abordaxe__n"/></e>
     <e><i>falsiacas</i><par n="alde/a__n"/></e>
@@ -19696,6 +19798,7 @@
     <e><i>falusp</i><par n="alde/a__n"/></e>
     <e><i>fame</i><par n="abordaxe__n"/></e>
     <e><i>familia</i><par n="iverna/da__n"/></e>
+    <e><i>familiarid</i><par n="activid/á__n"/></e>
     <e><i>familiar</i><par n="mes__n"/></e>
     <e><i>fam</i><par n="alde/a__n"/></e>
     <e><i>fanasc</i><par n="us/u__n"/></e>
@@ -19838,7 +19941,8 @@
     <e><i>fastiell</i><par n="alde/a__n"/></e>
     <e><i>fastier</i><par n="alde/a__n"/></e>
     <e><i>fata</i><par n="iverna/da__n"/></e>
-    <e><i>fated</i><par n="ciud/á__n"/></e>
+    <e><i>fatalid</i><par n="activid/á__n"/></e>
+    <e><i>fated</i><par n="activid/á__n"/></e>
     <e><i>faterí</i><par n="alde/a__n"/></e>
     <e><i>fatern</i><par n="alde/a__n"/></e>
     <e><i>fatig</i><par n="ayalg/a__n"/></e>
@@ -19884,6 +19988,7 @@
     <e><i>fechur</i><par n="alde/a__n"/></e>
     <e><i>fécul</i><par n="alde/a__n"/></e>
     <e><i>fecundaci</i><par n="aici/ón__n"/></e>
+    <e><i>fecundid</i><par n="activid/á__n"/></e>
     <e><i>federaci</i><par n="aici/ón__n"/></e>
     <e><i>federalism</i><par n="us/u__n"/></e>
     <e><i>fedionde</i><par n="actri/z__n"/></e>
@@ -19905,6 +20010,7 @@
     <e><i>felechin</i><par n="alde/a__n"/></e>
     <e><i>felech</i><par n="us/u__n"/></e>
     <e><i>feleterí</i><par n="alde/a__n"/></e>
+    <e><i>felicid</i><par n="activid/á__n"/></e>
     <e><i>felicitaci</i><par n="aici/ón__n"/></e>
     <e><i>félid</i><par n="us/u__n"/></e>
     <e><i>feligresí</i><par n="alde/a__n"/></e>
@@ -19944,6 +20050,7 @@
     <e><i>ferm</i><par n="ablan/éu__n"/></e>
     <e><i>fermosur</i><par n="alde/a__n"/></e>
     <e><i>fernand</i><par n="avi/ón__n"/></e>
+    <e><i>ferocid</i><par n="activid/á__n"/></e>
     <e><i>feromon</i><par n="alde/a__n"/></e>
     <e><i>ferrabuy</i><par n="us/u__n"/></e>
     <e><i>ferracat</i><par n="avi/ón__n"/></e>
@@ -20006,6 +20113,7 @@
     <e><i>ferruyer</i><par n="llob/u__n"/></e>
     <e><i>ferruyer</i><par n="us/u__n"/></e>
     <e><i>ferruy</i><par n="us/u__n"/></e>
+    <e><i>fertilid</i><par n="activid/á__n"/></e>
     <e><i>férvad</i><par n="us/u__n"/></e>
     <e><i>ferveder</i><par n="us/u__n"/></e>
     <e><i>fervedori</i><par n="us/u__n"/></e>
@@ -20041,6 +20149,7 @@
     <e><i>festey</i><par n="us/u__n"/></e>
     <e><i>fest</i><par n="avi/ón__n"/></e>
     <e><i>festival</i><par n="mes__n"/></e>
+    <e><i>festivid</i><par n="activid/á__n"/></e>
     <e><i>fete</i><par n="abordaxe__n"/></e>
     <e><i>fetiche</i><par n="abordaxe__n"/></e>
     <e><i>fetichism</i><par n="us/u__n"/></e>
@@ -20054,6 +20163,7 @@
     <e><i>fex</i><par n="alde/a__n"/></e>
     <e><i>fex</i><par n="mes__n"/></e>
     <e><i>féxole</i><par n="abordaxe__n"/></e>
+    <e><i>fiabilid</i><par n="activid/á__n"/></e>
     <e><i>fia</i><par n="iverna/da__n"/></e>
     <e><i>fiambre</i><par n="abordaxe__n"/></e>
     <e><i>fiambrer</i><par n="alde/a__n"/></e>
@@ -20070,6 +20180,7 @@
     <e><i>ficoloxí</i><par n="alde/a__n"/></e>
     <e><i>fidalguí</i><par n="alde/a__n"/></e>
     <e><i>fideísm</i><par n="us/u__n"/></e>
+    <e><i>fidelid</i><par n="activid/á__n"/></e>
     <e><i>fid</i><par n="ablan/éu__n"/></e>
     <e><i>fiebre</i><par n="llave__n"/></e>
     <e><i>fieces</i><par n="aboques__n"/></e>
@@ -20163,12 +20274,14 @@
     <e><i>filtr</i><par n="us/u__n"/></e>
     <e><i>filv</i><par n="af/án__n"/></e>
     <e><i>fimosis</i><par n="crisis__n"/></e>
+    <e><i>finalid</i><par n="activid/á__n"/></e>
     <e><i>final</i><par n="a__n"/></e>
     <e><i>final</i><par n="mes__n"/></e>
     <e><i>finalism</i><par n="us/u__n"/></e>
     <e><i>financiaci</i><par n="aici/ón__n"/></e>
     <e><i>financiamient</i><par n="us/u__n"/></e>
     <e><i>finan</i><par n="adivinan/za__n"/></e>
+    <e><i>fincabilid</i><par n="activid/á__n"/></e>
     <e><i>fincadur</i><par n="alde/a__n"/></e>
     <e><i>fincamient</i><par n="us/u__n"/></e>
     <e><i>finc</i><par n="avi/ón__n"/></e>
@@ -20268,6 +20381,7 @@
     <e><i>fletamient</i><par n="us/u__n"/></e>
     <e><i>flete</i><par n="abordaxe__n"/></e>
     <e><i>flexe</i><par n="abordaxe__n"/></e>
+    <e><i>flexibilid</i><par n="activid/á__n"/></e>
     <e><i>flex</i><par n="aici/ón__n"/></e>
     <e><i>flisg</i><par n="ag/ua__n"/></e>
     <e><i>flisgua</i><par n="iverna/da__n"/></e>
@@ -20300,7 +20414,7 @@
     <e><i>flotador</i><par n="mes__n"/></e>
     <e><i>flotador</i><par n="redactor__n"/></e>
     <e><i>flot</i><par n="alde/a__n"/></e>
-    <e><i>floxed</i><par n="ciud/á__n"/></e>
+    <e><i>floxed</i><par n="activid/á__n"/></e>
     <e><i>floxe</i><par n="adivinan/za__n"/></e>
     <e><i>floxer</i><par n="alde/a__n"/></e>
     <e><i>floxist</i><par n="us/u__n"/></e>
@@ -20521,6 +20635,7 @@
     <e><i>for</i><par n="us/u__n"/></e>
     <e><i>formaci</i><par n="aici/ón__n"/></e>
     <e><i>formale</i><par n="adivinan/za__n"/></e>
+    <e><i>formalid</i><par n="activid/á__n"/></e>
     <e><i>formalism</i><par n="us/u__n"/></e>
     <e><i>format</i><par n="us/u__n"/></e>
     <e><i>formient</i><par n="us/u__n"/></e>
@@ -20590,13 +20705,14 @@
     <e><i>fósfor</i><par n="us/u__n"/></e>
     <e><i>fósil</i><par n="mes__n"/></e>
     <e><i>fosilizaci</i><par n="aici/ón__n"/></e>
-    <e><i>fosqued</i><par n="ciud/á__n"/></e>
+    <e><i>fosqued</i><par n="activid/á__n"/></e>
     <e><i>fosquerí</i><par n="alde/a__n"/></e>
     <e><i>foting</i><par n="ayalg/a__n"/></e>
     <e><i>foting</i><par n="us/u__n"/></e>
     <e><i>fot</i><par n="avi/ón__n"/></e>
     <e><i>fotocomposici</i><par n="aici/ón__n"/></e>
     <e><i>fotocopiador</i><par n="alde/a__n"/></e>
+    <e><i>fotoelectricid</i><par n="activid/á__n"/></e>
     <e><i>fotograb</i><par n="aclar/áu__n"/></e>
     <e><i>fotografí</i><par n="alde/a__n"/></e>
     <e><i>fotógraf</i><par n="llob/u__n"/></e>
@@ -20681,8 +20797,10 @@
     <e><i>frase</i><par n="llave__n"/></e>
     <e><i>fraseoloxí</i><par n="alde/a__n"/></e>
     <e><i>fras</i><par n="músi/ca__n"/></e>
+    <e><i>fraternid</i><par n="activid/á__n"/></e>
     <e><i>fratricidi</i><par n="us/u__n"/></e>
     <e><i>fraude</i><par n="abordaxe__n"/></e>
+    <e><i>fraxilid</i><par n="activid/á__n"/></e>
     <e><i>frayadur</i><par n="alde/a__n"/></e>
     <e><i>frayamient</i><par n="us/u__n"/></e>
     <e><i>frayat</i><par n="us/u__n"/></e>
@@ -20737,7 +20855,7 @@
     <e><i>fréxole</i><par n="abordaxe__n"/></e>
     <e><i>fréxol</i><par n="alde/a__n"/></e>
     <e><i>fréxol</i><par n="mes__n"/></e>
-    <e><i>friald</i><par n="ciud/á__n"/></e>
+    <e><i>friald</i><par n="activid/á__n"/></e>
     <e><i>fricadur</i><par n="alde/a__n"/></e>
     <e><i>fricat</i><par n="us/u__n"/></e>
     <e><i>fridor</i><par n="alde/a__n"/></e>
@@ -20759,6 +20877,7 @@
     <e><i>fritang</i><par n="ayalg/a__n"/></e>
     <e><i>frit</i><par n="us/u__n"/></e>
     <e><i>friur</i><par n="alde/a__n"/></e>
+    <e><i>frivolid</i><par n="activid/á__n"/></e>
     <e><i>frixueles</i><par n="aboques__n"/></e>
     <e><i>frixuel</i><par n="alde/a__n"/></e>
     <e><i>frixuel</i><par n="us/u__n"/></e>
@@ -20966,7 +21085,7 @@
     <e><i>gadolini</i><par n="us/u__n"/></e>
     <e><i>gaduñ</i><par n="alde/a__n"/></e>
     <e><i>gaélic</i><par n="us/u__n"/></e>
-    <e><i>gafed</i><par n="ciud/á__n"/></e>
+    <e><i>gafed</i><par n="activid/á__n"/></e>
     <e><i>gafe</i><par n="actri/z__n"/></e>
     <e><i>gafe</i><par n="adivinan/za__n"/></e>
     <e><i>gafes</i><par n="aboques__n"/></e>
@@ -21047,6 +21166,7 @@
     <e><i>galleg</i><par n="us/u__n"/></e>
     <e><i>gallegoasturian</i><par n="us/u__n"/></e>
     <e><i>gallegoportugu</i><par n="franc/és__n"/></e>
+    <e><i>galleguid</i><par n="activid/á__n"/></e>
     <e><i>galleguism</i><par n="us/u__n"/></e>
     <e><i>galler</i><par n="alde/a__n"/></e>
     <e><i>galleter</i><par n="llob/u__n"/></e>
@@ -21444,7 +21564,7 @@
     <e><i>gocha</i><par n="iverna/da__n"/></e>
     <e><i>gochap</i><par n="us/u__n"/></e>
     <e><i>gochaz</i><par n="us/u__n"/></e>
-    <e><i>goched</i><par n="ciud/á__n"/></e>
+    <e><i>goched</i><par n="activid/á__n"/></e>
     <e><i>gocherí</i><par n="alde/a__n"/></e>
     <e><i>gocher</i><par n="alde/a__n"/></e>
     <e><i>gocher</i><par n="llob/u__n"/></e>
@@ -21639,6 +21759,7 @@
     <e><i>gra</i><par n="iverna/da__n"/></e>
     <e><i>gra</i><par n="us/u__n"/></e>
     <e><i>gramante</i><par n="abordaxe__n"/></e>
+    <e><i>gramaticalid</i><par n="activid/á__n"/></e>
     <e><i>gramátic</i><par n="us/u__n"/></e>
     <e><i>gramáti</i><par n="académi/cu__n"/></e>
     <e><i>gramáti</i><par n="músi/ca__n"/></e>
@@ -21658,6 +21779,7 @@
     <e><i>granat</i><par n="alde/a__n"/></e>
     <e><i>grandal</i><par n="mes__n"/></e>
     <e><i>grande</i><par n="adivinan/za__n"/></e>
+    <e><i>grandiosid</i><par n="activid/á__n"/></e>
     <e><i>grand</i><par n="alde/a__n"/></e>
     <e><i>grandiz</i><par n="us/u__n"/></e>
     <e><i>grandonism</i><par n="us/u__n"/></e>
@@ -21692,7 +21814,7 @@
     <e><i>gras</i><par n="alde/a__n"/></e>
     <e><i>grátil</i><par n="mes__n"/></e>
     <e><i>gravante</i><par n="abordaxe__n"/></e>
-    <e><i>graved</i><par n="ciud/á__n"/></e>
+    <e><i>graved</i><par n="activid/á__n"/></e>
     <e><i>graver</i><par n="alde/a__n"/></e>
     <e><i>gravimetrí</i><par n="alde/a__n"/></e>
     <e><i>gravímetr</i><par n="us/u__n"/></e>
@@ -22006,6 +22128,7 @@
     <e><i>habaner</i><par n="alde/a__n"/></e>
     <e><i>haban</i><par n="us/u__n"/></e>
     <e><i>habile</i><par n="adivinan/za__n"/></e>
+    <e><i>habilid</i><par n="activid/á__n"/></e>
     <e><i>habitante</i><par n="axente__n"/></e>
     <e><i>hábitat</i><par n="llunes__n"/></e>
     <e><i>hábit</i><par n="us/u__n"/></e>
@@ -22084,7 +22207,7 @@
     <e><i>herci</i><par n="us/u__n"/></e>
     <e><i>hereder</i><par n="llob/u__n"/></e>
     <e><i>hereder</i><par n="us/u__n"/></e>
-    <e><i>hered</i><par n="ciud/á__n"/></e>
+    <e><i>hered</i><par n="activid/á__n"/></e>
     <e><i>herexar</i><par n="músi/ca__n"/></e>
     <e><i>herexe</i><par n="axente__n"/></e>
     <e><i>herexí</i><par n="alde/a__n"/></e>
@@ -22095,13 +22218,14 @@
     <e><i>hermanas</i><par n="académi/cu__n"/></e>
     <e><i>hermanastr</i><par n="llob/u__n"/></e>
     <e><i>hermanastr</i><par n="us/u__n"/></e>
-    <e><i>hermand</i><par n="ciud/á__n"/></e>
+    <e><i>hermand</i><par n="activid/á__n"/></e>
     <e><i>herman</i><par n="llob/u__n"/></e>
     <e><i>herman</i><par n="us/u__n"/></e>
     <e><i>hermenéuti</i><par n="músi/ca__n"/></e>
     <e><i>hermeneut</i><par n="alde/a__n"/></e>
     <e><i>hermetism</i><par n="us/u__n"/></e>
     <e><i>héroe</i><par n="abordaxe__n"/></e>
+    <e><i>heroicid</i><par n="activid/á__n"/></e>
     <e><i>heroín</i><par n="alde/a__n"/></e>
     <e><i>heroísm</i><par n="us/u__n"/></e>
     <e><i>herpe</i><par n="abordaxe__n"/></e>
@@ -22111,7 +22235,9 @@
     <e><i>hespici</i><par n="us/u__n"/></e>
     <e><i>hespital</i><par n="mes__n"/></e>
     <e><i>heterodox</i><par n="alde/a__n"/></e>
+    <e><i>heterosexualid</i><par n="activid/á__n"/></e>
     <e><i>heterosexualism</i><par n="us/u__n"/></e>
+    <e><i>heteroxeneid</i><par n="activid/á__n"/></e>
     <e><i>heurísti</i><par n="músi/ca__n"/></e>
     <e><i>hexaedr</i><par n="us/u__n"/></e>
     <e><i>hexágon</i><par n="us/u__n"/></e>
@@ -22127,6 +22253,7 @@
     <e><i>hidroavi</i><par n="avi/ón__n"/></e>
     <e><i>hidrocarbur</i><par n="us/u__n"/></e>
     <e><i>hidrodinámi</i><par n="músi/ca__n"/></e>
+    <e><i>hidroelectricid</i><par n="activid/á__n"/></e>
     <e><i>hidrografí</i><par n="alde/a__n"/></e>
     <e><i>hidrólisis</i><par n="crisis__n"/></e>
     <e><i>hidrólog</i><par n="astrólog/u__n"/></e>
@@ -22182,6 +22309,7 @@
     <e><i>hipotenus</i><par n="alde/a__n"/></e>
     <e><i>hipótesis</i><par n="crisis__n"/></e>
     <e><i>hisop</i><par n="us/u__n"/></e>
+    <e><i>hispanid</i><par n="activid/á__n"/></e>
     <e><i>hispanist</i><par n="alde/a__n"/></e>
     <e><i>histerism</i><par n="us/u__n"/></e>
     <e><i>histólog</i><par n="astrólog/u__n"/></e>
@@ -22225,8 +22353,12 @@
     <e><i>homiqu</i><par n="cam/ín__n"/></e>
     <e><i>homofoní</i><par n="alde/a__n"/></e>
     <e><i>homografí</i><par n="alde/a__n"/></e>
+    <e><i>homosexualid</i><par n="activid/á__n"/></e>
     <e><i>homosexualism</i><par n="us/u__n"/></e>
+    <e><i>homoxeneid</i><par n="activid/á__n"/></e>
     <e><i>homux</i><par n="us/u__n"/></e>
+    <e><i>honestid</i><par n="activid/á__n"/></e>
+    <e><i>honorabilid</i><par n="activid/á__n"/></e>
     <e><i>honor</i><par n="mes__n"/></e>
     <e><i>honrade</i><par n="actri/z__n"/></e>
     <e><i>honrade</i><par n="adivinan/za__n"/></e>
@@ -22235,6 +22367,7 @@
     <e><i>horari</i><par n="us/u__n"/></e>
     <e><i>horchat</i><par n="alde/a__n"/></e>
     <e><i>hor</i><par n="alde/a__n"/></e>
+    <e><i>horizontalid</i><par n="activid/á__n"/></e>
     <e><i>horizonte</i><par n="abordaxe__n"/></e>
     <e><i>hormon</i><par n="alde/a__n"/></e>
     <e><i>h.ornial</i><par n="mes__n"/></e>
@@ -22249,6 +22382,7 @@
     <e><i>hortolan</i><par n="alde/a__n"/></e>
     <e><i>hortoli</i><par n="adivinan/za__n"/></e>
     <e><i>hospici</i><par n="us/u__n"/></e>
+    <e><i>hospitalid</i><par n="activid/á__n"/></e>
     <e><i>hospital</i><par n="mes__n"/></e>
     <e><i>hospitalizaci</i><par n="aici/ón__n"/></e>
     <e><i>hostal</i><par n="mes__n"/></e>
@@ -22258,13 +22392,14 @@
     <e><i>hoxaldre</i><par n="abordaxe__n"/></e>
     <e><i>hule</i><par n="abordaxe__n"/></e>
     <e><i>humane</i><par n="adivinan/za__n"/></e>
+    <e><i>humanid</i><par n="activid/á__n"/></e>
     <e><i>human</i><par n="us/u__n"/></e>
     <e><i>humanism</i><par n="us/u__n"/></e>
     <e><i>humanist</i><par n="acróbat/a__n"/></e>
     <e><i>humedan</i><par n="adivinan/za__n"/></e>
-    <e><i>humed</i><par n="ciud/á__n"/></e>
+    <e><i>humed</i><par n="activid/á__n"/></e>
     <e><i>húmer</i><par n="us/u__n"/></e>
-    <e><i>humild</i><par n="ciud/á__n"/></e>
+    <e><i>humild</i><par n="activid/á__n"/></e>
     <e><i>humor</i><par n="mes__n"/></e>
     <e><i>humorist</i><par n="alde/a__n"/></e>
     <e><i>humus</i><par n="llunes__n"/></e>
@@ -22285,6 +22420,7 @@
     <e><i>idealizaci</i><par n="aici/ón__n"/></e>
     <e><i>ideari</i><par n="us/u__n"/></e>
     <e><i>ide</i><par n="alde/a__n"/></e>
+    <e><i>identid</i><par n="activid/á__n"/></e>
     <e><i>identificaci</i><par n="aici/ón__n"/></e>
     <e><i>ideografí</i><par n="alde/a__n"/></e>
     <e><i>ideogram</i><par n="alde/a__n"/></e>
@@ -22302,12 +22438,13 @@
     <e><i>iguadur</i><par n="alde/a__n"/></e>
     <e><i>igualaci</i><par n="aici/ón__n"/></e>
     <e><i>igualadur</i><par n="alde/a__n"/></e>
-    <e><i>iguald</i><par n="ciud/á__n"/></e>
+    <e><i>iguald</i><par n="activid/á__n"/></e>
     <e><i>igual</i><par n="mes__n"/></e>
     <e><i>iguamient</i><par n="us/u__n"/></e>
     <e><i>iguan</i><par n="alde/a__n"/></e>
     <e><i>igu</i><par n="aclar/áu__n"/></e>
     <e><i>i</i><par n="avi/ón__n"/></e>
+    <e><i>illegalid</i><par n="activid/á__n"/></e>
     <e><i>illuminaci</i><par n="aici/ón__n"/></e>
     <e><i>ilusi</i><par n="aici/ón__n"/></e>
     <e><i>ilusionism</i><par n="us/u__n"/></e>
@@ -22317,11 +22454,14 @@
     <e><i>imaxinaci</i><par n="aici/ón__n"/></e>
     <e><i>imaxinativ</i><par n="alde/a__n"/></e>
     <e><i>imax</i><par n="mes__n"/></e>
+    <e><i>imbecilid</i><par n="activid/á__n"/></e>
     <e><i>im</i><par n="af/án__n"/></e>
     <e><i>im</i><par n="us/u__n"/></e>
     <e><i>imitaci</i><par n="aici/ón__n"/></e>
     <e><i>impact</i><par n="us/u__n"/></e>
     <e><i>impal</i><par n="alde/a__n"/></e>
+    <e><i>imparcialid</i><par n="activid/á__n"/></e>
+    <e><i>impasibilid</i><par n="activid/á__n"/></e>
     <e><i>impaut</i><par n="us/u__n"/></e>
     <e><i>impediment</i><par n="us/u__n"/></e>
     <e><i>imperativ</i><par n="us/u__n"/></e>
@@ -22330,8 +22470,11 @@
     <e><i>imperialism</i><par n="us/u__n"/></e>
     <e><i>imperi</i><par n="us/u__n"/></e>
     <e><i>impermeable</i><par n="abordaxe__n"/></e>
+    <e><i>impersonalid</i><par n="activid/á__n"/></e>
     <e><i>implicaci</i><par n="aici/ón__n"/></e>
+    <e><i>impopularid</i><par n="activid/á__n"/></e>
     <e><i>importaci</i><par n="aici/ón__n"/></e>
+    <e><i>imposibilid</i><par n="activid/á__n"/></e>
     <e><i>imposible</i><par n="abordaxe__n"/></e>
     <e><i>imposici</i><par n="aici/ón__n"/></e>
     <e><i>impostor</i><par n="redactor__n"/></e>
@@ -22350,14 +22493,19 @@
     <e><i>impresor</i><par n="alde/a__n"/></e>
     <e><i>impresor</i><par n="redactor__n"/></e>
     <e><i>imprevisi</i><par n="aici/ón__n"/></e>
-    <e><i>impropied</i><par n="ciud/á__n"/></e>
+    <e><i>improbabilid</i><par n="activid/á__n"/></e>
+    <e><i>improductivid</i><par n="activid/á__n"/></e>
+    <e><i>impropied</i><par n="activid/á__n"/></e>
     <e><i>improvisaci</i><par n="aici/ón__n"/></e>
     <e><i>impuest</i><par n="us/u__n"/></e>
     <e><i>impugnaci</i><par n="aici/ón__n"/></e>
     <e><i>impuls</i><par n="us/u__n"/></e>
+    <e><i>impunid</i><par n="activid/á__n"/></e>
     <e><i>impure</i><par n="adivinan/za__n"/></e>
+    <e><i>inactivid</i><par n="activid/á__n"/></e>
     <e><i>inadautaci</i><par n="aici/ón__n"/></e>
     <e><i>inauguraci</i><par n="aici/ón__n"/></e>
+    <e><i>incapacid</i><par n="activid/á__n"/></e>
     <e><i>incensari</i><par n="us/u__n"/></e>
     <e><i>incest</i><par n="us/u__n"/></e>
     <e><i>inchenta</i><par n="iverna/da__n"/></e>
@@ -22373,14 +22521,17 @@
     <e><i>inclusi</i><par n="aici/ón__n"/></e>
     <e><i>inclus</i><par n="alde/a__n"/></e>
     <e><i>incógnit</i><par n="alde/a__n"/></e>
+    <e><i>incompatibilid</i><par n="activid/á__n"/></e>
     <e><i>incomprensi</i><par n="aici/ón__n"/></e>
     <e><i>incomunicaci</i><par n="aici/ón__n"/></e>
     <e><i>inconformism</i><par n="us/u__n"/></e>
     <e><i>inconsciente</i><par n="axente__n"/></e>
+    <e><i>inconstitucionalid</i><par n="activid/á__n"/></e>
     <e><i>inconveniente</i><par n="abordaxe__n"/></e>
     <e><i>incordi</i><par n="us/u__n"/></e>
     <e><i>incorporaci</i><par n="aici/ón__n"/></e>
     <e><i>incorreici</i><par n="aici/ón__n"/></e>
+    <e><i>incredulid</i><par n="activid/á__n"/></e>
     <e><i>increment</i><par n="us/u__n"/></e>
     <e><i>incrustaci</i><par n="aici/ón__n"/></e>
     <e><i>incruste</i><par n="abordaxe__n"/></e>
@@ -22406,6 +22557,7 @@
     <e><i>indier</i><par n="us/u__n"/></e>
     <e><i>indiferenciaci</i><par n="aici/ón__n"/></e>
     <e><i>indignaci</i><par n="aici/ón__n"/></e>
+    <e><i>indignid</i><par n="activid/á__n"/></e>
     <e><i>indi</i><par n="avi/ón__n"/></e>
     <e><i>indi</i><par n="us/u__n"/></e>
     <e><i>indin</i><par n="alde/a__n"/></e>
@@ -22427,15 +22579,19 @@
     <e><i>indult</i><par n="us/u__n"/></e>
     <e><i>industrial</i><par n="mes__n"/></e>
     <e><i>iner</i><par n="alde/a__n"/></e>
+    <e><i>inestabilid</i><par n="activid/á__n"/></e>
     <e><i>inexautitú</i><par n="a__n"/></e>
     <e><i>infante</i><par n="axente__n"/></e>
     <e><i>infanterí</i><par n="alde/a__n"/></e>
     <e><i>infanticidi</i><par n="us/u__n"/></e>
     <e><i>infart</i><par n="us/u__n"/></e>
     <e><i>infeici</i><par n="aici/ón__n"/></e>
+    <e><i>inferiorid</i><par n="activid/á__n"/></e>
     <e><i>inferniell</i><par n="us/u__n"/></e>
     <e><i>infestadur</i><par n="alde/a__n"/></e>
+    <e><i>infidelid</i><par n="activid/á__n"/></e>
     <e><i>infiern</i><par n="us/u__n"/></e>
+    <e><i>infinid</i><par n="activid/á__n"/></e>
     <e><i>infinit</i><par n="us/u__n"/></e>
     <e><i>infinitiv</i><par n="us/u__n"/></e>
     <e><i>infiñici</i><par n="aici/ón__n"/></e>
@@ -22449,6 +22605,7 @@
     <e><i>influx</i><par n="us/u__n"/></e>
     <e><i>informaci</i><par n="aici/ón__n"/></e>
     <e><i>informale</i><par n="adivinan/za__n"/></e>
+    <e><i>informalid</i><par n="activid/á__n"/></e>
     <e><i>informante</i><par n="axente__n"/></e>
     <e><i>informáti</i><par n="académi/cu__n"/></e>
     <e><i>informáti</i><par n="músi/ca__n"/></e>
@@ -22466,9 +22623,13 @@
     <e><i>inmadure</i><par n="actri/z__n"/></e>
     <e><i>inmigraci</i><par n="aici/ón__n"/></e>
     <e><i>inmigrante</i><par n="axente__n"/></e>
+    <e><i>inmoralid</i><par n="activid/á__n"/></e>
+    <e><i>inmortalid</i><par n="activid/á__n"/></e>
+    <e><i>inmovilid</i><par n="activid/á__n"/></e>
     <e><i>inmovilism</i><par n="us/u__n"/></e>
     <e><i>inmovilizaci</i><par n="aici/ón__n"/></e>
     <e><i>inmueble</i><par n="abordaxe__n"/></e>
+    <e><i>inmunid</i><par n="activid/á__n"/></e>
     <e><i>inmunólog</i><par n="astrólog/u__n"/></e>
     <e><i>inmunoloxí</i><par n="alde/a__n"/></e>
     <e><i>innatism</i><par n="us/u__n"/></e>
@@ -22483,10 +22644,13 @@
     <e><i>inscribimient</i><par n="us/u__n"/></e>
     <e><i>inscripci</i><par n="aici/ón__n"/></e>
     <e><i>inseguran</i><par n="adivinan/za__n"/></e>
+    <e><i>insegurid</i><par n="activid/á__n"/></e>
     <e><i>inseminaci</i><par n="aici/ón__n"/></e>
+    <e><i>insensibilid</i><par n="activid/á__n"/></e>
     <e><i>insertamient</i><par n="us/u__n"/></e>
     <e><i>inseut</i><par n="us/u__n"/></e>
     <e><i>insinuaci</i><par n="aici/ón__n"/></e>
+    <e><i>insolidarid</i><par n="activid/á__n"/></e>
     <e><i>inspector</i><par n="redactor__n"/></e>
     <e><i>inspeici</i><par n="aici/ón__n"/></e>
     <e><i>inspeutor</i><par n="redactor__n"/></e>
@@ -22509,9 +22673,11 @@
     <e><i>integral</i><par n="a__n"/></e>
     <e><i>integrism</i><par n="us/u__n"/></e>
     <e><i>intelect</i><par n="us/u__n"/></e>
+    <e><i>intelectualid</i><par n="activid/á__n"/></e>
     <e><i>intelectual</i><par n="esquimal__n"/></e>
     <e><i>intenci</i><par n="aici/ón__n"/></e>
     <e><i>intendente</i><par n="axente__n"/></e>
+    <e><i>intensid</i><par n="activid/á__n"/></e>
     <e><i>intent</i><par n="us/u__n"/></e>
     <e><i>interacci</i><par n="aici/ón__n"/></e>
     <e><i>interaici</i><par n="aici/ón__n"/></e>
@@ -22520,6 +22686,7 @@
     <e><i>intercambi</i><par n="us/u__n"/></e>
     <e><i>intercomunicaci</i><par n="aici/ón__n"/></e>
     <e><i>interfer</i><par n="avi/ón__n"/></e>
+    <e><i>interinid</i><par n="activid/á__n"/></e>
     <e><i>interior</i><par n="mes__n"/></e>
     <e><i>inter</i><par n="franc/és__n"/></e>
     <e><i>interludi</i><par n="us/u__n"/></e>
@@ -22538,15 +22705,19 @@
     <e><i>intervenci</i><par n="aici/ón__n"/></e>
     <e><i>interxeici</i><par n="aici/ón__n"/></e>
     <e><i>intest</i><par n="cam/ín__n"/></e>
+    <e><i>intimid</i><par n="activid/á__n"/></e>
     <e><i>intimism</i><par n="us/u__n"/></e>
     <e><i>intoxicaci</i><par n="aici/ón__n"/></e>
+    <e><i>intranquilid</i><par n="activid/á__n"/></e>
     <e><i>intrig</i><par n="ayalg/a__n"/></e>
     <e><i>introducci</i><par n="aici/ón__n"/></e>
     <e><i>introspeici</i><par n="aici/ón__n"/></e>
     <e><i>introversi</i><par n="aici/ón__n"/></e>
     <e><i>intuici</i><par n="aici/ón__n"/></e>
     <e><i>inundaci</i><par n="aici/ón__n"/></e>
+    <e><i>inutilid</i><par n="activid/á__n"/></e>
     <e><i>invalide</i><par n="actri/z__n"/></e>
+    <e><i>invariabilid</i><par n="activid/á__n"/></e>
     <e><i>invasi</i><par n="aici/ón__n"/></e>
     <e><i>invenci</i><par n="aici/ón__n"/></e>
     <e><i>inventari</i><par n="us/u__n"/></e>
@@ -22554,6 +22725,7 @@
     <e><i>inversi</i><par n="aici/ón__n"/></e>
     <e><i>investigaci</i><par n="aici/ón__n"/></e>
     <e><i>investigador</i><par n="redactor__n"/></e>
+    <e><i>invisibilid</i><par n="activid/á__n"/></e>
     <e><i>invisible</i><par n="abordaxe__n"/></e>
     <e><i>invitaci</i><par n="aici/ón__n"/></e>
     <e><i>inxan</i><par n="alde/a__n"/></e>
@@ -22561,6 +22733,7 @@
     <e><i>inxenier</i><par n="llob/u__n"/></e>
     <e><i>inxenier</i><par n="us/u__n"/></e>
     <e><i>inxeni</i><par n="us/u__n"/></e>
+    <e><i>inxenuid</i><par n="activid/á__n"/></e>
     <e><i>inxertadur</i><par n="alde/a__n"/></e>
     <e><i>inxerta</i><par n="iverna/da__n"/></e>
     <e><i>inxertamient</i><par n="us/u__n"/></e>
@@ -22579,6 +22752,10 @@
     <e><i>iris</i><par n="llunes__n"/></e>
     <e><i>irland</i><par n="franc/és__n"/></e>
     <e><i>ironí</i><par n="alde/a__n"/></e>
+    <e><i>irracionalid</i><par n="activid/á__n"/></e>
+    <e><i>irrealid</i><par n="activid/á__n"/></e>
+    <e><i>irregularid</i><par n="activid/á__n"/></e>
+    <e><i>irresponsabilid</i><par n="activid/á__n"/></e>
     <e><i>irritaci</i><par n="aici/ón__n"/></e>
     <e><i>irritadur</i><par n="alde/a__n"/></e>
     <e><i>irritamient</i><par n="us/u__n"/></e>
@@ -23040,6 +23217,7 @@
     <e><i>llasi</i><par n="us/u__n"/></e>
     <e><i>llaspi</i><par n="aclar/áu__n"/></e>
     <e><i>llaspi</i><par n="us/u__n"/></e>
+    <e><i>llasticid</i><par n="activid/á__n"/></e>
     <e><i>llastimadur</i><par n="alde/a__n"/></e>
     <e><i>llástim</i><par n="alde/a__n"/></e>
     <e><i>llastre</i><par n="abordaxe__n"/></e>
@@ -23056,6 +23234,7 @@
     <e><i>llatí</i><par n="us/u__n"/></e>
     <e><i>llatina</i><par n="iverna/da__n"/></e>
     <e><i>llatinaz</i><par n="us/u__n"/></e>
+    <e><i>llatinid</i><par n="activid/á__n"/></e>
     <e><i>llatinism</i><par n="us/u__n"/></e>
     <e><i>llatinizaci</i><par n="aici/ón__n"/></e>
     <e><i>llat</i><par n="alde/a__n"/></e>
@@ -23105,7 +23284,7 @@
     <e><i>llazar</i><par n="avi/ón__n"/></e>
     <e><i>llaz</i><par n="us/u__n"/></e>
     <e><i>llazuc</i><par n="us/u__n"/></e>
-    <e><i>llealt</i><par n="ciud/á__n"/></e>
+    <e><i>llealt</i><par n="activid/á__n"/></e>
     <e><i>llebanc</i><par n="us/u__n"/></e>
     <e><i>lleban</i><par n="académi/cu__n"/></e>
     <e><i>llebrat</i><par n="us/u__n"/></e>
@@ -23136,6 +23315,7 @@
     <e><i>lléden</i><par n="alde/a__n"/></e>
     <e><i>lleend</i><par n="alde/a__n"/></e>
     <e><i>llega</i><par n="iverna/da__n"/></e>
+    <e><i>llegalid</i><par n="activid/á__n"/></e>
     <e><i>llegalism</i><par n="us/u__n"/></e>
     <e><i>llegalist</i><par n="alde/a__n"/></e>
     <e><i>llegalizaci</i><par n="aici/ón__n"/></e>
@@ -23213,6 +23393,7 @@
     <e><i>llesn</i><par n="alde/a__n"/></e>
     <e><i>lletaní</i><par n="alde/a__n"/></e>
     <e><i>lletrer</i><par n="us/u__n"/></e>
+    <e><i>lletricid</i><par n="activid/á__n"/></e>
     <e><i>lletricist</i><par n="acróbat/a__n"/></e>
     <e><i>lletrificaci</i><par n="aici/ón__n"/></e>
     <e><i>llétri</i><par n="músi/ca__n"/></e>
@@ -23249,6 +23430,7 @@
     <e><i>llexislador</i><par n="redactor__n"/></e>
     <e><i>llexislatur</i><par n="alde/a__n"/></e>
     <e><i>llexitimaci</i><par n="aici/ón__n"/></e>
+    <e><i>llexitimid</i><par n="activid/á__n"/></e>
     <e><i>llexur</i><par n="alde/a__n"/></e>
     <e><i>lliat</i><par n="us/u__n"/></e>
     <e><i>llibaci</i><par n="aici/ón__n"/></e>
@@ -23258,7 +23440,7 @@
     <e><i>lliber</i><par n="abog/áu__n"/></e>
     <e><i>llibertinaxe</i><par n="abordaxe__n"/></e>
     <e><i>llibertinax</i><par n="mes__n"/></e>
-    <e><i>llibert</i><par n="ciud/á__n"/></e>
+    <e><i>llibert</i><par n="activid/á__n"/></e>
     <e><i>llibert</i><par n="us/u__n"/></e>
     <e><i>llibraci</i><par n="aici/ón__n"/></e>
     <e><i>llibradur</i><par n="alde/a__n"/></e>
@@ -23390,6 +23572,7 @@
     <e><i>llistona</i><par n="iverna/da__n"/></e>
     <e><i>llistur</i><par n="alde/a__n"/></e>
     <e><i>llisur</i><par n="alde/a__n"/></e>
+    <e><i>lliteralid</i><par n="activid/á__n"/></e>
     <e><i>lliterat</i><par n="us/u__n"/></e>
     <e><i>lliteratur</i><par n="alde/a__n"/></e>
     <e><i>lliter</i><par n="alde/a__n"/></e>
@@ -23407,7 +23590,7 @@
     <e><i>lliturx</i><par n="alde/a__n"/></e>
     <e><i>lliviader</i><par n="alde/a__n"/></e>
     <e><i>lliviader</i><par n="us/u__n"/></e>
-    <e><i>lliviand</i><par n="ciud/á__n"/></e>
+    <e><i>lliviand</i><par n="activid/á__n"/></e>
     <e><i>llivian</i><par n="us/u__n"/></e>
     <e><i>llivianur</i><par n="alde/a__n"/></e>
     <e><i>lliviay</i><par n="us/u__n"/></e>
@@ -23440,6 +23623,7 @@
     <e><i>llobrega</i><par n="iverna/da__n"/></e>
     <e><i>llóbul</i><par n="us/u__n"/></e>
     <e><i>lloca</i><par n="iverna/da__n"/></e>
+    <e><i>llocalid</i><par n="activid/á__n"/></e>
     <e><i>llocal</i><par n="mes__n"/></e>
     <e><i>llocalism</i><par n="us/u__n"/></e>
     <e><i>llocalizaci</i><par n="aici/ón__n"/></e>
@@ -23454,7 +23638,6 @@
     <e><i>llocativ</i><par n="us/u__n"/></e>
     <e><i>llocer</i><par n="alde/a__n"/></e>
     <e><i>lloci</i><par n="aici/ón__n"/></e>
-
     <e><i>llocomoci</i><par n="aici/ón__n"/></e>
     <e><i>llocomotor</i><par n="alde/a__n"/></e>
     <e><i>llocuci</i><par n="aici/ón__n"/></e>
@@ -23599,9 +23782,11 @@
     <e><i>llumeral</i><par n="mes__n"/></e>
     <e><i>llumer</i><par n="alde/a__n"/></e>
     <e><i>llumer</i><par n="us/u__n"/></e>
+    <e><i>lluminosid</i><par n="activid/á__n"/></e>
     <e><i>lluminotécnic</i><par n="us/u__n"/></e>
     <e><i>lluminotécni</i><par n="académi/cu__n"/></e>
     <e><i>llumisa</i><par n="iverna/da__n"/></e>
+    <e><i>llumosid</i><par n="activid/á__n"/></e>
     <e><i>llunaci</i><par n="aici/ón__n"/></e>
     <e><i>lluna</i><par n="iverna/da__n"/></e>
     <e><i>llunes</i><par n="llunes__n"/></e>
@@ -23622,6 +23807,7 @@
     <e><i>llux</i><par n="us/u__n"/></e>
     <e><i>lluz</i><par n="us/u__n"/></e>
     <e><i>lóbul</i><par n="us/u__n"/></e>
+    <e><i>localid</i><par n="activid/á__n"/></e>
     <e><i>localism</i><par n="us/u__n"/></e>
     <e><i>loci</i><par n="aici/ón__n"/></e>
     <e><i>locomoci</i><par n="aici/ón__n"/></e>
@@ -23801,7 +23987,7 @@
     <e><i>malaterí</i><par n="alde/a__n"/></e>
     <e><i>malay</i><par n="us/u__n"/></e>
     <e><i>maldici</i><par n="aici/ón__n"/></e>
-    <e><i>mald</i><par n="ciud/á__n"/></e>
+    <e><i>mald</i><par n="activid/á__n"/></e>
     <e><i>male</i><par n="adivinan/za__n"/></e>
     <e><i>maléol</i><par n="us/u__n"/></e>
     <e><i>maler</i><par n="alde/a__n"/></e>
@@ -23814,6 +24000,7 @@
     <e><i>malgaxe</i><par n="abordaxe__n"/></e>
     <e><i>malgüey</i><par n="us/u__n"/></e>
     <e><i>malica</i><par n="iverna/da__n"/></e>
+    <e><i>malinid</i><par n="activid/á__n"/></e>
     <e><i>malin</i><par n="us/u__n"/></e>
     <e><i>malintenci</i><par n="aici/ón__n"/></e>
     <e><i>maliñe</i><par n="adivinan/za__n"/></e>
@@ -23849,6 +24036,7 @@
     <e><i>mamelu</i><par n="académi/cu__n"/></e>
     <e><i>mamífer</i><par n="us/u__n"/></e>
     <e><i>mam</i><par n="aclar/áu__n"/></e>
+    <e><i>mam</i><par n="activid/á__n"/></e>
     <e><i>mam</i><par n="alde/a__n"/></e>
     <e><i>mam</i><par n="avi/ón__n"/></e>
     <e><i>mamol</i><par n="alde/a__n"/></e>
@@ -23876,6 +24064,7 @@
     <e><i>manch</i><par n="avi/ón__n"/></e>
     <e><i>manchú</i><par n="mes__n"/></e>
     <e><i>manc</i><par n="ablan/éu__n"/></e>
+    <e><i>mancomunid</i><par n="activid/á__n"/></e>
     <e><i>mancorniaz</i><par n="us/u__n"/></e>
     <e><i>mancorni</i><par n="us/u__n"/></e>
     <e><i>mancuspi</i><par n="us/u__n"/></e>
@@ -23962,6 +24151,7 @@
     <e><i>manin</i><par n="alde/a__n"/></e>
     <e><i>maniobr</i><par n="alde/a__n"/></e>
     <e><i>man</i><par n="aclar/áu__n"/></e>
+    <e><i>man</i><par n="activid/á__n"/></e>
     <e><i>maniqueísm</i><par n="us/u__n"/></e>
     <e><i>maniqu</i><par n="cam/ín__n"/></e>
     <e><i>manis</i><par n="alde/a__n"/></e>
@@ -23982,7 +24172,7 @@
     <e><i>manoy</i><par n="alde/a__n"/></e>
     <e><i>manoy</i><par n="us/u__n"/></e>
     <e><i>manquer</i><par n="alde/a__n"/></e>
-    <e><i>mansed</i><par n="ciud/á__n"/></e>
+    <e><i>mansed</i><par n="activid/á__n"/></e>
     <e><i>mansedume</i><par n="llave__n"/></e>
     <e><i>mansí</i><par n="us/u__n"/></e>
     <e><i>mansole</i><par n="alde/a__n"/></e>
@@ -24268,8 +24458,10 @@
     <e><i>mate</i><par n="abordaxe__n"/></e>
     <e><i>matemáti</i><par n="académi/cu__n"/></e>
     <e><i>matemáti</i><par n="músi/ca__n"/></e>
+    <e><i>materialid</i><par n="activid/á__n"/></e>
     <e><i>material</i><par n="mes__n"/></e>
     <e><i>materialism</i><par n="us/u__n"/></e>
+    <e><i>maternid</i><par n="activid/á__n"/></e>
     <e><i>matina</i><par n="iverna/da__n"/></e>
     <e><i>mat</i><par n="alde/a__n"/></e>
     <e><i>mat</i><par n="buf/ón__n"/></e>
@@ -24298,7 +24490,7 @@
     <e><i>maul</i><par n="alde/a__n"/></e>
     <e><i>mausol</i><par n="ablan/éu__n"/></e>
     <e><i>maxan</i><par n="alde/a__n"/></e>
-    <e><i>maxest</i><par n="ciud/á__n"/></e>
+    <e><i>maxest</i><par n="activid/á__n"/></e>
     <e><i>máxim</i><par n="alde/a__n"/></e>
     <e><i>maxinaci</i><par n="aici/ón__n"/></e>
     <e><i>max</i><par n="alde/a__n"/></e>
@@ -24424,6 +24616,7 @@
     <e><i>mediev</i><par n="us/u__n"/></e>
     <e><i>médi</i><par n="académi/cu__n"/></e>
     <e><i>medi</i><par n="us/u__n"/></e>
+    <e><i>mediocrid</i><par n="activid/á__n"/></e>
     <e><i>medioherman</i><par n="llob/u__n"/></e>
     <e><i>medioherman</i><par n="us/u__n"/></e>
     <e><i>med</i><par n="alde/a__n"/></e>
@@ -24526,7 +24719,9 @@
     <e><i>mensaxer</i><par n="us/u__n"/></e>
     <e><i>mensax</i><par n="mes__n"/></e>
     <e><i>menstruaci</i><par n="aici/ón__n"/></e>
+    <e><i>mensualid</i><par n="activid/á__n"/></e>
     <e><i>menta</i><par n="iverna/da__n"/></e>
+    <e><i>mentalid</i><par n="activid/á__n"/></e>
     <e><i>mentalizaci</i><par n="aici/ón__n"/></e>
     <e><i>mente</i><par n="llave__n"/></e>
     <e><i>ment</i><par n="alde/a__n"/></e>
@@ -24658,10 +24853,10 @@
     <e><i>metí</i><par n="us/u__n"/></e>
     <e><i>metil</i><par n="us/u__n"/></e>
     <e><i>metimient</i><par n="us/u__n"/></e>
+    <e><i>met</i><par n="activid/á__n"/></e>
     <e><i>met</i><par n="alde/a__n"/></e>
     <e><i>met</i><par n="atardec/ida__n"/></e>
     <e><i>met</i><par n="avi/ón__n"/></e>
-    <e><i>met</i><par n="ciud/á__n"/></e>
     <e><i>métod</i><par n="us/u__n"/></e>
     <e><i>metodism</i><par n="us/u__n"/></e>
     <e><i>metodoloxí</i><par n="alde/a__n"/></e>
@@ -24907,7 +25102,7 @@
     <e><i>moblerí</i><par n="alde/a__n"/></e>
     <e><i>moca</i><par n="iverna/da__n"/></e>
     <e><i>mocas</i><par n="cam/ín__n"/></e>
-    <e><i>moced</i><par n="ciud/á__n"/></e>
+    <e><i>moced</i><par n="activid/á__n"/></e>
     <e><i>mocesc</i><par n="buf/ón__n"/></e>
     <e><i>mochete</i><par n="abordaxe__n"/></e>
     <e><i>mochic</i><par n="avi/ón__n"/></e>
@@ -24920,12 +25115,14 @@
     <e><i>moc</i><par n="us/u__n"/></e>
     <e><i>mociqu</i><par n="cam/ín__n"/></e>
     <e><i>mocl</i><par n="af/án__n"/></e>
+    <e><i>modalid</i><par n="activid/á__n"/></e>
     <e><i>model</i><par n="us/u__n"/></e>
     <e><i>modelism</i><par n="us/u__n"/></e>
     <e><i>modelist</i><par n="acróbat/a__n"/></e>
     <e><i>moderaci</i><par n="aici/ón__n"/></e>
     <e><i>moderador</i><par n="redactor__n"/></e>
     <e><i>moderamient</i><par n="us/u__n"/></e>
+    <e><i>modernid</i><par n="activid/á__n"/></e>
     <e><i>modernism</i><par n="us/u__n"/></e>
     <e><i>modernizaci</i><par n="aici/ón__n"/></e>
     <e><i>mod</i><par n="alde/a__n"/></e>
@@ -24962,7 +25159,7 @@
     <e><i>molécul</i><par n="alde/a__n"/></e>
     <e><i>moledur</i><par n="alde/a__n"/></e>
     <e><i>mole</i><par n="llave__n"/></e>
-    <e><i>molend</i><par n="ciud/á__n"/></e>
+    <e><i>molend</i><par n="activid/á__n"/></e>
     <e><i>molibden</i><par n="us/u__n"/></e>
     <e><i>molici</i><par n="aici/ón__n"/></e>
     <e><i>moliend</i><par n="alde/a__n"/></e>
@@ -25035,6 +25232,7 @@
     <e><i>monseñor</i><par n="mes__n"/></e>
     <e><i>monserg</i><par n="ayalg/a__n"/></e>
     <e><i>monstru</i><par n="us/u__n"/></e>
+    <e><i>monstruosid</i><par n="activid/á__n"/></e>
     <e><i>montadin</i><par n="alde/a__n"/></e>
     <e><i>montadori</i><par n="us/u__n"/></e>
     <e><i>montadur</i><par n="alde/a__n"/></e>
@@ -25099,6 +25297,7 @@
     <e><i>moradiell</i><par n="alde/a__n"/></e>
     <e><i>mora</i><par n="iverna/da__n"/></e>
     <e><i>moralices</i><par n="aboques__n"/></e>
+    <e><i>moralid</i><par n="activid/á__n"/></e>
     <e><i>moral</i><par n="a__n"/></e>
     <e><i>moral</i><par n="mes__n"/></e>
     <e><i>moralism</i><par n="us/u__n"/></e>
@@ -25204,8 +25403,9 @@
     <e><i>morse</i><par n="abordaxe__n"/></e>
     <e><i>mors</i><par n="alde/a__n"/></e>
     <e><i>mortadel</i><par n="alde/a__n"/></e>
+    <e><i>mortalid</i><par n="activid/á__n"/></e>
     <e><i>mortanc</i><par n="cam/ín__n"/></e>
-    <e><i>mortand</i><par n="ciud/á__n"/></e>
+    <e><i>mortand</i><par n="activid/á__n"/></e>
     <e><i>mortay</i><par n="alde/a__n"/></e>
     <e><i>mortera</i><par n="iverna/da__n"/></e>
     <e><i>morteraz</i><par n="us/u__n"/></e>
@@ -25298,6 +25498,7 @@
     <e><i>movedur</i><par n="alde/a__n"/></e>
     <e><i>movey</i><par n="alde/a__n"/></e>
     <e><i>movici</i><par n="aici/ón__n"/></e>
+    <e><i>movilid</i><par n="activid/á__n"/></e>
     <e><i>movilizaci</i><par n="aici/ón__n"/></e>
     <e><i>movimient</i><par n="us/u__n"/></e>
     <e><i>moxal</i><par n="mes__n"/></e>
@@ -25447,6 +25648,7 @@
     <e><i>museoloxí</i><par n="alde/a__n"/></e>
     <e><i>musgañ</i><par n="us/u__n"/></e>
     <e><i>musguer</i><par n="us/u__n"/></e>
+    <e><i>musicalid</i><par n="activid/á__n"/></e>
     <e><i>músic</i><par n="us/u__n"/></e>
     <e><i>musicólog</i><par n="astrólog/u__n"/></e>
     <e><i>musicoloxí</i><par n="alde/a__n"/></e>
@@ -25463,6 +25665,7 @@
     <e><i>mutilaci</i><par n="aici/ón__n"/></e>
     <e><i>mutil</i><par n="avi/ón__n"/></e>
     <e><i>mutruzuel</i><par n="alde/a__n"/></e>
+    <e><i>mutualid</i><par n="activid/á__n"/></e>
     <e><i>mux</i><par n="cam/ín__n"/></e>
     <e><i>mux</i><par n="us/u__n"/></e>
     <e><i>muyan</i><par n="alde/a__n"/></e>
@@ -25488,6 +25691,7 @@
     <e><i>naci</i><par n="aici/ón__n"/></e>
     <e><i>nací</i><par n="us/u__n"/></e>
     <e><i>nacimient</i><par n="us/u__n"/></e>
+    <e><i>nacionalid</i><par n="activid/á__n"/></e>
     <e><i>nacionalism</i><par n="us/u__n"/></e>
     <e><i>nacionalizaci</i><par n="aici/ón__n"/></e>
     <e><i>nacionalsocialism</i><par n="us/u__n"/></e>
@@ -25554,6 +25758,7 @@
     <e><i>narrativ</i><par n="alde/a__n"/></e>
     <e><i>narr</i><par n="us/u__n"/></e>
     <e><i>nasa</i><par n="iverna/da__n"/></e>
+    <e><i>nasalid</i><par n="activid/á__n"/></e>
     <e><i>nasalizaci</i><par n="aici/ón__n"/></e>
     <e><i>nascote</i><par n="abordaxe__n"/></e>
     <e><i>nas</i><par n="alde/a__n"/></e>
@@ -25563,12 +25768,14 @@
     <e><i>nasprin</i><par n="alde/a__n"/></e>
     <e><i>nataci</i><par n="aici/ón__n"/></e>
     <e><i>nata</i><par n="iverna/da__n"/></e>
+    <e><i>natalid</i><par n="activid/á__n"/></e>
     <e><i>natarieg</i><par n="us/u__n"/></e>
     <e><i>nater</i><par n="alde/a__n"/></e>
     <e><i>nater</i><par n="us/u__n"/></e>
     <e><i>natielles</i><par n="aboques__n"/></e>
     <e><i>nat</i><par n="alde/a__n"/></e>
     <e><i>naturale</i><par n="adivinan/za__n"/></e>
+    <e><i>naturalid</i><par n="activid/á__n"/></e>
     <e><i>naturalism</i><par n="us/u__n"/></e>
     <e><i>naturalist</i><par n="alde/a__n"/></e>
     <e><i>natur</i><par n="alde/a__n"/></e>
@@ -25587,6 +25794,7 @@
     <e><i>nave</i><par n="llave__n"/></e>
     <e><i>navex</i><par n="alde/a__n"/></e>
     <e><i>navian</i><par n="alde/a__n"/></e>
+    <e><i>navid</i><par n="activid/á__n"/></e>
     <e><i>navier</i><par n="llob/u__n"/></e>
     <e><i>navier</i><par n="us/u__n"/></e>
     <e><i>naviyal</i><par n="mes__n"/></e>
@@ -25597,6 +25805,7 @@
     <e><i>nazism</i><par n="us/u__n"/></e>
     <e><i>nebulos</i><par n="alde/a__n"/></e>
     <e><i>neceser</i><par n="mes__n"/></e>
+    <e><i>necesid</i><par n="activid/á__n"/></e>
     <e><i>neciur</i><par n="alde/a__n"/></e>
     <e><i>necrofax</i><par n="alde/a__n"/></e>
     <e><i>necroloxí</i><par n="alde/a__n"/></e>
@@ -25687,6 +25896,7 @@
     <e><i>neurosiquiatr</i><par n="alde/a__n"/></e>
     <e><i>neurosis</i><par n="crisis__n"/></e>
     <e><i>néutar</i><par n="mes__n"/></e>
+    <e><i>neutralid</i><par n="activid/á__n"/></e>
     <e><i>neutralizaci</i><par n="aici/ón__n"/></e>
     <e><i>neutr</i><par n="avi/ón__n"/></e>
     <e><i>neutr</i><par n="cam/ín__n"/></e>
@@ -25797,6 +26007,7 @@
     <e><i>nordest</i><par n="avi/ón__n"/></e>
     <e><i>nori</i><par n="us/u__n"/></e>
     <e><i>norinte</i><par n="abordaxe__n"/></e>
+    <e><i>normalid</i><par n="activid/á__n"/></e>
     <e><i>normalizaci</i><par n="aici/ón__n"/></e>
     <e><i>normativ</i><par n="alde/a__n"/></e>
     <e><i>normativizaci</i><par n="aici/ón__n"/></e>
@@ -25815,8 +26026,8 @@
     <e><i>noticier</i><par n="us/u__n"/></e>
     <e><i>notificaci</i><par n="aici/ón__n"/></e>
     <e><i>not</i><par n="alde/a__n"/></e>
-    <e><i>notoried</i><par n="ciud/á__n"/></e>
-    <e><i>noved</i><par n="ciud/á__n"/></e>
+    <e><i>notoried</i><par n="activid/á__n"/></e>
+    <e><i>noved</i><par n="activid/á__n"/></e>
     <e><i>novel</i><par n="alde/a__n"/></e>
     <e><i>novelísti</i><par n="músi/ca__n"/></e>
     <e><i>novelist</i><par n="alde/a__n"/></e>
@@ -25867,6 +26078,7 @@
     <e><i>nueve</i><par n="abordaxe__n"/></e>
     <e><i>nuev</i><par n="alde/a__n"/></e>
     <e><i>nu</i><par n="músi/ca__n"/></e>
+    <e><i>nulid</i><par n="activid/á__n"/></e>
     <e><i>numberaci</i><par n="aici/ón__n"/></e>
     <e><i>numberador</i><par n="redactor__n"/></e>
     <e><i>númber</i><par n="us/u__n"/></e>
@@ -25936,6 +26148,7 @@
     <e><i>ñavayaz</i><par n="us/u__n"/></e>
     <e><i>ñavay</i><par n="aclar/áu__n"/></e>
     <e><i>ñavay</i><par n="alde/a__n"/></e>
+    <e><i>ñavid</i><par n="activid/á__n"/></e>
     <e><i>ñaz</i><par n="us/u__n"/></e>
     <e><i>ñebl</i><par n="alde/a__n"/></e>
     <e><i>ñeciur</i><par n="alde/a__n"/></e>
@@ -26036,8 +26249,9 @@
     <e><i>oble</i><par n="alde/a__n"/></e>
     <e><i>obleraz</i><par n="us/u__n"/></e>
     <e><i>obler</i><par n="us/u__n"/></e>
+    <e><i>oblicuid</i><par n="activid/á__n"/></e>
     <e><i>obligaci</i><par n="aici/ón__n"/></e>
-    <e><i>obligatoried</i><par n="ciud/á__n"/></e>
+    <e><i>obligatoried</i><par n="activid/á__n"/></e>
     <e><i>oboe</i><par n="abordaxe__n"/></e>
     <e><i>obra</i><par n="iverna/da__n"/></e>
     <e><i>obrerí</i><par n="alde/a__n"/></e>
@@ -26076,6 +26290,7 @@
     <e><i>ochobre</i><par n="abordaxe__n"/></e>
     <e><i>ochocientos</i><par n="llunes__n"/></e>
     <e><i>ochote</i><par n="abordaxe__n"/></e>
+    <e><i>ociosid</i><par n="activid/á__n"/></e>
     <e><i>ocle</i><par n="abordaxe__n"/></e>
     <e><i>ocl</i><par n="alde/a__n"/></e>
     <e><i>oclusi</i><par n="aici/ón__n"/></e>
@@ -26102,10 +26317,12 @@
     <e><i>odre</i><par n="abordaxe__n"/></e>
     <e><i>odric</i><par n="aclar/áu__n"/></e>
     <e><i>oeste</i><par n="abordaxe__n"/></e>
+    <e><i>oficialid</i><par n="activid/á__n"/></e>
     <e><i>oficial</i><par n="redactor__n"/></e>
     <e><i>ofici</i><par n="us/u__n"/></e>
     <e><i>oficin</i><par n="alde/a__n"/></e>
     <e><i>oficinist</i><par n="alde/a__n"/></e>
+    <e><i>oficiosid</i><par n="activid/á__n"/></e>
     <e><i>ofidi</i><par n="us/u__n"/></e>
     <e><i>ofiens</i><par n="alde/a__n"/></e>
     <e><i>ofrecimient</i><par n="us/u__n"/></e>
@@ -26161,6 +26378,7 @@
     <e><i>óper</i><par n="alde/a__n"/></e>
     <e><i>opi</i><par n="us/u__n"/></e>
     <e><i>opini</i><par n="aici/ón__n"/></e>
+    <e><i>oportunid</i><par n="activid/á__n"/></e>
     <e><i>oportunism</i><par n="us/u__n"/></e>
     <e><i>oposici</i><par n="aici/ón__n"/></e>
     <e><i>opositor</i><par n="redactor__n"/></e>
@@ -26223,6 +26441,7 @@
     <e><i>or</i><par n="músi/ca__n"/></e>
     <e><i>or</i><par n="us/u__n"/></e>
     <e><i>orixe</i><par n="abordaxe__n"/></e>
+    <e><i>orixinalid</i><par n="activid/á__n"/></e>
     <e><i>orixinal</i><par n="mes__n"/></e>
     <e><i>orl</i><par n="alde/a__n"/></e>
     <e><i>orniament</i><par n="us/u__n"/></e>
@@ -26303,6 +26522,7 @@
     <e><i>oxal</i><par n="mes__n"/></e>
     <e><i>oxeci</i><par n="aici/ón__n"/></e>
     <e><i>oxet</i><par n="us/u__n"/></e>
+    <e><i>oxetivid</i><par n="activid/á__n"/></e>
     <e><i>oxetiv</i><par n="us/u__n"/></e>
     <e><i>oxetor</i><par n="redactor__n"/></e>
     <e><i>oxidaci</i><par n="aici/ón__n"/></e>
@@ -26501,7 +26721,7 @@
     <e><i>panafricanism</i><par n="us/u__n"/></e>
     <e><i>panal</i><par n="mes__n"/></e>
     <e><i>panamericanism</i><par n="us/u__n"/></e>
-    <e><i>panam</i><par n="ciud/á__n"/></e>
+    <e><i>panam</i><par n="activid/á__n"/></e>
     <e><i>panarabism</i><par n="us/u__n"/></e>
     <e><i>panar</i><par n="mes__n"/></e>
     <e><i>pancart</i><par n="alde/a__n"/></e>
@@ -26654,6 +26874,7 @@
     <e><i>papil</i><par n="alde/a__n"/></e>
     <e><i>papilom</i><par n="alde/a__n"/></e>
     <e><i>pap</i><par n="aclar/áu__n"/></e>
+    <e><i>pap</i><par n="activid/á__n"/></e>
     <e><i>pap</i><par n="alde/a__n"/></e>
     <e><i>pap</i><par n="avi/ón__n"/></e>
     <e><i>pap</i><par n="cam/ín__n"/></e>
@@ -26733,11 +26954,11 @@
     <e><i>paraz</i><par n="us/u__n"/></e>
     <e><i>parche</i><par n="abordaxe__n"/></e>
     <e><i>parch</i><par n="an/ís__n"/></e>
+    <e><i>parcialid</i><par n="activid/á__n"/></e>
     <e><i>parcial</i><par n="avi/ón__n"/></e>
     <e><i>pardalin</i><par n="alde/a__n"/></e>
     <e><i>pardal</i><par n="mes__n"/></e>
     <e><i>pardiell</i><par n="alde/a__n"/></e>
-
     <e><i>pardiell</i><par n="us/u__n"/></e>
     <e><i>pardin</i><par n="alde/a__n"/></e>
     <e><i>pard</i><par n="avi/ón__n"/></e>
@@ -26760,6 +26981,7 @@
     <e><i>parey</i><par n="alde/a__n"/></e>
     <e><i>parici</i><par n="aici/ón__n"/></e>
     <e><i>parider</i><par n="alde/a__n"/></e>
+    <e><i>parid</i><par n="activid/á__n"/></e>
     <e><i>paridur</i><par n="alde/a__n"/></e>
     <e><i>pariente</i><par n="axente__n"/></e>
     <e><i>parietal</i><par n="mes__n"/></e>
@@ -26829,6 +27051,7 @@
     <e><i>partici</i><par n="aici/ón__n"/></e>
     <e><i>participaci</i><par n="aici/ón__n"/></e>
     <e><i>participi</i><par n="us/u__n"/></e>
+    <e><i>particularid</i><par n="activid/á__n"/></e>
     <e><i>particularism</i><par n="us/u__n"/></e>
     <e><i>partícul</i><par n="alde/a__n"/></e>
     <e><i>partidism</i><par n="us/u__n"/></e>
@@ -26875,13 +27098,14 @@
     <e><i>pasiell</i><par n="us/u__n"/></e>
     <e><i>pasi</i><par n="aclar/áu__n"/></e>
     <e><i>pasi</i><par n="aici/ón__n"/></e>
-    <e><i>pasimisí-pasimis</i><par n="ciud/á__n"/></e>
+    <e><i>pasimisí-pasimis</i><par n="activid/á__n"/></e>
     <e><i>pas</i><par n="ablan/éu__n"/></e>
     <e><i>pas</i><par n="aclar/áu__n"/></e>
     <e><i>pas</i><par n="alde/a__n"/></e>
     <e><i>pas</i><par n="avi/ón__n"/></e>
     <e><i>pas</i><par n="us/u__n"/></e>
     <e><i>pasiqu</i><par n="cam/ín__n"/></e>
+    <e><i>pasivid</i><par n="activid/á__n"/></e>
     <e><i>pasqu</i><par n="cam/ín__n"/></e>
     <e><i>pastelerí</i><par n="alde/a__n"/></e>
     <e><i>pasteler</i><par n="llob/u__n"/></e>
@@ -26893,6 +27117,7 @@
     <e><i>pastoral</i><par n="a__n"/></e>
     <e><i>pastorí</i><par n="us/u__n"/></e>
     <e><i>pastor</i><par n="redactor__n"/></e>
+    <e><i>pastosid</i><par n="activid/á__n"/></e>
     <e><i>pastrama</i><par n="iverna/da__n"/></e>
     <e><i>pastramaz</i><par n="us/u__n"/></e>
     <e><i>pastrogull</i><par n="us/u__n"/></e>
@@ -26922,6 +27147,7 @@
     <e><i>pataz</i><par n="us/u__n"/></e>
     <e><i>patente</i><par n="llave__n"/></e>
     <e><i>paternalism</i><par n="us/u__n"/></e>
+    <e><i>paternid</i><par n="activid/á__n"/></e>
     <e><i>patetism</i><par n="us/u__n"/></e>
     <e><i>patex</i><par n="us/u__n"/></e>
     <e><i>patiader</i><par n="us/u__n"/></e>
@@ -27025,6 +27251,7 @@
     <e><i>pecip</i><par n="cam/ín__n"/></e>
     <e><i>pécor</i><par n="alde/a__n"/></e>
     <e><i>pecú</i><par n="mes__n"/></e>
+    <e><i>peculiarid</i><par n="activid/á__n"/></e>
     <e><i>pecuñ</i><par n="us/u__n"/></e>
     <e><i>pedagog</i><par n="astrólog/u__n"/></e>
     <e><i>pedagoxí</i><par n="alde/a__n"/></e>
@@ -27105,6 +27332,7 @@
     <e><i>pelg</i><par n="ayalg/a__n"/></e>
     <e><i>pelícan</i><par n="us/u__n"/></e>
     <e><i>peligr</i><par n="us/u__n"/></e>
+    <e><i>peligrosid</i><par n="activid/á__n"/></e>
     <e><i>pel</i><par n="aclar/áu__n"/></e>
     <e><i>pel</i><par n="avi/ón__n"/></e>
     <e><i>pel</i><par n="cam/ín__n"/></e>
@@ -27150,6 +27378,7 @@
     <e><i>pelvis</i><par n="crisis__n"/></e>
     <e><i>penaguer</i><par n="us/u__n"/></e>
     <e><i>pena</i><par n="iverna/da__n"/></e>
+    <e><i>penalid</i><par n="activid/á__n"/></e>
     <e><i>penalizaci</i><par n="aici/ón__n"/></e>
     <e><i>penalti</i><par n="abordaxe__n"/></e>
     <e><i>penc</i><par n="us/u__n"/></e>
@@ -27247,8 +27476,10 @@
     <e><i>perezos</i><par n="alde/a__n"/></e>
     <e><i>perfecci</i><par n="aici/ón__n"/></e>
     <e><i>perfeccionism</i><par n="us/u__n"/></e>
+    <e><i>perfectivid</i><par n="activid/á__n"/></e>
     <e><i>perfeici</i><par n="aici/ón__n"/></e>
     <e><i>perfeicionism</i><par n="us/u__n"/></e>
+    <e><i>perfeutivid</i><par n="activid/á__n"/></e>
     <e><i>perfil</i><par n="mes__n"/></e>
     <e><i>perfume</i><par n="abordaxe__n"/></e>
     <e><i>perfumerí</i><par n="alde/a__n"/></e>
@@ -27295,6 +27526,7 @@
     <e><i>perlindang</i><par n="us/u__n"/></e>
     <e><i>perllesí</i><par n="alde/a__n"/></e>
     <e><i>permanente</i><par n="llave__n"/></e>
+    <e><i>permeabilid</i><par n="activid/á__n"/></e>
     <e><i>permedi</i><par n="us/u__n"/></e>
     <e><i>permian</i><par n="us/u__n"/></e>
     <e><i>pérmic</i><par n="us/u__n"/></e>
@@ -27311,7 +27543,9 @@
     <e><i>peronism</i><par n="us/u__n"/></e>
     <e><i>peroñ</i><par n="us/u__n"/></e>
     <e><i>perpar</i><par n="mes__n"/></e>
+    <e><i>perpendicularid</i><par n="activid/á__n"/></e>
     <e><i>perpiell</i><par n="us/u__n"/></e>
+    <e><i>perplexid</i><par n="activid/á__n"/></e>
     <e><i>perréi</i><par n="abordaxe__n"/></e>
     <e><i>perrerí</i><par n="alde/a__n"/></e>
     <e><i>perrer</i><par n="us/u__n"/></e>
@@ -27330,6 +27564,7 @@
     <e><i>perruz</i><par n="us/u__n"/></e>
     <e><i>persecuci</i><par n="aici/ón__n"/></e>
     <e><i>pers</i><par n="alde/a__n"/></e>
+    <e><i>personalid</i><par n="activid/á__n"/></e>
     <e><i>personal</i><par n="mes__n"/></e>
     <e><i>personalism</i><par n="us/u__n"/></e>
     <e><i>personaxe</i><par n="abordaxe__n"/></e>
@@ -27448,7 +27683,6 @@
     <e><i>pez</i><par n="avi/ón__n"/></e>
     <e><i>pezoner</i><par n="us/u__n"/></e>
     <e><i>pezoreyos</i><par n="llunes__n"/></e>
-
     <e><i>pezperuy</i><par n="us/u__n"/></e>
     <e><i>pezpuñer</i><par n="us/u__n"/></e>
     <e><i>pezuñer</i><par n="us/u__n"/></e>
@@ -27544,7 +27778,7 @@
     <e><i>pid</i><par n="atardec/ida__n"/></e>
     <e><i>piec</i><par n="cam/ín__n"/></e>
     <e><i>pieciqu</i><par n="cam/ín__n"/></e>
-    <e><i>pied</i><par n="ciud/á__n"/></e>
+    <e><i>pied</i><par n="activid/á__n"/></e>
     <e><i>piedraz</i><par n="us/u__n"/></e>
     <e><i>piedr</i><par n="avi/ón__n"/></e>
     <e><i>piedr</i><par n="us/u__n"/></e>
@@ -27680,6 +27914,7 @@
     <e><i>pioy</i><par n="cam/ín__n"/></e>
     <e><i>pioy</i><par n="us/u__n"/></e>
     <e><i>pipa</i><par n="iverna/da__n"/></e>
+    <e><i>p</i><par n="activid/á__n"/></e>
     <e><i>pipi</i><par n="us/u__n"/></e>
     <e><i>pipiol</i><par n="us/u__n"/></e>
     <e><i>pip</i><par n="us/u__n"/></e>
@@ -27871,6 +28106,7 @@
     <e><i>plumax</i><par n="mes__n"/></e>
     <e><i>plumer</i><par n="us/u__n"/></e>
     <e><i>plum</i><par n="cam/ín__n"/></e>
+    <e><i>pluralid</i><par n="activid/á__n"/></e>
     <e><i>plural</i><par n="mes__n"/></e>
     <e><i>pluralism</i><par n="us/u__n"/></e>
     <e><i>plurillingüism</i><par n="us/u__n"/></e>
@@ -27880,6 +28116,7 @@
     <e><i>plutoni</i><par n="us/u__n"/></e>
     <e><i>pluviometrí</i><par n="alde/a__n"/></e>
     <e><i>pluviómetr</i><par n="us/u__n"/></e>
+    <e><i>pluviosid</i><par n="activid/á__n"/></e>
     <e><i>pobin</i><par n="cam/ín__n"/></e>
     <e><i>pob</i><par n="cam/ín__n"/></e>
     <e><i>poblaci</i><par n="aici/ón__n"/></e>
@@ -27922,6 +28159,7 @@
     <e><i>polac</i><par n="us/u__n"/></e>
     <e><i>pola</i><par n="académi/cu__n"/></e>
     <e><i>pola</i><par n="músi/ca__n"/></e>
+    <e><i>polarid</i><par n="activid/á__n"/></e>
     <e><i>polarizaci</i><par n="aici/ón__n"/></e>
     <e><i>polarizador</i><par n="mes__n"/></e>
     <e><i>polarizador</i><par n="redactor__n"/></e>
@@ -28016,9 +28254,10 @@
     <e><i>pónxid</i><par n="us/u__n"/></e>
     <e><i>ponza</i><par n="iverna/da__n"/></e>
     <e><i>pope</i><par n="abordaxe__n"/></e>
+    <e><i>popularid</i><par n="activid/á__n"/></e>
     <e><i>popularizaci</i><par n="aici/ón__n"/></e>
     <e><i>populism</i><par n="us/u__n"/></e>
-    <e><i>poqued</i><par n="ciud/á__n"/></e>
+    <e><i>poqued</i><par n="activid/á__n"/></e>
     <e><i>póquer</i><par n="mes__n"/></e>
     <e><i>porcaya</i><par n="iverna/da__n"/></e>
     <e><i>porcentaxe</i><par n="abordaxe__n"/></e>
@@ -28035,6 +28274,7 @@
     <e><i>pornógraf</i><par n="llob/u__n"/></e>
     <e><i>pornógraf</i><par n="us/u__n"/></e>
     <e><i>porondori</i><par n="us/u__n"/></e>
+    <e><i>porosid</i><par n="activid/á__n"/></e>
     <e><i>porqué</i><par n="abordaxe__n"/></e>
     <e><i>porquerí</i><par n="alde/a__n"/></e>
     <e><i>porra</i><par n="iverna/da__n"/></e>
@@ -28081,6 +28321,7 @@
     <e><i>posafuelles</i><par n="llunes__n"/></e>
     <e><i>posa</i><par n="iverna/da__n"/></e>
     <e><i>posesi</i><par n="aici/ón__n"/></e>
+    <e><i>posibilid</i><par n="activid/á__n"/></e>
     <e><i>posible</i><par n="abordaxe__n"/></e>
     <e><i>posici</i><par n="aici/ón__n"/></e>
     <e><i>pos</i><par n="alde/a__n"/></e>
@@ -28094,6 +28335,8 @@
     <e><i>postal</i><par n="a__n"/></e>
     <e><i>postar</i><par n="mes__n"/></e>
     <e><i>poste</i><par n="abordaxe__n"/></e>
+    <e><i>posterid</i><par n="activid/á__n"/></e>
+    <e><i>posteriorid</i><par n="activid/á__n"/></e>
     <e><i>postiador</i><par n="mes__n"/></e>
     <e><i>postiador</i><par n="redactor__n"/></e>
     <e><i>postig</i><par n="us/u__n"/></e>
@@ -28113,9 +28356,10 @@
     <e><i>potax</i><par n="mes__n"/></e>
     <e><i>pote</i><par n="abordaxe__n"/></e>
     <e><i>potel</i><par n="mes__n"/></e>
+    <e><i>potencialid</i><par n="activid/á__n"/></e>
     <e><i>potencial</i><par n="mes__n"/></e>
     <e><i>potent</i><par n="aclar/áu__n"/></e>
-    <e><i>potest</i><par n="ciud/á__n"/></e>
+    <e><i>potest</i><par n="activid/á__n"/></e>
     <e><i>potingue</i><par n="abordaxe__n"/></e>
     <e><i>pot</i><par n="aclar/áu__n"/></e>
     <e><i>pot</i><par n="cam/ín__n"/></e>
@@ -28168,6 +28412,7 @@
     <e><i>preceut</i><par n="us/u__n"/></e>
     <e><i>preci</i><par n="us/u__n"/></e>
     <e><i>precint</i><par n="us/u__n"/></e>
+    <e><i>preciosid</i><par n="activid/á__n"/></e>
     <e><i>precipici</i><par n="us/u__n"/></e>
     <e><i>precisi</i><par n="aici/ón__n"/></e>
     <e><i>precontrat</i><par n="us/u__n"/></e>
@@ -28247,6 +28492,7 @@
     <e><i>preste</i><par n="abordaxe__n"/></e>
     <e><i>prestí</i><par n="us/u__n"/></e>
     <e><i>prestix</i><par n="us/u__n"/></e>
+    <e><i>prestosid</i><par n="activid/á__n"/></e>
     <e><i>presug</i><par n="ayalg/a__n"/></e>
     <e><i>presug</i><par n="us/u__n"/></e>
     <e><i>presumici</i><par n="us/u__n"/></e>
@@ -28283,15 +28529,17 @@
     <e><i>prinde</i><par n="abordaxe__n"/></e>
     <e><i>pringue</i><par n="abordaxe__n"/></e>
     <e><i>priorat</i><par n="us/u__n"/></e>
+    <e><i>priorid</i><par n="activid/á__n"/></e>
     <e><i>prior</i><par n="redactor__n"/></e>
     <e><i>prisi</i><par n="aici/ón__n"/></e>
     <e><i>prismáticos</i><par n="llunes__n"/></e>
     <e><i>privaci</i><par n="aici/ón__n"/></e>
     <e><i>privatizaci</i><par n="aici/ón__n"/></e>
     <e><i>privilex</i><par n="us/u__n"/></e>
+    <e><i>probabilid</i><par n="activid/á__n"/></e>
     <e><i>probadori</i><par n="us/u__n"/></e>
     <e><i>probador</i><par n="redactor__n"/></e>
-    <e><i>probed</i><par n="ciud/á__n"/></e>
+    <e><i>probed</i><par n="activid/á__n"/></e>
     <e><i>probe</i><par n="adivinan/za__n"/></e>
     <e><i>probe</i><par n="axente__n"/></e>
     <e><i>probeterí</i><par n="alde/a__n"/></e>
@@ -28315,9 +28563,11 @@
     <e><i>prodix</i><par n="us/u__n"/></e>
     <e><i>producci</i><par n="aici/ón__n"/></e>
     <e><i>product</i><par n="us/u__n"/></e>
+    <e><i>productivid</i><par n="activid/á__n"/></e>
     <e><i>profanaci</i><par n="aici/ón__n"/></e>
     <e><i>profecí</i><par n="alde/a__n"/></e>
     <e><i>profesi</i><par n="aici/ón__n"/></e>
+    <e><i>profesionalid</i><par n="activid/á__n"/></e>
     <e><i>profesional</i><par n="esquimal__n"/></e>
     <e><i>profesora</i><par n="iverna/da__n"/></e>
     <e><i>profesor</i><par n="aclar/áu__n"/></e>
@@ -28353,7 +28603,7 @@
     <e><i>pronunciaci</i><par n="aici/ón__n"/></e>
     <e><i>propagandist</i><par n="acróbat/a__n"/></e>
     <e><i>propan</i><par n="us/u__n"/></e>
-    <e><i>propied</i><par n="ciud/á__n"/></e>
+    <e><i>propied</i><par n="activid/á__n"/></e>
     <e><i>propietari</i><par n="llob/u__n"/></e>
     <e><i>propietari</i><par n="us/u__n"/></e>
     <e><i>propi</i><par n="us/u__n"/></e>
@@ -28367,6 +28617,7 @@
     <e><i>prosimi</i><par n="us/u__n"/></e>
     <e><i>pros</i><par n="alde/a__n"/></e>
     <e><i>prosist</i><par n="acróbat/a__n"/></e>
+    <e><i>prosperid</i><par n="activid/á__n"/></e>
     <e><i>prospeut</i><par n="us/u__n"/></e>
     <e><i>prostituci</i><par n="aici/ón__n"/></e>
     <e><i>prostitut</i><par n="us/u__n"/></e>
@@ -28397,6 +28648,7 @@
     <e><i>provocaci</i><par n="aici/ón__n"/></e>
     <e><i>proxenet</i><par n="acróbat/a__n"/></e>
     <e><i>proxenitor</i><par n="redactor__n"/></e>
+    <e><i>proximid</i><par n="activid/á__n"/></e>
     <e><i>próxim</i><par n="us/u__n"/></e>
     <e><i>proyecci</i><par n="aici/ón__n"/></e>
     <e><i>proyect</i><par n="us/u__n"/></e>
@@ -28434,11 +28686,12 @@
     <e><i>psoriasis</i><par n="crisis__n"/></e>
     <e><i>pterodáctil</i><par n="us/u__n"/></e>
     <e><i>pterosauri</i><par n="us/u__n"/></e>
-    <e><i>pubert</i><par n="ciud/á__n"/></e>
+    <e><i>pubert</i><par n="activid/á__n"/></e>
     <e><i>pubis</i><par n="llunes__n"/></e>
     <e><i>publicaci</i><par n="aici/ón__n"/></e>
     <e><i>publican</i><par n="llob/u__n"/></e>
     <e><i>publican</i><par n="us/u__n"/></e>
+    <e><i>publicid</i><par n="activid/á__n"/></e>
     <e><i>públic</i><par n="us/u__n"/></e>
     <e><i>publicist</i><par n="acróbat/a__n"/></e>
     <e><i>púcar</i><par n="alde/a__n"/></e>
@@ -28505,6 +28758,7 @@
     <e><i>punter</i><par n="us/u__n"/></e>
     <e><i>punt</i><par n="us/u__n"/></e>
     <e><i>puntuaci</i><par n="aici/ón__n"/></e>
+    <e><i>puntualid</i><par n="activid/á__n"/></e>
     <e><i>punz</i><par n="avi/ón__n"/></e>
     <e><i>puña</i><par n="iverna/da__n"/></e>
     <e><i>puñala</i><par n="iverna/da__n"/></e>
@@ -28712,6 +28966,7 @@
     <e><i>rachona</i><par n="iverna/da__n"/></e>
     <e><i>raci</i><par n="aici/ón__n"/></e>
     <e><i>raciocini</i><par n="us/u__n"/></e>
+    <e><i>racionalid</i><par n="activid/á__n"/></e>
     <e><i>racionalism</i><par n="us/u__n"/></e>
     <e><i>racionalizaci</i><par n="aici/ón__n"/></e>
     <e><i>racionamient</i><par n="us/u__n"/></e>
@@ -28728,6 +28983,7 @@
     <e><i>radicand</i><par n="us/u__n"/></e>
     <e><i>radi</i><par n="aclar/áu__n"/></e>
     <e><i>radi</i><par n="us/u__n"/></e>
+    <e><i>radioactivid</i><par n="activid/á__n"/></e>
     <e><i>radioaficion</i><par n="aclar/áu__n"/></e>
     <e><i>radioastronomí</i><par n="alde/a__n"/></e>
     <e><i>radioastrónom</i><par n="llob/u__n"/></e>
@@ -28735,12 +28991,14 @@
     <e><i>radiocasé</i><par n="abordaxe__n"/></e>
     <e><i>radiocomunicaci</i><par n="aici/ón__n"/></e>
     <e><i>radiodifusi</i><par n="aici/ón__n"/></e>
+    <e><i>radioelectricid</i><par n="activid/á__n"/></e>
     <e><i>radioemisor</i><par n="mes__n"/></e>
     <e><i>radiofar</i><par n="us/u__n"/></e>
     <e><i>radiofoní</i><par n="alde/a__n"/></e>
     <e><i>radiofonist</i><par n="acróbat/a__n"/></e>
     <e><i>radiografí</i><par n="alde/a__n"/></e>
     <e><i>radio</i><par n="llave__n"/></e>
+    <e><i>radiolletricid</i><par n="activid/á__n"/></e>
     <e><i>radiollétri</i><par n="músi/ca__n"/></e>
     <e><i>radiólog</i><par n="astrólog/u__n"/></e>
     <e><i>radioloxí</i><par n="alde/a__n"/></e>
@@ -28936,6 +29194,7 @@
     <e><i>reagrupamient</i><par n="us/u__n"/></e>
     <e><i>reaici</i><par n="aici/ón__n"/></e>
     <e><i>reale</i><par n="adivinan/za__n"/></e>
+    <e><i>realid</i><par n="activid/á__n"/></e>
     <e><i>real</i><par n="cam/ín__n"/></e>
     <e><i>real</i><par n="mes__n"/></e>
     <e><i>realism</i><par n="us/u__n"/></e>
@@ -29041,8 +29300,10 @@
     <e><i>receb</i><par n="us/u__n"/></e>
     <e><i>receici</i><par n="aici/ón__n"/></e>
     <e><i>recepci</i><par n="aici/ón__n"/></e>
+    <e><i>receptivid</i><par n="activid/á__n"/></e>
     <e><i>receptor</i><par n="mes__n"/></e>
     <e><i>recet</i><par n="us/u__n"/></e>
+    <e><i>receutivid</i><par n="activid/á__n"/></e>
     <e><i>rechister</i><par n="us/u__n"/></e>
     <e><i>recibimient</i><par n="us/u__n"/></e>
     <e><i>recib</i><par n="us/u__n"/></e>
@@ -29054,6 +29315,7 @@
     <e><i>recint</i><par n="us/u__n"/></e>
     <e><i>rec</i><par n="aclar/áu__n"/></e>
     <e><i>recipiente</i><par n="abordaxe__n"/></e>
+    <e><i>reciprocid</i><par n="activid/á__n"/></e>
     <e><i>reclamaci</i><par n="aici/ón__n"/></e>
     <e><i>reclam</i><par n="us/u__n"/></e>
     <e><i>recobramient</i><par n="us/u__n"/></e>
@@ -29164,6 +29426,7 @@
     <e><i>reflector</i><par n="mes__n"/></e>
     <e><i>reflex</i><par n="aici/ón__n"/></e>
     <e><i>reflex</i><par n="us/u__n"/></e>
+    <e><i>reflexivid</i><par n="activid/á__n"/></e>
     <e><i>reflundi</i><par n="us/u__n"/></e>
     <e><i>reflux</i><par n="us/u__n"/></e>
     <e><i>refocil</i><par n="us/u__n"/></e>
@@ -29227,6 +29490,7 @@
     <e><i>regulaci</i><par n="aici/ón__n"/></e>
     <e><i>regulador</i><par n="mes__n"/></e>
     <e><i>regulador</i><par n="redactor__n"/></e>
+    <e><i>regularid</i><par n="activid/á__n"/></e>
     <e><i>regust</i><par n="us/u__n"/></e>
     <e><i>reich</i><par n="cam/ín__n"/></e>
     <e><i>rei</i><par n="abordaxe__n"/></e>
@@ -29242,6 +29506,7 @@
     <e><i>reit</i><par n="us/u__n"/></e>
     <e><i>reivindicaci</i><par n="aici/ón__n"/></e>
     <e><i>relat</i><par n="us/u__n"/></e>
+    <e><i>relativid</i><par n="activid/á__n"/></e>
     <e><i>relativ</i><par n="us/u__n"/></e>
     <e><i>relativism</i><par n="us/u__n"/></e>
     <e><i>relaxaci</i><par n="aici/ón__n"/></e>
@@ -29254,6 +29519,7 @@
     <e><i>relinch</i><par n="avi/ón__n"/></e>
     <e><i>reling</i><par n="ayalg/a__n"/></e>
     <e><i>relix</i><par n="aici/ón__n"/></e>
+    <e><i>relixosid</i><par n="activid/á__n"/></e>
     <e><i>relixos</i><par n="llob/u__n"/></e>
     <e><i>relixos</i><par n="us/u__n"/></e>
     <e><i>rellaci</i><par n="aici/ón__n"/></e>
@@ -29361,6 +29627,7 @@
     <e><i>renover</i><par n="us/u__n"/></e>
     <e><i>renoy</i><par n="us/u__n"/></e>
     <e><i>rensí</i><par n="alde/a__n"/></e>
+    <e><i>rentabilid</i><par n="activid/á__n"/></e>
     <e><i>renter</i><par n="llob/u__n"/></e>
     <e><i>renter</i><par n="us/u__n"/></e>
     <e><i>renuber</i><par n="us/u__n"/></e>
@@ -29427,6 +29694,7 @@
     <e><i>represa</i><par n="iverna/da__n"/></e>
     <e><i>representaci</i><par n="aici/ón__n"/></e>
     <e><i>representante</i><par n="axente__n"/></e>
+    <e><i>representativid</i><par n="activid/á__n"/></e>
     <e><i>represi</i><par n="aici/ón__n"/></e>
     <e><i>repres</i><par n="alde/a__n"/></e>
     <e><i>reproducci</i><par n="aici/ón__n"/></e>
@@ -29532,6 +29800,7 @@
     <e><i>resplandimient</i><par n="us/u__n"/></e>
     <e><i>resplandor</i><par n="mes__n"/></e>
     <e><i>resplandor</i><par n="redactor__n"/></e>
+    <e><i>responsabilid</i><par n="activid/á__n"/></e>
     <e><i>respons</i><par n="us/u__n"/></e>
     <e><i>responsori</i><par n="us/u__n"/></e>
     <e><i>resquebramient</i><par n="us/u__n"/></e>
@@ -29623,6 +29892,7 @@
     <e><i>retresmisi</i><par n="aici/ón__n"/></e>
     <e><i>retrete</i><par n="abordaxe__n"/></e>
     <e><i>retrig</i><par n="ayalg/a__n"/></e>
+    <e><i>retroactivid</i><par n="activid/á__n"/></e>
     <e><i>retrovisor</i><par n="mes__n"/></e>
     <e><i>retruque</i><par n="abordaxe__n"/></e>
     <e><i>retuey</i><par n="us/u__n"/></e>
@@ -29762,6 +30032,7 @@
     <e><i>rit</i><par n="us/u__n"/></e>
     <e><i>ritm</i><par n="us/u__n"/></e>
     <e><i>ritual</i><par n="mes__n"/></e>
+    <e><i>rivalid</i><par n="activid/á__n"/></e>
     <e><i>rixide</i><par n="actri/z__n"/></e>
     <e><i>rix</i><par n="us/u__n"/></e>
     <e><i>riz</i><par n="us/u__n"/></e>
@@ -29839,6 +30110,7 @@
     <e><i>romancer</i><par n="us/u__n"/></e>
     <e><i>romanche</i><par n="abordaxe__n"/></e>
     <e><i>románic</i><par n="us/u__n"/></e>
+    <e><i>romanid</i><par n="activid/á__n"/></e>
     <e><i>roman</i><par n="adivinan/za__n"/></e>
     <e><i>roman</i><par n="llob/u__n"/></e>
     <e><i>roman</i><par n="us/u__n"/></e>
@@ -29906,6 +30178,7 @@
     <e><i>rotulador</i><par n="mes__n"/></e>
     <e><i>rotulador</i><par n="redactor__n"/></e>
     <e><i>rótul</i><par n="us/u__n"/></e>
+    <e><i>rotundid</i><par n="activid/á__n"/></e>
     <e><i>roxa</i><par n="iverna/da__n"/></e>
     <e><i>roxe</i><par n="actri/z__n"/></e>
     <e><i>roxerí</i><par n="alde/a__n"/></e>
@@ -29943,7 +30216,7 @@
     <e><i>ruidori</i><par n="us/u__n"/></e>
     <e><i>ruidux</i><par n="us/u__n"/></e>
     <e><i>ruí</i><par n="us/u__n"/></e>
-    <e><i>ruind</i><par n="ciud/á__n"/></e>
+    <e><i>ruind</i><par n="activid/á__n"/></e>
     <e><i>ru</i><par n="músi/ca__n"/></e>
     <e><i>ruiseñor</i><par n="mes__n"/></e>
     <e><i>rulé</i><par n="abordaxe__n"/></e>
@@ -30086,6 +30359,7 @@
     <e><i>saliente</i><par n="abordaxe__n"/></e>
     <e><i>salí</i><par n="us/u__n"/></e>
     <e><i>salimient</i><par n="us/u__n"/></e>
+    <e><i>salinid</i><par n="activid/á__n"/></e>
     <e><i>sal</i><par n="ablan/éu__n"/></e>
     <e><i>sal</i><par n="atardec/ida__n"/></e>
     <e><i>sal</i><par n="avi/ón__n"/></e>
@@ -30104,6 +30378,7 @@
     <e><i>salmonete</i><par n="abordaxe__n"/></e>
     <e><i>salmónid</i><par n="us/u__n"/></e>
     <e><i>salmoria</i><par n="iverna/da__n"/></e>
+    <e><i>salobrid</i><par n="activid/á__n"/></e>
     <e><i>salong</i><par n="ayalg/a__n"/></e>
     <e><i>salpic</i><par n="avi/ón__n"/></e>
     <e><i>salser</i><par n="us/u__n"/></e>
@@ -30163,11 +30438,13 @@
     <e><i>sanguch</i><par n="us/u__n"/></e>
     <e><i>sangüeñ</i><par n="us/u__n"/></e>
     <e><i>saniamient</i><par n="us/u__n"/></e>
+    <e><i>sanid</i><par n="activid/á__n"/></e>
     <e><i>sánscrit</i><par n="us/u__n"/></e>
     <e><i>santateres</i><par n="alde/a__n"/></e>
     <e><i>santerí</i><par n="alde/a__n"/></e>
     <e><i>santiag</i><par n="us/u__n"/></e>
     <e><i>santiagu</i><par n="cam/ín__n"/></e>
+    <e><i>santid</i><par n="activid/á__n"/></e>
     <e><i>santificaci</i><par n="aici/ón__n"/></e>
     <e><i>santill</i><par n="us/u__n"/></e>
     <e><i>sant</i><par n="buf/ón__n"/></e>
@@ -30293,6 +30570,7 @@
     <e><i>segund</i><par n="avi/ón__n"/></e>
     <e><i>segund</i><par n="us/u__n"/></e>
     <e><i>seguran</i><par n="adivinan/za__n"/></e>
+    <e><i>segurid</i><par n="activid/á__n"/></e>
     <e><i>segur</i><par n="us/u__n"/></e>
     <e><i>seici</i><par n="aici/ón__n"/></e>
     <e><i>se</i><par n="músi/ca__n"/></e>
@@ -30303,6 +30581,7 @@
     <e><i>selce</i><par n="abordaxe__n"/></e>
     <e><i>selecci</i><par n="aici/ón__n"/></e>
     <e><i>seleccionism</i><par n="us/u__n"/></e>
+    <e><i>selectivid</i><par n="activid/á__n"/></e>
     <e><i>seleici</i><par n="aici/ón__n"/></e>
     <e><i>seleicionador</i><par n="redactor__n"/></e>
     <e><i>seleicionism</i><par n="us/u__n"/></e>
@@ -30347,10 +30626,12 @@
     <e><i>sensaci</i><par n="aici/ón__n"/></e>
     <e><i>sensacionalism</i><par n="us/u__n"/></e>
     <e><i>sensate</i><par n="actri/z__n"/></e>
+    <e><i>sensibilid</i><par n="activid/á__n"/></e>
     <e><i>sensibilizaci</i><par n="aici/ón__n"/></e>
     <e><i>sensiblerí</i><par n="alde/a__n"/></e>
     <e><i>sensori</i><par n="us/u__n"/></e>
     <e><i>sensor</i><par n="mes__n"/></e>
+    <e><i>sensualid</i><par n="activid/á__n"/></e>
     <e><i>sensualism</i><par n="us/u__n"/></e>
     <e><i>sentader</i><par n="us/u__n"/></e>
     <e><i>sentadori</i><par n="us/u__n"/></e>
@@ -30363,10 +30644,10 @@
     <e><i>sentir</i><par n="mes__n"/></e>
     <e><i>senx</i><par n="us/u__n"/></e>
     <e><i>señalamient</i><par n="us/u__n"/></e>
-    <e><i>señald</i><par n="ciud/á__n"/></e>
+    <e><i>señald</i><par n="activid/á__n"/></e>
     <e><i>señale</i><par n="adivinan/za__n"/></e>
     <e><i>señal</i><par n="a__n"/></e>
-    <e><i>señard</i><par n="ciud/á__n"/></e>
+    <e><i>señard</i><par n="activid/á__n"/></e>
     <e><i>señ</i><par n="us/u__n"/></e>
     <e><i>señora</i><par n="iverna/da__n"/></e>
     <e><i>señoret</i><par n="us/u__n"/></e>
@@ -30387,12 +30668,13 @@
     <e><i>septet</i><par n="us/u__n"/></e>
     <e><i>séptim</i><par n="us/u__n"/></e>
     <e><i>sepulcr</i><par n="us/u__n"/></e>
-    <e><i>sequed</i><par n="ciud/á__n"/></e>
+    <e><i>sequed</i><par n="activid/á__n"/></e>
     <e><i>seraf</i><par n="cam/ín__n"/></e>
+    <e><i>serenid</i><par n="activid/á__n"/></e>
     <e><i>seren</i><par n="llob/u__n"/></e>
     <e><i>seren</i><par n="us/u__n"/></e>
     <e><i>serg</i><par n="ayalg/a__n"/></e>
-    <e><i>seried</i><par n="ciud/á__n"/></e>
+    <e><i>seried</i><par n="activid/á__n"/></e>
     <e><i>serie</i><par n="llave__n"/></e>
     <e><i>seriell</i><par n="us/u__n"/></e>
     <e><i>serigrafí</i><par n="alde/a__n"/></e>
@@ -30418,6 +30700,7 @@
     <e><i>seruyer</i><par n="us/u__n"/></e>
     <e><i>serventesi</i><par n="us/u__n"/></e>
     <e><i>servici</i><par n="us/u__n"/></e>
+    <e><i>servilid</i><par n="activid/á__n"/></e>
     <e><i>servilism</i><par n="us/u__n"/></e>
     <e><i>serviyeter</i><par n="us/u__n"/></e>
     <e><i>servodireici</i><par n="aici/ón__n"/></e>
@@ -30442,11 +30725,13 @@
     <e><i>set</i><par n="us/u__n"/></e>
     <e><i>seudónim</i><par n="us/u__n"/></e>
     <e><i>seudópod</i><par n="us/u__n"/></e>
+    <e><i>severid</i><par n="activid/á__n"/></e>
     <e><i>sexeni</i><par n="us/u__n"/></e>
     <e><i>sex</i><par n="us/u__n"/></e>
     <e><i>sexism</i><par n="us/u__n"/></e>
     <e><i>sexólog</i><par n="astrólog/u__n"/></e>
     <e><i>sexoloxí</i><par n="alde/a__n"/></e>
+    <e><i>sexualid</i><par n="activid/á__n"/></e>
     <e><i>sibaritism</i><par n="us/u__n"/></e>
     <e><i>sich</i><par n="us/u__n"/></e>
     <e><i>sicilian</i><par n="llob/u__n"/></e>
@@ -30532,14 +30817,17 @@
     <e><i>simple</i><par n="actri/z__n"/></e>
     <e><i>simple</i><par n="adivinan/za__n"/></e>
     <e><i>simplerí</i><par n="alde/a__n"/></e>
+    <e><i>simplicid</i><par n="activid/á__n"/></e>
     <e><i>simplificaci</i><par n="aici/ón__n"/></e>
     <e><i>simplona</i><par n="iverna/da__n"/></e>
     <e><i>simplonerí</i><par n="alde/a__n"/></e>
     <e><i>simulador</i><par n="mes__n"/></e>
     <e><i>simulador</i><par n="redactor__n"/></e>
+    <e><i>simultaneid</i><par n="activid/á__n"/></e>
     <e><i>sinagog</i><par n="ayalg/a__n"/></e>
     <e><i>sinancia</i><par n="iverna/da__n"/></e>
     <e><i>sinapsis</i><par n="crisis__n"/></e>
+    <e><i>sincerid</i><par n="activid/á__n"/></e>
     <e><i>sinclinal</i><par n="mes__n"/></e>
     <e><i>sincretism</i><par n="us/u__n"/></e>
     <e><i>sincroní</i><par n="alde/a__n"/></e>
@@ -30647,7 +30935,7 @@
     <e><i>sobreseimient</i><par n="us/u__n"/></e>
     <e><i>sobresueld</i><par n="us/u__n"/></e>
     <e><i>sobrevuel</i><par n="us/u__n"/></e>
-    <e><i>sobried</i><par n="ciud/á__n"/></e>
+    <e><i>sobried</i><par n="activid/á__n"/></e>
     <e><i>sobr</i><par n="aclar/áu__n"/></e>
     <e><i>sobr</i><par n="cam/ín__n"/></e>
     <e><i>sobr</i><par n="us/u__n"/></e>
@@ -30656,9 +30944,10 @@
     <e><i>socedí</i><par n="us/u__n"/></e>
     <e><i>socesi</i><par n="aici/ón__n"/></e>
     <e><i>soces</i><par n="us/u__n"/></e>
+    <e><i>sociabilid</i><par n="activid/á__n"/></e>
     <e><i>socialism</i><par n="us/u__n"/></e>
     <e><i>socializaci</i><par n="aici/ón__n"/></e>
-    <e><i>socied</i><par n="ciud/á__n"/></e>
+    <e><i>socied</i><par n="activid/á__n"/></e>
     <e><i>soci</i><par n="us/u__n"/></e>
     <e><i>sociollingüísti</i><par n="músi/ca__n"/></e>
     <e><i>sociollingüist</i><par n="acróbat/a__n"/></e>
@@ -30691,6 +30980,7 @@
     <e><i>sofá</i><par n="abordaxe__n"/></e>
     <e><i>sofexe</i><par n="abordaxe__n"/></e>
     <e><i>sofex</i><par n="mes__n"/></e>
+    <e><i>sof</i><par n="activid/á__n"/></e>
     <e><i>sofisticaci</i><par n="aici/ón__n"/></e>
     <e><i>sofitamient</i><par n="us/u__n"/></e>
     <e><i>sofit</i><par n="us/u__n"/></e>
@@ -30722,8 +31012,9 @@
     <e><i>solda</i><par n="iverna/da__n"/></e>
     <e><i>sold</i><par n="aclar/áu__n"/></e>
     <e><i>solecism</i><par n="us/u__n"/></e>
-    <e><i>soled</i><par n="ciud/á__n"/></e>
+    <e><i>soled</i><par n="activid/á__n"/></e>
     <e><i>sole</i><par n="us/u__n"/></e>
+    <e><i>solemnid</i><par n="activid/á__n"/></e>
     <e><i>solenoide</i><par n="abordaxe__n"/></e>
     <e><i>solet</i><par n="us/u__n"/></e>
     <e><i>soleya</i><par n="iverna/da__n"/></e>
@@ -30733,12 +31024,14 @@
     <e><i>solhorr</i><par n="us/u__n"/></e>
     <e><i>solicitaci</i><par n="aici/ón__n"/></e>
     <e><i>solicitú</i><par n="a__n"/></e>
+    <e><i>solidarid</i><par n="activid/á__n"/></e>
     <e><i>solide</i><par n="actri/z__n"/></e>
     <e><i>solidificaci</i><par n="aici/ón__n"/></e>
     <e><i>solid</i><par n="ablan/éu__n"/></e>
     <e><i>sólid</i><par n="us/u__n"/></e>
     <e><i>soliloqui</i><par n="us/u__n"/></e>
     <e><i>solimbre</i><par n="abordaxe__n"/></e>
+    <e><i>solimid</i><par n="activid/á__n"/></e>
     <e><i>solim</i><par n="af/án__n"/></e>
     <e><i>solina</i><par n="iverna/da__n"/></e>
     <e><i>solinaz</i><par n="us/u__n"/></e>
@@ -30760,6 +31053,7 @@
     <e><i>solmen</i><par n="avi/ón__n"/></e>
     <e><i>solstici</i><par n="us/u__n"/></e>
     <e><i>solterí</i><par n="alde/a__n"/></e>
+    <e><i>solubilid</i><par n="activid/á__n"/></e>
     <e><i>soluci</i><par n="aici/ón__n"/></e>
     <e><i>somal</i><par n="cam/ín__n"/></e>
     <e><i>somant</i><par n="aclar/áu__n"/></e>
@@ -30791,9 +31085,11 @@
     <e><i>sonet</i><par n="us/u__n"/></e>
     <e><i>soní</i><par n="us/u__n"/></e>
     <e><i>sonómetr</i><par n="us/u__n"/></e>
+    <e><i>sonorid</i><par n="activid/á__n"/></e>
     <e><i>sonorizaci</i><par n="aici/ón__n"/></e>
     <e><i>sonorizador</i><par n="mes__n"/></e>
     <e><i>sonorizador</i><par n="redactor__n"/></e>
+    <e><i>sonormalid</i><par n="activid/á__n"/></e>
     <e><i>sonris</i><par n="alde/a__n"/></e>
     <e><i>sonsacamient</i><par n="us/u__n"/></e>
     <e><i>sons</i><par n="avi/ón__n"/></e>
@@ -30892,6 +31188,7 @@
     <e><i>soy</i><par n="us/u__n"/></e>
     <e><i>suah.ili</i><par n="abordaxe__n"/></e>
     <e><i>suañ</i><par n="us/u__n"/></e>
+    <e><i>suavid</i><par n="activid/á__n"/></e>
     <e><i>suavizond</i><par n="us/u__n"/></e>
     <e><i>subaltern</i><par n="us/u__n"/></e>
     <e><i>subast</i><par n="aclar/áu__n"/></e>
@@ -30919,9 +31216,11 @@
     <e><i>sub</i><par n="cam/ín__n"/></e>
     <e><i>sublevaci</i><par n="aici/ón__n"/></e>
     <e><i>sublevamient</i><par n="us/u__n"/></e>
+    <e><i>sublimid</i><par n="activid/á__n"/></e>
     <e><i>submarinism</i><par n="us/u__n"/></e>
     <e><i>submar</i><par n="cam/ín__n"/></e>
     <e><i>submúltipl</i><par n="us/u__n"/></e>
+    <e><i>subnormalid</i><par n="activid/á__n"/></e>
     <e><i>suboficial</i><par n="redactor__n"/></e>
     <e><i>suborde</i><par n="abordaxe__n"/></e>
     <e><i>subordinaci</i><par n="aici/ón__n"/></e>
@@ -30992,12 +31291,15 @@
     <e><i>suministr</i><par n="us/u__n"/></e>
     <e><i>sumisi</i><par n="aici/ón__n"/></e>
     <e><i>sumusti</i><par n="us/u__n"/></e>
+    <e><i>suntuosid</i><par n="activid/á__n"/></e>
     <e><i>superaci</i><par n="aici/ón__n"/></e>
     <e><i>superávit</i><par n="llunes__n"/></e>
     <e><i>superclase</i><par n="llave__n"/></e>
     <e><i>superestrat</i><par n="us/u__n"/></e>
+    <e><i>superficialid</i><par n="activid/á__n"/></e>
     <e><i>superficie</i><par n="llave__n"/></e>
     <e><i>superiorat</i><par n="us/u__n"/></e>
+    <e><i>superiorid</i><par n="activid/á__n"/></e>
     <e><i>superior</i><par n="redactor__n"/></e>
     <e><i>superlativ</i><par n="us/u__n"/></e>
     <e><i>supermerc</i><par n="aclar/áu__n"/></e>
@@ -31036,6 +31338,7 @@
     <e><i>surriell</i><par n="us/u__n"/></e>
     <e><i>surtí</i><par n="us/u__n"/></e>
     <e><i>surtimient</i><par n="us/u__n"/></e>
+    <e><i>susceptibilid</i><par n="activid/á__n"/></e>
     <e><i>suscripci</i><par n="aici/ón__n"/></e>
     <e><i>suscriptor</i><par n="redactor__n"/></e>
     <e><i>suspensi</i><par n="aici/ón__n"/></e>
@@ -31051,6 +31354,7 @@
     <e><i>suxetador</i><par n="redactor__n"/></e>
     <e><i>suxetamient</i><par n="us/u__n"/></e>
     <e><i>suxet</i><par n="us/u__n"/></e>
+    <e><i>suxetivid</i><par n="activid/á__n"/></e>
     <e><i>suxetivism</i><par n="us/u__n"/></e>
     <e><i>suxuntiv</i><par n="us/u__n"/></e>
     <e><i>tabac</i><par n="us/u__n"/></e>
@@ -31154,7 +31458,6 @@
     <e><i>tamburri</i><par n="avi/ón__n"/></e>
     <e><i>tamil</i><par n="mes__n"/></e>
     <e><i>tamiz</i><par n="us/u__n"/></e>
-
     <e><i>tampan</i><par n="us/u__n"/></e>
     <e><i>tamp</i><par n="avi/ón__n"/></e>
     <e><i>tamung</i><par n="us/u__n"/></e>
@@ -31416,10 +31719,11 @@
     <e><i>temblor</i><par n="mes__n"/></e>
     <e><i>tembote</i><par n="abordaxe__n"/></e>
     <e><i>temburri</i><par n="avi/ón__n"/></e>
+    <e><i>temerid</i><par n="activid/á__n"/></e>
     <e><i>témpan</i><par n="us/u__n"/></e>
     <e><i>temperament</i><par n="us/u__n"/></e>
     <e><i>temper</i><par n="us/u__n"/></e>
-    <e><i>tempest</i><par n="ciud/á__n"/></e>
+    <e><i>tempest</i><par n="activid/á__n"/></e>
     <e><i>templamient</i><par n="us/u__n"/></e>
     <e><i>templan</i><par n="adivinan/za__n"/></e>
     <e><i>templari</i><par n="llob/u__n"/></e>
@@ -31504,7 +31808,9 @@
     <e><i>term</i><par n="us/u__n"/></e>
     <e><i>termiter</i><par n="us/u__n"/></e>
     <e><i>termodinámi</i><par n="músi/ca__n"/></e>
+    <e><i>termoelectricid</i><par n="activid/á__n"/></e>
     <e><i>termografí</i><par n="alde/a__n"/></e>
+    <e><i>termolletricid</i><par n="activid/á__n"/></e>
     <e><i>termometrí</i><par n="alde/a__n"/></e>
     <e><i>termómetr</i><par n="us/u__n"/></e>
     <e><i>termorregulaci</i><par n="aici/ón__n"/></e>
@@ -31527,6 +31833,7 @@
     <e><i>territori</i><par n="us/u__n"/></e>
     <e><i>terrorism</i><par n="us/u__n"/></e>
     <e><i>terrorist</i><par n="acróbat/a__n"/></e>
+    <e><i>terrosid</i><par n="activid/á__n"/></e>
     <e><i>terruñ</i><par n="us/u__n"/></e>
     <e><i>tésic</i><par n="us/u__n"/></e>
     <e><i>tes</i><par n="avi/ón__n"/></e>
@@ -31682,6 +31989,7 @@
     <e><i>titiriter</i><par n="llob/u__n"/></e>
     <e><i>titiriter</i><par n="us/u__n"/></e>
     <e><i>titulaci</i><par n="aici/ón__n"/></e>
+    <e><i>titularid</i><par n="activid/á__n"/></e>
     <e><i>titular</i><par n="mes__n"/></e>
     <e><i>titul</i><par n="abog/áu__n"/></e>
     <e><i>títul</i><par n="us/u__n"/></e>
@@ -31748,6 +32056,7 @@
     <e><i>tonabrí</i><par n="us/u__n"/></e>
     <e><i>tonadrí</i><par n="alde/a__n"/></e>
     <e><i>tona</i><par n="iverna/da__n"/></e>
+    <e><i>tonalid</i><par n="activid/á__n"/></e>
     <e><i>tonarí</i><par n="us/u__n"/></e>
     <e><i>tonela</i><par n="iverna/da__n"/></e>
     <e><i>tonelaxe</i><par n="abordaxe__n"/></e>
@@ -31757,6 +32066,7 @@
     <e><i>tonel</i><par n="mes__n"/></e>
     <e><i>tong</i><par n="ayalg/a__n"/></e>
     <e><i>tong</i><par n="us/u__n"/></e>
+    <e><i>tonicid</i><par n="activid/á__n"/></e>
     <e><i>tóni</i><par n="músi/ca__n"/></e>
     <e><i>ton</i><par n="atardec/ida__n"/></e>
     <e><i>ton</i><par n="us/u__n"/></e>
@@ -31875,18 +32185,20 @@
     <e><i>toscan</i><par n="llob/u__n"/></e>
     <e><i>toscan</i><par n="us/u__n"/></e>
     <e><i>tos</i><par n="mes__n"/></e>
-    <e><i>tosqued</i><par n="ciud/á__n"/></e>
+    <e><i>tosqued</i><par n="activid/á__n"/></e>
     <e><i>tosquilador</i><par n="redactor__n"/></e>
     <e><i>tosta</i><par n="iverna/da__n"/></e>
     <e><i>tost</i><par n="avi/ón__n"/></e>
     <e><i>tost</i><par n="cam/ín__n"/></e>
     <e><i>tost</i><par n="us/u__n"/></e>
+    <e><i>totalid</i><par n="activid/á__n"/></e>
     <e><i>total</i><par n="mes__n"/></e>
     <e><i>totalitarism</i><par n="us/u__n"/></e>
     <e><i>tótem</i><par n="llunes__n"/></e>
     <e><i>toxa</i><par n="iverna/da__n"/></e>
     <e><i>toxal</i><par n="mes__n"/></e>
     <e><i>toxer</i><par n="us/u__n"/></e>
+    <e><i>toxicid</i><par n="activid/á__n"/></e>
     <e><i>toxicólog</i><par n="astrólog/u__n"/></e>
     <e><i>toxicoloxí</i><par n="alde/a__n"/></e>
     <e><i>toxicomaní</i><par n="alde/a__n"/></e>
@@ -31965,10 +32277,13 @@
     <e><i>tranquelexí</i><par n="us/u__n"/></e>
     <e><i>tranquer</i><par n="us/u__n"/></e>
     <e><i>tranquí</i><par n="alde/a__n"/></e>
+    <e><i>tranquilid</i><par n="activid/á__n"/></e>
     <e><i>tranqu</i><par n="ablan/éu__n"/></e>
+    <e><i>transexualid</i><par n="activid/á__n"/></e>
     <e><i>transici</i><par n="aici/ón__n"/></e>
     <e><i>transistor</i><par n="mes__n"/></e>
     <e><i>tránsit</i><par n="us/u__n"/></e>
+    <e><i>transitivid</i><par n="activid/á__n"/></e>
     <e><i>tranvia</i><par n="iverna/da__n"/></e>
     <e><i>tranví</i><par n="alde/a__n"/></e>
     <e><i>trapacerí</i><par n="alde/a__n"/></e>
@@ -32179,6 +32494,7 @@
     <e><i>trinc</i><par n="aclar/áu__n"/></e>
     <e><i>trinc</i><par n="avi/ón__n"/></e>
     <e><i>trinc</i><par n="us/u__n"/></e>
+    <e><i>trinid</i><par n="activid/á__n"/></e>
     <e><i>trin</i><par n="ablan/éu__n"/></e>
     <e><i>trin</i><par n="músi/ca__n"/></e>
     <e><i>trinitrotoluen</i><par n="us/u__n"/></e>
@@ -32418,6 +32734,7 @@
     <e><i>tutorí</i><par n="alde/a__n"/></e>
     <e><i>tutor</i><par n="redactor__n"/></e>
     <e><i>tutúmban</i><par n="us/u__n"/></e>
+    <e><i>ubicuid</i><par n="activid/á__n"/></e>
     <e><i>ubre</i><par n="abordaxe__n"/></e>
     <e><i>ubrer</i><par n="us/u__n"/></e>
     <e><i>ubric</i><par n="aclar/áu__n"/></e>
@@ -32435,22 +32752,29 @@
     <e><i>umbr</i><par n="us/u__n"/></e>
     <e><i>umeral</i><par n="mes__n"/></e>
     <e><i>umer</i><par n="us/u__n"/></e>
+    <e><i>unanimid</i><par n="activid/á__n"/></e>
     <e><i>unci</i><par n="aici/ón__n"/></e>
     <e><i>unga</i><par n="iverna/da__n"/></e>
     <e><i>ungara</i><par n="iverna/da__n"/></e>
     <e><i>ungüent</i><par n="us/u__n"/></e>
     <e><i>ungul</i><par n="aclar/áu__n"/></e>
+    <e><i>unicid</i><par n="activid/á__n"/></e>
     <e><i>unicorni</i><par n="us/u__n"/></e>
+    <e><i>unid</i><par n="activid/á__n"/></e>
     <e><i>unificaci</i><par n="aici/ón__n"/></e>
     <e><i>uniforme</i><par n="abordaxe__n"/></e>
+    <e><i>uniformid</i><par n="activid/á__n"/></e>
     <e><i>uni</i><par n="aici/ón__n"/></e>
     <e><i>unillingüism</i><par n="us/u__n"/></e>
     <e><i>unionism</i><par n="us/u__n"/></e>
+    <e><i>universalid</i><par n="activid/á__n"/></e>
     <e><i>universal</i><par n="mes__n"/></e>
     <e><i>universalism</i><par n="us/u__n"/></e>
+    <e><i>universid</i><par n="activid/á__n"/></e>
     <e><i>univers</i><par n="us/u__n"/></e>
     <e><i>universitari</i><par n="llob/u__n"/></e>
     <e><i>universitari</i><par n="us/u__n"/></e>
+    <e><i>univocid</i><par n="activid/á__n"/></e>
     <e><i>unta</i><par n="adivinan/za__n"/></e>
     <e><i>untamient</i><par n="us/u__n"/></e>
     <e><i>unt</i><par n="us/u__n"/></e>
@@ -32491,6 +32815,7 @@
     <e><i>usufruct</i><par n="us/u__n"/></e>
     <e><i>utensili</i><par n="us/u__n"/></e>
     <e><i>úter</i><par n="us/u__n"/></e>
+    <e><i>utilid</i><par n="activid/á__n"/></e>
     <e><i>utilitarism</i><par n="us/u__n"/></e>
     <e><i>utilizaci</i><par n="aici/ón__n"/></e>
     <e><i>utopí</i><par n="alde/a__n"/></e>
@@ -32570,6 +32895,7 @@
     <e><i>vampir</i><par n="us/u__n"/></e>
     <e><i>vampirism</i><par n="us/u__n"/></e>
     <e><i>vanadi</i><par n="us/u__n"/></e>
+    <e><i>vanid</i><par n="activid/á__n"/></e>
     <e><i>van</i><par n="us/u__n"/></e>
     <e><i>vaña</i><par n="iverna/da__n"/></e>
     <e><i>vañ</i><par n="aclar/áu__n"/></e>
@@ -32611,7 +32937,7 @@
     <e><i>variamient</i><par n="us/u__n"/></e>
     <e><i>variante</i><par n="llave__n"/></e>
     <e><i>varicaz</i><par n="us/u__n"/></e>
-    <e><i>varied</i><par n="ciud/á__n"/></e>
+    <e><i>varied</i><par n="activid/á__n"/></e>
     <e><i>vari</i><par n="adivinan/za__n"/></e>
     <e><i>var</i><par n="aclar/áu__n"/></e>
     <e><i>var</i><par n="avi/ón__n"/></e>
@@ -32646,7 +32972,7 @@
     <e><i>vechiriguer</i><par n="us/u__n"/></e>
     <e><i>vecinder</i><par n="llob/u__n"/></e>
     <e><i>vecinder</i><par n="us/u__n"/></e>
-    <e><i>vecind</i><par n="ciud/á__n"/></e>
+    <e><i>vecind</i><par n="activid/á__n"/></e>
     <e><i>vec</i><par n="cam/ín__n"/></e>
     <e><i>vector</i><par n="mes__n"/></e>
     <e><i>vedegame</i><par n="abordaxe__n"/></e>
@@ -32681,6 +33007,7 @@
     <e><i>vell</i><par n="aclar/áu__n"/></e>
     <e><i>vell</i><par n="avi/ón__n"/></e>
     <e><i>vell</i><par n="us/u__n"/></e>
+    <e><i>velocid</i><par n="activid/á__n"/></e>
     <e><i>velocímetr</i><par n="us/u__n"/></e>
     <e><i>velocíped</i><par n="us/u__n"/></e>
     <e><i>velódrom</i><par n="us/u__n"/></e>
@@ -32749,6 +33076,7 @@
     <e><i>ventr</i><par n="avi/ón__n"/></e>
     <e><i>ventris</i><par n="músi/ca__n"/></e>
     <e><i>venturieg</i><par n="ayalg/a__n"/></e>
+    <e><i>veracid</i><par n="activid/á__n"/></e>
     <e><i>veral</i><par n="mes__n"/></e>
     <e><i>veraniante</i><par n="axente__n"/></e>
     <e><i>veran</i><par n="ablan/éu__n"/></e>
@@ -32778,8 +33106,8 @@
     <e><i>verdias</i><par n="músi/ca__n"/></e>
     <e><i>verdiay</i><par n="us/u__n"/></e>
     <e><i>verdi</i><par n="avi/ón__n"/></e>
+    <e><i>verd</i><par n="activid/á__n"/></e>
     <e><i>verd</i><par n="cam/ín__n"/></e>
-    <e><i>verd</i><par n="ciud/á__n"/></e>
     <e><i>verdor</i><par n="mes__n"/></e>
     <e><i>verdor</i><par n="redactor__n"/></e>
     <e><i>verduga</i><par n="iverna/da__n"/></e>
@@ -32822,6 +33150,7 @@
     <e><i>versi</i><par n="aici/ón__n"/></e>
     <e><i>vers</i><par n="us/u__n"/></e>
     <e><i>vertenci</i><par n="us/u__n"/></e>
+    <e><i>verticalid</i><par n="activid/á__n"/></e>
     <e><i>vertical</i><par n="a__n"/></e>
     <e><i>vertiente</i><par n="llave__n"/></e>
     <e><i>vértig</i><par n="us/u__n"/></e>
@@ -32842,7 +33171,6 @@
     <e><i>vexiga</i><par n="iverna/da__n"/></e>
     <e><i>vexigaz</i><par n="us/u__n"/></e>
     <e><i>vexig</i><par n="avi/ón__n"/></e>
-
     <e><i>vexig</i><par n="ayalg/a__n"/></e>
     <e><i>vexig</i><par n="us/u__n"/></e>
     <e><i>veyarra</i><par n="iverna/da__n"/></e>
@@ -32948,10 +33276,12 @@
     <e><i>virug</i><par n="us/u__n"/></e>
     <e><i>virus</i><par n="llunes__n"/></e>
     <e><i>virxe</i><par n="llave__n"/></e>
+    <e><i>virxinid</i><par n="activid/á__n"/></e>
     <e><i>visadori</i><par n="us/u__n"/></e>
     <e><i>visaxe</i><par n="abordaxe__n"/></e>
     <e><i>visax</i><par n="mes__n"/></e>
     <e><i>viser</i><par n="us/u__n"/></e>
+    <e><i>visibilid</i><par n="activid/á__n"/></e>
     <e><i>visi</i><par n="aici/ón__n"/></e>
     <e><i>visill</i><par n="us/u__n"/></e>
     <e><i>vis</i><par n="aclar/áu__n"/></e>
@@ -32992,6 +33322,7 @@
     <e><i>volador</i><par n="redactor__n"/></e>
     <e><i>vola</i><par n="iverna/da__n"/></e>
     <e><i>volante</i><par n="abordaxe__n"/></e>
+    <e><i>volatilid</i><par n="activid/á__n"/></e>
     <e><i>volatilizaci</i><par n="aici/ón__n"/></e>
     <e><i>volc</i><par n="af/án__n"/></e>
     <e><i>vole</i><par n="alde/a__n"/></e>
@@ -33011,8 +33342,8 @@
     <e><i>volume</i><par n="abordaxe__n"/></e>
     <e><i>volumétric</i><par n="us/u__n"/></e>
     <e><i>volumetrí</i><par n="alde/a__n"/></e>
-    <e><i>voluntaried</i><par n="ciud/á__n"/></e>
-    <e><i>volunt</i><par n="ciud/á__n"/></e>
+    <e><i>voluntaried</i><par n="activid/á__n"/></e>
+    <e><i>volunt</i><par n="activid/á__n"/></e>
     <e><i>volvedori</i><par n="us/u__n"/></e>
     <e><i>volvedor</i><par n="redactor__n"/></e>
     <e><i>vómit</i><par n="us/u__n"/></e>
@@ -33028,6 +33359,7 @@
     <e><i>vulcanólog</i><par n="astrólog/u__n"/></e>
     <e><i>vulcanólog</i><par n="us/u__n"/></e>
     <e><i>vulcanoloxí</i><par n="alde/a__n"/></e>
+    <e><i>vulgarid</i><par n="activid/á__n"/></e>
     <e><i>vulgarism</i><par n="us/u__n"/></e>
     <e><i>vulgarizaci</i><par n="aici/ón__n"/></e>
     <e><i>water-polo</i><par n="abordaxe__n"/></e>
@@ -33211,13 +33543,16 @@
     <e><i>xenerador</i><par n="mes__n"/></e>
     <e><i>xenerador</i><par n="redactor__n"/></e>
     <e><i>xeneralat</i><par n="us/u__n"/></e>
+    <e><i>xeneralid</i><par n="activid/á__n"/></e>
     <e><i>xeneral</i><par n="aclar/áu__n"/></e>
     <e><i>xeneral</i><par n="redactor__n"/></e>
     <e><i>xeneralizaci</i><par n="aici/ón__n"/></e>
     <e><i>xéner</i><par n="us/u__n"/></e>
+    <e><i>xenerosid</i><par n="activid/á__n"/></e>
     <e><i>xénesis</i><par n="llunes__n"/></e>
     <e><i>xenéti</i><par n="músi/ca__n"/></e>
     <e><i>xenetist</i><par n="acróbat/a__n"/></e>
+    <e><i>xenialid</i><par n="activid/á__n"/></e>
     <e><i>xeni</i><par n="us/u__n"/></e>
     <e><i>xen</i><par n="avi/ón__n"/></e>
     <e><i>xeniqué</i><par n="abordaxe__n"/></e>
@@ -33236,7 +33571,7 @@
     <e><i>xentil</i><par n="mes__n"/></e>
     <e><i>xenxig</i><par n="ag/ua__n"/></e>
     <e><i>xenxivitis</i><par n="crisis__n"/></e>
-    <e><i>xeñard</i><par n="ciud/á__n"/></e>
+    <e><i>xeñard</i><par n="activid/á__n"/></e>
     <e><i>xeobioloxí</i><par n="alde/a__n"/></e>
     <e><i>xeocentrism</i><par n="us/u__n"/></e>
     <e><i>xeodinámi</i><par n="músi/ca__n"/></e>
@@ -33266,7 +33601,7 @@
     <e><i>xering</i><par n="ayalg/a__n"/></e>
     <e><i>xeringos</i><par n="alde/a__n"/></e>
     <e><i>xermandí</i><par n="alde/a__n"/></e>
-    <e><i>xermand</i><par n="ciud/á__n"/></e>
+    <e><i>xermand</i><par n="activid/á__n"/></e>
     <e><i>xermani</i><par n="us/u__n"/></e>
     <e><i>xerman</i><par n="llob/u__n"/></e>
     <e><i>xerman</i><par n="us/u__n"/></e>
@@ -33501,7 +33836,7 @@
     <e><i>xurisdicci</i><par n="aici/ón__n"/></e>
     <e><i>xurist</i><par n="acróbat/a__n"/></e>
     <e><i>xurri</i><par n="us/u__n"/></e>
-    <e><i>xusted</i><par n="ciud/á__n"/></e>
+    <e><i>xusted</i><par n="activid/á__n"/></e>
     <e><i>xuste</i><par n="adivinan/za__n"/></e>
     <e><i>xusticialism</i><par n="us/u__n"/></e>
     <e><i>xustificaci</i><par n="aici/ón__n"/></e>
