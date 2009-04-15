@@ -271,6 +271,376 @@
       </e>
     </pardef>
 
+    <pardef n="qué__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="quién__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>es</l> 
+        <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="cuánt/o__prn">
+    <e>
+      <p>
+        <l>es</l> 
+        <r>o<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l> 
+        <r>o<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l> 
+        <r>o<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>u</l> 
+        <r>o<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>o</l> 
+        <r>o<s n="prn"/><s n="itg"/><s n="n"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="conmigo__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="contigo__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="consigo__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="sí__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="vós__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="nós__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="ust/é__prn">
+    <e>
+      <p>
+        <l>edes</l> 
+        <r>é<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>é</l> 
+        <r>é<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="nosotr/os__prn">
+    <e>
+      <p>
+        <l>es</l> 
+        <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l> 
+        <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="vosotr/os__prn">
+    <e>
+      <p>
+        <l>es</l> 
+        <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l> 
+        <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="/él__prn">
+    <e>
+      <p>
+        <l>elles</l> 
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ella</l> 
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ellos</l> 
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>él</l> 
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>elli</l> 
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ello</l> 
+        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="nt"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="me__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="te__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="se__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="nos__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="vos__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="l/o__prn">
+    <e>
+      <p>
+        <l>es</l> 
+        <r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l> 
+        <r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l> 
+        <r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>o</l> 
+        <r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>o</l> 
+        <r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>o</l> 
+        <r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="-y__prn">
+    <e>
+      <p>
+        <l>-yos</l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>-ys</l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-y</l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="~/-y__prn">
+    <e>
+      <p>
+        <l><a/>-yos</l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l><a/>-ys</l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l><a/>-y</l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+<!-- Definición del paradigma de pronomes qu'apaecen nes conxugaciones de verbos pronominales. Llámase dende'l propiu verbu-->
+    <pardef n="vbs_prnms">
+    <e>
+      <p>
+        <l>me<b/></l> 
+        <r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>te<b/></l> 
+        <r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>se<b/></l> 
+        <r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nos<b/></l> 
+        <r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vos<b/></l> 
+        <r>vos<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="aquel__prn">
+    <e>
+      <p>
+        <l>las</l> 
+        <r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>la</l> 
+        <r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>los</l> 
+        <r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="man/o__n">
       <e>
         <p>
@@ -6559,6 +6929,40 @@
     <e lm="ventiséis"><i>ventiséis</i><par n="seis__num"/></e>
     <e lm="ventitrés"><i>ventitrés</i><par n="seis__num"/></e>
     <e lm="ventiún"><i>veintiún</i><par n="nueve__num"/></e>
+
+    <!-- Pronomes -->
+    <e lm="yo"><i>yo</i><par n="conmigo__prn"/></e>
+    <e lm="mi"><i>mi</i><par n="conmigo__prn"/></e>
+    <e lm="min"><i>min</i><par n="conmigo__prn"/></e>
+    <e lm="conmigo"><i>conmigo</i><par n="conmigo__prn"/></e>
+    <e lm="tu"><i>tu</i><par n="contigo__prn"/></e>
+    <e lm="ti"><i>ti</i><par n="contigo__prn"/></e>
+    <e lm="contigo"><i>contigo</i><par n="contigo__prn"/></e>
+    <e lm="consigo"><i>consigo</i><par n="consigo__prn"/></e>
+    <e r="LR" lm="tigo"><i>tigo</i><par n="contigo__prn"/></e>
+    <e r="LR" lm="sigo"><i>sigo</i><par n="consigo__prn"/></e>
+    <e lm="sí"><i>sí</i><par n="sí__prn"/></e>
+    <e lm="él"><par n="/él__prn"/></e>
+    <e lm="nosotros"><i>nosotr</i><par n="nosotr/os__prn"/></e>
+    <e lm="nós"><i>nós</i><par n="nós__prn"/></e>
+    <e lm="vosotros"><i>vosotr</i><par n="vosotr/os__prn"/></e>
+    <e lm="vós"><i>vós</i><par n="vós__prn"/></e>
+    <e lm="usté"><i>ust</i><par n="ust/é__prn"/></e>
+    <e r="LR" lm="vusté"><i>vust</i><par n="vust/é__prn"/></e>
+    <e lm="qué"><i>qué</i><par n="qué__prn"/></e>
+    <e lm="quién"><i>quién</i><par n="quién__prn"/></e>
+    <e lm="cuánto"><i>cuánto</i><par n="cuánto__prn"/></e>
+    <e lm="me"><i>me</i><par n="me__prn"/></e>
+    <e lm="te"><i>te</i><par n="te__prn"/></e>
+    <e lm="se"><i>se</i><par n="se__prn"/></e>
+    <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
+    <e r="LR" lm="mos"><i>mos</i><par n="mos__prn"/></e>
+    <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
+    <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
+    <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
+    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>
+    <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
+    <e lm="aquél"><i>aquél</i><par n="aquel__prn"/></e>
 
     <!-- Conxunciones -->
     <e lm="y"><i/><par n="y__cnjcoo"/></e>
@@ -34134,6 +34538,7 @@
   <section id="apostrophes" type="postblank">
     <e lm="d'"><p><l>d'</l><r>de</r></p><par n="según__pr"/></e>
     <e lm="n'"><p><l>n'</l><r>en</r></p><par n="según__pr"/></e>
+    <e lm="p'"><p><l>p'</l><r>en</r></p><par n="según__pr"/></e>
     <e lm="l'"><p><l>l'</l><r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="qu'"><p><l>qu'</l><r>que</r></p><par n="que__cnjsub"/></e>
   </section>
