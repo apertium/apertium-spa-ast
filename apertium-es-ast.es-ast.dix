@@ -71,6 +71,8 @@
     <sdef n="lpar"/>
     <sdef n="rpar"/>
     <sdef n="lquest"/>
+    <sdef n="ND"/>
+    <sdef n="GD"/>
 
   </sdefs>
   <section id="main" type="standard">
@@ -1112,8 +1114,7 @@ n="ND"/></r></p></e>-->
     <e><p><l>antropomorfo<s n="n"/></l><r>antropomorfu<s n="n"/></r></p></e>
     <e><p><l>antroponimia</l><r>antroponimia</r></p></e>
     <e><p><l>antropónimo<s n="n"/></l><r>antropónimu<s n="n"/></r></p></e>
-<!--    <e r="RL"><p><l>carnaval<s n="n"/><s n="m"/><s n="ND"/></l><r>antroxu<s n="n"/><s 
-n="m"/><s n="sp"/></r></p></e>-->
+    <e r="RL"><p><l>carnaval<s n="n"/><s n="m"/><s n="ND"/></l><r>antroxu<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>carnaval<s n="n"/><s n="m"/><s n="sg"/></l><r>antroxu<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>carnaval<s n="n"/><s n="m"/><s n="pl"/></l><r>antroxu<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e><p><l>anualidad<s n="n"/></l><r>anualidá<s n="n"/></r></p></e>
