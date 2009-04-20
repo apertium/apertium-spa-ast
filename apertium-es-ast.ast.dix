@@ -269,7 +269,6 @@
           <r><s n="num"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
-<<<<<<< .mine
     </pardef>
 
     <pardef n="qué__prn">
@@ -7823,7 +7822,6 @@
     <e lm="ventiséis"><i>ventiséis</i><par n="seis__num"/></e>
     <e lm="ventitrés"><i>ventitrés</i><par n="seis__num"/></e>
     <e lm="ventiún"><i>veintiún</i><par n="nueve__num"/></e>
-<<<<<<< .mine
 
     <!-- Pronomes -->
     <e lm="yo"><i>yo</i><par n="conmigo__prn"/></e>
@@ -7861,13 +7859,11 @@
     <e lm="esti"><i>est</i><par n="es/i__prn"/></e>
     <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
     <e lm="aquél"><i>aquél</i><par n="aquel__prn"/></e>
-=======
->>>>>>> .r9805
     <e lm="dambos"><i>damb</i><par n="damb/os__prn"/></e>
     <e lm="munchos"><i>munch</i><par n="damb/os__prn"/></e>
     <e lm="pocos"><i>po</i><par n="po/cos__prn"/></e>
     <e lm="dalguién"><i>dalguién</i><par n="dalguién__prn"/></e>
-    <e r="LR" lm="alguién"><i>alguién</i><par n="alguién__prn"/></e>
+    <e r="LR" lm="alguién"><i>alguién</i><par n="dalguién__prn"/></e>
     <e lm="dalgo"><i>dalgo</i><par n="dalgo__prn"/></e>
     <e r="LR" lm="algo"><i>algo</i><par n="dalgo__prn"/></e>
     <e r="LR" lm="dalgún"><i>dalg</i><par n="dalg/ún__prn"/></e>
@@ -8784,7 +8780,7 @@
     <e><i>tent</i><par n="sem/ar__vblex"/></e>
     <e><i>trebey</i><par n="sem/ar__vblex"/></e>
     <e><i>trem</i><par n="sem/ar__vblex"/></e>
-    <e><i>tres<par n="sem/ar__vblex"/></e>
+    <e><i>tres</i><par n="sem/ar__vblex"/></e>
     <e><i>lech</i><par n="sem/ar__vblex"/></e>
     <e><i>tresn</i><par n="sem/ar__vblex"/></e>
     <e><i>verben</i><par n="sem/ar__vblex"/></e>
