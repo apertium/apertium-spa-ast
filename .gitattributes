@@ -7,6 +7,7 @@
 /apertium-es-ast.es-ast.t1x -text
 /apertium-es-ast.es.dix -text
 /apertium-es-ast.es.tsx -text
+/apertium-es-ca.post-es.dix -text
 /ast-es-unsupervised.make -text
 ast-tagger-data/ast.crp.txt -text
 ast-tagger-data/astwiki-20090122-pages-articles.xml.bz2 -text
