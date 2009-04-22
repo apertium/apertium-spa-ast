@@ -4,7 +4,7 @@
 
 AC_PREREQ(2.52)
 
-m4_define([required_apertium_version], [3.0.0])
+m4_define([required_apertium_version], [3.1.0])
 
 AC_INIT([apertium-es-ast], [1.0.6], [jviejo@uniovi.es])
 AM_INIT_AUTOMAKE([apertium-es-ast], [1.0.6], no-define)
