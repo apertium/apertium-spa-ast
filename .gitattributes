@@ -1,4 +1,8 @@
 * text=auto !eol
+/AUTHORS -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
 /README -text
 /apertium-es-ast.ast.acx -text
 /apertium-es-ast.ast.dix -text
@@ -8,9 +12,16 @@
 /apertium-es-ast.es.dix -text
 /apertium-es-ast.es.tsx -text
 /apertium-es-ast.post-es.dix -text
+/apertium-es-ast.symbols.xml -text
 /ast-es-unsupervised.make -text
+/ast-es.mode -text
+/ast-es.prob -text svneol=unset#unset
 ast-tagger-data/ast.crp.txt -text
 ast-tagger-data/astwiki-20090122-pages-articles.xml.bz2 -text
+/autogen.sh -text
+/configure.ac -text
 dev/asturian.freqlist.txt -text
 /es-ast-unsupervised.make -text
+/es-ast.mode -text
 /es-ast.prob -text svneol=unset#unset
+/modes.xml -text

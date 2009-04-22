@@ -799,8 +799,6 @@
         <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r> 
       </p>
     </e>
-=======
->>>>>>> .r9805
     </pardef>
     <pardef n="ún__prn">
     <e>
@@ -35590,7 +35588,7 @@
     <e lm="s'"><p><l>s'</l><r>se</r></p><par n="se__prn"/></e>
   </section>
 
-  <section id="apostrophes" type="preblank">
+  <section id="apostrophes2" type="preblank">
     <e lm="'l"><p><l>'l</l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
   </section>
 </dictionary>

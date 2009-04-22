@@ -1,1 +1,26 @@
-Spanish and Asturian
+Spanish and Galician
+
+You need apertium-3.0.1 and lttoolbox-3.0.0 to use this translator. To compile
+the linguistic data simply do:
+
+./configure [ --prefix=/path/to/your/dir ]
+make
+make install
+
+inside of this directory.
+
+FORMAT
+
+This translator uses the XInclude style dictionaries, which first need to be
+preprocessed. The *.dix files are generated from the *.dix.xml files, so if 
+you make changes in the *.dix files and re-compile, the changes will be lost.
+
+All linguistic data is in UTF-8
+
+TAGGER
+
+To use this language-pair package with apertium YOU DO NOT NEED TO
+RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
+both the es-gl and the gl-es translation directions which should be
+acceptable for most applications.
+
