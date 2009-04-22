@@ -1,3 +1,0 @@
-    
-    /home/dani/local//bin/lt-proc /home/dani/local//share/apertium/apertium-es-ast/ast-es.automorf.bin |/home/dani/local//bin/apertium-tagger -g $2 /home/dani/local//share/apertium/apertium-es-ast/ast-es.prob |/home/dani/local//bin/apertium-pretransfer|/home/dani/local//bin/apertium-transfer /home/dani/local//share/apertium/apertium-es-ast/apertium-es-ast.ast-es.t1x  /home/dani/local//share/apertium/apertium-es-ast/ast-es.t1x.bin  /home/dani/local//share/apertium/apertium-es-ast/ast-es.autobil.bin |/home/dani/local//bin/lt-proc $1 /home/dani/local//share/apertium/apertium-es-ast/ast-es.autogen.bin |/home/dani/local//bin/lt-proc -p /home/dani/local//share/apertium/apertium-es-ast/ast-es.autopgen.bin 
-  
