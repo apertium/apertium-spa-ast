@@ -67532,7 +67532,7 @@
 <e>
 <p>
 <l/>
-<r><s n="prn"/><s n="tn"/><s n="nt"/></r>
+<r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r>
 </p>
 </e>
 </pardef>
@@ -72222,7 +72222,7 @@
     <e><i>noche</i><par n="abundancia__n"/></e>
     <e><i>noci</i><par n="acci_ón__n"/></e>
     <e><i>nocturno</i><par n="abandono__n"/></e>
-    <e><i>no</i><par n="abril__n"/></e>
+<!--    <e><i>no</i><par n="abril__n"/></e> -->
     <e><i>nombramiento</i><par n="abandono__n"/></e>
     <e><i>nombre</i><par n="abandono__n"/></e>
     <e><i>nómina</i><par n="abundancia__n"/></e>

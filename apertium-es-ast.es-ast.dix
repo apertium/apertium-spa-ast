@@ -83,9 +83,13 @@
     
     <e><p><l>el<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>uno<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
+
+    <!-- Pronoms -->
+
+    <e><p><l>esto<s n="prn"/></l><r>este<s n="prn"/></r></p></e>
    
     <!-- Nomes ordenaos alfabéticamente n'asturianu. Por favor, trata de mantener l'orde nes entraes nueves. ¡Gracies!-->
-    <!-- Noums sorted by asturian language pair. Please, try to keep it in order. Thanks!-->
+    <!-- Nouns sorted by asturian language pair. Please, try to keep it in order. Thanks!-->
     
     <e><p><l>a<s n="n"/></l><r>a<s n="n"/></r></p></e>
     <e><p><l>abad<s n="n"/></l><r>abá<s n="n"/></r></p></e>
@@ -2337,6 +2341,7 @@ n="ND"/></r></p></e>-->
     <e><p><l>primavera<s n="n"/><s n="f"/></l><r>primavera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pronombre<s n="n"/><s n="m"/></l><r>pronome<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>proverbio<s n="n"/><s n="m"/></l><r>proverbiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prueba<s n="n"/><s n="f"/></l><r>prueba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sábado<s n="n"/><s n="m"/></l><r>sábadu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>traducción<s n="n"/><s n="f"/></l><r>traducción<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>verano<s n="n"/><s n="m"/></l><r>branu<s n="n"/><s n="m"/></r></p></e>
@@ -2344,5 +2349,14 @@ n="ND"/></r></p></e>-->
     <e><p><l>verde<s n="n"/><s n="m"/></l><r>verde<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>viento<s n="n"/><s n="m"/></l><r>ábrigu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>viernes<s n="n"/><s n="m"/></l><r>vienres<s n="n"/><s n="m"/></r></p></e>
+
+
+    <!-- Verbos -->
+
+    <e><p><l>ser<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e> 
+
+    <!-- Adverbios -->
+
+    <e><p><l>no<s n="adv"/></l><r>nun<s n="adv"/></r></p></e>
   </section>
 </dictionary>
