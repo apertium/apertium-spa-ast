@@ -76,10 +76,17 @@
 
   </sdefs>
   <section id="main" type="standard">
+
+    <!-- Conjuncions -->
     <e><p><l>y<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
-    
     <e><p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
+
+    <!-- Preposicions -->
+
     <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+    <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+
+    <!-- Determinants -->
     
     <e><p><l>el<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/></r></p></e>
     <e><p><l>uno<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
@@ -2354,6 +2361,8 @@ n="ND"/></r></p></e>-->
     <!-- Verbos -->
 
     <e><p><l>ser<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e> 
+
+    <e><p><l>hacer<s n="vblex"/></l><r>facer<s n="vblex"/></r></p></e> 
 
     <!-- Adverbios -->
 
