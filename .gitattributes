@@ -24,3 +24,5 @@ dev/asturian.freqlist.txt -text
 /es-ast-unsupervised.make -text
 /es-ast.prob -text svneol=unset#unset
 /modes.xml -text
+/pending-tests.sh -text
+/regression-tests.sh -text
