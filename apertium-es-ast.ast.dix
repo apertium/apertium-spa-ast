@@ -47329,4 +47329,26 @@
   <section id="apostrophes2" type="preblank">
     <e lm="'l"><p><l>'l</l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
   </section>
+
+<section id="final" type="inconditional">
+<e>
+<par n="separa"/>
+</e>
+<e>
+<par n="numeros"/>
+</e>
+<e>
+<par n="coma"/>
+</e>
+<e>
+<par n="paresq"/>
+</e>
+<e>
+<par n="pardret"/>
+</e>
+<e>
+<par n="separ"/>
+</e>
+</section>
+
 </dictionary>

@@ -2367,5 +2367,11 @@ n="ND"/></r></p></e>-->
     <!-- Adverbios -->
 
     <e><p><l>no<s n="adv"/></l><r>nun<s n="adv"/></r></p></e>
+
+
+    <!-- Punctuación -->
+
+    <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
   </section>
 </dictionary>
