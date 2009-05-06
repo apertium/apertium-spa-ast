@@ -371,6 +371,8 @@
 <!--LISTAS A UTILIZAR EN LAS REGLAS-->
   
   <section-def-lists>
+
+    <!--lista para búsqueda de proclisis-->    
     <def-list n="pces">
       <list-item v="que"/>
       <list-item v="dónde"/>
@@ -524,8 +526,26 @@
       <list-item v="en donde"/>
       <list-item v="a lo mejor"/>
     </def-list>
-    <!--lista para búsqueda de proclisis-->    
 
+    <!--lista para búsqueda de incontables-->    
+    <def-list n="incontables">
+	<list-item v="leña"/>
+	<list-item v="agua"/>
+	<list-item v="leche"/>
+	<list-item v="pan"/>
+	<list-item v="madera"/>
+	<list-item v="aire"/>
+	<list-item v="luz"/>
+	<list-item v="sal"/>
+	<list-item v="caldo"/>
+	<list-item v="harina"/>
+	<list-item v="nieve"/>
+	<list-item v="vino"/>
+	<list-item v="azúcar"/>
+	<list-item v="manteca"/>
+	<list-item v="té"/>
+	<list-item v="queso"/>
+    </def-list>
 
   </section-def-lists>
 
@@ -5733,8 +5753,20 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
     </rule>
 
 
+<!--
+EGV29 pron_procl_refl + pron_procl + haber + participio.
+se le ha caído -> caéuselle (pretérito_perfecto)
+se lo ha dicho -> díxollo (dicir+lle+o)
+se le había caído -> caéraselle (caer-pluscuamperfecto + se + lle)
+se lo había dicho -> dixérallo  (dicir-pluscuamperfecto + lle + o)
+se le habría/habrá caído -> caeríaselle   (caer-condicional + se + lle)
+se lo habría/habrá dicho -> diríallo   (dicir-condicional + lle + o)
+se le haya caído -> cáiaselle (prs)
+se le hubiera caído -> caéseselle (pis)
+se lo haya dicho -> dígallo (prs)
+se lo hubiera dicho -> dixésello (pis)
+-->
 
-    
     
     <rule>
       <pattern>
@@ -6211,9 +6243,7 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
               
             </out> 
           </when>
-          
-          
-          
+                 
           <otherwise>
             <out>
               <lu>
@@ -6239,7 +6269,18 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
       </action>
     </rule>
     
-    
+
+
+
+<!--
+EGV30 pron_procl + pron_procl + haber + participio.
+te lo ha dicho -> díxocho (dicir-pret_perfec+te+o)
+te lo había dicho -> dixéracho  (dicir-pluscuamperfecto + te + o)
+te lo habría/habrá dicho -> diríacho   (dicir-condicional + te + o)
+te lo haya dicho -> dígacho (prs)
+te lo hubiera dicho -> dixésecho (pis)
+-->
+
     <rule>
       <pattern>
         <pattern-item n="prnpro"/>
@@ -6505,8 +6546,11 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
     </rule>
     
     
-    <!-- REGRA EGV12: HABER + PP: proref+vC
-         -->
+<!-- 
+EGV31 proclisis + pron_procl_refl + haber + participio.
+que se ha/haya/habría/habrá caído -> que se caeu (que + se + caer-pret_perfec)
+y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
+-->
     
     
     <rule>
@@ -6627,13 +6671,20 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
                 <clip pos="4" side="tl" part="whole"/> 
               </lu>
             </out> 
-          </otherwise>
-          
-          
+          </otherwise>      
         </choose>
       </action>
     </rule>
     
+
+
+
+<!-- 
+EGV32 pron_procl_refl + haber + participio.
+se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
+-->
+
+
     <rule>
       <pattern>
         <pattern-item n="prnproref"/>
@@ -6705,8 +6756,12 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
     </rule>
     
     
-    <!-- REGRA EGV13: HABER + PP: pro+vC
-         -->
+
+<!-- 
+EGV33 pron_procl_refl + haber + participio.
+que te ha/haya/habría/habrá dicho -> que che dixo  (que + te + caer-pret_perfec)
+y te ha/haya/habría/habrá dicho -> e díxoche  (e + caer-pret_perfec + te)
+-->
     
     <rule>
       <pattern>
@@ -6829,12 +6884,16 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
               </lu>
             </out> 
           </otherwise>
-          
-          
         </choose>
       </action>
     </rule>
     
+
+<!--
+EGV34 pron_procl + haber + participio.
+te ha/haya/habría/habrá caído ->  caeuche  (caer-pret_perfec + te)
+-->
+
     <rule>
       <pattern>
         <pattern-item n="prnpro"/>
@@ -6909,11 +6968,11 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
     
     
     
-    <!-- EGV14.REGRA: HABER + PP: proref+propro+vC
-         se lo ha besado - bicoullo
-         
-         -->
-    
+<!-- 
+EGV35 proclisis + pron_procl_refl + pron_procl + haber + participio.
+que se lo ha/haya/habría/habrá dicho ->  que llo dixo  (que + se + lo + decir-pret_perfec)
+y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se + lo)
+-->
     
     
     <rule>
@@ -7061,11 +7120,11 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
     
     
     
-    <!-- EGV15.REGRA: HABER + PP: propro+propro+vC
-         me lo ha besado - bicoumo
-         
-         -->
-    
+<!-- 
+EGV36 proclisis + pron_procl + pron_procl + haber + participio.
+que te lo ha/haya/habría/habrá dicho ->  que cho dixo  (que + te + lo + decir-pret_perfec)
+y te lo ha/haya/habría/habrá dicho ->  e díxocho     (decir-pret_perfec + te + lo)
+-->
     
     
     <rule>
@@ -7214,8 +7273,12 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
     </rule>
     
     
-    
-    <!--REGRA EGV16 para IR/VOLVER/...+INF en distintas combinacións con clíticos e perífrases -->
+
+
+<!-- 
+EGV37 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF en distintas combinaciones con clíticos y perífrasis
+ir a comer -> ir comer (si al preposición es "a", la quita)
+-->
     
     <rule>
       <pattern>
@@ -7263,7 +7326,11 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
       </action>
     </rule>
     
-    
+
+<!-- 
+EGV38 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF + PRON_ENCLITICO en distintas combinaciones con clíticos y perífrasis
+ir a comerlo -> ir comelo (si al preposición es "a", la quita)
+-->    
     <rule>
       <pattern>
         <pattern-item n="verbir"/>
@@ -7316,7 +7383,12 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
         </choose>
       </action>
     </rule>
-    
+
+
+<!-- 
+EGV39 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF + PRON_ENCLITICO  + PRON_ENCLITICO en distintas combinaciones con clíticos y perífrasis
+ir a comertelo -> ir comercho  (si al preposición es "a", la quita)
+-->      
     
     <rule>
       <pattern>
@@ -7379,8 +7451,10 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
     </rule>
     
     
-    
-    <rule> <!--REGLA: fóra ¿ e ¡ -->
+<!-- 
+EGV40 Quitamos ¿
+-->   
+    <rule>
       <pattern>
         <pattern-item n="lquest"/>
       </pattern>
@@ -7391,8 +7465,14 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
         </let>  -->      
       </action>
     </rule>
+
+
+<!-- 
+EGV41 Cuando detectamos ? ; : ! reseteamos variables, número a singular y género a masculino
+-->  
+
     
-    <rule><!-- REGLA: reset variables-->
+    <rule>
       <pattern>
         <pattern-item n="sent"/>
       </pattern>
