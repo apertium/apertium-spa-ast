@@ -2357,7 +2357,7 @@ n="ND"/></r></p></e>-->
     <e><p><l>verde<s n="n"/><s n="m"/></l><r>verde<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>viento<s n="n"/><s n="m"/></l><r>ábrigu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>viernes<s n="n"/><s n="m"/></l><r>vienres<s n="n"/><s n="m"/></r></p></e>
-
+    <e><p><l>leche<s n="n"/><s n="f"/></l><r>lleche<s n="n"/><s n="f"/></r></p></e>
 
     <!-- Verbos -->
 
@@ -2369,6 +2369,14 @@ n="ND"/></r></p></e>-->
 
     <e><p><l>no<s n="adv"/></l><r>nun<s n="adv"/></r></p></e>
 
+
+   <!-- Adjetivos -->
+
+   <e r="LR"><p><l>blanco<s n="adj"/><s n="m"/><s n="sg"/></l><r>blancu<s n="adj"/><s n="GD"/><s n="sg"/></r></p></e>
+   <e r="LR"><p><l>blanco<s n="adj"/><s n="f"/><s n="sg"/></l><r>blancu<s n="adj"/><s n="GD"/><s n="sg"/></r></p></e>
+   <e r="LR"><p><l>blanco<s n="adj"/><s n="m"/><s n="pl"/></l><r>blancu<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+   <e r="LR"><p><l>blanco<s n="adj"/><s n="f"/><s n="pl"/></l><r>blancu<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+   <e r="RL"><p><l>blanco<s n="adj"/></l><r>blancu<s n="adj"/></r></p></e>
 
     <!-- Punctuación -->
 
