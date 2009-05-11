@@ -719,7 +719,36 @@
 
 
     <def-macro n="f_concord2" npar="2">
+
       <choose>
+	<!-- si nombre_incontable + adjetivo, genero_adjetivo=neutro -->
+	<when>
+          <test>
+	   <and>
+                <in caseless="yes"><!--in-->
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="incontables"/>
+                </in>
+		<equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
+		<equal>
+                  <clip pos="2" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+	   </and>
+	  </test>
+	  <!-- genero = neutro -->
+          <let>
+            <clip pos="2" side="tl" part="gen"/>
+            <lit-tag v="nt"/>
+          </let>
+        </when>
+
+	<otherwise>
+	<choose>
         <when>
           <test>
             <!-- do the main and second parameter gender agree?-->
@@ -769,6 +798,7 @@
           <!-- there isn't gender and number agreement-->
         </otherwise>
       </choose>
+
       <choose>
         <when>
           <test>
@@ -832,6 +862,7 @@
           </choose>
         </when>
       </choose>
+
       <choose>
         <when>
           <test>
@@ -895,6 +926,7 @@
           </let>
         </when>
       </choose>
+
       <choose>
         <when>
           <test>
@@ -1016,6 +1048,7 @@
           </let>
         </otherwise>
       </choose>
+
       <choose>
         <when>
           <!-- Which is the rule general number? -->
@@ -1113,6 +1146,7 @@
           </let>
         </otherwise>
       </choose>
+
       <choose>
         <!-- Determine gender and number value if they are undetermined -->
         <when>
@@ -1128,6 +1162,7 @@
           </let>
         </when>
       </choose>
+
       <choose>
         <when>
           <test>
@@ -1142,6 +1177,7 @@
           </let>
         </when>
       </choose>
+
       <choose>
         <when>
           <test>
@@ -1156,6 +1192,7 @@
           </let>
         </when>
       </choose>
+
       <choose>
         <when>
           <test>
@@ -1170,6 +1207,9 @@
           </let>
         </when>
       </choose>
+
+     </otherwise>
+     </choose>
     </def-macro>
 
 
@@ -1177,6 +1217,54 @@
 
 
     <def-macro n="f_concord3" npar="3">
+      <choose>
+	<!-- si nombre_incontable + adjetivo, genero_adjetivo=neutro -->
+	<when>
+          <test>
+	   <and>
+                <in caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="incontables"/>
+                </in>
+		<equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
+		<equal>
+                  <clip pos="2" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+	   </and>
+	  </test>
+	  <!-- genero = neutro -->
+          <let>
+            <clip pos="2" side="tl" part="gen"/>
+            <lit-tag v="nt"/>
+          </let>
+        </when>
+	<when>
+          <test>
+	   <and>
+                <in caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="incontables"/>
+                </in>
+		<equal>
+                  <clip pos="3" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+	   </and>
+	  </test>
+	  <!-- genero = neutro -->
+          <let>
+            <clip pos="3" side="tl" part="gen"/>
+            <lit-tag v="nt"/>
+          </let>
+        </when>
+
+	<otherwise>
+
       <choose>
         <!-- Look if in source language there is concordance between first and second element -->
         <when>
@@ -1873,11 +1961,43 @@
           </let>
         </when>
       </choose>
+    </otherwise>
+    </choose>
     </def-macro>
 
 
 
     <def-macro n="f_concord4" npar="4">
+
+    <choose>
+	<!-- si nombre_incontable + adjetivo, genero_adjetivo=neutro -->
+	<when>
+          <test>
+	   <and>
+                <in caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="incontables"/>
+                </in>
+
+		<equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
+		<equal>
+                  <clip pos="2" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+	   </and>
+	  </test>
+	  <!-- genero = neutro -->
+          <let>
+            <clip pos="2" side="tl" part="gen"/>
+            <lit-tag v="nt"/>
+          </let>
+        </when>
+
+	<otherwise>
       <choose>
         <when>
           <test>
@@ -2652,6 +2772,9 @@
           </let>
         </when>
       </choose>
+
+      </otherwise>
+      </choose>
     </def-macro>
   </section-def-macros>
 
@@ -2833,39 +2956,6 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
-
-        <choose>          
-          <when>
-            <test>              
-                <in caseless="yes"><!--in-->
-                  <clip pos="1" side="sl" part="lem"/>
-                  <list n="incontables"/>
-                </in>
-	  </test>
-
-	<out>
-  		<lu>
-    			<clip pos="1" side="tl" part="lem"/>
-    			<clip pos="1" side="tl" part="a_nom"/>
-    			<clip pos="1" side="tl" part="gen"/>
-    			<clip pos="1" side="tl" part="nbr"/>
-  		</lu>
-  		<b pos="1"/>
-  		<lu>
-    			<clip pos="2" side="tl" part="lem"/>
-    			<clip pos="2" side="tl" part="a_adjec"/>
-			<lit-tag v="nt.sg"/>
-			<!--
-    			<clip pos="2" side="tl" part="gen"/>
-    			<clip pos="2" side="tl" part="nbr"/>
-			-->
-  		</lu>
-	</out>
-
-	</when>
-
-
-	<otherwise>
         	<call-macro n="f_concord2">
           		<with-param pos="1"/>
          	 	<with-param pos="2"/>
@@ -2885,8 +2975,6 @@
             			<clip pos="2" side="tl" part="nbr"/>
           		</lu>
         	</out>
-	</otherwise>
-	</choose>
   
       </action>
     </rule>
@@ -2930,33 +3018,34 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
-        <call-macro n="f_concord3">
-          <with-param pos="2"/>
-          <with-param pos="3"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="lem"/>
-            <clip pos="2" side="tl" part="a_nom"/>
-            <clip pos="2" side="tl" part="gen"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-          <b pos="2"/>
-          <lu>
-            <clip pos="3" side="tl" part="lem"/>
-            <clip pos="3" side="tl" part="a_adjec"/>
-            <clip pos="3" side="tl" part="gen"/>
-            <clip pos="3" side="tl" part="nbr"/>
-          </lu>
-        </out>
+      
+		<call-macro n="f_concord3">
+		  <with-param pos="2"/>
+		  <with-param pos="3"/>
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="lem"/>
+		    <clip pos="1" side="tl" part="a_det"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		  </lu>
+		  <b pos="1"/>
+		  <lu>
+		    <clip pos="2" side="tl" part="lem"/>
+		    <clip pos="2" side="tl" part="a_nom"/>
+		    <clip pos="2" side="tl" part="gen"/>
+		    <clip pos="2" side="tl" part="nbr"/>
+		  </lu>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="lem"/>
+		    <clip pos="3" side="tl" part="a_adjec"/>
+		    <clip pos="3" side="tl" part="gen"/>
+		    <clip pos="3" side="tl" part="nbr"/>
+		  </lu>
+		</out>
       </action>
     </rule>
 
