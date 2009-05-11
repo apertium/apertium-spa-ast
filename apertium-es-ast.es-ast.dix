@@ -98,10 +98,14 @@
     <!-- Nomes ordenaos alfabéticamente n'asturianu. Por favor, trata de mantener l'orde nes entraes nueves. ¡Gracies!-->
     <!-- Nouns sorted by asturian language pair. Please, try to keep it in order. Thanks!-->
     <e><p><l>leche<s n="n"/><s n="f"/></l><r>lleche<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sal<s n="n"/><s n="f"/></l><r>sal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>harina<s n="n"/><s n="f"/></l><r>farina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>blanco<s n="adj"/></l><r>blancu<s n="adj"/></r></p></e>
     <e><p><l>guapo<s n="adj"/></l><r>guapu<s n="adj"/><s n="ind"/></r></p></e>
     <e><p><l>muy<s n="adv"/></l><r>muy<s n="adv"/></r></p></e>
     <e><p><l>además<s n="adv"/></l><r>además<s n="adv"/></r></p></e>
+    <e><p><l>fino<s n="adj"/></l><r>finu<s n="adj"/><s n="ind"/></r></p></e>
+    <e><p><l>todo<s n="predet"/></l><r>tou<s n="det"/><s n="ind"/></r></p></e>
 
 
     <e><p><l>a<s n="n"/></l><r>a<s n="n"/></r></p></e>

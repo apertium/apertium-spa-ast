@@ -737,7 +737,7 @@
 		<not>
 		  <equal>
                     <var n="concuerda"/>
-                    <lit-tag v="no"/>
+                    <lit v="no"/>
                   </equal>
 		</not>
 		<equal>
@@ -1236,7 +1236,12 @@
                   <clip pos="1" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
-
+                <not>
+                  <equal>
+                    <var n="concuerda"/>
+                    <lit v="no"/>
+                  </equal>
+                </not>
 		<equal>
                   <clip pos="2" side="sl" part="a_adj"/>
                   <lit-tag v="adj"/>
@@ -1260,7 +1265,12 @@
                   <clip pos="1" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
-
+                <not>
+                  <equal>
+                    <var n="concuerda"/>
+                    <lit v="no"/>
+                  </equal>
+                </not>
 		<equal>
                   <clip pos="3" side="sl" part="a_adj"/>
                   <lit-tag v="adj"/>
@@ -2805,6 +2815,10 @@
         <pattern-item n="det"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
@@ -2827,6 +2841,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
@@ -2849,6 +2867,10 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
@@ -2915,6 +2937,10 @@
         <pattern-item n="num"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
         </call-macro>
@@ -2937,6 +2963,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -2967,6 +2997,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         	<call-macro n="f_concord2">
           		<with-param pos="1"/>
          	 	<with-param pos="2"/>
@@ -3001,7 +3035,7 @@
         <let>
             <var n="concuerda"/>
             <lit v="no"/>
-        </let>
+	</let>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -3033,7 +3067,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
-      
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let> 
 		<call-macro n="f_concord3">
 		  <with-param pos="2"/>
 		  <with-param pos="3"/>
@@ -3074,6 +3111,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="no"/>
+        </let>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="2"/>
@@ -3113,6 +3154,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="2"/>
@@ -3153,6 +3198,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord4">
           <with-param pos="3"/>
           <with-param pos="4"/>
@@ -3199,6 +3248,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -3230,6 +3283,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="3"/>
@@ -3268,6 +3325,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord4">
           <with-param pos="3"/>
           <with-param pos="4"/>
@@ -3313,6 +3374,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord2">
           <with-param pos="1"/>
           <with-param pos="3"/>
@@ -3348,6 +3413,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -3390,6 +3459,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord2">
           <with-param pos="3"/>
           <with-param pos="1"/>
@@ -3423,6 +3496,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -3451,6 +3528,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -3480,6 +3561,10 @@
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord3">
           <with-param pos="2"/>
           <with-param pos="1"/>
@@ -3517,6 +3602,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="2"/>
@@ -3555,6 +3644,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
         <call-macro n="f_concord3">
           <with-param pos="3"/>
           <with-param pos="2"/>
