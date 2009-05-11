@@ -365,6 +365,7 @@
     <def-var n="concTercero"/>
     <def-var n="interrogativa"/>
     <def-var n="exclamativa"/>
+    <def-var n="concuerda"/>
   </section-def-vars>
 
 
@@ -733,7 +734,12 @@
                   <clip pos="1" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
-
+		<not>
+		  <equal>
+                    <var n="concuerda"/>
+                    <lit-tag v="no"/>
+                  </equal>
+		</not>
 		<equal>
                   <clip pos="2" side="sl" part="a_adj"/>
                   <lit-tag v="adj"/>
@@ -1250,6 +1256,11 @@
                   <clip pos="1" side="sl" part="lem"/>
                   <list n="incontables"/>
                 </in>
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
 		<equal>
                   <clip pos="3" side="sl" part="a_adj"/>
                   <lit-tag v="adj"/>
@@ -2987,6 +2998,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="no"/>
+        </let>
         <call-macro n="f_concord2">
           <with-param pos="2"/>
           <with-param pos="1"/>
