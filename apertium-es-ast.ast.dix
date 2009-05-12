@@ -2802,61 +2802,61 @@
       <e>
         <p>
           <l>u</l>
-          <r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+          <r>u<s n="predet"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>a</l>
-          <r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+          <r>u<s n="predet"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>o</l>
-          <r>u<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
+          <r>u<s n="predet"/><s n="nt"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>os</l>
-          <r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+          <r>u<s n="predet"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>es</l>
-          <r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+          <r>u<s n="predet"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>l</l>
-          <r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
+          <r>u<s n="predet"/><s n="m"/><s n="sg"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>la</l>
-          <r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/><j/>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
+          <r>u<s n="predet"/><s n="f"/><s n="sg"/><j/>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>lo</l>
-          <r>u<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><j/>el<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r>
+          <r>u<s n="predet"/><s n="nt"/><s n="sg"/><j/>el<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>los</l>
-          <r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+          <r>u<s n="predet"/><s n="m"/><s n="pl"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>les</l>
-          <r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/><j/>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
+          <r>u<s n="predet"/><s n="f"/><s n="pl"/><j/>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
