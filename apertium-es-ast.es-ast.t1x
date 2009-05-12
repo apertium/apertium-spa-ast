@@ -1223,68 +1223,6 @@
 
 
     <def-macro n="f_concord3" npar="3">
-      <choose>
-	<!-- si nombre_incontable + adjetivo, genero_adjetivo=neutro -->
-	<when>
-          <test>
-	   <and>
-                <in caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <list n="incontables"/>
-                </in>
-		<equal>
-                  <clip pos="1" side="sl" part="nbr"/>
-                  <lit-tag v="sg"/>
-                </equal>
-                <not>
-                  <equal>
-                    <var n="concuerda"/>
-                    <lit v="no"/>
-                  </equal>
-                </not>
-		<equal>
-                  <clip pos="2" side="sl" part="a_adj"/>
-                  <lit-tag v="adj"/>
-                </equal>
-	   </and>
-	  </test>
-	  <!-- genero = neutro -->
-          <let>
-            <clip pos="2" side="tl" part="gen"/>
-            <lit-tag v="nt"/>
-          </let>
-        </when>
-	<when>
-          <test>
-	   <and>
-                <in caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <list n="incontables"/>
-                </in>
-                <equal>
-                  <clip pos="1" side="sl" part="nbr"/>
-                  <lit-tag v="sg"/>
-                </equal>
-                <not>
-                  <equal>
-                    <var n="concuerda"/>
-                    <lit v="no"/>
-                  </equal>
-                </not>
-		<equal>
-                  <clip pos="3" side="sl" part="a_adj"/>
-                  <lit-tag v="adj"/>
-                </equal>
-	   </and>
-	  </test>
-	  <!-- genero = neutro -->
-          <let>
-            <clip pos="3" side="tl" part="gen"/>
-            <lit-tag v="nt"/>
-          </let>
-        </when>
-
-	<otherwise>
 
       <choose>
         <!-- Look if in source language there is concordance between first and second element -->
@@ -1982,15 +1920,9 @@
           </let>
         </when>
       </choose>
-    </otherwise>
-    </choose>
-    </def-macro>
 
 
-
-    <def-macro n="f_concord4" npar="4">
-
-    <choose>
+      <choose>
 	<!-- si nombre_incontable + adjetivo, genero_adjetivo=neutro -->
 	<when>
           <test>
@@ -1999,12 +1931,16 @@
                   <clip pos="1" side="sl" part="lem"/>
                   <list n="incontables"/>
                 </in>
-
 		<equal>
                   <clip pos="1" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
-
+                <not>
+                  <equal>
+                    <var n="concuerda"/>
+                    <lit v="no"/>
+                  </equal>
+                </not>
 		<equal>
                   <clip pos="2" side="sl" part="a_adj"/>
                   <lit-tag v="adj"/>
@@ -2017,8 +1953,48 @@
             <lit-tag v="nt"/>
           </let>
         </when>
+	<when>
+          <test>
+	   <and>
+                <in caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="incontables"/>
+                </in>
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+                <not>
+                  <equal>
+                    <var n="concuerda"/>
+                    <lit v="no"/>
+                  </equal>
+                </not>
+		<equal>
+                  <clip pos="3" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+	   </and>
+	  </test>
+	  <!-- genero = neutro -->
+          <let>
+            <clip pos="3" side="tl" part="gen"/>
+            <lit-tag v="nt"/>
+          </let>
+        </when>
 
-	<otherwise>
+    </choose>
+
+
+
+    </def-macro>
+
+
+
+
+
+
+    <def-macro n="f_concord4" npar="4">
       <choose>
         <when>
           <test>
@@ -2794,8 +2770,35 @@
         </when>
       </choose>
 
-      </otherwise>
+    <choose>
+	<!-- si nombre_incontable + adjetivo, genero_adjetivo=neutro -->
+	<when>
+          <test>
+	   <and>
+                <in caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="incontables"/>
+                </in>
+
+		<equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
+		<equal>
+                  <clip pos="2" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+	   </and>
+	  </test>
+	  <!-- genero = neutro -->
+          <let>
+            <clip pos="2" side="tl" part="gen"/>
+            <lit-tag v="nt"/>
+          </let>
+        </when>
       </choose>
+
     </def-macro>
   </section-def-macros>
 
