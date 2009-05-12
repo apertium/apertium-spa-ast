@@ -968,10 +968,9 @@
     <e><p><l>anáfora</l><r>anáfora</r></p></e>
     <e r="RL"><p><l>anales</l><r>anales</r></p></e>
     <e><p><l>analfabetismo<s n="n"/></l><r>analfabetismu<s n="n"/></r></p></e>
-<!--    <e r="LR"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analís<s n="n"/><s 
-n="ND"/></r></p></e>-->
     <e r="RL"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analís<s n="n"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analises<s n="n"/><s n="pl"/></r></p></e>
+<!--    <e r="LR"><p><l>análisis<s n="n"/><s n="sp"/></l><r>analís<s n="n"/><s n="ND"/></r></p></e>-->
     <e><p><l>analista</l><r>analista</r></p></e>
     <e><p><l>analogía<s n="n"/></l><r>analoxía<s n="n"/></r></p></e>
     <e><p><l>analgésico<s n="n"/></l><r>analxésicu<s n="n"/></r></p></e>
@@ -2369,9 +2368,8 @@ n="ND"/></r></p></e>-->
 
     <!-- Verbos -->
 
-    <e><p><l>ser<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e> 
-
-    <e><p><l>hacer<s n="vblex"/></l><r>facer<s n="vblex"/></r></p></e> 
+    <e><p><l>ser<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
+    <e><p><l>hacer<s n="vblex"/></l><r>facer<s n="vblex"/></r></p></e>
 
     <!-- Adverbios -->
 
@@ -2381,6 +2379,7 @@ n="ND"/></r></p></e>-->
     <!-- Punctuación -->
 
     <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
     <e>
       <p>
         <l>bacanal<s n="n"/></l>
@@ -3317,7 +3316,6 @@ n="ND"/></r></p></e>-->
         <r>bolsa<s n="adj"/></r>
       </p>
     </e>
-    <e>
      <e>
     <p>
         <l>bomba<s n="n"/></l>
@@ -3431,6 +3429,7 @@ n="ND"/></r></p></e>-->
         <l>botella<s n="n"/></l>
         <r>botella<s n="n"/></r>
       </p>
+    </e>
      <e>
       <p>
         <l>botín<s n="n"/></l>
@@ -3658,7 +3657,7 @@ n="ND"/></r></p></e>-->
         <l>brillante<s n="adj"/></l>
         <r>rescamplante<s n="adj"/></r>
       </p>
-    </e>ñuvatada
+    </e>
      <e>
       <p>
         <l>brinco<s n="n"/></l>
@@ -3980,7 +3979,6 @@ n="ND"/></r></p></e>-->
         <r>cachu<s n="n"/></r>
       </p>
     </e>
-    </e>
       <e>
       <p>
         <l>cadáver<s n="n"/></l>
@@ -3999,6 +3997,7 @@ n="ND"/></r></p></e>-->
         <r>cadena<s n="n"/></r>
       </p>
     </e>
+
     <e>
       <p>
         <l>cadera<s n="n"/></l>
