@@ -47328,7 +47328,7 @@
   </section>
 
   <section id="apostrophes2" type="preblank">
-    <e lm="'l"><p><l>'l</l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    <e  r="LR" lm="'l"><p><l>'l</l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
   </section>
 
 <section id="final" type="inconditional">
