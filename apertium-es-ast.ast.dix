@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>AaBbCcDdEeFfGgHhIiLlMmNnÑñOoPpRrSsTtUuVvXxYyZzÁáÉéÍíÓóÚúÜüḤḥḶḷQqWwKk</alphabet>
+  <alphabet>AaBbCcDdEeFfGgHhIiLlMmNnÑñOoPpRrSsTtUuVvXxYyZzÁáÉéÍíÓóÚúÜü????QqWwKk</alphabet>
   <sdefs>
     <sdef n="acr"/>
     <sdef n="predet"/>
@@ -3226,6 +3226,18 @@
         </p>
       </e>
     </pardef>
+
+    <pardef n="lo__detnt">
+      <e>
+	<p>
+	<l/>
+	<r><s n="detnt"/></r>
+	</p>
+      </e>
+    </pardef>
+
+
+
 
     <!-- Verbos -->
 	<pardef n="fal/ar__vblex">
@@ -8282,6 +8294,7 @@
     <e lm="tal"><i>tal</i><par n="tal__det"/></e>
     <e lm="dambos"><i>damb</i><par n="damb/os__det"/></e>
     <e lm="entrambos"><i>entramb</i><par n="damb/os__det"/></e>
+    <e lm="lo"><i>lo</i><par n="lo__detnt"/></e>
 
     <!-- Numberales -->
     <e lm="C"><i>C</i><par n="nueve__num"/></e>
@@ -30761,6 +30774,7 @@
     <e><i>encaliadur</i><par n="alde/a__n"/></e>
     <e><i>encallader</i><par n="us/u__n"/></e>
     <e><i>encalladur</i><par n="alde/a__n"/></e>
+
     <e><i>encallamient</i><par n="us/u__n"/></e>
     <e><i>encalmadur</i><par n="alde/a__n"/></e>
     <e><i>encaloramient</i><par n="us/u__n"/></e>
@@ -41193,6 +41207,7 @@
     <e><i>plumaxe</i><par n="abordaxe__n"/></e>
     <e><i>plumax</i><par n="mes__n"/></e>
     <e><i>plumer</i><par n="us/u__n"/></e>
+
     <e><i>plum</i><par n="cam/ín__n"/></e>
     <e><i>pluralid</i><par n="activid/á__n"/></e>
     <e><i>plural</i><par n="mes__n"/></e>

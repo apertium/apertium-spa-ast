@@ -132,7 +132,7 @@
       <cat-item lemma="ir" tags="vblex.*"/>
       <cat-item lemma="venir" tags="vblex.*"/>
       <cat-item lemma="volver" tags="vblex.*"/>
-      <cat-item lemma="acostumbrar" tags="vblex.*"/>
+      <!--<cat-item lemma="acostumbrar" tags="vblex.*"/>-->
     </def-cat>
     <!--verbos léxicos con lemas ir, venir, volver o acostumbrar -->
 
@@ -177,6 +177,10 @@
     </def-attr>
     <!--nombres o nombres acrónimos -->
 
+    <def-attr n="a_detnt">
+      <attr-item tags="detnt"/>
+    </def-attr>
+    <!--determinante neutro -->
 
     <def-attr n="a_nomp">
       <attr-item tags="np.ant"/>
@@ -744,7 +748,7 @@
                   <clip pos="2" side="sl" part="a_adj"/>
                   <lit-tag v="adj"/>
                 </equal>
-	   </and>
+	  </and>
 	  </test>
 	  <!-- genero = neutro -->
           <let>
@@ -3274,6 +3278,69 @@
             <clip pos="2" side="tl" part="nbr"/>
           </lu>
         </out>
+      </action>
+    </rule>
+
+
+    <rule>
+      <!-- REGLA 10b: DETERMINANTE_NEUTRO ADJECTIU-->
+      <pattern>
+        <pattern-item n="detnt"/>
+        <pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<choose>
+	<when>
+          <test>
+	   <and>
+		<equal>
+                  <clip pos="2" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+		<equal>
+                  <clip pos="2" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+	  </and>
+	  </test>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_detnt"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_adjec"/>
+            <lit-tag v="nt"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+        </out>
+        </when>
+        <otherwise>
+	       <let>
+		    <var n="concuerda"/>
+		    <lit v="si"/>
+		</let>
+		<call-macro n="f_concord2">
+		  <with-param pos="2"/>
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="lem"/>
+		    <clip pos="1" side="tl" part="a_detnt"/>
+		  </lu>
+		  <b pos="1"/>
+		  <lu>
+		    <clip pos="2" side="tl" part="lem"/>
+		    <clip pos="2" side="tl" part="a_adjec"/>
+		    <clip pos="2" side="tl" part="gen"/>
+		    <clip pos="2" side="tl" part="nbr"/>
+		  </lu>
+		</out>
+	</otherwise>
+	</choose>
       </action>
     </rule>
 
