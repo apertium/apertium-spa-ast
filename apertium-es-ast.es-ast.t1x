@@ -5518,22 +5518,7 @@ se lo encuentra
         <pattern-item n="prnpro"/>
         <pattern-item n="verb"/>
       </pattern>
-      
       <action>
-        <choose>
-          <when>
-            <test>
-              <and>
-                <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit v="se"/>
-                </equal>  
-                <equal caseless="yes">
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="le"/>
-                </equal>
-              </and>           
-            </test>
             <out>
               <mlu><lu>
                   <get-case-from pos="1">
@@ -5545,39 +5530,13 @@ se lo encuentra
                   <clip pos="3" side="tl" part="nbr"/>
                 </lu>
                 <lu>
-                  <get-case-from pos="2">
-                    <lit v="se"/>
-                  </get-case-from>
-                  <lit-tag v="prn.enc.ref.p3.mf.sp"/>
-                </lu>
-                <lu>
-                  <get-case-from pos="2">
-                    <clip pos="2" side="tl" part="lem"/>
-                  </get-case-from>
-                  <lit-tag v="prn.enc"/>
-                  <clip pos="2" side="tl" part="persona"/>
-                  <clip pos="2" side="tl" part="gen"/>
-                  <clip pos="2" side="tl" part="nbr"/>
-                </lu></mlu>
-            </out> 
-          </when>
-          <otherwise>
-            
-            <out>
-              <mlu><lu>
                   <get-case-from pos="1">
-                    <clip pos="3" side="tl" part="lem"/>
+                    <clip pos="1" side="tl" part="lem"/>
                   </get-case-from>
-                  <clip pos="3" side="tl" part="a_verb"/>
-                  <clip pos="3" side="tl" part="temps"/>
-                  <clip pos="3" side="tl" part="persona"/>
-                  <clip pos="3" side="tl" part="nbr"/>
-                </lu>
-                <lu>
-                  <get-case-from pos="2">
-                    <lit v="lle"/>
-                  </get-case-from>
-                  <lit-tag v="prn.enc.p3.mf.sg"/>
+                  <lit-tag v="prn.enc.ref"/>
+                  <clip pos="1" side="tl" part="persona"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <clip pos="1" side="tl" part="nbr"/>
                 </lu>
                 <lu>
                   <get-case-from pos="2">
@@ -5589,9 +5548,6 @@ se lo encuentra
                   <clip pos="2" side="tl" part="nbr"/>
                 </lu></mlu>
             </out> 
-          </otherwise>
-          
-        </choose>
       </action>
     </rule>
     

@@ -140,6 +140,9 @@
 <tags-item tags="prn.pro.*"/>
 <tags-item tags="prn.pro.ref.*"/>
 </def-label>
+<def-label name="PRNPROREF" closed="true">
+<tags-item tags="prn.pro.ref.*"/>
+</def-label>
 <def-label name="VLEXNPS">
 <tags-item tags="vblex.infps.*"/>
 <tags-item tags="vblex.inf"/>
@@ -1314,6 +1317,19 @@
 <label-item label="PRNTN"/>
 </label-set>
 </enforce-after>
+
+<enforce-after label="PROPRO">
+<label-set>
+<label-item label="VLEXPS"/>
+</label-set>
+</enforce-after>
+
+<enforce-after label="PROPROREF">
+<label-set>
+<label-item label="PROPRO"/>
+</label-set>
+</enforce-after>
+
 </enforce-rules>
 
   <preferences>
