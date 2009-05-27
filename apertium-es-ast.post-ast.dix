@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+  <pardefs>
+   <pardef n="vocals">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>i</i>
+      </e>
+      <e>
+        <i>o</i>
+      </e>
+      <e>
+        <i>u</i>
+      </e>
+      <e>
+        <i>è</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>í</i>
+      </e>
+      <e>
+        <i>ó</i>
+      </e>
+      <e>
+        <i>ú</i>
+      </e>
+      <e>
+        <i>â</i>
+      </e>
+      <e>
+        <i>ê</i>
+      </e>
+      <e>
+        <i>î</i>
+      </e>
+      <e>
+        <i>ô</i>
+      </e>
+      <e>
+        <i>h</i>
+      </e>
+      <e>
+        <i>y</i>
+      </e>
+    </pardef>
+
+    <pardef n="de">
+      <e>
+        <p>
+          <l><b/></l>
+          <r>'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+      <e>
+        <p>
+          <l><a/>de</l>
+          <r>d</r>
+        </p>
+        <par n="de"/>
+      </e>
+
+</section>
+</dictionary>

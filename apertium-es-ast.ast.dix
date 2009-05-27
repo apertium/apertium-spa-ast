@@ -2810,6 +2810,20 @@
         </p>
       </e>
     </pardef>
+    <pardef n="/de__pr">
+      <e r="LR">
+        <p>
+          <l>de</l>
+          <r>de<s n="pr"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>de</l>
+          <r>de<s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="/con__pr">
       <e r="LR">
         <p>
@@ -9856,6 +9870,7 @@
     <e lm="en"><i/><par n="/en__pr"/></e>
     <e lm="per"><i/><par n="/per__pr"/></e>
     <e lm="por"><i/><par n="/por__pr"/></e>
+    <e lm="de"><i/><par n="/de__pr"/></e>
     <e lm="a"><i>a</i><par n="según__pr"/></e>
     <e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="ante"><i>ante</i><par n="según__pr"/></e>
@@ -9864,7 +9879,6 @@
     <e r="LR" lm="co"><i>co</i><par n="según__pr"/></e>
     <e lm="contra"><i>contra</i><par n="según__pr"/></e>
     <e r="LR" lm="escontra"><i>escontra</i><par n="según__pr"/></e>
-    <e lm="de"><i>de</i><par n="según__pr"/></e>
     <e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="dende"><i>dende</i><par n="según__pr"/></e>
     <e lm="ente"><i>ente</i><par n="según__pr"/></e>
@@ -47732,14 +47746,14 @@
   </section>
 
   <section id="apostrophes" type="postblank">
-    <e r="RL" lm="d'"><p><l>d'</l><r>de</r></p><par n="según__pr"/></e>
-    <e r="RL" lm="n'"><p><l>n'</l><r>en</r></p><par n="según__pr"/></e>
-    <e r="RL" lm="p'"><p><l>p'</l><r>en</r></p><par n="según__pr"/></e>
-    <e r="RL" lm="l'"><p><l>l'</l><r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="RL" lm="qu'"><p><l>qu'</l><r>que</r></p><par n="que__cnjsub"/></e>
-    <e r="RL" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn"/></e>
-    <e r="RL" lm="t'"><p><l>t'</l><r>te</r></p><par n="te__prn"/></e>
-    <e r="RL" lm="s'"><p><l>s'</l><r>se</r></p><par n="se__prn"/></e>
+    <e r="LR" lm="d'"><p><l>d'</l><r>de</r></p><par n="según__pr"/></e>
+    <e r="LR" lm="n'"><p><l>n'</l><r>en</r></p><par n="según__pr"/></e>
+    <e r="LR" lm="p'"><p><l>p'</l><r>en</r></p><par n="según__pr"/></e>
+    <e r="LR" lm="l'"><p><l>l'</l><r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="qu'"><p><l>qu'</l><r>que</r></p><par n="que__cnjsub"/></e>
+    <e r="LR" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn"/></e>
+    <e r="LR" lm="t'"><p><l>t'</l><r>te</r></p><par n="te__prn"/></e>
+    <e r="LR" lm="s'"><p><l>s'</l><r>se</r></p><par n="se__prn"/></e>
   </section>
 
   <section id="apostrophes2" type="preblank">

@@ -185,6 +185,9 @@
       <program name="lt-proc $1">
         <file name="es-ast.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="es-ast.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
 
