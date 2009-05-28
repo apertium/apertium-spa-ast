@@ -89,7 +89,6 @@
     <!-- Determinants -->
     
     <e><p><l>el<s n="det"/><s n="def"/></l><r>el<s n="det"/><s n="def"/></r></p></e>
-    <e><p><l>uno<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
 
     <!-- Pronoms -->
 
@@ -112,6 +111,7 @@
     <e><p><l>hablar<s n="vblex"/></l><r>falar<s n="vblex"/></r></p></e>
     <e><p><l>acostumbrar<s n="vblex"/></l><r>acostumar<s n="vblex"/></r></p></e>
     <e><p><l>lo<s n="detnt"/></l><r>lo<s n="detnt"/></r></p></e>
+    <e><p><l>y<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 
 
     <e><p><l>lo<s n="prn"/></l><r>lu<s n="prn"/></r></p></e>   
@@ -159,7 +159,6 @@
     <e><p><l>abedular<s n="n"/></l><r>abedurial<s n="n"/></r></p></e>
     <e r="RL"><p><l>abrigadero<s n="n"/></l><r>abelugu<s n="n"/></r></p></e>    
     <e><p><l>abertura<s n="n"/></l><r>abertura<s n="n"/></r></p></e>
-    <e r="LR"><p><l>abetar<s n="n"/></l><r>abetal<s n="n"/></r></p></e>
     <e><p><l>abetal<s n="n"/></l><r>abetal<s n="n"/></r></p></e>
     <e r="RL"><p><l>abeja<s n="n"/><s n="f"/></l><r>abetarru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abeto<s n="n"/></l><r>abetu<s n="n"/></r></p></e>
@@ -26869,12 +26868,6 @@
         <r>daquela<s n="cnjadv"/></r>
       </p>
     </e>
-    <e r="RL">
-      <p>
-        <l>y<s n="cnjcoo"/></l>
-        <r>e<b/>mais<s n="cnjcoo"/></r>
-      </p>
-    </e>
     <e>
       <p>
         <l>mas<s n="cnjadv"/></l>
@@ -26957,12 +26950,6 @@
       <p>
         <l>sino<s n="cnjcoo"/></l>
         <r>senón<s n="cnjcoo"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>y<s n="cnjcoo"/></l>
-        <r>e<s n="cnjcoo"/></r>
       </p>
     </e>
     <e>
