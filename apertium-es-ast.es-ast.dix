@@ -95,6 +95,7 @@
     <e><p><l>esto<s n="prn"/></l><r>este<s n="prn"/></r></p></e>
    
 
+
     <!-- Nomes ordenaos alfabéticamente n'asturianu. Por favor, trata de mantener l'orde nes entraes nueves. ¡Gracies!-->
     <!-- Nouns sorted by asturian language pair. Please, try to keep it in order. Thanks!-->
     <e><p><l>leche<s n="n"/><s n="f"/></l><r>lleche<s n="n"/><s n="f"/></r></p></e>
@@ -112,10 +113,11 @@
     <e><p><l>acostumbrar<s n="vblex"/></l><r>acostumar<s n="vblex"/></r></p></e>
     <e><p><l>lo<s n="detnt"/></l><r>lo<s n="detnt"/></r></p></e>
     <e><p><l>y<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
-
+    <e><p><l>manzana<s n="n"/></l><r>manzana<s n="n"/></r></p></e>
+    <e><p><l>comer<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
 
     <e><p><l>lo<s n="prn"/></l><r>lu<s n="prn"/></r></p></e>   
-    <e><p><l>le<s n="prn"/></l><r>lu<s n="prn"/></r></p></e>   
+    <e><p><l>le<s n="prn"/></l><r>-y<s n="prn"/></r></p></e>   
     <e><p><l>te<s n="prn"/></l><r>te<s n="prn"/></r></p></e>
     <e><p><l>me<s n="prn"/></l><r>me<s n="prn"/></r></p></e>
     <e><p><l>se<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
@@ -4818,12 +4820,7 @@
         <r>carne<s n="n"/></r>
       </p>
     </e>
-     <e>
-      <p>
-        <l>caro<s n="adj"/></l>
-        <r>caru<s n="adj"/></r>
-      </p>
-    </e>
+    <e><p><l>caro<s n="adj"/></l><r>caru<s n="adj"/><s n="ind"/></r></p></e>
      <e>
       <p>
         <l>cólera<s n="n"/><s n="mf"/></l>
@@ -11547,9 +11544,7 @@
         <r>fincapé<s n="n"/></r>
       </p>
     </e>
-    <e>
-      <i>fino<s n="adj"/></i>
-    </e>
+
     <e>
       <p>
         <l>hilo<s n="n"/></l>
@@ -12444,9 +12439,7 @@
     <e r="RL">
       <i>guante<s n="n"/></i>
     </e>
-    <e>
-      <i>guapo<s n="adj"/></i>
-    </e>
+
     <e r="RL">
       <p>
         <l>melena<s n="n"/></l>
@@ -14457,12 +14450,7 @@
         <r>leira<s n="n"/></r>
       </p>
     </e>
-    <e>
-      <p>
-        <l>leche<s n="n"/><s n="f"/></l>
-        <r>leite<s n="n"/><s n="m"/></r>
-      </p>
-    </e>
+
     <e>
       <p>
         <l>lecho<s n="n"/></l>
@@ -27114,9 +27102,7 @@
         <r>quenquera<s n="prn"/><s n="tn"/></r>
       </p>
     </e>
-    <e>
-      <i>todo<s n="prn"/><s n="tn"/></i>
-    </e>
+
     <e>
       <p>
         <l>uno<s n="prn"/><s n="tn"/></l>
@@ -27248,9 +27234,6 @@
         <l>cuanto<s n="det"/><s n="ind"/></l>
         <r>canto<s n="det"/><s n="ind"/></r>
       </p>
-    </e>
-    <e>
-      <i>todo<s n="predet"/></i>
     </e>
     <e>
       <p>

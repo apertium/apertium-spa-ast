@@ -552,6 +552,12 @@
 	<list-item v="queso"/>
     </def-list>
 
+
+    <!--lista para búsqueda de no animados-->    
+    <def-list n="no_animados">
+	<list-item v="manzana"/>
+    </def-list>
+
   </section-def-lists>
 
 
@@ -730,10 +736,16 @@
 	<when>
           <test>
 	   <and>
-                <in caseless="yes"><!--in-->
-                  <clip pos="1" side="sl" part="lem"/>
-                  <list n="incontables"/>
-                </in>
+		<or>
+		        <in caseless="yes"><!--in-->
+		          <clip pos="1" side="sl" part="lem"/>
+		          <list n="incontables"/>
+		        </in>
+		        <in caseless="yes"><!--in-->
+		          <clip pos="1" side="sl" part="lem"/>
+		          <list n="no_animados"/>
+		        </in>
+		</or>
 		<equal>
                   <clip pos="1" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
@@ -3030,6 +3042,83 @@
   
       </action>
     </rule>
+
+
+    <rule>
+      <!-- REGLA 5b: PREP NOM ADJETIVO-->
+      <pattern>
+	<pattern-item n="prep"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adjec"/>
+      </pattern>
+      <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="no"/>
+        </let>
+        <call-macro n="f_concord2">
+        	<with-param pos="2"/>
+         	<with-param pos="3"/>
+       	</call-macro>
+
+	<choose>
+	   <when>
+            <test>
+              <equal>
+                <clip pos="2" side="sl" part="nbr"/>
+                <lit-tag v="sg"/>
+              </equal>
+            </test>
+                 <out>
+              		<lu>
+			<clip pos="1" side="tl" part="whole"/> 
+			</lu>
+			<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_nom"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+          		<lu>
+            			<clip pos="3" side="tl" part="lem"/>
+            			<clip pos="3" side="tl" part="a_adjec"/>
+            			<lit-tag v="nt"/>
+            			<clip pos="3" side="tl" part="nbr"/>
+          		</lu>
+        	</out>
+          </when>
+
+	  <otherwise>
+                 <out>
+              		<lu>
+			<clip pos="1" side="tl" part="whole"/> 
+			</lu>
+			<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_nom"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+          		<lu>
+            			<clip pos="3" side="tl" part="lem"/>
+            			<clip pos="3" side="tl" part="a_adjec"/>
+            			<clip pos="3" side="tl" part="gen"/>
+            			<clip pos="3" side="tl" part="nbr"/>
+          		</lu>
+        	</out>
+	  </otherwise>
+
+        </choose>
+  
+      </action>
+    </rule>
+
+
+
 
 
     <rule>
@@ -5519,7 +5608,99 @@ se lo encuentra
         <pattern-item n="verb"/>
       </pattern>
       <action>
-            <out>
+    <choose>
+      <when>
+        
+       	 <test>
+          <and>
+            <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="se"/>
+           </equal>
+            <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="lo"/>
+           </equal>
+         </and>
+         </test>
+              <out>
+              <mlu><lu>
+                   <get-case-from pos="1">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from>
+
+                  <clip pos="3" side="tl" part="a_verb"/>
+                  <clip pos="3" side="tl" part="temps"/>
+                  <clip pos="3" side="tl" part="persona"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+
+                </lu>
+                <lu>
+                  <lit v="-y"/>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="1" side="tl" part="persona"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <lit-tag v="sg"/>
+                </lu>
+                <lu>
+                  <get-case-from pos="2">
+                    <clip pos="2" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu></mlu>
+            </out>
+       </when>
+      
+      <when>
+
+         <test>
+          <and>
+            <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="se"/>
+           </equal>
+            <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+           </equal>
+         </and>
+       </test>
+              <out>
+              <mlu><lu>
+                   <get-case-from pos="1">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from>
+
+                  <clip pos="3" side="tl" part="a_verb"/>
+                  <clip pos="3" side="tl" part="temps"/>
+                  <clip pos="3" side="tl" part="persona"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+
+                </lu>
+                <lu>
+                  <get-case-from pos="1">
+                    <clip pos="1" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="1" side="tl" part="persona"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <lit-tag v="sg"/>
+                </lu>
+                <lu>
+                  <lit v="-y"/>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu></mlu>
+         </out>
+     </when>
+      
+      <otherwise>
+        <out>
               <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
@@ -5548,7 +5729,10 @@ se lo encuentra
                   <clip pos="2" side="tl" part="nbr"/>
                 </lu></mlu>
             </out> 
-      </action>
+     
+     </otherwise>
+    </choose>
+</action>
     </rule>
     
 

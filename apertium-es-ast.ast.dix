@@ -86,7 +86,7 @@
         </p>
       </e>
       <e>
-        <p>
+     <p>
           <l>a</l>
           <r>u<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
         </p>
@@ -159,12 +159,6 @@
         <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
-    <e r="LR">
-      <p>
-        <l>-ys</l> 
-        <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
     <e>
       <p>
         <l>-y</l> 
@@ -195,7 +189,58 @@
 
     <pardef n="cliticos_ast">
 
+     <e>
+        <p>
+          <l>-y</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
        <e>
+        <p>
+          <l>-ylo</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+
+        </p>
+      </e>
+  <e>
+        <p>
+          <l>-ylu</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+
+        </p>
+      </e>
+
+  <e>
+        <p>
+          <l>-yla</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+
+        </p>
+      </e>
+  <e>
+        <p>
+          <l>-ylos</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+
+        </p>
+      </e>
+  <e>
+        <p>
+          <l>-yles</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+
+        </p>
+      </e>
+
+
+      <e>
+        <p>
+          <l>-yos</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
+     <e>
         <p>
           <l>me</l>
           <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
@@ -37761,6 +37806,7 @@
     <e><i>manxar</i><par n="mes__n"/></e>
     <e><i>manxer</i><par n="alde/a__n"/></e>
     <e><i>manxoy</i><par n="alde/a__n"/></e>
+    <e><i>manzan</i><par n="alde/a__n"/></e>
     <e><i>manzord</i><par n="alde/a__n"/></e>
     <e><i>manzorg</i><par n="ayalg/a__n"/></e>
     <e><i>manzorr</i><par n="us/u__n"/></e>
@@ -47786,7 +47832,7 @@
   <e lm="me"><i>me</i><par n="me__prnenc"/></e>
   <e lm="se"><i>se</i><par n="se__prnenc"/></e>
   <e lm="nos"><i>nos</i><par n="nos__prnenc"/></e>
-  <e><p><l></l><r>lu</r></p><par n="-y__prnenc"/></e>
+  <e><p><l></l><r>-y</r></p><par n="-y__prnenc"/></e>
   </section>
 
   <section id="apostrophes" type="postblank">
