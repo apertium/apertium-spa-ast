@@ -3747,6 +3747,270 @@
       </e>
     </pardef>
 
+    <pardef n="/mio__det">
+    <e>
+      <p>
+        <l>mio</l> 
+        <r>mio<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>mios</l> 
+        <r>mio<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>míu</l> 
+        <r>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>mía</l> 
+        <r>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>mío</l> 
+        <r>mio<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>míos</l> 
+        <r>mio<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>míes</l> 
+        <r>mio<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/to__det">
+    <e>
+      <p>
+        <l>to</l> 
+        <r>to<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>tos</l> 
+        <r>to<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>tuyu</l> 
+        <r>to<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>tuya</l> 
+        <r>to<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>tuyo</l> 
+        <r>to<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>tuyos</l> 
+        <r>to<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>tuyes</l> 
+        <r>to<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/so__det">
+    <e>
+      <p>
+        <l>so</l> 
+        <r>so<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>sos</l> 
+        <r>so<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>suyu</l> 
+        <r>so<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>suya</l> 
+        <r>so<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>suyo</l> 
+        <r>so<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>suyos</l> 
+        <r>so<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>suyes</l> 
+        <r>so<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/nuesu__det">
+    <e r="RL">
+      <p>
+        <l>nuesu</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestru</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nuesa</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestra</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nueso</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestro</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestros</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nuesos</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nueses</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestres</l> 
+        <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/vuesu__det">
+    <e r="RL">
+      <p>
+        <l>vuesu</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestru</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vuesa</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestra</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vueso</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestro</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vuesos</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestros</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vueses</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestres</l> 
+        <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="lo__detnt">
       <e>
 	<p>
@@ -8841,6 +9105,269 @@
     </e>
   </pardef>
 
+    <pardef n="/mio__adj">
+    <e>
+      <p>
+        <l>mio</l> 
+        <r>mio<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>mios</l> 
+        <r>mio<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>míu</l> 
+        <r>mio<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>mía</l> 
+        <r>mio<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>mío</l> 
+        <r>mio<s n="adj"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>míos</l> 
+        <r>mio<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>míes</l> 
+        <r>mio<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/to__adj">
+    <e>
+      <p>
+        <l>to</l> 
+        <r>to<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>tos</l> 
+        <r>to<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>tuyu</l> 
+        <r>to<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>tuya</l> 
+        <r>to<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>tuyo</l> 
+        <r>to<s n="adj"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>tuyos</l> 
+        <r>to<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>tuyes</l> 
+        <r>to<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/so__adj">
+    <e>
+      <p>
+        <l>so</l> 
+        <r>so<s n="adj"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>sos</l> 
+        <r>so<s n="adj"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>suyu</l> 
+        <r>so<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>suya</l> 
+        <r>so<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>suyo</l> 
+        <r>so<s n="adj"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>suyos</l> 
+        <r>so<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>suyes</l> 
+        <r>so<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/nuesu__adj">
+    <e r="RL">
+      <p>
+        <l>nuesu</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestru</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nuesa</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestra</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nueso</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestro</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestros</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nuesos</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>nueses</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestres</l> 
+        <r>nuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/vuesu__adj">
+    <e r="RL">
+      <p>
+        <l>vuesu</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestru</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vuesa</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestra</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vueso</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestro</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vuesos</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestros</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vueses</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestres</l> 
+        <r>vuesu<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
   </pardefs>
 
 
@@ -8888,6 +9415,11 @@
     <e lm="dambos"><i>damb</i><par n="damb/os__det"/></e>
     <e lm="entrambos"><i>entramb</i><par n="damb/os__det"/></e>
     <e lm="lo"><i>lo</i><par n="lo__detnt"/></e>
+    <e lm="mio"><par n="/mio__det"/></e>
+    <e lm="nuesu"><par n="/nuesu__det"/></e>
+    <e lm="so"><par n="/so__det"/></e>
+    <e lm="to"><par n="/to__det"/></e>
+    <e lm="vuesu"><par n="/vuesu__det"/></e>
 
     <!-- Numberales -->
     <e lm="C"><i>C</i><par n="nueve__num"/></e>
@@ -9033,143 +9565,57 @@
     <e lm="ventiún"><i>veintiún</i><par n="nueve__num"/></e>
 
     <!-- Pronomes -->
-    <e lm="yo"><i>yo</i><par n="conmigo__prn"/></e>
-    <e lm="mi"><i>mi</i><par n="conmigo__prn"/></e>
-    <e lm="min"><i>min</i><par n="conmigo__prn"/></e>
+    <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
+    <e lm="aquél"><i>aquél</i><par n="aquel__prn"/></e>
     <e lm="conmigo"><i>conmigo</i><par n="conmigo__prn"/></e>
-    <e lm="tu"><i>tu</i><par n="contigo__prn"/></e>
-    <e lm="ti"><i>ti</i><par n="contigo__prn"/></e>
-    <e lm="contigo"><i>contigo</i><par n="contigo__prn"/></e>
     <e lm="consigo"><i>consigo</i><par n="consigo__prn"/></e>
-    <e r="LR" lm="tigo"><i>tigo</i><par n="contigo__prn"/></e>
-    <e r="LR" lm="sigo"><i>sigo</i><par n="consigo__prn"/></e>
-    <e lm="sí"><i>sí</i><par n="sí__prn"/></e>
-    <e lm="él"><par n="/él__prn"/></e>
-    <e lm="nosotros"><i>nosotr</i><par n="nosotr/os__prn"/></e>
-    <e lm="nós"><i>nós</i><par n="nós__prn"/></e>
-    <e lm="vosotros"><i>vosotr</i><par n="vosotr/os__prn"/></e>
-    <e lm="vós"><i>vós</i><par n="vós__prn"/></e>
-    <e lm="usté"><i>ust</i><par n="ust/é__prn"/></e>
-    <e r="LR" lm="vusté"><i>vust</i><par n="ust/é__prn"/></e>
-    <e r="LR" lm="vusté"><i>vust</i><par n="ust/é__prn"/></e>
-    <e lm="qué"><i>qué</i><par n="qué__prn"/></e>
-    <e lm="quién"><i>quién</i><par n="quién__prn"/></e>
+    <e lm="contigo"><i>contigo</i><par n="contigo__prn"/></e>
     <e lm="cuál"><i>cuál</i><par n="cuál__prn"/></e>
+    <e lm="cualquiera"><i>cual</i><par n="cual/quiera__prn"/></e>
     <e lm="cuánto"><i>cuánto</i><par n="cuánt/o__prn"/></e>
-    <e lm="me"><i>me</i><par n="me__prn"/></e>
-    <e lm="te"><i>te</i><par n="te__prn"/></e>
-    <e lm="se"><i>se</i><par n="se__prn"/></e>
-    <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
-    <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
-    <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
-    <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
-   <!-- <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
-    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>-->
+    <e lm="dalgo"><i>dalgo</i><par n="dalgo__prn"/></e>
+    <e lm="dalguién"><i>dalguién</i><par n="dalguién__prn"/></e>
+    <e lm="dambos"><i>damb</i><par n="damb/os__prn"/></e>
+    <e lm="el mio"><par n="/el_mio__prn"/></e>
+    <e lm="el nuesu"><par n="/el_nuesu__prn"/></e>
+    <e lm="él"><par n="/él__prn"/></e>
+    <e lm="el so"><par n="/el_so__prn"/></e>
+    <e lm="el to"><par n="/el_to__prn"/></e>
+    <e lm="el vuesu"><par n="/el_vuesu__prn"/></e>
     <e lm="esi"><i>es</i><par n="es/i__prn"/></e>
     <e lm="esti"><i>est</i><par n="es/i__prn"/></e>
-    <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
-    <e lm="aquél"><i>aquél</i><par n="aquel__prn"/></e>
-    <e lm="dambos"><i>damb</i><par n="damb/os__prn"/></e>
-    <e lm="munchos"><i>munch</i><par n="damb/os__prn"/></e>
-    <e lm="pocos"><i>po</i><par n="po/cos__prn"/></e>
-    <e lm="dalguién"><i>dalguién</i><par n="dalguién__prn"/></e>
-    <e r="LR" lm="alguién"><i>alguién</i><par n="dalguién__prn"/></e>
-    <e lm="dalgo"><i>dalgo</i><par n="dalgo__prn"/></e>
-    <e r="LR" lm="algo"><i>algo</i><par n="dalgo__prn"/></e>
-    <e r="LR" lm="dalgún"><i>dalg</i><par n="dalg/ún__prn"/></e>
-    <e lm="cualquiera"><i>cual</i><par n="cual/quiera__prn"/></e>
-    <e lm="ún"><i></i><par n="ún__prn"/></e>
-    <e lm="el mio"><par n="/el_mio__prn"/></e>
-    <e lm="el to"><par n="/el_to__prn"/></e>
-    <e lm="el so"><par n="/el_so__prn"/></e>
-    <e lm="el nuesu"><par n="/el_nuesu__prn"/></e>
-    <e lm="el vuesu"><par n="/el_vuesu__prn"/></e>
-
-    <!-- Pronomes -->
-    <e lm="yo"><i>yo</i><par n="conmigo__prn"/></e>
+    <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
+    <e lm="me"><i>me</i><par n="me__prn"/></e>
     <e lm="mi"><i>mi</i><par n="conmigo__prn"/></e>
     <e lm="min"><i>min</i><par n="conmigo__prn"/></e>
-    <e lm="conmigo"><i>conmigo</i><par n="conmigo__prn"/></e>
-    <e lm="tu"><i>tu</i><par n="contigo__prn"/></e>
-    <e lm="ti"><i>ti</i><par n="contigo__prn"/></e>
-    <e lm="contigo"><i>contigo</i><par n="contigo__prn"/></e>
-    <e lm="consigo"><i>consigo</i><par n="consigo__prn"/></e>
-    <e r="LR" lm="tigo"><i>tigo</i><par n="contigo__prn"/></e>
-    <e r="LR" lm="sigo"><i>sigo</i><par n="consigo__prn"/></e>
-    <e lm="sí"><i>sí</i><par n="sí__prn"/></e>
-    <e lm="él"><par n="/él__prn"/></e>
-    <e lm="nosotros"><i>nosotr</i><par n="nosotr/os__prn"/></e>
+    <e lm="munchos"><i>munch</i><par n="damb/os__prn"/></e>
+    <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
     <e lm="nós"><i>nós</i><par n="nós__prn"/></e>
-    <e lm="vosotros"><i>vosotr</i><par n="vosotr/os__prn"/></e>
-    <e lm="vós"><i>vós</i><par n="vós__prn"/></e>
-    <e lm="usté"><i>ust</i><par n="ust/é__prn"/></e>
-    <!-- <e r="LR" lm="vusté"><i>vust</i><par n="vust/é__prn"/></e>-->
+    <e lm="nosotros"><i>nosotr</i><par n="nosotr/os__prn"/></e>
+    <e lm="pocos"><i>po</i><par n="po/cos__prn"/></e>
     <e lm="qué"><i>qué</i><par n="qué__prn"/></e>
     <e lm="quién"><i>quién</i><par n="quién__prn"/></e>
-    <e lm="cuál"><i>cuál</i><par n="cuál__prn"/></e>
-    <e lm="cuánto"><i>cuánto</i><par n="cuánt/o__prn"/></e>
-    <e lm="me"><i>me</i><par n="me__prn"/></e>
-    <e lm="te"><i>te</i><par n="te__prn"/></e>
     <e lm="se"><i>se</i><par n="se__prn"/></e>
-    <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
-    <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
-    <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
-    <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
-    <!--<e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
-    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>-->
-    <e lm="esi"><i>es</i><par n="es/i__prn"/></e>
-    <e lm="esti"><i>est</i><par n="es/i__prn"/></e>
-    <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
-    <e lm="aquél"><i>aquél</i><par n="aquel__prn"/></e>
-    <e lm="dambos"><i>damb</i><par n="damb/os__prn"/></e>
-    <e lm="munchos"><i>munch</i><par n="damb/os__prn"/></e>
-    <e lm="pocos"><i>po</i><par n="po/cos__prn"/></e>
-    <e lm="dalguién"><i>dalguién</i><par n="dalguién__prn"/></e>
-    <e r="LR" lm="alguién"><i>alguién</i><par n="dalguién__prn"/></e>
-    <e lm="dalgo"><i>dalgo</i><par n="dalgo__prn"/></e>
-    <e r="LR" lm="algo"><i>algo</i><par n="dalgo__prn"/></e>
-    <e r="LR" lm="dalgún"><i>dalg</i><par n="dalg/ún__prn"/></e>
-    <e lm="cualquiera"><i>cual</i><par n="cual/quiera__prn"/></e>
-    <e lm="ún"><i></i><par n="ún__prn"/></e>
-    <e lm="el mio"><par n="/el_mio__prn"/></e>
-    <e lm="el to"><par n="/el_to__prn"/></e>
-    <e lm="el so"><par n="/el_so__prn"/></e>
-    <e lm="el nuesu"><par n="/el_nuesu__prn"/></e>
-    <e lm="el vuesu"><par n="/el_vuesu__prn"/></e>
-
-    <!-- Pronomes -->
-    <e lm="yo"><i>yo</i><par n="conmigo__prn"/></e>
-    <e lm="mi"><i>mi</i><par n="conmigo__prn"/></e>
-    <e lm="min"><i>min</i><par n="conmigo__prn"/></e>
-    <e lm="conmigo"><i>conmigo</i><par n="conmigo__prn"/></e>
-    <e lm="tu"><i>tu</i><par n="contigo__prn"/></e>
-    <e lm="ti"><i>ti</i><par n="contigo__prn"/></e>
-    <e lm="contigo"><i>contigo</i><par n="contigo__prn"/></e>
-    <e lm="consigo"><i>consigo</i><par n="consigo__prn"/></e>
-    <e r="LR" lm="tigo"><i>tigo</i><par n="contigo__prn"/></e>
-    <e r="LR" lm="sigo"><i>sigo</i><par n="consigo__prn"/></e>
     <e lm="sí"><i>sí</i><par n="sí__prn"/></e>
-    <e lm="él"><par n="/él__prn"/></e>
-    <e lm="nosotros"><i>nosotr</i><par n="nosotr/os__prn"/></e>
-    <e lm="nós"><i>nós</i><par n="nós__prn"/></e>
-    <e lm="vosotros"><i>vosotr</i><par n="vosotr/os__prn"/></e>
-    <e lm="vós"><i>vós</i><par n="vós__prn"/></e>
+    <e lm="te"><i>te</i><par n="te__prn"/></e>
+    <e lm="ti"><i>ti</i><par n="contigo__prn"/></e>
+    <e lm="tu"><i>tu</i><par n="contigo__prn"/></e>
+    <e lm="ún"><i></i><par n="ún__prn"/></e>
     <e lm="usté"><i>ust</i><par n="ust/é__prn"/></e>
+    <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
+    <e lm="vós"><i>vós</i><par n="vós__prn"/></e>
+    <e lm="vosotros"><i>vosotr</i><par n="vosotr/os__prn"/></e>
+    <e lm="yo"><i>yo</i><par n="conmigo__prn"/></e>
+    <e r="LR" lm="algo"><i>algo</i><par n="dalgo__prn"/></e>
+    <e r="LR" lm="alguién"><i>alguién</i><par n="dalguién__prn"/></e>
+    <e r="LR" lm="dalgún"><i>dalg</i><par n="dalg/ún__prn"/></e>
+    <e r="LR" lm="-y"><i></i><par n="-y__prn"/></e>
+    <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
+    <e r="LR" lm="sigo"><i>sigo</i><par n="consigo__prn"/></e>
+    <e r="LR" lm="tigo"><i>tigo</i><par n="contigo__prn"/></e>
     <e r="LR" lm="vusté"><i>vust</i><par n="ust/é__prn"/></e>
-    <e lm="qué"><i>qué</i><par n="qué__prn"/></e>
-    <e lm="quién"><i>quién</i><par n="quién__prn"/></e>
-    <e lm="cuánto"><i>cuánto</i><par n="cuánt/o__prn"/></e>
-    <e lm="me"><i>me</i><par n="me__prn"/></e>
-    <e lm="te"><i>te</i><par n="te__prn"/></e>
-    <e lm="se"><i>se</i><par n="se__prn"/></e>
-    <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
-    <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
-    <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
-    <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
-    <!--<e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
+    <!-- <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
     <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>-->
-    <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
-    <e lm="aquél"><i>aquél</i><par n="aquel__prn"/></e>
 
     <!-- Conxunciones -->
     <e lm="y"><i/><par n="y__cnjcoo"/></e>
@@ -21550,6 +21996,11 @@
     <e><i>zurr</i><par n="at/áu__adj"/></e>
     <e><i>zurr</i><par n="castr/ón__adj"/></e>
     <e><i>zurru</i><par n="otr/u__adj"/></e>
+    <e lm="mio"><par n="/mio__adj"/></e>
+    <e lm="nuesu"><par n="/nuesu__adj"/></e>
+    <e lm="so"><par n="/so__adj"/></e>
+    <e lm="to"><par n="/to__adj"/></e>
+    <e lm="vuesu"><par n="/vuesu__adj"/></e>
 
     <!-- Nomes -->
     <e><i>abadex</i><par n="us/u__n"/></e>
@@ -48885,8 +49336,6 @@
   <section id="apostrophes2" type="preblank">
     <e  r="LR" lm="'l"><p><l>'l</l><r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
   </section>
-
-
 
 <section id="final" type="inconditional">
 <e>
