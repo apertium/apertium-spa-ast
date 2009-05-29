@@ -1456,7 +1456,7 @@
         <r>la<s n="det"/><s n="def"/></r>
       </p>
     </e>
-      <e>car
+      <e>
       <p>
         <l>lo<s n="det"/><s n="def"/></l>
         <r>lo<s n="det"/><s n="def"/></r>
@@ -1889,18 +1889,7 @@
         <r>se<s n="prn"/><s n="pro"/></r>
       </p>
     </e>
-    <e>
-      <p>
-        <l>se<s n="prn"/><s n="pro"/></l>
-        <r>-y<s n="prn"/><s n="pro"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>se<s n="prn"/><s n="pro"/></l>
-        <r>-yos<s n="prn"/><s n="pro"/></r>
-      </p>
-    </e>
+      
     <e>
       <p>
         <l>te<s n="prn"/><s n="pro"/></l>

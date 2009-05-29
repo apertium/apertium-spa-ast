@@ -5653,7 +5653,7 @@ se lo encuentra
                 </lu></mlu>
             </out>
        </when>
-      
+     
       <when>
 
          <test>
@@ -5684,10 +5684,10 @@ se lo encuentra
                   <get-case-from pos="1">
                     <clip pos="1" side="tl" part="lem"/>
                   </get-case-from>
-                  <lit-tag v="prn.enc"/>
+                  <lit-tag v="prn.enc.ref"/>
                   <clip pos="1" side="tl" part="persona"/>
                   <clip pos="1" side="tl" part="gen"/>
-                  <lit-tag v="sg"/>
+                  <lit-tag v="sp"/>
                 </lu>
                 <lu>
                   <lit v="-y"/>

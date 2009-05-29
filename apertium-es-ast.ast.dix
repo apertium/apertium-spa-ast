@@ -70,6 +70,7 @@
     <sdef n="rpar"/>
     <sdef n="lquest"/>
   </sdefs>
+
   <pardefs>
 
 <pardef n="l__prnenc">
@@ -166,16 +167,10 @@
       </p>
     </e>
     </pardef>
-    <pardef n="~/-y__prn">
+    <pardef n="~/-y__prnenc">
     <e>
       <p>
         <l><a/>-yos</l> 
-        <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l><a/>-ys</l> 
         <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
@@ -232,6 +227,22 @@
         </p>
       </e>
 
+     <e>
+        <p>
+          <l>se-y</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+
+        </p>
+      </e>
+
+    <e>
+        <p>
+          <l>se-yos</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+
+
+        </p>
+      </e>
 
       <e>
         <p>
@@ -1109,6 +1120,7 @@
       </p>
     </e>
     </pardef>
+<!--
     <pardef n="-y__prn">
     <e>
       <p>
@@ -1150,6 +1162,7 @@
     </e>
     </pardef>
 
+-->
 <!-- Definición del paradigma de pronomes qu'apaecen nes conxugaciones de verbos pronominales. Llámase dende'l propiu verbu-->
     <pardef n="vbs_prnms">
     <e>
@@ -1820,7 +1833,7 @@
       </p>
     </e>
     </pardef>
-    <pardef n="-y__prn">
+   <!-- <pardef n="-y__prn">
     <e>
       <p>
         <l>-yos</l> 
@@ -1859,7 +1872,7 @@
         <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
-    </pardef>
+    </pardef>-->
 
 <!-- Definición del paradigma de pronomes qu'apaecen nes conxugaciones de verbos pronominales. Llámase dende'l propiu verbu-->
     <pardef n="vbs_prnms">
@@ -1982,7 +1995,7 @@
         <r><s n="n"/><s n="acr"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
-
+    </pardef>
     <pardef n="pa/ís__n">
       <e>
         <p>
@@ -8818,6 +8831,7 @@
               </p>
             </e>
           </pardef>
+
     <pardef n="gran__adj">
     <e>
       <p>
@@ -8825,10 +8839,11 @@
         <r><s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
-
-
+  </pardef>
 
   </pardefs>
+
+
   <section id="main" type="standard">
     <!-- Relativos Átonos. Los tónicos especifíquense nes sos funciones correspondientes-->
     <e><i>cuando</i><par n="onde__rel"/></e>
@@ -9048,8 +9063,8 @@
     <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
     <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
     <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
-    <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
-    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>
+   <!-- <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
+    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>-->
     <e lm="esi"><i>es</i><par n="es/i__prn"/></e>
     <e lm="esti"><i>est</i><par n="es/i__prn"/></e>
     <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
@@ -9100,8 +9115,8 @@
     <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
     <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
     <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
-    <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
-    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>
+    <!--<e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
+    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>-->
     <e lm="esi"><i>es</i><par n="es/i__prn"/></e>
     <e lm="esti"><i>est</i><par n="es/i__prn"/></e>
     <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
@@ -9151,8 +9166,8 @@
     <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
     <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
     <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
-    <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
-    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>
+    <!--<e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
+    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>-->
     <e lm="aquel"><i>aquel</i><par n="aquel__prn"/></e>
     <e lm="aquél"><i>aquél</i><par n="aquel__prn"/></e>
 
@@ -33819,7 +33834,6 @@
     <e><i>familia</i><par n="iverna/da__n"/></e>
     <e><i>familiarid</i><par n="activid/á__n"/></e>
     <e><i>familiar</i><par n="mes__n"/></e>
-    <e><i>famili</i><par n="alde/a__n"/></e>
     <e><i>famili</i><par n="alde/a__n"/></e>
     <e><i>familori</i><par n="alde/a__n"/></e>
     <e><i>fam</i><par n="alde/a__n"/></e>
