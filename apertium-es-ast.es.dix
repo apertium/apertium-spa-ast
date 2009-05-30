@@ -65724,32 +65724,6 @@
 </p>
 </e>
 </pardef>
-<pardef n="mí_o__adj">
-<e>
-<p>
-<l>as</l>
-<r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
-<l>a</l>
-<r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e>
-<p>
-<l>os</l>
-<r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
-<l>o</l>
-<r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
 <pardef n="absolut_o__adj">
 <e>
 <p>
@@ -66202,46 +66176,7 @@
 </p>
 </e>
 </pardef>
-<pardef n="nuestr_o__det">
-<e>
-<p>
-<l>as</l>
-<r>o<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
-<l>a</l>
-<r>o<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e>
-<p>
-<l>os</l>
-<r>o<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
-<l>o</l>
-<r>o<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
-<pardef n="mi_o__det">
-<e>
-<p>
-<l>s</l>
-<r>o<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
-<l/>
-<r>o<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
+
 <pardef n="send_os__det">
 <e>
 <p>
@@ -66307,20 +66242,6 @@
 <p>
 <l/>
 <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
-<pardef n="su_yo__det">
-<e>
-<p>
-<l>s</l>
-<r>yo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r>
-</p>
-</e>
-<e>
-<p>
-<l/>
-<r>yo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r>
 </p>
 </e>
 </pardef>
@@ -67578,136 +67499,7 @@
 </p>
 </e>
 </pardef>
-<pardef n="_el_mío__prn">
-<e r="RL">
-<p>
-<l>las<b/>mías</l>
-<r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>la<b/>mía</l>
-<r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>los<b/>míos</l>
-<r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>el<b/>mío</l>
-<r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
-<pardef n="_el_nuestro__prn">
-<e r="RL">
-<p>
-<l>las<b/>nuestras</l>
-<r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>la<b/>nuestra</l>
-<r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>los<b/>nuestros</l>
-<r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>el<b/>nuestro</l>
-<r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
-<pardef n="_el_suyo__prn">
-<e r="RL">
-<p>
-<l>las<b/>suyas</l>
-<r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>la<b/>suya</l>
-<r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>los<b/>suyos</l>
-<r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>el<b/>suyo</l>
-<r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
-<pardef n="_el_tuyo__prn">
-<e r="RL">
-<p>
-<l>las<b/>tuyas</l>
-<r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>la<b/>tuya</l>
-<r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>los<b/>tuyos</l>
-<r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>el<b/>tuyo</l>
-<r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
-<pardef n="_el_vuestro__prn">
-<e r="RL">
-<p>
-<l>las<b/>vuestras</l>
-<r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>la<b/>vuestra</l>
-<r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>los<b/>vuestros</l>
-<r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r>
-</p>
-</e>
-<e r="RL">
-<p>
-<l>el<b/>vuestro</l>
-<r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r>
-</p>
-</e>
-</pardef>
+
 <pardef n="cuánt_o__prn">
 <e>
 <p>
@@ -68071,8 +67863,272 @@
 </p>
 </e>
 </pardef>
+
+<!-- posesivos -->
+    <pardef n="/el_mío__prn">
+    <e r="RL">
+      <p>
+        <l>las<b/>mías</l> 
+        <r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>la<b/>mía</l> 
+        <r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>los<b/>míos</l> 
+        <r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>el<b/>mío</l> 
+        <r>el<b/>mío<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="/el_nuestro__prn">
+    <e r="RL">
+      <p>
+        <l>las<b/>nuestras</l> 
+        <r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>la<b/>nuestra</l> 
+        <r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>los<b/>nuestros</l> 
+        <r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>el<b/>nuestro</l> 
+        <r>el<b/>nuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="/el_suyo__prn">
+    <e r="RL">
+      <p>
+        <l>las<b/>suyas</l> 
+        <r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>la<b/>suya</l> 
+        <r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>los<b/>suyos</l> 
+        <r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>el<b/>suyo</l> 
+        <r>el<b/>suyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="/el_tuyo__prn">
+    <e r="RL">
+      <p>
+        <l>las<b/>tuyas</l> 
+        <r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>la<b/>tuya</l> 
+        <r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>los<b/>tuyos</l> 
+        <r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>el<b/>tuyo</l> 
+        <r>el<b/>tuyo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="/el_vuestro__prn">
+    <e r="RL">
+      <p>
+        <l>las<b/>vuestras</l> 
+        <r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>la<b/>vuestra</l> 
+        <r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>los<b/>vuestros</l> 
+        <r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>el<b/>vuestro</l> 
+        <r>el<b/>vuestro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+
+    <pardef n="mí/o__adj">
+    <e>
+      <p>
+        <l>as</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>os</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>o</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+
+    <pardef n="nuestr/o__det">
+    <e>
+      <p>
+        <l>as</l> 
+        <r>o<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a</l> 
+        <r>o<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>os</l> 
+        <r>o<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>o</l> 
+        <r>o<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="mi/o__det">
+    <e>
+      <p>
+        <l>s</l> 
+        <r>o<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l> 
+        <r>o<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="su/yo__det">
+    <e>
+      <p>
+        <l>s</l> 
+        <r>yo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l> 
+        <r>yo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
 	</pardefs>
 <section id="main" type="standard">
+
+    <!-- Posesivos -->
+<e lm="vuestro"><i>vuestr</i><par n="nuestr/o__det"/></e>
+<e lm="nuestro"><i>nuestr</i><par n="nuestr/o__det"/></e>
+<e lm="mío"><p><l>mi</l><r>mí</r></p><par n="mi/o__det"/></e>
+<e lm="suyo"><i>su</i><par n="su/yo__det"/></e>
+<e lm="tuyo"><i>tu</i><par n="su/yo__det"/></e>
+
+<e lm="mío"><i>mí</i><par n="mí/o__adj"/></e>
+<e lm="nuestro"><i>nuestr</i><par n="mí/o__adj"/></e>
+<e lm="suyo"><i>suy</i><par n="mí/o__adj"/></e>
+<e lm="tuyo"><i>tuy</i><par n="mí/o__adj"/></e>
+<e lm="vuestro"><i>vuestr</i><par n="mí/o__adj"/></e>
+
+<e lm="el mío"><par n="/el_mío__prn"/></e>
+<e lm="el nuestro"><par n="/el_nuestro__prn"/></e>
+<e lm="el suyo"><par n="/el_suyo__prn"/></e>
+<e lm="el tuyo"><par n="/el_tuyo__prn"/></e>
+<e lm="el vuestro"><par n="/el_vuestro__prn"/></e>
 
     <!-- Nomes ordenaos alfabéticamente. Por favor, trata de mantener l'orde nes entraes nueves. ¡Gracies!-->
     <!-- Noums are in alphabetical order. Please, try to keep it in order, it would be easy for all. Thanks!-->

@@ -106,8 +106,102 @@
     <e><p><l>os<s n="prn"/></l><r>vos<s n="prn"/></r></p></e>
 
 
+    <!-- Posesivos -->
+     <e>
+      <p>
+        <l>mío<s n="adj"/></l>
+        <r>mio<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>tuyo<s n="adj"/></l>
+        <r>to<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>suyo<s n="adj"/></l>
+        <r>so<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>nuestro<s n="adj"/></l>
+        <r>nuesu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>vuestro<s n="adj"/></l>
+        <r>vuesu<s n="adj"/></r>
+      </p>
+    </e>
 
-    <!-- Conjuncions -->
+
+     <e>
+      <p>
+        <l>mío<s n="det"/></l>
+        <r>mio<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>tuyo<s n="det"/></l>
+        <r>to<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>suyo<s n="det"/></l>
+        <r>so<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>nuestro<s n="det"/></l>
+        <r>nuesu<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>vuestro<s n="det"/></l>
+        <r>vuesu<s n="det"/></r>
+      </p>
+    </e>
+
+     <e>
+      <p>
+        <l>el<b/>mío<s n="prn"/></l>
+        <r>el<b/>mio<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>tuyo<s n="prn"/></l>
+        <r>el<b/>to<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>suyo<s n="prn"/></l>
+        <r>el<b/>so<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>nuestro<s n="prn"/></l>
+        <r>el<b/>nuesu<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>vuestro<s n="prn"/></l>
+        <r>el<b/>vuesu<s n="prn"/></r>
+      </p>
+    </e>
+
+    <!-- Conxunciones -->
 
        <e r="RL">
       <p>
