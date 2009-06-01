@@ -75441,23 +75441,23 @@
 </e>
 <e>
 <i>mí</i>
-<par n="mí_o__adj"/>
+<par n="mí/o__adj"/>
 </e>
 <e>
 <i>nuestr</i>
-<par n="mí_o__adj"/>
+<par n="mí/o__adj"/>
 </e>
 <e>
 <i>vuestr</i>
-<par n="mí_o__adj"/>
+<par n="mí/o__adj"/>
 </e>
 <e>
 <i>tuy</i>
-<par n="mí_o__adj"/>
+<par n="mí/o__adj"/>
 </e>
 <e>
 <i>suy</i>
-<par n="mí_o__adj"/>
+<par n="mí/o__adj"/>
 </e>
 <e>
 <i>cálid</i>
@@ -79650,7 +79650,7 @@
 <l>mi</l>
 <r>mí</r>
 </p>
-<par n="mi_o__det"/>
+<par n="mi/o__det"/>
 </e>
 <e>
 <i>ning</i>
@@ -79662,7 +79662,7 @@
 </e>
 <e>
 <i>nuestr</i>
-<par n="nuestr_o__det"/>
+<par n="nuestr/o__det"/>
 </e>
 <e>
 <i>otr</i>
@@ -79689,11 +79689,11 @@
 </e>
 <e>
 <i>su</i>
-<par n="su_yo__det"/>
+<par n="su/yo__det"/>
 </e>
 <e>
 <i>tu</i>
-<par n="su_yo__det"/>
+<par n="su/yo__det"/>
 </e>
 <e>
 <i>un</i>
@@ -79701,7 +79701,7 @@
 </e>
 <e>
 <i>vuestr</i>
-<par n="nuestr_o__det"/>
+<par n="nuestr/o__det"/>
 </e>
 <e r="RL">
 <p>
@@ -80236,19 +80236,19 @@
 <par n="cuánt_o__prn"/>
 </e>
 <e>
-<par n="_el_mío__prn"/>
+<par n="/el_mío__prn"/>
 </e>
 <e>
-<par n="_el_nuestro__prn"/>
+<par n="/el_nuestro__prn"/>
 </e>
 <e>
-<par n="_el_suyo__prn"/>
+<par n="/el_suyo__prn"/>
 </e>
 <e>
-<par n="_el_tuyo__prn"/>
+<par n="/el_tuyo__prn"/>
 </e>
 <e>
-<par n="_el_vuestro__prn"/>
+<par n="/el_vuestro__prn"/>
 </e>
 <e r="LR">
 <i>ello</i>
@@ -99051,11 +99051,11 @@
 
 <e r="RL">
 <i>su<b/>respectiv</i>
-<par n="mí_o__adj"/>
+<par n="mí/o__adj"/>
 </e>
 <e r="RL">
 <i>sus<b/>respectiv</i>
-<par n="mí_o__adj"/>
+<par n="mí/o__adj"/>
 </e>
 
 <e>

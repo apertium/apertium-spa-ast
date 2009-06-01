@@ -4050,22 +4050,6 @@
         </p>
         <par n="cliticos_ast"/>
       </e>
-     
-      <e>
-        <p>
-          <l>amos</l> 
-          <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/><j/></r> 
-        </p>
-        <par n="cliticos_ast"/>
-      </e>
-    
-      <e>
-        <p>
-          <l>áis</l> 
-          <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/><j/></r> 
-        </p>
-        <par n="cliticos_ast"/>
-      </e>
 
      <e>
         <p>
@@ -4107,7 +4091,15 @@
           <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
-     
+
+      <e>
+        <p>
+          <l>ámos</l> 
+          <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/><j/></r> 
+        </p>
+        <par n="cliticos_ast"/>
+      </e>
+
       <e>
         <p>
           <l>áis</l> 
@@ -4115,6 +4107,14 @@
         </p>
       </e>
      
+      <e>
+        <p>
+          <l>áis</l> 
+          <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/><j/></r> 
+        </p>
+        <par n="cliticos_ast"/>
+      </e>
+
       <e>
         <p>
           <l>en</l> 
@@ -9609,13 +9609,13 @@
     <e r="LR" lm="algo"><i>algo</i><par n="dalgo__prn"/></e>
     <e r="LR" lm="alguién"><i>alguién</i><par n="dalguién__prn"/></e>
     <e r="LR" lm="dalgún"><i>dalg</i><par n="dalg/ún__prn"/></e>
-    <e r="LR" lm="-y"><i></i><par n="-y__prn"/></e>
+    <!-- <e r="LR" lm="-y"><i></i><par n="-y__prn"/></e> -->
     <e r="LR" lm="mos"><i>mos</i><par n="nos__prn"/></e>
     <e r="LR" lm="sigo"><i>sigo</i><par n="consigo__prn"/></e>
     <e r="LR" lm="tigo"><i>tigo</i><par n="contigo__prn"/></e>
     <e r="LR" lm="vusté"><i>vust</i><par n="ust/é__prn"/></e>
-    <!-- <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e>
-    <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e>-->
+    <!-- <e r="LR" lm="le"><i>le</i><par n="-y__prn"/></e> -->
+    <!-- <e r="RL" lm="le"><p><l></l><r>le</r></p><par n="~/-y__prn"/></e> -->
 
     <!-- Conxunciones -->
     <e lm="y"><i/><par n="y__cnjcoo"/></e>
@@ -38880,6 +38880,7 @@
     <e><i>manxar</i><par n="mes__n"/></e>
     <e><i>manxer</i><par n="alde/a__n"/></e>
     <e><i>manxoy</i><par n="alde/a__n"/></e>
+    <e><i>manzan</i><par n="alde/a__n"/></e>
     <e><i>manzord</i><par n="alde/a__n"/></e>
     <e><i>manzorg</i><par n="ayalg/a__n"/></e>
     <e><i>manzorr</i><par n="us/u__n"/></e>
