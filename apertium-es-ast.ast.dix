@@ -3886,61 +3886,61 @@
     </pardef>
 
     <pardef n="/nuesu__det">
-    <e r="RL">
+    <e>
       <p>
         <l>nuesu</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>nuestru</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>nuesa</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>nuestra</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>nueso</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>nuestro</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>nuestros</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>nuesos</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>nueses</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>nuestres</l> 
         <r>nuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
@@ -3949,61 +3949,61 @@
     </pardef>
 
     <pardef n="/vuesu__det">
-    <e r="RL">
+    <e>
       <p>
         <l>vuesu</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>vuestru</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>vuesa</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>vuestra</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>vueso</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>vuestro</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>vuesos</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>vuestros</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>vueses</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
-    <e>
+    <e r="RL">
       <p>
         <l>vuestres</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
