@@ -11,6 +11,10 @@
     </def-cat>
     <!-- determinante neutro -->
 
+    <def-cat n="cnjsub">
+      <cat-item tags="cnjsub"/>
+    </def-cat>
+
     <def-cat n="proclise">
       <cat-item tags="prn.itg.*"/>
       <cat-item tags="adv.itg"/>
@@ -97,6 +101,11 @@
       <cat-item tags="rel.aa.*"/>
     </def-cat>
     <!--relativos adjetivos -->
+
+    <def-cat n="que">
+      <cat-item tags="rel.an.*"/>
+    </def-cat>
+   <!--relativo "que" -->
 
     <def-cat n="prn">
       <cat-item tags="prn.tn.*"/>
@@ -550,6 +559,7 @@
 	<list-item v="manteca"/>
 	<list-item v="té"/>
 	<list-item v="queso"/>
+	<list-item v="sidra"/>
     </def-list>
 
 
@@ -7936,6 +7946,322 @@ EGV41 Cuando detectamos ? ; : ! reseteamos variables, número a singular y géne
       </action>
     </rule>
     
+
+<!-- 
+EGV42 "LO" + ADJ ms + QUE relativo + verbo + determinante + sustantivo incontable -> ADJ neutro
+Lo bueno que es comer
+Lo guapo que es Xixón
+lo rico que está la sidra
+-->  
+
     
+    <rule>
+      <pattern>
+        <pattern-item n="detnt"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="que"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="no"/>
+        </let>
+        <call-macro n="f_concord2">
+        	<with-param pos="6"/>
+         	<with-param pos="2"/>
+       	</call-macro>
+
+	<choose>
+	   <when>
+            <test>
+	      <and>
+		      <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <lit v="lo"/>
+		      </equal>
+		      <equal>
+		        <clip pos="2" side="sl" part="nbr"/>
+		        <lit-tag v="sg"/>
+		      </equal>
+		      <equal>
+		        <clip pos="2" side="sl" part="gen"/>
+		        <lit-tag v="m"/>
+		      </equal>
+		      <equal caseless="yes">
+		          <clip pos="3" side="sl" part="lem"/>
+		          <lit v="que"/>
+		      </equal>
+		      <or>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="ser"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="estar"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="parecer"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="resultar"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="venir"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="hacer"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="traer"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="saber"/>
+			      </equal>
+		      </or>
+		      <in caseless="yes"><!--in-->
+		          <clip pos="6" side="sl" part="lem"/>
+		          <list n="incontables"/>
+		      </in>
+	      </and>
+            </test>
+                 <out>
+              		<lu>
+			<clip pos="1" side="tl" part="whole"/> 
+			</lu>
+			<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			<lit-tag v="nt"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+              		<lu>
+			<clip pos="3" side="tl" part="whole"/> 
+			</lu>
+          		<b pos="3"/>
+			<lu>
+                 		<clip pos="4" side="tl" part="lem"/>
+                  		<clip pos="4" side="tl" part="a_verb"/>
+                  		<clip pos="4" side="tl" part="temps"/>
+                  		<clip pos="4" side="tl" part="persona"/>
+                  		<clip pos="4" side="tl" part="nbr"/>
+                	</lu>
+			<b pos="4"/>
+			<lu>
+				<clip pos="5" side="tl" part="lem"/>
+				<clip pos="5" side="tl" part="a_det"/>
+				<clip pos="5" side="tl" part="gen"/>
+				<clip pos="5" side="tl" part="nbr"/>
+			</lu>
+			<b pos="5"/>
+          		<lu>
+            			<clip pos="6" side="tl" part="lem"/>
+            			<clip pos="6" side="tl" part="a_nom"/>
+            			<clip pos="6" side="tl" part="gen"/>
+            			<clip pos="6" side="tl" part="nbr"/>
+          		</lu>
+        	</out>
+          </when>
+
+	  <otherwise>
+                 <out>
+              		<lu>
+			<clip pos="1" side="tl" part="whole"/> 
+			</lu>
+			<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+              		<lu>
+			<clip pos="3" side="tl" part="whole"/> 
+			</lu>
+          		<b pos="3"/>
+			<lu>
+                 		<clip pos="4" side="tl" part="lem"/>
+                  		<clip pos="4" side="tl" part="a_verb"/>
+                  		<clip pos="4" side="tl" part="temps"/>
+                  		<clip pos="4" side="tl" part="persona"/>
+                  		<clip pos="4" side="tl" part="nbr"/>
+                	</lu>
+			<b pos="4"/>
+			<lu>
+				<clip pos="5" side="tl" part="lem"/>
+				<clip pos="5" side="tl" part="a_det"/>
+				<clip pos="5" side="tl" part="gen"/>
+				<clip pos="5" side="tl" part="nbr"/>
+			</lu>
+			<b pos="5"/>
+          		<lu>
+            			<clip pos="6" side="tl" part="lem"/>
+            			<clip pos="6" side="tl" part="a_nom"/>
+            			<clip pos="6" side="tl" part="gen"/>
+            			<clip pos="6" side="tl" part="nbr"/>
+          		</lu>
+        	</out>
+	  </otherwise>
+
+        </choose>
+  
+      </action>
+
+    </rule>
+
+
+
+<!-- 
+EGV42 "LO" + ADJ ms + QUE relativo + verbo + determinante + infinitivo -> ADJ neutro
+Lo rico que es hablar
+-->  
+
+    
+    <rule>
+      <pattern>
+        <pattern-item n="detnt"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="que"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<choose>
+	   <when>
+            <test>
+	      <and>
+		      <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <lit v="lo"/>
+		      </equal>
+		      <equal>
+		        <clip pos="2" side="sl" part="nbr"/>
+		        <lit-tag v="sg"/>
+		      </equal>
+		      <equal>
+		        <clip pos="2" side="sl" part="gen"/>
+		        <lit-tag v="m"/>
+		      </equal>
+		      <equal caseless="yes">
+		          <clip pos="3" side="sl" part="lem"/>
+		          <lit v="que"/>
+		      </equal>
+		      <or>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="ser"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="estar"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="parecer"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="resultar"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="venir"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="hacer"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="traer"/>
+			      </equal>
+			      <equal caseless="yes">
+				  <clip pos="4" side="sl" part="lem"/>
+				  <lit v="saber"/>
+			      </equal>
+		      </or>
+	      </and>
+            </test>
+                 <out>
+              		<lu>
+			<clip pos="1" side="tl" part="whole"/> 
+			</lu>
+			<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			<lit-tag v="nt"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+              		<lu>
+			<clip pos="3" side="tl" part="whole"/> 
+			</lu>
+          		<b pos="3"/>
+			<lu>
+                 		<clip pos="4" side="tl" part="lem"/>
+                  		<clip pos="4" side="tl" part="a_verb"/>
+                  		<clip pos="4" side="tl" part="temps"/>
+                  		<clip pos="4" side="tl" part="persona"/>
+                  		<clip pos="4" side="tl" part="nbr"/>
+                	</lu>
+			<b pos="4"/>
+			<lu>
+			<clip pos="5" side="tl" part="whole"/> 
+			</lu>
+        	</out>
+          </when>
+
+	  <otherwise>
+                 <out>
+              		<lu>
+			<clip pos="1" side="tl" part="whole"/> 
+			</lu>
+			<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+              		<lu>
+			<clip pos="3" side="tl" part="whole"/> 
+			</lu>
+          		<b pos="3"/>
+			<lu>
+                 		<clip pos="4" side="tl" part="lem"/>
+                  		<clip pos="4" side="tl" part="a_verb"/>
+                  		<clip pos="4" side="tl" part="temps"/>
+                  		<clip pos="4" side="tl" part="persona"/>
+                  		<clip pos="4" side="tl" part="nbr"/>
+                	</lu>
+			<b pos="4"/>
+			<lu>
+			<clip pos="5" side="tl" part="whole"/> 
+          		</lu>
+        	</out>
+	  </otherwise>
+
+        </choose>
+  
+      </action>
+
+    </rule>
+
+
+
   </section-rules>
 </transfer>

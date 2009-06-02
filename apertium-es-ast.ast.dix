@@ -182,6 +182,7 @@
     </e>
     </pardef>
 
+ 
     <pardef n="cliticos_ast">
 
      <e>
@@ -294,10 +295,360 @@
           <r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+
       <e>
         <p>
           <l>nos</l>
           <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>vos</l>
+          <r>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>les</l>
+          <r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tela</l>
+          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>telo</l>
+          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>telu</l>
+          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>teles</l>
+          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>telos</l>
+          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>teme</l>
+          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mela</l>
+          <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>melo</l>
+          <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>melu</l>
+          <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>meles</l>
+          <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>melos</l>
+          <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+  <e>
+        <p>
+          <l>sela</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>selo</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>selu</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seles</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>selos</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>seme</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sete</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+ <e>
+        <p>
+          <l>sevos</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+ <e>
+        <p>
+          <l>senos</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>nosla</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>noslo</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>noslu</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nosles</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>noslos</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+     
+      <e>
+        <p>
+          <l>vosla</l>
+          <r>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>voslo</l>
+          <r>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>voslu</l>
+          <r>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vosles</l>
+          <r>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>voslos</l>
+          <r>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+<pardef n="cliticos_nos_ast">
+ <e>
+        <p>
+          <l>nos</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+ <e>
+        <p>
+          <l>nosla</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>noslo</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>noslu</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nosles</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>noslos</l>
+          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+
+</pardef>
+    <pardef n="cliticos_sin_nos_ast">
+
+     <e>
+        <p>
+          <l>-y</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l>-ylo</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+
+        </p>
+      </e>
+  <e>
+        <p>
+          <l>-ylu</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+
+        </p>
+      </e>
+
+  <e>
+        <p>
+          <l>-yla</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+
+        </p>
+      </e>
+  <e>
+        <p>
+          <l>-ylos</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+
+        </p>
+      </e>
+  <e>
+        <p>
+          <l>-yles</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+
+        </p>
+      </e>
+
+     <e>
+        <p>
+          <l>se-y</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+
+        </p>
+      </e>
+
+    <e>
+        <p>
+          <l>se-yos</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+
+
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>-yos</l>
+          <r>-y<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+
+     <e>
+        <p>
+          <l>me</l>
+          <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>te</l>
+          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>se</l>
+          <r>se<s n="prn"/><s n="enc"/><s n="ref" /><s n="p3"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+    
+      <e>
+        <p>
+          <l>la</l>
+          <r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>los</l>
+          <r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lo</l>
+          <r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lu</l>
+          <r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -434,37 +785,6 @@
       </e>
       <e>
         <p>
-          <l>nosla</l>
-          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>noslo</l>
-          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>noslu</l>
-          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>nosles</l>
-          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>noslos</l>
-          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
           <l>vosla</l>
           <r>vos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
         </p>
@@ -494,8 +814,6 @@
         </p>
       </e>
     </pardef>
-    
-
 
     <pardef n="numeros">
       <e>
@@ -3967,7 +4285,7 @@
         <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
-    <e r="RL">
+    <e>
       <p>
         <l>vuestra</l> 
         <r>vuesu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
@@ -4043,6 +4361,8 @@
         <par n="cliticos_ast"/>
       </e>
       
+      
+
       <e>
         <p>
           <l>a</l> 
@@ -4097,7 +4417,14 @@
           <l>ámos</l> 
           <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/><j/></r> 
         </p>
-        <par n="cliticos_ast"/>
+        <par n="cliticos_sin_nos_ast"/>
+      </e>
+    <e>
+        <p>
+          <l>ámo</l>
+          <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
       </e>
 
       <e>
@@ -4130,45 +4457,121 @@
       </e>
       <e>
         <p>
+          <l>é</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+         <par n="cliticos_ast"/>
+      </e>
+
+      <e>
+        <p>
           <l>asti</l> 
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+      <e>
+        <p>
+          <l>ásti</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+         <par n="cliticos_ast"/>
+      </e>
+
+
       <e r="LR">
         <p>
           <l>esti</l> 
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+       <e>
+        <p>
+          <l>ésti</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+         <par n="cliticos_ast"/>
+      </e>
+
       <e>
         <p>
           <l>ó</l> 
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
+
+       <e>
+        <p>
+          <l>ó</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+         <par n="cliticos_ast"/>
+      </e>
+
       <e>
         <p>
           <l>emos</l> 
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+     <e>
+        <p>
+          <l>émos</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r>
+        </p>
+     <par n="cliticos_sin_nos_ast"/>
+
+      </e>
+ <e>
+        <p>
+          <l>émo</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      <par n="cliticos_nos_ast"/>
+      </e>
+
       <e>
         <p>
           <l>astis</l> 
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+       <e>
+        <p>
+          <l>ástis</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+         <par n="cliticos_ast"/>
+      </e>
+
       <e r="LR">
         <p>
           <l>estis</l> 
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+        <e>
+        <p>
+          <l>éstis</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+         <par n="cliticos_ast"/>
+      </e>
+
       <e>
         <p>
           <l>aron</l> 
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
         </p>
+      </e>
+  
+  <e>
+        <p>
+          <l>áron</l>
+          <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+         <par n="cliticos_ast"/>
       </e>
 
       <e>
@@ -20004,6 +20407,7 @@
     <e><i>ricach</i><par n="castr/ón__adj"/></e>
     <e><i>ricach</i><par n="otr/u__adj"/></e>
     <e><i>ricay</i><par n="otr/u__adj"/></e>
+    <e><i>ric</i><par n="otr/u__adj"/></e>
     <e><i>rif</i><par n="castr/ón__adj"/></e>
     <e><i>ri</i><par n="académi/cu__adj"/></e>
     <e><i>ril</i><par n="at/áu__adj"/></e>
@@ -45634,7 +46038,7 @@
     <e><i>siderúrxic</i><par n="us/u__n"/></e>
     <e><i>siderúrxi</i><par n="académi/cu__n"/></e>
     <e><i>sidor</i><par n="us/u__n"/></e>
-    <e><i>sidra</i><par n="iverna/da__n"/></e>
+    <e><i>sidr</i><par n="alde/a__n"/></e>
     <e><i>sidrerí</i><par n="alde/a__n"/></e>
     <e><i>sidr</i><par n="us/u__n"/></e>
     <e><i>sidriz</i><par n="us/u__n"/></e>
