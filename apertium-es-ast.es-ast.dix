@@ -1967,7 +1967,8 @@
         <l>lo<s n="prn"/><s n="pro"/></l>
         <r>lo<s n="prn"/><s n="pro"/></r>
       </p>
-    </e> -->
+    </e> 
+     -->
      <e>
       <p>
         <l>me<s n="prn"/><s n="pro"/></l>
@@ -2017,12 +2018,14 @@
         <r>lu<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
+    <!--
     <e>
       <p>
         <l>lo<s n="prn"/><s n="enc"/></l>
         <r>lo<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
+    -->
     <e>
       <p>
         <l>me<s n="prn"/><s n="enc"/></l>
