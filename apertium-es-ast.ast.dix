@@ -4853,7 +4853,7 @@
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
-       <e>
+       <e r="LR">
         <p>
           <l>ésti</l>
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/><j/></r>
@@ -4919,7 +4919,7 @@
         </p>
       </e>
 
-        <e>
+        <e r="LR">
         <p>
           <l>éstis</l>
           <r>ar<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/><j/></r>
@@ -5016,7 +5016,7 @@
           <r>ar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
-<e>
+<e r="LR">
         <p>
           <l>ábemos</l>
           <r>ar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/><j/></r>
@@ -5024,7 +5024,7 @@
         <par n="cliticos_sin_nos_ast"/>
 
       </e>
-<e>
+<e r="LR">
         <p>
           <l>ábemo</l>
           <r>ar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/><j/></r>
@@ -5054,7 +5054,7 @@
           <r>ar<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
-<e>
+<e r="LR">
         <p>
           <l>ábeis</l>
           <r>ar<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/><j/></r>
@@ -5099,7 +5099,7 @@
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
-<e>
+<e r="LR">
         <p>
           <l>áre</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/><j/></r>
@@ -5131,7 +5131,7 @@
           <r>ar<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>	  
-<e>
+<e r="LR">
         <p>
           <l>áres</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/><j/></r>
@@ -5163,7 +5163,7 @@
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
-<e>
+<e r="LR">
         <p>
           <l>áre</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/><j/></r>
@@ -5206,7 +5206,7 @@
         </p>
       </e>
 
-<e>
+<e r="LR">
         <p>
           <l>áremos</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
@@ -5215,7 +5215,7 @@
 
       </e>
 
-<e>
+<e r="LR">
         <p>
           <l>áremo</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
@@ -5247,7 +5247,7 @@
         </p>
       </e>	  
 
-<e>
+<e r="LR">
         <p>
           <l>áreis</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/><j/></r>
@@ -5278,7 +5278,7 @@
           <r>ar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
         </p>
       </e>	  
-<e>
+<e r="LR">
         <p>
           <l>áren</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/><j/></r>
@@ -5529,14 +5529,14 @@
           <r>ar<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
-<e>
+     <e r="LR">
         <p>
           <l>aríemos</l>
           <r>ar<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/><j/></r>
         </p>
     <par n="cliticos_sin_nos_ast"/>
    </e>
-<e>
+     <e r="LR">
         <p>
           <l>aríemo</l>
           <r>ar<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/><j/></r>
