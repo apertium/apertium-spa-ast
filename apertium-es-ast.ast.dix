@@ -1679,29 +1679,50 @@
     </pardef>
 
     <pardef n="me__prn">
-    <e>
+    <e r="LR">
       <p>
-        <l></l> 
-        <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+        <l>me</l> 
+        <r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l><a/>me</l> 
+        <r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
     </pardef>
+
     <pardef n="te__prn">
-    <e>
+    <e r="LR">
       <p>
-        <l></l> 
-        <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+        <l>te</l> 
+        <r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l><a/>te</l> 
+        <r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
     </pardef>
+
     <pardef n="se__prn">
-    <e>
+    <e r="LR">
       <p>
-        <l></l> 
-        <r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
+        <l>se</l> 
+        <r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l><a/>se</l> 
+        <r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
     </pardef>
+
     <pardef n="nos__prn">
     <e>
       <p>
@@ -2391,14 +2412,7 @@
     </e>
     </pardef>
 
-    <pardef n="me__prn">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-    </pardef>
+
     <pardef n="te__prn">
     <e>
       <p>
@@ -3631,6 +3645,21 @@
 	 </e>
 	</pardef>
 
+	<pardef n="/pa__pr">
+	 <e r="LR">
+	   <p>
+		<l>pa</l>
+		<r>pa<s n="pr"/></r>
+	   </p>
+	 </e>
+	 <e r="RL">
+	   <p>
+		<l><a/>pa</l>
+		<r>pa<s n="pr"/></r>
+	   </p>
+	 </e>
+	</pardef>
+
     <pardef n="/con__pr">
       <e r="LR">
         <p>
@@ -3878,6 +3907,20 @@
         </p>
       </e>
     </pardef>      
+   <pardef n="/que__cnjsub">
+      <e r="LR">
+        <p>
+          <l>que</l>
+          <r>que<s n="cnjsub"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>que</l>
+          <r>que<s n="cnjsub"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="que__cnjsub">
       <e>
         <p>
@@ -4281,15 +4324,27 @@
       </e>
     </pardef>
     <pardef n="/el__det">
-      <e>
+      <e r="LR">
         <p>
           <l>el</l>
           <r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
+        <p>
+          <l><a/>el</l>
+          <r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
         <p>
           <l>la</l>
+          <r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e r="RL">
+        <p>
+          <l><a/>la</l>
           <r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
@@ -10776,7 +10831,7 @@
     <e lm="esi"><i>es</i><par n="es/i__prn"/></e>
     <e lm="esti"><i>est</i><par n="es/i__prn"/></e>
     <e lm="lo"><i>l</i><par n="l/o__prn"/></e>
-    <e lm="me"><i>me</i><par n="me__prn"/></e>
+    <e lm="me"><i/><par n="me__prn"/></e>
     <e lm="mi"><i>mi</i><par n="conmigo__prn"/></e>
     <e lm="min"><i>min</i><par n="conmigo__prn"/></e>
     <e lm="munchos"><i>munch</i><par n="damb/os__prn"/></e>
@@ -10786,9 +10841,9 @@
     <e lm="pocos"><i>po</i><par n="po/cos__prn"/></e>
     <e lm="qué"><i>qué</i><par n="qué__prn"/></e>
     <e lm="quién"><i>quién</i><par n="quién__prn"/></e>
-    <e lm="se"><i>se</i><par n="se__prn"/></e>
+    <e lm="se"><i/><par n="se__prn"/></e>
     <e lm="sí"><i>sí</i><par n="sí__prn"/></e>
-    <e lm="te"><i>te</i><par n="te__prn"/></e>
+    <e lm="te"><i/><par n="te__prn"/></e>
     <e lm="ti"><i>ti</i><par n="contigo__prn"/></e>
     <e lm="tu"><i>tu</i><par n="contigo__prn"/></e>
     <e lm="ún"><i></i><par n="ún__prn"/></e>
@@ -10814,7 +10869,7 @@
     <e lm="o"><i/><par n="o__cnjcoo"/></e>
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
     <e lm="mas"><i>mas</i><par n="pero__cnjcoo"/></e>
-    <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
+    <e lm="que"><i/><par n="/que__cnjsub"/></e>
     <e lm="si"><i>si</i><par n="que__cnjsub"/></e>
     <e lm="sinón"><i>sinón</i><par n="pero__cnjcoo"/></e>
     <e lm="anque"><i>anque</i><par n="conque__cnjadv"/></e>
@@ -11718,7 +11773,7 @@
     <e lm="hacia"><i>hacia</i><par n="según__pr"/></e>
     <e r="LR" lm="haza"><i>haza</i><par n="según__pr"/></e>
     <e lm="magar"><i>magar</i><par n="según__pr"/></e>
-    <e lm="pa"><i>pa</i><par n="según__pr"/></e>
+    <e lm="pa"><i/><par n="/pa__pr"/></e>
     <e lm="pal"><p><l>pal</l><r>pa<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="según"><i>según</i><par n="según__pr"/></e>
     <e lm="sin"><i>sin</i><par n="según__pr"/></e>
@@ -50502,23 +50557,20 @@
     <e><i>Xorxa</i><par n="Asturies__np"/></e>
     <e><i>Tierra</i><par n="Asturies__np"/></e>
     <e><i>La<b/>Tierra</i><par n="Asturies__np"/></e>
-
     <e lm="San"><i>San</i><par n="Asturies__np"/></e>
-
- 
- <e><i>l</i><par n="l__prnenc"/></e>
-  <e lm="te"><i>te</i><par n="te__prnenc"/></e>
-  <e lm="vos"><i>vos</i><par n="vos__prnenc"/></e>
+  <e><i>l</i><par n="l__prnenc"/></e>
   <e lm="me"><i>me</i><par n="me__prnenc"/></e>
+  <e lm="te"><i>te</i><par n="te__prnenc"/></e>
   <e lm="se"><i>se</i><par n="se__prnenc"/></e>
   <e lm="nos"><i>nos</i><par n="nos__prnenc"/></e>
+  <e lm="vos"><i>vos</i><par n="vos__prnenc"/></e>
   <e><p><l></l><r>-y</r></p><par n="-y__prnenc"/></e>
   </section>
 
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de</r></p><par n="según__pr"/></e>
     <e r="LR" lm="n'"><p><l>n'</l><r>en</r></p><par n="según__pr"/></e>
-    <e r="LR" lm="p'"><p><l>p'</l><r>en</r></p><par n="según__pr"/></e>
+    <e r="LR" lm="p'"><p><l>p'</l><r>pa</r></p><par n="según__pr"/></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="qu'"><p><l>qu'</l><r>que</r></p><par n="que__cnjsub"/></e>
     <e r="LR" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn"/></e>

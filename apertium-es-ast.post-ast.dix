@@ -68,6 +68,9 @@
         <par n="vocals"/>
       </e>
     </pardef>
+
+
+
   </pardefs>
   <section id="main" type="standard">
       <e>
@@ -77,6 +80,61 @@
         </p>
         <par n="de"/>
       </e>
-
+      <e>
+        <p>
+          <l><a/>pa</l>
+          <r>p</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>en</l>
+          <r>n</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>me</l>
+          <r>m</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>te</l>
+          <r>t</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>se</l>
+          <r>s</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>que</l>
+          <r>qu</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>el</l>
+          <r>l</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>la</l>
+          <r>l</r>
+        </p>
+        <par n="de"/>
+      </e>
 </section>
 </dictionary>
