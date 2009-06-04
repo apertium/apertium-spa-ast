@@ -1,0 +1,217 @@
+echo "-------------------"
+echo "te hablo: "
+echo "te hablo" | apertium -d .. es-ast-transfer
+echo "te hablo" | apertium es-ast
+echo "-------------------"
+echo "me hablo: "
+echo "me hablo" | apertium -d .. es-ast-transfer
+echo "me hablo" | apertium es-ast
+echo "-------------------"
+echo "se hablo: "
+echo "se hablo" | apertium -d .. es-ast-transfer
+echo "se hablo" | apertium es-ast
+echo "-------------------"
+echo "le hablo: "
+echo "le hablo" | apertium -d .. es-ast-transfer
+echo "le hablo" | apertium es-ast
+echo "-------------------"
+echo "la hablo: "
+echo "la hablo" | apertium -d .. es-ast-transfer
+echo "la hablo" | apertium es-ast
+echo "-------------------"
+echo "las habláis: "
+echo "las habláis" | apertium -d .. es-ast-transfer
+echo "las habláis" | apertium es-ast
+echo "-------------------"
+echo "lo hablamos: "
+echo "lo hablamos" | apertium -d .. es-ast-transfer
+echo "lo hablamos" | apertium es-ast
+echo "-------------------"
+echo "los hablo: "
+echo "los hablo" | apertium -d .. es-ast-transfer
+echo "los hablo" | apertium es-ast
+echo "-------------------"
+echo "nos hablo: "
+echo "nos hablo" | apertium -d .. es-ast-transfer
+echo "nos hablo" | apertium es-ast
+echo "-------------------"
+echo "os hablo: "
+echo "os hablo" | apertium -d .. es-ast-transfer
+echo "os hablo" | apertium es-ast
+echo "-------------------"
+echo "me la hablas: "
+echo "me la hablas" | apertium -d .. es-ast-transfer
+echo "me la hablas" | apertium es-ast
+echo "-------------------"
+echo "me lo hablas: "
+echo "me lo hablas" | apertium -d .. es-ast-transfer
+echo "me lo hablas" | apertium es-ast
+echo "-------------------"
+echo "me los hablas: "
+echo "me los hablas" | apertium -d .. es-ast-transfer
+echo "me los hablas" | apertium es-ast
+echo "-------------------"
+echo "me las hablas: "
+echo "me las hablas" | apertium -d .. es-ast-transfer
+echo "me las hablas" | apertium es-ast
+echo "-------------------"
+echo "te la habla: "
+echo "te la habla" | apertium -d .. es-ast-transfer
+echo "te la habla" | apertium es-ast
+echo "-------------------"
+echo "te lo habla: "
+echo "te lo habla" | apertium -d .. es-ast-transfer
+echo "te lo habla" | apertium es-ast
+echo "-------------------"
+echo "te las habla: "
+echo "te las habla" | apertium -d .. es-ast-transfer
+echo "te las habla" | apertium es-ast
+echo "-------------------"
+echo "te los habla: "
+echo "te los habla" | apertium -d .. es-ast-transfer
+echo "te los habla" | apertium es-ast
+echo "-------------------"
+echo "te me habla: "
+echo "te me habla" | apertium -d .. es-ast-transfer
+echo "te me habla" | apertium es-ast
+echo "-------------------"
+echo "os lo hablamos: "
+echo "os lo hablamos" | apertium -d .. es-ast-transfer
+echo "os lo hablamos" | apertium es-ast
+echo "-------------------"
+echo "os la hablamos: "
+echo "os la hablamos" | apertium -d .. es-ast-transfer
+echo "os la hablamos" | apertium es-ast
+echo "-------------------"
+echo "os los hablamos: "
+echo "os los hablamos" | apertium -d .. es-ast-transfer
+echo "os los hablamos" | apertium es-ast
+echo "-------------------"
+echo "os las hablamos: "
+echo "os las hablamos" | apertium -d .. es-ast-transfer
+echo "os las hablamos" | apertium es-ast
+echo "-------------------"
+echo "nos lo hablamos: "
+echo "nos lo hablamos" | apertium -d .. es-ast-transfer
+echo "nos lo hablamos" | apertium es-ast
+echo "-------------------"
+echo "nos la hablamos: "
+echo "nos la hablamos" | apertium -d .. es-ast-transfer
+echo "nos la hablamos" | apertium es-ast
+echo "-------------------"
+echo "nos los hablamos: "
+echo "nos los hablamos" | apertium -d .. es-ast-transfer
+echo "nos los hablamos" | apertium es-ast
+echo "-------------------"
+echo "nos las hablamos: "
+echo "nos las hablamos" | apertium -d .. es-ast-transfer
+echo "nos las hablamos" | apertium es-ast
+echo "-------------------"
+echo "se lo hablo: "
+echo "se lo hablo" | apertium -d .. es-ast-transfer
+echo "se lo  hablo" | apertium es-ast
+echo "-------------------"
+echo "se la hablo: "
+echo "se la hablo" | apertium -d .. es-ast-transfer
+echo "se la  hablo" | apertium es-ast
+echo "-------------------"
+echo "se los hablo: "
+echo "se los hablo" | apertium -d .. es-ast-transfer
+echo "se los  hablo" | apertium es-ast
+echo "-------------------"
+echo "se las hablo: "
+echo "se las hablo" | apertium -d .. es-ast-transfer
+echo "se las  hablo" | apertium es-ast
+echo "-------------------"
+echo "se nos habla: "
+echo "se nos habla" | apertium -d .. es-ast-transfer
+echo "se nos  habla" | apertium es-ast
+echo "-------------------"
+echo "se os habla: "
+echo "se os habla" | apertium -d .. es-ast-transfer
+echo "se os habla" | apertium es-ast
+echo "-------------------"
+echo "se me habla: "
+echo "se me habla" | apertium -d .. es-ast-transfer
+echo "se me habla" | apertium es-ast
+echo "-------------------"
+echo "se te habla: "
+echo "se te habla" | apertium -d .. es-ast-transfer
+echo "se te habla" | apertium es-ast
+echo "-------------------"
+echo "se lo habla: "
+echo "se lo habla" | apertium -d .. es-ast-transfer
+echo "se lo habla" | apertium es-ast
+echo "-------------------"
+echo "se le habla: "
+echo "se le habla" | apertium -d .. es-ast-transfer
+echo "se le habla" | apertium es-ast
+echo "-------------------"
+echo "que lo hablo: "
+echo "que lo hablo" | apertium -d .. es-ast-transfer
+echo "que lo hablo" | apertium es-ast
+echo "-------------------"
+echo "y lo hablo: "
+echo "y lo hablo" | apertium -d .. es-ast-transfer
+echo "y lo hablo" | apertium es-ast
+echo "-------------------"
+echo "nos lo hablamos: "
+echo "nos lo hablamos" | apertium -d .. es-ast-transfer
+echo "nos lo hablamos" | apertium es-ast
+echo "-------------------"
+echo "se habló: "
+echo "se habló" | apertium -d .. es-ast-transfer
+echo "se habló" | apertium es-ast
+echo "-------------------"
+echo "nos lo hablábamos: "
+echo "nos lo hablábamos" | apertium -d .. es-ast-transfer
+echo "nos lo hablábamos" | apertium es-ast
+echo "-------------------"
+echo "le hablaba: "
+echo "le hablaba" | apertium -d .. es-ast-transfer
+echo "le hablaba" | apertium es-ast
+echo "-------------------"
+echo "nos lo habláramos: "
+echo "nos lo habláramos" | apertium -d .. es-ast-transfer
+echo "nos lo habláramos" | apertium es-ast
+echo "-------------------"
+echo "se hablara: "
+echo "se hablara" | apertium -d .. es-ast-transfer
+echo "se hablara" | apertium es-ast
+echo "-------------------"
+echo "nos hablemos: "
+echo "nos hablemos" | apertium -d .. es-ast-transfer
+echo "nos hablemos" | apertium es-ast
+echo "-------------------"
+echo "le hables: "
+echo "le hables" | apertium -d .. es-ast-transfer
+echo "le hables" | apertium es-ast
+echo "-------------------"
+echo "le hablaré: "
+echo "le hablaré" | apertium -d .. es-ast-transfer
+echo "le hablaré" | apertium es-ast
+echo "-------------------"
+echo "nos hablaremos: "
+echo "nos hablaremos" | apertium -d .. es-ast-transfer
+echo "nos hablaremos" | apertium es-ast
+echo "-------------------"
+echo "le hablaría: "
+echo "le hablaría" | apertium -d .. es-ast-transfer
+echo "le hablaría" | apertium es-ast
+echo "-------------------"
+echo "nos hablaríamos: "
+echo "nos hablaríamos" | apertium -d .. es-ast-transfer
+echo "nos hablaríamos" | apertium es-ast
+echo "-------------------"
+echo "hablároslo: "
+echo "hablároslo" | apertium -d .. es-ast-transfer
+echo "hablároslo" | apertium es-ast
+echo "-------------------"
+echo "háblalo: "
+echo "háblalo" | apertium -d .. es-ast-transfer
+echo "háblalo" | apertium es-ast
+echo "-------------------"
+echo "hablándole: "
+echo "hablándole" | apertium -d .. es-ast-transfer
+echo "hablándole" | apertium es-ast
+echo "-------------------"

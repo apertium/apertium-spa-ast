@@ -1,0 +1,31 @@
+echo "-------------------"
+echo "en Asturias: "
+echo "en Asturias" | apertium es-ast
+echo "-------------------"
+echo "de Asturias: "
+echo "de Asturias" | apertium es-ast
+echo "-------------------"
+echo "de Gijón: "
+echo "de Gijón" | apertium es-ast
+echo "-------------------"
+echo "para Asturias: "
+echo "para Asturias" | apertium es-ast
+echo "-------------------"
+echo "que Asturias: "
+echo "que Asturias" | apertium es-ast
+echo "-------------------"
+echo "la Asturias: "
+echo "la Asturias" | apertium es-ast
+echo "-------------------"
+echo "el Asturias: "
+echo "el Asturias" | apertium es-ast
+echo "-------------------"
+echo "que me acostumbre: "
+echo "que me acostumbre" | apertium es-ast
+echo "-------------------"
+echo "que te acostumbres: "
+echo "que te acostumbres" | apertium es-ast
+echo "-------------------"
+echo "que se acostumbre: "
+echo "que se acostumbre" | apertium es-ast
+echo "-------------------"

@@ -1,0 +1,67 @@
+echo "-------------------"
+echo "la sal: "
+echo "la sal" | apertium es-ast
+echo "-------------------"
+echo "sal fina: "
+echo "sal fina" | apertium es-ast
+echo "-------------------"
+echo "fina sal: "
+echo "fina sal" | apertium es-ast
+echo "-------------------"
+echo "la sal fina: "
+echo "la sal fina" | apertium es-ast
+echo "-------------------"
+echo "la fina sal: "
+echo "la fina sal" | apertium es-ast
+echo "-------------------"
+echo "toda la sal: "
+echo "toda la sal" | apertium es-ast
+echo "-------------------"
+echo "toda la sal fina: "
+echo "toda la sal fina" | apertium es-ast
+echo "-------------------"
+echo "la fina: "
+echo "la fina" | apertium es-ast
+echo "-------------------"
+echo "lo guapo: (detnt+adj) "
+echo "lo guapo" | apertium es-ast
+echo "-------------------"
+echo "lo fina: "
+echo "lo fina" | apertium es-ast
+echo "-------------------"
+echo "blanca sal fina: "
+echo "blanca sal fina" | apertium es-ast
+echo "-------------------"
+echo "la blanca sal fina: "
+echo "la blanca sal fina" | apertium es-ast
+echo "-------------------"
+echo "sal muy fina: "
+echo "sal muy fina" | apertium es-ast
+echo "-------------------"
+echo "la manzana cara: "
+echo "la manzana cara" | apertium es-ast
+echo "-------------------"
+echo "manzana cara: "
+echo "manzana cara" | apertium es-ast
+echo "-------------------"
+echo "hablé manzana cara: "
+echo "hablé manzana cara" | apertium es-ast
+echo "-------------------"
+echo "de la manzana cara: "
+echo "de la manzana cara" | apertium es-ast
+echo "-------------------"
+echo "de manzana cara: "
+echo "de manzana cara" | apertium es-ast
+echo "-------------------"
+echo "lo rico que hace la sidra"
+echo "lo rico que hace la sidra" | apertium es-ast
+echo "-------------------"
+echo "lo rico que habla la sidra"
+echo "lo rico que habla la sidra" | apertium es-ast
+echo "-------------------"
+echo "lo rico que hace hablar"
+echo "lo rico que hace hablar" | apertium es-ast
+echo "-------------------"
+echo "Lo guapo que hace Gijón"
+echo "Lo guapo que hace Gijón" | apertium es-ast
+echo "-------------------"
