@@ -37,10 +37,13 @@
         <file name="es-ast.t1x.bin"/>
         <file name="es-ast.autobil.bin"/>
       </program>
+
+<!--
       <program name="apertium-transfer -n">
 	<file name="apertium-es-ast.post-es-ast.t1x"/>
 	<file name="post-es-ast.t1x.bin"/>
       </program>
+-->
       <program name="lt-proc $1">
         <file name="es-ast.autogen.bin"/>
       </program>

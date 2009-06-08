@@ -5871,6 +5871,51 @@ lo encuentra
     </rule>
 
 
+<!--
+EGV25b pronombre_procl + verbo.
+lo encuentra
+-->
+
+    
+    <rule>
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="prnpro"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <out>
+	    <lu>
+		<clip pos="1" side="tl" part="lem"/>
+		<clip pos="1" side="tl" part="a_nom"/>
+		<clip pos="1" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="nbr"/>
+	    </lu>
+	    <b/>
+          <mlu>
+
+	    <lu>
+              <get-case-from pos="3">
+                <clip pos="2" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              <clip pos="3" side="tl" part="persona"/>
+              <clip pos="3" side="tl" part="nbr"/>
+            </lu>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lem"/>
+              </get-case-from>
+              <lit-tag v="prn.enc"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu></mlu>
+        </out> 
+      </action>
+    </rule>
+
 
     
 <!--
