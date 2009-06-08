@@ -2,7 +2,12 @@ echo "-------------------"
 echo "ir a hablar: "
 echo "ir a hablar" | apertium es-ast
 echo "-------------------"
+echo "ir a hablarle : "
+echo "ir a hablarle"  | apertium es-ast
+echo "-------------------"
+echo "ir a hablárselo : "
+echo "ir a hablárselo"  | apertium es-ast
+echo "-------------------"
 echo "acostumbrar a hablar: "
 echo "acostumbrar a hablar" | apertium es-ast
 echo "-------------------"
-

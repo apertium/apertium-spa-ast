@@ -54,9 +54,6 @@
       <e>
         <i>h</i>
       </e>
-      <e>
-        <i>y</i>
-      </e>
     </pardef>
 
     <pardef n="de">
@@ -69,10 +66,29 @@
       </e>
     </pardef>
 
-
+    <pardef n="el_preblank">
+      <e>
+        <par n="vocals"/>
+        <p>
+          <l><b/></l>
+          <r>'l</r>
+        </p>
+      </e>
+    </pardef>
 
   </pardefs>
+
+
   <section id="main" type="standard">
+
+      <e>
+        <p>
+          <l><a/>el</l>
+          <r></r>
+        </p>
+        <par n="el_preblank"/>
+      </e>
+
       <e>
         <p>
           <l><a/>de</l>
