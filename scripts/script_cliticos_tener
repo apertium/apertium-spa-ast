@@ -1,0 +1,93 @@
+echo "-------------------"
+echo "te tiene: "
+echo "te tiene" | apertium -d .. es-ast-transfer
+echo "te tiene" | apertium es-ast
+echo "-------------------"
+echo "se tienen: "
+echo "se tienen" | apertium -d .. es-ast-transfer
+echo "se tienen" | apertium es-ast
+echo "-------------------"
+echo "le tenían: "
+echo "le tenían" | apertium -d .. es-ast-transfer
+echo "le tenían" | apertium es-ast
+echo "-------------------"
+echo "las tenéis: "
+echo "las tenéis" | apertium -d .. es-ast-transfer
+echo "las tenéis" | apertium es-ast
+echo "-------------------"
+echo "nos tenemos: "
+echo "nos tenemos" | apertium -d .. es-ast-transfer
+echo "nos tenemos" | apertium es-ast
+echo "-------------------"
+echo "os tienen: "
+echo "os tienen" | apertium -d .. es-ast-transfer
+echo "os tienen" | apertium es-ast
+echo "-------------------"
+echo "te las tendrán: "
+echo "te las tendrán" | apertium -d .. es-ast-transfer
+echo "te las tendrán" | apertium es-ast
+echo "------------------"
+echo "os lo tendrían: "
+echo "os lo tendrían" | apertium -d .. es-ast-transfer
+echo "os lo tendrían" | apertium es-ast
+echo "-------------------"
+echo "nos lo tendremos: "
+echo "nos lo tendremos" | apertium -d .. es-ast-transfer
+echo "nos lo tendremos" | apertium es-ast
+echo "-------------------"
+echo "se lo tuvo: "
+echo "se lo tuvo" | apertium -d .. es-ast-transfer
+echo "se lo tuvo" | apertium es-ast
+echo "-------------------"
+echo "que lo tenga: "
+echo "que lo tenga" | apertium -d .. es-ast-transfer
+echo "que lo tenga" | apertium es-ast
+echo "-------------------"
+echo "y lo tenga: "
+echo "y lo tenga" | apertium -d .. es-ast-transfer
+echo "y lo tenga" | apertium es-ast
+echo "-------------------"
+echo "se tuvieron: "
+echo "se tuvieron" | apertium -d .. es-ast-transfer
+echo "se tuvieron" | apertium es-ast
+echo "-------------------"
+echo "te lo tendríamos: "
+echo "te lo tendríamos" | apertium -d .. es-ast-transfer
+echo "te lo tendríamos" | apertium es-ast
+echo "-------------------"
+echo "le tenía: "
+echo "le tenía" | apertium -d .. es-ast-transfer
+echo "le tenía" | apertium es-ast
+echo "-------------------"
+echo "nos lo tuviéramos: "
+echo "nos lo tuviéramos" | apertium -d .. es-ast-transfer
+echo "nos lo tuviéramos" | apertium es-ast
+echo "-------------------"
+echo "se tuviera: "
+echo "se tuviera" | apertium -d .. es-ast-transfer
+echo "se tuviera" | apertium es-ast
+echo "-------------------"
+echo "nos tengamos: "
+echo "nos tengamos" | apertium -d .. es-ast-transfer
+echo "nos tengamos" | apertium es-ast
+echo "-------------------"
+echo "le tengas: "
+echo "le tengas" | apertium -d .. es-ast-transfer
+echo "le tengas" | apertium es-ast
+echo "-------------------"
+echo "lo tendré: "
+echo "lo tendré" | apertium -d .. es-ast-transfer
+echo "lo tendré" | apertium es-ast
+echo "-------------------"
+echo "tenérselo: "
+echo "tenérselo" | apertium -d .. es-ast-transfer
+echo "tenérselo" | apertium es-ast
+echo "-------------------"
+echo "tenédmelo: "
+echo "tenédmelo" | apertium -d .. es-ast-transfer
+echo "tenédmelo" | apertium es-ast
+echo "-------------------"
+echo "teniéndolo: "
+echo "teniéndolo" | apertium -d .. es-ast-transfer
+echo "teniéndolo" | apertium es-ast
+echo "-------------------"

@@ -29,5 +29,7 @@ dev/asturian.freqlist.txt -text
 /regression-tests.sh -text
 scripts/script_apostrofes -text
 scripts/script_cliticos -text
+scripts/script_cliticos_llamber -text
+scripts/script_cliticos_tener -text
 scripts/script_neutro -text
 scripts/script_perifrasis -text

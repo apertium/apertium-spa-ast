@@ -1,0 +1,93 @@
+echo "-------------------"
+echo "te come: "
+echo "te come" | apertium -d .. es-ast-transfer
+echo "te come" | apertium es-ast
+echo "-------------------"
+echo "se comen: "
+echo "se comen" | apertium -d .. es-ast-transfer
+echo "se comen" | apertium es-ast
+echo "-------------------"
+echo "le comían: "
+echo "le comían" | apertium -d .. es-ast-transfer
+echo "le comían" | apertium es-ast
+echo "-------------------"
+echo "las coméis: "
+echo "las coméis" | apertium -d .. es-ast-transfer
+echo "las coméis" | apertium es-ast
+echo "-------------------"
+echo "nos comemos: "
+echo "nos comemos" | apertium -d .. es-ast-transfer
+echo "nos comemos" | apertium es-ast
+echo "-------------------"
+echo "os comen: "
+echo "os comen" | apertium -d .. es-ast-transfer
+echo "os comen" | apertium es-ast
+echo "-------------------"
+echo "te las comerán: "
+echo "te las comerán" | apertium -d .. es-ast-transfer
+echo "te las comerán" | apertium es-ast
+echo "------------------"
+echo "os lo comerían: "
+echo "os lo comerían" | apertium -d .. es-ast-transfer
+echo "os lo comerían" | apertium es-ast
+echo "-------------------"
+echo "nos lo comeremos: "
+echo "nos lo comeremos" | apertium -d .. es-ast-transfer
+echo "nos lo comeremos" | apertium es-ast
+echo "-------------------"
+echo "se lo comió: "
+echo "se lo comió" | apertium -d .. es-ast-transfer
+echo "se lo comió" | apertium es-ast
+echo "-------------------"
+echo "que lo coma: "
+echo "que lo coma" | apertium -d .. es-ast-transfer
+echo "que lo coma" | apertium es-ast
+echo "-------------------"
+echo "y lo coma: "
+echo "y lo coma" | apertium -d .. es-ast-transfer
+echo "y lo coma" | apertium es-ast
+echo "-------------------"
+echo "se comieron: "
+echo "se comieron" | apertium -d .. es-ast-transfer
+echo "se comieron" | apertium es-ast
+echo "-------------------"
+echo "nos lo comíamos: "
+echo "nos lo comíamos" | apertium -d .. es-ast-transfer
+echo "nos lo comíamos" | apertium es-ast
+echo "-------------------"
+echo "le comía: "
+echo "le comía" | apertium -d .. es-ast-transfer
+echo "le comía" | apertium es-ast
+echo "-------------------"
+echo "nos lo comiéramos: "
+echo "nos lo comiéramos" | apertium -d .. es-ast-transfer
+echo "nos lo comiéramos" | apertium es-ast
+echo "-------------------"
+echo "se comiera: "
+echo "se comiera" | apertium -d .. es-ast-transfer
+echo "se comiera" | apertium es-ast
+echo "-------------------"
+echo "nos comamos: "
+echo "nos comamos" | apertium -d .. es-ast-transfer
+echo "nos comamos" | apertium es-ast
+echo "-------------------"
+echo "le comas: "
+echo "le comas" | apertium -d .. es-ast-transfer
+echo "le comas" | apertium es-ast
+echo "-------------------"
+echo "lo comeré: "
+echo "lo comeré" | apertium -d .. es-ast-transfer
+echo "lo comeré" | apertium es-ast
+echo "-------------------"
+echo "comérselo: "
+echo "comérselo" | apertium -d .. es-ast-transfer
+echo "comérselo" | apertium es-ast
+echo "-------------------"
+echo "cómelo: "
+echo "cómelo" | apertium -d .. es-ast-transfer
+echo "cómelo" | apertium es-ast
+echo "-------------------"
+echo "comiéndolo: "
+echo "comiéndolo" | apertium -d .. es-ast-transfer
+echo "comiéndolo" | apertium es-ast
+echo "-------------------"
