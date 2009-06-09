@@ -11,3 +11,12 @@ echo "-------------------"
 echo "acostumbrar a hablar: "
 echo "acostumbrar a hablar" | apertium es-ast
 echo "-------------------"
+echo "la manzana se comió una manzana: "
+echo "la manzana se comió una manzana" | apertium es-ast
+echo "-------------------"
+echo "la manzana se aburrió una manzana"
+echo "la manzana se aburrió una manzana" | apertium es-ast
+echo "-------------------"
+echo "él se comió una manzana: "
+echo "él se comió una manzana" | apertium es-ast
+echo "-------------------"
