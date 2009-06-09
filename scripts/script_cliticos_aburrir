@@ -1,0 +1,93 @@
+echo "-------------------"
+echo "te aburre: "
+echo "te aburre" | apertium -d .. es-ast-transfer
+echo "te aburre" | apertium es-ast
+echo "-------------------"
+echo "se aburren: "
+echo "se aburren" | apertium -d .. es-ast-transfer
+echo "se aburren" | apertium es-ast
+echo "-------------------"
+echo "le aburrían: "
+echo "le aburrían" | apertium -d .. es-ast-transfer
+echo "le aburrían" | apertium es-ast
+echo "-------------------"
+echo "las aburráis: "
+echo "las aburráis" | apertium -d .. es-ast-transfer
+echo "las aburráis" | apertium es-ast
+echo "-------------------"
+echo "nos aburrimos: "
+echo "nos aburrimos" | apertium -d .. es-ast-transfer
+echo "nos aburrimos" | apertium es-ast
+echo "-------------------"
+echo "os aburren: "
+echo "os aburren" | apertium -d .. es-ast-transfer
+echo "os aburren" | apertium es-ast
+echo "-------------------"
+echo "te las aburrirán: "
+echo "te las aburrirán" | apertium -d .. es-ast-transfer
+echo "te las aburrirán" | apertium es-ast
+echo "------------------"
+echo "os lo aburrirían: "
+echo "os lo aburrirían" | apertium -d .. es-ast-transfer
+echo "os lo aburrirían" | apertium es-ast
+echo "-------------------"
+echo "nos lo aburriremos: "
+echo "nos lo aburriremos" | apertium -d .. es-ast-transfer
+echo "nos lo tendremos" | apertium es-ast
+echo "-------------------"
+echo "se lo aburrió: "
+echo "se lo aburrió" | apertium -d .. es-ast-transfer
+echo "se lo aburrió" | apertium es-ast
+echo "-------------------"
+echo "que te aburra: "
+echo "que te aburra" | apertium -d .. es-ast-transfer
+echo "que te aburra" | apertium es-ast
+echo "-------------------"
+echo "y lo aburra: "
+echo "y lo aburra" | apertium -d .. es-ast-transfer
+echo "y lo aburra" | apertium es-ast
+echo "-------------------"
+echo "se aburrieron: "
+echo "se aburrieron" | apertium -d .. es-ast-transfer
+echo "se aburrieron" | apertium es-ast
+echo "-------------------"
+echo "te lo aburriríamos: "
+echo "te lo aburriríamos" | apertium -d .. es-ast-transfer
+echo "te lo aburriríamos" | apertium es-ast
+echo "-------------------"
+echo "le aburría: "
+echo "le aburría" | apertium -d .. es-ast-transfer
+echo "le aburría" | apertium es-ast
+echo "-------------------"
+echo "nos lo aburriéramos: "
+echo "nos lo aburriéramos" | apertium -d .. es-ast-transfer
+echo "nos lo aburriéramos" | apertium es-ast
+echo "-------------------"
+echo "se aburriera: "
+echo "se aburriera" | apertium -d .. es-ast-transfer
+echo "se aburriera" | apertium es-ast
+echo "-------------------"
+echo "nos aburramos: "
+echo "nos aburramos" | apertium -d .. es-ast-transfer
+echo "nos aburramos" | apertium es-ast
+echo "-------------------"
+echo "le aburras: "
+echo "le aburras" | apertium -d .. es-ast-transfer
+echo "le aburras" | apertium es-ast
+echo "-------------------"
+echo "lo aburriré: "
+echo "lo aburriré" | apertium -d .. es-ast-transfer
+echo "lo aburriré" | apertium es-ast
+echo "-------------------"
+echo "aburrírselo: "
+echo "aburrírselo" | apertium -d .. es-ast-transfer
+echo "aburrírselo" | apertium es-ast
+echo "-------------------"
+echo "abúrremelo: "
+echo "abúrremelo" | apertium -d .. es-ast-transfer
+echo "abúrremelo" | apertium es-ast
+echo "-------------------"
+echo "aburriéndolo: "
+echo "aburriéndolo" | apertium -d .. es-ast-transfer
+echo "aburriéndolo" | apertium es-ast
+echo "-------------------"
