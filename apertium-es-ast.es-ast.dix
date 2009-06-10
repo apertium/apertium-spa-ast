@@ -115,6 +115,14 @@
     <e><p><l>os<s n="prn"/></l><r>vos<s n="prn"/></r></p></e>
     <e><p><l>Asturias<s n="np"/></l><r>Asturies<s n="np"/></r></p></e>
     <e><p><l>Gijón<s n="np"/></l><r>Xixón<s n="np"/></r></p></e>
+    <e r="LR"><p><l>él<s n="prn"/></l><r>él<s n="prn"/></r></p></e>
+    <e> <p> <l>a<b/>ciegas<s n="adv"/></l> <r>a<b/>ciegues<s n="adv"/></r> </p> </e>
+<e>
+  <p>
+     <l>hablar<g><b/>de<b/>más</g><s n="vblex"/></l>
+     <r>falar<g><b/>de<b/>más</g><s n="vblex"/></r>
+  </p>
+</e>
 
 
     <!-- Posesivos -->
@@ -2076,12 +2084,7 @@
         <r>te<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
-    <e>
-      <p>
-        <l>él<s n="prn"/><s n="tn"/></l>
-        <r>el<s n="prn"/><s n="tn"/></r>
-      </p>
-    </e>
+
     <e r="RL">
       <p>
         <l>él<s n="prn"/><s n="tn"/></l>

@@ -5860,6 +5860,10 @@ el gato se come cuatro pescados -> el gato come cuatro pescados
         <pattern-item n="verb"/>
       </pattern>
       <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
         <choose>          
           <when>
             <test> 

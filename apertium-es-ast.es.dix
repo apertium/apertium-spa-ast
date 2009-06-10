@@ -108554,6 +108554,34 @@
 <i>demencial</i>
 <par n="actual__adj"/>
 </e>
+
+<e>
+<i>a<b/>ciegas</i>
+<par n="abajo__adv"/>
+</e>
+
+<e lm="hablar de más">
+  <i>habl</i>
+  <par n="abandon/ar__vblex"/> <!-- incluye pronombres encl ́ticos -->
+  <p>
+     <l><b/>de<b/>más</l>
+     <r><g><b/>de<b/>más</g></r>
+  </p>
+</e>
+
+<e lm="hablar de más">
+  <p>
+    <l>hábl</l>
+    <r>habl</r>
+  </p>
+  <par n="abandón/ar__vblex"/> <!-- incluye pronombres encl ́ticos -->
+  <p>
+     <l><b/>de<b/>más</l>
+     <r><g><b/>de<b/>más</g></r>
+  </p>
+</e>
+
+
 </section>
 <section id="final" type="inconditional">
 <e>

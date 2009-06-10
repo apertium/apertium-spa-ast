@@ -1664,12 +1664,14 @@
         <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+	<!--
+    <e r="LR">
       <p>
         <l>elli</l> 
         <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
+	-->
     <e>
       <p>
         <l>ello</l> 
@@ -2398,7 +2400,7 @@
         <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>elli</l> 
         <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
@@ -53179,6 +53181,30 @@
   <e lm="nos"><i>nos</i><par n="nos__prnenc"/></e>
   <e lm="vos"><i>vos</i><par n="vos__prnenc"/></e>
   <e><p><l></l><r>-y</r></p><par n="-y__prnenc"/></e>
+
+  <e lm="a ciegues"><i>a<b/>ciegues</i><par n="tamién__adv"/></e>
+
+<e lm="falar de más">
+  <i>fal</i>
+  <par n="fal/ar__vblex"/> <!-- incluye pronombres encl ́ticos -->
+  <p>
+     <l><b/>de<b/>más</l>
+     <r><g><b/>de<b/>más</g></r>
+  </p>
+</e>
+
+<e lm="falar de más">
+  <p>
+    <l>fál</l>
+    <r>fal</r>
+  </p>
+  <par n="fál/ar__vblex"/> 
+  <p>
+     <l><b/>de<b/>más</l>
+     <r><g><b/>de<b/>más</g></r>
+  </p>
+</e>
+
   </section>
 
   <section id="apostrophes" type="postblank">
