@@ -20,3 +20,12 @@ echo "-------------------"
 echo "él se comió una manzana: "
 echo "él se comió una manzana" | apertium es-ast
 echo "-------------------"
+echo "multipalabra1 -  a ciegas: "
+echo "a ciegas" | apertium es-ast
+echo "-------------------"
+echo "multipalabra2 - hablando de más: "
+echo "hablando de más" | apertium es-ast
+echo "-------------------"
+echo "multipalabra3 - hablé de más: "
+echo "hablé de más" | apertium es-ast
+echo "-------------------"
