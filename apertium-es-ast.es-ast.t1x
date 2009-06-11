@@ -6033,7 +6033,11 @@ EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
 
 <!--
 EGV25 pronombre_procl + verbo.
-lo encuentra
+lo encuentra -> encuéntralu
+me como -> como
+te comes -> comes
+nos comemos -> comemos
+os coméis -> coméis
 -->
 
     
@@ -6043,7 +6047,38 @@ lo encuentra
         <pattern-item n="verb"/>
       </pattern>
       <action>
-        <out>
+        <choose>          
+          <when>
+            <test> 
+              <and>
+                <equal>
+                  <clip pos="2" side="sl" part="nbr"/>
+                  <clip pos="1" side="sl" part="nbr"/>
+                </equal> 
+                <equal>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="1" side="sl" part="persona"/>
+                </equal>            
+                <in caseless="yes"><!--in-->
+                  <clip pos="2" side="sl" part="lem"/>
+                  <list n="expletivos"/>
+                </in>
+              </and>
+	   </test>
+          <out>
+	    <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+         </out> 
+	</when>
+        <otherwise>
+	<out>
           <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
@@ -6062,7 +6097,9 @@ lo encuentra
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="tl" part="nbr"/>
             </lu></mlu>
-        </out> 
+         </out> 
+	</otherwise>
+	</choose>
       </action>
     </rule>
 
@@ -6178,7 +6215,41 @@ y lo jugó ('y' no está en la lista)
             </out> 
             
           </when>
-          
+      
+          <when>
+            <test> 
+              <and>
+                <equal>
+                  <clip pos="2" side="sl" part="nbr"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </equal> 
+                <equal>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>            
+                <in caseless="yes"><!--in-->
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="expletivos"/>
+                </in>
+              </and>
+	   </test>
+		  <out>
+		      <lu>
+		        <clip pos="1" side="tl" part="whole"/> 
+		      </lu> 
+		      <b/>
+		    <lu>
+		      <get-case-from pos="1">
+		        <clip pos="3" side="tl" part="lem"/>
+		      </get-case-from>
+		      <clip pos="3" side="tl" part="a_verb"/>
+		      <clip pos="3" side="tl" part="temps"/>
+		      <clip pos="3" side="tl" part="persona"/>
+		      <clip pos="3" side="tl" part="nbr"/>
+		    </lu>
+		 </out> 
+          </when>
+
           <otherwise>
             <out>
               <lu>

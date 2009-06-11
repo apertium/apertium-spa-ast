@@ -14,11 +14,17 @@ echo "-------------------"
 echo "la manzana se comió una manzana: "
 echo "la manzana se comió una manzana" | apertium es-ast
 echo "-------------------"
-echo "la manzana se aburrió una manzana"
+echo "la manzana se aburrió una manzana:"
 echo "la manzana se aburrió una manzana" | apertium es-ast
 echo "-------------------"
 echo "él se comió una manzana: "
 echo "él se comió una manzana" | apertium es-ast
+echo "-------------------"
+echo "tú te comes una manzana: "
+echo "tú te comes una manzana" | apertium es-ast
+echo "-------------------"
+echo "tú te hablas a ti mismo: "
+echo "tú te hablas a ti mismo" | apertium es-ast
 echo "-------------------"
 echo "multipalabra1 -  a ciegas: "
 echo "a ciegas" | apertium es-ast
