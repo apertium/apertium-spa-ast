@@ -5,6 +5,85 @@
     <sdef n="test"/>
   </sdefs>
   <pardefs>
+
+    <pardef n="caracter_general">
+      <e>
+        <i>;</i>
+      </e>
+      <e>
+        <i>#</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>(</i>
+      </e>
+      <e>
+        <i>[</i>
+      </e>
+      <e>
+        <i>]</i>
+      </e>
+      <e>
+        <i>"</i>
+      </e>
+      <e>
+        <i>'</i>
+      </e>
+      <e>
+        <i>~</i>
+      </e>
+      <e>
+        <i>*</i>
+      </e>
+      <e>
+        <i>@</i>
+      </e>
+      <e>
+        <i>«</i>
+      </e>
+      <e>
+        <i>-</i>
+      </e>
+      <e>
+        <i>,</i>
+      </e>
+      <e>
+        <i>?</i>
+      </e>
+      <e>
+        <i>/</i>
+      </e>
+      <e>
+        <i>`</i>
+      </e>
+      <e>
+        <i>±</i>
+      </e>
+      <e>
+        <i>­</i>
+      </e>
+      <e>
+        <i>$</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>.</i>
+      </e>
+       <e>
+        <i><b/></i>
+      </e>
+    </pardef>
+
    <pardef n="vocals">
       <e>
         <i>a</i>
@@ -56,7 +135,7 @@
       </e>
     </pardef>
 
-    <pardef n="de">
+    <pardef n="apostrofe">
       <e>
         <p>
           <l><b/></l>
@@ -66,91 +145,213 @@
       </e>
     </pardef>
 
-    <pardef n="el_preblank">
+
+    <pardef n="contraccion_con_por_per">
       <e>
-        <par n="vocals"/>
         <p>
-          <l><b/></l>
-          <r>'l</r>
+          <l><b/><a/>el</l>
+          <r>l</r>
         </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>la</l>
+          <r>la</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>lo</l>
+          <r>lo</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>los</l>
+          <r>los</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>les</l>
+          <r>les</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
+
+    <pardef n="contraccion_en">
+      <e>
+        <p>
+          <l><b/><a/>el</l>
+          <r>el</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>la</l>
+          <r>a</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>lo</l>
+          <r>o</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>los</l>
+          <r>os</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>les</l>
+          <r>es</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
+
+   <pardef n="contraccion_del">
+      <e>
+        <p>
+          <l><b/><a/>el</l>
+          <r>l</r>
+        </p>
+        <par n="caracter_general"/>
       </e>
     </pardef>
 
   </pardefs>
 
 
+
   <section id="main" type="standard">
 
       <e>
         <p>
-          <l><a/>el</l>
-          <r></r>
+          <l><a/>de</l>
+          <r>de</r>
         </p>
-        <par n="el_preblank"/>
+        <par n="contraccion_del"/>
       </e>
-
       <e>
         <p>
-          <l><a/>de</l>
-          <r>d</r>
+          <l><a/>a</l>
+          <r>a</r>
         </p>
-        <par n="de"/>
+        <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/>pa</l>
-          <r>p</r>
+          <r>pa</r>
         </p>
-        <par n="de"/>
+        <par n="contraccion_del"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>so</l>
+          <r>so</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>con</l>
+          <r>co</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>per</l>
+          <r>pe</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>por</l>
+          <r>po</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/>en</l>
           <r>n</r>
         </p>
-        <par n="de"/>
+        <par n="contraccion_en"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>pa</l>
+          <r>p</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>en</l>
+          <r>n</r>
+        </p>
+        <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/>me</l>
           <r>m</r>
         </p>
-        <par n="de"/>
+        <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/>te</l>
           <r>t</r>
         </p>
-        <par n="de"/>
+        <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/>se</l>
           <r>s</r>
         </p>
-        <par n="de"/>
+        <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/>que</l>
           <r>qu</r>
         </p>
-        <par n="de"/>
+        <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/>el</l>
           <r>l</r>
         </p>
-        <par n="de"/>
+        <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/>la</l>
           <r>l</r>
         </p>
-        <par n="de"/>
+        <par n="apostrofe"/>
       </e>
 </section>
+
 </dictionary>
