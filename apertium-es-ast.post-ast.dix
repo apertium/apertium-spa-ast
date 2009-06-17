@@ -221,6 +221,153 @@
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/>uno</l>
+          <r>uno</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>una</l>
+          <r>una</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>un</l>
+          <r>un</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>unos</l>
+          <r>unos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>unes</l>
+          <r>unes</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>eses</l>
+          <r>eses</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>esos</l>
+          <r>esos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>esi</l>
+          <r>esi</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>esa</l>
+          <r>esa</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>eso</l>
+          <r>eso</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>estes</l>
+          <r>estes</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>estos</l>
+          <r>estos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>esti</l>
+          <r>esti</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>esta</l>
+          <r>esta</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>esto</l>
+          <r>esto</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquelles</l>
+          <r>aquelles</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquellos</l>
+          <r>aquellos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquel</l>
+          <r>aquel</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquella</l>
+          <r>aquella</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquello</l>
+          <r>aquello</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquelli</l>
+          <r>aquelli</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
     </pardef>
 
 
@@ -349,6 +496,13 @@
         <p>
           <l><a/>la</l>
           <r>l</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>de</l>
+          <r>d</r>
         </p>
         <par n="apostrofe"/>
       </e>

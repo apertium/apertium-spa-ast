@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -80,7 +80,6 @@
 
     <!-- Nomes ordenaos alfabéticamente n'asturianu. Por favor, trata de mantener l'orde nes entraes nueves. ¡Gracies!-->
     <!-- Nouns sorted by asturian language pair. Please, try to keep it in order. Thanks!-->
-
     <e><p><l>leche<s n="n"/><s n="f"/></l><r>lleche<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sal<s n="n"/><s n="f"/></l><r>sal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>harina<s n="n"/><s n="f"/></l><r>farina<s n="n"/><s n="f"/></r></p></e>
@@ -119,6 +118,7 @@
     <e><p><l>Gijón<s n="np"/></l><r>Xixón<s n="np"/></r></p></e>
     <e r="LR"><p><l>él<s n="prn"/></l><r>él<s n="prn"/></r></p></e>
     <e> <p> <l>a<b/>ciegas<s n="adv"/></l> <r>a<b/>ciegues<s n="adv"/></r> </p> </e>
+    <e> <p> <l>aquello<s n="prn"/></l> <r>aquél<s n="prn"/></r> </p> </e>
 <e>
   <p>
      <l>hablar<g><b/>de<b/>más</g><s n="vblex"/></l>
@@ -127,102 +127,8 @@
 </e>
 
 
-    <!-- Posesivos -->
-     <e>
-      <p>
-        <l>mío<s n="adj"/></l>
-        <r>mio<s n="adj"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>tuyo<s n="adj"/></l>
-        <r>to<s n="adj"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>suyo<s n="adj"/></l>
-        <r>so<s n="adj"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>nuestro<s n="adj"/></l>
-        <r>nuesu<s n="adj"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>vuestro<s n="adj"/></l>
-        <r>vuesu<s n="adj"/></r>
-      </p>
-    </e>
 
-
-     <e>
-      <p>
-        <l>mío<s n="det"/></l>
-        <r>mio<s n="det"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>tuyo<s n="det"/></l>
-        <r>to<s n="det"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>suyo<s n="det"/></l>
-        <r>so<s n="det"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>nuestro<s n="det"/></l>
-        <r>nuesu<s n="det"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>vuestro<s n="det"/></l>
-        <r>vuesu<s n="det"/></r>
-      </p>
-    </e>
-
-     <e>
-      <p>
-        <l>el<b/>mío<s n="prn"/></l>
-        <r>el<b/>mio<s n="prn"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>el<b/>tuyo<s n="prn"/></l>
-        <r>el<b/>to<s n="prn"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>el<b/>suyo<s n="prn"/></l>
-        <r>el<b/>so<s n="prn"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>el<b/>nuestro<s n="prn"/></l>
-        <r>el<b/>nuesu<s n="prn"/></r>
-      </p>
-    </e>
-     <e>
-      <p>
-        <l>el<b/>vuestro<s n="prn"/></l>
-        <r>el<b/>vuesu<s n="prn"/></r>
-      </p>
-    </e>
-
-    <!-- Conxunciones -->
+    <!-- Conjuncions -->
 
        <e r="RL">
       <p>
@@ -488,7 +394,7 @@
     <e>
       <p>
         <l>por<s n="pr"/></l>
-        <r>por<s n="pr"/></r>
+        <r>per<s n="pr"/></r>
       </p>
     </e>
     <e r="RL">
@@ -1974,13 +1880,14 @@
         <r>lu<s n="prn"/><s n="pro"/></r>
       </p>
     </e>
-    <!-- <e>
+<!--
+    <e>
       <p>
         <l>lo<s n="prn"/><s n="pro"/></l>
         <r>lo<s n="prn"/><s n="pro"/></r>
       </p>
-    </e> 
-     -->
+    </e>
+-->
      <e>
       <p>
         <l>me<s n="prn"/><s n="pro"/></l>
@@ -2005,7 +1912,6 @@
         <r>se<s n="prn"/><s n="pro"/></r>
       </p>
     </e>
-      
     <e>
       <p>
         <l>te<s n="prn"/><s n="pro"/></l>
@@ -2030,14 +1936,14 @@
         <r>lu<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
-    <!--
+<!--
     <e>
       <p>
         <l>lo<s n="prn"/><s n="enc"/></l>
         <r>lo<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
-    -->
+-->
     <e>
       <p>
         <l>me<s n="prn"/><s n="enc"/></l>
@@ -2086,7 +1992,12 @@
         <r>te<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
-
+    <e>
+      <p>
+        <l>él<s n="prn"/><s n="tn"/></l>
+        <r>el<s n="prn"/><s n="tn"/></r>
+      </p>
+    </e>
     <e r="RL">
       <p>
         <l>él<s n="prn"/><s n="tn"/></l>
@@ -2227,6 +2138,12 @@
     </e>
     <e>
       <p>
+      <l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l>
+      <r>que<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
         <l>donde<s n="rel"/><s n="adv"/></l>
         <r>onde<s n="rel"/><s n="adv"/></r>
       </p>
@@ -2243,6 +2160,13 @@
         <r>cuanto<s n="rel"/><s n="nn"/></r>
       </p>
     </e>
+<!--    <e>
+     <p>
+      <l>que<s n="rel"/><s n="an"/></l>
+      <r>que<s n="rel"/><s n="an"/></r>
+      </p>
+    </e>
+-->
      <e>
       <p>
         <l>ah<s n="ij"/></l>
@@ -2411,9 +2335,100 @@
         <r>zas<s n="ij"/></r>
       </p>
     </e>
-  
+    <!-- Posesivos -->
+     <e>
+      <p>
+        <l>mío<s n="adj"/></l>
+        <r>mio<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>tuyo<s n="adj"/></l>
+        <r>to<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>suyo<s n="adj"/></l>
+        <r>so<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>nuestro<s n="adj"/></l>
+        <r>nuesu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>vuestro<s n="adj"/></l>
+        <r>vuesu<s n="adj"/></r>
+      </p>
+    </e>
 
 
+     <e>
+      <p>
+        <l>mío<s n="det"/></l>
+        <r>mio<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>tuyo<s n="det"/></l>
+        <r>to<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>suyo<s n="det"/></l>
+        <r>so<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>nuestro<s n="det"/></l>
+        <r>nuesu<s n="det"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>vuestro<s n="det"/></l>
+        <r>vuesu<s n="det"/></r>
+      </p>
+    </e>
+
+     <e>
+      <p>
+        <l>el<b/>mío<s n="prn"/></l>
+        <r>el<b/>mio<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>tuyo<s n="prn"/></l>
+        <r>el<b/>to<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>suyo<s n="prn"/></l>
+        <r>el<b/>so<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>nuestro<s n="prn"/></l>
+        <r>el<b/>nuesu<s n="prn"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>el<b/>vuestro<s n="prn"/></l>
+        <r>el<b/>vuesu<s n="prn"/></r>
+      </p>
+    </e>
 
 
     <e><p><l>a<s n="n"/></l><r>a<s n="n"/></r></p></e>
@@ -10513,5 +10528,7742 @@
         <r>piel<s n="n"/><s n="f"/></r>
       </p>
     </e>
- </section>
+    <e>
+      <p>
+        <l>dama<s n="n"/></l>
+        <r>dama<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>danés<s n="n"/></l>
+        <r>danés<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>danés<s n="adj"/></l>
+        <r>danés<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>daño<s n="n"/></l>
+        <r>dañu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>danza<s n="n"/></l>
+        <r>danza<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dardo<s n="n"/></l>
+        <r>dardu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fecha<s n="n"/></l>
+        <r>fecha<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>fecha<s n="n"/></l>
+        <r>data<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dato<s n="n"/></l>
+        <r>datu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>deuda<s n="n"/></l>
+        <r>delda<s n="n"/></r>
+      </p>
+    </e>    
+      <e r="RL">
+      <p>
+        <l>deuda<s n="n"/></l>
+        <r>deuda<s n="n"/></r>
+      </p>
+    </e>    
+    <e>
+      <p>
+        <l>debate<s n="n"/></l>
+        <r>alderique<s n="n"/></r>
+      </p>
+    </e>   
+    <e>
+      <p>
+        <l>deber<s n="n"/></l>
+        <r>deber<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>débil<s n="adj"/></l>
+        <r>feble<s n="adj"/></r>
+      </p>
+    </e>    
+    <e>
+      <p>
+        <l>debilidad<s n="n"/></l>
+        <r>debilidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dibujo<s n="n"/></l>
+        <r>dibuxu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>década<s n="n"/></l>
+        <r>década<s n="n"/></r>
+      </p>
+    </e>    
+    <e>
+      <p>
+        <l>decadencia<s n="n"/></l>
+        <r>decadencia<s n="n"/></r>
+      </p>
+    </e>   
+     <e r="RL">
+      <p>
+        <l>decadencia<s n="n"/></l>
+        <r>escayencia<s n="n"/></r>
+      </p>
+    </e>     
+    <e>
+      <p>
+        <l>diciembre<s n="n"/></l>
+        <r>avietu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>decena<s n="n"/></l>
+        <r>decena<s n="n"/></r>
+      </p>
+    </e>    
+    <e>
+      <p>
+        <l>decenio<s n="n"/></l>
+        <r>deceniu<s n="n"/></r>
+      </p>
+    </e>    
+     <e>
+      <p>
+        <l>decepción<s n="n"/></l>
+        <r>decepción<s n="n"/></r>
+      </p>
+    </e>    
+      <e r="RL">
+      <p>
+        <l>decepción<s n="n"/></l>
+        <r>deceición<s n="n"/></r>
+      </p>
+    </e>    
+       <e>
+      <p>
+        <l>decidido<s n="adj"/></l>
+        <r>decidíu<s n="adj"/></r>
+      </p>
+    </e>    
+      <e>
+      <p>
+        <l>decisión<s n="n"/></l>
+        <r>decisión<s n="n"/></r>
+      </p>
+    </e>    
+       <e>
+      <p>
+        <l>decisivo<s n="n"/></l>
+        <r>decisivu<s n="n"/></r>
+      </p>
+     </e>  
+       <e>
+      <p>
+        <l>declaración<s n="n"/></l>
+        <r>declaración<s n="n"/></r>
+      </p>
+    </e>      
+      <e>
+      <p>
+        <l>décuplo<s n="n"/></l>
+        <r>décuplu<s n="n"/></r>
+      </p>
+    </e>   
+      <e> 
+      <p>
+        <l>décuplo<s n="adj"/></l>
+        <r>décuple<s n="adj"/></r>
+      </p>
+    </e> 
+      <e>
+    <p>
+        <l>dedicación<s n="n"/></l>
+        <r>dedicación<s n="n"/></r>
+      </p>
+    </e> 
+    <e>
+      <p>
+        <l>dedo<s n="n"/></l>
+        <r>deu<s n="n"/></r>
+      </p>
+    </e> 
+    <e r="RL">
+    <p>
+        <l>dedo<s n="n"/></l>
+        <r>didu<s n="n"/></r>
+      </p>
+    </e> 
+    <e>
+      <p>
+        <l>deducción<s n="n"/></l>
+        <r>deducción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>defecto<s n="n"/></l>
+        <r>defectu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>defecto<s n="n"/></l>
+        <r>defeutu<s n="n"/></r>
+      </p>
+    </e>  
+   <e>
+     <p>
+        <l>defensa<s n="n"/></l>
+        <r>defensa<s n="n"/></r>
+      </p>
+    </e> 
+   <e>
+    <p>
+        <l>defensor<s n="n"/></l>
+        <r>defensor<s n="n"/></r>
+      </p>
+    </e> 
+       <e>
+    <p>
+        <l>defensor<s n="adj"/></l>
+        <r>defensor<s n="adj"/></r>
+      </p>
+    </e> 
+       <e>
+    <p>
+        <l>deficiencia<s n="n"/><s n="f"/></l>
+        <r>defectu<s n="n"/><s n="m"/></r>
+      </p>
+    </e> 
+      <e>
+     <p>
+        <l>defensor<s n="n"/></l>
+        <r>defensor<s n="n"/></r>
+      </p>
+    </e> 
+      <e>
+     <p>
+        <l>defensor<s n="adj"/></l>
+        <r>defensor<s n="adj"/></r>
+      </p>
+    </e> 
+     <e>
+     <p>
+        <l>déficit<s n="n"/></l>
+        <r>déficit<s n="n"/></r>
+      </p>
+    </e> 
+     <e>
+     <p>
+        <l>definición<s n="n"/></l>
+        <r>definición<s n="n"/></r>
+      </p>
+    </e> 
+      <e>
+     <p>
+        <l>definitivo<s n="n"/></l>
+        <r>definitivu<s n="n"/></r>
+      </p>
+    </e> 
+     <e>
+     <p>
+        <l>defraudación<s n="n"/></l>
+        <r>defraudación<s n="n"/></r>
+      </p>
+    </e> 
+      <e>
+     <p>
+        <l>defunción<s n="n"/></l>
+        <r>fallecimientu<s n="n"/></r>
+      </p>
+    </e> 
+    <e>
+      <p>
+        <l>difunto<s n="adj"/></l>
+        <r>difuntu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>difunto<s n="n"/></l>
+        <r>difuntu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ansia<s n="n"/></l>
+        <r>ansia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dejadez<s n="n"/></l>
+        <r>dexadez<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>delegación<s n="n"/></l>
+        <r>delegación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>delegado<s n="adj"/></l>
+        <r>delegáu<s n="adj"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>delegado<s n="n"/></l>
+        <r>delegáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>delicadeza<s n="adj"/></l>
+        <r>delicadeza<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>delicado<s n="adj"/></l>
+        <r>delicáu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>delincuente<s n="n"/></l>
+        <r>delincuente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>delirio<s n="n"/></l>
+        <r>deliriu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>delito<s n="n"/></l>
+        <r>delitu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>demanda<s n="n"/></l>
+        <r>demanda<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>demencia<s n="n"/></l>
+        <r>llocura<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>demente<s n="n"/></l>
+        <r>llocu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>demonio<s n="n"/></l>
+        <r>demoniu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>democracia<s n="n"/></l>
+        <r>democracia<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>democrático<s n="n"/></l>
+        <r>democráticu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>demostrable<s n="adj"/></l>
+        <r>demostrable<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>demostración<s n="n"/></l>
+        <r>demostración<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>denso<s n="adj"/></l>
+        <r>trupu<s n="adj"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>denso<s n="adj"/></l>
+        <r>densu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>dentadura<s n="n"/><s n="f"/></l>
+        <r>dentame<s n="n"/><s n="m"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diente<s n="n"/></l>
+        <r>dente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>denuncia<s n="n"/></l>
+        <r>denuncia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>departamento<s n="n"/></l>
+        <r>departamentu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dependencia<s n="n"/></l>
+        <r>dependencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dependiente<s n="adj"/></l>
+        <r>dependente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dependiente<s n="n"/></l>
+        <r>dependente<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>deporte<s n="n"/></l>
+        <r>deporte<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>deportista<s n="n"/></l>
+        <r>deportista<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>deportista<s n="adj"/></l>
+        <r>deportista<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>deportivo<s n="adj"/></l>
+        <r>deportivu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>depósito<s n="n"/></l>
+        <r>depósitu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>depresión<s n="n"/></l>
+        <r>depresión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diputado<s n="n"/></l>
+        <r>diputáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>derecha<s n="n"/></l>
+        <r>derecha<s n="n"/></r>
+      </p>
+    </e>
+     <e r="RL">
+      <p>
+        <l>derecha<s n="n"/></l>
+        <r>drecha<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>derecho<s n="n"/></l>
+        <r>derechu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>derecho<s n="adj"/></l>
+        <r>derechu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desafío<s n="n"/></l>
+        <r>desafíu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desagradable<s n="n"/></l>
+        <r>desagradable<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desaparición<s n="n"/></l>
+        <r>desapaición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desasosiego<s n="n"/></l>
+        <r>desasosiegu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desastre<s n="n"/></l>
+        <r>desastre<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>descanso<s n="n"/></l>
+        <r>descansu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>descenso<s n="n"/></l>
+        <r>descensu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>descuido<s n="n"/></l>
+        <r>descuidu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>descolorido<s n="n"/></l>
+        <r>escoloríu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>descomunal<s n="n"/></l>
+        <r>descomanáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desconcierto<s n="n"/></l>
+        <r>desconciertu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desconfianza<s n="n"/></l>
+        <r>rocea<s n="n"/></r>
+      </p>
+    </e>
+     <e r="RL">
+      <p>
+        <l>desconfianza<s n="n"/></l>
+        <r>desconfianza<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>descuento<s n="n"/></l>
+        <r>descuentu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+    <p>
+        <l>desconocimiento<s n="n"/></l>
+        <r>desconocencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desconocimiento<s n="n"/></l>
+        <r>desconocimientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desconocido<s n="adj"/></l>
+        <r>desconocíu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>descripción<s n="n"/></l>
+        <r>descripción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>descubrimiento<s n="n"/></l>
+        <r>descubrimientu<s n="n"/></r>
+      </p>
+    </e>
+      <e r="RL">
+      <p>
+        <l>disculpa<s n="n"/></l>
+        <r>esculpa<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>disculpa<s n="n"/></l>
+        <r>sida<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desempleo<s n="n"/></l>
+        <r>desempléu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desencanto<s n="n"/></l>
+        <r>desencantu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desengaño<s n="n"/></l>
+        <r>desengañu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desenlace<s n="n"/></l>
+        <r>desenllaz<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+    <p>
+        <l>desarrollo<s n="n"/></l>
+        <r>desenvolvimientu<s n="n"/></r>
+      </p>
+    </e>
+     <e r="RL">
+      <p>
+        <l>desarrollo<s n="n"/></l>
+        <r>desarrollu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>desarrollo<s n="n"/></l>
+        <r>desendolcu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desenvuelto<s n="adj"/></l>
+        <r>desenvueltu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diseño<s n="n"/></l>
+        <r>diseñu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desequilibrado<s n="n"/></l>
+        <r>desequilibráu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desequilibrado<s n="adj"/></l>
+        <r>desequilibráu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desequilibrio<s n="n"/></l>
+        <r>desequilibriu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desierto<s n="adj"/></l>
+        <r>ermu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desierto<s n="n"/></l>
+        <r>desiertu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>desierto<s n="n"/></l>
+        <r>ermu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desesperación<s n="n"/></l>
+        <r>desesperanza<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desespero<s n="n"/></l>
+        <r>desesperanza<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>deseable<s n="adj"/></l>
+        <r>deseable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>designación<s n="adj"/></l>
+        <r>designación<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>deseo<s n="n"/></l>
+        <r>deséu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desfiladero<s n="n"/></l>
+        <r>escobiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>disgusto<s n="n"/></l>
+        <r>disgustu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desigual<s n="adj"/></l>
+        <r>desigual<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desilusión<s n="n"/></l>
+        <r>desilución<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desinteresado<s n="n"/></l>
+        <r>desinteresáu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>deslealtad<s n="n"/></l>
+        <r>desllealtá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dejadez<s n="n"/></l>
+        <r>dexadez<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desorden<s n="n"/></l>
+        <r>desorde<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>despacho<s n="n"/></l>
+        <r>despachu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>despedida<s n="n"/></l>
+        <r>despidida<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>despido<s n="n"/></l>
+        <r>despidu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>despierto<s n="adj"/></l>
+        <r>espiertu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desnudo<s n="adj"/></l>
+        <r>desnudu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desposorio<s n="n"/></l>
+        <r>casamientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desplazamiento<s n="n"/></l>
+        <r>desplazamientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desprecio<s n="n"/></l>
+        <r>despreciu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>destino<s n="n"/></l>
+        <r>destín<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>detalle<s n="n"/></l>
+        <r>detalle<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>destacado<s n="adj"/></l>
+        <r>destacáu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>valiente<s n="adj"/></l>
+        <r>valiente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>destreza<s n="n"/></l>
+        <r>remangu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>destreza<s n="n"/></l>
+        <r>arte<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>destrucción<s n="n"/></l>
+        <r>destrucción<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desviación<s n="n"/></l>
+        <r>esviación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>desvío<s n="n"/></l>
+        <r>esvíu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>detective<s n="n"/></l>
+        <r>detective<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>detención<s n="n"/></l>
+        <r>detención<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>determinado<s n="n"/></l>
+        <r>determináu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dios<s n="n"/></l>
+        <r>dios<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diosa<s n="n"/></l>
+        <r>diosa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dicho<s n="adj"/></l>
+        <r>dichu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>deseo<s n="n"/></l>
+        <r>deséu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+     <p>
+        <l>deseo<s n="n"/></l>
+        <r>deseyu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>devoción<s n="n"/></l>
+        <r>devoción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diez<s n="n"/></l>
+        <r>diez<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diecinueve<s n="n"/></l>
+        <r>diecinueve<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dieciocho<s n="n"/></l>
+        <r>dieciocho<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dieciséis<s n="n"/></l>
+        <r>dieciséis<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diecisiete<s n="n"/></l>
+        <r>diecisiete<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>día<s n="n"/></l>
+        <r>día<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diálogo<s n="n"/></l>
+        <r>diálogu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>deseo<s n="n"/></l>
+        <r>deséu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diana<s n="n"/></l>
+        <r>diana<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>delantero<s n="n"/></l>
+        <r>delanteru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>delantero<s n="adj"/></l>
+        <r>delanteru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diablo<s n="n"/></l>
+        <r>diañu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diario<s n="adj"/></l>
+        <r>diariu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diario<s n="n"/></l>
+        <r>diariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diccionario<s n="n"/></l>
+        <r>diccionariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>decir<s n="n"/></l>
+        <r>dicir<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dictamen<s n="n"/></l>
+        <r>dictame<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dieta<s n="n"/></l>
+        <r>dieta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diferente<s n="n"/></l>
+        <r>diferente<s n="n"/></r>
+      </p>
+    </e>
+      <e r="RL">
+      <p>
+        <l>diferente<s n="n"/></l>
+        <r>estremáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diferencia<s n="n"/></l>
+        <r>diferencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>difícil<s n="adj"/></l>
+        <r>difícil<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dificultad<s n="n"/></l>
+        <r>dificultá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dificultoso<s n="adj"/></l>
+        <r>dificultosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>difusión<s n="n"/></l>
+        <r>espardimientu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dignidad<s n="n"/></l>
+        <r>dignidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>digno<s n="n"/></l>
+        <r>dignu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diligencia<s n="n"/></l>
+        <r>dilixencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dimensión<s n="n"/></l>
+        <r>dimensión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diminuto<s n="adj"/></l>
+        <r>diminutu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dimisión<s n="n"/></l>
+        <r>dimisión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dinámico<s n="n"/></l>
+        <r>dinámicu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diplomáticu<s n="adj"/></l>
+        <r>diplomáticu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>diplomáticu<s n="n"/></l>
+        <r>diplomáticu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dirección<s n="n"/></l>
+        <r>dirección<s n="n"/></r>
+      </p>
+    </e>
+     <e r="RL">
+      <p>
+        <l>dirección<s n="n"/></l>
+        <r>direición<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>directivo<s n="n"/></l>
+        <r>directivu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>directivo<s n="adj"/></l>
+        <r>directivu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>directo<s n="n"/></l>
+        <r>directu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>director<s n="adj"/></l>
+        <r>director<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>director<s n="n"/></l>
+        <r>director<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dirigente<s n="n"/></l>
+        <r>dirixente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dirigente<s n="adj"/></l>
+        <r>dirixente<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>disciplina<s n="n"/></l>
+        <r>disciplina<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>disco<s n="n"/></l>
+        <r>discu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>discoteca<s n="n"/></l>
+        <r>discoteca<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>discreto<s n="adj"/></l>
+        <r>discretu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>discurso<s n="n"/></l>
+        <r>discursu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>directivo<s n="n"/></l>
+        <r>directivu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>discusión<s n="n"/></l>
+        <r>discutiniu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>disparate<s n="n"/></l>
+        <r>disparate<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>disparo<s n="n"/></l>
+        <r>tiru<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>directivo<s n="n"/></l>
+        <r>directivu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>disponible<s n="adj"/></l>
+        <r>disponible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>disposición<s n="n"/></l>
+        <r>disposición<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>dispositivo<s n="n"/></l>
+        <r>dispositivu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>disputa<s n="n"/></l>
+        <r>engarradiella<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>distancia<s n="n"/></l>
+        <r>distancia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>distinción<s n="n"/></l>
+        <r>distinción<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>distintivo<s n="n"/></l>
+        <r>distintivu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>distribución<s n="n"/></l>
+        <r>distribución<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dicha<s n="n"/></l>
+        <r>felicidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dictadura<s n="n"/></l>
+        <r>dictadura<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dichoso<s n="adj"/></l>
+        <r>dichosu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>diversión<s n="n"/></l>
+        <r>diversión<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>diverso<s n="adj"/></l>
+        <r>estremáu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>divertido<s n="adj"/></l>
+        <r>risonderu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>    
+      <p>
+        <l>divino<s n="adj"/></l>
+        <r>divín<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>división<s n="n"/></l>
+        <r>división<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>duelo<s n="n"/></l>
+        <r>duelu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fácil<s n="adj"/></l>
+        <r>fácil<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doble<s n="n"/></l>
+        <r>doble<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doble<s n="adj"/></l>
+        <r>dulce<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dulce<s n="n"/></l>
+        <r>dulce<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doceavo<s n="adj"/></l>
+        <r>doceavo<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>docente<s n="n"/></l>
+        <r>docente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>docente<s n="adj"/></l>
+        <r>docente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dócil<s n="n"/></l>
+        <r>dócil<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>documentación<s n="n"/></l>
+        <r>documentación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>documento<s n="n"/></l>
+        <r>documentu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dolor<s n="n"/></l>
+        <r>dolor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dólar<s n="n"/></l>
+        <r>dólar<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doloroso<s n="adj"/></l>
+        <r>dolorosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doméstico<s n="n"/></l>
+        <r>domésticu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>doméstico<s n="adj"/></l>
+        <r>domésticu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>domicilio<s n="n"/></l>
+        <r>casa<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dominante<s n="adj"/></l>
+        <r>dominante<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>domingo<s n="n"/></l>
+        <r>domingo<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dominicano<s n="n"/></l>
+        <r>dominicanu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dominio<s n="n"/></l>
+        <r>dominiu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>don<s n="n"/></l>
+        <r>don<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dama<s n="n"/></l>
+        <r>dama<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dueño<s n="n"/></l>
+        <r>dueñu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dormitorio<s n="n"/></l>
+        <r>cuartu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dorso<s n="n"/></l>
+        <r>dorso<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dosis<s n="n"/></l>
+        <r>dosis<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dote<s n="n"/></l>
+        <r>dote<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doscientos<s n="n"/></l>
+        <r>douscentos<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doctor<s n="n"/></l>
+        <r>doctor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>doctrina<s n="n"/></l>
+        <r>doctrina<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>drama<s n="n"/></l>
+        <r>drama<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dramático<s n="adj"/></l>
+        <r>dramáticu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>droga<s n="n"/></l>
+        <r>droga<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>duda<s n="n"/></l>
+        <r>dulda<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>dudoso<s n="adj"/></l>
+        <r>dudosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>docena<s n="n"/></l>
+        <r>docena<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dúctil<s n="adj"/></l>
+        <r>dúctil<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>duque<s n="n"/></l>
+        <r>duque<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>duración<s n="n"/></l>
+        <r>duración<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>dureza<s n="n"/></l>
+        <r>dureza<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>duro<s n="adj"/></l>
+        <r>duro<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>eco<s n="n"/></l>
+        <r>ecu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ecológico<s n="adj"/></l>
+        <r>ecolóxicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>economía<s n="n"/></l>
+        <r>economía<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>económico<s n="adj"/></l>
+        <r>económicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>edén<s n="n"/></l>
+        <r>edén<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>edición<s n="n"/></l>
+        <r>edición<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>edicto<s n="n"/></l>
+        <r>edicto<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>edificiu<s n="n"/></l>
+        <r>edificio<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>edil<s n="n"/></l>
+        <r>edil<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>editorial<s n="n"/></l>
+        <r>editorial<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>editorial<s n="adj"/></l>
+        <r>editorial<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>educación<s n="n"/></l>
+        <r>educación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>educativo<s n="adj"/></l>
+        <r>educativu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>efectivo<s n="adj"/></l>
+        <r>efectivu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>efectivo<s n="n"/></l>
+        <r>efectivu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>efecto<s n="adj"/></l>
+        <r>efectu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>efímero<s n="adj"/></l>
+        <r>efímeru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eficacia<s n="n"/></l>
+        <r>eficacia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eficaz<s n="adj"/></l>
+        <r>eficaz<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eficiencia<s n="n"/></l>
+        <r>eficiencia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>yegua<s n="n"/></l>
+        <r>yegua<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>campo<s n="n"/></l>
+        <r>campu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>defecto<s n="n"/></l>
+        <r>defeutu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eje<s n="n"/></l>
+        <r>exe<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>elaboración<s n="n"/></l>
+        <r>ellaboración<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>elección<s n="n"/></l>
+        <r>eleición<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>electo<s n="adj"/></l>
+        <r>electu<s n="adj"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>electoral<s n="adj"/></l>
+        <r>electoral<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>electricidad<s n="n"/></l>
+        <r>lletricidá<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>electrónico<s n="adj"/></l>
+        <r>electrónicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>electromagnético<s n="adj"/></l>
+        <r>electromagnéticu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>electrón<s n="n"/></l>
+        <r>electrón<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>elefante<s n="n"/></l>
+        <r>elefante<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>elegancia<s n="n"/></l>
+        <r>elegancia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>elegancia<s n="adj"/></l>
+        <r>elegancia<s n="adj"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>elemental<s n="n"/></l>
+        <r>elemental<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>elemento<s n="n"/></l>
+        <r>elementu<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>elevado<s n="n"/></l>
+        <r>eleváu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>elogio<s n="n"/></l>
+        <r>eloxiu<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>emancipación<s n="n"/></l>
+        <r>emancipación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>embajada<s n="n"/></l>
+        <r>embaxada<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>embajador<s n="n"/></l>
+        <r>embaxador<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>embarazo<s n="n"/></l>
+        <r>embaranzu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>embarcación<s n="n"/></l>
+        <r>embarcación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>embargo<s n="n"/></l>
+        <r>embargu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>emisión<s n="n"/></l>
+        <r>emisión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>emergente<s n="adj"/></l>
+        <r>emerxente<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>emisor<s n="n"/></l>
+        <r>emisor<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>emisor<s n="adj"/></l>
+        <r>emisor<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>emoción<s n="n"/></l>
+        <r>emoción<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>emocional<s n="n"/></l>
+        <r>emocional<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>emotivo<s n="adj"/></l>
+        <r>emotivu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>empate<s n="n"/></l>
+        <r>empate<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>empeño<s n="n"/></l>
+        <r>empeñu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>emperador<s n="n"/></l>
+        <r>emperador<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>empiece<s n="n"/></l>
+        <r>entamu<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>empírico<s n="adj"/></l>
+        <r>empíricu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>empresa<s n="n"/></l>
+        <r>empresa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>empleado<s n="n"/></l>
+        <r>emplegáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>empleo<s n="n"/></l>
+        <r>empléu<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>empresarial<s n="adj"/></l>
+        <r>empresarial<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>empresario<s n="n"/></l>
+        <r>empresariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encaje<s n="n"/></l>
+        <r>encaxe<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encantamiento<s n="n"/></l>
+        <r>encantamientu<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>encanto<s n="n"/></l>
+        <r>encantu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>encargado<s n="n"/></l>
+        <r>encargáu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>encargado<s n="adj"/></l>
+        <r>encargáu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encargo<s n="n"/></l>
+        <r>encargu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enciclopedia<s n="n"/></l>
+        <r>enciclopedia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encogido<s n="adj"/></l>
+        <r>encoyíu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encargo<s n="n"/></l>
+        <r>encargu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encuentro<s n="n"/></l>
+        <r>alcuentru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encrucijada<s n="n"/></l>
+        <r>encruciyada<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>energía<s n="n"/></l>
+        <r>enerxía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enérgico<s n="adj"/></l>
+        <r>enérxicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>enésimo<s n="adj"/></l>
+        <r>enésimu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enfado<s n="n"/></l>
+        <r>cabréu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enfermero<s n="n"/></l>
+        <r>enfermeru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enfermedad<s n="n"/></l>
+        <r>enfermedá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enfermo<s n="n"/></l>
+        <r>malu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enfrentamiento<s n="n"/></l>
+        <r>enfrentamientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>magia<s n="n"/></l>
+        <r>maxa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>atractivo<s n="adj"/></l>
+        <r>curiosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>engaño<s n="n"/></l>
+        <r>engañu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enigma<s n="n"/></l>
+        <r>enigma<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enigmático<s n="adj"/></l>
+        <r>enigmáticu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>energía<s n="n"/></l>
+        <r>enerxía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enorme<s n="n"/></l>
+        <r>inmensu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enmienda<s n="n"/></l>
+        <r>enmienda<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>encuesta<s n="n"/></l>
+        <r>encuesta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enredo<s n="n"/></l>
+        <r>enriedu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ensayo<s n="n"/></l>
+        <r>ensayu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enseñante<s n="n"/></l>
+        <r>enseñante<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enseñanza<s n="n"/></l>
+        <r>enseñanza<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ente<s n="n"/></l>
+        <r>ente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entero<s n="adj"/></l>
+        <r>enteru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entendimiento<s n="n"/></l>
+        <r>entendimientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enterramiento<s n="n"/></l>
+        <r>enterramientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entierro<s n="n"/></l>
+        <r>entierro<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entidad<s n="n"/></l>
+        <r>entidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entrada<s n="n"/></l>
+        <r>antoxana<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>entrada<s n="n"/></l>
+        <r>entrada<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entrega<s n="n"/></l>
+        <r>entrega<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entrevista<s n="n"/></l>
+        <r>entrevista<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>entusiasmo<s n="n"/></l>
+        <r>entusiasmu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>envidia<s n="n"/></l>
+        <r>envidia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>envuelto<s n="adj"/></l>
+        <r>envueltu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ingeniero<s n="n"/></l>
+        <r>inxenieru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ingenio<s n="n"/></l>
+        <r>inxeniu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ingenioso<s n="adj"/></l>
+        <r>inxeniosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>episodio<s n="n"/></l>
+        <r>episodiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>épico<s n="adj"/></l>
+        <r>épicu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>epistemología<s n="n"/></l>
+        <r>epistemoloxía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>época<s n="n"/></l>
+        <r>época<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>equilibrio<s n="n"/></l>
+        <r>equilibriu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>equipaje<s n="n"/></l>
+        <r>equipaxe<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>equipo<s n="n"/></l>
+        <r>equipu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>equivalente<s n="n"/></l>
+        <r>equivalente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>equivalente<s n="adj"/></l>
+        <r>equivalente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>equívoco<s n="adj"/></l>
+        <r>equívocu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>erguido<s n="adj"/></l>
+        <r>tiesu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ermita<s n="n"/></l>
+        <r>ermida<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>erótico<s n="adj"/></l>
+        <r>eróticu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>error<s n="n"/></l>
+        <r>erru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>erudito<s n="n"/></l>
+        <r>eruditu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>erudito<s n="adj"/></l>
+        <r>eruditu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>sabio<s n="n"/></l>
+        <r>sabiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exagerado<s n="adj"/></l>
+        <r>esaxeráu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escalera<s n="n"/></l>
+        <r>escalera<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escala<s n="n"/></l>
+        <r>escala<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escándalo<s n="n"/></l>
+        <r>escándalu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escaño<s n="n"/></l>
+        <r>escanu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escape<s n="n"/></l>
+        <r>escape<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escarmiento<s n="n"/></l>
+        <r>escarmientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escarnio<s n="n"/></l>
+        <r>escarniu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escarpín<s n="n"/></l>
+        <r>escarpín<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escasez<s n="n"/></l>
+        <r>escasez<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escaso<s n="adj"/></l>
+        <r>escasu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escena<s n="n"/></l>
+        <r>escena<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escenario<s n="n"/></l>
+        <r>escenariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escéptico<s n="n"/></l>
+        <r>escépticu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>destello<s n="n"/></l>
+        <r>esllume<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escogido<s n="adj"/></l>
+        <r>escoyíu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escuela<s n="n"/></l>
+        <r>escuela<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>docente<s n="n"/></l>
+        <r>docente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>elección<s n="n"/></l>
+        <r>elecición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escolta<s n="n"/></l>
+        <r>escolta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>esclavo<s n="adj"/></l>
+        <r>esclavu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escrito<s n="n"/></l>
+        <r>escritu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escrito<s n="adj"/></l>
+        <r>escritu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escritor<s n="n"/></l>
+        <r>escritor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escritorio<s n="n"/></l>
+        <r>escritoriu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escritura<s n="n"/></l>
+        <r>escritura<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escuálido<s n="n"/></l>
+        <r>pasáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escudo<s n="n"/></l>
+        <r>escudu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>escultura<s n="n"/></l>
+        <r>escultura<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>oscuridad<s n="n"/></l>
+        <r>escuridá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>excusa<s n="n"/></l>
+        <r>escusa<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>excusa<s n="n"/></l>
+        <r>sida<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>esencia<s n="n"/></l>
+        <r>esencia<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>esencial<s n="adj"/></l>
+        <r>esencial<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>excusa<s n="n"/></l>
+        <r>escusa<s n="n"/></r>
+      </p>
+    </e>
+
+
+
+
+    <e>
+      <i>esencia<s n="n"/></i>
+    </e>
+    <e>
+      <i>esencial<s n="adj"/></i>
+    </e>
+    <e>
+      <p>
+        <l>famélico<s n="adj"/></l>
+        <r>esfameado<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <i>esfera<s n="n"/></i>
+    </e>
+    <e>
+      <p>
+        <l>esfuerzo<s n="n"/></l>
+        <r>esforzo<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>áspero<s n="adj"/></l>
+        <r>esgrevio<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exigencia<s n="n"/></l>
+        <r>esixencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>famélico<s n="adj"/></l>
+        <r>afamiáu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>limosna<s n="n"/></l>
+        <r>llimosna<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>mendigo<s n="n"/></l>
+        <r>mendigu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>espacial<s n="adj"/></l>
+        <r>espacial<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>espalda<s n="n"/></l>
+        <r>espalda<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espadaña<s n="n"/></l>
+        <r>espadaña<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>espantoso<s n="adj"/></l>
+        <r>espantosu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>español<s n="n"/></l>
+        <r>español<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>español<s n="adj"/></l>
+        <r>español<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espacio<s n="n"/></l>
+        <r>espaciu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espacioso<s n="adj"/></l>
+        <r>espaciosu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>especial<s n="n"/></l>
+        <r>especial<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>especialidad<s n="n"/></l>
+        <r>especialidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>especialista<s n="n"/></l>
+        <r>especialista<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>especie<s n="n"/></l>
+        <r>especie<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>específico<s n="n"/></l>
+        <r>específicu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espécimen<s n="n"/></l>
+        <r>espécime<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>espectacular<s n="n"/></l>
+        <r>espectacular<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>espectáculo<s n="n"/></l>
+        <r>espectáculu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>espectador<s n="n"/></l>
+        <r>espectador<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>espectador<s n="adj"/></l>
+        <r>espectador<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>espectro<s n="n"/></l>
+        <r>espectro<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>especulación<s n="n"/></l>
+        <r>especulación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espejo<s n="n"/></l>
+        <r>espeyu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espera<s n="n"/></l>
+        <r>espera<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>esperanza<s n="n"/></l>
+        <r>esperanza<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>espeso<s n="adj"/></l>
+        <r>gordu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>despierto<s n="adj"/></l>
+        <r>espiertu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desnudo<s n="n"/></l>
+        <r>desnudu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desnudo<s n="adj"/></l>
+        <r>desnudu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espíritu<s n="n"/></l>
+        <r>espíritu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>espiritual<s n="adj"/></l>
+        <r>espiritual<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>espléndido<s n="adj"/></l>
+        <r>arogante<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>esplendor<s n="n"/></l>
+        <r>esplendor<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>espiritual<s n="adj"/></l>
+        <r>espiritual<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>espontaneidad<s n="n"/></l>
+        <r>espontaneidá<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>espontáneo<s n="n"/></l>
+        <r>espontáneu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>esposo<s n="n"/></l>
+        <r>esposu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>olvido<s n="n"/></l>
+        <r>escaezu.<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>esquema<s n="n"/></l>
+        <r>esquema<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>izquierda<s n="n"/></l>
+        <r>esquierda<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>izquierdo<s n="adj"/></l>
+        <r>esquierdu<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>esquina<s n="n"/></l>
+        <r>esquina<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estabilidad<s n="n"/></l>
+        <r>estabilidá<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>estable<s n="adj"/></l>
+        <r>estable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estación<s n="n"/></l>
+        <r>estación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>establecimiento<s n="n"/></l>
+        <r>establecimientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estancia<s n="n"/></l>
+        <r>estancia<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>estadía<s n="n"/></l>
+        <r>estadiya<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>estadio<s n="n"/></l>
+        <r>estadiu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>estadística<s n="n"/></l>
+        <r>estadísticar<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>estadístico<s n="n"/></l>
+        <r>estadísticu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>estado<s n="n"/></l>
+        <r>estáu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>estadounidense<s n="n"/></l>
+        <r>estadounidense<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estadounidense<s n="adj"/></l>
+        <r>estadounidense<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>explosión<s n="n"/></l>
+        <r>esplosión<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estampa<s n="n"/></l>
+        <r>estampa<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estancia<s n="n"/></l>
+        <r>estancia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estatal<s n="n"/></l>
+        <r>estatal<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estadística<s n="n"/></l>
+        <r>estadística<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estadístico<s n="adj"/></l>
+        <r>estadísticu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estatua<s n="n"/></l>
+        <r>estatua<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estatura<s n="n"/></l>
+        <r>estatura<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estatuto<s n="n"/></l>
+        <r>estatutu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estera<s n="n"/></l>
+        <r>estera<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>astilla<s n="n"/></l>
+        <r>estiella<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estético<s n="adj"/></l>
+        <r>estéticu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estilo<s n="n"/></l>
+        <r>estilu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estimación<s n="n"/></l>
+        <r>estimación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estímulo<s n="n"/></l>
+        <r>estímulu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>veraniego<s n="adj"/></l>
+        <r>braniegu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estómago<s n="n"/></l>
+        <r>estómagu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estorbo<s n="n"/></l>
+        <r>estorbu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>explosión<s n="n"/></l>
+        <r>esplosión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>carretera<s n="n"/></l>
+        <r>carretera<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estrafalario<s n="adj"/></l>
+        <r>estrafalario<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extranjero<s n="n"/></l>
+        <r>estranxeru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extranjero<s n="adj"/></l>
+        <r>estranxeru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extraño<s n="adj"/></l>
+        <r>estrañu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extraño<s n="n"/></l>
+        <r>estrañu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estrategia<s n="n"/></l>
+        <r>estratexa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estratégico<s n="adj"/></l>
+        <r>estratéxicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estrato<s n="n"/></l>
+        <r>estratu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estrecho<s n="adj"/></l>
+        <r>estrechu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estrecho<s n="n"/></l>
+        <r>estrechu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estrella<s n="n"/></l>
+        <r>estrella<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estricto<s n="adj"/></l>
+        <r>estrictu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estructura<s n="n"/></l>
+        <r>estructura<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estudiante<s n="n"/></l>
+        <r>estudiante<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estudio<s n="n"/></l>
+        <r>estudiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>estudio<s n="n"/></l>
+        <r>estudiu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estupefaciente<s n="n"/></l>
+        <r>estupefaciente<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estupendo<s n="n"/></l>
+        <r>estupendu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>estúpido<s n="n"/></l>
+        <r>estúpidu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>esbelto<s n="adj"/></l>
+        <r>espodáu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eta<s n="n"/></l>
+        <r>eta<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>etapa<s n="n"/></l>
+        <r>etapa<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>eternidad<s n="n"/></l>
+        <r>eternidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>eterno<s n="adj"/></l>
+        <r>eternu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ética<s n="n"/></l>
+        <r>ética<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>moral<s n="n"/>.</l>
+        <r>moral<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ético<s n="n"/></l>
+        <r>éticu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>étnico<s n="adj"/></l>
+        <r>étnicu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eucaristía<s n="n"/></l>
+        <r>eucaristía<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>euforía<s n="n"/></l>
+        <r>euforía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>euro<s n="n"/></l>
+        <r>euro<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>europeo<s n="adj"/></l>
+        <r>europeo<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>europeo<s n="n"/></l>
+        <r>europeo<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>evasión<s n="n"/></l>
+        <r>evasión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>evento<s n="n"/></l>
+        <r>eventu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eventualidad<s n="n"/></l>
+        <r>eventualidá<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>evidencia<s n="n"/></l>
+        <r>evidente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>evocador<s n="n"/></l>
+        <r>evocador<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>evolución<s n="n"/></l>
+        <r>evolución<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>evolucionista<s n="adj"/></l>
+        <r>evolucionista<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>evolucionista<s n="n"/></l>
+        <r>evolucionista<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>evolutivo<s n="adj"/></l>
+        <r>evolutivu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exactitud<s n="n"/></l>
+        <r>exactitú<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exacto<s n="n"/></l>
+        <r>exactu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>exacto<s n="n"/></l>
+        <r>exautu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>excelencia<s n="n"/></l>
+        <r>excelencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>excelente<s n="n"/></l>
+        <r>excelente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>examen<s n="n"/></l>
+        <r>exame<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>excepción<s n="n"/></l>
+        <r>esceición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>excepcional<s n="n"/></l>
+        <r>esceicional<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>excesivo<s n="adj"/></l>
+        <r>escesivu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>exceso<s n="n"/></l>
+        <r>escesu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>excitación<s n="n"/></l>
+        <r>escitación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>exclusiva<s n="n"/></l>
+        <r>esclusiva<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>exclusivo<s n="adj"/></l>
+        <r>esclusivu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>excremento<s n="n"/></l>
+        <r>escrementu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>excursión<s n="n"/></l>
+        <r>escursión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ejecutivo<s n="n"/></l>
+        <r>executivu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ejecutivo<s n="adj"/></l>
+        <r>executivu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ejemplar<s n="n"/></l>
+        <r>exemplar<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ejemplar<s n="adj"/></l>
+        <r>exemplar<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ejemplo<s n="n"/></l>
+        <r>exemplu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ejercicio<s n="n"/></l>
+        <r>exerciciu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ejército<s n="n"/></l>
+        <r>exércitu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>exhibición<s n="n"/></l>
+        <r>exhibición<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>existencia<s n="n"/></l>
+        <r>esistencia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>existente<s n="adj"/></l>
+        <r>esistente<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>éxito<s n="adj"/></l>
+        <r>ésitu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exótico<s n="adj"/></l>
+        <r>exóticu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>expansión<s n="n"/></l>
+        <r>espansión<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>expedición<s n="n"/></l>
+        <r>espedición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>expediente<s n="n"/></l>
+        <r>espediente<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>experiencia<s n="n"/></l>
+        <r>esperiencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>experimental<s n="adj"/></l>
+        <r>esperimental<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>experimento<s n="n"/></l>
+        <r>esperimentu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>experto<s n="adj"/></l>
+        <r>espertu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>experto<s n="n"/></l>
+        <r>espertu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>explicación<s n="n"/></l>
+        <r>esplicación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>explícito<s n="n"/></l>
+        <r>esplícitu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exploración<s n="n"/></l>
+        <r>esploración<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>explosión<s n="n"/></l>
+        <r>esplosión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>explosivo<s n="adj"/></l>
+        <r>esplosivu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>explosivo<s n="n"/></l>
+        <r>esplosivu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>explotación<s n="n"/></l>
+        <r>esplotación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exportación<s n="n"/></l>
+        <r>esportación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>exposición<s n="n"/></l>
+        <r>esposición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>expositor<s n="adj"/></l>
+        <r>espositor<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>expositor<s n="n"/></l>
+        <r>espositor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>expresión<s n="n"/></l>
+        <r>espresión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>expulsión<s n="n"/></l>
+        <r>espulsión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exquisito<s n="n"/></l>
+        <r>esquisitu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extensión<s n="n"/></l>
+        <r>estensión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extenso<s n="n"/></l>
+        <r>estensu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exterior<s n="adj"/></l>
+        <r>esterior<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>exterior<s n="n"/></l>
+        <r>esterior<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>exterminio<s n="n"/></l>
+        <r>esterminiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>externu<s n="adj"/></l>
+        <r>esternu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>externu<s n="n"/></l>
+        <r>esternu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extraordinario<s n="n"/></l>
+        <r>estraordinariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fábrica<s n="n"/></l>
+        <r>fábrica<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>crudo<s n="adj"/></l>
+        <r>crudu<s n="adj"/></r>
+      </p>
+    </e>
+         <e>
+      <p>
+        <l>extremo<s n="adj"/></l>
+        <r>estremu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>extremo<s n="n"/></l>
+        <r>estremu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fabricación<s n="n"/></l>
+        <r>fabricación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fabricación<s n="n"/></l>
+        <r>fabricación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fabuloso<s n="n"/></l>
+        <r>fabulosu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>facción<s n="n"/></l>
+        <r>faición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fachada<s n="n"/></l>
+        <r>fachada<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>faz<s n="n"/></l>
+        <r>face<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hacienda<s n="n"/></l>
+        <r>facienda<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fácil<s n="adj"/></l>
+        <r>fácil<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>orgulloso<s n="adj"/></l>
+        <r>orgullosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>cara<s n="n"/></l>
+        <r>cara<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>facilidad<s n="n"/></l>
+        <r>facilidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>factible<s n="adj"/></l>
+        <r>factible<s n="adj"/></r>
+      </p>
+    </e>
+         <e>
+      <p>
+        <l>factor<s n="n"/></l>
+        <r>factor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>factoría<s n="n"/></l>
+        <r>factoría<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>factura<s n="n"/></l>
+        <r>factura<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>faena<s n="n"/></l>
+        <r>falcatrúa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fallo<s n="n"/></l>
+        <r>fallu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>facultad<s n="n"/></l>
+        <r>facultá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>falso<s n="adj"/></l>
+        <r>falsu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>falso<s n="n"/></l>
+        <r>falsu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habla<s n="n"/></l>
+        <r>fala<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fallecimiento<s n="n"/></l>
+        <r>muerte<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>falta<s n="n"/></l>
+        <r>falta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fama<s n="n"/></l>
+        <r>fama<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hambre<s n="n"/></l>
+        <r>fame<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hambriento<s n="adj"/></l>
+        <r>famientu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>familia<s n="n"/></l>
+        <r>familia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>familiar<s n="adj"/></l>
+        <r>familiar<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>familiar<s n="n"/></l>
+        <r>familiar<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>famoso<s n="adj"/></l>
+        <r>famosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fanático<s n="adj"/></l>
+        <r>fanáticu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fanático<s n="n"/></l>
+        <r>fanáticu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fantasía<s n="n"/></l>
+        <r>fantasía<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fantasma<s n="n"/></l>
+        <r>fantasma<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fantástico<s n="adj"/></l>
+        <r>fantásticu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fardo<s n="n"/></l>
+        <r>fardu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fármaco<s n="n"/></l>
+        <r>fármacu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>farruco<s n="adj"/></l>
+        <r>farrucu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>harto<s n="adj"/></l>
+        <r>fartu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fascista<s n="adj"/></l>
+        <r>fascista<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fascista<s n="n"/></l>
+        <r>fascista<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fascinante<s n="adj"/></l>
+        <r>fascinante<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fase<s n="n"/></l>
+        <r>fase<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fatal<s n="adj"/></l>
+        <r>fatal<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fatídico<s n="adj"/></l>
+        <r>abegosu<s n="adj"/></r>
+      </p>
+    </e>  
+   <e>
+      <p>
+        <l>favor<s n="n"/></l>
+        <r>favor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>favorable<s n="adj"/></l>
+        <r>favorable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>favorito<s n="n"/></l>
+        <r>favoritu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hazaña<s n="n"/></l>
+        <r>fazaña<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>mejilla<s n="n"/></l>
+        <r>mexella<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fe<s n="n"/></l>
+        <r>fe<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fibra<s n="n"/></l>
+        <r>fibra<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fiebre<s n="n"/></l>
+        <r>fiebre<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>febrero<s n="n"/></l>
+        <r>febreru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>federación<s n="n"/></l>
+        <r>federación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>feria<s n="n"/></l>
+        <r>feria<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hechicero<s n="adj"/></l>
+        <r>magu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hechicero<s n="n"/></l>
+        <r>magu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hechizo<s n="n"/></l>
+        <r>conxuru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hecho<s n="n"/></l>
+        <r>fechu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hecho<s n="adj"/></l>
+        <r>fechu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>felicidad<s n="n"/></l>
+        <r>felicidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>feliz<s n="adj"/></l>
+        <r>feliz<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hembra<s n="n"/></l>
+        <r>fema<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>femenino<s n="adj"/></l>
+        <r>femenín<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>femenino<s n="n"/></l>
+        <r>femenín<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fenómeno<s n="n"/></l>
+        <r>fenómenu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>feo<s n="adj"/></l>
+        <r>feu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>herido<s n="adj"/></l>
+        <r>feríu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>herido<s n="n"/></l>
+        <r>feríu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hermoso<s n="adj"/></l>
+        <r>fermosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>herramienta<s n="n"/></l>
+        <r>ferramienta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hierro<s n="n"/></l>
+        <r>fierro<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ferrocarril<s n="n"/></l>
+        <r>ferrocarril<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fiesta<s n="n"/></l>
+        <r>fiesta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fibra<s n="n"/></l>
+        <r>fibra<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ficción<s n="n"/></l>
+        <r>ficción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ficticio<s n="adj"/></l>
+        <r>ficticiu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ficticio<s n="n"/></l>
+        <r>ficticiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fidelidad<s n="n"/></l>
+        <r>fidelidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fiel<s n="n"/></l>
+        <r>fiel<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>figura<s n="n"/></l>
+        <r>figura<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hígado<s n="n"/></l>
+        <r>fégadu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fila<s n="n"/></l>
+        <r>fila<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hilera<s n="n"/></l>
+        <r>filera<s n="n"/></r>
+      </p>
+    </e>
+      <e r="RL">
+      <p>
+        <l>hijo<s n="n"/></l>
+        <r>fiyu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>hijo<s n="n"/></l>
+        <r>fiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>film<s n="n"/></l>
+        <r>filme<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>filón<s n="n"/></l>
+        <r>filón<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>filosofía<s n="n"/></l>
+        <r>filosofía<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>filosófico<s n="n"/></l>
+        <r>filosóficu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>filósofo<s n="n"/></l>
+        <r>filósofu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fin<s n="n"/></l>
+        <r>fin<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>final<s n="adj"/></l>
+        <r>final<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>final<s n="n"/></l>
+        <r>final<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>finalidad<s n="n"/></l>
+        <r>finalidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>financiero<s n="adj"/></l>
+        <r>financieru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>financiero<s n="n"/></l>
+        <r>financieru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>financiación<s n="n"/></l>
+        <r>financiación<s n="n"/></r>
+      </p>
+    </e>
+<!--    <e>
+      <p>
+        <l>fino<s n="adj"/></l>
+        <r>finu<s n="adj"/></r>
+      </p>
+    </e>
+-->
+    <e>
+      <p>
+        <l>hilo<s n="n"/></l>
+        <r>filu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>firma<s n="n"/></l>
+        <r>firma<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>firme<s n="adj"/></l>
+        <r>firme<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>firme<s n="n"/></l>
+        <r>firme<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>firmeza<s n="n"/></l>
+        <r>firmeza<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fiscal<s n="n"/></l>
+        <r>fiscal<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fiscal<s n="adj"/></l>
+        <r>fiscal<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fisico<s n="adj"/></l>
+        <r>físicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fisico<s n="n"/></l>
+        <r>físicu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>cinta<s n="n"/></l>
+        <r>cinta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hito<s n="adj"/></l>
+        <r>fitu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hito<s n="n"/></l>
+        <r>fitu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fijo<s n="n"/></l>
+        <r>fixu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fijo<s n="adj"/></l>
+        <r>fixu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>flamenco<s n="adj"/></l>
+        <r>flamencu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>flamenco<s n="n"/></l>
+        <r>flamencu<s n="n"/></r>
+      </p>
+    </e>   
+    <e>
+      <p>
+        <l>flor<s n="n"/></l>
+        <r>flor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>flexible<s n="adj"/></l>
+        <r>flexible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>flora<s n="n"/></l>
+        <r>flora<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>flota<s n="n"/></l>
+        <r>flota<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>flujo<s n="n"/></l>
+        <r>fluxu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hogar<s n="n"/></l>
+        <r>fogar<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fuego<s n="n"/></l>
+        <r>fueu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>cohete<s n="n"/></l>
+        <r>cohete<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>huelga<s n="n"/></l>
+        <r>fuelga<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>holganza<s n="n"/></l>
+        <r>folganza<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>holgazán<s n="adj"/></l>
+        <r>folgazán<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>holgazán<s n="n"/></l>
+        <r>folgazán<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fondo<s n="n"/></l>
+        <r>fondu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fiesta<s n="n"/></l>
+        <r>folixa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hoja<s n="n"/></l>
+        <r>fueya<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>pensión<s n="n"/></l>
+        <r>fonda<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hondo<s n="adj"/></l>
+        <r>fondu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hondura<s n="n"/></l>
+        <r>fondura<s n="n"/></r>
+      </p>
+    </e>
+     <e r="RL">
+      <p>
+        <l>fuente<s n="n"/></l>
+        <r>fuente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fuente<s n="n"/></l>
+        <r>fonte<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>forma<s n="n"/></l>
+        <r>forma<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>formación<s n="n"/></l>
+        <r>formación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>formal<s n="adj"/></l>
+        <r>formal<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fotuito<s n="adj"/></l>
+        <r>fortuitu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hormiga<s n="n"/></l>
+        <r>formiga<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fórmula<s n="n"/></l>
+        <r>fórmula<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>formulario<s n="n"/></l>
+        <r>formulariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fortaleza<s n="n"/></l>
+        <r>fortaleza<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fuerte<s n="adj"/></l>
+        <r>fuerte<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fuerte<s n="n"/></l>
+        <r>fuerte<s n="n"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>fuente<s n="n"/></l>
+        <r>fonte<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fortuna<s n="n"/></l>
+        <r>fortuna<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fuerza<s n="n"/></l>
+        <r>fuerza<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>foto<s n="n"/></l>
+        <r>foto<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fotografía<s n="n"/></l>
+        <r>fotografía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fotográfico<s n="adj"/></l>
+        <r>fotográficu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fotográfico<s n="n"/></l>
+        <r>fotográficu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fotógrafo<s n="n"/></l>
+        <r>fotógrafu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fotón<s n="n"/></l>
+        <r>fotón<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fracaso<s n="n"/></l>
+        <r>fracasu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fracción<s n="n"/></l>
+        <r>fracción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>flaco<s n="adj"/></l>
+        <r>fracu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fraile<s n="n"/></l>
+        <r>flaire<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fragmento<s n="n"/></l>
+        <r>fragmentu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fragancia<s n="n"/></l>
+        <r>fragancia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>francés<s n="n"/></l>
+        <r>francés<s n="n"/></r>
+      </p>
+    </e>
+         <e>
+      <p>
+        <l>francés<s n="adj"/></l>
+        <r>francés<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>franco<s n="adj"/></l>
+        <r>francu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>franco<s n="n"/></l>
+        <r>francu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>franquismo<s n="n"/></l>
+        <r>franquismu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>franja<s n="n"/></l>
+        <r>franxa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frasco<s n="n"/></l>
+        <r>frascu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frase<s n="n"/></l>
+        <r>frase<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fraude<s n="n"/></l>
+        <r>fraude<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>fraudulencia<s n="n"/></l>
+        <r>fraude<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frágil<s n="adj"/></l>
+        <r>fráxil<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frecuencia<s n="n"/></l>
+        <r>frecuencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frecuente<s n="adj"/></l>
+        <r>frecuente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fray<s n="n"/></l>
+        <r>frai<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fresco<s n="n"/></l>
+        <r>frescu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fresco<s n="adj"/></l>
+        <r>frescu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>freno<s n="n"/></l>
+        <r>frenu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frío<s n="n"/></l>
+        <r>fríu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frío<s n="adj"/></l>
+        <r>fríu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frito<s n="adj"/></l>
+        <r>fritu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fruta<s n="n"/></l>
+        <r>fruta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fruto<s n="n"/></l>
+        <r>frutu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frente<s n="n"/></l>
+        <r>frente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frontera<s n="n"/></l>
+        <r>frontera<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>frustración<s n="n"/></l>
+        <r>frustración<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fuga<s n="n"/></l>
+        <r>fuga<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fugaz<s n="adj"/></l>
+        <r>fugaz<s n="adj"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>fulano<s n="n"/></l>
+        <r>fulanu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fulgor<s n="n"/></l>
+        <r>resplandiente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>radiante<s n="adj"/></l>
+        <r>resplandiente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humo<s n="n"/></l>
+        <r>fumu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>función<s n="n"/></l>
+        <r>función<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>funcionamiento<s n="n"/></l>
+        <r>funcionamientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>funcionario<s n="n"/></l>
+        <r>funcionariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fundador<s n="adj"/></l>
+        <r>fundador<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fundador<s n="n"/></l>
+        <r>fundador<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fundamental<s n="adj"/></l>
+        <r>fundamental<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fundamento<s n="n"/></l>
+        <r>fundamentu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fúnebre<s n="n"/></l>
+        <r>fúnebre<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l><s n="n"/></l>
+        <r><s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>huracán<s n="n"/></l>
+        <r>furacán<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>agujero<s n="n"/></l>
+        <r>furacu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>furia<s n="n"/></l>
+        <r>furia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>furioso<s n="n"/></l>
+        <r>furiosu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>furibundo<s n="n"/></l>
+        <r>furiosu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fusil<s n="n"/></l>
+        <r>fusil<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>fútbol<s n="n"/></l>
+        <r>fútbol<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>futbolista<s n="n"/></l>
+        <r>futbolista<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>futuro<s n="n"/></l>
+        <r>futuru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>futuro<s n="adj"/></l>
+        <r>futuru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>huida<s n="n"/></l>
+        <r>fuxida<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gabinete<s n="n"/></l>
+        <r>gabinete<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gala<s n="n"/></l>
+        <r>gala<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ganado<s n="n"/></l>
+        <r>ganáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>galaxia<s n="n"/></l>
+        <r>galaxa<s n="n"/></r>
+      </p>
+    </e>
+    <e>   
+     <p>
+        <l>gallego<s n="n"/></l>
+        <r>gallegu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gallego<s n="adj"/></l>
+        <r>galegu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>galería<s n="n"/></l>
+        <r>galería<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>gallina<s n="n"/></l>
+        <r>pita<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>galo<s n="n"/></l>
+        <r>galu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>galo<s n="adj"/></l>
+        <r>galu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gallo<s n="n"/></l>
+        <r>gallu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gama<s n="n"/></l>
+        <r>gama<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gana<s n="n"/></l>
+        <r>gana<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>ganacia<s n="n"/></l>
+        <r>ganancia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>garantía<s n="n"/></l>
+        <r>garantía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gandul<s n="n"/></l>
+        <r>gandul<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>garbo<s n="n"/></l>
+        <r>garbu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>garboso<s n="n"/></l>
+        <r>garbosu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>guardia<s n="n"/></l>
+        <r>guardia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>garganta<s n="n"/></l>
+        <r>garganta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>carcajada<s n="n"/></l>
+        <r>carcaxada<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gas<s n="n"/></l>
+        <r>gas<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gasolina<s n="n"/></l>
+        <r>gasolina<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gasóleo<s n="n"/></l>
+        <r>gasóil<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>gasto<s n="n"/></l>
+        <r>gastu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gato<s n="n"/></l>
+        <r>gatu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>global<s n="adj"/></l>
+        <r>global<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>globo<s n="n"/></l>
+        <r>globu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gloria<s n="n"/></l>
+        <r>gloria<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>glorioso<s n="adj"/></l>
+        <r>gloriosu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gobernador<s n="n"/></l>
+        <r>gobernador<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gubernamental<s n="adj"/></l>
+        <r>gubernamental<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gobierno<s n="n"/></l>
+        <r>gobiernu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gol<s n="n"/></l>
+        <r>gol<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>golf<s n="n"/></l>
+        <r>golf<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>golfo<s n="n"/></l>
+        <r>golfu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>golpe<s n="n"/></l>
+        <r>golpe<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>goma<s n="n"/></l>
+        <r>goma<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gorila<s n="n"/></l>
+        <r>gorila<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gota<s n="n"/></l>
+        <r>gota<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gozo<s n="n"/></l>
+        <r>gozu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gracioso<s n="n"/></l>
+        <r>graciosu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>grado<s n="n"/></l>
+        <r>gráu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gradual<s n="adj"/></l>
+        <r>gradual<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>grafema<s n="n"/></l>
+        <r>grafema<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>gramo<s n="n"/></l>
+        <r>gramu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>granada<s n="n"/></l>
+        <r>granada<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>grano<s n="n"/></l>
+        <r>granu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>grande<s n="n"/></l>
+        <r>grande<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>grande<s n="adj"/></l>
+        <r>grande<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>grandeza<s n="n"/></l>
+        <r>grandeza<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gratificante<s n="adj"/></l>
+        <r>gratificante<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>corbata<s n="n"/></l>
+        <r>corbata<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>grave<s n="adj"/></l>
+        <r>grave<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gravedad<s n="n"/></l>
+        <r>gravidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>greña<s n="n"/></l>
+        <r>greña<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>grasa<s n="n"/></l>
+        <r>grasa<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gracia<s n="n"/></l>
+        <r>gracia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>griego<s n="adj"/></l>
+        <r>griegu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>griego<s n="n"/></l>
+        <r>griegu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>gripe<s n="n"/></l>
+        <r>gripe<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>gris<s n="adj"/></l>
+        <r>gris<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>gris<s n="n"/></l>
+        <r>gris<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>grito<s n="n"/></l>
+        <r>gritu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>trago<s n="n"/></l>
+        <r>tragu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>grosero<s n="adj"/></l>
+        <r>groseru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>grueso<s n="n"/></l>
+        <r>gruesu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>grueso<s n="adj"/></l>
+        <r>gruesu<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>gotesco<s n="adj"/></l>
+        <r>grotescu<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>grupo<s n="n"/></l>
+        <r>grupu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>guante<s n="n"/></l>
+        <r>guante<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>melena<s n="n"/></l>
+        <r>guedeya<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>guerra<s n="n"/></l>
+        <r>guerra<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>guerrero<s n="adj"/></l>
+        <r>guerreru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>guerrero<s n="n"/></l>
+        <r>guerreru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>guerrillero<s n="adj"/></l>
+        <r>guerrilleru<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>guerrillero<s n="n"/></l>
+        <r>guerrilleru<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>guía<s n="n"/></l>
+        <r>guía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>individuo<s n="n"/></l>
+        <r>individuu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>guitarra<s n="n"/></l>
+        <r>guitarra<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>gusto<s n="n"/></l>
+        <r>gustu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hábil<s n="n"/></l>
+        <r>hábil<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hábil<s n="adj"/></l>
+        <r>hábil<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habilidad<s n="n"/></l>
+        <r>habilidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habitación<s n="n"/></l>
+        <r>habitación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habitante<s n="n"/></l>
+        <r>habitante<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hábito<s n="n"/></l>
+        <r>vezu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>desgracia<s n="n"/></l>
+        <r>desgracia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habitual<s n="n"/></l>
+        <r>habitual<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>hábito<s n="n"/></l>
+        <r>aliendu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>handicap<s n="n"/></l>
+        <r>hándicap<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>armonía<s n="n"/></l>
+        <r>armonía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hebreo<s n="n"/></l>
+        <r>hebréu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hebreo<s n="adj"/></l>
+        <r>hebréu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>helicóptero<s n="n"/></l>
+        <r>helicópteru<s n="n"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>hemiciclo<s n="n"/></l>
+        <r>hemiciclu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hemisferio<s n="n"/></l>
+        <r>hemisferiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hierba<s n="n"/></l>
+        <r>yerba<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>herencia<s n="n"/></l>
+        <r>herencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>heredero<s n="n"/></l>
+        <r>herederu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>héroe<s n="n"/></l>
+        <r>héroe<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>heroicidad<s n="n"/></l>
+        <r>heroicidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>heroico<s n="n"/></l>
+        <r>heroicu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hindú<s n="adj"/></l>
+        <r>hindú<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hindú<s n="n"/></l>
+        <r>hindú<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hipócrita<s n="n"/></l>
+        <r>hipócrita<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>hipócrita<s n="adj"/></l>
+        <r>hipócrita<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>hipótesis<s n="n"/></l>
+        <r>hipótesis<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>hipotético<s n="adj"/></l>
+        <r>hipotéticu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>historia<s n="n"/></l>
+        <r>hestoria<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>histórico<s n="adj"/></l>
+        <r>hestóricu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>hitleriano<s n="n"/></l>
+        <r>hitlerianu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>holanda<s n="n"/></l>
+        <r>holanda<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>holandés<s n="n"/></l>
+        <r>holandés<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>holandés<s n="adj"/></l>
+        <r>holandés<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>holograma<s n="n"/></l>
+        <r>holograma<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>homicida<s n="n"/></l>
+        <r>homicida<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hombre<s n="n"/></l>
+        <r>home<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>homenaje<s n="n"/></l>
+        <r>homenaxe<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>homicida<s n="adj"/></l>
+        <r>homicida<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>homosexual<s n="n"/></l>
+        <r>homosexual<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>homosexual<s n="adj"/></l>
+        <r>homosexual<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>homicidio<s n="n"/></l>
+        <r>homicidiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>honestidad<s n="n"/></l>
+        <r>honestidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>honor<s n="n"/></l>
+        <r>honor<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>honra<s n="n"/></l>
+        <r>honra<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>honradez<s n="n"/></l>
+        <r>honradez<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>hora<s n="n"/></l>
+        <r>hora<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>horario<s n="adj"/></l>
+        <r>horariu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>horario<s n="n"/></l>
+        <r>horariu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>horizonte<s n="n"/></l>
+        <r>horizonte<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>horario<s n="n"/></l>
+        <r>horario<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>horrible<s n="adj"/></l>
+        <r>horrible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>horror<s n="n"/></l>
+        <r>horror<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>horroroso<s n="adj"/></l>
+        <r>horrorosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>huerta<s n="n"/></l>
+        <r>güerta<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>huerto<s n="n"/></l>
+        <r>güertu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>huésped<s n="n"/></l>
+        <r>güéspede<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hospital<s n="n"/></l>
+        <r>hospital<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hostalero<s n="n"/></l>
+        <r>hostaleru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hostil<s n="adj"/></l>
+        <r>contrariu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hotel<s n="n"/></l>
+        <r>hotel<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humanidad<s n="n"/></l>
+        <r>humanidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humanitario<s n="adj"/></l>
+        <r>humanitariu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humanu<s n="adj"/></l>
+        <r>humanu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humanu<s n="n"/></l>
+        <r>humanu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humedad<s n="n"/></l>
+        <r>húmedu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>húmedo<s n="adj"/></l>
+        <r>húmedu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humilde<s n="adj"/></l>
+        <r>humilde<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humillación<s n="adj"/></l>
+        <r>humillación<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>humor<s n="n"/></l>
+        <r>humor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>edad<s n="n"/></l>
+        <r>edá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>idea<s n="n"/></l>
+        <r>idea<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ideal<s n="adj"/></l>
+        <r>ideal<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ideal<s n="n"/></l>
+        <r>ideal<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ideario<s n="n"/></l>
+        <r>ideariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>idéntico<s n="adj"/></l>
+        <r>idénticu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>identidad<s n="n"/></l>
+        <r>identidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>identificación<s n="n"/></l>
+        <r>identificación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ideología<s n="n"/></l>
+        <r>ideoloxía<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ideológico<s n="adj"/></l>
+        <r>ideolóxicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>idioma<s n="n"/></l>
+        <r>idioma<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ido<s n="adj"/></l>
+        <r>ido<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ídolo<s n="n"/></l>
+        <r>ídolu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>idóneo<s n="adj"/></l>
+        <r>idóneu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ignorancia<s n="n"/></l>
+        <r>ignorancia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>iglesia<s n="n"/></l>
+        <r>ilesia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>igual<s n="n"/></l>
+        <r>igual<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>igual<s n="adj"/></l>
+        <r>igual<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>igualdad<s n="n"/></l>
+        <r>igualdá<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>ilegal<s n="adj"/></l>
+        <r>ilegal<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>isla<s n="n"/></l>
+        <r>islla<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>aislamiento<s n="n"/></l>
+        <r>aislamientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ilógico<s n="adj"/></l>
+        <r>ilóxicu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>iluminación<s n="n"/></l>
+        <r>iluminación<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>ilusión<s n="n"/></l>
+        <r>ilusión<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>ilustración<s n="n"/></l>
+        <r>ilustracion<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>ilustrado<s n="adj"/></l>
+        <r>ilustráu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>ilustración<s n="n"/></l>
+        <r>ilustración<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imagen<s n="n"/></l>
+        <r>imaxe<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imaginación<s n="n"/></l>
+        <r>imaxinación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imaginario<s n="adj"/></l>
+        <r>imaxinariu<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>imbécil<s n="adj"/></l>
+        <r>imbécil<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>imbécil<s n="n"/></l>
+        <r>imbécil<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>imitación<s n="n"/></l>
+        <r>imitación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>impaciencia<s n="n"/></l>
+        <r>impaciencia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>impacto<s n="n"/></l>
+        <r>impautu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>imparcial<s n="adj"/></l>
+        <r>imparcial<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impedimento<s n="n"/><s n="m"/></l>
+        <r>torga<s n="n"/><s n="f"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>impensable<s n="adj"/></l>
+        <r>impensable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imperfección<s n="n"/></l>
+        <r>imperfeición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imperio<s n="n"/></l>
+        <r>imperiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>importancia<s n="n"/></l>
+        <r>importancia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>importante<s n="adj"/></l>
+        <r>importante<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imposible<s n="adj"/></l>
+        <r>imposible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imposible<s n="n"/></l>
+        <r>imposible<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>impuesto<s n="adj"/></l>
+        <r>impuestu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impuesto<s n="n"/></l>
+        <r>impuestu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impotencia<s n="n"/></l>
+        <r>impotencia<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impreciso<s n="adj"/></l>
+        <r>imprecisu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imprescindible<s n="adj"/></l>
+        <r>imprescindible<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impresión<s n="n"/></l>
+        <r>impresión<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impresionante<s n="adj"/></l>
+        <r>impresionante<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impreso<s n="n"/></l>
+        <r>impresu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>imprevisible<s n="adj"/></l>
+        <r>imprevisible<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>improvisto<s n="n"/></l>
+        <r>improvistu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>imprudente<s n="adj"/></l>
+        <r>imprudente<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>imprudente<s n="n"/></l>
+        <r>imprudente<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impulso<s n="n"/></l>
+        <r>impulsu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impune<s n="n"/></l>
+        <r>impune<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>impuesto<s n="n"/></l>
+        <r>impuestu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inacabable<s n="adj"/></l>
+        <r>inacabable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inaceptable<s n="adj"/></l>
+        <r>inaceptable<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>inactivo<s n="n"/></l>
+        <r>paráu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inadmisible<s n="adj"/></l>
+        <r>inadmitible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inaguantable<s n="adj"/></l>
+        <r>inaguantable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incapacidad<s n="n"/></l>
+        <r>incapacidá<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>incapaz<s n="n"/></l>
+        <r>incapaz<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>incendio<s n="n"/></l>
+        <r>fuéu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>incentivo<s n="n"/></l>
+        <r>incentivu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incertidumbre<s n="n"/></l>
+        <r>incertidumbre<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incierto<s n="adj"/></l>
+        <r>inciertu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incidente<s n="n"/></l>
+        <r>incidente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incidente<s n="adj"/></l>
+        <r>incidente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inclinación<s n="n"/></l>
+        <r>inclianción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inclinado<s n="n"/></l>
+        <r>inclináu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inclusión<s n="n"/></l>
+        <r>inclusión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incógnita<s n="n"/></l>
+        <r>incógnita<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incómodo<s n="adj"/></l>
+        <r>incómodu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incompetencia<s n="n"/></l>
+        <r>incompetencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inconcebible<s n="adj"/></l>
+        <r>inconcibible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inconsciente<s n="adj"/></l>
+        <r>inconsciente<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>inconsciente<s n="n"/></l>
+        <r>inconsciente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inconveniente<s n="adj"/></l>
+        <r>inconveniente<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>inconveniente<s n="n"/></l>
+        <r>inconveniente<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>incrementu<s n="n"/></l>
+        <r>incrementu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>increíble<s n="adj"/></l>
+        <r>increíble<s n="adj"/></r>
+      </p>
+    </e>
+      <e r="RL">
+      <p>
+        <l>increíble<s n="adj"/></l>
+        <r>increyible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>incultura<s n="n"/></l>
+        <r>incultura<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indagación<s n="n"/></l>
+        <r>indagación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indemnización<s n="n"/></l>
+        <r>indeminización<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>independencia<s n="n"/></l>
+        <r>independencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>independiente<s n="adj"/></l>
+        <r>independente<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indicación<s n="n"/></l>
+        <r>indicación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indecible<s n="adj"/></l>
+        <r>indecible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indecible<s n="adj"/></l>
+        <r>indicible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indiferencia<s n="n"/></l>
+        <r>indiferencia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indiferente<s n="n"/></l>
+        <r>indiferente<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indignación<s n="n"/></l>
+        <r>indignación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indio<s n="adj"/></l>
+        <r>indiu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indio<s n="n"/></l>
+        <r>indiu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indirecto<s n="adj"/></l>
+        <r>indireutu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>indirecto<s n="n"/></l>
+        <r>indireutu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indiscutible<s n="adj"/></l>
+        <r>indiscutible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indispensable<s n="adj"/></l>
+        <r>indispensable<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>individual<s n="adj"/></l>
+        <r>individual<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>individualidad<s n="n"/></l>
+        <r>individualidá<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>individuo<s n="n"/></l>
+        <r>individuu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>indispensable<s n="adj"/></l>
+        <r>indispensable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indudable<s n="adj"/></l>
+        <r>indudable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>indulto<s n="n"/></l>
+        <r>indultu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>industria<s n="n"/></l>
+        <r>industria<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>industrial<s n="adj"/></l>
+        <r>industrial<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inédito<s n="n"/></l>
+        <r>inéditu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inefable<s n="adj"/></l>
+        <r>inefable<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ineficaz<s n="adj"/></l>
+        <r>ineficaz<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inepto<s n="adj"/></l>
+        <r>ineutu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inequívoco<s n="n"/></l>
+        <r>inequívocu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inesperado<s n="adj"/></l>
+        <r>inesperáu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inevitable<s n="adj"/></l>
+        <r>inevitable<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inestabilidad<s n="n"/></l>
+        <r>inestabilidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>infancia<s n="n"/></l>
+        <r>infancia<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>infantil<s n="adj"/></l>
+        <r>infantil<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>infarto<s n="n"/></l>
+        <r>infartu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>infección<s n="n"/></l>
+        <r>infeición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inferior<s n="adj"/></l>
+        <r>baxeru<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>inferior<s n="n"/></l>
+        <r>baxeru<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>infierno<s n="n"/></l>
+        <r>infiernu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>infidelidad<s n="n"/></l>
+        <r>infidelidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>infinito<s n="adj"/></l>
+        <r>infinitu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>infinito<s n="n"/></l>
+        <r>infinitu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inflación<s n="n"/></l>
+        <r>inflación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>infinidad<s n="n"/></l>
+        <r>infinidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>influencia<s n="n"/></l>
+        <r>influyencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>influjo<s n="n"/></l>
+        <r>influxu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>información<s n="n"/></l>
+        <r>información<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>informático<s n="adj"/></l>
+        <r>informáticu<s n="adj"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>informático<s n="n"/></l>
+        <r>informáticu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>informativo<s n="adj"/></l>
+        <r>informativu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>informativo<s n="n"/></l>
+        <r>informativu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>informe<s n="n"/></l>
+        <r>informe<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>infrecuente<s n="n"/></l>
+        <r>infrecuente<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inglés<s n="adj"/></l>
+        <r>inglés<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inglés<s n="n"/></l>
+        <r>inglés<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ingrediente<s n="n"/></l>
+        <r>ingrediente<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ingreso<s n="n"/></l>
+        <r>ingresu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inicial<s n="adj"/></l>
+        <r>inicial<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inicial<s n="n"/></l>
+        <r>inicial<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>iniciativa<s n="n"/></l>
+        <r>iniciativa<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inicio<s n="n"/></l>
+        <r>aniciu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inmediato<s n="adj"/></l>
+        <r>inmediatu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inimaginable<s n="adj"/></l>
+        <r>inimaxinable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enemigo<s n="n"/></l>
+        <r>enemigu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>enemigo<s n="adj"/></l>
+        <r>enemigu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>cercanía<s n="n"/></l>
+        <r>cercanía<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inmediato<s n="adj"/></l>
+        <r>inmediatu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inmensidad<s n="n"/></l>
+        <r>inmensidá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inmenso<s n="adj"/></l>
+        <r>inmensu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inmigrante<s n="adj"/></l>
+        <r>inmigrante<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inmigrante<s n="n"/></l>
+        <r>inmigrante<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inmóvil<s n="adj"/></l>
+        <r>inmóvil<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inmovilidad<s n="n"/></l>
+        <r>inmobilidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inmundicia<s n="n"/></l>
+        <r>mundicia<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>innecesario<s n="adj"/></l>
+        <r>innecesariu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>innovación<s n="n"/></l>
+        <r>innovación<s n="n"/></r>
+      </p>
+    </e>
+    
+    <e>
+      <p>
+        <l>inocente<s n="adj"/></l>
+        <r>inocente<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>inocente<s n="n"/></l>
+        <r>inocente<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>inocencia<s n="n"/></l>
+        <r>simplayería<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inquieto<s n="adj"/></l>
+        <r>inquietu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>inquietante<s n="adj"/></l>
+        <r>esmolecedor<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inquieto<s n="adj"/></l>
+        <r>inquietu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>insecto<s n="n"/></l>
+        <r>inseutu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inseguridad<s n="n"/></l>
+        <r>inseguridá<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>inseguro<s n="adj"/></l>
+        <r>inseguru<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>insensato<s n="adj"/></l>
+        <r>allocáu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>insensato<s n="n"/></l>
+        <r>allocáu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inservible<s n="adj"/></l>
+        <r>inservble<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>insensato<s n="adj"/></l>
+        <r>allocáu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>insigne<s n="adj"/></l>
+        <r>nomáu<s n="adj"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>insignificancia<s n="adj"/></l>
+        <r>menudancia<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>insistencia<s n="n"/></l>
+        <r>insistencia<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>insoportable<s n="adj"/></l>
+        <r>insoportable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inspección<s n="n"/></l>
+        <r>inspeición<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inspector<s n="adj"/></l>
+        <r>inspeutor<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inspector<s n="n"/></l>
+        <r>inspeutor<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inspiraciónr<s n="n"/></l>
+        <r>inspiración<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>instalación<s n="n"/></l>
+        <r>instalación<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>inspector<s n="n"/></l>
+        <r>inspeutor<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>instancia<s n="n"/></l>
+        <r>instancia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>instante<s n="n"/></l>
+        <r>instante<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>instinto<s n="n"/></l>
+        <r>instintu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>institución<s n="n"/></l>
+        <r>institución<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>institucional<s n="n"/></l>
+        <r>institucional<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>instituto<s n="n"/></l>
+        <r>institutu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>instrucción<s n="n"/></l>
+        <r>instrucción<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>instruido<s n="adj"/></l>
+        <r>instruyíu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>instrumento<s n="n"/></l>
+        <r>instrumentu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>instructor<s n="n"/></l>
+        <r>profesor<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>insulto<s n="n"/></l>
+        <r>insultu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>insufrible<s n="adj"/></l>
+        <r>insufrible<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>integración<s n="n"/></l>
+        <r>integración<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>integrante<s n="n"/></l>
+        <r>integrante<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>intelecto<s n="n"/></l>
+        <r>intelectu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>intelectual<s n="adj"/></l>
+        <r>intelectual<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intelectual<s n="n"/></l>
+        <r>intelectual<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inteligencia<s n="n"/></l>
+        <r>intelixencia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inteligente<s n="adj"/></l>
+        <r>intelixente<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intemperie<s n="n"/></l>
+        <r>albentestate<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intención<s n="n"/></l>
+        <r>intención<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intensidad<s n="n"/></l>
+        <r>intensidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intenso<s n="adj"/></l>
+        <r>intensu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>intento<s n="n"/></l>
+        <r>intentu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>interacción<s n="n"/></l>
+        <r>interaición<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>intercambio<s n="n"/></l>
+        <r>intercambiu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>interesante<s n="adj"/></l>
+        <r>interesante<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>interés<s n="n"/></l>
+        <r>interés<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>interior<s n="n"/></l>
+        <r>interior<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>interior<s n="adj"/></l>
+        <r>interior<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>interioridad<s n="n"/></l>
+        <r>interioridá<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>interior<s n="n"/></l>
+        <r>interior<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>internacional<s n="adj"/></l>
+        <r>internacional<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>interno<s n="n"/></l>
+        <r>internu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>interno<s n="adj"/></l>
+        <r>internu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>interpretación<s n="n"/></l>
+        <r>interpretación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intérprete<s n="n"/></l>
+        <r>intérprete<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>interrupción<s n="n"/></l>
+        <r>interrupción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intervención<s n="n"/></l>
+        <r>intervención<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>interjección<s n="n"/></l>
+        <r>interxeición<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intimidad<s n="n"/></l>
+        <r>intimidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>íntimo<s n="n"/></l>
+        <r>íntimu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intolerable<s n="adj"/></l>
+        <r>intolerable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>rato<s n="n"/></l>
+        <r>ratu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intrépido<s n="n"/></l>
+        <r>atrevíu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intriga<s n="n"/></l>
+        <r>intriga<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>introducción<s n="n"/></l>
+        <r>introducción<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intruso<s n="n"/></l>
+        <r>foriatu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>intruso<s n="adj"/></l>
+        <r>foriatu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inundación<s n="n"/></l>
+        <r>inundación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inútil<s n="adj"/></l>
+        <r>inútil<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inútil<s n="n"/></l>
+        <r>inútil<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invalidez<s n="n"/></l>
+        <r>invalidez<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invariable<s n="adj"/></l>
+        <r>invariable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invasión<s n="n"/></l>
+        <r>invasión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invención<s n="n"/></l>
+        <r>invención<s n="n"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>inventario<s n="n"/></l>
+        <r>inventariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invento<s n="n"/></l>
+        <r>inventu<s n="n"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>inventor<s n="adj"/></l>
+        <r>inventor<s n="adj"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>inventor<s n="n"/></l>
+        <r>inventor<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invierno<s n="n"/></l>
+        <r>inviernu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>inversión<s n="n"/></l>
+        <r>inversión<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>investigación<s n="n"/></l>
+        <r>investigación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>investigador<s n="adj"/></l>
+        <r>investigador<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>investigador<s n="n"/></l>
+        <r>investigador<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>inversión<s n="n"/></l>
+        <r>inversión<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invisible<s n="adj"/></l>
+        <r>invisible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invitación<s n="n"/></l>
+        <r>invitación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>invitado<s n="adj"/></l>
+        <r>invitáu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>invitado<s n="n"/></l>
+        <r>invitáu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>involuntario<s n="n"/></l>
+        <r>involuntariu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ingenuo<s n="adj"/></l>
+        <r>inxenuu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>injuria<s n="n"/></l>
+        <r>inxuria<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>injurioso<s n="adj"/></l>
+        <r>inxuriosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>injusticia<s n="n"/></l>
+        <r>inxusticia<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>injusto<s n="adj"/></l>
+        <r>inxustu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ira<s n="n"/></l>
+        <r>ira<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>furioso<s n="adj"/></l>
+        <r>furiosu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hermano<s n="n"/></l>
+        <r>hermanu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ironía<s n="n"/></l>
+        <r>ironía<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>irreal<s n="adj"/></l>
+        <r>irreal<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>irrefutable<s n="adj"/></l>
+        <r>innegable<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>irregular<s n="adj"/></l>
+        <r>irregular<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>irregularidad<s n="n"/></l>
+        <r>irregularidá<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>irresistible<s n="adj"/></l>
+        <r>irresistible<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>irresponsable<s n="adj"/></l>
+        <r>irresponsable<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>irritación<s n="n"/></l>
+        <r>irritación<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>rígido<s n="adj"/></l>
+        <r>tiesu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>islámico<s n="adj"/></l>
+        <r>islámicu<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>israelí<s n="adj"/></l>
+        <r>israelín<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>israelí<s n="n"/></l>
+        <r>israelín<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>italiano<s n="adj"/></l>
+        <r>italianu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>italiano<s n="n"/></l>
+        <r>italianu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>lana<s n="n"/></l>
+        <r>llana<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>labio<s n="n"/></l>
+        <r>llabiu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>laberinto<s n="n"/></l>
+        <r>laberintu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>labor<s n="n"/><s n="f"/></l>
+        <r>llabor<s n="n"/><s n="m"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>laboral<s n="n"/></l>
+        <r>llaboral<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>laboratorio<s n="n"/></l>
+        <r>llaboratoriu<s n="n"/></r>
+      </p>
+    </e>
+       <e>
+      <p>
+        <l>laborioso<s n="n"/></l>
+        <r>llaboriosu<s n="n"/></r>
+      </p>
+    </e>
+      <e>
+      <p>
+        <l>labrador<s n="adj"/></l>
+        <r>llabrador<s n="adj"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>labrador<s n="n"/></l>
+        <r>llabrador<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>vago<s n="n"/></l>
+        <r>folgazán<s n="n"/></r>
+      </p>
+    </e>
+        <e>
+      <p>
+        <l>vago<s n="adj"/></l>
+        <r>vagu<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vago<s n="n"/></l>
+        <r>vagu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>lado<s n="n"/></l>
+        <r>llau<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ladrillo<s n="n"/></l>
+        <r>lladriyu<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ladrón<s n="n"/></l>
+        <r>lladrón<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>ladrón<s n="adj"/></l>
+        <r>lladrón<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>laguna<s n="n"/></l>
+        <r>llaguna<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>lago<s n="n"/></l>
+        <r>llagu<s n="n"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>lágrima<s n="n"/></l>
+        <r>llárima<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>lágrima<s n="n"/></l>
+        <r>llárima<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>lamento<s n="n"/></l>
+        <r>llamentu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>lamentación<s n="n"/></l>
+        <r>llamentu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>lamentable<s n="adj"/></l>
+        <r>llamentable<s n="adj"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>lámpara<s n="n"/></l>
+        <r>lámpara<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>lancha<s n="n"/></l>
+        <r>llancha<s n="n"/></r>
+      </p>
+    </e>
+     <e>
+      <p>
+        <l>lanzamiento<s n="n"/></l>
+        <r>lanzamientu<s n="n"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>llama<s n="n"/></l>
+        <r>llama<s n="n"/></r>
+      </p>
+    </e>
+  </section>
 </dictionary>

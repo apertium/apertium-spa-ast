@@ -23,8 +23,8 @@ echo "-------------------"
 echo "tú te comes una manzana: "
 echo "tú te comes una manzana" | apertium es-ast
 echo "-------------------"
-echo "tú te hablas a ti mismo: "
-echo "tú te hablas a ti mismo" | apertium es-ast
+echo "tú te hablas a ti: "
+echo "tú te hablas a ti" | apertium es-ast
 echo "-------------------"
 echo "multipalabra1 -  a ciegas: "
 echo "a ciegas" | apertium es-ast
