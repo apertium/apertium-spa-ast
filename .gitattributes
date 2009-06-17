@@ -30,7 +30,10 @@ dev/asturian.freqlist.txt -text
 scripts/script_apostrofes -text
 scripts/script_cliticos -text
 scripts/script_cliticos_aburrir -text
+scripts/script_cliticos_dir -text
 scripts/script_cliticos_llamber -text
+scripts/script_cliticos_sembrar -text
 scripts/script_cliticos_tener -text
+scripts/script_contracciones -text
 scripts/script_neutro -text
 scripts/script_verbos -text

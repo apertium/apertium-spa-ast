@@ -1,0 +1,133 @@
+echo "-------------------"
+echo "a el Gijón: "
+echo "a el Gijón" | apertium es-ast
+echo "-------------------"
+echo "al Gijón: "
+echo "al Gijón" | apertium es-ast
+echo "-------------------"
+echo "de el Gijón: "
+echo "de el Gijón" | apertium es-ast
+echo "-------------------"
+echo "so el campo: "
+echo "so el campo" | apertium es-ast
+echo "-------------------"
+echo "con el Gijón: "
+echo "con el Gijón" | apertium es-ast
+echo "-------------------"
+echo "con la manzana: "
+echo "con la manzana" | apertium es-ast
+echo "-------------------"
+echo "con lo guapo: "
+echo "con lo guapo" | apertium es-ast
+echo "-------------------"
+echo "con los andamios "
+echo "con los andamios" | apertium es-ast
+echo "-------------------"
+echo "con las manzanas: "
+echo "con las manzanas" | apertium es-ast
+echo "-------------------"
+echo "con la Asturias: "
+echo "con la Asturias" | apertium es-ast
+echo "-------------------"
+echo "para el Gijón: "
+echo "para el Gijón" | apertium es-ast
+echo "-------------------"
+echo "para la manzana: "
+echo "para la manzana" | apertium es-ast
+echo "-------------------"
+echo "para lo guapo: "
+echo "para lo guapo" | apertium es-ast
+echo "-------------------"
+echo "para los andamios "
+echo "para los andamios" | apertium es-ast
+echo "-------------------"
+echo "para las manzanas: "
+echo "para las manzanas" | apertium es-ast
+echo "-------------------"
+echo "por el Gijón: "
+echo "por el Gijón" | apertium es-ast
+echo "-------------------"
+echo "por la manzana: "
+echo "por la manzana" | apertium es-ast
+echo "-------------------"
+echo "por lo guapo: "
+echo "por lo guapo" | apertium es-ast
+echo "-------------------"
+echo "por los andamios "
+echo "por los andamios" | apertium es-ast
+echo "-------------------"
+echo "por las manzanas: "
+echo "por las manzanas" | apertium es-ast
+echo "-------------------"
+echo "en el Gijón: "
+echo "en el Gijón" | apertium es-ast
+echo "-------------------"
+echo "en la manzana: "
+echo "en la manzana" | apertium es-ast
+echo "-------------------"
+echo "en lo guapo: "
+echo "en lo guapo" | apertium es-ast
+echo "-------------------"
+echo "en los andamios "
+echo "en los andamios" | apertium es-ast
+echo "-------------------"
+echo "en las manzanas: "
+echo "en las manzanas" | apertium es-ast
+echo "-------------------"
+echo "en un campo: "
+echo "en un campo" | apertium es-ast
+echo "-------------------"
+echo "en una manzana: "
+echo "en una manzana" | apertium es-ast
+echo "-------------------"
+echo "en unos andamios "
+echo "en unos andamios" | apertium es-ast
+echo "-------------------"
+echo "en unas manzanas: "
+echo "en unas manzanas" | apertium es-ast
+echo "-------------------"
+echo "en este campo: "
+echo "en este campo" | apertium es-ast
+echo "-------------------"
+echo "en esta manzana: "
+echo "en esta manzana" | apertium es-ast
+echo "-------------------"
+echo "en estos andamios "
+echo "en estos andamios" | apertium es-ast
+echo "-------------------"
+echo "en esto de allí "
+echo "en esto de allí" | apertium es-ast
+echo "-------------------"
+echo "en estas manzanas: "
+echo "en estas manzanas" | apertium es-ast
+echo "-------------------"
+echo "en ese campo: "
+echo "en ese campo" | apertium es-ast
+echo "-------------------"
+echo "en esa manzana: "
+echo "en esa manzana" | apertium es-ast
+echo "-------------------"
+echo "en esos andamios "
+echo "en esos andamios" | apertium es-ast
+echo "-------------------"
+echo "en eso de allí "
+echo "en eso de allí" | apertium es-ast
+echo "-------------------"
+echo "en esas manzanas: "
+echo "en esas manzanas" | apertium es-ast
+echo "-------------------"
+echo "en aquel campo: "
+echo "en aquel campo" | apertium es-ast
+echo "-------------------"
+echo "en aquella manzana: "
+echo "en aquella manzana" | apertium es-ast
+echo "-------------------"
+echo "en aquellos andamios "
+echo "en aquellos andamios" | apertium es-ast
+echo "-------------------"
+echo "en aquello de allí "
+echo "en aquello de allí" | apertium es-ast
+echo "-------------------"
+echo "en aquellas manzanas: "
+echo "en aquellas manzanas" | apertium es-ast
+echo "-------------------"

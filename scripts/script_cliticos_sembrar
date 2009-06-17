@@ -1,0 +1,93 @@
+echo "-------------------"
+echo "te siembra: "
+echo "te siembra" | apertium -d .. es-ast-transfer
+echo "te siembra" | apertium es-ast
+echo "-------------------"
+echo "se siembran: "
+echo "se siembran" | apertium -d .. es-ast-transfer
+echo "se siembran" | apertium es-ast
+echo "-------------------"
+echo "le sembraban: "
+echo "le sembraban" | apertium -d .. es-ast-transfer
+echo "le sembraban" | apertium es-ast
+echo "-------------------"
+echo "las sambráis: "
+echo "las sembráis" | apertium -d .. es-ast-transfer
+echo "las sembráis" | apertium es-ast
+echo "-------------------"
+echo "nos sombramos: "
+echo "nos sembramos" | apertium -d .. es-ast-transfer
+echo "nos sembramos" | apertium es-ast
+echo "-------------------"
+echo "os siembran: "
+echo "os siembran" | apertium -d .. es-ast-transfer
+echo "os siembran" | apertium es-ast
+echo "-------------------"
+echo "te las sembrarán: "
+echo "te las sembrarán" | apertium -d .. es-ast-transfer
+echo "te las sembrarán" | apertium es-ast
+echo "------------------"
+echo "os lo sembrarían: "
+echo "os lo sembrarían" | apertium -d .. es-ast-transfer
+echo "os lo sembrarían" | apertium es-ast
+echo "-------------------"
+echo "nos lo sembraremos: "
+echo "nos lo sembraremos" | apertium -d .. es-ast-transfer
+echo "nos lo sembraremos" | apertium es-ast
+echo "-------------------"
+echo "se lo sembró: "
+echo "se lo sembró" | apertium -d .. es-ast-transfer
+echo "se lo sembró" | apertium es-ast
+echo "-------------------"
+echo "que lo siembre: "
+echo "que lo siembre" | apertium -d .. es-ast-transfer
+echo "que lo siembre" | apertium es-ast
+echo "-------------------"
+echo "y lo siembre: "
+echo "y lo siembre" | apertium -d .. es-ast-transfer
+echo "y lo siembre" | apertium es-ast
+echo "-------------------"
+echo "se sembraron: "
+echo "se sembraron" | apertium -d .. es-ast-transfer
+echo "se sembraron" | apertium es-ast
+echo "-------------------"
+echo "nos lo sembrábamos: "
+echo "nos lo sembrábamos" | apertium -d .. es-ast-transfer
+echo "nos lo sembrábamos" | apertium es-ast
+echo "-------------------"
+echo "le sembraba: "
+echo "le sembraba" | apertium -d .. es-ast-transfer
+echo "le sembraba" | apertium es-ast
+echo "-------------------"
+echo "nos lo sembráramos: "
+echo "nos lo sembráramos" | apertium -d .. es-ast-transfer
+echo "nos lo sembráramos" | apertium es-ast
+echo "-------------------"
+echo "se sembrara: "
+echo "se sembrara" | apertium -d .. es-ast-transfer
+echo "se sembrara" | apertium es-ast
+echo "-------------------"
+echo "nos sembremos: "
+echo "nos sembremos" | apertium -d .. es-ast-transfer
+echo "nos sembremos" | apertium es-ast
+echo "-------------------"
+echo "le siembres: "
+echo "le siembres" | apertium -d .. es-ast-transfer
+echo "le siembres" | apertium es-ast
+echo "-------------------"
+echo "lo sembraré: "
+echo "lo sembraré" | apertium -d .. es-ast-transfer
+echo "lo sembraré" | apertium es-ast
+echo "-------------------"
+echo "sembrárselo: "
+echo "sembrárselo" | apertium -d .. es-ast-transfer
+echo "sembrárselo" | apertium es-ast
+echo "-------------------"
+echo "siémbralo: "
+echo "siémbralo" | apertium -d .. es-ast-transfer
+echo "siémbralo" | apertium es-ast
+echo "-------------------"
+echo "sembrándolo: "
+echo "sembrándolo" | apertium -d .. es-ast-transfer
+echo "sembrándolo" | apertium es-ast
+echo "-------------------"

@@ -1,0 +1,97 @@
+echo "-------------------"
+echo "te va: "
+echo "te va" | apertium -d .. es-ast-transfer
+echo "te va" | apertium es-ast
+echo "-------------------"
+echo "se van: "
+echo "se van" | apertium -d .. es-ast-transfer
+echo "se van" | apertium es-ast
+echo "-------------------"
+echo "le irían: "
+echo "le irían" | apertium -d .. es-ast-transfer
+echo "le irían" | apertium es-ast
+echo "-------------------"
+echo "las vayáis: "
+echo "las vayáis" | apertium -d .. es-ast-transfer
+echo "las vayáis" | apertium es-ast
+echo "-------------------"
+echo "nos vayamos: "
+echo "nos vayamos" | apertium -d .. es-ast-transfer
+echo "nos vayamos" | apertium es-ast
+echo "-------------------"
+echo "os irán: "
+echo "os irán" | apertium -d .. es-ast-transfer
+echo "os irán" | apertium es-ast
+echo "-------------------"
+echo "te las irán: "
+echo "te las irán" | apertium -d .. es-ast-transfer
+echo "te las irán" | apertium es-ast
+echo "------------------"
+echo "os lo irían: "
+echo "os lo irían" | apertium -d .. es-ast-transfer
+echo "os lo irían" | apertium es-ast
+echo "-------------------"
+echo "nos lo irán: "
+echo "nos lo irán" | apertium -d .. es-ast-transfer
+echo "nos lo irán" | apertium es-ast
+echo "-------------------"
+echo "se lo fue: "
+echo "se lo fue" | apertium -d .. es-ast-transfer
+echo "se lo fue" | apertium es-ast
+echo "-------------------"
+echo "que te vayan: "
+echo "que te vayan" | apertium -d .. es-ast-transfer
+echo "que te vayan" | apertium es-ast
+echo "-------------------"
+echo "y lo vayáis: "
+echo "y lo vayáis" | apertium -d .. es-ast-transfer
+echo "y lo vayáis" | apertium es-ast
+echo "-------------------"
+echo "se iba: "
+echo "se iba" | apertium -d .. es-ast-transfer
+echo "se iba" | apertium es-ast
+echo "-------------------"
+echo "se fueron: "
+echo "se fueron" | apertium -d .. es-ast-transfer
+echo "se fueron" | apertium es-ast
+echo "-------------------"
+echo "te lo iríamos: "
+echo "te lo iríamos" | apertium -d .. es-ast-transfer
+echo "te lo iríamos" | apertium es-ast
+echo "-------------------"
+echo "le iría: "
+echo "le iría" | apertium -d .. es-ast-transfer
+echo "le iría" | apertium es-ast
+echo "-------------------"
+echo "nos lo fuéramos: "
+echo "nos lo fuéramos" | apertium -d .. es-ast-transfer
+echo "nos lo fuéramos" | apertium es-ast
+echo "-------------------"
+echo "se fuera: "
+echo "se fuera" | apertium -d .. es-ast-transfer
+echo "se fuera" | apertium es-ast
+echo "-------------------"
+echo "nos fuéramos: "
+echo "nos fuéramos" | apertium -d .. es-ast-transfer
+echo "nos fuéramos" | apertium es-ast
+echo "-------------------"
+echo "le fueras: "
+echo "le fueras" | apertium -d .. es-ast-transfer
+echo "le fueras" | apertium es-ast
+echo "-------------------"
+echo "lo iré: "
+echo "lo iré" | apertium -d .. es-ast-transfer
+echo "lo iré" | apertium es-ast
+echo "-------------------"
+echo "írselo: "
+echo "írselo" | apertium -d .. es-ast-transfer
+echo "írselo" | apertium es-ast
+echo "-------------------"
+echo "véme: "
+echo "véme" | apertium -d .. es-ast-transfer
+echo "véme" | apertium es-ast
+echo "-------------------"
+echo "yéndolo: "
+echo "yéndolo" | apertium -d .. es-ast-transfer
+echo "yéndolo" | apertium es-ast
+echo "-------------------"
