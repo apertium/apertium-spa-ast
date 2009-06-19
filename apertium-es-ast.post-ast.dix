@@ -32,7 +32,7 @@
         <i>"</i>
       </e>
       <e>
-        <i>'</i>
+      <i>'</i>
       </e>
       <e>
         <i>~</i>
@@ -44,7 +44,7 @@
         <i>@</i>
       </e>
       <e>
-        <i>Â«</i>
+        <i>«</i>
       </e>
       <e>
         <i>-</i>
@@ -62,10 +62,13 @@
         <i>`</i>
       </e>
       <e>
-        <i>Â±</i>
+        <i>'</i>
       </e>
       <e>
-        <i>Â­</i>
+        <i>±</i>
+      </e>
+      <e>
+        <i>­</i>
       </e>
       <e>
         <i>$</i>
@@ -101,34 +104,34 @@
         <i>u</i>
       </e>
       <e>
-        <i>Ã¨</i>
+        <i>è</i>
       </e>
       <e>
-        <i>Ã¡</i>
+        <i>á</i>
       </e>
       <e>
-        <i>Ã©</i>
+        <i>é</i>
       </e>
       <e>
-        <i>Ã­</i>
+        <i>í</i>
       </e>
       <e>
-        <i>Ã³</i>
+        <i>ó</i>
       </e>
       <e>
-        <i>Ãº</i>
+        <i>ú</i>
       </e>
       <e>
-        <i>Ã¢</i>
+        <i>â</i>
       </e>
       <e>
-        <i>Ãª</i>
+        <i>ê</i>
       </e>
       <e>
-        <i>Ã®</i>
+        <i>î</i>
       </e>
       <e>
-        <i>Ã´</i>
+        <i>ô</i>
       </e>
       <e>
         <i>h</i>
@@ -184,6 +187,22 @@
       </e>
     </pardef>
 
+    <pardef n="contraccion_cada">
+      <e>
+        <p>
+          <l><b/><a/>uno</l>
+          <r>úno</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>una</l>
+          <r>úna</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
 
     <pardef n="contraccion_en">
       <e>
@@ -368,6 +387,133 @@
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/>éses</l>
+          <r>éses</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ésos</l>
+          <r>ésos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ési</l>
+          <r>ési</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ésa</l>
+          <r>ésa</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>éstes</l>
+          <r>éstes</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>éstos</l>
+          <r>éstos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ésti</l>
+          <r>ésti</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ésta</l>
+          <r>ésta</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquélles</l>
+          <r>aquélles</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquéllos</l>
+          <r>aquéllos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquél</l>
+          <r>aquél</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquélla</l>
+          <r>aquélla</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>aquélli</l>
+          <r>aquélli</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+
+      <e>
+        <p>
+          <l><b/><a/>él</l>
+          <r>él</r>
+        </p>
+        <par n="caracter_general"/> 
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ello</l>
+          <r>ello</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ella</l>
+          <r>ella</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ellos</l>
+          <r>ellos</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>elles</l>
+          <r>elles</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
     </pardef>
 
 
@@ -445,11 +591,54 @@
       </e>
       <e>
         <p>
+          <l><a/>tou</l>
+          <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>toa</l>
+          <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>too</l>
+          <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>toos</l>
+          <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>toes</l>
+          <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>cada</l>
+          <r>ca</r>
+        </p>
+        <par n="contraccion_cada"/>
+      </e>
+      <e>
+        <p>
           <l><a/>pa</l>
           <r>p</r>
         </p>
         <par n="apostrofe"/>
       </e>
+
       <e>
         <p>
           <l><a/>en</l>
@@ -457,6 +646,7 @@
         </p>
         <par n="apostrofe"/>
       </e>
+
       <e>
         <p>
           <l><a/>me</l>

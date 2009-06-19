@@ -116,9 +116,7 @@
     <e><p><l>os<s n="prn"/></l><r>vos<s n="prn"/></r></p></e>
     <e><p><l>Asturias<s n="np"/></l><r>Asturies<s n="np"/></r></p></e>
     <e><p><l>Gijón<s n="np"/></l><r>Xixón<s n="np"/></r></p></e>
-    <e r="LR"><p><l>él<s n="prn"/></l><r>él<s n="prn"/></r></p></e>
     <e> <p> <l>a<b/>ciegas<s n="adv"/></l> <r>a<b/>ciegues<s n="adv"/></r> </p> </e>
-    <e> <p> <l>aquello<s n="prn"/></l> <r>aquél<s n="prn"/></r> </p> </e>
 <e>
   <p>
      <l>hablar<g><b/>de<b/>más</g><s n="vblex"/></l>
@@ -1592,28 +1590,17 @@
     <!-- Pronoms -->
 
 
-  <e r="LR">
-      <p>
-        <l>ello<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></l>
-        <r>ello<s n="prn"/><s n="tn"/><s n="nt"/></r>
-      </p>
-    </e>
+
     <e>
       <p>
         <l>esto<s n="prn"/><s n="tn"/><s n="nt"/></l>
-        <r>esto<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r>
+        <r>este<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>eso<s n="prn"/><s n="tn"/><s n="nt"/></l>
-        <r>eso<s n="prn"/><s n="tn"/><s n="nt"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>aquello<s n="prn"/><s n="tn"/><s n="nt"/></l>
-        <r>aquello<s n="prn"/><s n="tn"/><s n="nt"/></r>
+        <r>ese<s n="prn"/><s n="tn"/><s n="nt"/></r>
       </p>
     </e>
     <e>
@@ -1622,6 +1609,7 @@
         <r>ési<s n="prn"/><s n="tn"/></r>
       </p>
     </e>
+
      <e>
       <p>
         <l>éste<s n="prn"/><s n="tn"/></l>
@@ -1630,8 +1618,20 @@
     </e>
     <e>
       <p>
-        <l>áquel<s n="prn"/><s n="tn"/></l>
-        <r>áquel<s n="prn"/><s n="tn"/></r>
+        <l>aquél<s n="prn"/><s n="tn"/></l>
+        <r>aquél<s n="prn"/><s n="tn"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>aquéllo<s n="prn"/><s n="tn"/></l>
+        <r>aquél<s n="prn"/><s n="tn"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>aquello<s n="prn"/><s n="tn"/></l>
+        <r>aquel<s n="prn"/><s n="tn"/></r>
       </p>
     </e>
      <e>
@@ -1995,9 +1995,10 @@
     <e>
       <p>
         <l>él<s n="prn"/><s n="tn"/></l>
-        <r>el<s n="prn"/><s n="tn"/></r>
+        <r>él<s n="prn"/><s n="tn"/></r>
       </p>
     </e>
+    <e><p><l>ello<s n="prn"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
     <e r="RL">
       <p>
         <l>él<s n="prn"/><s n="tn"/></l>

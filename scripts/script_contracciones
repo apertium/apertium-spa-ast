@@ -131,3 +131,75 @@ echo "-------------------"
 echo "en aquellas manzanas: "
 echo "en aquellas manzanas" | apertium es-ast
 echo "-------------------"
+echo "en éste: "
+echo "en éste" | apertium es-ast
+echo "-------------------"
+echo "en ésta: "
+echo "en ésta" | apertium es-ast
+echo "-------------------"
+echo "en éstos: "
+echo "en éstos" | apertium es-ast
+echo "-------------------"
+echo "en éstas: "
+echo "en éstas" | apertium es-ast
+echo "-------------------"
+echo "en ése: "
+echo "en ése" | apertium es-ast
+echo "-------------------"
+echo "en ésa: "
+echo "en ésa" | apertium es-ast
+echo "-------------------"
+echo "en ésos "
+echo "en ésos" | apertium es-ast
+echo "-------------------"
+echo "en ésas: "
+echo "en ésas" | apertium es-ast
+echo "-------------------"
+echo "en aquél: "
+echo "en aquél" | apertium es-ast
+echo "-------------------"
+echo "en aquélla: "
+echo "en aquélla" | apertium es-ast
+echo "-------------------"
+echo "en aquéllos "
+echo "en aquéllos" | apertium es-ast
+echo "-------------------"
+echo "en aquéllas: "
+echo "en aquéllas" | apertium es-ast
+echo "-------------------"
+echo "en ello: "
+echo "en ello" | apertium es-ast
+echo "-------------------"
+echo "en ellas: "
+echo "en ellas" | apertium es-ast
+echo "-------------------"
+echo "en ella: "
+echo "en ella" | apertium es-ast
+echo "-------------------"
+echo "en ellos: "
+echo "en ellos" | apertium es-ast
+echo "-------------------"
+echo "en él: "
+echo "en él" | apertium es-ast
+echo "-------------------"
+echo "todo el Gijón: "
+echo "todo el Gijón" | apertium es-ast
+echo "-------------------"
+echo "toda la manzana: "
+echo "toda la manzana" | apertium es-ast
+echo "-------------------"
+echo "todo lo guapo: "
+echo "todo lo guapo" | apertium es-ast
+echo "-------------------"
+echo "todos los andamios "
+echo "todos los andamios" | apertium es-ast
+echo "-------------------"
+echo "todas las manzanas: "
+echo "todas las manzanas" | apertium es-ast
+echo "-------------------"
+echo "cada uno: "
+echo "cada uno" | apertium es-ast
+echo "-------------------"
+echo "cada una: "
+echo "cada una" | apertium es-ast
+echo "-------------------"
