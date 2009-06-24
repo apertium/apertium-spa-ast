@@ -1,0 +1,93 @@
+echo "-------------------"
+echo "te hace: "
+echo "te hace" | apertium -d .. es-ast-transfer
+echo "te hace" | apertium es-ast
+echo "-------------------"
+echo "se hacen: "
+echo "se hacen" | apertium -d .. es-ast-transfer
+echo "se hacen" | apertium es-ast
+echo "-------------------"
+echo "le hacían: "
+echo "le hacían" | apertium -d .. es-ast-transfer
+echo "le hacían" | apertium es-ast
+echo "-------------------"
+echo "las hacéis: "
+echo "las hacéis" | apertium -d .. es-ast-transfer
+echo "las hacéis" | apertium es-ast
+echo "-------------------"
+echo "nos hacemos: "
+echo "nos hacemos" | apertium -d .. es-ast-transfer
+echo "nos hacemos" | apertium es-ast
+echo "-------------------"
+echo "os hacen: "
+echo "os hacen" | apertium -d .. es-ast-transfer
+echo "os hacen" | apertium es-ast
+echo "-------------------"
+echo "te las harán: "
+echo "te las harán" | apertium -d .. es-ast-transfer
+echo "te las harán" | apertium es-ast
+echo "------------------"
+echo "os lo harían: "
+echo "os lo harían" | apertium -d .. es-ast-transfer
+echo "os lo harían" | apertium es-ast
+echo "-------------------"
+echo "nos lo haremos: "
+echo "nos lo haremos" | apertium -d .. es-ast-transfer
+echo "nos lo haremos" | apertium es-ast
+echo "-------------------"
+echo "se lo hizo: "
+echo "se lo hizo" | apertium -d .. es-ast-transfer
+echo "se lo hizo" | apertium es-ast
+echo "-------------------"
+echo "que lo haga: "
+echo "que lo haga" | apertium -d .. es-ast-transfer
+echo "que lo haga" | apertium es-ast
+echo "-------------------"
+echo "y lo haga: "
+echo "y lo haga" | apertium -d .. es-ast-transfer
+echo "y lo haga" | apertium es-ast
+echo "-------------------"
+echo "se hicieron: "
+echo "se hicieron" | apertium -d .. es-ast-transfer
+echo "se hicieron" | apertium es-ast
+echo "-------------------"
+echo "se lo hacíamos: "
+echo "se lo hacíamos" | apertium -d .. es-ast-transfer
+echo "se lo hacíamos" | apertium es-ast
+echo "-------------------"
+echo "le hacía: "
+echo "le hacía" | apertium -d .. es-ast-transfer
+echo "le hacía" | apertium es-ast
+echo "-------------------"
+echo "nos lo haríamos: "
+echo "nos lo haríamos" | apertium -d .. es-ast-transfer
+echo "nos lo haríamos" | apertium es-ast
+echo "-------------------"
+echo "se hiciera: "
+echo "se hiciera" | apertium -d .. es-ast-transfer
+echo "se hiciera" | apertium es-ast
+echo "-------------------"
+echo "nos hiciéramos: "
+echo "nos hiciéramos" | apertium -d .. es-ast-transfer
+echo "nos hiciéramos" | apertium es-ast
+echo "-------------------"
+echo "le hagas: "
+echo "le hagas" | apertium -d .. es-ast-transfer
+echo "le hagas" | apertium es-ast
+echo "-------------------"
+echo "lo haré: "
+echo "lo haré" | apertium -d .. es-ast-transfer
+echo "lo haré" | apertium es-ast
+echo "-------------------"
+echo "hacérselo: "
+echo "hacérselo" | apertium -d .. es-ast-transfer
+echo "hacérselo" | apertium es-ast
+echo "-------------------"
+echo "hazlo: "
+echo "hazlo" | apertium -d .. es-ast-transfer
+echo "hazlo" | apertium es-ast
+echo "-------------------"
+echo "haciéndolo: "
+echo "haciéndolo" | apertium -d .. es-ast-transfer
+echo "haciéndolo" | apertium es-ast
+echo "-------------------"
