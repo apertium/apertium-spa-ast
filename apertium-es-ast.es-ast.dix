@@ -97,6 +97,7 @@
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>aburrir<s n="vblex"/></l><r>aburrir<s n="vblex"/></r></p></e>
     <e><p><l>sembrar<s n="vblex"/></l><r>semar<s n="vblex"/></r></p></e>
+    <e><p><l>hacer<s n="vblex"/></l><r>facer<s n="vblex"/></r></p></e>
     <e><p><l>ir<s n="vblex"/></l><r>dir<s n="vblex"/></r></p></e>
     <e><p><l>acostumbrar<s n="vblex"/></l><r>acostumar<s n="vblex"/></r></p></e>
     <e><p><l>lo<s n="detnt"/></l><r>lo<s n="detnt"/></r></p></e>
@@ -399,6 +400,12 @@
       <p>
         <l>por<s n="pr"/></l>
         <r>por<s n="pr"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>por<s n="pr"/></l>
+        <r>per<s n="pr"/></r>
       </p>
     </e>
     <e>

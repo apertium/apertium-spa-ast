@@ -527,6 +527,16 @@
       </e>
     </pardef>
 
+   <pardef n="contraccion_per">
+      <e>
+        <p>
+          <l><b/><a/>equí</l>
+          <r>equí</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
   </pardefs>
 
 
@@ -630,6 +640,13 @@
           <r>ca</r>
         </p>
         <par n="contraccion_cada"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>per</l>
+          <r>p</r>
+        </p>
+        <par n="contraccion_per"/>
       </e>
       <e>
         <p>
