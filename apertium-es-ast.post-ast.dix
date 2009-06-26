@@ -136,6 +136,54 @@
       <e>
         <i>h</i>
       </e>
+      <e>
+        <i>A</i>
+      </e>
+      <e>
+        <i>E</i>
+      </e>
+      <e>
+        <i>I</i>
+      </e>
+      <e>
+        <i>O</i>
+      </e>
+      <e>
+        <i>U</i>
+      </e>
+      <e>
+        <i>È</i>
+      </e>
+      <e>
+        <i>Á</i>
+      </e>
+      <e>
+        <i>É</i>
+      </e>
+      <e>
+        <i>Í</i>
+      </e>
+      <e>
+        <i>Ó</i>
+      </e>
+      <e>
+        <i>Ú</i>
+      </e>
+      <e>
+        <i>Â</i>
+      </e>
+      <e>
+        <i>Ê</i>
+      </e>
+      <e>
+        <i>Î</i>
+      </e>
+      <e>
+        <i>Ô</i>
+      </e>
+      <e>
+        <i>H</i>
+      </e>
     </pardef>
 
     <pardef n="apostrofe">
@@ -201,7 +249,7 @@
       <e>
         <p>
           <l><b/><a/>uno</l>
-          <r>úno</r>
+          <r>ún</r>
         </p>
         <par n="caracter_general"/>
       </e>
@@ -528,13 +576,7 @@
 
 
    <pardef n="contraccion_del">
-      <e>
-        <p>
-          <l><b/><a/>El</l>
-          <r><b/>El</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
+
       <e>
         <p>
           <l><b/><a/>el</l>
@@ -632,8 +674,22 @@
       </e>
       <e>
         <p>
+          <l><a/>De</l>
+          <r>De</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>
+      <e>
+        <p>
           <l><a/>a</l>
           <r>a</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>A</l>
+          <r>A</r>
         </p>
         <par n="contraccion_del"/>
       </e>
@@ -646,8 +702,8 @@
       </e>
       <e>
         <p>
-          <l><a/>pa</l>
-          <r>p</r>
+          <l><a/>Pa</l>
+          <r>P</r>
         </p>
         <par n="contraccion_pa"/>
       </e>
@@ -660,8 +716,22 @@
       </e>
       <e>
         <p>
+          <l><a/>So</l>
+          <r>So</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>
+      <e>
+        <p>
           <l><a/>con</l>
           <r>co</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>Con</l>
+          <r>Co</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
@@ -674,8 +744,22 @@
       </e>
       <e>
         <p>
+          <l><a/>Per</l>
+          <r>Pe</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
           <l><a/>por</l>
           <r>po</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>Por</l>
+          <r>Po</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
@@ -688,8 +772,22 @@
       </e>
       <e>
         <p>
+          <l><a/>En</l>
+          <r>N</r>
+        </p>
+        <par n="contraccion_en"/>
+      </e>
+      <e>
+        <p>
           <l><a/>tou</l>
           <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>Tou</l>
+          <r>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
@@ -702,8 +800,22 @@
       </e>
       <e>
         <p>
+          <l><a/>Toa</l>
+          <r>To</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
           <l><a/>too</l>
           <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>Too</l>
+          <r>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
@@ -716,8 +828,22 @@
       </e>
       <e>
         <p>
+          <l><a/>Toos</l>
+          <r>To</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
           <l><a/>toes</l>
           <r>to</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>Toes</l>
+          <r>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
@@ -730,8 +856,22 @@
       </e>
       <e>
         <p>
+          <l><a/>Cada</l>
+          <r>Ca</r>
+        </p>
+        <par n="contraccion_cada"/>
+      </e>
+      <e>
+        <p>
           <l><a/>per</l>
           <r>p</r>
+        </p>
+        <par n="contraccion_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>Per</l>
+          <r>P</r>
         </p>
         <par n="contraccion_per"/>
       </e>
@@ -742,7 +882,13 @@
         </p>
         <par n="apostrofe"/>
       </e>
-
+      <e>
+        <p>
+          <l><a/>Pa</l>
+          <r>P</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
       <e>
         <p>
           <l><a/>en</l>
@@ -750,7 +896,13 @@
         </p>
         <par n="apostrofe"/>
       </e>
-
+      <e>
+        <p>
+          <l><a/>En</l>
+          <r>N</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
       <e>
         <p>
           <l><a/>me</l>
@@ -760,8 +912,22 @@
       </e>
       <e>
         <p>
+          <l><a/>Me</l>
+          <r>M</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
           <l><a/>te</l>
           <r>t</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+     <e>
+        <p>
+          <l><a/>Te</l>
+          <r>T</r>
         </p>
         <par n="apostrofe"/>
       </e>
@@ -774,8 +940,22 @@
       </e>
       <e>
         <p>
+          <l><a/>Se</l>
+          <r>S</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
           <l><a/>que</l>
           <r>qu</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>Que</l>
+          <r>Qu</r>
         </p>
         <par n="apostrofe"/>
       </e>
@@ -788,6 +968,13 @@
       </e>
       <e>
         <p>
+          <l><a/>El</l>
+          <r>L</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
           <l><a/>la</l>
           <r>l</r>
         </p>
@@ -795,8 +982,22 @@
       </e>
       <e>
         <p>
+          <l><a/>La</l>
+          <r>L</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
           <l><a/>de</l>
           <r>d</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>De</l>
+          <r>D</r>
         </p>
         <par n="apostrofe"/>
       </e>
