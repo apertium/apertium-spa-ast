@@ -47,7 +47,7 @@
       <program name="lt-proc $1">
         <file name="es-ast.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
+      <program name="lt-proc -c -p">
         <file name="es-ast.autopgen.bin"/>
       </program>
     </pipeline>

@@ -15011,12 +15011,16 @@
           <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
       <e>
         <p>
           <l>as</l> 
           <r>aber<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+
       <e r="LR">
         <p>
           <l>a</l> 
@@ -18604,7 +18608,8 @@
     <e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="dende"><i>dende</i><par n="según__pr"/></e>
     <e lm="durante"><i>durante</i><par n="según__pr"/></e>
-    <e lm="ente"><i>ente</i><par n="según__pr"/></e>
+    <e r="LR" lm="ente"><p><l>ente</l><r>ente<s n="pr"/></r></p></e>
+    <e r="RL" lm="ente"><p><l><a/>ente</l><r>ente<s n="pr"/></r></p></e>
     <e lm="hasta"><i>hasta</i><par n="según__pr"/></e>
     <e r="LR" lm="fasta"><i>fasta</i><par n="según__pr"/></e>
     <e lm="hacia"><i>hacia</i><par n="según__pr"/></e>
@@ -18621,7 +18626,8 @@
     <e r="LR" lm="sobro"><i>sobro</i><par n="según__pr"/></e>
 
     <!-- Alverbios -->
-    <e><i>abaxo</i><par n="tamién__adv"/></e> 
+    <e r="LR" lm="abaxo"><p><l>abaxo</l><r>abaxo<s n="adv"/></r></p></e>
+    <e r="RL" lm="abaxo"><p><l><a/>abaxo</l><r>abaxo<s n="adv"/></r></p></e>
     <e><i>abaxón</i><par n="tamién__adv"/></e>
     <e><i>abaxones</i><par n="tamién__adv"/></e>
     <e><i>abenagüéi</i><par n="tamién__adv"/></e>
@@ -18666,7 +18672,8 @@
     <e><i>alerta</i><par n="tamién__adv"/></e>
     <e><i>algo</i><par n="tamién__adv"/></e>
     <e><i>alingor</i><par n="tamién__adv"/></e>
-    <e><i>allá</i><par n="tamién__adv"/></e>
+    <e r="LR" lm="allá"><p><l>allá</l><r>allá<s n="adv"/></r></p></e>
+    <e r="RL" lm="allá"><p><l><a/>allá</l><r>allá<s n="adv"/></r></p></e>
     <e><i>allabaxo</i><par n="tamién__adv"/></e>
     <e><i>allalantre</i><par n="tamién__adv"/></e>
     <e><i>allalantrón</i><par n="tamién__adv"/></e>
@@ -18721,7 +18728,8 @@
     <e><i>arrémente</i><par n="tamién__adv"/></e>
     <e><i>arrentes</i><par n="tamién__adv"/></e>
     <e><i>arréu</i><par n="tamién__adv"/></e>
-    <e><i>arriba</i><par n="tamién__adv"/></e>
+    <e r="LR" lm="arriba"><p><l>arriba</l><r>arriba<s n="adv"/></r></p></e>
+    <e r="RL" lm="arriba"><p><l><a/>arriba</l><r>arriba<s n="adv"/></r></p></e>
     <e><i>arribón</i><par n="tamién__adv"/></e>
     <e><i>arribona</i><par n="tamién__adv"/></e>
     <e><i>arribones</i><par n="tamién__adv"/></e>
@@ -18820,11 +18828,15 @@
     <e><i>dientro</i><par n="tamién__adv"/></e>
     <e><i>duble</i><par n="tamién__adv"/></e>
     <e><i>efectivamente</i><par n="tamién__adv"/></e>
-    <e><i>ehí</i><par n="tamién__adv"/></e>
+    <e r="LR" lm="ehí"><p><l>ehí</l><r>ehí<s n="adv"/></r></p></e>
+    <e r="RL" lm="ehí"><p><l><a/>ehí</l><r>ehí<s n="adv"/></r></p></e>
+    <e lm="perhí"><p><l>perhí</l><r>perhí<s n="adv"/></r></p></e>
     <e><i>ehína</i><par n="tamién__adv"/></e>
-    <e><i>ellí</i><par n="tamién__adv"/></e>
+    <e r="LR" lm="ellí"><p><l>ellí</l><r>ellí<s n="adv"/></r></p></e>
+    <e r="RL" lm="ellí"><p><l><a/>ellí</l><r>ellí<s n="adv"/></r></p></e>
     <e><i>ellina</i><par n="tamién__adv"/></e>
-    <e><i>embaxo</i><par n="tamién__adv"/></e>
+    <e r="LR" lm="embaxo"><p><l>embaxo</l><r>embaxo<s n="adv"/></r></p></e>
+    <e r="RL" lm="embaxo"><p><l><a/>embaxo</l><r>embaxo<s n="adv"/></r></p></e>
     <e><i>empara</i><par n="tamién__adv"/></e>
     <e><i>empardieces</i><par n="tamién__adv"/></e>
     <e><i>enagora</i><par n="tamién__adv"/></e>
@@ -18836,13 +18848,15 @@
     <e><i>endagora</i><par n="tamién__adv"/></e>
     <e><i>endagüéi</i><par n="tamién__adv"/></e>
     <e><i>endayuri</i><par n="tamién__adv"/></e>
-    <e><i>ende</i><par n="tamién__adv"/></e>
+    <e r="LR" lm="ende"><p><l>ende</l><r>ende<s n="adv"/></r></p></e>
+    <e r="RL" lm="ende"><p><l><a/>ende</l><r>ende<s n="adv"/></r></p></e>
     <e><i>endelantre</i><par n="tamién__adv"/></e>
     <e><i>endenantes</i><par n="tamién__adv"/></e>
     <e><i>endexamás</i><par n="tamién__adv"/></e>
     <e><i>enforma</i><par n="tamién__adv"/></e>
     <e><i>enfrente</i><par n="tamién__adv"/></e>
-    <e><i>enriba</i><par n="tamién__adv"/></e>
+    <e r="LR" lm="enriba"><p><l>enriba</l><r>enriba<s n="adv"/></r></p></e>
+    <e r="RL" lm="enriba"><p><l><a/>enriba</l><r>enriba<s n="adv"/></r></p></e>
     <e><i>ensembre</i><par n="tamién__adv"/></e>
     <e><i>ensiguida</i><par n="tamién__adv"/></e>
     <e><i>entá</i><par n="tamién__adv"/></e>

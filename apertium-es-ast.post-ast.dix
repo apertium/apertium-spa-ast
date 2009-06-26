@@ -149,6 +149,16 @@
     </pardef>
 
 
+   <pardef n="contraccion_pa">
+      <e>
+        <p>
+          <l><b/><a/>ante</l>
+          <r>ante</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+   </pardef>
+
     <pardef n="contraccion_con_por_per">
       <e>
         <p>
@@ -520,6 +530,13 @@
    <pardef n="contraccion_del">
       <e>
         <p>
+          <l><b/><a/>El</l>
+          <r><b/>El</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>el</l>
           <r>l</r>
         </p>
@@ -532,6 +549,69 @@
         <p>
           <l><b/><a/>equí</l>
           <r>equí</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ehí</l>
+          <r>erhí</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ende</l>
+          <r>ende</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ellí</l>
+          <r>ellí</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>allá</l>
+          <r>ellá</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>arriba</l>
+          <r>erriba</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>enriba</l>
+          <r>enriba</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>abaxo</l>
+          <r>erbaxo</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>embaxo</l>
+          <r>embaxo</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ente</l>
+          <r>ente</r>
         </p>
         <par n="caracter_general"/>
       </e>
@@ -563,6 +643,13 @@
           <r>pa</r>
         </p>
         <par n="contraccion_del"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>pa</l>
+          <r>p</r>
+        </p>
+        <par n="contraccion_pa"/>
       </e>
       <e>
         <p>

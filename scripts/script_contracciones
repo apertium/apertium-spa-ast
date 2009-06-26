@@ -203,3 +203,27 @@ echo "-------------------"
 echo "cada una: "
 echo "cada una" | apertium es-ast
 echo "-------------------"
+echo "por aquí: "
+echo "por aquí" | apertium es-ast
+echo "-------------------"
+echo "por ahí: "
+echo "por ahí" | apertium es-ast
+echo "-------------------"
+echo "por allí: "
+echo "por allí" | apertium es-ast
+echo "-------------------"
+echo "por allá: "
+echo "por allá" | apertium es-ast
+echo "-------------------"
+echo "por arriba: "
+echo "por arriba" | apertium es-ast
+echo "-------------------"
+echo "por abajo: "
+echo "por abajo" | apertium es-ast
+echo "-------------------"
+echo "por entre: "
+echo "por entre" | apertium es-ast
+echo "-------------------"
+#echo "para entre: "
+#echo "para entre" | apertium es-ast
+#echo "-------------------"
