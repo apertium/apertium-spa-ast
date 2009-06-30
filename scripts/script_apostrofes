@@ -17,6 +17,9 @@ echo "-------------------"
 echo "la Asturias: "
 echo "la Asturias" | apertium es-ast
 echo "-------------------"
+echo "La Asturias: "
+echo "La Asturias" | apertium es-ast
+echo "-------------------"
 echo "el Asturias: "
 echo "el Asturias" | apertium es-ast
 echo "-------------------"

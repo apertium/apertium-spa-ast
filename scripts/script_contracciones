@@ -14,6 +14,9 @@ echo "-------------------"
 echo "con el Gijón: "
 echo "con el Gijón" | apertium es-ast
 echo "-------------------"
+echo "con el andamio: "
+echo "con el andamio" | apertium es-ast
+echo "-------------------"
 echo "con la manzana: "
 echo "con la manzana" | apertium es-ast
 echo "-------------------"
@@ -61,6 +64,12 @@ echo "por las manzanas" | apertium es-ast
 echo "-------------------"
 echo "en el Gijón: "
 echo "en el Gijón" | apertium es-ast
+echo "-------------------"
+echo "en El Gijón: "
+echo "en El Gijón" | apertium es-ast
+echo "-------------------"
+echo "en La Felguera: "
+echo "en La Felguera" | apertium es-ast
 echo "-------------------"
 echo "en la manzana: "
 echo "en la manzana" | apertium es-ast
