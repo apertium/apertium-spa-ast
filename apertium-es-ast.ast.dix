@@ -15817,6 +15817,14 @@
       </e>
 
 
+      <e>
+        <p>
+          <l>áya</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
 
       <e r="LR">
         <p>
@@ -15824,60 +15832,182 @@
           <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+     <e r="LR">
+        <p>
+          <l>éba</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>ayas</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>áyas</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>ebas</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>ébas</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>aya</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+    <e>
+        <p>
+          <l>áya</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>eba</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
+
+     <e r="LR">
+        <p>
+          <l>éba</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>ayamos</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e>
+        <p>
+          <l>ayámos</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e>
+        <p>
+          <l>ayámo</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>ebamos</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e r="LR">
+        <p>
+          <l>ebámos</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e r="LR">
+        <p>
+          <l>ebámo</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>ayáis</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>ayáis</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>ebáis</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e r="LR">
+        <p>
+          <l>ebáis</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>ayan</l> 
           <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>áyan</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>eban</l> 
@@ -15885,36 +16015,105 @@
         </p>
       </e>	
   
+
+     <e r="LR">
+        <p>
+          <l>éban</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>abré</l> 
           <r>aber<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>abré</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
-          <l>arás</l> 
+          <l>abrás</l> 
           <r>aber<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>abrás</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abrá</l> 
           <r>aber<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+    <e>
+        <p>
+          <l>abrá</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abremos</l> 
           <r>aber<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>abrémos</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+     <e>
+        <p>
+          <l>abrémo</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abréis</l> 
           <r>aber<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>abréis</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abrán</l> 
@@ -15922,48 +16121,144 @@
         </p>
       </e>
 	  
+
+     <e>
+        <p>
+          <l>abrán</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abría</l> 
           <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>abría</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>abríes</l> 
           <r>aber<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+ 
+    <e>
+        <p>
+          <l>abríes</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abría</l> 
           <r>aber<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>  
+
+     <e>
+        <p>
+          <l>abría</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abríamos</l> 
           <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+    <e>
+        <p>
+          <l>abríamos</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e>
+        <p>
+          <l>abríamo</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>abríemos</l> 
           <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>abríemos</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e r="LR">
+        <p>
+          <l>abríemo</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abríais</l> 
           <r>aber<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>abríais</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>abríeis</l> 
           <r>aber<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e r="LR">
+        <p>
+          <l>abríeis</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>abríen</l> 
@@ -15971,6 +16266,15 @@
         </p>
       </e>
 	  
+
+     <e>
+        <p>
+          <l>abríen</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>aber</l> 
@@ -15978,6 +16282,25 @@
         </p>
       </e>
 	  
+
+     <e>
+        <p>
+          <l>abe</l>
+          <r>aber<s n="vblex"/><s n="inf"/><j/></r>
+        </p>
+        <par n="cliticos_ast_1_clitico"/>
+     </e>
+
+
+    <e>
+        <p>
+          <l>abé</l>
+          <r>aber<s n="vblex"/><s n="inf"/><j/></r>
+        </p>
+        <par n="cliticos_ast_2_cliticos"/>
+     </e>
+
+
       <e>
         <p>
           <l>abiendo</l> 
@@ -15985,6 +16308,16 @@
         </p>
       </e>
   
+
+     <e>
+        <p>
+          <l>abiéndo</l>
+          <r>aber<s n="vblex"/><s n="ger"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>abíu</l> 
@@ -16022,12 +16355,41 @@
           <r>aber<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+     <e>
+        <p>
+          <l>as</l>
+          <r>aber<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast_1_clitico"/>
+     </e>
+
+
+    <e>
+        <p>
+          <l>ás</l>
+          <r>aber<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast_2_cliticos"/>
+     </e>
+
+
       <e>
         <p>
           <l>abéi</l> 
           <r>aber<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>abéi</l>
+          <r>aber<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
     </pardef>
 
 
