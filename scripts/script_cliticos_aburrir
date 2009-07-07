@@ -39,9 +39,9 @@ echo "se lo aburrió: "
 echo "se lo aburrió" | apertium -d .. es-ast-transfer
 echo "se lo aburrió" | apertium es-ast
 echo "-------------------"
-echo "que te aburra: "
-echo "que te aburra" | apertium -d .. es-ast-transfer
-echo "que te aburra" | apertium es-ast
+echo "que lo aburra: "
+echo "que lo aburra" | apertium -d .. es-ast-transfer
+echo "que lo aburra" | apertium es-ast
 echo "-------------------"
 echo "y lo aburra: "
 echo "y lo aburra" | apertium -d .. es-ast-transfer
