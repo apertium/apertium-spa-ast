@@ -1,0 +1,93 @@
+echo "-------------------"
+echo "te envía: "
+echo "te envía" | apertium -d .. es-ast-transfer
+echo "te envía" | apertium es-ast
+echo "-------------------"
+echo "se envían: "
+echo "se envían" | apertium -d .. es-ast-transfer
+echo "se envían" | apertium es-ast
+echo "-------------------"
+echo "le enviaban: "
+echo "le enviaban" | apertium -d .. es-ast-transfer
+echo "le enviaban" | apertium es-ast
+echo "-------------------"
+echo "las enviáis: "
+echo "las enviáis" | apertium -d .. es-ast-transfer
+echo "las enviáis" | apertium es-ast
+echo "-------------------"
+echo "nos enviamos: "
+echo "nos enviamos" | apertium -d .. es-ast-transfer
+echo "nos enviamos" | apertium es-ast
+echo "-------------------"
+echo "os envían: "
+echo "os envían" | apertium -d .. es-ast-transfer
+echo "os envían" | apertium es-ast
+echo "-------------------"
+echo "te las enviarán: "
+echo "te las enviarán" | apertium -d .. es-ast-transfer
+echo "te las enviarán" | apertium es-ast
+echo "------------------"
+echo "os lo enviarían: "
+echo "os lo enviarían" | apertium -d .. es-ast-transfer
+echo "os lo enviarían" | apertium es-ast
+echo "-------------------"
+echo "nos lo enviaremos: "
+echo "nos lo enviaremos" | apertium -d .. es-ast-transfer
+echo "nos lo enviaremos" | apertium es-ast
+echo "-------------------"
+echo "se lo envió: "
+echo "se lo envió" | apertium -d .. es-ast-transfer
+echo "se lo envió" | apertium es-ast
+echo "-------------------"
+echo "que lo envíe: "
+echo "que lo envíe" | apertium -d .. es-ast-transfer
+echo "que lo envíe" | apertium es-ast
+echo "-------------------"
+echo "y lo envíe: "
+echo "y lo envíe" | apertium -d .. es-ast-transfer
+echo "y lo envíe" | apertium es-ast
+echo "-------------------"
+echo "se enviaron: "
+echo "se enviaron" | apertium -d .. es-ast-transfer
+echo "se enviaron" | apertium es-ast
+echo "-------------------"
+echo "nos lo enviábamos: "
+echo "nos lo enviábamos" | apertium -d .. es-ast-transfer
+echo "nos lo enviábamos" | apertium es-ast
+echo "-------------------"
+echo "le enviaba: "
+echo "le enviaba" | apertium -d .. es-ast-transfer
+echo "le enviaba" | apertium es-ast
+echo "-------------------"
+echo "nos lo enviáramos: "
+echo "nos lo enviáramos" | apertium -d .. es-ast-transfer
+echo "nos lo enviáramos" | apertium es-ast
+echo "-------------------"
+echo "se enviara: "
+echo "se enviara" | apertium -d .. es-ast-transfer
+echo "se enviara" | apertium es-ast
+echo "-------------------"
+echo "nos enviemos: "
+echo "nos enviemos" | apertium -d .. es-ast-transfer
+echo "nos enviemos" | apertium es-ast
+echo "-------------------"
+echo "le envíes: "
+echo "le envíes" | apertium -d .. es-ast-transfer
+echo "le envíes" | apertium es-ast
+echo "-------------------"
+echo "lo enviaré: "
+echo "lo enviaré" | apertium -d .. es-ast-transfer
+echo "lo enviaré" | apertium es-ast
+echo "-------------------"
+echo "enviárselo: "
+echo "enviárselo" | apertium -d .. es-ast-transfer
+echo "enviárselo" | apertium es-ast
+echo "-------------------"
+echo "envíalo: "
+echo "envíalo" | apertium -d .. es-ast-transfer
+echo "envíalo" | apertium es-ast
+echo "-------------------"
+echo "enviándolo: "
+echo "enviándolo" | apertium -d .. es-ast-transfer
+echo "enviándolo" | apertium es-ast
+echo "-------------------"
