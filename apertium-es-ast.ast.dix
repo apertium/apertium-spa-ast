@@ -17843,30 +17843,90 @@
           <r>ser<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+      <e r="LR">
+        <p>
+          <l>fómos</l>
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+     <e r="LR">
+        <p>
+          <l>fómo</l>
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>fuistis</l> 
           <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+   <e>
+        <p>
+          <l>fuístis</l>
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fuestis</l> 
           <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fuéstis</l>
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fostis</l> 
           <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fóstis</l>
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>fueron</l> 
           <r>ser<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e>
+        <p>
+          <l>fuéron</l>
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>foron</l> 
@@ -17874,54 +17934,161 @@
         </p>
       </e>
 
+
+    <e r="LR">
+        <p>
+          <l>fóron</l>
+          <r>ser<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>yera</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>yéra</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>yeres</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+   <e>
+        <p>
+          <l>yéres</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>yera</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+   <e>
+        <p>
+          <l>yéra</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>yéramos</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e>
+        <p>
+          <l>yéramos</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e>
+        <p>
+          <l>yéramo</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>yéremos</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e r="LR">
+        <p>
+          <l>yéremos</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e r="LR">
+        <p>
+          <l>yéremo</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>yerais</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>yérais</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>yereis</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+   <e r="LR">
+        <p>
+          <l>yéreis</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>yeren</l> 
           <r>ser<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>yéren</l>
+          <r>ser<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
 	  
       <e>
         <p>
@@ -17929,138 +18096,413 @@
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+     <e>
+        <p>
+          <l>fuéra</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fuere</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+   <e r="LR">
+        <p>
+          <l>fuére</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>fora</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+   <e r="LR">
+        <p>
+          <l>fóra</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>fore</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+      <e r="LR">
+        <p>
+          <l>fóre</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>fueras</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
         </p>
-      </e>	  
+      </e>
+
+
+     <e>
+        <p>
+          <l>fuéras</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+	  
       <e r="LR">
         <p>
           <l>fueres</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fuéres</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e r="LR">
         <p>
           <l>foras</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>	  
+
+
+     <e r="LR">
+        <p>
+          <l>fóras</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fores</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e> 
+
+   
+      <e r="LR">
+        <p>
+          <l>fóres</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
+
       <e>
         <p>
           <l>fuera</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>	  	  
+
+
+     <e>
+        <p>
+          <l>fuéra</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fuere</l> 
-          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
+
+     
+     <e r="LR">
+        <p>
+          <l>fuére</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fora</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>	  	  
+
+
+    <e r="LR">
+        <p>
+          <l>fóra</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fore</l> 
-          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
+
+
+     <e r="LR">
+        <p>
+          <l>fóre</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="sg"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>fuéramos</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+    
+     <e>
+        <p>
+          <l>fuéramos</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e>
+        <p>
+          <l>fuéramo</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fuéremos</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fuéremos</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fuéremo</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fóramos</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fóramos</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fóramo</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fóremos</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+   <e r="LR">
+        <p>
+          <l>fóremos</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_sin_nos_ast"/>
+     </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fóremo</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_nos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>fuerais</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e>
+        <p>
+          <l>fuérais</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>fuereis</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>	  
+
+
+
+     <e r="LR">
+        <p>
+          <l>fuéreis</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>forais</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+     <e r="LR">
+        <p>
+          <l>fórais</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>foreis</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+    <e r="LR">
+        <p>
+          <l>fóreis</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>fueran</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
         </p>
-      </e>	  
+      </e>	 
+
+
+    <e>
+        <p>
+          <l>fuéran</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+ 
       <e r="LR">
         <p>
           <l>fueren</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
         </p>
       </e>
+
+
+
+     <e r="LR">
+        <p>
+          <l>fuéren</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>foran</l> 
           <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
         </p>
       </e>	  
+
+
+
+      <e r="LR">
+        <p>
+          <l>fóran</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e r="LR">
         <p>
           <l>foren</l> 
@@ -18068,6 +18510,16 @@
         </p>
       </e>
 	  
+
+
+     <e r="LR">
+        <p>
+          <l>fóren</l>
+          <r>ser<s n="vbser"/><s n="pis"/><s n="p3"/><s n="pl"/><j/></r>
+        </p>
+        <par n="cliticos_ast"/>
+     </e>
+
       <e>
         <p>
           <l>seya</l> 
