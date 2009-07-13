@@ -37,6 +37,7 @@ scripts/script_cliticos_haber -text
 scripts/script_cliticos_hacer -text
 scripts/script_cliticos_llamber -text
 scripts/script_cliticos_sembrar -text
+scripts/script_cliticos_ser -text
 scripts/script_cliticos_tener -text
 scripts/script_contracciones -text
 scripts/script_neutro -text
