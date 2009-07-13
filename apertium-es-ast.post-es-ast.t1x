@@ -1,0 +1,35 @@
+<transfer>
+
+	<section-def-cats>
+	<def-cat n="tot">
+	<cat-item tags="*"/>
+	<cat-item tags="*.*"/>
+	</def-cat>
+	</section-def-cats>
+
+	<section-def-attrs>
+	<def-attr n="a_adj">
+	<attr-item tags="adj"/>
+	</def-attr>
+	</section-def-attrs>
+
+	<section-def-vars>
+	<def-var n="nombre"/>
+	</section-def-vars>
+
+	<section-rules>
+		<rule comment="REGLA: TOT">
+			<pattern>
+			<pattern-item n="tot"/>
+			</pattern>
+
+			<action>
+			<out> <!-- Print ~ before every word -->
+			<lu><lit-tag v="a"/></lu>
+			<lu><clip pos="1" side="tl" part="whole"/></lu>
+			</out>
+			</action>
+		</rule>
+	</section-rules>
+
+</transfer>

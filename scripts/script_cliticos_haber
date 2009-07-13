@@ -83,10 +83,6 @@ echo "habérselo: "
 echo "habérselo" | apertium -d .. es-ast-transfer
 echo "habérselo" | apertium es-ast
 echo "-------------------"
-echo "hazlo: "
-echo "hazlo" | apertium -d .. es-ast-transfer
-echo "hazlo" | apertium es-ast
-echo "-------------------"
 echo "habiéndolo: "
 echo "habiéndolo" | apertium -d .. es-ast-transfer
 echo "habiéndolo" | apertium es-ast

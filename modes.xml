@@ -37,13 +37,10 @@
         <file name="es-ast.t1x.bin"/>
         <file name="es-ast.autobil.bin"/>
       </program>
-
-<!--
       <program name="apertium-transfer -n">
 	<file name="apertium-es-ast.post-es-ast.t1x"/>
-	<file name="post-es-ast.t1x.bin"/>
+        <file name="es-ast.post.t1x.bin"/>
       </program>
--->
       <program name="lt-proc $1">
         <file name="es-ast.autogen.bin"/>
       </program>
@@ -54,6 +51,7 @@
   </mode>
 
 
+
   <mode name="ast-es-anmor">
     <pipeline>
       <program name="lt-proc">
@@ -62,7 +60,7 @@
     </pipeline>
   </mode>
 
-<mode name="ast-es-tagger">
+  <mode name="ast-es-tagger">
     <pipeline>
       <program name="lt-proc">
         <file name="ast-es.automorf.bin"/>
@@ -155,6 +153,7 @@
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
+
   <mode name="es-ast-transfer">
     <pipeline>
       <program name="lt-proc">
@@ -172,6 +171,27 @@
     </pipeline>
   </mode>
 
+  <mode name="es-ast-transfer-post">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-ast.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-ast.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-ast.es-ast.t1x"/>
+        <file name="es-ast.t1x.bin"/>
+        <file name="es-ast.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer">
+	<file name="apertium-es-ast.post-es-ast.t1x"/>
+        <file name="es-ast.post.t1x.bin"/>
+        <file name="es-ast.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
   <mode name="es-ast-generador">
     <pipeline>
@@ -187,15 +207,18 @@
         <file name="es-ast.t1x.bin"/>
         <file name="es-ast.autobil.bin"/>
       </program>
+      <program name="apertium-transfer -n">
+	<file name="apertium-es-ast.post-es-ast.t1x"/>
+        <file name="es-ast.post.t1x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="es-ast.autogen.bin"/>
       </program>
-      <program name="lt-proc -c -p">
+      <program name="lt-proc -c -p ">
         <file name="es-ast.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
-
 
 
 </modes>

@@ -94,8 +94,7 @@
     <e><p><l>haber<s n="vbhaver"/></l><r>haber<s n="vblex"/></r></p></e>
     <e><p><l>trabajar<s n="vblex"/></l><r>trabayar<s n="vblex"/></r></p></e>
     <e><p><l>hablar<s n="vblex"/></l><r>falar<s n="vblex"/></r></p></e>
- <e><p><l>aballar<s n="vblex"/></l><r>aballar<s n="vblex"/></r></p></e>
-
+    <e><p><l>aballar<s n="vblex"/></l><r>aballar<s n="vblex"/></r></p></e>
     <e><p><l>comer<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>aburrir<s n="vblex"/></l><r>aburrir<s n="vblex"/></r></p></e>
@@ -123,13 +122,12 @@
     <e><p><l>Gijón<s n="np"/></l><r>Xixón<s n="np"/></r></p></e>
     <e> <p> <l>a<b/>ciegas<s n="adv"/></l> <r>a<b/>ciegues<s n="adv"/></r> </p> </e>
     <e> <p> <l>por<b/>ahí<s n="adv"/></l> <r>perhí<s n="adv"/></r> </p> </e>
-
-<e>
-  <p>
-     <l>hablar<g><b/>de<b/>más</g><s n="vblex"/></l>
-     <r>falar<g><b/>de<b/>más</g><s n="vblex"/></r>
-  </p>
-</e>
+	<e>
+	  <p>
+	     <l>hablar<g><b/>de<b/>más</g><s n="vblex"/></l>
+	     <r>falar<g><b/>de<b/>más</g><s n="vblex"/></r>
+	  </p>
+	</e>
 
 
 

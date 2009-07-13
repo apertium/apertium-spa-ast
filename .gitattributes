@@ -13,6 +13,7 @@
 /apertium-es-ast.es.dix -text
 /apertium-es-ast.es.tsx -text
 /apertium-es-ast.post-ast.dix -text
+/apertium-es-ast.post-es-ast.t1x -text
 /apertium-es-ast.post-es.dix -text
 /apertium-es-ast.symbols.xml -text
 /ast-es-unsupervised.make -text

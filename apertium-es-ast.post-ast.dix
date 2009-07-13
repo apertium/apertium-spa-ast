@@ -665,6 +665,18 @@
 
   <section id="main" type="standard">
 
+       <e>
+            <p>
+		<l><a/></l>
+		<r></r>
+	    </p>
+	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
+	    <p>
+	    <l><b/><a/><a/>el</l>
+	    <r>'l</r>
+	    </p>
+      </e>
+
       <e>
         <p>
           <l><a/>de</l>
