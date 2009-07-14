@@ -32,3 +32,12 @@ echo "-------------------"
 echo "que se acostumbre: "
 echo "que se acostumbre" | apertium es-ast
 echo "-------------------"
+echo "es el niño: "
+echo "es el niño" | apertium es-ast
+echo "-------------------"
+echo "habla el andamio: "
+echo "habla el andamio " | apertium es-ast
+echo "-------------------"
+echo "habla el niño: "
+echo "habla el niño" | apertium es-ast
+echo "-------------------"

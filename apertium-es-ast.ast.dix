@@ -14164,14 +14164,14 @@
        <par n="cliticos_ast"/>
      </e>
 
-      <e>
+      <e r="LR">
         <p>
           <l>aga</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
 
-     <e>
+     <e r="LR">
         <p>
           <l>ága</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/><j/></r>
@@ -14179,29 +14179,29 @@
        <par n="cliticos_ast"/>
      </e>
 
-      <e r="LR">
+      <e>
         <p>
           <l>aiga</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
 
-     <e r="LR">
+     <e>
         <p>
-          <l>aíga</l>
+          <l>áiga</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/><j/></r>
         </p>
        <par n="cliticos_ast"/>
      </e>
 
-      <e>
+      <e r="LR">
         <p>
           <l>agas</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
         </p>
       </e>
 
-      <e>
+      <e r="LR">
         <p>
           <l>ágas</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/><j/></r>
@@ -14209,7 +14209,7 @@
        <par n="cliticos_ast"/>
      </e>
 
-      <e r="LR">
+      <e>
         <p>
           <l>aigas</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
@@ -14217,22 +14217,22 @@
       </e>
 
 
-     <e r="LR">
+     <e>
         <p>
-          <l>aígas</l>
+          <l>áigas</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/><j/></r>
         </p>
        <par n="cliticos_ast"/>
      </e>
 
-      <e>
+      <e r="LR">
         <p>
           <l>aga</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
 
-     <e>
+     <e r="LR">
         <p>
           <l>ága</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/><j/></r>
@@ -14240,30 +14240,29 @@
        <par n="cliticos_ast"/>
      </e>
 
-      <e r="LR">
+      <e>
         <p>
           <l>aiga</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
         </p>
       </e>
 
-     <e r="LR">
+     <e>
         <p>
-          <l>aíga</l>
+          <l>áiga</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/><j/></r>
         </p>
        <par n="cliticos_ast"/>
      </e>
 
-
-      <e>
+      <e r="LR">
         <p>
           <l>agamos</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
 
-    <e>
+    <e r="LR">
         <p>
           <l>agámos</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
@@ -14271,7 +14270,7 @@
        <par n="cliticos_sin_nos_ast"/>
      </e>
 
-   <e>
+   <e r="LR">
         <p>
           <l>agámo</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
@@ -14280,14 +14279,14 @@
      </e>
 
 
-      <e r="LR">
+      <e>
         <p>
           <l>aigamos</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r> 
         </p>
       </e>
 
-    <e r="LR">
+    <e>
         <p>
           <l>aigámos</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
@@ -14295,7 +14294,7 @@
        <par n="cliticos_sin_nos_ast"/>
      </e>
 
-   <e r="LR">
+   <e>
         <p>
           <l>aigámo</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/><j/></r>
@@ -14304,7 +14303,7 @@
      </e>
 
 
-      <e>
+      <e r="LR">
         <p>
           <l>agáis</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
@@ -14312,7 +14311,7 @@
       </e>
 
 
-     <e>
+     <e r="LR">
         <p>
           <l>agáis</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/><j/></r>
@@ -14321,14 +14320,14 @@
      </e>
 
 
-      <e r="LR">
+      <e>
         <p>
           <l>aigáis</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r> 
         </p>
       </e>
 
-     <e r="LR">
+     <e>
         <p>
           <l>aigáis</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/><j/></r>
@@ -14337,7 +14336,7 @@
      </e>
 
 
-      <e>
+      <e r="LR">
         <p>
           <l>agan</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
@@ -14345,7 +14344,7 @@
       </e>
 
 
-     <e>
+     <e r="LR">
         <p>
           <l>ágan</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/><j/></r>
@@ -14353,17 +14352,17 @@
        <par n="cliticos_ast"/>
      </e>
 
-      <e r="LR">
+      <e>
         <p>
-          <l>aigan</l> 
+          <l>áigan</l> 
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
         </p>
       </e>	
   
 
-     <e r="LR">
+     <e>
         <p>
-          <l>aígan</l>
+          <l>áigan</l>
           <r>acer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/><j/></r>
         </p>
        <par n="cliticos_ast"/>
