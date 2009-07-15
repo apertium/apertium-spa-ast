@@ -41,3 +41,6 @@ echo "-------------------"
 echo "habla el niño: "
 echo "habla el niño" | apertium es-ast
 echo "-------------------"
+echo "que el andamio del niño de ayer: "
+echo "que el andamio del niño de ayer" | apertium es-ast
+echo "-------------------"

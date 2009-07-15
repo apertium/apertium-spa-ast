@@ -194,6 +194,13 @@
         </p>
         <par n="vocals"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/></l>
+          <r>'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
     </pardef>
 
 
@@ -665,6 +672,32 @@
 
   <section id="main" type="standard">
 
+<!--
+       <e>
+            <p>
+		<l><a/></l>
+		<r></r>
+	    </p>
+	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
+	    <p>
+	    <l><b/><a/><a/>el</l>
+	    <r>'l</r>
+	    </p>
+      </e>
+
+      <e>
+            <p>
+		<l><a/><a/></l>
+		<r></r>
+	    </p>
+	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
+	    <p>
+	    <l><b/><a/><a/>el</l>
+	    <r>'l</r>
+	    </p>
+      </e>
+
+-->
 
       <e>
         <p>
@@ -1003,31 +1036,11 @@
         <par n="apostrofe"/>
       </e>
 
-       <e>
-            <p>
-		<l><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
-	    <p>
-	    <l><b/><a/><a/>el</l>
-	    <r>'l</r>
-	    </p>
-      </e>
 
-      <e>
-            <p>
-		<l><a/><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
-	    <p>
-	    <l><b/><a/><a/>el</l>
-	    <r>'l</r>
-	    </p>
-      </e>
+
 
       <!-- Pero si detrás de "el" va una vocal, la apostrofación prioritaria es l' -->
+      <!--
       <e>
             <p>
 		<l><a/><a/></l>
@@ -1053,7 +1066,7 @@
 	    </p>
 	    <re>[AaEeIiOoUu][A-Za-z]*</re>
       </e>
-
+      -->
 
       <!-- Otra menera de apostrofar, con expresiones regulares.
        <e>
@@ -1064,6 +1077,15 @@
 	    <re>[AaEeIiOoUu][A-Za-z]*</re>
       </e>
      -->
+
+       <!-- Otra menera de contraer, con expresiones regulares.
+	<e>
+            <p>
+		<l><a/><a/>de<b/><a/><a/>el</l>
+		<r>del</r>
+	    </p>
+      </e>
+ 	-->
 
 </section>
 
