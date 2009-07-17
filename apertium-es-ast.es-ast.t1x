@@ -623,6 +623,19 @@
 	<list-item v="marchar"/>
     </def-list>
 
+    <!--lista para búsqueda de verbos -y,-yos-->    
+    <!-- falé-yos ayeri -> "falar" está en la lista -->   
+    <!-- aburrílos dempués -> "aburrir" NO está en la lista --> 
+    <def-list n="verbos-y-yos">
+	<list-item v="decir"/>
+	<list-item v="comentar"/>
+	<list-item v="hablar"/>
+	<list-item v="expresar"/>
+	<list-item v="contestar"/>
+	<list-item v="responder"/>
+	<list-item v="preguntar"/>
+    </def-list>
+
 
   </section-def-lists>
 
@@ -6187,6 +6200,46 @@ le hablé ayer -> falé-y ayeri
               <clip pos="2" side="tl" part="persona"/>
               <clip pos="2" side="tl" part="nbr"/>
             </lu>
+         </out> 
+	</when>
+	<when>
+            <test>   
+	      <and>
+                <in caseless="yes"> 
+                  <clip pos="2" side="sl" part="lem"/>
+                  <list n="verbos-y-yos"/>
+                </in>
+		<not>
+		  <equal>
+                    <clip pos="3" side="sl" part="lem"/>
+                    <lit v="de"/>
+                  </equal>
+		</not>
+	      </and>
+	   </test>
+	<out>
+          <mlu><lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lem"/>
+              </get-case-from>
+              <lit-tag v="prn.enc"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu></mlu>
+	    <b/>
+            <lu>
+	      <clip pos="3" side="tl" part="whole"/> 
+	    </lu>
          </out> 
 	</when>
         <otherwise>

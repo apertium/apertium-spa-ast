@@ -8394,13 +8394,13 @@
 
       <e>
         <p>
-          <l>ui</l> 
+          <l>fui</l> 
           <r>dir<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r> 
         </p>
       </e>
       <e>
         <p>
-          <l>ui</l>
+          <l>fui</l>
           <r>dir<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/><j/></r>
         </p>
         <par n="cliticos_ast_1_clitico"/>
@@ -8408,7 +8408,7 @@
 
       <e>
         <p>
-          <l>uí</l>
+          <l>fuí</l>
           <r>dir<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/><j/></r>
         </p>
         <par n="cliticos_ast_2_cliticos"/>

@@ -7,13 +7,29 @@ echo "les hablo: "
 echo "les hablo" | apertium -d .. es-ast-transfer
 echo "les hablo" | apertium es-ast
 echo "-------------------"
+echo "les aburrí después: "
+echo "les aburrí después" | apertium -d .. es-ast-transfer
+echo "les aburrí después" | apertium es-ast
+echo "-------------------"
+echo "les hablé después: "
+echo "les hablé después" | apertium -d .. es-ast-transfer
+echo "les hablé después" | apertium es-ast
+echo "-------------------"
+echo "les hablé de que...: "
+echo "les hablé de que..." | apertium -d .. es-ast-transfer
+echo "les hablé de que..." | apertium es-ast
+echo "-------------------"
 echo "les hablo a los ojos: "
 echo "les hablo a los ojos" | apertium -d .. es-ast-transfer
 echo "les hablo a los ojos" | apertium es-ast
 echo "-------------------"
-echo "les hablé ayer: "
-echo "les hablé ayer" | apertium -d .. es-ast-transfer
-echo "les hablé ayer" | apertium es-ast
+echo "les aburro a ellos: "
+echo "les aburro a ellos" | apertium -d .. es-ast-transfer
+echo "les aburro a ellos" | apertium es-ast
+echo "-------------------"
+echo "les comí las manzanas: "
+echo "les comí las manzanas" | apertium -d .. es-ast-transfer
+echo "les comí las manzanas" | apertium es-ast
 echo "-------------------"
 echo "te hablo: "
 echo "te hablo" | apertium -d .. es-ast-transfer
