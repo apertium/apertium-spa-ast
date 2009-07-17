@@ -158,17 +158,21 @@
 <pardef n="-y__prnenc">
     <e>
       <p>
-        <l>-yos</l> 
-        <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>-y</l> 
+        <l></l> 
         <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
-    </pardef>
+</pardef>
+
+<pardef n="-yos__prnenc">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+</pardef>
+
     <pardef n="~/-y__prnenc">
     <e>
       <p>
@@ -1734,6 +1738,15 @@
     </e>
     </pardef>
 
+    <pardef n="me__prn2">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="te__prn">
     <e r="LR">
       <p>
@@ -1749,6 +1762,15 @@
     </e>
     </pardef>
 
+    <pardef n="te__prn2">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="se__prn">
     <e r="LR">
       <p>
@@ -1760,6 +1782,15 @@
       <p>
         <l><a/>se</l> 
         <r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="se__prn2">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
     </pardef>
@@ -2384,23 +2415,6 @@
     </e>
     </pardef>
 
-
-    <pardef n="te__prn">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-    </pardef>
-    <pardef n="se__prn">
-    <e>
-      <p>
-        <l></l> 
-        <r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-    </e>
-    </pardef>
     <pardef n="nos__prn">
     <e>
       <p>
@@ -2804,14 +2818,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="separ">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="lquest"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="abogacía__n">
       <e>
         <p>
@@ -2916,14 +2922,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="coma">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="cm"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="actri/z__n">
       <e>
         <p>
@@ -2955,14 +2953,6 @@
         <p>
           <l>za</l>
           <r>z<s n="n"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="separa">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="sent"/></r>
         </p>
       </e>
     </pardef>
@@ -3068,14 +3058,6 @@
         </p>
       </e>
     </pardef>
-    <pardef n="numeros">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="num"/></r>
-        </p>
-      </e>
-    </pardef>
     <pardef n="académi/cu__n">
       <e>
         <p>
@@ -3113,14 +3095,6 @@
         <p>
           <l>ues</l>
           <r>a<s n="n"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="pardret">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="rpar"/></r>
         </p>
       </e>
     </pardef>
@@ -3461,14 +3435,6 @@
         <p>
           <l>ús</l>
           <r>ús<s n="n"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="paresq">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="lpar"/></r>
         </p>
       </e>
     </pardef>
@@ -49997,7 +49963,7 @@
     <e><i>martaleñ</i><par n="alde/a__n"/></e>
     <e><i>martella</i><par n="iverna/da__n"/></e>
     <e><i>martellaz</i><par n="us/u__n"/></e>
-    <e><i>martes </i><par n="llunes__n"/></e>
+    <e><i>martes</i><par n="llunes__n"/></e>
     <e><i>martiell</i><par n="us/u__n"/></e>
     <e><i>martinete</i><par n="abordaxe__n"/></e>
     <e><i>martingal</i><par n="alde/a__n"/></e>
@@ -60249,7 +60215,7 @@
     <e><i>Rumanía</i><par n="Asturies__np"/></e>
     <e><i>Rusia</i><par n="Asturies__np"/></e>
     <e><i>San<b/>Marino</i><par n="Asturies__np"/></e>
-    <e><i>Serbia </i><par n="Asturies__np"/></e>
+    <e><i>Serbia</i><par n="Asturies__np"/></e>
     <e><i>Suecia</i><par n="Asturies__np"/></e>
     <e><i>Suiza</i><par n="Asturies__np"/></e>
     <e><i>Turquía</i><par n="Asturies__np"/></e>
@@ -60265,7 +60231,8 @@
   <e lm="se"><i>se</i><par n="se__prnenc"/></e>
   <e lm="nos"><i>nos</i><par n="nos__prnenc"/></e>
   <e lm="vos"><i>vos</i><par n="vos__prnenc"/></e>
-  <e><p><l></l><r>-y</r></p><par n="-y__prnenc"/></e>
+  <e><p><l>-y</l><r>-y</r></p><par n="-y__prnenc"/></e>
+  <e><p><l>-yos</l><r>-y</r></p><par n="-yos__prnenc"/></e>
 
   <e lm="a ciegues"><i>a<b/>ciegues</i><par n="tamién__adv"/></e>
 
@@ -60298,9 +60265,9 @@
     <e r="LR" lm="p'"><p><l>p'</l><r>pa</r></p><par n="según__pr"/></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="qu'"><p><l>qu'</l><r>que</r></p><par n="que__cnjsub"/></e>
-    <e r="LR" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn"/></e>
-    <e r="LR" lm="t'"><p><l>t'</l><r>te</r></p><par n="te__prn"/></e>
-    <e r="LR" lm="s'"><p><l>s'</l><r>se</r></p><par n="se__prn"/></e>
+    <e r="LR" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn2"/></e>
+    <e r="LR" lm="t'"><p><l>t'</l><r>te</r></p><par n="te__prn2"/></e>
+    <e r="LR" lm="s'"><p><l>s'</l><r>se</r></p><par n="se__prn2"/></e>
   </section>
 
   <section id="apostrophes2" type="preblank">

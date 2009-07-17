@@ -14,6 +14,12 @@ echo "-------------------"
 echo "que Asturias: "
 echo "que Asturias" | apertium es-ast
 echo "-------------------"
+echo "la aldea: "
+echo "la aldea" | apertium es-ast
+echo "-------------------"
+echo "la escuela: "
+echo "la escuela" | apertium es-ast
+echo "-------------------"
 echo "la Asturias: "
 echo "la Asturias" | apertium es-ast
 echo "-------------------"

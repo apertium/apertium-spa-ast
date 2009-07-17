@@ -101,7 +101,7 @@
     </pipeline>
   </mode>
 
-<mode name="ast-es-gen">
+  <mode name="ast-es-gen">
     <pipeline>
       <program name="lt-proc">
         <file name="ast-es.automorf.bin"/>
@@ -121,6 +121,7 @@
     </pipeline>
   </mode>
   
+
   <mode name="es-ast-anmor">
     <pipeline>
       <program name="lt-proc">
@@ -240,6 +241,9 @@
       </program>
       <program name="lt-proc -c -p ">
         <file name="es-ast.autopgen.bin"/>
+      </program>
+      <program name="lt-proc -c -p ">
+        <file name="es-ast.autopgen2.bin"/>
       </program>
     </pipeline>
   </mode>

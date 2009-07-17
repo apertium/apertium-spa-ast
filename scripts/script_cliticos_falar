@@ -1,4 +1,20 @@
 echo "-------------------"
+echo "le hablo: "
+echo "le hablo" | apertium -d .. es-ast-transfer
+echo "le hablo" | apertium es-ast
+echo "-------------------"
+echo "les hablo: "
+echo "les hablo" | apertium -d .. es-ast-transfer
+echo "les hablo" | apertium es-ast
+echo "-------------------"
+echo "les hablo a los ojos: "
+echo "les hablo a los ojos" | apertium -d .. es-ast-transfer
+echo "les hablo a los ojos" | apertium es-ast
+echo "-------------------"
+echo "les hablé ayer: "
+echo "les hablé ayer" | apertium -d .. es-ast-transfer
+echo "les hablé ayer" | apertium es-ast
+echo "-------------------"
 echo "te hablo: "
 echo "te hablo" | apertium -d .. es-ast-transfer
 echo "te hablo" | apertium es-ast
@@ -10,10 +26,6 @@ echo "-------------------"
 echo "se hablo: "
 echo "se hablo" | apertium -d .. es-ast-transfer
 echo "se hablo" | apertium es-ast
-echo "-------------------"
-echo "le hablo: "
-echo "le hablo" | apertium -d .. es-ast-transfer
-echo "le hablo" | apertium es-ast
 echo "-------------------"
 echo "la hablo: "
 echo "la hablo" | apertium -d .. es-ast-transfer

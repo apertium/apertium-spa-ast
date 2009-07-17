@@ -186,6 +186,15 @@
       </e>
     </pardef>
 
+   <pardef n="vocal_a_ha">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>ha</i>
+      </e>
+   </pardef>
+
     <pardef n="apostrofe">
       <e>
         <p>
@@ -203,6 +212,22 @@
       </e>
     </pardef>
 
+    <pardef n="apostrofe_a">
+      <e>
+        <p>
+          <l><b/><a/></l>
+          <r>'</r>
+        </p>
+        <par n="vocal_a_ha"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/></l>
+          <r>'</r>
+        </p>
+        <par n="vocal_a_ha"/>
+      </e>
+    </pardef>
 
    <pardef n="contraccion_pa">
       <e>
@@ -914,14 +939,14 @@
           <l><a/><a/>pa</l>
           <r>p</r>
         </p>
-        <par n="apostrofe"/>
+        <par n="apostrofe_a"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Pa</l>
           <r>P</r>
         </p>
-        <par n="apostrofe"/>
+        <par n="apostrofe_a"/>
       </e>
       <e>
         <p>
@@ -1012,14 +1037,14 @@
           <l><a/><a/>la</l>
           <r>l</r>
         </p>
-        <par n="apostrofe"/>
+        <par n="apostrofe_a"/>
       </e>
       <e>
         <p>
           <l><a/><a/>La</l>
           <r>L</r>
         </p>
-        <par n="apostrofe"/>
+        <par n="apostrofe_a"/>
       </e>
       <e>
         <p>

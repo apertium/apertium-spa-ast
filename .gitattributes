@@ -29,10 +29,10 @@ dev/asturian.freqlist.txt -text
 /pending-tests.sh -text
 /regression-tests.sh -text
 scripts/script_apostrofes -text
-scripts/script_cliticos -text
 scripts/script_cliticos_aburrir -text
 scripts/script_cliticos_dir -text
 scripts/script_cliticos_enviar -text
+scripts/script_cliticos_falar -text
 scripts/script_cliticos_haber -text
 scripts/script_cliticos_hacer -text
 scripts/script_cliticos_llamber -text

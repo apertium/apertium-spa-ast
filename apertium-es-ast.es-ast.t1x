@@ -178,7 +178,46 @@
       <cat-item tags="sent"/>
     </def-cat>
     <!-- ? ; : ! -->
- 
+
+    <def-cat n="le_les">
+      <cat-item tags="prn.pro.p3.mf.*" lemma="le"/>
+    </def-cat>
+    <!-- le, les -->
+
+    <def-cat n="no_det_sust_a">
+      <cat-item tags="pr" lemma="ante"/>
+      <cat-item tags="pr" lemma="bajo"/>
+      <cat-item tags="pr" lemma="con"/>
+      <cat-item tags="pr" lemma="contra"/>
+      <cat-item tags="pr" lemma="de"/>
+      <cat-item tags="pr" lemma="desde"/>
+      <cat-item tags="pr" lemma="hacia"/>
+      <cat-item tags="pr" lemma="hasta"/>
+      <cat-item tags="pr" lemma="para"/>
+      <cat-item tags="pr" lemma="por"/>
+      <cat-item tags="pr" lemma="según"/>
+      <cat-item tags="pr" lemma="sobre"/>
+      <cat-item tags="pr" lemma="tras"/>
+      <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="rel.*"/>
+      <cat-item tags="rel"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaber.*"/>
+      <cat-item tags="vbmod.*"/>
+      <cat-item tags="ij"/>
+      <cat-item tags="adv.*"/>
+      <cat-item tags="adv"/>
+      <cat-item tags="preadv"/>
+      <cat-item tags="adj.*"/>
+      <cat-item tags="cnjadv"/>
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjsub"/>
+    </def-cat>
+    <!-- todo menos determinante, sustantivo y preposición "a" -->
+
   </section-def-cats>
 
 
@@ -6097,6 +6136,83 @@ os coméis -> coméis
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="tl" part="nbr"/>
             </lu></mlu>
+         </out> 
+	</otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
+
+
+<!--
+EGV25b pronombre_procl + verbo.
+
+le hablé ayer -> falé-y ayeri
+-->
+
+    
+    <rule>
+      <pattern>
+        <pattern-item n="le_les"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="no_det_sust_a"/>
+      </pattern>
+      <action>
+        <choose>          
+          <when>
+            <test> 
+              <and>
+                <equal>
+                  <clip pos="2" side="sl" part="nbr"/>
+                  <clip pos="1" side="sl" part="nbr"/>
+                </equal> 
+                <equal>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="1" side="sl" part="persona"/>
+                </equal>            
+                <in caseless="yes"><!--in-->
+                  <clip pos="2" side="sl" part="lem"/>
+                  <list n="expletivos"/>
+                </in>
+              </and>
+	   </test>
+          <out>
+	    <lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+         </out> 
+	</when>
+        <otherwise>
+	<out>
+          <mlu><lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <lu>
+              <get-case-from pos="2">
+		<lit v="lu"/>
+              </get-case-from>
+              <lit-tag v="prn.enc"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <lit-tag v="m"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu></mlu>
+	    <b/>
+            <lu>
+	      <clip pos="3" side="tl" part="whole"/> 
+	    </lu>
          </out> 
 	</otherwise>
 	</choose>
