@@ -704,8 +704,14 @@
 
 
 
+
+
+
+
   <section id="main" type="standard">
 
+      <e><p><l><a/></l><r><a/></r></p><re>[A-Za-z]*[AaEeIiOoUuαινσϊ]</re><p><l><b/></l><r><b/></r></p></e>
+      <e><p><l><a/></l><r><a/></r></p><re>[A-Za-z]*[AaEeIiOoUuαινσϊ]</re><p><l><a/></l><r><b/></r></p></e>
       <e>
         <p>
           <l><a/><a/>de</l>

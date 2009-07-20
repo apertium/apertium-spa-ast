@@ -120,16 +120,10 @@
 	    </p>
 	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
 	    <p>
-	    <l><b/><a/><a/>el</l>
+	    <l><b/>el</l>
 	    <r>'l</r>
 	    </p>
-            <p>
-		<l><b/><a/></l>
-		<r><b/></r>
-	    </p>
-	    <re>[BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz][A-Za-z]*</re>
       </e>
-
 
 </section>
 
