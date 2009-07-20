@@ -6204,18 +6204,10 @@ le hablé ayer -> falé-y ayeri
 	</when>
 	<when>
             <test>   
-	      <and>
                 <in caseless="yes"> 
                   <clip pos="2" side="sl" part="lem"/>
                   <list n="verbos-y-yos"/>
                 </in>
-		<not>
-		  <equal>
-                    <clip pos="3" side="sl" part="lem"/>
-                    <lit v="de"/>
-                  </equal>
-		</not>
-	      </and>
 	   </test>
 	<out>
           <mlu><lu>

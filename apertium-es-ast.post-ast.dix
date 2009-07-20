@@ -193,6 +193,15 @@
       <e>
         <i>ha</i>
       </e>
+      <e>
+        <i>A</i>
+      </e>
+      <e>
+        <i>Ha</i>
+      </e>
+      <e>
+        <i>HA</i>
+      </e>
    </pardef>
 
     <pardef n="apostrofe">
@@ -697,33 +706,6 @@
 
   <section id="main" type="standard">
 
-<!--
-       <e>
-            <p>
-		<l><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
-	    <p>
-	    <l><b/><a/><a/>el</l>
-	    <r>'l</r>
-	    </p>
-      </e>
-
-      <e>
-            <p>
-		<l><a/><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
-	    <p>
-	    <l><b/><a/><a/>el</l>
-	    <r>'l</r>
-	    </p>
-      </e>
-
--->
-
       <e>
         <p>
           <l><a/><a/>de</l>
@@ -1018,6 +1000,8 @@
         </p>
         <par n="apostrofe"/>
       </e>
+      <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/></l><r>que<b/>n'</r></p><par n="vocals"/></e>
       <e>
         <p>
           <l><a/><a/>el</l>
@@ -1061,8 +1045,57 @@
         <par n="apostrofe"/>
       </e>
 
+</section>
+<!--
+<section id="l" type="standard">
 
 
+       <e>
+            <p>
+		<l><a/></l>
+		<r></r>
+	    </p>
+	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
+	    <p>
+	    <l><b/><a/><a/>el</l>
+	    <r>'l</r>
+	    </p>
+            <p>
+		<l><b/><a/></l>
+		<r><b/></r>
+	    </p>
+	    <re>[BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz][A-Za-z]*</re>
+      </e>
+
+      <e>
+            <p>
+		<l><a/></l>
+		<r></r>
+	    </p>
+	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
+	    <p>
+	    <l><b/><a/><a/>el<b/><a/></l>
+	    <r><b/>l'</r>
+	    </p>
+	    <re>[AaEeIiOoUu][A-Za-z]*</re>
+      </e>
+
+      <e>
+            <p>
+		<l><a/><a/></l>
+		<r></r>
+	    </p>
+	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
+	    <p>
+	    <l><b/><a/><a/>el</l>
+	    <r>'l</r>
+	    </p>
+      </e>
+
+
+
+
+-->
 
       <!-- Pero si detrás de "el" va una vocal, la apostrofación prioritaria es l' -->
       <!--
@@ -1071,7 +1104,7 @@
 		<l><a/><a/></l>
 		<r></r>
 	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
+	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
 	    <p>
 	    <l><b/><a/><a/>el<b/><a/></l>
 	    <r><b/>l'</r>
@@ -1084,7 +1117,7 @@
 		<l><a/></l>
 		<r></r>
 	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUu]</re>
+	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
 	    <p>
 	    <l><b/><a/><a/>el<b/><a/></l>
 	    <r><b/>l'</r>
@@ -1099,7 +1132,7 @@
 		<l><a/><a/>pa<b/><a/></l>
 		<r>p'</r>
 	    </p>
-	    <re>[AaEeIiOoUu][A-Za-z]*</re>
+	    <re>[AaEeIiOoUuáéíóú][A-Za-z]*</re>
       </e>
      -->
 
@@ -1110,8 +1143,7 @@
 		<r>del</r>
 	    </p>
       </e>
- 	-->
 
 </section>
-
+ 	-->
 </dictionary>

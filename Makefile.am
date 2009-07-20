@@ -38,7 +38,7 @@ $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
 	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
 
-$(PREFIX1).autopgen2.bin: $(BASENAME).post-$(LANG2).dix
+$(PREFIX1).autopgen2.bin: $(BASENAME).post2-$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).post2-$(LANG2).dix
 	lt-comp lr $(BASENAME).post2-$(LANG2).dix $@
 
