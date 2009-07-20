@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+
+  <pardefs>
+
+   <pardef n="vocals">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>i</i>
+      </e>
+      <e>
+        <i>o</i>
+      </e>
+      <e>
+        <i>u</i>
+      </e>
+      <e>
+        <i>è</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>í</i>
+      </e>
+      <e>
+        <i>ó</i>
+      </e>
+      <e>
+        <i>ú</i>
+      </e>
+      <e>
+        <i>â</i>
+      </e>
+      <e>
+        <i>ê</i>
+      </e>
+      <e>
+        <i>î</i>
+      </e>
+      <e>
+        <i>ô</i>
+      </e>
+      <e>
+        <i>h</i>
+      </e>
+      <e>
+        <i>A</i>
+      </e>
+      <e>
+        <i>E</i>
+      </e>
+      <e>
+        <i>I</i>
+      </e>
+      <e>
+        <i>O</i>
+      </e>
+      <e>
+        <i>U</i>
+      </e>
+      <e>
+        <i>È</i>
+      </e>
+      <e>
+        <i>Á</i>
+      </e>
+      <e>
+        <i>É</i>
+      </e>
+      <e>
+        <i>Í</i>
+      </e>
+      <e>
+        <i>Ó</i>
+      </e>
+      <e>
+        <i>Ú</i>
+      </e>
+      <e>
+        <i>Â</i>
+      </e>
+      <e>
+        <i>Ê</i>
+      </e>
+      <e>
+        <i>Î</i>
+      </e>
+      <e>
+        <i>Ô</i>
+      </e>
+      <e>
+        <i>H</i>
+      </e>
+    </pardef>
+
+
+  </pardefs>
+
+
+
+<section id="main" type="standard">
+
+       <e>
+            <p>
+		<l><a/></l>
+		<r></r>
+	    </p>
+	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
+	    <p>
+	    <l><b/><a/><a/>el</l>
+	    <r>'l</r>
+	    </p>
+            <p>
+		<l><b/><a/></l>
+		<r><b/></r>
+	    </p>
+	    <re>[BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz][A-Za-z]*</re>
+      </e>
+
+
+</section>
+
+</dictionary>
