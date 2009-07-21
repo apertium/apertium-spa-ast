@@ -219,7 +219,7 @@
     </pipeline>
   </mode>
 
-  <mode name="es-ast-postgen-intermedio">
+  <mode name="es-ast-postgen-int">
     <pipeline>
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
@@ -249,7 +249,7 @@
     </pipeline>
   </mode>
 
-  <mode name="es-ast-post-gen">
+  <mode name="es-ast-postgen">
     <pipeline>
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>

@@ -185,19 +185,7 @@
     <!-- le, les -->
 
     <def-cat n="no_det_sust_a">
-      <cat-item tags="pr" lemma="ante"/>
-      <cat-item tags="pr" lemma="bajo"/>
-      <cat-item tags="pr" lemma="con"/>
-      <cat-item tags="pr" lemma="contra"/>
-      <cat-item tags="pr" lemma="de"/>
-      <cat-item tags="pr" lemma="desde"/>
-      <cat-item tags="pr" lemma="hacia"/>
-      <cat-item tags="pr" lemma="hasta"/>
-      <cat-item tags="pr" lemma="para"/>
-      <cat-item tags="pr" lemma="por"/>
-      <cat-item tags="pr" lemma="según"/>
-      <cat-item tags="pr" lemma="sobre"/>
-      <cat-item tags="pr" lemma="tras"/>
+      <cat-item tags="pr"/>
       <cat-item tags="num.*"/>
       <cat-item tags="num"/>
       <cat-item tags="prn.*"/>

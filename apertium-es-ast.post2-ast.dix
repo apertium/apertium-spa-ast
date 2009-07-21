@@ -118,7 +118,7 @@
 		<l><a/></l>
 		<r></r>
 	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUuαινσϊ]</re>
+	    <re>[A-Za-z']*[AaEeIiOoUuαινσϊ]</re>
 	    <p>
 	    <l><b/>el</l>
 	    <r>'l</r>

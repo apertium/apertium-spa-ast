@@ -42,11 +42,35 @@ echo "es el niño: "
 echo "es el niño" | apertium es-ast
 echo "-------------------"
 echo "habla el andamio: "
-echo "habla el andamio " | apertium es-ast
+echo "habla el andamio" | apertium es-ast
 echo "-------------------"
 echo "habla el niño: "
 echo "habla el niño" | apertium es-ast
 echo "-------------------"
+echo "que la habilidad: "
+echo "que la habilidad" | apertium es-ast
+echo "-------------------"
+echo "que el perro: "
+echo "que el perro" | apertium es-ast
+echo "-------------------"
+echo "que él habló: "
+echo "que él habló" | apertium es-ast
+echo "-------------------"
 echo "que el andamio del niño de ayer: "
 echo "que el andamio del niño de ayer" | apertium es-ast
+echo "-------------------"
+echo "que en la habilidad: "
+echo "que en la habilidad" | apertium es-ast
+echo "-------------------"
+echo "que en el andamio: "
+echo "que en el andamio" | apertium es-ast
+echo "-------------------"
+echo "que en ese andamio: "
+echo "que en ese andamio" | apertium es-ast
+echo "-------------------"
+echo "es el amo el perro:"
+echo "es el amo el perro" | apertium es-ast
+echo "-------------------"
+echo "en el andamio que está en esa casa comió el perro que en la habilidad de hablar es el más guapo: "
+echo "en el andamio que está en esa casa comió el perro que en la habilidad de hablar es el más guapo" | apertium es-ast
 echo "-------------------"

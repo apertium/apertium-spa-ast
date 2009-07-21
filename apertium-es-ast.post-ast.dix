@@ -204,6 +204,55 @@
       </e>
    </pardef>
 
+
+   <pardef n="consonante">
+      <e><p><l>B</l><r>B</r></p></e>
+      <e><p><l>C</l><r>C</r></p></e>
+      <e><p><l>D</l><r>D</r></p></e>
+      <e><p><l>F</l><r>F</r></p></e>
+      <e><p><l>G</l><r>G</r></p></e>
+      <e><p><l>J</l><r>J</r></p></e>
+      <e><p><l>K</l><r>K</r></p></e>
+      <e><p><l>L</l><r>L</r></p></e>
+      <e><p><l>M</l><r>M</r></p></e>
+      <e><p><l>N</l><r>N</r></p></e>
+      <e><p><l>Ñ</l><r>Ñ</r></p></e>
+      <e><p><l>P</l><r>P</r></p></e>
+      <e><p><l>Q</l><r>Q</r></p></e>
+      <e><p><l>R</l><r>R</r></p></e>
+      <e><p><l>S</l><r>S</r></p></e>
+      <e><p><l>T</l><r>T</r></p></e>
+      <e><p><l>V</l><r>V</r></p></e>
+      <e><p><l>W</l><r>W</r></p></e>
+      <e><p><l>X</l><r>X</r></p></e>
+      <e><p><l>Y</l><r>Y</r></p></e>
+      <e><p><l>Z</l><r>Z</r></p></e>
+
+      <e><p><l>b</l><r>b</r></p></e>
+      <e><p><l>c</l><r>c</r></p></e>
+      <e><p><l>d</l><r>d</r></p></e>
+      <e><p><l>f</l><r>f</r></p></e>
+      <e><p><l>g</l><r>g</r></p></e>
+      <e><p><l>j</l><r>j</r></p></e>
+      <e><p><l>k</l><r>k</r></p></e>
+      <e><p><l>l</l><r>l</r></p></e>
+      <e><p><l>m</l><r>m</r></p></e>
+      <e><p><l>n</l><r>n</r></p></e>
+      <e><p><l>ñ</l><r>ñ</r></p></e>
+      <e><p><l>p</l><r>p</r></p></e>
+      <e><p><l>q</l><r>q</r></p></e>
+      <e><p><l>r</l><r>r</r></p></e>
+      <e><p><l>s</l><r>s</r></p></e>
+      <e><p><l>t</l><r>t</r></p></e>
+      <e><p><l>v</l><r>v</r></p></e>
+      <e><p><l>w</l><r>w</r></p></e>
+      <e><p><l>x</l><r>x</r></p></e>
+      <e><p><l>y</l><r>y</r></p></e>
+      <e><p><l>z</l><r>z</r></p></e>
+    </pardef>
+
+
+
     <pardef n="apostrofe">
       <e>
         <p>
@@ -706,431 +755,410 @@
 
 
 
-
-
   <section id="main" type="standard">
+
+	<!-- marcamos para segundo postgenerador -->
 
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re><p><l><a/></l><r><b/></r></p></e>
+
+
+	<!-- establecemos prioridades en casos especiales -->
+
+      <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/></l><r>que<b/>n'</r></p><par n="vocals"/></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>a<b/><a/><a/>el</l><r>que<b/>al</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>la</l><r>que<b/>na</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>el</l><r>que<b/>nel</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>lo</l><r>que<b/>no</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>los</l><r>que<b/>nos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>les</l><r>que<b/>nes</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>un</l><r>que<b/>nun</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>una</l><r>que<b/>nuna</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>unos</l><r>que<b/>nunos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>unes</l><r>que<b/>nunes</r></p></e>      
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esta</l><r>que<b/>nesta</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esti</l><r>que<b/>nesti</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esto</l><r>que<b/>nesto</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>estos</l><r>que<b/>nestos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>estes</l><r>que<b/>nestes</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esa</l><r>que<b/>nesa</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esi</l><r>que<b/>nesi</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>eso</l><r>que<b/>neso</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esos</l><r>que<b/>nesos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>eses</l><r>que<b/>neses</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquel</l><r>que<b/>naquel</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquella</l><r>que<b/>naquella</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquello</l><r>que<b/>naquello</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquellos</l><r>que<b/>naquellos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquelles</l><r>que<b/>naquelles</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ésta</l><r>que<b/>nésta</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ésti</l><r>que<b/>nésti</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>éstos</l><r>que<b/>néstos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>éstes</l><r>que<b/>néstes</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ésa</l><r>que<b/>nésa</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ési</l><r>que<b/>nési</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ésos</l><r>que<b/>nésos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>éses</l><r>que<b/>néses</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquél</l><r>que<b/>naquél</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquélla</l><r>que<b/>naquélla</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquéllo</l><r>que<b/>naquéllo</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquéllos</l><r>que<b/>naquéllos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>aquélles</l><r>que<b/>naquélles</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ello</l><r>que<b/>nello</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ella</l><r>que<b/>nella</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>él</l><r>que<b/>nél</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ellos</l><r>que<b/>nellos</r></p></e>
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>elles</l><r>que<b/>nelles</r></p></e>
+
+
+
+	<!-- contracciones -->
+
       <e>
         <p>
           <l><a/><a/>de</l>
-          <r>de</r>
+          <r><a/>de</r>
         </p>
         <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/><a/>De</l>
-          <r>De</r>
+          <r><a/>De</r>
         </p>
         <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/><a/>a</l>
-          <r>a</r>
+          <r><a/>a</r>
         </p>
         <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/><a/>A</l>
-          <r>A</r>
+          <r><a/>A</r>
         </p>
         <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/><a/>pa</l>
-          <r>pa</r>
+          <r><a/>pa</r>
         </p>
         <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Pa</l>
-          <r>P</r>
+          <r><a/>P</r>
         </p>
         <par n="contraccion_pa"/>
       </e>
       <e>
         <p>
           <l><a/><a/>so</l>
-          <r>so</r>
+          <r><a/>so</r>
         </p>
         <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/><a/>So</l>
-          <r>So</r>
+          <r><a/>So</r>
         </p>
         <par n="contraccion_del"/>
       </e>
       <e>
         <p>
           <l><a/><a/>con</l>
-          <r>co</r>
+          <r><a/>co</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Con</l>
-          <r>Co</r>
+          <r><a/>Co</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>per</l>
-          <r>pe</r>
+          <r><a/>pe</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Per</l>
-          <r>Pe</r>
+          <r><a/>Pe</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>por</l>
-          <r>po</r>
+          <r><a/>po</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Por</l>
-          <r>Po</r>
+          <r><a/>Po</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>en</l>
-          <r>n</r>
+          <r><a/>n</r>
         </p>
         <par n="contraccion_en"/>
       </e>
       <e>
         <p>
           <l><a/><a/>En</l>
-          <r>N</r>
+          <r><a/>N</r>
         </p>
         <par n="contraccion_en"/>
       </e>
       <e>
         <p>
           <l><a/><a/>tou</l>
-          <r>to</r>
+          <r><a/>to</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Tou</l>
-          <r>To</r>
+          <r><a/>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>toa</l>
-          <r>to</r>
+          <r><a/>to</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Toa</l>
-          <r>To</r>
+          <r><a/>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>too</l>
-          <r>to</r>
+          <r><a/>to</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Too</l>
-          <r>To</r>
+          <r><a/>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>toos</l>
-          <r>to</r>
+          <r><a/>to</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Toos</l>
-          <r>To</r>
+          <r><a/>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>toes</l>
-          <r>to</r>
+          <r><a/>to</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Toes</l>
-          <r>To</r>
+          <r><a/>To</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>cada</l>
-          <r>ca</r>
+          <r><a/>ca</r>
         </p>
         <par n="contraccion_cada"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Cada</l>
-          <r>Ca</r>
+          <r><a/>Ca</r>
         </p>
         <par n="contraccion_cada"/>
       </e>
       <e>
         <p>
           <l><a/><a/>per</l>
-          <r>p</r>
+          <r><a/>p</r>
         </p>
         <par n="contraccion_per"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Per</l>
-          <r>P</r>
+          <r><a/>P</r>
         </p>
         <par n="contraccion_per"/>
       </e>
+
+
+
+	<!-- apóstrofes -->
+
       <e>
         <p>
           <l><a/><a/>pa</l>
-          <r>p</r>
+          <r><a/>p</r>
         </p>
         <par n="apostrofe_a"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Pa</l>
-          <r>P</r>
+          <r><a/>P</r>
         </p>
         <par n="apostrofe_a"/>
       </e>
       <e>
         <p>
           <l><a/><a/>en</l>
-          <r>n</r>
+          <r><a/>n</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>En</l>
-          <r>N</r>
+          <r><a/>N</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>me</l>
-          <r>m</r>
+          <r><a/>m</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Me</l>
-          <r>M</r>
+          <r><a/>M</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>te</l>
-          <r>t</r>
+          <r><a/>t</r>
         </p>
         <par n="apostrofe"/>
       </e>
      <e>
         <p>
           <l><a/><a/>Te</l>
-          <r>T</r>
+          <r><a/>T</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>se</l>
-          <r>s</r>
+          <r><a/>s</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Se</l>
-          <r>S</r>
+          <r><a/>S</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>que</l>
-          <r>qu</r>
+          <r><a/>qu</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>Que</l>
-          <r>Qu</r>
+          <r><a/>Qu</r>
         </p>
         <par n="apostrofe"/>
       </e>
-      <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que<b/>l'</r></p><par n="vocals"/></e>
-      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/></l><r>que<b/>n'</r></p><par n="vocals"/></e>
       <e>
         <p>
           <l><a/><a/>el</l>
-          <r>l</r>
+          <r><a/>l</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>El</l>
-          <r>L</r>
+          <r><a/>L</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>la</l>
-          <r>l</r>
+          <r><a/>l</r>
         </p>
         <par n="apostrofe_a"/>
       </e>
       <e>
         <p>
           <l><a/><a/>La</l>
-          <r>L</r>
+          <r><a/>L</r>
         </p>
         <par n="apostrofe_a"/>
       </e>
       <e>
         <p>
           <l><a/><a/>de</l>
-          <r>d</r>
+          <r><a/>d</r>
         </p>
         <par n="apostrofe"/>
       </e>
       <e>
         <p>
           <l><a/><a/>De</l>
-          <r>D</r>
+          <r><a/>D</r>
         </p>
         <par n="apostrofe"/>
       </e>
 
 </section>
-<!--
-<section id="l" type="standard">
-
-
-       <e>
-            <p>
-		<l><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
-	    <p>
-	    <l><b/><a/><a/>el</l>
-	    <r>'l</r>
-	    </p>
-            <p>
-		<l><b/><a/></l>
-		<r><b/></r>
-	    </p>
-	    <re>[BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz][A-Za-z]*</re>
-      </e>
-
-      <e>
-            <p>
-		<l><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
-	    <p>
-	    <l><b/><a/><a/>el<b/><a/></l>
-	    <r><b/>l'</r>
-	    </p>
-	    <re>[AaEeIiOoUu][A-Za-z]*</re>
-      </e>
-
-      <e>
-            <p>
-		<l><a/><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
-	    <p>
-	    <l><b/><a/><a/>el</l>
-	    <r>'l</r>
-	    </p>
-      </e>
-
-
-
-
--->
-
-      <!-- Pero si detrás de "el" va una vocal, la apostrofación prioritaria es l' -->
-      <!--
-      <e>
-            <p>
-		<l><a/><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
-	    <p>
-	    <l><b/><a/><a/>el<b/><a/></l>
-	    <r><b/>l'</r>
-	    </p>
-	    <re>[AaEeIiOoUu][A-Za-z]*</re>
-      </e>
-
-      <e>
-            <p>
-		<l><a/></l>
-		<r></r>
-	    </p>
-	    <re>[A-Za-z]*[AaEeIiOoUuáéíóú]</re>
-	    <p>
-	    <l><b/><a/><a/>el<b/><a/></l>
-	    <r><b/>l'</r>
-	    </p>
-	    <re>[AaEeIiOoUu][A-Za-z]*</re>
-      </e>
-      -->
 
       <!-- Otra menera de apostrofar, con expresiones regulares.
        <e>
@@ -1142,14 +1170,5 @@
       </e>
      -->
 
-       <!-- Otra menera de contraer, con expresiones regulares.
-	<e>
-            <p>
-		<l><a/><a/>de<b/><a/><a/>el</l>
-		<r>del</r>
-	    </p>
-      </e>
 
-</section>
- 	-->
 </dictionary>
