@@ -80,6 +80,7 @@
 
     <!-- Nomes ordenaos alfabéticamente n'asturianu. Por favor, trata de mantener l'orde nes entraes nueves. ¡Gracies!-->
     <!-- Nouns sorted by asturian language pair. Please, try to keep it in order. Thanks!-->
+
     <e><p><l>leche<s n="n"/><s n="f"/></l><r>lleche<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sal<s n="n"/><s n="f"/></l><r>sal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>harina<s n="n"/><s n="f"/></l><r>farina<s n="n"/><s n="f"/></r></p></e>
@@ -96,7 +97,6 @@
     <e><p><l>que<s n="rel"/><s n="an"/></l><r>que<s n="rel"/><s n="nn"/></r></p></e>
     <e><p><l>caro<s n="adj"/></l><r>caru<s n="adj"/><s n="ind"/></r></p></e>
     <e><p><l>rico<s n="adj"/></l><r>ricu<s n="adj"/><s n="ind"/></r></p></e>
-    <e><p><l>beber<s n="vblex"/></l><r>beber<s n="vblex"/></r></p></e>
     <e><p><l>lo<s n="prn"/></l><r>lu<s n="prn"/></r></p></e>   
     <e><p><l>le<s n="prn"/></l><r>-y<s n="prn"/></r></p></e>   
     <e><p><l>te<s n="prn"/></l><r>te<s n="prn"/></r></p></e>
@@ -258,7 +258,9 @@
       </p>
     </e>
 
-    <!-- Preposicions -->
+
+   
+ <!-- Preposicions -->
 
       <e>
       <p>
@@ -447,7 +449,13 @@
       </p>
     </e>
 
+
+
+
+
+
      <!-- Adverbios -->
+
 
     <e>
       <p>
@@ -1458,7 +1466,10 @@
       </p>
     </e>
 
+
+
      <!-- Determinants -->
+
 
     <e>
       <p>
@@ -1581,11 +1592,10 @@
       </p>
     </e>
 
-   
+
    
 
     <!-- Pronoms -->
-
 
 
     <e>
@@ -1877,14 +1887,7 @@
         <r>lu<s n="prn"/><s n="pro"/></r>
       </p>
     </e>
-<!--
-    <e>
-      <p>
-        <l>lo<s n="prn"/><s n="pro"/></l>
-        <r>lo<s n="prn"/><s n="pro"/></r>
-      </p>
-    </e>
--->
+
      <e>
       <p>
         <l>me<s n="prn"/><s n="pro"/></l>
@@ -1903,24 +1906,7 @@
         <r>vos<s n="prn"/><s n="pro"/></r>
       </p>
     </e>
-
-<!--
-     <e>
-      <p>
-        <l>se<s n="prn"/><s n="pro"/></l>
-        <r>se<s n="prn"/><s n="pro"/></r>
-      </p>
-    </e>
-
-
-    <e>
-      <p>
-        <l>te<s n="prn"/><s n="pro"/></l>
-        <r>te<s n="prn"/><s n="pro"/></r>
-      </p>
-    </e>
-
- -->   
+
    <e>
       <p>
         <l>le<s n="prn"/><s n="enc"/></l>
@@ -1933,22 +1919,6 @@
         <r>-yos<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
-
-<!--
-    <e>
-      <p>
-        <l>lo<s n="prn"/><s n="enc"/></l>
-        <r>lu<s n="prn"/><s n="enc"/></r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>lo<s n="prn"/><s n="enc"/></l>
-        <r>lo<s n="prn"/><s n="enc"/></r>
-      </p>
-    </e>
--->
     <e>
       <p>
         <l>me<s n="prn"/><s n="enc"/></l>
@@ -1991,16 +1961,6 @@
         <r>-yos<s n="prn"/><s n="enc"/></r>
       </p>
     </e>
-
-<!--
-    <e>
-      <p>
-        <l>te<s n="prn"/><s n="enc"/></l>
-        <r>te<s n="prn"/><s n="enc"/></r>
-      </p>
-    </e>
-
--->
     <e>
       <p>
         <l>él<s n="prn"/><s n="tn"/></l>
@@ -2170,13 +2130,6 @@
         <r>cuanto<s n="rel"/><s n="nn"/></r>
       </p>
     </e>
-<!--    <e>
-     <p>
-      <l>que<s n="rel"/><s n="an"/></l>
-      <r>que<s n="rel"/><s n="an"/></r>
-      </p>
-    </e>
--->
      <e>
       <p>
         <l>ah<s n="ij"/></l>
@@ -2349,6 +2302,7 @@
 
 
     <!-- Posesivos -->
+
      <e>
       <p>
         <l>mío<s n="adj"/></l>
@@ -6275,12 +6229,17 @@
     
     <!-- Verbos -->
 
-    <e><p><l>trabajar<s n="vblex"/></l><r>trabayar<s n="vblex"/></r></p></e>
-﻿    <e>
-      <p>
-        <l>pasmar<s n="vblex"/></l>
-        <r>plasmar<s n="vblex"/></r>
-      </p>
+    <e>
+	<p>
+	  <l>trabajar<s n="vblex"/></l>
+	  <r>trabayar<s n="vblex"/></r>
+	</p>
+    </e>
+    <e>
+	<p>
+	  <l>pasmar<s n="vblex"/></l>
+	  <r>plasmar<s n="vblex"/></r>
+	</p>
     </e>
     <e>
       <p>
@@ -6288,7 +6247,6 @@
         <r>orbayar<s n="vblex"/></r>
       </p>
     </e>
-    
     <e>
       <p>
         <l>abalanzar<s n="vblex"/></l>
@@ -6343,6 +6301,7 @@
         <r>abangar<s n="vblex"/></r>
       </p>
     </e>
+
     <e>
       <p>
         <l>abanicar<s n="vblex"/></l>
@@ -6579,13 +6538,13 @@
         <r>abeyarar<s n="vblex"/></r>
       </p>
     </e>
-    <e >
+    <e>
       <p>
         <l>merodear<s n="vblex"/></l>
-        <r>abeyar</b>per<s n="vblex"/></r>
+        <r>abeyar<b/>per<s n="vblex"/></r>
       </p>
     </e>
-    <er="RL">
+    <e r="RL">
       <p>
         <l>merodear<s n="vblex"/></l>
         <r>abeyoniar<s n="vblex"/></r>
@@ -6660,7 +6619,7 @@
     <e>
       <p>
         <l>abisagrar<s n="vblex"/></l>
-        <r>echar</b>goncios<s n="vblex"/></r>
+        <r>echar<b/>goncios<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -6788,6 +6747,7 @@
         <l>escampar<s n="vblex"/></l>
         <r>albanciar<s n="vblex"/></r>
       </p>
+    </e>
       <e>
       <p>
         <l>escampar<s n="vblex"/></l>
@@ -7010,7 +6970,6 @@
         <r>abregar<s n="vblex"/></r>
       </p>
     </e>
-   </e>
     <e>
       <p>
         <l>abrigar<s n="vblex"/></l>
@@ -7167,7 +7126,6 @@
         <r>aburagañar<s n="vblex"/></r>
       </p>
     </e>
-    </e>
     <e r="RL">
       <p>
         <l>irritar<s n="vblex"/></l>
@@ -7279,7 +7237,7 @@
      <e>
       <p>
         <l>sujetar<s n="vblex"/></l>
-        <r>tener</b>per<s n="vblex"/></r>
+        <r>tener<b/>per<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -7363,7 +7321,7 @@
     <e>
       <p>
         <l>calumniar<s n="vblex"/></l>
-        <r>echar</b>llevantos<s n="vblex"/></r>
+        <r>echar<b/>llevantos<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -7933,7 +7891,7 @@
     <e>
       <p>
         <l>desterronar<s n="vblex"/></l>
-        <r>mayar</b>terrones<s n="vblex"/></r>
+        <r>mayar<b/>terrones<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -8473,7 +8431,7 @@
     <e>
       <p>
         <l>advertir<s n="vblex"/></l>
-        <r>encamentar<s n="vblex"/></r>"
+        <r>encamentar<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -8967,6 +8925,7 @@
         <l>saturar<s n="vblex"/></l>
         <r>enfastiar<s n="vblex"/></r>
       </p>
+    </e>
       <e>
       <p>
         <l>saturar<s n="vblex"/></l>
@@ -9303,7 +9262,6 @@
         <l>asignar<s n="vblex"/></l>
         <r>asignar<s n="vblex"/></r>
       </p>
-    </e>
     </e>
     <e>
       <p>
@@ -11152,8 +11110,7 @@
         <r>fundir<s n="vblex"/></r>
       </p>
     </e>
-    <e r="RL">
-        <e>
+    <e>
       <p>
         <l>desentender<s n="vblex"/></l>
         <r>desabrir<s n="vblex"/></r>
@@ -12028,6 +11985,7 @@
         <r>encismar<s n="vblex"/></r>
       </p>
     </e>
+
     <e r="RL">
       <p>
         <l>encismar<s n="vblex"/></l>
@@ -12369,7 +12327,7 @@
         <l>enojar<s n="vblex"/></l>
         <r>enoxar<s n="vblex"/></r>
       </p>
-    
+    </e>
     <e>
       <p>
         <l>equivocar<s n="vblex"/></l>
@@ -13861,7 +13819,7 @@
     <e>
       <p>
         <l>charlatanear<s n="vblex"/></l>
-        <r>dar<b>la>/b>plepa<s n="vblex"/></r>
+        <r>dar<b/>la><b/>plepa<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -13921,7 +13879,7 @@
     <e>
       <p>
         <l>saciar<s n="vblex"/></l>
-        <r>quitar<b>la</b>sede<s n="vblex"/></r>
+        <r>quitar<b/>la<b/>sede<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -14257,7 +14215,7 @@
     </e>
     <e>
       <p>
-        <l>funcionar<s n="vblex"/></l>º
+        <l>funcionar<s n="vblex"/></l>
         <r>funcionar<s n="vblex"/></r>
       </p>
     </e>
@@ -15086,8 +15044,8 @@
     </e>
     <e>
       <p>
-        <l>limitar<b>con<s n="vblex"/></l>
-        <r>partir<b>con<s n="vblex"/></r>
+        <l>limitar<b/>con<s n="vblex"/></l>
+        <r>partir<b/>con<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -15579,7 +15537,7 @@
     <e>
       <p>
         <l>anhelar<s n="vblex"/></l>
-        <r>naguar<b>por<s n="vblex"/></r>
+        <r>naguar<b/>por<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -15770,8 +15728,8 @@
     </e>
     <e>
       <p>
-        <l>opinar<b>que<s n="vblex"/></l>
-        <r>contar<b>que<s n="vblex"/></r>
+        <l>opinar<b/>que<s n="vblex"/></l>
+        <r>contar<b/>que<s n="vblex"/></r>
       </p>
     </e>
     <e>
@@ -16197,7 +16155,7 @@
     </e>
      <e>
       <p>
-        <l>cerrar<b>con</b>llave<s n="vblex"/></l>
+        <l>cerrar<b/>con<b/>llave<s n="vblex"/></l>
         <r>pesllar<s n="vblex"/></r>
       </p>
     </e>
@@ -16215,7 +16173,7 @@
     </e>
      <e>
       <p>
-        <l>llamar<b>a</b><b>la</b>puerta<s n="vblex"/></l>
+        <l>llamar<b/>a<b/>la<b/>puerta<s n="vblex"/></l>
         <r>picar<s n="vblex"/></r>
       </p>
     </e>
@@ -17014,7 +16972,7 @@
     </e>
     <e>
       <p>
-        <l>ser<b>evidente<s n="vblex"/></l>
+        <l>ser<b/>evidente<s n="vblex"/></l>
         <r>rescamplar<s n="vblex"/></r>
       </p>
     </e>
@@ -17483,7 +17441,7 @@
     <e>
       <p>
         <l>anhelar<s n="vblex"/></l>
-        <r>naguar<b>por<s n="vblex"/></r>
+        <r>naguar<b/>por<s n="vblex"/></r>
       </p>
     </e>
     <e r="RL">
@@ -17538,6 +17496,7 @@
         <l>enrojecer<s n="vblex"/></l>
         <r>roxar<s n="vblex"/></r>
       </p>
+    </e>
      <e>
       <p>
         <l>enrojecer<s n="vblex"/></l>
@@ -17951,7 +17910,7 @@
         <r>espublizar<s n="vblex"/></r>
       </p>
     </e>
-	<e r=LR">>
+    <e r="LR">
       <p>
         <l>divulgar<s n="vblex"/></l>
         <r>sopelexar<s n="vblex"/></r>
@@ -18019,7 +17978,7 @@
     </e>
     <e>
       <p>
-        <l>sufrir<b>mucho<s n="vblex"/></l>
+        <l>sufrir<b/>mucho<s n="vblex"/></l>
         <r>esperecer<s n="vblex"/></r>
       </p>
     </e>
@@ -18059,7 +18018,7 @@
         <r>surdir<s n="vblex"/></r>
       </p>
     </e>
-    <e r_"LR">
+    <e r="LR">
       <p>
         <l>sonar<s n="vblex"/></l>
         <r>surniar<s n="vblex"/></r>
@@ -19111,7 +19070,7 @@
         <l>malmeter<s n="vblex"/></l>
         <r>xorrascar<s n="vblex"/></r>
       </p>
-    </e>-->
+    </e>
     <e r="RL">
       <p>
         <l>crecer<s n="vblex"/></l>
@@ -31662,14 +31621,6 @@
         <r>financiación<s n="n"/></r>
       </p>
     </e>
-<!--
-    <e>
-      <p>
-        <l>fino<s n="adj"/></l>
-        <r>finu<s n="adj"/></r>
-      </p>
-    </e>
--->
     <e>
       <p>
         <l>hilo<s n="n"/></l>
