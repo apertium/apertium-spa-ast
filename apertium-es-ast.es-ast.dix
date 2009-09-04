@@ -106,7 +106,7 @@
     <e><p><l>os<s n="prn"/></l><r>vos<s n="prn"/></r></p></e>
     <e><p><l>Asturias<s n="np"/></l><r>Asturies<s n="np"/></r></p></e>
     <e><p><l>Gijón<s n="np"/></l><r>Xixón<s n="np"/></r></p></e>
-    <e> <p> <l>a<b/>ciegas<s n="adv"/></l> <r>a<b/>ciegues<s n="adv"/></r> </p> </e>
+    <e> <p><l>a<b/>ciegas<s n="adv"/></l> <r>a<b/>ciegues<s n="adv"/></r> </p> </e>
     <e> <p> <l>por<b/>ahí<s n="adv"/></l> <r>perhí<s n="adv"/></r> </p> </e>
 	<e>
 	  <p>
@@ -1827,6 +1827,36 @@
       </p>
     </e>
 
+	<e>
+      <p>
+        <l>mío<s n="det"/><s n="pos"/></l>
+        <r>el<b/>mio<s n="det"/><s n="pos"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>tuyo<s n="det"/><s n="pos"/></l>
+        <r>el<b/>to<s n="det"/><s n="pos"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>suyo<s n="det"/><s n="pos"/></l>
+        <r>el<b/>so<s n="det"/><s n="pos"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nuestro<s n="det"/><s n="pos"/></l>
+        <r>el<b/>nuesu<s n="det"/><s n="pos"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>vuestro<s n="det"/><s n="pos"/></l>
+        <r>el<b/>vuesu<s n="det"/><s n="pos"/></r>
+      </p>
+    </e>
    
 
     <!-- Pronoms -->

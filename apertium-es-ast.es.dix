@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
 <sdefs>
@@ -68109,7 +68109,176 @@
     </pardef>
 
 	</pardefs>
+
 <section id="main" type="standard">
+
+    <!-- compensación -->
+	
+<e><i>atontad</i><par n="absolut_o__adj"/></e>
+<e><i>broche</i><par n="abandono__n"/></e>
+<e><i>cardiac</i><par n="absolut_o__adj"/></e>
+<e><i>céntuple</i><par n="abundante__adj"/></e>
+<e><i>consistorial</i><par n="actual__adj"/></e>
+<e><i>estrambótic</i><par n="absolut_o__adj"/></e>
+<e><i>extern</i><par n="absolut_o__adj"/></e>
+<e><i>fortuit</i><par n="absolut_o__adj"/></e>
+<e><i>herbáce</i><par n="absolut_o__adj"/></e>
+<e><i>instruid</i><par n="absolut_o__adj"/></e>
+<e><i>metropolitan</i><par n="absolut_o__adj"/></e>
+<e><i>mític</i><par n="absolut_o__adj"/></e>
+<e><i>naciente</i><par n="abundante__adj"/></e>
+<e><i>odre</i><par n="abandono__n"/></e>
+<e><i>onceav</i><par n="absolut_o__adj"/></e>
+<e><i>poses</i><par n="absolut_o__adj"/></e>
+<e><i>rapa</i><par n="atro_z__adj"/></e>
+<e><i>recíproc</i><par n="absolut_o__adj"/></e>
+<e><i>refinad</i><par n="absolut_o__adj"/></e>
+<e><i>relevante</i><par n="abundante__adj"/></e>
+<e><i>reluciente</i><par n="abundante__adj"/></e>
+<e><i>resec</i><par n="absolut_o__adj"/></e>
+<e><i>resplandeciente</i><par n="abundante__adj"/></e>
+<e><i>robust</i><par n="absolut_o__adj"/></e>
+<e><i>setentav</i><par n="absolut_o__adj"/></e>
+<e><i>tarambaina</i><par n="abundancia__n"/></e>
+<e><i>tembloros</i><par n="absolut_o__adj"/></e>
+<e><i>ventésim</i><par n="absolut_o__adj"/></e>
+<e><i>ventitr</i><par n="veintitr_és__n"/></e>
+<e><i>viviente</i><par n="abundante__adj"/></e>
+<e><i>voluntarios</i><par n="absolut_o__adj"/></e>
+<e><i>yeísta</i><par n="abundante__adj"/></e>
+<e><i>yerm</i><par n="absolut_o__adj"/></e>
+<e><i>zarzuela</i><par n="abundancia__n"/></e>
+<e><i>zodiacal</i><par n="actual__adj"/></e>
+<e><i>zopenco</i><par n="abandono__n"/></e>
+<e><i>zoquete</i><par n="abundante__adj"/></e>
+<e><i>zulú</i><par n="abundante__adj"/></e>
+<e><i>zumbad</i><par n="absolut_o__adj"/></e>
+<e><i>zurd</i><par n="absolut_o__adj"/></e>
+
+<e><i>abobamiento</i><par n="abandono__n"/></e>
+<e><i>abolengo</i><par n="abandono__n"/></e>
+<e><i>abolicionismo</i><par n="abandono__n"/></e>
+<e><i>abono</i><par n="abandono__n"/></e>
+<e><i>acide</i><par n="actri_z__n"/></e>
+<e><i>afeminamiento</i><par n="abandono__n"/></e>
+<e><i>afilamiento</i><par n="abandono__n"/></e>
+<e><i>alferecía</i><par n="abundancia__n"/></e>
+<e><i>altruísta</i><par n="modelo__n"/></e>
+<e><i>ambigüedad</i><par n="a__n"/></e>
+<e><i>andrajoso</i><par n="abandono__n"/></e>
+<e><i>anglosaj</i><par n="patr_ón__n"/></e>
+<e><i>antipartícula</i><par n="abundancia__n"/></e>
+<e><i>apedreamiento</i><par n="abandono__n"/></e>
+<e><i>apegamiento</i><par n="abandono__n"/></e>
+<e><i>apisonamiento</i><par n="abandono__n"/></e>
+<e><i>aplanamiento</i><par n="abandono__n"/></e>
+<e><i>apropiaci</i><par n="acci_ón__n"/></e>
+<e><i>arandela</i><par n="abundancia__n"/></e>
+<e><i>arañazo</i><par n="abandono__n"/></e>
+<e><i>árbitro</i><par n="agente__n"/></e>
+<e><i>archivista</i><par n="modelo__n"/></e>
+<e><i>aristócrata</i><par n="modelo__n"/></e>
+<e><i>arredondeadura</i><par n="abundancia__n"/></e>
+<e><i>arruda</i><par n="abundancia__n"/></e>
+<e><i>arrudal</i><par n="dos__n"/></e>
+<e><i>ascensorista</i><par n="modelo__n"/></e>
+<e><i>asturianoleon</i><par n="franc_és__n"/></e>
+<e><i>aterrizaje</i><par n="abandono__n"/></e>
+<e><i>atomismo</i><par n="abandono__n"/></e>
+<e><i>atontamiento</i><par n="abandono__n"/></e>
+<e><i>atufamiento</i><par n="abandono__n"/></e>
+<e><i>aulaga</i><par n="abundancia__n"/></e>
+<e><i>autócrata</i><par n="modelo__n"/></e>
+<e><i>autónom</i><par n="abogad_o__n"/></e>
+<e><i>averamiento</i><par n="abandono__n"/></e>
+<e><i>bochorno</i><par n="abandono__n"/></e>
+<e><i>bolet</i><par n="bot_ín__n"/></e>
+<e><i>cantidad</i><par n="a__n"/></e>
+<e><i>cerradura</i><par n="abundancia__n"/></e>
+<e><i>comentario</i><par n="abandono__n"/></e>
+<e><i>consolidaci</i><par n="acci_ón__n"/></e>
+<e><i>contemplador</i><par n="redactor__n"/></e>
+<e><i>controversia</i><par n="abundancia__n"/></e>
+<e><i>corporal</i><par n="a__n"/></e>
+<e><i>cuádruplo</i><par n="abandono__n"/></e>
+<e><i>curso</i><par n="abandono__n"/></e>
+<e><i>dedal</i><par n="dos__n"/></e>
+<e><i>enriquecimiento</i><par n="abandono__n"/></e>
+<e><i>euforia</i><par n="abundancia__n"/></e>
+<e><i>físic</i><par n="abogad_o__n"/></e>
+<e><i>ganancia</i><par n="abundancia__n"/></e>
+<e><i>garbo</i><par n="abandono__n"/></e>
+<e><i>gasóleo</i><par n="abandono__n"/></e>
+<e><i>harina</i><par n="abundancia__n"/></e>
+<e><i>improvisto</i><par n="abandono__n"/></e>
+<e><i>incremento</i><par n="abandono__n"/></e>
+<e><i>kilogramo</i><par n="abandono__n"/></e>
+<e><i>lectura</i><par n="abundancia__n"/></e>
+<e><i>lesbiana</i><par n="abundancia__n"/></e>
+<e><i>marcapasos</i><par n="análisis__n"/></e>
+<e><i>merecedor</i><par n="redactor__n"/></e>
+<e><i>militarismo</i><par n="abandono__n"/></e>
+<e><i>motocicleta</i><par n="abundancia__n"/></e>
+<e><i>municipio</i><par n="abandono__n"/></e>
+<e><i>niña</i><par n="abundancia__n"/></e>
+<e><i>orden</i><par n="_orden__n"/></e>
+<e><i>peluche</i><par n="abandono__n"/></e>
+<e><i>periodo</i><par n="abandono__n"/></e>
+<e><i>pesimismo</i><par n="abandono__n"/></e>
+<e><i>precipicio</i><par n="abandono__n"/></e>
+<e><i>progreso</i><par n="abandono__n"/></e>
+<e><i>propietari</i><par n="abogad_o__n"/></e>
+<e><i>prostíbulo</i><par n="abandono__n"/></e>
+<e><i>rampa</i><par n="abundancia__n"/></e>
+<e><i>rareza</i><par n="abundancia__n"/></e>
+<e><i>rater</i><par n="absolut_o__adj"/></e>
+<e><i>ratificaci</i><par n="acci_ón__n"/></e>
+<e><i>razonamiento</i><par n="abandono__n"/></e>
+<e><i>recomendaci</i><par n="acci_ón__n"/></e>
+<e><i>rédito</i><par n="abandono__n"/></e>
+<e><i>regato</i><par n="abandono__n"/></e>
+<e><i>reguero</i><par n="abandono__n"/></e>
+<e><i>relevancia</i><par n="abundancia__n"/></e>
+<e><i>reparo</i><par n="abandono__n"/></e>
+<e><i>repertorio</i><par n="abandono__n"/></e>
+<e><i>reputaci</i><par n="acci_ón__n"/></e>
+<e><i>resorte</i><par n="abandono__n"/></e>
+<e><i>restricci</i><par n="acci_ón__n"/></e>
+<e><i>retiro</i><par n="abandono__n"/></e>
+<e><i>reto</i><par n="abandono__n"/></e>
+<e><i>retranca</i><par n="abundancia__n"/></e>
+<e><i>rifa</i><par n="abundancia__n"/></e>
+<e><i>rivalidad</i><par n="a__n"/></e>
+<e><i>rol</i><par n="dos__n"/></e>
+<e><i>rotaci</i><par n="acci_ón__n"/></e>
+<e><i>sensate</i><par n="actri_z__n"/></e>
+<e><i>señoría</i><par n="abundancia__n"/></e>
+<e><i>ternero</i><par n="abandono__n"/></e>
+<e><i>tino</i><par n="abandono__n"/></e>
+<e><i>transtorno</i><par n="abandono__n"/></e>
+<e><i>vaquer</i><par n="abogad_o__n"/></e>
+<e><i>venticuatro</i><par n="abandono__n"/></e>
+<e><i>ventid</i><par n="veintid_ós__n"/></e>
+<e><i>yacimiento</i><par n="abandono__n"/></e>
+<e><i>yanqui</i><par n="agente__n"/></e>
+<e><i>yate</i><par n="abandono__n"/></e>
+<e><i>yedra</i><par n="abundancia__n"/></e>
+<e><i>yodo</i><par n="abandono__n"/></e>
+<e><i>yoga</i><par n="abundancia__n"/></e>
+<e><i>zafiro</i><par n="abandono__n"/></e>
+<e><i>zancada</i><par n="abundancia__n"/></e>
+<e><i>zancadilla</i><par n="abundancia__n"/></e>
+<e><i>zapata</i><par n="abundancia__n"/></e>
+<e><i>zapatazo</i><par n="abandono__n"/></e>
+<e><i>zarpa</i><par n="abundancia__n"/></e>
+<e><i>zarpazo</i><par n="abandono__n"/></e>
+<e><i>zarzal</i><par n="dos__n"/></e>
+<e><i>zodiaco</i><par n="abandono__n"/></e>
+<e><i>zoofilia</i><par n="abundancia__n"/></e>
+<e><i>zote</i><par n="abundante__adj"/></e>
+<e><i>zurr</i><par n="avi_ón__n"/></e>
+	
+	<!-- fin compensación -->
 
     <!-- Posesivos -->
 <e lm="vuestro"><i>vuestr</i><par n="nuestr/o__det"/></e>

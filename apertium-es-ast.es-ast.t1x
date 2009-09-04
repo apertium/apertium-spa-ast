@@ -206,6 +206,11 @@
     </def-cat>
     <!-- todo menos determinante, sustantivo y preposición "a" -->
 
+	<def-cat n="detpos">
+      <cat-item tags="det.pos.*"/>
+    </def-cat>
+    <!-- determinantes posesivos -->
+	
   </section-def-cats>
 
 
@@ -3041,6 +3046,40 @@
       </action>
     </rule>
 
+	
+		<rule>
+      <!-- REGLA 4B: DETERMINANTE_POSESIVO NOM -->
+      <pattern>
+        <pattern-item n="detpos"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit-tag v="det.pos"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+	
 
     <rule>
       <!-- REGLA 4: DETERMINANT NOM -->
@@ -3074,7 +3113,6 @@
         </out>
       </action>
     </rule>
-
 
     <rule>
       <!-- REGLA 5: NOM ADJECTIU-->
