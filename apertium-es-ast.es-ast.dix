@@ -3364,6 +3364,19 @@
         <r>Cangues<b/>d'Onís<s n="np"/></r>
       </p>
     </e>
+ <e>
+       <p>
+         <l>Estado<s n="np"/></l>
+         <r>Estáu<s n="np"/></r>
+       </p>
+     </e>
+  <e>
+       <p>
+         <l>Estados<s n="np"/></l>
+         <r>Estaos<s n="np"/></r>
+       </p>
+     </e>
+
      <e>
       <p>
         <l>Celorio<s n="np"/></l>
@@ -17711,7 +17724,7 @@
     <e>
       <p>
         <l>curiosear<s n="vblex"/></l>
-        <r>caciplandor<s n="vblex"/></r>
+        <r>caciplar<s n="vblex"/></r>
       </p>
     </e>    
     <e>
@@ -32268,7 +32281,7 @@
     <e>
       <p>
         <l>elección<s n="n"/></l>
-        <r>elecición<s n="n"/></r>
+        <r>eleición<s n="n"/></r>
       </p>
     </e>
     <e>
@@ -47485,8 +47498,8 @@
     </e>
      <e>
       <p>
-        <l>televisor<s n="n"/></l>
-        <r>televisión<s n="n"/></r>
+        <l>televisor<s n="n"/><s n="m"/></l>
+        <r>televisión<s n="n"/><s n="f"/></r>
       </p>
     </e>
      <e>
@@ -48458,9 +48471,10 @@
     <e>
       <p>
         <l>último<s n="adj"/></l>
-        <r>postreru<s n="adj"/></r>
+        <r>últimu<s n="adj"/></r>
       </p>
     </e>
+	
     <e>
       <p>
         <l>ultraje<s n="n"/></l>
