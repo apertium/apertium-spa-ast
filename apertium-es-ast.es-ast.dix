@@ -4447,7 +4447,7 @@
     </e>
     <e>
       <p>
-        <l>a<b/>bote<b/>y<b/>pronto<s n="adv"/></l>
+        <l>a<b/>bote<b/>pronto<s n="adv"/></l>
         <r>de<b/>mano<s n="adv"/></r>
       </p>
     </e>
@@ -4831,7 +4831,7 @@
     </e>
      <e>
       <p>
-        <l>a<b/>bote<b/>y<b/>pronto<s n="adv"/></l>
+        <l>a<b/>bote<b/>pronto<s n="adv"/></l>
         <r>de<b/>secute<s n="adv"/></r>
       </p>
     </e>
@@ -6325,7 +6325,7 @@
     </e>
      <e>
       <p>
-        <l>quien<b/>fue<b/>a<b/>Sevilla<b/>perdió<b/>la<b/>silla<s n="adv"/></l>
+        <l>quien<b/>fue<b/>a<b/>Sevilla<b/>perdió<b/>su<b/>silla<s n="adv"/></l>
         <r>oveya<b/>que<b/>berra<b/>bocáu<b/>que<b/>pierde<s n="adv"/></r>
       </p>  
      </e>
@@ -7434,6 +7434,8 @@
 	<r>,<b/>que<s n="rel"/></r>
 </p>
 </e>
+
+
 <e r= "LR">
 <p>
 
@@ -34518,8 +34520,8 @@
     </e>
     <e>
       <p>
-        <l>fray<s n="n"/></l>
-        <r>frai<s n="n"/></r>
+        <l>Fray<s n="np"/></l>
+        <r>Frai<s n="np"/></r>
       </p>
     </e>
     <e>
@@ -50159,12 +50161,6 @@
       <p>
         <l>atontado<s n="n"/></l>
         <r>lluellu<s n="n"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>zorra<s n="n"/></l>
-        <r>rapiega<s n="n"/></r>
       </p>
     </e>
      <e>
