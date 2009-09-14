@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -24,34 +24,19 @@
         <i>u</i>
       </e>
       <e>
-        <i>è</i>
+        <i>Ã¡</i>
       </e>
       <e>
-        <i>á</i>
+        <i>Ã©</i>
       </e>
       <e>
-        <i>é</i>
+        <i>Ã­</i>
       </e>
       <e>
-        <i>í</i>
+        <i>Ã³</i>
       </e>
       <e>
-        <i>ó</i>
-      </e>
-      <e>
-        <i>ú</i>
-      </e>
-      <e>
-        <i>â</i>
-      </e>
-      <e>
-        <i>ê</i>
-      </e>
-      <e>
-        <i>î</i>
-      </e>
-      <e>
-        <i>ô</i>
+        <i>Ãº</i>
       </e>
       <e>
         <i>h</i>
@@ -72,34 +57,19 @@
         <i>U</i>
       </e>
       <e>
-        <i>È</i>
+        <i>Ã</i>
       </e>
       <e>
-        <i>Á</i>
+        <i>Ã‰</i>
       </e>
       <e>
-        <i>É</i>
+        <i>Ã</i>
       </e>
       <e>
-        <i>Í</i>
+        <i>Ã“</i>
       </e>
       <e>
-        <i>Ó</i>
-      </e>
-      <e>
-        <i>Ú</i>
-      </e>
-      <e>
-        <i>Â</i>
-      </e>
-      <e>
-        <i>Ê</i>
-      </e>
-      <e>
-        <i>Î</i>
-      </e>
-      <e>
-        <i>Ô</i>
+        <i>Ãš</i>
       </e>
       <e>
         <i>H</i>
@@ -114,11 +84,11 @@
 <section id="main" type="standard">
 
        <e>
-            <p>
+        <p>
 		<l><a/></l>
 		<r></r>
 	    </p>
-	    <re>[A-Za-z']*[AaEeIiOoUuáéíóú]</re>
+	    <re>[A-Za-z']*[AaEeIiOoUuÃÃ¡Ã‰Ã©ÃÃ­Ã“Ã³ÃšÃº]</re>
 	    <p>
 	    <l><b/>el</l>
 	    <r>'l</r>

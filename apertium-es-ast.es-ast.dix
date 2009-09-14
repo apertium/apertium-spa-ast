@@ -558,7 +558,7 @@
     </e>
  <e>
       <p>
-        <l>por<b/>todos<b/>los<b/>sitio<s n="cnjadv"/></l>
+        <l>por<b/>todos<b/>los<b/>sitios<s n="cnjadv"/></l>
         <r>perdayures<s n="cnjadv"/></r>
       </p>
     </e>
@@ -3015,7 +3015,7 @@
     </e>
     <e>
       <p>
-        <l>Jinebra<s n="np"/></l>
+        <l>Ginebra<s n="np"/></l>
         <r>Xinebra<s n="np"/></r>
       </p>
     </e>
@@ -4657,7 +4657,7 @@
     </e>
     <e>
       <p>
-        <l>a<b/>dentro<s n="adv"/></l>
+        <l>adentro<s n="adv"/></l>
         <r>adientro<s n="adv"/></r>
       </p>
     </e>
@@ -5099,6 +5099,12 @@
         <r>a<b/>fargataes<s n="adv"/></r>
       </p>
     </e>
+	<e r="LR">
+		<p>
+		<l>a<b/>millares<s n="adv"/></l>
+		<r>a<b/>mamplén<s n="adv"/></r>
+		</p>
+	</e>
      <e>
       <p>
         <l>a<b/>mis<b/>anchas<s n="adv"/></l>
@@ -5881,8 +5887,8 @@
     </e>
      <e>
       <p>
-        <l>el<b/>menda<s n="adv"/></l>
-        <r>esti<b/>esti,<b/>esti<b/>que<b/>fala<s n="adv"/></r>
+        <l>el<b/>menda<s n="n"/></l>
+        <r>esti<b/>esti,<b/>esti<b/>que<b/>fala<s n="n"/></r>
       </p>
     </e>
     <e>
@@ -5899,8 +5905,8 @@
     </e>
      <e>
       <p>
-        <l>el<b/>meollo<b/>del<b/>asunto<s n="adv"/></l>
-        <r>l'enquiz<b/>del<b/>asuntu<s n="adv"/></r>
+        <l>el<b/>meollo<b/>del<b/>asunto<s n="n"/></l>
+        <r>l'enquiz<b/>del<b/>asuntu<s n="n"/></r>
       </p>
     </e>
      <e>
@@ -6127,8 +6133,8 @@
     </e>
      <e>
       <p>
-        <l>niño<b/>de<b/>corta<b/>edad<s n="adv"/></l>
-        <r>neñu<b/>de<b/>rollu<s n="adv"/></r>
+        <l>niño<b/>de<b/>corta<b/>edad<s n="n"/></l>
+        <r>neñu<b/>de<b/>rollu<s n="n"/></r>
       </p>
     </e>
      <e>
@@ -6601,7 +6607,7 @@
     </e>
      <e>
       <p>
-        <l>ojo<b/>a<b/>vizor<s n="adv"/></l>
+        <l>ojo<b/>avizor<s n="adv"/></l>
         <r>a<b/>perru<b/>puestu<s n="adv"/></r>
       </p>
     </e>
@@ -49896,7 +49902,7 @@
     <e>
       <p>
         <l>justicia<s n="n"/></l>
-        <r>xustcia<s n="n"/></r>
+        <r>xusticia<s n="n"/></r>
       </p>
     </e>
     <e>
