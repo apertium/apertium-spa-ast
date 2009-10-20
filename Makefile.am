@@ -98,6 +98,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).post-$(PREFIX1).t1x \
 	   $(BASENAME).$(PREFIX2).t1x \
 	   $(BASENAME).$(LANG1).tsx \
+	   $(LANG1)-pn.dat $(LANG2)-pn.dat \
 	   $(BASENAME).$(LANG2).tsx modes.xml apertium-$(PREFIX1).symbols.xml
 
 #           $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README 
@@ -127,7 +128,7 @@ apertium_es_ast_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).t1x.bin \
 		    $(PREFIX1).post.t1x.bin \
 		    $(PREFIX2).t1x.bin \
-	            $(PREFIX1).mode $(PREFIX2).mode modes.xml apertium-$(PREFIX1).symbols.xml
+		    $(PREFIX1).mode $(PREFIX2).mode modes.xml apertium-$(PREFIX1).symbols.xml
 		  
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
@@ -136,5 +137,8 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(apertium_es_astdir)
 	$(INSTALL_DATA) $(BASENAME).post-$(PREFIX1).t1x $(apertium_es_astdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(apertium_es_astdir)
+	$(INSTALL_DATA) $(PREFIX1)-pn.mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(apertium_es_modesdir)
 
-CLEANFILES = -rf $(TARGETS_COMMON) modes
+CLEANFILES = -rf $(TARGETS_COMMON) modes *~
+

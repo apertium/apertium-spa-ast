@@ -22,6 +22,72 @@
       </program>
     </pipeline>
   </mode>
+
+ <mode name="ast-es-pn" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ast-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ast-es.prob"/>
+      </program>
+        <!-- Proper noun recogniser: -->
+          <program name="apertium-pn-recogniser">
+            <file name="ast-pn.dat"/>
+          </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-ast.ast-es.t1x"/>
+        <file name="ast-es.t1x.bin"/>
+        <file name="ast-es.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="ast-es.autogen.bin"/>
+      </program>
+      <program name="lt-proc -c -p">
+        <file name="ast-es.autopgen.bin"/>
+      </program>
+<!-- Removes special mark: -->
+        <program name="apertium-pn-recogniser-final"/>
+    </pipeline>
+  </mode>
+
+
+ <mode name="es-ast-pn" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-ast.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-ast.prob"/>
+      </program>
+	<!--Proper noun recogniser: -->
+          <program name="apertium-pn-recogniser">
+            <file name="es-pn.dat"/>
+          </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-ast.es-ast.t1x"/>
+        <file name="es-ast.t1x.bin"/>
+        <file name="es-ast.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-es-ast.post-es-ast.t1x"/>
+        <file name="es-ast.post.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-ast.autogen.bin"/>
+      </program>
+      <program name="lt-proc -c -p">
+        <file name="es-ast.autopgen.bin"/>
+      </program>
+      <program name="lt-proc -c -p ">
+        <file name="es-ast.autopgen2.bin"/>
+      </program>
+<!-- Removes special mark: -->
+	<program name="apertium-pn-recogniser-final"/>
+    </pipeline>
+  </mode>
   
   <mode name="es-ast" install="yes">
     <pipeline>
@@ -31,6 +97,10 @@
       <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
+        <!-- Proper noun recogniser: -->
+         <!--<program name="apertium-pn-recogniser">
+            <file name="es-pn.dat"/>
+          </program>-->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-es-ast.es-ast.t1x"/>
@@ -50,6 +120,8 @@
       <program name="lt-proc -c -p ">
         <file name="es-ast.autopgen2.bin"/>
       </program>
+      <!-- Removes special mark: -->
+      <!--<program name="apertium-pn-recogniser-final"/>-->
     </pipeline>
   </mode>
 

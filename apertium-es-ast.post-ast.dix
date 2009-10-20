@@ -147,6 +147,7 @@
       </e>
     </pardef>
 
+
    <pardef n="vocal_a_ha">
       <e>
         <i>a</i>
@@ -165,6 +166,23 @@
       </e>
    </pardef>
 
+<pardef n="vocal_i_hi">
+      <e>
+        <i>i</i>
+      </e>
+      <e>
+        <i>hi</i>
+      </e>
+      <e>
+        <i>I</i>
+      </e>
+      <e>
+        <i>Hi</i>
+      </e>
+      <e>
+        <i>HI</i>
+      </e>
+   </pardef>
 
    <pardef n="consonante">
       <e><p><l>B</l><r>B</r></p></e>
@@ -247,6 +265,7 @@
         <par n="vocal_a_ha"/>
       </e>
     </pardef>
+
 
    <pardef n="contraccion_pa">
       <e>
@@ -930,12 +949,15 @@
 
 	<!-- marcamos para segundo postgenerador -->
 
-      <e><p><l><a/></l><r><a/></r></p><re>[A-Za-z]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
-      <e><p><l><a/></l><r><a/></r></p><re>[A-Za-z]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><a/></l><r><b/></r></p></e>
+      <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
+      <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><a/></l><r><b/></r></p></e>
 
 
 	<!-- establecemos prioridades en casos especiales -->
 
+
+
+      <e><p><l><a/>y<b/><a/></l><r>ya<b/></r></p><par n="vocal_i_hi"/></e>
       <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que'l<b/></r></p><par n="consonante"/></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/></l><r>que<b/>n'</r></p><par n="vocals"/></e>
@@ -983,7 +1005,9 @@
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ellos</l><r>que<b/>nellos</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>elles</l><r>que<b/>nelles</r></p></e>
 
-
+      <e><p><l><a/>así que<b/><a/></l><r><b/>así qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>magar que<b/><a/></l><r><b/>magar qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>de mou que<b/><a/></l><r><b/>de mou qu'</r></p><par n="vocals"/></e>
 
 	<!-- contracciones -->
 
@@ -1202,6 +1226,8 @@
 
 	<!-- apóstrofes -->
 
+
+
       <e>
         <p>
           <l><a/><a/>pa</l>
@@ -1329,6 +1355,15 @@
         <par n="apostrofe"/>
       </e>
 
+
+ <!-- <e>
+            <p>
+                <l><a/>y<b/><a/></l>
+                <r>ya</r>
+            </p>
+            <re>[I|i|HI|Hi|hi][A-Za-zá-úÁ-Ú]*</re>
+      </e>
+-->
 </section>
 
       <!-- Otra menera de apostrofar, con expresiones regulares.
@@ -1337,7 +1372,7 @@
 		<l><a/><a/>pa<b/><a/></l>
 		<r>p'</r>
 	    </p>
-	    <re>[AaEeIiOoUuÁáÉéÍíÓóÚú][A-Za-z]*</re>
+	    <re>[AaEeIiOoUuÁáÉéÍíÓóÚú][A-Za-zá-úÁ-Ú]*</re>
       </e>
      -->
 

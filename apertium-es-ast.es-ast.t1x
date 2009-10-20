@@ -5,6 +5,8 @@
 <!--COMIENZA LA SECCIÓN DE DEFINICIÓN DE CATEGORIAS-->
 
   <section-def-cats>
+
+    
  
     <def-cat n="detnt">
       <cat-item tags="detnt"/>
@@ -189,12 +191,8 @@
       <cat-item tags="num.*"/>
       <cat-item tags="num"/>
       <cat-item tags="prn.*"/>
-      <cat-item tags="vblex.*"/>
       <cat-item tags="rel.*"/>
       <cat-item tags="rel"/>
-      <cat-item tags="vbser.*"/>
-      <cat-item tags="vbhaber.*"/>
-      <cat-item tags="vbmod.*"/>
       <cat-item tags="ij"/>
       <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
@@ -211,7 +209,22 @@
     </def-cat>
     <!-- determinantes posesivos -->
 	
-  </section-def-cats>
+	<def-cat n="no">
+      <cat-item lemma="no" tags="adv"/>
+	</def-cat>
+    <!-- adverbio 'no' -->
+	
+	<def-cat n="por">
+      <cat-item lemma="por" tags="pr"/>
+	</def-cat>
+    <!-- preposición 'por' -->
+
+<def-cat n="adj_det">
+      <cat-item tags="adj.*"/>
+      <cat-item tags="det.*"/>
+    </def-cat>
+
+</section-def-cats>
 
 
 <!--COMIENZA LA SECCIÓN DE DEFINICIÓN DE ATRIBUTOS-->
@@ -424,7 +437,8 @@
   
   <section-def-lists>
 
-    <!--lista para búsqueda de proclisis-->    
+    <!--lista para búsqueda de proclisis-->
+
     <def-list n="pces">
       <list-item v="que"/>
       <list-item v="dónde"/>
@@ -579,57 +593,2468 @@
       <list-item v="a lo mejor"/>
     </def-list>
 
-    <!--lista para búsqueda de incontables-->    
+
+    <!--lista para búsqueda de incontables--> 
     <def-list n="incontables">
-	<list-item v="leña"/>
-	<list-item v="agua"/>
-	<list-item v="leche"/>
-	<list-item v="pan"/>
-	<list-item v="madera"/>
-	<list-item v="aire"/>
-	<list-item v="luz"/>
-	<list-item v="sal"/>
-	<list-item v="caldo"/>
-	<list-item v="harina"/>
-	<list-item v="nieve"/>
-	<list-item v="vino"/>
-	<list-item v="azúcar"/>
-	<list-item v="manteca"/>
-	<list-item v="té"/>
-	<list-item v="queso"/>
-	<list-item v="sidra"/>
+		<list-item v="leña"/>
+		<list-item v="agua"/>
+		<list-item v="leche"/>
+		<list-item v="pan"/>
+		<list-item v="madera"/>
+		<list-item v="aire"/>
+		<list-item v="luz"/>
+		<list-item v="sal"/>
+		<list-item v="caldo"/>
+		<list-item v="harina"/>
+		<list-item v="nieve"/>
+		<list-item v="vino"/>
+		<list-item v="azúcar"/>
+		<list-item v="manteca"/>
+		<list-item v="té"/>
+		<list-item v="queso"/>
+		<list-item v="sidra"/>
+		<list-item v="abaniqueo"/>
+		<list-item v="abono"/>
+		<list-item v="ábrego"/>
+		<list-item v="abrillantador"/>
+		<list-item v="absolutismo"/>
+		<list-item v="abstencionismo"/>
+		<list-item v="acarreo"/>
+		<list-item v="acebache"/>
+		<list-item v="aceite"/>
+		<list-item v="acero"/>
+		<list-item v="acetileno"/>
+		<list-item v="acetona"/>
+		<list-item v="achicoria"/>
+		<list-item v="ácido"/>
+		<list-item v="aclarado"/>
+		<list-item v="acné"/>
+		<list-item v="acristalamiento"/>
+		<list-item v="acromatismo"/>
+		<list-item v="actinio"/>
+		<list-item v="activismo"/>
+		<list-item v="adobe"/>
+		<list-item v="adobío"/>
+		<list-item v="adrenalina"/>
+		<list-item v="aeromodelismo"/>
+		<list-item v="agua"/>
+		<list-item v="aguadija"/>
+		<list-item v="aguadulce"/>
+		<list-item v="aguafuerte"/>
+		<list-item v="aguaje"/>
+		<list-item v="aguanieve"/>
+		<list-item v="aguante"/>
+		<list-item v="aguardiente"/>
+		<list-item v="aguaza"/>
+		<list-item v="ahorro"/>
+		<list-item v="aire"/>
+		<list-item v="ajenjo"/>
+		<list-item v="alabastro"/>
+		<list-item v="albahaca"/>
+		<list-item v="albañilería"/>
+		<list-item v="albinismo"/>
+		<list-item v="albúmina"/>
+		<list-item v="albuminoide"/>
+		<list-item v="alcacer"/>
+		<list-item v="alcaloide"/>
+		<list-item v="alcanfor"/>
+		<list-item v="alcantarillado"/>
+		<list-item v="alcohol"/>
+		<list-item v="alcoholismo"/>
+		<list-item v="aleación"/>
+		<list-item v="alegría"/>
+		<list-item v="alelí"/>
+		<list-item v="alergia"/>
+		<list-item v="alerta"/>
+		<list-item v="aleteo"/>
+		<list-item v="alfalfa"/>
+		<list-item v="alfalfa"/>
+		<list-item v="alfarería"/>
+		<list-item v="alferecía"/>
+		<list-item v="algodón"/>
+		<list-item v="alhelí"/>
+		<list-item v="aliento"/>
+		<list-item v="alimentación"/>
+		<list-item v="alimento"/>
+		<list-item v="aliño"/>
+		<list-item v="almacenaje"/>
+		<list-item v="almibar"/>
+		<list-item v="almidón"/>
+		<list-item v="alpargatería"/>
+		<list-item v="alpinismo"/>
+		<list-item v="alpiste"/>
+		<list-item v="alquitrán"/>
+		<list-item v="alterne"/>
+		<list-item v="alto"/>
+		<list-item v="altruismo"/>
+		<list-item v="alúmina"/>
+		<list-item v="aluminio"/>
+		<list-item v="alumnado"/>
+		<list-item v="amanecer"/>
+		<list-item v="amargura"/>
+		<list-item v="amarillo"/>
+		<list-item v="amarre"/>
+		<list-item v="amasado"/>
+		<list-item v="ámbar"/>
+		<list-item v="ambiente"/>
+		<list-item v="amianto"/>
+		<list-item v="aminoácido"/>
+		<list-item v="amoníaco"/>
+		<list-item v="amor"/>
+		<list-item v="amortajadura"/>
+		<list-item v="analfabetismo"/>
+		<list-item v="analgésico"/>
+		<list-item v="anarquismo"/>
+		<list-item v="anchura"/>
+		<list-item v="anglicanismo"/>
+		<list-item v="angora"/>
+		<list-item v="angula"/>
+		<list-item v="anhídrido"/>
+		<list-item v="ansia"/>
+		<list-item v="ansiedad"/>
+		<list-item v="antagonismo"/>
+		<list-item v="ante"/>
+		<list-item v="antibiótico"/>
+		<list-item v="anticlericalismo"/>
+		<list-item v="anticomunismo"/>
+		<list-item v="antídoto"/>
+		<list-item v="antiespañolismo"/>
+		<list-item v="antifascismo"/>
+		<list-item v="antiimperialismo"/>
+		<list-item v="antimilitarismo"/>
+		<list-item v="antimonio"/>
+		<list-item v="antirreformismo"/>
+		<list-item v="antisemitismo"/>
+		<list-item v="antracita"/>
+		<list-item v="antropocentrismo"/>
+		<list-item v="apaleo"/>
+		<list-item v="apego"/>
+		<list-item v="apio"/>
+		<list-item v="apostolado"/>
+		<list-item v="apostura"/>
+		<list-item v="aramio"/>
+		<list-item v="arbolado"/>
+		<list-item v="arboladura"/>
+		<list-item v="arcabucería"/>
+		<list-item v="arcén"/>
+		<list-item v="ardor"/>
+		<list-item v="argamasa"/>
+		<list-item v="árgoma"/>
+		<list-item v="árnica"/>
+		<list-item v="aroma"/>
+		<list-item v="arralladura"/>
+		<list-item v="arreo"/>
+		<list-item v="arrianismo"/>
+		<list-item v="arrodeo"/>
+		<list-item v="arrojo"/>
+		<list-item v="arroz"/>
+		<list-item v="arruda"/>
+		<list-item v="arsenal"/>
+		<list-item v="arsénico"/>
+		<list-item v="arte"/>
+		<list-item v="artesanado"/>
+		<list-item v="artesanía"/>
+		<list-item v="artillería"/>
+		<list-item v="asado"/>
+		<list-item v="asadura"/>
+		<list-item v="ascetismo"/>
+		<list-item v="asco"/>
+		<list-item v="aseo"/>
+		<list-item v="asfalto"/>
+		<list-item v="asma"/>
+		<list-item v="asonancia"/>
+		<list-item v="avena"/>
+		<list-item v="ayer"/>
+		<list-item v="azabache"/>
+		<list-item v="azafrán"/>
+		<list-item v="azahar"/>
+		<list-item v="azogue"/>
+		<list-item v="azúcar"/>
+		<list-item v="azufre"/>
+		<list-item v="azul"/>
+		<list-item v="azulete"/>
+		<list-item v="azumbre"/>
+		<list-item v="baloncesto"/>
+		<list-item v="bambú"/>
+		<list-item v="baño"/>
+		<list-item v="barro"/>
+		<list-item v="bebida"/>
+		<list-item v="bien"/>
+		<list-item v="bienestar"/>
+		<list-item v="bochorno"/>
+		<list-item v="borra"/>
+		<list-item v="brea"/>
+		<list-item v="bronce"/>
+		<list-item v="cabello"/>
+		<list-item v="caca"/>
+		<list-item v="café"/>
+		<list-item v="cal"/>
+		<list-item v="caldo"/>
+		<list-item v="calor"/>
+		<list-item v="calzado"/>
+		<list-item v="campiña"/>
+		<list-item v="campo"/>
+		<list-item v="candor"/>
+		<list-item v="canto"/>
+		<list-item v="carbón"/>
+		<list-item v="carbono"/>
+		<list-item v="carne"/>
+		<list-item v="contenido"/>
+		<list-item v="dentadura"/>
+		<list-item v="deporte"/>
+		<list-item v="escritura"/>
+		<list-item v="estupefaciente"/>
+		<list-item v="explosivo"/>
+		<list-item v="fármaco"/>
+		<list-item v="fiebre"/>
+		<list-item v="flujo"/>
+		<list-item v="fragancia"/>
+		<list-item v="frío"/>
+		<list-item v="fruta"/>
+		<list-item v="fuego"/>
+		<list-item v="fuerza"/>
+		<list-item v="fulgor"/>
+		<list-item v="furia"/>
+		<list-item v="fútbol"/>
+		<list-item v="ganado"/>
+		<list-item v="gas"/>
+		<list-item v="gasóil"/>
+		<list-item v="gasóleo"/>
+		<list-item v="gasolina"/>
+		<list-item v="gente"/>
+		<list-item v="ginebra"/>
+		<list-item v="golf"/>
+		<list-item v="gozo"/>
+		<list-item v="grasa"/>
+		<list-item v="hálito"/>
+		<list-item v="herbáceo"/>
+		<list-item v="herramienta"/>
+		<list-item v="hielo"/>
+		<list-item v="hierba"/>
+		<list-item v="honor"/>
+		<list-item v="honra"/>
+		<list-item v="horror"/>
+		<list-item v="humedad"/>
+		<list-item v="humo"/>
+		<list-item v="humor"/>
+		<list-item v="iluminación"/>
+		<list-item v="industria"/>
+		<list-item v="infinito"/>
+		<list-item v="inmundicia"/>
+		<list-item v="ira"/>
+		<list-item v="jugo"/>
+		<list-item v="lana"/>
+		<list-item v="láser"/>
+		<list-item v="leche"/>
+		<list-item v="leña"/>
+		<list-item v="líquido"/>
+		<list-item v="lluvia"/>
+		<list-item v="lodo"/>
+		<list-item v="madera"/>
+		<list-item v="magia"/>
+		<list-item v="mal"/>
+		<list-item v="malestar"/>
+		<list-item v="mármol"/>
+		<list-item v="marrón"/>
+		<list-item v="masa"/>
+		<list-item v="mate"/>
+		<list-item v="materia"/>
+		<list-item v="material"/>
+		<list-item v="metal"/>
+		<list-item v="mezcla"/>
+		<list-item v="miedo"/>
+		<list-item v="miel"/>
+		<list-item v="mierda"/>
+		<list-item v="miseria"/>
+		<list-item v="muchedumbre"/>
+		<list-item v="nacionalismo"/>
+		<list-item v="nada"/>
+		<list-item v="nafta"/>
+		<list-item v="naftalina"/>
+		<list-item v="nata"/>
+		<list-item v="niebla"/>
+		<list-item v="nieve"/>
+		<list-item v="olor"/>
+		<list-item v="olvido"/>
+		<list-item v="orgullo"/>
+		<list-item v="ornato"/>
+		<list-item v="oro"/>
+		<list-item v="oxígeno"/>
+		<list-item v="ozono"/>
+		<list-item v="pacifismo"/>
+		<list-item v="paisaje"/>
+		<list-item v="paja"/>
+		<list-item v="pan"/>
+		<list-item v="pánico"/>
+		<list-item v="paro"/>
+		<list-item v="pasta"/>
+		<list-item v="pavimento"/>
+		<list-item v="pavor"/>
+		<list-item v="perfume"/>
+		<list-item v="personal"/>
+		<list-item v="pescado"/>
+		<list-item v="pestañeo"/>
+		<list-item v="peste"/>
+		<list-item v="petróleo"/>
+		<list-item v="piel"/>
+		<list-item v="plástico"/>
+		<list-item v="plata"/>
+		<list-item v="poder"/>
+		<list-item v="polvo"/>
+		<list-item v="poso"/>
+		<list-item v="potasio"/>
+		<list-item v="proteína"/>
+		<list-item v="publicidad"/>
+		<list-item v="pulso"/>
+		<list-item v="queso"/>
+		<list-item v="racismo"/>
+		<list-item v="radiación"/>
+		<list-item v="rencor"/>
+		<list-item v="resplandor"/>
+		<list-item v="ridículo"/>
+		<list-item v="riesgo"/>
+		<list-item v="rigor"/>
+		<list-item v="roña"/>
+		<list-item v="ropa"/>
+		<list-item v="ruda"/>
+		<list-item v="ruido"/>
+		<list-item v="rumor"/>
+		<list-item v="saber"/>
+		<list-item v="sabor"/>
+		<list-item v="sal"/>
+		<list-item v="sangre"/>
+		<list-item v="seda"/>
+		<list-item v="sedimento"/>
+		<list-item v="sentir"/>
+		<list-item v="sexo"/>
+		<list-item v="silicio"/>
+		<list-item v="soberbia"/>
+		<list-item v="socialismo"/>
+		<list-item v="suciedá"/>
+		<list-item v="sudor"/>
+		<list-item v="sustancia"/>
+		<list-item v="tacto"/>
+		<list-item v="talante"/>
+		<list-item v="talento"/>
+		<list-item v="te"/>
+		<list-item v="tejido"/>
+		<list-item v="tela"/>
+		<list-item v="temperatura"/>
+		<list-item v="tensión"/>
+		<list-item v="terror"/>
+		<list-item v="tiniebla"/>
+		<list-item v="verdura"/>
+		<list-item v="volumen"/>
+		<list-item v="whisky"/>
+		<list-item v="yedra"/>
+		<list-item v="yerba"/>
+		<list-item v="yodo"/>
+		<list-item v="yoga"/>
+		<list-item v="yogur"/>
+		<list-item v="zafiro"/>
+		<list-item v="zumo"/>
     </def-list>
 
 
     <!--lista para búsqueda de no animados-->    
     <def-list n="no_animados">
-	<list-item v="manzana"/>
+		<list-item v="manzana"/>
+    </def-list>
+	
+    <!--lista para búsqueda de abstractos-->    
+    <def-list n="abstractos">
+		<list-item v="aire"/>
+    </def-list>	
+
+
+    <!--lista para búsqueda de verbos transitivos-->    
+    <def-list n="transitivos">
+		<list-item v="comer"/>
+		<list-item v="poner"/>
+		<list-item v="beber"/>
+		<list-item v="calzar"/>
+		<list-item v="marchar"/>
+		<list-item v="blanquear"/>
+		<list-item v="abanderar"/>
+		<list-item v="abandonar"/>
+		<list-item v="abanicar"/>
+		<list-item v="abaratar"/>
+		<list-item v="abarrotar"/>
+		<list-item v="abastecer"/>
+		<list-item v="abatanar"/>
+		<list-item v="abatir"/>
+		<list-item v="Abisagrar"/>
+		<list-item v="ablandar"/>
+		<list-item v="abocar"/>
+		<list-item v="abochornar"/>
+		<list-item v="abolir"/>
+		<list-item v="abollar"/>
+		<list-item v="abombar"/>
+		<list-item v="abonar"/>
+		<list-item v="abordar"/>
+		<list-item v="aborrecer"/>
+		<list-item v="aborronar"/>
+		<list-item v="abotonar"/>
+		<list-item v="abovedar"/>
+		<list-item v="abrasar"/>
+		<list-item v="abrazar"/>
+		<list-item v="abrevar"/>
+		<list-item v="abrigar"/>
+		<list-item v="abrillantar"/>
+		<list-item v="abrir"/>
+		<list-item v="abrochar"/>
+		<list-item v="absolver"/>
+		<list-item v="absorber"/>
+		<list-item v="aburrir"/>
+		<list-item v="acabar"/>
+		<list-item v="acaparar"/>
+		<list-item v="acaramelar"/>
+		<list-item v="acariciar"/>
+		<list-item v="acechar"/>
+		<list-item v="acelerar"/>
+		<list-item v="acentuar"/>
+		<list-item v="aceptar"/>
+		<list-item v="acercar"/>
+		<list-item v="acertar"/>
+		<list-item v="aclamar"/>
+		<list-item v="aclarar"/>
+		<list-item v="aclimatar"/>
+		<list-item v="acobardar"/>
+		<list-item v="acoger"/>
+		<list-item v="acompañar"/>
+		<list-item v="aconsejar"/>
+		<list-item v="acorazar"/>
+		<list-item v="acorralar"/>
+		<list-item v="acortar"/>
+		<list-item v="acostumbrar"/>
+		<list-item v="acotar"/>
+		<list-item v="acunar"/>
+		<list-item v="acusar"/>
+		<list-item v="adaptar"/>
+		<list-item v="adivinar"/>
+		<list-item v="administrar"/>
+		<list-item v="admirar"/>
+		<list-item v="admitir"/>
+		<list-item v="adoptar"/>
+		<list-item v="adorar"/>
+		<list-item v="adormecer"/>
+		<list-item v="adular"/>
+		<list-item v="adulterar"/>
+		<list-item v="advertir"/>
+		<list-item v="afear"/>
+		<list-item v="afectar"/>
+		<list-item v="afeitar"/>
+		<list-item v="aficionar"/>
+		<list-item v="afilar"/>
+		<list-item v="afinar"/>
+		<list-item v="aflojar"/>
+		<list-item v="agasajar"/>
+		<list-item v="agostar"/>
+		<list-item v="agotar"/>
+		<list-item v="agradar"/>
+		<list-item v="agradecer"/>
+		<list-item v="agrietar"/>
+		<list-item v="agrupar"/>
+		<list-item v="aguantar"/>
+		<list-item v="aguardar"/>
+		<list-item v="aguijar"/>
+		<list-item v="agujerear"/>
+		<list-item v="ahijar"/>
+		<list-item v="ahogar"/>
+		<list-item v="ahorcar"/>
+		<list-item v="ahormar"/>
+		<list-item v="ahorrar"/>
+		<list-item v="ahumar"/>
+		<list-item v="ajusticiar"/>
+		<list-item v="alabar"/>
+		<list-item v="alargar"/>
+		<list-item v="alarmar"/>
+		<list-item v="alborotar"/>
+		<list-item v="alcanzar"/>
+		<list-item v="aleccionar"/>
+		<list-item v="alegar"/>
+		<list-item v="alegrar"/>
+		<list-item v="alejar"/>
+		<list-item v="aligerar"/>
+		<list-item v="alimentar"/>
+		<list-item v="alisar"/>
+		<list-item v="aliviar"/>
+		<list-item v="almacenar"/>
+		<list-item v="almorzar"/>
+		<list-item v="alquilar"/>
+		<list-item v="alterar"/>
+		<list-item v="alternar"/>
+		<list-item v="alzar"/>
+		<list-item v="anhelar"/>
+		<list-item v="amar"/>
+		<list-item v="amargar"/>
+		<list-item v="amarrar"/>
+		<list-item v="amartillar"/>
+		<list-item v="amasar"/>
+		<list-item v="ambicionar"/>
+		<list-item v="amenazar"/>
+		<list-item v="ametrallar"/>
+		<list-item v="amnistiar"/>
+		<list-item v="amontonar"/>
+		<list-item v="amortajar"/>
+		<list-item v="amplificar"/>
+		<list-item v="analizar"/>
+		<list-item v="anestesiar"/>
+		<list-item v="animar"/>
+		<list-item v="aniquilar"/>
+		<list-item v="ansiar"/>
+		<list-item v="anteponer"/>
+		<list-item v="anticipar"/>
+		<list-item v="antojar"/>
+		<list-item v="anudar"/>
+		<list-item v="anunciar"/>
+		<list-item v="añadir"/>
+		<list-item v="apagar"/>
+		<list-item v="aparentar"/>
+		<list-item v="apartar"/>
+		<list-item v="apedrear"/>
+		<list-item v="apelotonar"/>
+		<list-item v="aplanar"/>
+		<list-item v="aplastar"/>
+		<list-item v="aplaudir"/>
+		<list-item v="aplicar"/>
+		<list-item v="apolillar"/>
+		<list-item v="apostrofar"/>
+		<list-item v="apreciar"/>
+		<list-item v="aprender"/>
+		<list-item v="apretar"/>
+		<list-item v="apretujar"/>
+		<list-item v="aprisionar"/>
+		<list-item v="aprovechar"/>
+		<list-item v="apuntar"/>
+		<list-item v="apurar"/>
+		<list-item v="arañar"/>
+		<list-item v="arar"/>
+		<list-item v="arbitrar"/>
+		<list-item v="archivar"/>
+		<list-item v="argumentar"/>
+		<list-item v="armar"/>
+		<list-item v="aromatizar"/>
+		<list-item v="arquear"/>
+		<list-item v="arrancar"/>
+		<list-item v="arrastrar"/>
+		<list-item v="arrear"/>
+		<list-item v="arrebatar"/>
+		<list-item v="arreglar"/>
+		<list-item v="arrimar"/>
+		<list-item v="arrinconar"/>
+		<list-item v="arrugar"/>
+		<list-item v="articular"/>
+		<list-item v="asaltar"/>
+		<list-item v="asar"/>
+		<list-item v="asegurar"/>
+		<list-item v="asentar"/>
+		<list-item v="aserrar"/>
+		<list-item v="aserruchar"/>
+		<list-item v="asesinar"/>
+		<list-item v="asignar"/>
+		<list-item v="asociar"/>
+		<list-item v="asperger"/>
+		<list-item v="asturianizar"/>
+		<list-item v="asumir"/>
+		<list-item v="atajar"/>
+		<list-item v="atar"/>
+		<list-item v="atascar"/>
+		<list-item v="atechar"/>
+		<list-item v="atemorizar"/>
+		<list-item v="atenazar"/>
+		<list-item v="atender"/>
+		<list-item v="atisbar"/>
+		<list-item v="atizar"/>
+		<list-item v="atontar"/>
+		<list-item v="atornillar"/>
+		<list-item v="atrancar"/>
+		<list-item v="atribuir"/>
+		<list-item v="atrofiar"/>
+		<list-item v="aupar"/>
+		<list-item v="auscultar"/>
+		<list-item v="autorizar"/>
+		<list-item v="avanzar"/>
+		<list-item v="aventar"/>
+		<list-item v="avergonzar"/>
+		<list-item v="averiguar"/>
+		<list-item v="ayudar"/>
+		<list-item v="azuzar"/>
+		<list-item v="bailar"/>
+		<list-item v="bajar"/>
+		<list-item v="balancear"/>
+		<list-item v="balbucear"/>
+		<list-item v="balizar"/>
+		<list-item v="barajar"/>
+		<list-item v="barbechar"/>
+		<list-item v="barrenar"/>
+		<list-item v="barrer"/>
+		<list-item v="barruntar"/>
+		<list-item v="bautizar"/>
+		<list-item v="beber"/>
+		<list-item v="bendecir"/>
+		<list-item v="beneficiar"/>
+		<list-item v="besar"/>
+		<list-item v="blanquear"/>
+		<list-item v="bombear"/>
+		<list-item v="bonificar"/>
+		<list-item v="borrar"/>
+		<list-item v="botar"/>
+		<list-item v="burlar"/>
+		<list-item v="cabalgar"/>
+		<list-item v="cacarear"/>
+		<list-item v="calar"/>
+		<list-item v="calcular"/>
+		<list-item v="caldear"/>
+		<list-item v="calentar"/>
+		<list-item v="calificar"/>
+		<list-item v="caligrafiar"/>
+		<list-item v="calmar"/>
+		<list-item v="calumniar"/>
+		<list-item v="calzar"/>
+		<list-item v="callar"/>
+		<list-item v="cambiar"/>
+		<list-item v="canalizar"/>
+		<list-item v="canonizar"/>
+		<list-item v="cantar"/>
+		<list-item v="capar"/>
+		<list-item v="carcomer"/>
+		<list-item v="cargar"/>
+		<list-item v="carretear"/>
+		<list-item v="cascar"/>
+		<list-item v="castellanizar"/>
+		<list-item v="castigar"/>
+		<list-item v="catalogar"/>
+		<list-item v="causar"/>
+		<list-item v="cavar"/>
+		<list-item v="cazar"/>
+		<list-item v="cebar"/>
+		<list-item v="ceder"/>
+		<list-item v="cegar"/>
+		<list-item v="celebrar"/>
+		<list-item v="censurar"/>
+		<list-item v="ceñir"/>
+		<list-item v="cercar"/>
+		<list-item v="cerrar"/>
+		<list-item v="certificar"/>
+		<list-item v="citar"/>
+		<list-item v="clasificar"/>
+		<list-item v="clavar"/>
+		<list-item v="cobrar"/>
+		<list-item v="cocer"/>
+		<list-item v="coger"/>
+		<list-item v="coleccionar"/>
+		<list-item v="colgar"/>
+		<list-item v="colmar"/>
+		<list-item v="colocar"/>
+		<list-item v="colonizar"/>
+		<list-item v="columpiar"/>
+		<list-item v="combinar"/>
+		<list-item v="comer"/>
+		<list-item v="cometer"/>
+		<list-item v="compaginar"/>
+		<list-item v="comparar"/>
+		<list-item v="compartir"/>
+		<list-item v="complementar"/>
+		<list-item v="comprar"/>
+		<list-item v="comprender"/>
+		<list-item v="comprobar"/>
+		<list-item v="comprometer"/>
+		<list-item v="comunicar"/>
+		<list-item v="concebir"/>
+		<list-item v="conceder"/>
+		<list-item v="concentrar"/>
+		<list-item v="concretar"/>
+		<list-item v="condecorar"/>
+		<list-item v="condenar"/>
+		<list-item v="conducir"/>
+		<list-item v="confederar"/>
+		<list-item v="confesar"/>
+		<list-item v="conformar"/>
+		<list-item v="confundir"/>
+		<list-item v="congelar"/>
+		<list-item v="conjugar"/>
+		<list-item v="conjurar"/>
+		<list-item v="conmemorar"/>
+		<list-item v="conocer"/>
+		<list-item v="consentir"/>
+		<list-item v="conservar"/>
+		<list-item v="consignar"/>
+		<list-item v="consolar"/>
+		<list-item v="constituir"/>
+		<list-item v="construir"/>
+		<list-item v="consultar"/>
+		<list-item v="contagiar"/>
+		<list-item v="contaminar"/>
+		<list-item v="contar"/>
+		<list-item v="contemplar"/>
+		<list-item v="contradecir"/>
+		<list-item v="contraer"/>
+		<list-item v="contrastar"/>
+		<list-item v="contratar"/>
+		<list-item v="convencer"/>
+		<list-item v="convocar"/>
+		<list-item v="coordinar"/>
+		<list-item v="copiar"/>
+		<list-item v="coplear"/>
+		<list-item v="cornear"/>
+		<list-item v="corregir"/>
+		<list-item v="correr"/>
+		<list-item v="cortar"/>
+		<list-item v="cortejar"/>
+		<list-item v="cosechar"/>
+		<list-item v="coser"/>
+		<list-item v="costar"/>
+		<list-item v="cotejar"/>
+		<list-item v="creer"/>
+		<list-item v="criar"/>
+		<list-item v="cribar"/>
+		<list-item v="criticar"/>
+		<list-item v="cruzar"/>
+		<list-item v="cubrir"/>
+		<list-item v="cuidar"/>
+		<list-item v="culpar"/>
+		<list-item v="cumplir"/>
+		<list-item v="curar"/>
+		<list-item v="curiosear"/>
+		<list-item v="chamuscar"/>
+		<list-item v="embrollar"/>
+		<list-item v="chupar"/>
+		<list-item v="danzar"/>
+		<list-item v="dañar"/>
+		<list-item v="dar"/>
+		<list-item v="decir"/>
+		<list-item v="declarar"/>
+		<list-item v="decolorar"/>
+		<list-item v="decretar"/>
+		<list-item v="dedicar"/>
+		<list-item v="defender"/>
+		<list-item v="definir"/>
+		<list-item v="degustar"/>
+		<list-item v="deificar"/>
+		<list-item v="dejar"/>
+		<list-item v="delatar"/>
+		<list-item v="deletrear"/>
+		<list-item v="demostrar"/>
+		<list-item v="denunciar"/>
+		<list-item v="derramar"/>
+		<list-item v="derretir"/>
+		<list-item v="derrochar"/>
+		<list-item v="desabrochar"/>
+		<list-item v="desaconsejar"/>
+		<list-item v="desagradecer"/>
+		<list-item v="desalentar"/>
+		<list-item v="desanimar"/>
+		<list-item v="desaprovechar"/>
+		<list-item v="liberar"/>
+		<list-item v="desarreglar"/>
+		<list-item v="desatar"/>
+		<list-item v="desatornillar"/>
+		<list-item v="desautorizar"/>
+		<list-item v="desayunar"/>
+		<list-item v="desbardar"/>
+		<list-item v="desbastar"/>
+		<list-item v="desbrozar"/>
+		<list-item v="descalabrar"/>
+		<list-item v="descalzar"/>
+		<list-item v="descarcañalar"/>
+		<list-item v="descargar"/>
+		<list-item v="descender"/>
+		<list-item v="desconocer"/>
+		<list-item v="descontar"/>
+		<list-item v="descornar"/>
+		<list-item v="descoser"/>
+		<list-item v="describir"/>
+		<list-item v="descubrir"/>
+		<list-item v="descuidar"/>
+		<list-item v="desear"/>
+		<list-item v="desencajar"/>
+		<list-item v="desencoger"/>
+		<list-item v="desengañar"/>
+		<list-item v="desenhebrar"/>
+		<list-item v="desenlazar"/>
+		<list-item v="desenredar"/>
+		<list-item v="desenterrar"/>
+		<list-item v="desentumecer"/>
+		<list-item v="desenvolver"/>
+		<list-item v="desfijar"/>
+		<list-item v="desfondar"/>
+		<list-item v="desgajar"/>
+		<list-item v="desgarrar"/>
+		<list-item v="desgranar"/>
+		<list-item v="deshacer"/>
+		<list-item v="deshilachar"/>
+		<list-item v="deshojar"/>
+		<list-item v="desinfectar"/>
+		<list-item v="desjuntar"/>
+		<list-item v="deslavar"/>
+		<list-item v="deslizar"/>
+		<list-item v="deslomar"/>
+		<list-item v="deslumbrar"/>
+		<list-item v="desmelar"/>
+		<list-item v="desmellar"/>
+		<list-item v="desmigajar"/>
+		<list-item v="desmigar"/>
+		<list-item v="desmontar"/>
+		<list-item v="desocupar"/>
+		<list-item v="desordenar"/>
+		<list-item v="desorillar"/>
+		<list-item v="desovillar"/>
+		<list-item v="despajar"/>
+		<list-item v="desparramar"/>
+		<list-item v="despedir"/>
+		<list-item v="despegar"/>
+		<list-item v="despeinar"/>
+		<list-item v="despejar"/>
+		<list-item v="despellejar"/>
+		<list-item v="despeñar"/>
+		<list-item v="desperdigar"/>
+		<list-item v="despertar"/>
+		<list-item v="desplumar"/>
+		<list-item v="desposeer"/>
+		<list-item v="despreciar"/>
+		<list-item v="desprender"/>
+		<list-item v="desteñir"/>
+		<list-item v="desterronar"/>
+		<list-item v="destrozar"/>
+		<list-item v="desviar"/>
+		<list-item v="detestar"/>
+		<list-item v="devanar"/>
+		<list-item v="dibujar"/>
+		<list-item v="dictar"/>
+		<list-item v="digerir"/>
+		<list-item v="dignificar"/>
+		<list-item v="dimir"/>
+		<list-item v="discutir"/>
+		<list-item v="diseñar"/>
+		<list-item v="disimular"/>
+		<list-item v="disparar"/>
+		<list-item v="distinguir"/>
+		<list-item v="distraer"/>
+		<list-item v="distribuir"/>
+		<list-item v="dividir"/>
+		<list-item v="divisar"/>
+		<list-item v="divulgar"/>
+		<list-item v="doblar"/>
+		<list-item v="doblegar"/>
+		<list-item v="domesticar"/>
+		<list-item v="dominar"/>
+		<list-item v="drogar"/>
+		<list-item v="eclipsar"/>
+		<list-item v="echar"/>
+		<list-item v="editar"/>
+		<list-item v="educar"/>
+		<list-item v="ejecutar"/>
+		<list-item v="ejercitar"/>
+		<list-item v="elaborar"/>
+		<list-item v="elegir"/>
+		<list-item v="elogiar"/>
+		<list-item v="embarrar"/>
+		<list-item v="embaucar"/>
+		<list-item v="embellecer"/>
+		<list-item v="embestir"/>
+		<list-item v="embetunar"/>
+		<list-item v="emborrachar"/>
+		<list-item v="embrollar"/>
+		<list-item v="embrujar"/>
+		<list-item v="empapar"/>
+		<list-item v="empapelar"/>
+		<list-item v="emparejar"/>
+		<list-item v="empezar"/>
+		<list-item v="emplear"/>
+		<list-item v="empobrecer"/>
+		<list-item v="empollar"/>
+		<list-item v="emporcar"/>
+		<list-item v="empozar"/>
+		<list-item v="emprender"/>
+		<list-item v="empujar"/>
+		<list-item v="enajenar"/>
+		<list-item v="enanchar"/>
+		<list-item v="encabalgar"/>
+		<list-item v="encadenar"/>
+		<list-item v="encajar"/>
+		<list-item v="encaminar"/>
+		<list-item v="encandilar"/>
+		<list-item v="encantar"/>
+		<list-item v="encañar"/>
+		<list-item v="encargar"/>
+		<list-item v="encender"/>
+		<list-item v="enclavijar"/>
+		<list-item v="encoger"/>
+		<list-item v="encontrar"/>
+		<list-item v="enderezar"/>
+		<list-item v="endiablar"/>
+		<list-item v="endosar"/>
+		<list-item v="enfadar"/>
+		<list-item v="enfajar"/>
+		<list-item v="enfocar"/>
+		<list-item v="enfoscar"/>
+		<list-item v="enfriar"/>
+		<list-item v="enfurruñar"/>
+		<list-item v="enfurruscar"/>
+		<list-item v="enganchar"/>
+		<list-item v="engendrar"/>
+		<list-item v="engordar"/>
+		<list-item v="engullir"/>
+		<list-item v="enhebrar"/>
+		<list-item v="enjabonar"/>
+		<list-item v="enjaular"/>
+		<list-item v="enjuagar"/>
+		<list-item v="enlazar"/>
+		<list-item v="enlodar"/>
+		<list-item v="enlutar"/>
+		<list-item v="enmadejar"/>
+		<list-item v="enmarañar"/>
+		<list-item v="enraizar"/>
+		<list-item v="enredar"/>
+		<list-item v="enrejar"/>
+		<list-item v="enristrar"/>
+		<list-item v="enrollar"/>
+		<list-item v="ensanchar"/>
+		<list-item v="ensayar"/>
+		<list-item v="enseñar"/>
+		<list-item v="ensuciar"/>
+		<list-item v="entender"/>
+		<list-item v="enterrar"/>
+		<list-item v="entornar"/>
+		<list-item v="entrecerrar"/>
+		<list-item v="entregar"/>
+		<list-item v="entremezclar"/>
+		<list-item v="entresacar"/>
+		<list-item v="entretener"/>
+		<list-item v="entupir"/>
+		<list-item v="enturbiar"/>
+		<list-item v="envenenar"/>
+		<list-item v="enviar"/>
+		<list-item v="envizcar"/>
+		<list-item v="enzarzar"/>
+		<list-item v="equivocar"/>
+		<list-item v="erguir"/>
+		<list-item v="escachar"/>
+		<list-item v="escaldar"/>
+		<list-item v="escanciar"/>
+		<list-item v="escarbar"/>
+		<list-item v="escoger"/>
+		<list-item v="esconder"/>
+		<list-item v="escribir"/>
+		<list-item v="escueznar"/>
+		<list-item v="escupir"/>
+		<list-item v="espabilar"/>
+		<list-item v="espantar"/>
+		<list-item v="esparcir"/>
+		<list-item v="especificar"/>
+		<list-item v="esperar"/>
+		<list-item v="espetar"/>
+		<list-item v="espiar"/>
+		<list-item v="espigar"/>
+		<list-item v="espolvorear"/>
+		<list-item v="esquilar"/>
+		<list-item v="estabilizar"/>
+		<list-item v="establecer"/>
+		<list-item v="estacar"/>
+		<list-item v="estercolar"/>
+		<list-item v="estimular"/>
+		<list-item v="estorbar"/>
+		<list-item v="estrechar"/>
+		<list-item v="estremecer"/>
+		<list-item v="estrenar"/>
+		<list-item v="estropear"/>
+		<list-item v="estrujar"/>
+		<list-item v="eternizar"/>
+		<list-item v="evacuar"/>
+		<list-item v="evangelizar"/>
+		<list-item v="evitar"/>
+		<list-item v="evolucionar"/>
+		<list-item v="exagerar"/>
+		<list-item v="examinar"/>
+		<list-item v="excusar"/>
+		<list-item v="exigir"/>
+		<list-item v="experimentar"/>
+		<list-item v="explicar"/>
+		<list-item v="exponer"/>
+		<list-item v="expresar"/>
+		<list-item v="exprimir"/>
+		<list-item v="extender"/>
+		<list-item v="extinguir"/>
+		<list-item v="extraer"/>
+		<list-item v="extraviar"/>
+		<list-item v="fabricar"/>
+		<list-item v="facturar"/>
+		<list-item v="fajar"/>
+		<list-item v="falsear"/>
+		<list-item v="fallar"/>
+		<list-item v="favorecer"/>
+		<list-item v="felicitar"/>
+		<list-item v="festejar"/>
+		<list-item v="fiar"/>
+		<list-item v="fijar"/>
+		<list-item v="filtrar"/>
+		<list-item v="fingir"/>
+		<list-item v="fisgar"/>
+		<list-item v="formar"/>
+		<list-item v="fornir"/>
+		<list-item v="forrar"/>
+		<list-item v="fortalecer"/>
+		<list-item v="fotografiar"/>
+		<list-item v="fradar"/>
+		<list-item v="fraguar"/>
+		<list-item v="franquear"/>
+		<list-item v="frañer"/>
+		<list-item v="frañer"/>
+		<list-item v="fregar"/>
+		<list-item v="freír"/>
+		<list-item v="frustrar"/>
+		<list-item v="fumar"/>
+		<list-item v="Hurtar"/>
+		<list-item v="fundir"/>
+		<list-item v="galantear"/>
+		<list-item v="galvanizar"/>
+		<list-item v="ganar"/>
+		<list-item v="garabatear"/>
+		<list-item v="gastar"/>
+		<list-item v="gemir"/>
+		<list-item v="generalizar"/>
+		<list-item v="gestionar"/>
+		<list-item v="girar"/>
+		<list-item v="glosar"/>
+		<list-item v="gobernar"/>
+		<list-item v="golpear"/>
+		<list-item v="grabar"/>
+		<list-item v="gratificar"/>
+		<list-item v="graznar"/>
+		<list-item v="gruñir"/>
+		<list-item v="guardar"/>
+		<list-item v="guarecer"/>
+		<list-item v="guarnecer"/>
+		<list-item v="guiar"/>
+		<list-item v="guiñar"/>
+		<list-item v="hacer"/>
+		<list-item v="hacinar"/>
+		<list-item v="halagar"/>
+		<list-item v="harmonizar"/>
+		<list-item v="hartar"/>
+		<list-item v="helar"/>
+		<list-item v="hender"/>
+		<list-item v="hendir"/>
+		<list-item v="heredar"/>
+		<list-item v="herir"/>
+		<list-item v="herrar"/>
+		<list-item v="hervir"/>
+		<list-item v="hilar"/>
+		<list-item v="hilvanar"/>
+		<list-item v="hincar"/>
+		<list-item v="hipnotizar"/>
+		<list-item v="historiar"/>
+		<list-item v="hocicar"/>
+		<list-item v="hociquear"/>
+		<list-item v="hollar"/>
+		<list-item v="homenajear"/>
+		<list-item v="honrar"/>
+		<list-item v="hornear"/>
+		<list-item v="hospedar"/>
+		<list-item v="hozar"/>
+		<list-item v="hundir"/>
+		<list-item v="hurgar"/>
+		<list-item v="husmear"/>
+		<list-item v="idealizar"/>
+		<list-item v="idear"/>
+		<list-item v="identificar"/>
+		<list-item v="iluminar"/>
+		<list-item v="ilusionar"/>
+		<list-item v="ilustrar"/>
+		<list-item v="imaginar"/>
+		<list-item v="impartir"/>
+		<list-item v="impedir"/>
+		<list-item v="importar"/>
+		<list-item v="impresionar"/>
+		<list-item v="impugnar"/>
+		<list-item v="inaugurar"/>
+		<list-item v="incomunicar"/>
+		<list-item v="incordiar"/>
+		<list-item v="incumplir"/>
+		<list-item v="independizar"/>
+		<list-item v="indicar"/>
+		<list-item v="indignar"/>
+		<list-item v="indultar"/>
+		<list-item v="industrializar"/>
+		<list-item v="infectar"/>
+		<list-item v="inflamar"/>
+		<list-item v="inflar"/>
+		<list-item v="informar"/>
+		<list-item v="ingerir"/>
+		<list-item v="iniciar"/>
+		<list-item v="inscribir"/>
+		<list-item v="insertar"/>
+		<list-item v="inspirar"/>
+		<list-item v="instigar"/>
+		<list-item v="instituir"/>
+		<list-item v="instruir"/>
+		<list-item v="insultar"/>
+		<list-item v="intentar"/>
+		<list-item v="interpretar"/>
+		<list-item v="intervenir"/>
+		<list-item v="introducir"/>
+		<list-item v="invitar"/>
+		<list-item v="irritar"/>
+		<list-item v="jabonar"/>
+		<list-item v="jeringar"/>
+		<list-item v="jubilar"/>
+		<list-item v="juntar"/>
+		<list-item v="jurar"/>
+		<list-item v="justificar"/>
+		<list-item v="juzgar"/>
+		<list-item v="labrar"/>
+		<list-item v="ladear"/>
+		<list-item v="ladrar"/>
+		<list-item v="lamentar"/>
+		<list-item v="lamer"/>
+		<list-item v="lanzar"/>
+		<list-item v="largar"/>
+		<list-item v="lastimar"/>
+		<list-item v="lavar"/>
+		<list-item v="leer"/>
+		<list-item v="legalizar"/>
+		<list-item v="levantar"/>
+		<list-item v="liar"/>
+		<list-item v="liberar"/>
+		<list-item v="libertar"/>
+		<list-item v="librar"/>
+		<list-item v="licenciar"/>
+		<list-item v="limitar"/>
+		<list-item v="limpiar"/>
+		<list-item v="liquidar"/>
+		<list-item v="litografiar"/>
+		<list-item v="lograr"/>
+		<list-item v="lucir"/>
+		<list-item v="llamar"/>
+		<list-item v="llamber"/>
+		<list-item v="llenar"/>
+		<list-item v="llevar"/>
+		<list-item v="llorar"/>
+		<list-item v="lloriquear"/>
+		<list-item v="machucar"/>
+		<list-item v="magrear"/>
+		<list-item v="majar"/>
+		<list-item v="malhumorar"/>
+		<list-item v="mamar"/>
+		<list-item v="mancornar"/>
+		<list-item v="manchar"/>
+		<list-item v="mandar"/>
+		<list-item v="manejar"/>
+		<list-item v="manifestar"/>
+		<list-item v="manosear"/>
+		<list-item v="mantener"/>
+		<list-item v="maravillar"/>
+		<list-item v="marcar"/>
+		<list-item v="marear"/>
+		<list-item v="marginar"/>
+		<list-item v="martillear"/>
+		<list-item v="masticar"/>
+		<list-item v="matar"/>
+		<list-item v="materializar"/>
+		<list-item v="matricular"/>
+		<list-item v="maullar"/>
+		<list-item v="mazar"/>
+		<list-item v="mear"/>
+		<list-item v="medir"/>
+		<list-item v="mejorar"/>
+		<list-item v="mellar"/>
+		<list-item v="mendigar"/>
+		<list-item v="menear"/>
+		<list-item v="menguar"/>
+		<list-item v="merodear"/>
+		<list-item v="meter"/>
+		<list-item v="mezclar"/>
+		<list-item v="mimar"/>
+		<list-item v="mirar"/>
+		<list-item v="mojar"/>
+		<list-item v="moler"/>
+		<list-item v="molestar"/>
+		<list-item v="mondar"/>
+		<list-item v="montar"/>
+		<list-item v="morder"/>
+		<list-item v="mordisquear"/>
+		<list-item v="mosquear"/>
+		<list-item v="mostrar"/>
+		<list-item v="mover"/>
+		<list-item v="multiplicar"/>
+		<list-item v="mullir"/>
+		<list-item v="murmurar"/>
+		<list-item v="narrar"/>
+		<list-item v="necesitar"/>
+		<list-item v="negar"/>
+		<list-item v="negociar"/>
+		<list-item v="nivelar"/>
+		<list-item v="nombrar"/>
+		<list-item v="normalizar"/>
+		<list-item v="notar"/>
+		<list-item v="numerar"/>
+		<list-item v="obedecer"/>
+		<list-item v="objetar"/>
+		<list-item v="obligar"/>
+		<list-item v="observar"/>
+		<list-item v="ocupar"/>
+		<list-item v="ofender"/>
+		<list-item v="ofertar"/>
+		<list-item v="ofrecer"/>
+		<list-item v="oír"/>
+		<list-item v="oler"/>
+		<list-item v="olfatear"/>
+		<list-item v="olisquear"/>
+		<list-item v="olvidar"/>
+		<list-item v="operar"/>
+		<list-item v="oponer"/>
+		<list-item v="oprimir"/>
+		<list-item v="ordenar"/>
+		<list-item v="ordeñar"/>
+		<list-item v="organizar"/>
+		<list-item v="orientar"/>
+		<list-item v="originar"/>
+		<list-item v="ornamentar"/>
+		<list-item v="oscurecer"/>
+		<list-item v="oxidar"/>
+		<list-item v="oxigenar"/>
+		<list-item v="pactar"/>
+		<list-item v="pagar"/>
+		<list-item v="palmear"/>
+		<list-item v="palpar"/>
+		<list-item v="parafrasear"/>
+		<list-item v="parar"/>
+		<list-item v="parir"/>
+		<list-item v="parlotear"/>
+		<list-item v="parodiar"/>
+		<list-item v="parpadear"/>
+		<list-item v="participar"/>
+		<list-item v="partir"/>
+		<list-item v="pasar"/>
+		<list-item v="pasear"/>
+		<list-item v="pasmar"/>
+		<list-item v="pastar"/>
+		<list-item v="pastorear"/>
+		<list-item v="patear"/>
+		<list-item v="pedir"/>
+		<list-item v="pegar"/>
+		<list-item v="pelar"/>
+		<list-item v="pensar"/>
+		<list-item v="peñizcar"/>
+		<list-item v="perder"/>
+		<list-item v="perfeccionar"/>
+		<list-item v="perfumar"/>
+		<list-item v="perjudicar"/>
+		<list-item v="perpetuar"/>
+		<list-item v="perseguir"/>
+		<list-item v="pervertir"/>
+		<list-item v="pesar"/>
+		<list-item v="pescar"/>
+		<list-item v="picar"/>
+		<list-item v="pinchar"/>
+		<list-item v="pintar"/>
+		<list-item v="pisar"/>
+		<list-item v="pisotear"/>
+		<list-item v="planear"/>
+		<list-item v="plantar"/>
+		<list-item v="poblar"/>
+		<list-item v="podar"/>
+		<list-item v="podrecer"/>
+		<list-item v="poner"/>
+		<list-item v="popularizar"/>
+		<list-item v="portar"/>
+		<list-item v="posar"/>
+		<list-item v="practicar"/>
+		<list-item v="precisar"/>
+		<list-item v="predicar"/>
+		<list-item v="preferir"/>
+		<list-item v="preguntar"/>
+		<list-item v="prejuzgar"/>
+		<list-item v="premiar"/>
+		<list-item v="prendar"/>
+		<list-item v="preparar"/>
+		<list-item v="prescribir"/>
+		<list-item v="presentar"/>
+		<list-item v="prestar"/>
+		<list-item v="pretender"/>
+		<list-item v="prevenir"/>
+		<list-item v="prever"/>
+		<list-item v="probar"/>
+		<list-item v="procesar"/>
+		<list-item v="producir"/>
+		<list-item v="programar"/>
+		<list-item v="prohibir"/>
+		<list-item v="prologar"/>
+		<list-item v="prolongar"/>
+		<list-item v="prometer"/>
+		<list-item v="pronunciar"/>
+		<list-item v="proponer"/>
+		<list-item v="prostituir"/>
+		<list-item v="proteger"/>
+		<list-item v="provocar"/>
+		<list-item v="publicar"/>
+		<list-item v="pudrir"/>
+		<list-item v="pujar"/>
+		<list-item v="quebrantar"/>
+		<list-item v="quejar"/>
+		<list-item v="quemar"/>
+		<list-item v="querer"/>
+		<list-item v="quitar"/>
+		<list-item v="rabilar"/>
+		<list-item v="radiar"/>
+		<list-item v="raer"/>
+		<list-item v="rallar"/>
+		<list-item v="rascar"/>
+		<list-item v="rasgar"/>
+		<list-item v="rasguñar"/>
+		<list-item v="raspar"/>
+		<list-item v="rastrear"/>
+		<list-item v="rastrillar"/>
+		<list-item v="rayar"/>
+		<list-item v="reabrir"/>
+		<list-item v="realizar"/>
+		<list-item v="rebajar"/>
+		<list-item v="rebañar"/>
+		<list-item v="rebrincar"/>
+		<list-item v="rebuscar"/>
+		<list-item v="recibir"/>
+		<list-item v="reclamar"/>
+		<list-item v="recoger"/>
+		<list-item v="recolectar"/>
+		<list-item v="reconciliar"/>
+		<list-item v="reconocer"/>
+		<list-item v="recordar"/>
+		<list-item v="recorrer"/>
+		<list-item v="recudir"/>
+		<list-item v="rechazar"/>
+		<list-item v="reducir"/>
+		<list-item v="referir"/>
+		<list-item v="reflexionar"/>
+		<list-item v="reformar"/>
+		<list-item v="refrescar"/>
+		<list-item v="regar"/>
+		<list-item v="regatear"/>
+		<list-item v="regenerar"/>
+		<list-item v="registrar"/>
+		<list-item v="regular"/>
+		<list-item v="rehacer"/>
+		<list-item v="rehervir"/>
+		<list-item v="reír"/>
+		<list-item v="rejuvenecer"/>
+		<list-item v="relacionar"/>
+		<list-item v="relajar"/>
+		<list-item v="relamer"/>
+		<list-item v="relatar"/>
+		<list-item v="releer"/>
+		<list-item v="remendar"/>
+		<list-item v="remojar"/>
+		<list-item v="remontar"/>
+		<list-item v="remover"/>
+		<list-item v="rendir"/>
+		<list-item v="renovar"/>
+		<list-item v="reorganizar"/>
+		<list-item v="repartir"/>
+		<list-item v="repasar"/>
+		<list-item v="repetir"/>
+		<list-item v="representar"/>
+		<list-item v="reproducir"/>
+		<list-item v="resaber"/>
+		<list-item v="reservar"/>
+		<list-item v="resistir"/>
+		<list-item v="respetar"/>
+		<list-item v="respirar"/>
+		<list-item v="responder"/>
+		<list-item v="restar"/>
+		<list-item v="restaurar"/>
+		<list-item v="restregar"/>
+		<list-item v="resumir"/>
+		<list-item v="retallar"/>
+		<list-item v="retejar"/>
+		<list-item v="retirar"/>
+		<list-item v="retorcijar"/>
+		<list-item v="retrotraer"/>
+		<list-item v="reunir"/>
+		<list-item v="revender"/>
+		<list-item v="reventar"/>
+		<list-item v="revolcar"/>
+		<list-item v="revolver"/>
+		<list-item v="rezar"/>
+		<list-item v="rezumar"/>
+		<list-item v="robar"/>
+		<list-item v="rodear"/>
+		<list-item v="roer"/>
+		<list-item v="rogar"/>
+		<list-item v="romper"/>
+		<list-item v="roncar"/>
+		<list-item v="rotular"/>
+		<list-item v="rugir"/>
+		<list-item v="saber"/>
+		<list-item v="saborear"/>
+		<list-item v="sacar"/>
+		<list-item v="saciar"/>
+		<list-item v="sacrificar"/>
+		<list-item v="sacudir"/>
+		<list-item v="salpicar"/>
+		<list-item v="saltar"/>
+		<list-item v="salvar"/>
+		<list-item v="sallar"/>
+		<list-item v="satirizar"/>
+		<list-item v="saturar"/>
+		<list-item v="seducir"/>
+		<list-item v="segar"/>
+		<list-item v="seguir"/>
+		<list-item v="seleccionar"/>
+		<list-item v="sembrar"/>
+		<list-item v="sentar"/>
+		<list-item v="sentir"/>
+		<list-item v="separar"/>
+		<list-item v="serrar"/>
+		<list-item v="servir"/>
+		<list-item v="significar"/>
+		<list-item v="silbar"/>
+		<list-item v="silvar"/>
+		<list-item v="sintetizar"/>
+		<list-item v="soldar"/>
+		<list-item v="solmenar"/>
+		<list-item v="soltar"/>
+		<list-item v="someter"/>
+		<list-item v="sonar"/>
+		<list-item v="sondear"/>
+		<list-item v="soñar"/>
+		<list-item v="sorber"/>
+		<list-item v="soterrar"/>
+		<list-item v="subastar"/>
+		<list-item v="sufrir"/>
+		<list-item v="sugerir"/>
+		<list-item v="sujetar"/>
+		<list-item v="sumar"/>
+		<list-item v="sumergir"/>
+		<list-item v="superar"/>
+		<list-item v="suplir"/>
+		<list-item v="surgir"/>
+		<list-item v="surtir"/>
+		<list-item v="suscribir"/>
+		<list-item v="suspender"/>
+		<list-item v="suspirar"/>
+		<list-item v="sustituir"/>
+		<list-item v="susurrar"/>
+		<list-item v="tajar"/>
+		<list-item v="tantear"/>
+		<list-item v="tapar"/>
+		<list-item v="tartamudear"/>
+		<list-item v="tatuar"/>
+		<list-item v="tejer"/>
+		<list-item v="telefonear"/>
+		<list-item v="telegrafiar"/>
+		<list-item v="televisar"/>
+		<list-item v="tener"/>
+		<list-item v="tensar"/>
+		<list-item v="tentar"/>
+		<list-item v="teñir"/>
+		<list-item v="tirar"/>
+		<list-item v="tiznar"/>
+		<list-item v="tocar"/>
+		<list-item v="tomar"/>
+		<list-item v="toquetear"/>
+		<list-item v="torcer"/>
+		<list-item v="tornear"/>
+		<list-item v="torturar"/>
+		<list-item v="tostar"/>
+		<list-item v="trabar"/>
+		<list-item v="traducir"/>
+		<list-item v="traer"/>
+		<list-item v="trampear"/>
+		<list-item v="transcribir"/>
+		<list-item v="transfigurar"/>
+		<list-item v="transformar"/>
+		<list-item v="transmitir"/>
+		<list-item v="transportar"/>
+		<list-item v="trasladar"/>
+		<list-item v="traspasar"/>
+		<list-item v="trasplantar"/>
+		<list-item v="trastear"/>
+		<list-item v="tratar"/>
+		<list-item v="trepar"/>
+		<list-item v="trillar"/>
+		<list-item v="trocear"/>
+		<list-item v="hallar"/>
+		<list-item v="tronchar"/>
+		<list-item v="tronzar"/>
+		<list-item v="tullir"/>
+		<list-item v="turrar"/>
+		<list-item v="ultrajar"/>
+		<list-item v="uncir"/>
+		<list-item v="ungir"/>
+		<list-item v="unir"/>
+		<list-item v="untar"/>
+		<list-item v="urbanizar"/>
+		<list-item v="usar"/>
+		<list-item v="utilizar"/>
+		<list-item v="vaciar"/>
+		<list-item v="vacunar"/>
+		<list-item v="varear"/>
+		<list-item v="vencer"/>
+		<list-item v="vender"/>
+		<list-item v="vengar"/>
+		<list-item v="ver"/>
+		<list-item v="verter"/>
+		<list-item v="vestir"/>
+		<list-item v="vigilar"/>
+		<list-item v="virar"/>
+		<list-item v="visar"/>
+		<list-item v="visitar"/>
+		<list-item v="vivir"/>
+		<list-item v="vocear"/>
+		<list-item v="volar"/>
+		<list-item v="voltear"/>
+		<list-item v="votar"/>
+		<list-item v="yermar"/>
+		<list-item v="zambullir"/>
     </def-list>
 
-
-    <!--lista para búsqueda de verbos expletivos-->    
-    <def-list n="expletivos">
-	<list-item v="comer"/>
-	<list-item v="poner"/>
-	<list-item v="beber"/>
-	<list-item v="calzar"/>
-	<list-item v="marchar"/>
+	
+   <!--lista para búsqueda de verbos intransitivos-->
+    <def-list n="intransitivos">
+		<list-item v="abalanzar"/>
+		<list-item v="abalear"/>
+		<list-item v="dormitar"/>
+		<list-item v="abdicar"/>
+		<list-item v="abortar"/>
+		<list-item v="abstener"/>
+		<list-item v="abultar"/>
+		<list-item v="abundar"/>
+		<list-item v="aburguesar"/>
+		<list-item v="abusar"/>
+		<list-item v="acalambrar"/>
+		<list-item v="acalorar"/>
+		<list-item v="acamar"/>
+		<list-item v="acampanar"/>
+		<list-item v="acampar"/>
+		<list-item v="acodar"/>
+		<list-item v="acontecer"/>
+		<list-item v="acordar"/>
+		<list-item v="actuar"/>
+		<list-item v="acuclillar"/>
+		<list-item v="acudir"/>
+		<list-item v="adelgazar"/>
+		<list-item v="adentrar"/>
+		<list-item v="afanar"/>
+		<list-item v="aferrar"/>
+		<list-item v="afluir"/>
+		<list-item v="agonizar"/>
+		<list-item v="agusanar"/>
+		<list-item v="agusanarse"/>
+		<list-item v="alelar"/>
+		<list-item v="amanecer "/>
+		<list-item v="amigar"/>
+		<list-item v="amodorrar"/>
+		<list-item v="amotinar"/>
+		<list-item v="ampollar"/>
+		<list-item v="andar"/>
+		<list-item v="anidar"/>
+		<list-item v="aniñar"/>
+		<list-item v="anochecer"/>
+		<list-item v="antruejar"/>
+		<list-item v="aparecer"/>
+		<list-item v="apelar"/>
+		<list-item v="apelmazar"/>
+		<list-item v="apestar"/>
+		<list-item v="apetecer"/>
+		<list-item v="apoyar"/>
+		<list-item v="apresurar"/>
+		<list-item v="arramblar"/>
+		<list-item v="arremeter"/>
+		<list-item v="arrepentir"/>
+		<list-item v="arrullar"/>
+		<list-item v="asemejar"/>
+		<list-item v="asilvestrar"/>
+		<list-item v="aspirar"/>
+		<list-item v="ataviar"/>
+		<list-item v="atener"/>
+		<list-item v="aterir"/>
+		<list-item v="atinar"/>
+		<list-item v="atolondrar"/>
+		<list-item v="atragantar"/>
+		<list-item v="atrever"/>
+		<list-item v="atufar"/>
+		<list-item v="aumentar"/>
+		<list-item v="avejentar"/>
+		<list-item v="aventajar"/>
+		<list-item v="aviejar"/>
+		<list-item v="bastar"/>
+		<list-item v="berrear"/>
+		<list-item v="bizquear"/>
+		<list-item v="blasfemar"/>
+		<list-item v="borbollar"/>
+		<list-item v="borbotar"/>
+		<list-item v="borbotear"/>
+		<list-item v="bostezar"/>
+		<list-item v="bracear"/>
+		<list-item v="bregar"/>
+		<list-item v="brindar"/>
+		<list-item v="brollar"/>
+		<list-item v="bromear"/>
+		<list-item v="brotar"/>
+		<list-item v="bufar"/>
+		<list-item v="burbujear"/>
+		<list-item v="cacharrear"/>
+		<list-item v="caducar"/>
+		<list-item v="caer"/>
+		<list-item v="calcetar"/>
+		<list-item v="callar"/>
+		<list-item v="callejear"/>
+		<list-item v="caminar"/>
+		<list-item v="cansar"/>
+		<list-item v="carpintear"/>
+		<list-item v="casar"/>
+		<list-item v="castañetear"/>
+		<list-item v="cimbrar"/>
+		<list-item v="circular"/>
+		<list-item v="cizañar"/>
+		<list-item v="cocear"/>
+		<list-item v="coincidir"/>
+		<list-item v="cojear"/>
+		<list-item v="colaborar"/>
+		<list-item v="comenzar"/>
+		<list-item v="competir"/>
+		<list-item v="comulgar"/>
+		<list-item v="concordar"/>
+		<list-item v="confluir"/>
+		<list-item v="consistir"/>
+		<list-item v="constar"/>
+		<list-item v="contribuir"/>
+		<list-item v="convenir"/>
+		<list-item v="convivir"/>
+		<list-item v="cooperar"/>
+		<list-item v="corresponder"/>
+		<list-item v="corretear"/>
+		<list-item v="cotorrear"/>
+		<list-item v="crecer"/>
+		<list-item v="crujir"/>
+		<list-item v="cuajar"/>
+		<list-item v="cucharetear"/>
+		<list-item v="cundir"/>
+		<list-item v="charlar"/>
+		<list-item v="charlatanear>"/>
+		<list-item v="chispear"/>
+		<list-item v="chorrear"/>
+		<list-item v="deambular"/>
+		<list-item v="deber"/>
+		<list-item v="decaer"/>
+		<list-item v="decidir"/>
+		<list-item v="degenerar"/>
+		<list-item v="depender"/>
+		<list-item v="depravar"/>
+		<list-item v="deprimir"/>
+		<list-item v="desaparecer"/>
+		<list-item v="desbarrar"/>
+		<list-item v="descansar"/>
+		<list-item v="descarriar"/>
+		<list-item v="desconfiar"/>
+		<list-item v="desemejar"/>
+		<list-item v="desentender"/>
+		<list-item v="desesperar"/>
+		<list-item v="desfallecer"/>
+		<list-item v="desilusionar"/>
+		<list-item v="despendolar"/>
+		<list-item v="despotricar"/>
+		<list-item v="desquiciar"/>
+		<list-item v="desquitar"/>
+		<list-item v="destajar"/>
+		<list-item v="desvivir"/>
+		<list-item v="dialogar"/>
+		<list-item v="dimitir"/>
+		<list-item v="discrepar"/>
+		<list-item v="disfrutar"/>
+		<list-item v="disgustar"/>
+		<list-item v="divorciar"/>
+		<list-item v="doler"/>
+		<list-item v="dormir"/>
+		<list-item v="dormitar"/>
+		<list-item v="duchar"/>
+		<list-item v="dudar"/>
+		<list-item v="durar"/>
+		<list-item v="economizar"/>
+		<list-item v="embobar"/>
+		<list-item v="embravecer"/>
+		<list-item v="embrocar"/>
+		<list-item v="embrutecer"/>
+		<list-item v="embubonar"/>
+		<list-item v="emigrar"/>
+		<list-item v="empavorecer"/>
+		<list-item v="encallar"/>
+		<list-item v="encamar"/>
+		<list-item v="encaminar"/>
+		<list-item v="encanecer"/>
+		<list-item v="enceguecer"/>
+		<list-item v="encenegar"/>
+		<list-item v="encismar"/>
+		<list-item v="encluecar"/>
+		<list-item v="encolerizar"/>
+		<list-item v="encumbrar"/>
+		<list-item v="endurecer"/>
+		<list-item v="enfermar"/>
+		<list-item v="enjambrar"/>
+		<list-item v="enloquecer"/>
+		<list-item v="enojar"/>
+		<list-item v="enraizar"/>
+		<list-item v="enralecer"/>
+		<list-item v="enranciar"/>
+		<list-item v="enrojecer"/>
+		<list-item v="ensordecer"/>
+		<list-item v="enterar"/>
+		<list-item v="enternecer"/>
+		<list-item v="entontecer"/>
+		<list-item v="entrar"/>
+		<list-item v="entristecer"/>
+		<list-item v="entrometer"/>
+		<list-item v="entumecer"/>
+		<list-item v="envejecer"/>
+		<list-item v="equivaler"/>
+		<list-item v="eruptar"/>
+		<list-item v="escabullir"/>
+		<list-item v="escachar"/>
+		<list-item v="escaldar"/>
+		<list-item v="escalofriar"/>
+		<list-item v="escampar"/>
+		<list-item v="escapar"/>
+		<list-item v="escaquear"/>
+		<list-item v="escarmentar"/>
+		<list-item v="escurrir"/>
+		<list-item v="esforzar"/>
+		<list-item v="esponjar"/>
+		<list-item v="esquiar"/>
+		<list-item v="estallar"/>
+		<list-item v="estar"/>
+		<list-item v="estirar"/>
+		<list-item v="estornudar"/>
+		<list-item v="existir"/>
+		<list-item v="explayar"/>
+		<list-item v="extenuar"/>
+		<list-item v="faltar"/>
+		<list-item v="fantasear"/>
+		<list-item v="federar"/>
+		<list-item v="fermentar"/>
+		<list-item v="figurar"/>
+		<list-item v="finalizar"/>
+		<list-item v="florecer"/>
+		<list-item v="flotar"/>
+		<list-item v="forcejear"/>
+		<list-item v="fugar"/>
+		<list-item v="funcionar"/>
+		<list-item v="galopar"/>
+		<list-item v="gangrenar"/>
+		<list-item v="gargajear"/>
+		<list-item v="gatear"/>
+		<list-item v="germinar"/>
+		<list-item v="gimotear"/>
+		<list-item v="golosear"/>
+		<list-item v="gorjear"/>
+		<list-item v="gotear"/>
+		<list-item v="gozar"/>
+		<list-item v="graduar"/>
+		<list-item v="granizar"/>
+		<list-item v="guerrear"/>
+		<list-item v="gustar"/>
+		<list-item v="haber"/>
+		<list-item v="hablar"/>
+		<list-item v="hambrear"/>
+		<list-item v="hastiar"/>
+		<list-item v="hipar"/>
+		<list-item v="holgazanear"/>
+		<list-item v="hormiguear"/>
+		<list-item v="huir"/>
+		<list-item v="humear"/>
+		<list-item v="influir"/>
+		<list-item v="insistir"/>
+		<list-item v="ir"/>
+		<list-item v="jadear"/>
+		<list-item v="jugar"/>
+		<list-item v="laborar"/>
+		<list-item v="legislar"/>
+		<list-item v="lindar"/>
+		<list-item v="luchar"/>
+		<list-item v="llamear"/>
+		<list-item v="llegar"/>
+		<list-item v="llover"/>
+		<list-item v="lloviznar"/>
+		<list-item v="madrugar"/>
+		<list-item v="madurar"/>
+		<list-item v="malmeter"/>
+		<list-item v="manar"/>
+		<list-item v="marcear"/>
+		<list-item v="marchar"/>
+		<list-item v="medrar"/>
+		<list-item v="mejorar"/>
+		<list-item v="militar"/>
+		<list-item v="mofar"/>
+		<list-item v="morir"/>
+		<list-item v="murar"/>
+		<list-item v="nacer"/>
+		<list-item v="naufragar"/>
+		<list-item v="navegar"/>
+		<list-item v="nevar"/>
+		<list-item v="neviscar"/>
+		<list-item v="nivelar"/>
+		<list-item v="normalizar"/>
+		<list-item v="nortear"/>
+		<list-item v="nublar"/>
+		<list-item v="ocurrir"/>
+		<list-item v="opinar"/>
+		<list-item v="orar"/>
+		<list-item v="oscilar"/>
+		<list-item v="parecer"/>
+		<list-item v="participar"/>
+		<list-item v="pasear"/>
+		<list-item v="pasmar"/>
+		<list-item v="patalear"/>
+		<list-item v="pecar"/>
+		<list-item v="pedalear"/>
+		<list-item v="peder"/>
+		<list-item v="penar"/>
+		<list-item v="percatar"/>
+		<list-item v="perecer"/>
+		<list-item v="peregrinar"/>
+		<list-item v="perforar"/>
+		<list-item v="perjurar"/>
+		<list-item v="permanecer"/>
+		<list-item v="persignar"/>
+		<list-item v="pestañear"/>
+		<list-item v="pingar"/>
+		<list-item v="placer"/>
+		<list-item v="platicar"/>
+		<list-item v="pleitear"/>
+		<list-item v="plumear"/>
+		<list-item v="poder"/>
+		<list-item v="preocupar"/>
+		<list-item v="presumir"/>
+		<list-item v="privar"/>
+		<list-item v="profundizar"/>
+		<list-item v="protestar"/>
+		<list-item v="pulsear"/>
+		<list-item v="quedar"/>
+		<list-item v="rabiar"/>
+		<list-item v="razonar"/>
+		<list-item v="reaparecer"/>
+		<list-item v="rebosar"/>
+		<list-item v="rebrotar"/>
+		<list-item v="recaer"/>
+		<list-item v="recular"/>
+		<list-item v="rechistar"/>
+		<list-item v="reflejar"/>
+		<list-item v="refunfuñar"/>
+		<list-item v="reinar"/>
+		<list-item v="relampaguear"/>
+		<list-item v="relinchar"/>
+		<list-item v="relucir"/>
+		<list-item v="relumbrar"/>
+		<list-item v="remar"/>
+		<list-item v="remoler"/>
+		<list-item v="remudiar"/>
+		<list-item v="renacer"/>
+		<list-item v="renegar"/>
+		<list-item v="reñir"/>
+		<list-item v="replicar"/>
+		<list-item v="resbalar"/>
+		<list-item v="resfriar"/>
+		<list-item v="resguardar"/>
+		<list-item v="resollar"/>
+		<list-item v="resonar"/>
+		<list-item v="resplandecer"/>
+		<list-item v="resquebrar"/>
+		<list-item v="restallar"/>
+		<list-item v="resultar"/>
+		<list-item v="reteñir"/>
+		<list-item v="retiñir"/>
+		<list-item v="retornar"/>
+		<list-item v="revenir"/>
+		<list-item v="reverberar"/>
+		<list-item v="revivir"/>
+		<list-item v="revolotear"/>
+		<list-item v="rodar"/>
+		<list-item v="rodear"/>
+		<list-item v="salir"/>
+		<list-item v="santiguar"/>
+		<list-item v="sarpullir"/>
+		<list-item v="satisfacer"/>
+		<list-item v="secar"/>
+		<list-item v="sedar"/>
+		<list-item v="semejar"/>
+		<list-item v="señorear"/>
+		<list-item v="ser"/>
+		<list-item v="sindicar"/>
+		<list-item v="sobrar"/>
+		<list-item v="soler"/>
+		<list-item v="sonreír"/>
+		<list-item v="sorprender"/>
+		<list-item v="sangrar"/>
+		<list-item v="sosegar"/>
+		<list-item v="suceder"/>
+		<list-item v="sumir"/>
+		<list-item v="tacañear"/>
+		<list-item v="tambalear"/>
+		<list-item v="tapujar"/>
+		<list-item v="temblar"/>
+		<list-item v="terciar"/>
+		<list-item v="terminar"/>
+		<list-item v="terquear"/>
+		<list-item v="tintinear"/>
+		<list-item v="toser"/>
+		<list-item v="trajinar"/>
+		<list-item v="traspasar"/>
+		<list-item v="triunfar"/>
+		<list-item v="trompicar"/>
+		<list-item v="tronar"/>
+		<list-item v="tropezar"/>
+		<list-item v="trotar"/>
+		<list-item v="ulular"/>
+		<list-item v="valer"/>
+		<list-item v="vaporear"/>
+		<list-item v="venir"/>
+		<list-item v="veranear"/>
+		<list-item v="verdear"/>
+		<list-item v="viajar"/>
+		<list-item v="volar"/>
+		<list-item v="yacer"/>
+		<list-item v="yermar"/>
+		<list-item v="zafar"/>
+		<list-item v="zumbar"/>
     </def-list>
-
+	
+	
+	
     <!--lista para búsqueda de verbos -y,-yos-->    
     <!-- falé-yos ayeri -> "falar" está en la lista -->   
     <!-- aburrílos dempués -> "aburrir" NO está en la lista --> 
     <def-list n="verbos-y-yos">
-	<list-item v="decir"/>
-	<list-item v="comentar"/>
-	<list-item v="hablar"/>
-	<list-item v="expresar"/>
-	<list-item v="contestar"/>
-	<list-item v="responder"/>
-	<list-item v="preguntar"/>
+		<list-item v="decir"/>
+		<list-item v="comentar"/>
+		<list-item v="hablar"/>
+		<list-item v="expresar"/>
+		<list-item v="contestar"/>
+		<list-item v="responder"/>
+		<list-item v="preguntar"/>
+		<list-item v="ver"/>
     </def-list>
+	
+	
+    <!--lista para búsqueda de verbos 'per' siempre-->    
+    <!-- empecé per inf -> "empezar" está en la lista -->   
+    <def-list n="verbos-per-1">
+		<list-item v="empezar"/>
+		<list-item v="comenzar"/>
+		<list-item v="acabar"/>
+		<list-item v="tirar"/>
+		<list-item v="terminar"/>
+		<list-item v="seguir"/>
+		<list-item v="continuar"/>
+		<list-item v="concluir"/>
+		<list-item v="finalizar"/>
+		<list-item v="emprender"/>
+		<list-item v="iniciar"/>
+		<list-item v="dar"/>
+		<list-item v="rematar"/>
+		<list-item v="principiar"/>	
+    </def-list>	
+	
+	
+	
+    <!--lista para búsqueda de verbos 'per' casi siempre-->    
+    <!-- ir por... -> "ir" está en la lista -->   
+    <def-list n="verbos-per-2">
+		<list-item v="dormitar"/>	
+		<list-item v="abanderar"/>
+		<list-item v="abonar"/>
+		<list-item v="abordar"/>
+		<list-item v="abrasar"/>
+		<list-item v="abultar"/>
+		<list-item v="abundar"/>
+		<list-item v="aburrir"/>
+		<list-item v="acabar"/>
+		<list-item v="acampar"/>
+		<list-item v="acariciar"/>
+		<list-item v="acechar"/>
+		<list-item v="acelerar"/>
+		<list-item v="acercar"/>
+		<list-item v="aclamar"/>
+		<list-item v="acodar"/>
+		<list-item v="acompañar"/>
+		<list-item v="acontecer"/>
+		<list-item v="acortar"/>
+		<list-item v="acostumbrar"/>
+		<list-item v="actuar"/>
+		<list-item v="acudir"/>
+		<list-item v="adentrar"/>
+		<list-item v="afilar"/>
+		<list-item v="afinar"/>
+		<list-item v="aflojar"/>
+		<list-item v="afluir"/>
+		<list-item v="agrietar"/>
+		<list-item v="agrupar"/>
+		<list-item v="aguardar"/>
+		<list-item v="agujerear"/>
+		<list-item v="agusanarse"/>
+		<list-item v="ahumar"/>
+		<list-item v="alargar"/>
+		<list-item v="alborotar"/>
+		<list-item v="alcanzar"/>
+		<list-item v="alejar"/>
+		<list-item v="alimentar"/>
+		<list-item v="alisar"/>
+		<list-item v="almorzar"/>
+		<list-item v="alzar"/>
+		<list-item v="amanecer "/>
+		<list-item v="amarrar"/>
+		<list-item v="amontonar"/>
+		<list-item v="ampollar"/>
+		<list-item v="andar"/>
+		<list-item v="anidar"/>
+		<list-item v="anochecer"/>
+		<list-item v="antruejar"/>
+		<list-item v="anunciar"/>
+		<list-item v="aparecer"/>
+		<list-item v="aplicar"/>
+		<list-item v="arar"/>
+		<list-item v="arrancar"/>
+		<list-item v="arrastrar"/>
+		<list-item v="arrimar"/>
+		<list-item v="asentar"/>
+		<list-item v="aserrar"/>
+		<list-item v="asperger"/>
+		<list-item v="aspirar"/>
+		<list-item v="atajar"/>
+		<list-item v="atar"/>
+		<list-item v="atisbar"/>
+		<list-item v="atornillar"/>
+		<list-item v="avanzar"/>
+		<list-item v="aventar"/>
+		<list-item v="bajar"/>
+		<list-item v="balizar"/>
+		<list-item v="barrer"/>
+		<list-item v="beber"/>
+		<list-item v="bombear"/>
+		<list-item v="botar"/>
+		<list-item v="bracear"/>
+		<list-item v="brotar"/>
+		<list-item v="cabalgar"/>
+		<list-item v="cacharrear"/>
+		<list-item v="caducar"/>
+		<list-item v="caer"/>
+		<list-item v="calar"/>
+		<list-item v="callejear"/>
+		<list-item v="caminar"/>
+		<list-item v="canalizar"/>
+		<list-item v="carcomer"/>
+		<list-item v="cargar"/>
+		<list-item v="carpintear"/>
+		<list-item v="carretear"/>
+		<list-item v="cavar"/>
+		<list-item v="cazar"/>
+		<list-item v="ceder"/>
+		<list-item v="cercar"/>
+		<list-item v="cerrar"/>
+		<list-item v="circular"/>
+		<list-item v="clasificar"/>
+		<list-item v="clavar"/>
+		<list-item v="coger"/>
+		<list-item v="coincidir"/>
+		<list-item v="cojear"/>
+		<list-item v="colgar"/>
+		<list-item v="colocar"/>
+		<list-item v="colonizar"/>
+		<list-item v="comenzar"/>
+		<list-item v="comunicar"/>
+		<list-item v="concentrar"/>
+		<list-item v="conducir"/>
+		<list-item v="confluir"/>
+		<list-item v="conjugar"/>
+		<list-item v="conocer"/>
+		<list-item v="constar"/>
+		<list-item v="construir"/>
+		<list-item v="contemplar"/>
+		<list-item v="continuar"/>
+		<list-item v="contratar"/>
+		<list-item v="convocar"/>
+		<list-item v="correr"/>
+		<list-item v="corretear"/>
+		<list-item v="cortar"/>
+		<list-item v="cosechar"/>
+		<list-item v="coser"/>
+		<list-item v="criar"/>
+		<list-item v="cruzar"/>
+		<list-item v="cubrir"/>
+		<list-item v="cumplir"/>
+		<list-item v="curiosear"/>
+		<list-item v="chamuscar"/>
+		<list-item v="charlar"/>
+		<list-item v="chorrear"/>
+		<list-item v="chupar"/>
+		<list-item v="deambular"/>
+		<list-item v="derramar"/>
+		<list-item v="desabrochar"/>
+		<list-item v="desaparecer"/>
+		<list-item v="desayunar"/>
+		<list-item v="desbardar"/>
+		<list-item v="desbrozar"/>
+		<list-item v="descansar"/>
+		<list-item v="descender"/>
+		<list-item v="descoser"/>
+		<list-item v="descubrir"/>
+		<list-item v="desgarrar"/>
+		<list-item v="desinfectar"/>
+		<list-item v="deslizar"/>
+		<list-item v="desordenar"/>
+		<list-item v="desorillar"/>
+		<list-item v="desparramar"/>
+		<list-item v="despegar"/>
+		<list-item v="despendolar"/>
+		<list-item v="despeñar"/>
+		<list-item v="desperdigar"/>
+		<list-item v="desprender"/>
+		<list-item v="desviar"/>
+		<list-item v="disparar"/>
+		<list-item v="distribuir"/>
+		<list-item v="dividir"/>
+		<list-item v="divisar"/>
+		<list-item v="dormir"/>
+		<list-item v="dormitar"/>
+		<list-item v="durar"/>
+		<list-item v="echar"/>
+		<list-item v="embarrar"/>
+		<list-item v="emigrar"/>
+		<list-item v="empapar"/>
+		<list-item v="empapelar"/>
+		<list-item v="empezar"/>
+		<list-item v="encaminar"/>
+		<list-item v="encargar"/>
+		<list-item v="encontrar"/>
+		<list-item v="encumbrar"/>
+		<list-item v="enlazar"/>
+		<list-item v="enraizar"/>
+		<list-item v="enredar"/>
+		<list-item v="enrollar"/>
+		<list-item v="ensanchar"/>
+		<list-item v="ensayar"/>
+		<list-item v="enterar"/>
+		<list-item v="entrar"/>
+		<list-item v="entrometer"/>
+		<list-item v="enviar"/>
+		<list-item v="escabullir"/>
+		<list-item v="escampar"/>
+		<list-item v="escapar"/>
+		<list-item v="escarbar"/>
+		<list-item v="esconder"/>
+		<list-item v="escupir"/>
+		<list-item v="escurrir"/>
+		<list-item v="esparcir"/>
+		<list-item v="espetar"/>
+		<list-item v="espiar"/>
+		<list-item v="espolvorear"/>
+		<list-item v="esquiar"/>
+		<list-item v="estercolar"/>
+		<list-item v="estirar"/>
+		<list-item v="estrechar"/>
+		<list-item v="estrenar"/>
+		<list-item v="evacuar"/>
+		<list-item v="examinar"/>
+		<list-item v="explayar"/>
+		<list-item v="exponer"/>
+		<list-item v="expresar"/>
+		<list-item v="extender"/>
+		<list-item v="extraer"/>
+		<list-item v="extraviar"/>
+		<list-item v="facturar"/>
+		<list-item v="festejar"/>
+		<list-item v="fijar"/>
+		<list-item v="filtrar"/>
+		<list-item v="fisgar"/>
+		<list-item v="flotar"/>
+		<list-item v="fradar"/>
+		<list-item v="franquear"/>
+		<list-item v="frañer"/>
+		<list-item v="frañer"/>
+		<list-item v="fugar"/>
+		<list-item v="garabatear"/>
+		<list-item v="gatear"/>
+		<list-item v="generalizar"/>
+		<list-item v="girar"/>
+		<list-item v="gotear"/>
+		<list-item v="granizar"/>
+		<list-item v="guiar"/>
+		<list-item v="haber"/>
+		<list-item v="hacinar"/>
+		<list-item v="hocicar"/>
+		<list-item v="hociquear"/>
+		<list-item v="holgazanear"/>
+		<list-item v="hollar"/>
+		<list-item v="hormiguear"/>
+		<list-item v="hospedar"/>
+		<list-item v="hozar"/>
+		<list-item v="huir"/>
+		<list-item v="humear"/>
+		<list-item v="hurgar"/>
+		<list-item v="husmear"/>
+		<list-item v="indicar"/>
+		<list-item v="insertar"/>
+		<list-item v="introducir"/>
+		<list-item v="ir"/>
+		<list-item v="limitar"/>
+		<list-item v="lindar"/>
+		<list-item v="llegar"/>
+		<list-item v="llenar"/>
+		<list-item v="llevar"/>
+		<list-item v="llover"/>
+		<list-item v="lloviznar"/>
+		<list-item v="madrugar"/>
+		<list-item v="madurar"/>
+		<list-item v="manar"/>
+		<list-item v="mandar"/>
+		<list-item v="marcar"/>
+		<list-item v="marcear"/>
+		<list-item v="marchar"/>
+		<list-item v="martillear"/>
+		<list-item v="mear"/>
+		<list-item v="mendigar"/>
+		<list-item v="merodear"/>
+		<list-item v="meter"/>
+		<list-item v="mirar"/>
+		<list-item v="montar"/>
+		<list-item v="morder"/>
+		<list-item v="mordisquear"/>
+		<list-item v="mostrar"/>
+		<list-item v="mover"/>
+		<list-item v="murar"/>
+		<list-item v="murmurar"/>
+		<list-item v="naufragar"/>
+		<list-item v="navegar"/>
+		<list-item v="nevar"/>
+		<list-item v="neviscar"/>
+		<list-item v="nortear"/>
+		<list-item v="ocupar"/>
+		<list-item v="ocurrir"/>
+		<list-item v="oír"/>
+		<list-item v="oler"/>
+		<list-item v="olfatear"/>
+		<list-item v="olisquear"/>
+		<list-item v="ordenar"/>
+		<list-item v="orientar"/>
+		<list-item v="palpar"/>
+		<list-item v="parar"/>
+		<list-item v="parir"/>
+		<list-item v="partir"/>
+		<list-item v="pasar"/>
+		<list-item v="pasear"/>
+		<list-item v="pastar"/>
+		<list-item v="pastorear"/>
+		<list-item v="patear"/>
+		<list-item v="pedalear"/>
+		<list-item v="pelar"/>
+		<list-item v="perder"/>
+		<list-item v="peregrinar"/>
+		<list-item v="perforar"/>
+		<list-item v="perfumar"/>
+		<list-item v="permanecer"/>
+		<list-item v="perseguir"/>
+		<list-item v="pinchar"/>
+		<list-item v="pingar"/>
+		<list-item v="pisar"/>
+		<list-item v="pisotear"/>
+		<list-item v="plantar"/>
+		<list-item v="podar"/>
+		<list-item v="poner"/>
+		<list-item v="popularizar"/>
+		<list-item v="posar"/>
+		<list-item v="predicar"/>
+		<list-item v="presentar"/>
+		<list-item v="profundizar"/>
+		<list-item v="prolongar"/>
+		<list-item v="publicar"/>
+		<list-item v="quedar"/>
+		<list-item v="radiar"/>
+		<list-item v="raer"/>
+		<list-item v="rallar"/>
+		<list-item v="rasgar"/>
+		<list-item v="rasguñar"/>
+		<list-item v="raspar"/>
+		<list-item v="rastrear"/>
+		<list-item v="rastrillar"/>
+		<list-item v="rayar"/>
+		<list-item v="reaparecer"/>
+		<list-item v="rebosar"/>
+		<list-item v="rebrincar"/>
+		<list-item v="rebrotar"/>
+		<list-item v="rebuscar"/>
+		<list-item v="recibir"/>
+		<list-item v="recoger"/>
+		<list-item v="recolectar"/>
+		<list-item v="recorrer"/>
+		<list-item v="regar"/>
+		<list-item v="relampaguear"/>
+		<list-item v="relinchar"/>
+		<list-item v="remar"/>
+		<list-item v="remendar"/>
+		<list-item v="repartir"/>
+		<list-item v="representar"/>
+		<list-item v="resbalar"/>
+		<list-item v="resguardar"/>
+		<list-item v="respirar"/>
+		<list-item v="restregar"/>
+		<list-item v="retallar"/>
+		<list-item v="retejar"/>
+		<list-item v="retirar"/>
+		<list-item v="retornar"/>
+		<list-item v="reventar"/>
+		<list-item v="revolcar"/>
+		<list-item v="revolotear"/>
+		<list-item v="revolver"/>
+		<list-item v="rezumar"/>
+		<list-item v="rodar"/>
+		<list-item v="rodear"/>
+		<list-item v="roer"/>
+		<list-item v="sacar"/>
+		<list-item v="salir"/>
+		<list-item v="saltar"/>
+		<list-item v="sallar"/>
+		<list-item v="seguir"/>
+		<list-item v="sembrar"/>
+		<list-item v="separar"/>
+		<list-item v="soltar"/>
+		<list-item v="soñar"/>
+		<list-item v="sorber"/>
+		<list-item v="sangrar"/>
+		<list-item v="sumergir"/>
+		<list-item v="sumir"/>
+		<list-item v="surgir"/>
+		<list-item v="sustituir"/>
+		<list-item v="tajar"/>
+		<list-item v="terminar"/>
+		<list-item v="tantear"/>
+		<list-item v="tapar"/>
+		<list-item v="televisar"/>
+		<list-item v="tirar"/>
+		<list-item v="transmitir"/>
+		<list-item v="transportar"/>
+		<list-item v="trasladar"/>
+		<list-item v="trastear"/>
+		<list-item v="trepar"/>
+		<list-item v="trillar"/>
+		<list-item v="trompicar"/>
+		<list-item v="tronar"/>
+		<list-item v="hallar"/>
+		<list-item v="tronchar"/>
+		<list-item v="tronzar"/>
+		<list-item v="trotar"/>
+		<list-item v="ulular"/>
+		<list-item v="untar"/>
+		<list-item v="urbanizar"/>
+		<list-item v="venir"/>
+		<list-item v="ver"/>
+		<list-item v="veranear"/>
+		<list-item v="verter"/>
+		<list-item v="vestir"/>
+		<list-item v="viajar"/>
+		<list-item v="vigilar"/>
+		<list-item v="virar"/>
+		<list-item v="vivir"/>
+		<list-item v="vocear"/>
+		<list-item v="volar"/>
+		<list-item v="yacer"/>
+		<list-item v="zafar"/>
+		<list-item v="zambullir"/>
+		<list-item v="zumbar"/>
+    </def-list>		
+	
+	
+    <!--lista para búsqueda de sustantivos 'per' -->    
+    <!-- por la mañana -> pela mañana -> "mañana" está en la lista -->   
+    <def-list n="sustantivos-per">
+		<list-item v="enero"/>
+		<list-item v="febrero"/>
+		<list-item v="marzo"/>
+		<list-item v="abril"/>
+		<list-item v="mayo"/>
+		<list-item v="junio"/>
+		<list-item v="julio"/>
+		<list-item v="agosto"/>
+		<list-item v="septiembre"/>
+		<list-item v="setiembre"/>
+		<list-item v="octubre"/>
+		<list-item v="noviembre"/>
+		<list-item v="diciembre"/>
+		<list-item v="año"/>
+		<list-item v="mes"/>
+		<list-item v="semana"/>
+		<list-item v="día"/>
+		<list-item v="mañana"/>
+		<list-item v="tarde"/>
+		<list-item v="noche"/>
+		<list-item v="mediodía"/>
+		<list-item v="medianoche"/>
+		<list-item v="amanecer"/>
+		<list-item v="atardecer"/>
+		<list-item v="primavera"/>
+		<list-item v="verano"/>
+		<list-item v="otoño"/>
+		<list-item v="invierno"/>
+		<list-item v="navidad"/>
+		<list-item v="adviento"/>
+		<list-item v="pascua"/>
+		<list-item v="carnaval"/>
+		<list-item v="pentecostés"/>
+		<list-item v="acebedo"/>
+		<list-item v="castañedo"/>
+		<list-item v="robledal"/>
+		<list-item v="camino"/>
+		<list-item v="sendero"/>
+		<list-item v="carretera"/>
+		<list-item v="autovía"/>
+		<list-item v="autopista"/>
+		<list-item v="correo"/>
+		<list-item v="e-mail"/>
+		<list-item v="carta"/>
+		<list-item v="telegrama"/>
+		<list-item v="teléfono"/>
+		<list-item v="acera"/>
+		<list-item v="avenida"/>
+		<list-item v="ruta"/>
+		<list-item v="por tierra"/>
+		<list-item v="por mar"/>
+		<list-item v="por aire"/>
+		<list-item v="alameda"/>
+		<list-item v="alcantarilla"/>
+		<list-item v="por tren"/>
+		<list-item v="por avión"/>
+		<list-item v="arboleda"/>
+		<list-item v="montaña"/>
+		<list-item v="monte"/>
+		<list-item v="suelo"/>
+    </def-list>	
 
-
+	
+	<!--lista para búsqueda de adverbios 'per' -->    
+    <!-- por aquí -> per equí -> "aquí" está en la lista -->   
+    <def-list n="adverbios-per">
+		<list-item v="acá"/>
+	    <list-item v="ahí"/>
+	    <list-item v="allí"/>
+		<list-item v="arriba"/>
+		<list-item v="arriba"/>
+	    <list-item v="ahora"/>
+		<list-item v="allá"/>
+		<list-item v="alrededor"/>
+		<list-item v="alto"/>
+		<list-item v="anteayer"/>
+		<list-item v="atrás"/>
+		<list-item v="cerca"/>
+        <list-item v="debajo"/>
+        <list-item v="delante"/>
+        <list-item v="dentro"/>
+        <list-item v="encima"/>
+        <list-item v="entonces"/>
+        <list-item v="fuera"/>
+		<list-item v="adentro"/>
+        <list-item v="lejos"/>
+        <list-item v="nunca"/>
+        <list-item v="siempre"/>
+        <list-item v="cuándo"/>
+        <list-item v="dónde"/>
+    </def-list>
   </section-def-lists>
 
 
@@ -3944,7 +6369,7 @@
     <rule>
       
 
-      <!--REGRA EGV01: verbos sen enclíticos)-->
+      <!--regla regla EGV01: verbos sen enclíticos)-->
       <!--Ejemplo: soy -->
 
       <pattern>
@@ -3965,8 +6390,62 @@
       </action>
     </rule>
     
+	
+	
+<!--regla regla EGV01b: no + verbo-->
+<!--Ejemplo: no hablo -> nun falo -->
 
-    <!-- REGRA EGV02 para os verbos con enclise v+enc+enc--> 
+    <rule>
+      <pattern>
+        <pattern-item n="no"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <choose>
+		<when>
+            <test> 
+			   <and>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>
+				<not>
+				  <equal caseless="yes">
+					  <clip pos="2" side="sl" part="temps"/>
+					  <lit-tag v="pp"/>
+                  </equal>
+				</not>				
+               </and>				
+			</test>            
+            <out>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu>  
+            </out> 
+          </when>
+		  <otherwise>
+		  <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu>  
+          </out> 
+		  </otherwise>
+		</choose>
+	   </action>
+	</rule>
+
+	
+	
+    <!-- regla regla EGV02 para os verbos con enclise v+enc+enc--> 
     <!--Ejemplo: dímelo -->
 
     <rule>
@@ -4024,7 +6503,7 @@
     
     
     
-    <!-- REGRA EGV03 v+enc--> 
+    <!-- regla regla EGV03 v+enc--> 
     <!--Ejemplo: dime -->
 
     <rule>
@@ -4049,7 +6528,7 @@
     
 
 
-    <!-- REGRA EGV04 proclisis+algo+algo+pronombre+haber+verbo--> 
+    <!-- regla regla EGV04 proclisis+algo+algo+pronombre+haber+verbo--> 
     <!--Ejemplo: Dónde más veces te ha ganado -->
     
     <rule>
@@ -4212,8 +6691,9 @@
     
 
 
-    <!-- REGRA EGV05 proclisis+algo+pronombre+haber+verbo--> 
-    <!--Ejemplo:Dónde más te he ganado -->
+    <!-- regla regla EGV05 proclisis+algo+pronombre+haber+verbo--> 
+    <!--Ejemplo: Dónde más te he ganado -->
+	<!--Ejemplo: Que no te he dicho -->
   
     <rule>
       <pattern>
@@ -4225,9 +6705,51 @@
       </pattern>
       <action>
         <choose>
-          
-          
-          
+          <when>
+            <test>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>	
+                <equal>
+                  <clip pos="5" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>			  
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="5" side="tl" part="lem"/> 
+                <clip pos="5" side="sl" part="a_verb"/>
+                <lit-tag v="ifi"/>
+                <clip pos="4" side="sl" part="persona"/>
+                <clip pos="4" side="sl" part="nbr"/>
+              </lu>
+            </out>
+			</when>
+			
           <when>
             <test>
               <and>
@@ -4273,8 +6795,6 @@
               </lu>
             </out> 
           </when>
-          
-          
           
           <when>
             <test>
@@ -4357,7 +6877,7 @@
     
 
 
-    <!-- REGRA EGV06 proclisis+algo+algo+pronombre_proclitico_reflexivo+pronombre_procl+haber+verbo--> 
+    <!-- regla regla EGV06 proclisis+algo+algo+pronombre_proclitico_reflexivo+pronombre_procl+haber+verbo--> 
     <!--Dónde más veces se lo ha encontrado-->
     
     <rule>
@@ -4472,7 +6992,7 @@
                 </lu>
                 <lu>
                   <get-case-from pos="4">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -4530,7 +7050,7 @@
 
 
 
-    <!-- REGLA EGV07 proclisis+algo+pronombre_proclitico_reflexivo+pronombre_procl+haber+verbo--> 
+    <!-- REGLA regla EGV07 proclisis+algo+pronombre_proclitico_reflexivo+pronombre_procl+haber+verbo--> 
     
     
     <rule>
@@ -4544,9 +7064,55 @@
       </pattern>
       <action>
         <choose>
-          
-          
-          
+          <when>
+            <test>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>
+                <equal>
+                  <clip pos="6" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="6" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="6" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="6" side="tl" part="lem"/> 
+                <clip pos="6" side="sl" part="a_verb"/>
+                <lit-tag v="ifi"/>
+                <clip pos="5" side="sl" part="persona"/>
+                <clip pos="5" side="sl" part="nbr"/>
+              </lu>
+            </out> 
+          </when>		
+
           <when>
             <test>
               <and>
@@ -4636,7 +7202,7 @@
                 </lu>
                 <lu>
                   <get-case-from pos="3">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -4689,7 +7255,7 @@
     </rule>
     
     
-    <!-- EGV15.REGRA: HABER + PP: propro+propro+vC
+    <!-- regla EGV15.regla: HABER + PP: propro+propro+vC
          me lo ha besado - bícoumo
          La persona que más veces te lo ha encontrado
          -->
@@ -4867,7 +7433,7 @@
 
 
  <!--
-    EGV16 proclisis + algo + pronombre_procl + pronombre_procl + haber + participio.
+    regla EGV16 proclisis + algo + pronombre_procl + pronombre_procl + haber + participio.
 La persona que más te lo ha encontrado 
 -->
     
@@ -4883,7 +7449,55 @@ La persona que más te lo ha encontrado
       <action>
         <choose>
           
-          
+          <when>
+            <test>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>	
+                <equal>
+                  <clip pos="6" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="6" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="6" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="6" side="tl" part="lem"/> 
+                <clip pos="6" side="sl" part="a_verb"/>
+                <lit-tag v="ifi"/>
+                <clip pos="4" side="sl" part="persona"/>
+                <clip pos="4" side="sl" part="nbr"/>
+              </lu>
+            </out> 
+          </when>
+                    
           
           <when>
             <test>
@@ -4934,8 +7548,6 @@ La persona que más te lo ha encontrado
               </lu>
             </out> 
           </when>
-          
-          
           
           <when>
             <test>
@@ -5032,7 +7644,7 @@ La persona que más te lo ha encontrado
 
 
 <!--    
-EGV17 proclisis + algo + algo + pronombre_procl + pronombre_procl + verbo.
+regla EGV17 proclisis + algo + algo + pronombre_procl + pronombre_procl + verbo.
 La persona que más veces te lo encuentra 
 -->    
 
@@ -5157,7 +7769,7 @@ La persona que más veces te lo encuentra
                 </lu>
                 <lu>
                   <get-case-from pos="4">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -5216,7 +7828,7 @@ La persona que más veces te lo encuentra
 
 
 <!--
-EGV18 proclisis + algo + pronombre_procl + pronombre_procl + verbo.
+regla EGV18 proclisis + algo + pronombre_procl + pronombre_procl + verbo.
 La persona que más te lo encuentra
 -->
     
@@ -5232,6 +7844,40 @@ La persona que más te lo encuentra
       
       <action>
         <choose>
+         <when>
+            <test>
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>
+            </test>
+            
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="5" side="tl" part="whole"/>
+                
+              </lu>
+            </out> 
+            
+          </when>
+ 		
           <when>
             <test>
               <in caseless="yes"><!--in-->
@@ -5329,7 +7975,7 @@ La persona que más te lo encuentra
                 </lu>
                 <lu>
                   <get-case-from pos="3">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -5383,7 +8029,7 @@ La persona que más te lo encuentra
 
 
 <!--
-EGV19 proclisis + algo + algo + pronombre_procl + verbo.
+regla EGV19 proclisis + algo + algo + pronombre_procl + verbo.
 La persona que más veces lo encuentra
 -->
     
@@ -5471,7 +8117,7 @@ La persona que más veces lo encuentra
 
 
 <!--
-EGV20 proclisis + algo + pronombre_procl + verbo.
+regla EGV20 proclisis + algo + pronombre_procl + verbo.
 La persona que más lo encuentra
 -->
 
@@ -5489,6 +8135,36 @@ La persona que más lo encuentra
         <choose>
           <when>
             <test>
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>
+            </test>
+            
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/>
+                
+              </lu>
+            </out> 
+            
+          </when>
+
+		  <when>
+		  <test>
               <in caseless="yes"><!--in-->
                 <clip pos="1" side="sl" part="lem"/>
                 <list n="pces"/>
@@ -5550,12 +8226,10 @@ La persona que más lo encuentra
 
     
 <!--
-EGV21 proclisis + pronombre_procl + pronombre_procl + verbo.
+regla EGV21 proclisis + pronombre_procl + pronombre_procl + verbo.
 La persona que te lo encuentra
 -->
 
-    
-    
     <rule>
       <pattern>
         <pattern-item n="proclise"/>
@@ -5563,9 +8237,161 @@ La persona que te lo encuentra
         <pattern-item n="prnpro"/>
         <pattern-item n="verb"/>
       </pattern>
-      
       <action>
         <choose>
+        <when>
+            <test> 
+			 <and>
+			    <in caseless="yes"><!--in-->
+				  <clip pos="1" side="sl" part="lem"/>
+				  <list n="pces"/>
+			    </in>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>	
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="se"/>
+                </equal>
+				<equal caseless="yes">
+					  <clip pos="3" side="sl" part="lem"/>
+					  <lit v="lo"/>
+				</equal>
+			  </and>
+			</test>            
+            <out>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <lu>
+                  <get-case-from pos="2">
+                    <lit v="-y"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.p3.mf.sg"/>
+               </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/>
+              </lu>			  
+            </out> 
+          </when>
+        <when>
+            <test> 
+			 <and>
+			    <in caseless="yes"><!--in-->
+				  <clip pos="1" side="sl" part="lem"/>
+				  <list n="pces"/>
+			    </in>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>	
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="se"/>
+                </equal>
+				<equal caseless="yes">
+					  <clip pos="3" side="sl" part="lem"/>
+					  <lit v="le"/>
+				</equal>
+			  </and>
+			</test>            
+            <out>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>			  
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>			  
+              <lu>
+                  <get-case-from pos="3">
+                    <lit v="-y"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.p3.mf.sg"/>
+               </lu>
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/>
+              </lu>			  
+            </out> 
+          </when>		  
+        <when>
+            <test> 
+			 <and>
+			    <in caseless="yes"><!--in-->
+				  <clip pos="1" side="sl" part="lem"/>
+				  <list n="pces"/>
+			    </in>	
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="se"/>
+                </equal>
+				<equal caseless="yes">
+					  <clip pos="3" side="sl" part="lem"/>
+					  <lit v="lo"/>
+				</equal>
+			  </and>
+			</test>            
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                  <get-case-from pos="2">
+                    <lit v="-y"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.p3.mf.sg"/>
+               </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/>
+              </lu>			  
+            </out> 
+          </when>		  
+          <when>
+            <test>
+			  <and>
+                <in caseless="yes"><!--in-->
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="pces"/>
+                </in>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>	
+			  </and>			  
+            </test>
+            <out>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/>
+              </lu>
+            </out> 
+          </when>
           <when>
             <test>
               <in caseless="yes"><!--in-->
@@ -5573,7 +8399,6 @@ La persona que te lo encuentra
                 <list n="pces"/>
               </in>
             </test>
-            
             <out>
               <lu>
                 <clip pos="1" side="tl" part="whole"/> 
@@ -5589,12 +8414,9 @@ La persona que te lo encuentra
               <b/>
               <lu>
                 <clip pos="4" side="tl" part="whole"/>
-                
               </lu>
             </out> 
-            
           </when>
-          
           <when>
             <test><and>
                 <equal caseless="yes">
@@ -5606,7 +8428,6 @@ La persona que te lo encuentra
                   <lit v="le"/>
                 </equal></and>
             </test>
-            
             <out>
               <lu>
                 <clip pos="1" side="tl" part="whole"/> 
@@ -5651,7 +8472,7 @@ La persona que te lo encuentra
                 </lu>
                 <lu>
                   <get-case-from pos="2">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -5702,7 +8523,7 @@ La persona que te lo encuentra
     
     
 <!--
-EGV22 pronombre_procl_reflex + pronombre_procl + verbo.
+regla EGV22 pronombre_procl_reflex + pronombre_procl + verbo.
 se lo encuentra
 -->
     
@@ -5843,7 +8664,7 @@ se lo encuentra
 
 
 <!--
-EGV23 pronombre_procl + pronombre_procl + verbo.
+regla EGV23 pronombre_procl + pronombre_procl + verbo.
 te lo encuentra
 -->
     
@@ -5889,7 +8710,7 @@ te lo encuentra
     
     
 <!--
-EGV24 pronombre_procl_refl + verbo.
+regla EGV24 pronombre_procl_refl + verbo.
 se encuentra
 -->
     
@@ -5925,7 +8746,7 @@ se encuentra
 
 
 <!--
-EGV24b determinante + nombre + pronombre_procl_refl + verbo.
+regla EGV24b determinante + nombre + pronombre_procl_refl + verbo.
 el gato se come cuatro pescados -> el gato come cuatro pescados
 -->
 
@@ -5952,7 +8773,7 @@ el gato se come cuatro pescados -> el gato come cuatro pescados
                 </equal>            
                 <in caseless="yes"><!--in-->
                   <clip pos="4" side="sl" part="lem"/>
-                  <list n="expletivos"/>
+                  <list n="transitivos"/>
                 </in>
               </and>
 	   </test>
@@ -6027,7 +8848,7 @@ el gato se come cuatro pescados -> el gato come cuatro pescados
 
 
 <!--
-EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
+regla EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
 él se come -> come
 -->
 
@@ -6049,7 +8870,7 @@ EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
                 </equal>            
                 <in caseless="yes"><!--in-->
                   <clip pos="3" side="sl" part="lem"/>
-                  <list n="expletivos"/>
+                  <list n="transitivos"/>
                 </in>
               </and>
 	   </test>
@@ -6110,7 +8931,7 @@ EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
 
 
 <!--
-EGV25 pronombre_procl + verbo.
+regla EGV25 pronombre_procl + verbo.
 lo encuentra -> encuéntralu
 me como -> como
 te comes -> comes
@@ -6139,8 +8960,30 @@ os coméis -> coméis
                 </equal>            
                 <in caseless="yes"><!--in-->
                   <clip pos="2" side="sl" part="lem"/>
-                  <list n="expletivos"/>
+                  <list n="transitivos"/>
                 </in>
+				<or>
+	                <equal caseless="yes">
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="me"/>
+					</equal>	
+	                <equal caseless="yes">
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="te"/>
+					</equal>	
+					<equal caseless="yes">
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="se"/>
+					</equal>	
+	                <equal caseless="yes">
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="nos"/>
+					</equal>	
+					<equal caseless="yes">
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="os"/>
+					</equal>	
+				</or>
               </and>
 	   </test>
           <out>
@@ -6167,7 +9010,7 @@ os coméis -> coméis
               <clip pos="2" side="tl" part="nbr"/>
             </lu>
             <lu>
-              <get-case-from pos="2">
+				<get-case-from pos="2">
                 <clip pos="1" side="tl" part="lem"/>
               </get-case-from>
               <lit-tag v="prn.enc"/>
@@ -6185,12 +9028,10 @@ os coméis -> coméis
 
 
 <!--
-EGV25b pronombre_procl + verbo.
-
+regla EGV25b pronombre_procl_le + verbo + algo.
 le hablé ayer -> falé-y ayeri
 -->
 
-    
     <rule>
       <pattern>
         <pattern-item n="le_les"/>
@@ -6198,44 +9039,23 @@ le hablé ayer -> falé-y ayeri
         <pattern-item n="no_det_sust_a"/>
       </pattern>
       <action>
-        <choose>          
-          <when>
-            <test> 
-              <and>
-                <equal>
-                  <clip pos="2" side="sl" part="nbr"/>
-                  <clip pos="1" side="sl" part="nbr"/>
-                </equal> 
-                <equal>
-                  <clip pos="2" side="sl" part="persona"/>
-                  <clip pos="1" side="sl" part="persona"/>
-                </equal>            
-                <in caseless="yes"><!--in-->
-                  <clip pos="2" side="sl" part="lem"/>
-                  <list n="expletivos"/>
-                </in>
-              </and>
-	   </test>
-          <out>
-	    <lu>
-              <get-case-from pos="1">
-                <clip pos="2" side="tl" part="lem"/>
-              </get-case-from>
-              <clip pos="2" side="tl" part="a_verb"/>
-              <clip pos="2" side="tl" part="temps"/>
-              <clip pos="2" side="tl" part="persona"/>
-              <clip pos="2" side="tl" part="nbr"/>
-            </lu>
-         </out> 
-	</when>
-	<when>
-            <test>   
+        <choose>   	
+ 	<when>
+        <test>  
+			<and> 
                 <in caseless="yes"> 
                   <clip pos="2" side="sl" part="lem"/>
                   <list n="verbos-y-yos"/>
                 </in>
+				<not>
+					<equal caseless="yes">
+						<clip pos="3" side="sl" part="lem"/>
+						<lit v="a"/>
+					</equal>
+				</not>
+			</and>
 	   </test>
-	<out>
+	   <out>
           <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
@@ -6273,7 +9093,7 @@ le hablé ayer -> falé-y ayeri
             </lu>
             <lu>
               <get-case-from pos="2">
-		<lit v="lu"/>
+			  <lit v="lu"/>
               </get-case-from>
               <lit-tag v="prn.enc"/>
               <clip pos="1" side="tl" part="persona"/>
@@ -6291,9 +9111,10 @@ le hablé ayer -> falé-y ayeri
     </rule>
 
 
-    
+	
+   
 <!--
-EGV26 proclisis + pronom_procl_refl + verbo.
+regla EGV26 proclisis + pronom_procl_refl + verbo.
 que se jugó ('que' está en la lista)
 y se jugó ('y' no está en la lista)
 -->
@@ -6308,6 +9129,31 @@ y se jugó ('y' no está en la lista)
       
       <action>
         <choose>
+		  <when>
+            <test> 
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>			
+			</test>            
+            <out>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+                
+              </lu>
+            </out> 
+            
+          </when>
+		  
           <when>
             <test>
               <in caseless="yes"><!--in-->
@@ -6363,7 +9209,7 @@ y se jugó ('y' no está en la lista)
 
     
 <!--
-EGV27 proclisis + pronom_procl + verbo.
+regla EGV27 proclisis + pronom_procl + verbo.
 que lo jugó ('que' está en la lista)
 y lo jugó ('y' no está en la lista)
 -->
@@ -6378,6 +9224,66 @@ y lo jugó ('y' no está en la lista)
       
       <action>
         <choose>
+		
+		  <when>
+            <test> 
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>			
+			</test>            
+            <out>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+                
+              </lu>
+            </out> 
+            
+          </when>
+		  
+          <when>
+            <test> 
+              <and>
+                <equal>
+                  <clip pos="2" side="sl" part="nbr"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </equal> 
+                <equal>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>            
+                <in caseless="yes"><!--in-->
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="transitivos"/>
+                </in>
+              </and>
+			</test>
+		  <out>
+		      <lu>
+		        <clip pos="1" side="tl" part="whole"/> 
+		      </lu> 
+		      <b/>
+		    <lu>
+		      <get-case-from pos="1">
+		        <clip pos="3" side="tl" part="lem"/>
+		      </get-case-from>
+		      <clip pos="3" side="tl" part="a_verb"/>
+		      <clip pos="3" side="tl" part="temps"/>
+		      <clip pos="3" side="tl" part="persona"/>
+		      <clip pos="3" side="tl" part="nbr"/>
+		    </lu>
+		 </out> 
+          </when>		
+		
           <when>
             <test>
               <in caseless="yes"><!--in-->
@@ -6401,40 +9307,6 @@ y lo jugó ('y' no está en la lista)
               </lu>
             </out> 
             
-          </when>
-      
-          <when>
-            <test> 
-              <and>
-                <equal>
-                  <clip pos="2" side="sl" part="nbr"/>
-                  <clip pos="3" side="sl" part="nbr"/>
-                </equal> 
-                <equal>
-                  <clip pos="2" side="sl" part="persona"/>
-                  <clip pos="3" side="sl" part="persona"/>
-                </equal>            
-                <in caseless="yes"><!--in-->
-                  <clip pos="3" side="sl" part="lem"/>
-                  <list n="expletivos"/>
-                </in>
-              </and>
-	   </test>
-		  <out>
-		      <lu>
-		        <clip pos="1" side="tl" part="whole"/> 
-		      </lu> 
-		      <b/>
-		    <lu>
-		      <get-case-from pos="1">
-		        <clip pos="3" side="tl" part="lem"/>
-		      </get-case-from>
-		      <clip pos="3" side="tl" part="a_verb"/>
-		      <clip pos="3" side="tl" part="temps"/>
-		      <clip pos="3" side="tl" part="persona"/>
-		      <clip pos="3" side="tl" part="nbr"/>
-		    </lu>
-		 </out> 
           </when>
 
           <otherwise>
@@ -6467,8 +9339,8 @@ y lo jugó ('y' no está en la lista)
 
 
 <!--
-EGV28 haber + participio.
-he cantado (presente_indicativo + participio -> pretérito_perfecto/indefinido - cantei)
+regla EGV28 haber + participio.
+he cantado (presente_indicativo + participio -> pretérito_perfecto/indefinido - canté)
 había cantado (pretérito_imperfecto_indicativo + participio -> pluscuamperfecto - cantara)
 habré/habría cantado (futuro_indicativo/condicional + participio -> condicional cantaría)
 (presente_subjuntivo/pert_imperf_subj/infinitivo/gerundio + participio -> presente_subjuntivo/pert_imperf_subj/infinitivo/gerundio)
@@ -6547,7 +9419,7 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
               <lu>
                 <clip pos="2" side="tl" part="lemh"/>
                 <clip pos="2" side="sl" part="a_verb"/>
-                <lit-tag v="pmp"/>
+                <lit-tag v="pis"/>
                 <clip pos="1" side="sl" part="persona"/>
                 <clip pos="1" side="sl" part="nbr"/>
                 <clip pos="2" side="tl" part="lemq"/>
@@ -6664,9 +9536,716 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
       </action>
     </rule>
 
-
+	
+	
 <!--
-EGV29 pron_procl_refl + pron_procl + haber + participio.
+regla EGV28b no + haber + participio.
+-->
+    
+    <rule>
+      <pattern>
+	    <pattern-item n="no"/>
+        <pattern-item n="haber"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="sl" part="a_verb"/>
+                <lit-tag v="ifi"/>
+                <clip pos="2" side="sl" part="persona"/>
+                <clip pos="2" side="sl" part="nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="2"/>
+            </call-macro>
+          </when>          
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>			
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="sl" part="a_verb"/>
+                <lit-tag v="pis"/>
+                <clip pos="2" side="sl" part="persona"/>
+                <clip pos="2" side="sl" part="nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+          
+          <when>
+            <test>
+              <and>
+                <or><equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="fti"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="cni"/>
+                  </equal></or>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>			
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="sl" part="a_verb"/>
+                <lit-tag v="cni"/>
+                <clip pos="2" side="sl" part="persona"/>
+                <clip pos="2" side="sl" part="nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+          
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="pis"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="prs"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="xer"/>
+                  </equal></or>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>			
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="sl" part="a_verb"/>
+                <clip pos="2" side="sl" part="temps"/>
+                <clip pos="2" side="sl" part="persona"/>
+                <clip pos="2" side="sl" part="nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+          
+          <otherwise>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>			
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu>
+            </out> 
+          </otherwise>
+          
+        </choose>
+      </action>
+    </rule>
+
+	
+	
+<!-- 
+regla EGV28c no + pron_procl + haber + participio.
+-->
+    
+    <rule>
+      <pattern>
+	    <pattern-item n="no"/>
+		<pattern-item n="prnpro"/>
+        <pattern-item n="haber"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>			  
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="sl" part="a_verb"/>
+                <lit-tag v="ifi"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="3"/>
+            </call-macro>
+          </when>          
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>		
+			  <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="sl" part="a_verb"/>
+                <lit-tag v="pis"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="3"/>
+            </call-macro>
+          </when>
+          
+          <when>
+            <test>
+              <and>
+                <or><equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="fti"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="cni"/>
+                  </equal></or>
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>	
+			  <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="sl" part="a_verb"/>
+                <lit-tag v="cni"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="3"/>
+            </call-macro>
+          </when>
+          
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="pis"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="prs"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="xer"/>
+                  </equal></or>
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>	
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>			  
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="sl" part="a_verb"/>
+                <clip pos="3" side="sl" part="temps"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="3"/>
+            </call-macro>
+          </when>
+          
+          <otherwise>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>			  
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/> 
+              </lu>
+            </out> 
+          </otherwise>
+          
+        </choose>
+      </action>
+    </rule>    
+
+	
+<!-- 
+regla EGV28d no + pron_procl + pron_procl + haber + participio.
+-->
+
+    <rule>
+      <pattern>
+	    <pattern-item n="no"/>
+		<pattern-item n="prnpro"/>
+		<pattern-item n="prnpro"/>		
+        <pattern-item n="haber"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>	
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>				  
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="sl" part="a_verb"/>
+                <lit-tag v="ifi"/>
+                <clip pos="4" side="sl" part="persona"/>
+                <clip pos="4" side="sl" part="nbr"/>
+                <clip pos="5" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="4"/>
+            </call-macro>
+          </when>          
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>		
+			  <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>				  
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="sl" part="a_verb"/>
+                <lit-tag v="pis"/>
+                <clip pos="4" side="sl" part="persona"/>
+                <clip pos="4" side="sl" part="nbr"/>
+                <clip pos="5" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="4"/>
+            </call-macro>
+          </when>
+          
+          <when>
+            <test>
+              <and>
+                <or><equal>
+                    <clip pos="4" side="sl" part="temps"/>
+                    <lit-tag v="fti"/>
+                  </equal>
+                  <equal>
+                    <clip pos="4" side="sl" part="temps"/>
+                    <lit-tag v="cni"/>
+                  </equal></or>
+                <equal>
+                  <clip pos="5" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>				  
+			  <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>				  
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="sl" part="a_verb"/>
+                <lit-tag v="cni"/>
+                <clip pos="4" side="sl" part="persona"/>
+                <clip pos="4" side="sl" part="nbr"/>
+                <clip pos="5" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="4"/>
+            </call-macro>
+          </when>
+          
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="4" side="sl" part="temps"/>
+                    <lit-tag v="pis"/>
+                  </equal>
+                  <equal>
+                    <clip pos="4" side="sl" part="temps"/>
+                    <lit-tag v="prs"/>
+                  </equal>
+                  <equal>
+                    <clip pos="4" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal>
+                  <equal>
+                    <clip pos="4" side="sl" part="temps"/>
+                    <lit-tag v="xer"/>
+                  </equal></or>
+                <equal>
+                  <clip pos="5" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>	
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>	
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>				  
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="sl" part="a_verb"/>
+                <clip pos="4" side="sl" part="temps"/>
+                <clip pos="4" side="sl" part="persona"/>
+                <clip pos="4" side="sl" part="nbr"/>
+                <clip pos="5" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="4"/>
+            </call-macro>
+          </when>
+          
+          <otherwise>
+            <out>
+			  <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>				  
+              <lu>
+                <clip pos="4" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="5" side="tl" part="whole"/> 
+              </lu>
+            </out> 
+          </otherwise>
+          
+        </choose>
+      </action>
+    </rule>    
+
+	
+<!--
+regla EGV29 pron_procl_refl + pron_procl + haber + participio.
 se le ha caído -> caéuselle (pretérito_perfecto)
 se lo ha dicho -> díxollo (dicir+lle+o)
 se le había caído -> caéraselle (caer-pluscuamperfecto + se + lle)
@@ -6782,7 +10361,7 @@ se lo hubiera dicho -> dixésello (pis)
                 
                 <lu>
                   <get-case-from pos="2">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -6835,7 +10414,7 @@ se lo hubiera dicho -> dixésello (pis)
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
                   <clip pos="4" side="sl" part="a_verb"/>
-                  <lit-tag v="pmp.p3"/>
+                  <lit-tag v="pis.p3"/>
                   <!--clip pos="3" side="sl" part="persona"/-->
                   <clip pos="3" side="sl" part="nbr"/>
                 </lu>
@@ -6886,14 +10465,14 @@ se lo hubiera dicho -> dixésello (pis)
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
                   <clip pos="4" side="sl" part="a_verb"/>
-                  <lit-tag v="pmp"/>
+                  <lit-tag v="pis"/>
                   <clip pos="3" side="sl" part="persona"/>
                   <clip pos="3" side="sl" part="nbr"/>
                 </lu>
                 
                 <lu>
                   <get-case-from pos="2">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -7015,7 +10594,7 @@ se lo hubiera dicho -> dixésello (pis)
                 
                 <lu>
                   <get-case-from pos="2">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -7138,7 +10717,7 @@ se lo hubiera dicho -> dixésello (pis)
                 
                 <lu>
                   <get-case-from pos="2">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -7185,7 +10764,7 @@ se lo hubiera dicho -> dixésello (pis)
 
 
 <!--
-EGV30 pron_procl + pron_procl + haber + participio.
+regla EGV30 pron_procl + pron_procl + haber + participio.
 te lo ha dicho -> díxocho (dicir-pret_perfec+te+o)
 te lo había dicho -> dixéracho  (dicir-pluscuamperfecto + te + o)
 te lo habría/habrá dicho -> diríacho   (dicir-condicional + te + o)
@@ -7282,7 +10861,7 @@ te lo hubiera dicho -> dixésecho (pis)
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
                   <clip pos="4" side="sl" part="a_verb"/>
-                  <lit-tag v="pmp"/>
+                  <lit-tag v="pis"/>
                   <clip pos="3" side="sl" part="persona"/>
                   <clip pos="3" side="sl" part="nbr"/>
                 </lu>
@@ -7459,7 +11038,7 @@ te lo hubiera dicho -> dixésecho (pis)
     
     
 <!-- 
-EGV31 proclisis + pron_procl_refl + haber + participio.
+regla EGV31 proclisis + pron_procl_refl + haber + participio.
 que se ha/haya/habría/habrá caído -> que se caeu (que + se + caer-pret_perfec)
 y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
 -->
@@ -7474,8 +11053,6 @@ y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
       </pattern>
       <action>
         <choose>
-          
-          
           
           <when>
             <test>
@@ -7592,7 +11169,7 @@ y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
 
 
 <!-- 
-EGV32 pron_procl_refl + haber + participio.
+regla EGV32 pron_procl_refl + haber + participio.
 se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
 -->
 
@@ -7608,6 +11185,10 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
           <when>
             <test>
               <and>
+                <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>			  
                 <equal>
                   <clip pos="3" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
@@ -7641,10 +11222,151 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                   <clip pos="1" side="tl" part="gen"/>
                   <clip pos="1" side="tl" part="nbr"/>
                 </lu></mlu>
-              
             </out> 
           </when>
-          
+           <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>			  
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <mlu><lu>
+                  <get-case-from pos="1">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from> 
+                  <clip pos="3" side="sl" part="a_verb"/>
+                  <lit-tag v="pis"/>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="nbr"/>
+                </lu>
+                <lu>
+                  <get-case-from pos="2">
+                    <clip pos="1" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.ref"/>
+                  <clip pos="1" side="tl" part="persona"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                </lu></mlu>
+            </out> 
+          </when>
+          <when>
+            <test>
+              <and>
+                <or><equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="fti"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="cni"/>
+                  </equal></or>			  
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <mlu><lu>
+                  <get-case-from pos="1">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from> 
+                  <clip pos="3" side="sl" part="a_verb"/>
+                  <lit-tag v="cni"/>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="nbr"/>
+                </lu>
+                <lu>
+                  <get-case-from pos="2">
+                    <clip pos="1" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.ref"/>
+                  <clip pos="1" side="tl" part="persona"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                </lu></mlu>
+            </out> 
+          </when>
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="pis"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="prs"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="xer"/>
+                  </equal></or>			  
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+			<mlu>	
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="sl" part="a_verb"/>
+                <clip pos="2" side="sl" part="temps"/>
+                <clip pos="2" side="sl" part="persona"/>
+                <clip pos="2" side="sl" part="nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+                <lu>
+                  <get-case-from pos="2">
+                    <clip pos="1" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.ref"/>
+                  <clip pos="1" side="tl" part="persona"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                </lu></mlu>			  
+            </out> 
+          </when>
           
           <otherwise>
             <out>
@@ -7670,7 +11392,7 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
     
 
 <!-- 
-EGV33 pron_procl_refl + haber + participio.
+regla EGV33 pron_procl_refl + haber + participio.
 que te ha/haya/habría/habrá dicho -> que che dixo  (que + te + caer-pret_perfec)
 y te ha/haya/habría/habrá dicho -> e díxoche  (e + caer-pret_perfec + te)
 -->
@@ -7685,17 +11407,17 @@ y te ha/haya/habría/habrá dicho -> e díxoche  (e + caer-pret_perfec + te)
       <action>
         <choose>
           
-          
-          
           <when>
             <test>
-              <and>
-                
+              <and>			
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>			
                 <in caseless="yes"><!--in-->
                   <clip pos="1" side="sl" part="lem"/>
                   <list n="pces"/>
-                </in>
-                
+                </in>				
                 <equal>
                   <clip pos="4" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
@@ -7729,11 +11451,13 @@ y te ha/haya/habría/habrá dicho -> e díxoche  (e + caer-pret_perfec + te)
             </out> 
           </when>
           
-          
-          
           <when>
             <test>
               <and>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>			  
                 <equal>
                   <clip pos="4" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
@@ -7775,8 +11499,316 @@ y te ha/haya/habría/habrá dicho -> e díxoche  (e + caer-pret_perfec + te)
             </out> 
           </when>
           
+          <when>
+            <test>
+              <and>			
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>			
+                <in caseless="yes"><!--in-->
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="pces"/>
+                </in>				
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="lem"/> 
+                <clip pos="4" side="sl" part="a_verb"/>
+                <lit-tag v="pis"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+              </lu>
+            </out> 
+          </when>
           
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pii"/>
+                </equal>				  
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <mlu><lu>
+                  <get-case-from pos="2">
+                    <clip pos="4" side="tl" part="lem"/>
+                  </get-case-from> 
+                  <clip pos="4" side="sl" part="a_verb"/>
+                  <lit-tag v="pis"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </lu>
+                <lu>
+                  <get-case-from pos="3">
+                    <clip pos="2" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu></mlu>
+              
+            </out> 
+          </when>
+          <when>
+            <test>
+			    <and>
+                <or><equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="fti"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="cni"/>
+                  </equal>
+				</or>		
+                <in caseless="yes"><!--in-->
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="pces"/>
+                </in>			
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="lem"/> 
+                <clip pos="4" side="sl" part="a_verb"/>
+                <lit-tag v="cni"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+              </lu>
+            </out> 
+          </when>
           
+          <when>
+            <test>
+              <and>
+                <or><equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="fti"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="cni"/>
+                  </equal></or>				  
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <mlu><lu>
+                  <get-case-from pos="2">
+                    <clip pos="4" side="tl" part="lem"/>
+                  </get-case-from> 
+                  <clip pos="4" side="sl" part="a_verb"/>
+                  <lit-tag v="cni"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </lu>
+                <lu>
+                  <get-case-from pos="3">
+                    <clip pos="2" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu></mlu>
+              
+            </out> 
+          </when>
+          <when>
+            <test>
+              <and>			
+                <or>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="pis"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="prs"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="xer"/>
+                  </equal></or>		
+
+                <in caseless="yes"><!--in-->
+                  <clip pos="1" side="sl" part="lem"/>
+                  <list n="pces"/>
+                </in>				
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="sl" part="a_verb"/>
+                <clip pos="3" side="sl" part="temps"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </out> 
+          </when>
+          
+          <when>
+            <test>
+              <and>
+                <or>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="pis"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="prs"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal>
+                  <equal>
+                    <clip pos="3" side="sl" part="temps"/>
+                    <lit-tag v="xer"/>
+                  </equal></or>				  
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                <equal>
+                  <clip pos="4" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+              <b/>
+              <mlu><lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="sl" part="a_verb"/>
+                <clip pos="3" side="sl" part="temps"/>
+                <clip pos="3" side="sl" part="persona"/>
+                <clip pos="3" side="sl" part="nbr"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+                <lu>
+                  <get-case-from pos="3">
+                    <clip pos="2" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu></mlu>
+              
+            </out> 
+          </when>
+		  
           <otherwise>
             <out>
               <lu>
@@ -7802,8 +11834,8 @@ y te ha/haya/habría/habrá dicho -> e díxoche  (e + caer-pret_perfec + te)
     
 
 <!--
-EGV34 pron_procl + haber + participio.
-te ha/haya/habría/habrá caído ->  caeuche  (caer-pret_perfec + te)
+regla EGV34 pron_procl + haber + participio.
+te ha/haya/habría/habrá dicho ->  díxote
 -->
 
     <rule>
@@ -7881,7 +11913,7 @@ te ha/haya/habría/habrá caído ->  caeuche  (caer-pret_perfec + te)
     
     
 <!-- 
-EGV35 proclisis + pron_procl_refl + pron_procl + haber + participio.
+regla EGV35 proclisis + pron_procl_refl + pron_procl + haber + participio.
 que se lo ha/haya/habría/habrá dicho ->  que llo dixo  (que + se + lo + decir-pret_perfec)
 y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se + lo)
 -->
@@ -7897,9 +11929,7 @@ y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se +
       </pattern>
       <action>
         <choose>
-          
-          
-          
+
           <when>
             <test>
               <and>
@@ -7981,7 +12011,7 @@ y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se +
                 </lu>
                 <lu>
                   <get-case-from pos="2">
-                    <lit v="lle"/>
+                    <lit v="-y"/>
                   </get-case-from>
                   <lit-tag v="prn.enc.p3.mf.sg"/>
                 </lu>
@@ -8033,7 +12063,7 @@ y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se +
     
     
 <!-- 
-EGV36 proclisis + pron_procl + pron_procl + haber + participio.
+regla EGV36 proclisis + pron_procl + pron_procl + haber + participio.
 que te lo ha/haya/habría/habrá dicho ->  que cho dixo  (que + te + lo + decir-pret_perfec)
 y te lo ha/haya/habría/habrá dicho ->  e díxocho     (decir-pret_perfec + te + lo)
 -->
@@ -8188,7 +12218,7 @@ y te lo ha/haya/habría/habrá dicho ->  e díxocho     (decir-pret_perfec + te 
 
 
 <!-- 
-EGV37 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF en distintas combinaciones con clíticos y perífrasis
+regla EGV37 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF en distintas combinaciones con clíticos y perífrasis
 ir a comer -> ir comer (si al preposición es "a", la quita)
 -->
     
@@ -8240,7 +12270,7 @@ ir a comer -> ir comer (si al preposición es "a", la quita)
     
 
 <!-- 
-EGV38 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF + PRON_ENCLITICO en distintas combinaciones con clíticos y perífrasis
+regla EGV38 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF + PRON_ENCLITICO en distintas combinaciones con clíticos y perífrasis
 ir a comerlo -> ir comelo (si al preposición es "a", la quita)
 -->    
     <rule>
@@ -8298,7 +12328,7 @@ ir a comerlo -> ir comelo (si al preposición es "a", la quita)
 
 
 <!-- 
-EGV39 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF + PRON_ENCLITICO  + PRON_ENCLITICO en distintas combinaciones con clíticos y perífrasis
+regla EGV39 IR/VENIR/VOLVER/ACOSTUMBRAR...+ PREP +INF + PRON_ENCLITICO  + PRON_ENCLITICO en distintas combinaciones con clíticos y perífrasis
 ir a comertelo -> ir comercho  (si al preposición es "a", la quita)
 -->      
     
@@ -8364,7 +12394,7 @@ ir a comertelo -> ir comercho  (si al preposición es "a", la quita)
     
     
 <!-- 
-EGV40 Quitamos ¿
+regla EGV40 Quitamos ¿
 -->   
     <rule>
       <pattern>
@@ -8380,7 +12410,7 @@ EGV40 Quitamos ¿
 
 
 <!-- 
-EGV41 Cuando detectamos ? ; : ! reseteamos variables, número a singular y género a masculino
+regla EGV41 Cuando detectamos ? ; : ! reseteamos variables, número a singular y género a masculino
 -->  
 
     
@@ -8407,7 +12437,7 @@ EGV41 Cuando detectamos ? ; : ! reseteamos variables, número a singular y géne
     
 
 <!-- 
-EGV42 "LO" + ADJ ms + QUE relativo + verbo + determinante + sustantivo incontable -> ADJ neutro
+regla EGV42 "LO" + ADJ ms + QUE relativo + verbo + determinante + sustantivo incontable -> ADJ neutro
 Lo bueno que es comer
 Lo guapo que es Xixón
 lo rico que está la sidra
@@ -8583,7 +12613,7 @@ lo rico que está la sidra
 
 
 <!-- 
-EGV43 "LO" + ADJ ms + QUE relativo + verbo + determinante + infinitivo -> ADJ neutro
+regla EGV43 "LO" + ADJ ms + QUE relativo + verbo + determinante + infinitivo -> ADJ neutro
 Lo rico que es hablar
 -->  
 
@@ -8721,7 +12751,7 @@ Lo rico que es hablar
     </rule>
 
 <!-- 
-EGV44 "LO" + ADJ ms + QUE relativo + verbo + determinante + infinitivo -> ADJ neutro
+regla EGV44 "LO" + ADJ ms + QUE relativo + verbo + determinante + infinitivo -> ADJ neutro
 Lo guapo que es Asturias
 -->  
 
@@ -8857,7 +12887,760 @@ Lo guapo que es Asturias
       </action>
 
     </rule>
+	
 
+	
+<!-- POR/PER -->
+	
+<!-- 
+regla EGV45 verbo + por + verbo -> PER (si verbos distintos y verbo en lista 'verbos-per-1')
+comer por comer -> comer por comer
+acabar por comer -> acabar per comer
+acabar por acabar -> acabar por acabar
+-->  
+
+    <rule>
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="prep"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+	      <and>
+			  <not>
+		        <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <clip pos="3" side="sl" part="lem"/>
+		        </equal>
+			  </not>
+		      <equal caseless="yes">
+		          <clip pos="2" side="sl" part="lem"/>
+		          <lit v="por"/>
+		      </equal>
+			  <in caseless="yes">
+			  <clip pos="1" side="sl" part="lem"/>
+                  <list n="verbos-per-1"/>
+              </in>
+	      </and>
+        </test>
+        <out>
+           <lu>
+				<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b pos="1"/>
+           <lu>
+			    <lit v="per"/>
+				<lit-tag v="pr"/>
+		   </lu>
+           <b pos="2"/>
+           <lu>
+				<clip pos="3" side="tl" part="whole"/> 
+		   </lu>
+        </out>
+       </when>
+	  <otherwise>
+	    <out>
+           <lu>
+				<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b pos="1"/>
+           <lu>
+				<clip pos="2" side="tl" part="whole"/> 
+		   </lu>
+           <b pos="2"/>
+           <lu>
+				<clip pos="3" side="tl" part="whole"/> 
+		   </lu>
+        </out>
+	  </otherwise>
+      </choose>
+  
+     </action>
+
+    </rule>
+	
+	
+<!-- 
+regla EGV46 verbo + por + no + verbo -> PER (si verbos distintos y verbo en lista 'verbos-per-1')
+comer por no comer -> comer por nun comer
+acabar por no comer -> acabar per nun comer
+acabar por no acabar -> acabar por nun acabar
+-->  
+
+    <rule>
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="prep"/>
+		<pattern-item n="adv"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+	      <and>
+			  <not>
+		        <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <clip pos="4" side="sl" part="lem"/>
+		        </equal>
+			  </not>
+		      <equal caseless="yes">
+		          <clip pos="2" side="sl" part="lem"/>
+		          <lit v="por"/>
+		      </equal>
+		      <equal caseless="yes">
+		          <clip pos="3" side="sl" part="lem"/>
+		          <lit v="no"/>
+		      </equal>			  
+			  <not>
+				  <equal caseless="yes">
+					  <clip pos="4" side="sl" part="temps"/>
+					  <lit-tag v="pp"/>
+                  </equal>
+				</not>		
+			  <in caseless="yes">
+			  <clip pos="1" side="sl" part="lem"/>
+                  <list n="verbos-per-1"/>
+              </in>
+	      </and>
+        </test>
+        <out>
+           <lu>
+				<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b pos="1"/>
+           <lu>
+			    <lit v="per"/>
+				<lit-tag v="pr"/>
+		   </lu>
+           <b pos="2"/>
+           <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+           <b pos="3"/>
+           <lu>
+				<clip pos="4" side="tl" part="whole"/> 
+		   </lu>		   
+        </out>
+       </when>
+	   	   <when>
+        <test>
+	      <and>
+			  <not>
+		        <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <clip pos="4" side="sl" part="lem"/>
+		        </equal>
+			  </not>
+		      <equal caseless="yes">
+		          <clip pos="2" side="sl" part="lem"/>
+		          <lit v="por"/>
+		      </equal>
+		      <equal caseless="yes">
+		          <clip pos="3" side="sl" part="lem"/>
+		          <lit v="no"/>
+		      </equal>			  
+			  
+				  <equal caseless="yes">
+					  <clip pos="4" side="sl" part="temps"/>
+					  <lit-tag v="pp"/>
+                  </equal>
+					
+			  <in caseless="yes">
+			  <clip pos="1" side="sl" part="lem"/>
+                  <list n="verbos-per-1"/>
+              </in>
+	      </and>
+        </test>
+        <out>
+           <lu>
+				<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b pos="1"/>
+           <lu>
+			    <lit v="per"/>
+				<lit-tag v="pr"/>
+		   </lu>
+           <b pos="2"/>
+           <lu>
+			  <clip pos="3" side="tl" part="whole"/> 
+			  </lu>
+           <b pos="3"/>
+           <lu>
+				<clip pos="4" side="tl" part="whole"/> 
+		   </lu>		   
+        </out>
+       </when>
+	  
+	   <when>
+            <test> 
+			   <and>
+                <equal caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>
+			
+				<not>
+				  <equal caseless="yes">
+					  <clip pos="4" side="sl" part="temps"/>
+					  <lit-tag v="pp"/>
+                  </equal>
+				</not>				
+               </and>				
+			</test>            
+            <out>
+			 <lu>
+                <clip pos="1" side="tl" part="whole"/> 
+              </lu> 
+			  <b/>
+			   <lu>
+                <clip pos="2" side="tl" part="whole"/> 
+              </lu>
+				<b/>
+              <lu>
+			    <lit v="nun"/>
+				<lit-tag v="adv"/>
+			  </lu>
+              <b/>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/> 
+              </lu>  
+            </out> 
+          </when>
+	  <otherwise>
+	    <out>
+           <lu>
+				<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b pos="1"/>
+           <lu>
+				<clip pos="2" side="tl" part="whole"/> 
+		   </lu>
+           <b pos="2"/>
+           <lu>
+				<clip pos="3" side="tl" part="whole"/> 
+		   </lu>
+           <b pos="3"/>
+           <lu>
+				<clip pos="4" side="tl" part="whole"/> 
+		   </lu>			   
+        </out>
+	  </otherwise>
+      </choose>
+  
+     </action>
+
+    </rule>
+
+
+	
+	
+<!-- 
+regla EGV47 por + nombre topónimo -> PER 
+ por Madrid ->  per Madrid 
+-->  
+ 
+<rule>
+      <pattern>
+        <pattern-item n="por"/>
+        <pattern-item n="nploc"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>		
+		      <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <lit v="por"/>
+		      </equal>
+        </test>
+        <out>
+            <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+    		</lu>
+            <b/>
+            <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+	    	</lu>
+        </out>
+       </when>
+      </choose>
+     </action>
+</rule>
+
+	
+	
+<!-- 
+regla EGV47b verbo + por + nombre topónimo -> PER 
+paseó por Madrid -> paseó per Madrid 
+-->  
+ 
+<!--
+<rule>
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="por"/>
+        <pattern-item n="nploc"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		      <equal caseless="yes">
+		          <clip pos="2" side="sl" part="lem"/>
+		          <lit v="por"/>
+		      </equal>
+        </test>
+        <out>
+               <lu>
+		      <clip pos="1" side="tl" part="whole"/> 
+	        </lu>
+		      <b/>
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		     </lu>
+              <b/>
+                <lu>
+		      <clip pos="3" side="tl" part="whole"/> 
+		</lu>
+        </out>
+       </when>
+      </choose>
+  
+     </action>
+
+    </rule>
+-->
+	
+<!-- 
+regla EGV48 no+ verbo + por + nombre topónimo -> PER 
+no paseó por Madrid -> per Madrid 
+-->  
+<!--
+<rule>
+      <pattern>
+        <pattern-item n="adv"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="por"/>
+        <pattern-item n="nploc"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+	     
+		<and>
+		      <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <lit v="no"/>
+		      </equal>	
+               <not>
+                   <equal caseless="yes">
+			         <clip pos="2" side="sl" part="temps"/>
+		             <lit-tag v="pp"/>
+                    </equal>
+               </not>	
+		      <equal caseless="yes">
+		          <clip pos="3" side="sl" part="lem"/>
+		          <lit v="por"/>
+		      </equal>
+		     </and> 
+        </test>
+        <out>
+                <lu>    
+                      <lit v="nun"/>
+		      <lit-tag v="adv"/>
+	       </lu>
+                      <b/>
+               <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+	        </lu>
+		      <b/>
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="4" side="tl" part="whole"/> 
+		</lu>
+        </out>
+       </when>
+       <when>
+        <test>
+	     
+		<and>
+		      <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <lit v="no"/>
+		      </equal>	
+                      
+                      
+                      <equal caseless="yes">
+			  <clip pos="2" side="sl" part="temps"/>
+		          <lit-tag v="pp"/>
+                     </equal>
+                    	
+		      <equal caseless="yes">
+		          <clip pos="3" side="sl" part="lem"/>
+		          <lit v="por"/>
+		      </equal>
+		  </and>    
+		      
+        </test>
+        <out>
+                <lu>    
+                      <clip pos="1" side="tl" part="whole"/> 
+	       </lu>
+                      <b/>
+               <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+	        </lu>
+		      <b/>
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="4" side="tl" part="whole"/> 
+		</lu>
+        </out>
+       </when>
+      </choose>
+  
+     </action>
+
+    </rule>
+
+-->
+	
+<!-- 
+regla EGV49   verbo + por + adj + nombre -> PER (si verbo en Lista-verbos-per2 y nombre no está en lista abstractos
+-->  
+
+<!--
+<rule>
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="por"/>
+		<pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		  <or>
+			<and>
+              <in caseless="yes">
+				<clip pos="1" side="sl" part="lem"/>
+                <list n="verbos-per-2"/>
+              </in>
+              <not>
+				<in caseless="yes">
+					<clip pos="4" side="sl" part="lem"/>
+                    <list n="abstractos"/>
+                </in>
+              </not>
+            </and>
+			<in caseless="yes">
+			  <clip pos="4" side="sl" part="lem"/>
+              <list n="sustantivos-per"/>
+            </in>
+		  </or>
+        </test>
+        <out>
+               <lu>
+		      <clip pos="1" side="tl" part="whole"/> 
+	        </lu>
+		      <b/>
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="3" side="tl" part="whole"/> 
+		</lu>
+  		<b/>
+                <lu>
+		      <clip pos="4" side="tl" part="whole"/> 
+		</lu>
+                     
+        </out>
+       </when>
+       <otherwise>
+		<out>
+                 <lu>
+		       <clip pos="1" side="tl" part="whole"/> 
+		 </lu>
+		 <b/>
+                 <lu>
+		       <clip pos="2" side="tl" part="whole"/> 
+		 </lu>
+                       <b/>
+                  <lu>
+		       <clip pos="3" side="tl" part="whole"/> 
+		  </lu>
+		 <b/>
+                  <lu>
+		       <clip pos="4" side="tl" part="whole"/> 
+		  </lu>
+                   
+        </out>
+      </otherwise>
+      </choose>
+  
+     </action>
+
+    </rule>
+
+
+
+
+-->
+
+
+<!-- 
+regla EGV48 por + (adj)(det) + nombre -> PER (si nombre en sustantivos-per)
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="por"/>
+	<pattern-item n="adj_det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		  
+	      <in caseless="yes">
+		     <clip pos="3" side="sl" part="lem"/>
+              <list n="sustantivos-per"/>
+            </in>
+		 
+        </test>
+        <out>
+               
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+		</lu>
+  		<b/>
+                <lu>
+		      <clip pos="3" side="tl" part="whole"/> 
+		</lu>
+                     
+        </out>
+       </when>
+       <otherwise>
+		<out>
+                 <lu>
+		       <clip pos="1" side="tl" part="whole"/> 
+		 </lu>
+		 <b/>
+                 <lu>
+		       <clip pos="2" side="tl" part="whole"/> 
+		 </lu>
+                       <b/>
+                  <lu>
+		       <clip pos="3" side="tl" part="whole"/> 
+		  </lu>
+                   
+        </out>
+      </otherwise>
+      </choose>
+   </action>
+</rule>
+
+
+<!-- 
+regla EGV48b por + (adj)(det) + (adj)(det) + nombre -> PER (si nombre en sustantivos-per)
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="por"/>
+	<pattern-item n="adj_det"/>
+	<pattern-item n="adj_det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		  
+	      <in caseless="yes">
+		     <clip pos="4" side="sl" part="lem"/>
+              <list n="sustantivos-per"/>
+            </in>
+		 
+        </test>
+        <out>
+               
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+		</lu>
+  		<b/>
+		<lu>
+		      <clip pos="3" side="tl" part="whole"/> 
+		</lu>
+  		<b/>
+                <lu>
+		      <clip pos="4" side="tl" part="whole"/> 
+		</lu>
+                     
+        </out>
+       </when>
+       <otherwise>
+		<out>
+                 <lu>
+		       <clip pos="1" side="tl" part="whole"/> 
+		 </lu>
+		 <b/>
+                 <lu>
+		       <clip pos="2" side="tl" part="whole"/> 
+		 </lu>
+                       <b/>
+                  <lu>
+		       <clip pos="3" side="tl" part="whole"/> 
+		  </lu>
+   		  <b/>
+                  <lu>
+		       <clip pos="4" side="tl" part="whole"/> 
+		  </lu>
+                   
+        </out>
+      </otherwise>
+      </choose>
+   </action>
+</rule>
+<!-- 
+regla EGV49 por + nombre -> PER (si nombre en sustantivos-per)
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="por"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		  
+	      <in caseless="yes">
+		     <clip pos="2" side="sl" part="lem"/>
+              <list n="sustantivos-per"/>
+            </in>
+		 
+        </test>
+        <out>
+               
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+		</lu>
+  		
+                     
+        </out>
+       </when>
+       <otherwise>
+		<out>
+                 <lu>
+		       <clip pos="1" side="tl" part="whole"/> 
+		 </lu>
+		 <b/>
+                 <lu>
+		       <clip pos="2" side="tl" part="whole"/> 
+		 </lu>
+            
+                   
+        </out>
+      </otherwise>
+      </choose>
+
+     </action>
+
+    </rule>
+
+
+<!-- 
+regla EGV50 por + adverbio -> PER (si adverbio en adverbios-per)
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="por"/>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		  
+	      <in caseless="yes">
+		     <clip pos="2" side="sl" part="lem"/>
+              <list n="adverbios-per"/>
+            </in>
+		 
+        </test>
+        <out>
+               
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+		</lu>
+  		
+                     
+        </out>
+       </when>
+       <otherwise>
+		<out>
+                 <lu>
+		       <clip pos="1" side="tl" part="whole"/> 
+		 </lu>
+		 <b/>
+                 <lu>
+		       <clip pos="2" side="tl" part="whole"/> 
+		 </lu>
+            
+                   
+        </out>
+      </otherwise>
+      </choose>
+
+     </action>
+
+    </rule>
+    
 
   </section-rules>
 </transfer>

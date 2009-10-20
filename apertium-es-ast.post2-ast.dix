@@ -88,10 +88,10 @@
 		<l><a/></l>
 		<r></r>
 	    </p>
-	    <re>[A-Za-z']*[AaEeIiOoUuÁáÉéÍíÓóÚú]</re>
+	    <re>[A-Za-zá-úÁ-Ú']*[AaEeIiOoUuÁáÉéÍíÓóÚú]</re>
 	    <p>
-	    <l><b/>el</l>
-	    <r>'l</r>
+	    <l><b/>el<b/></l>
+	    <r>'l<b/></r>
 	    </p>
       </e>
 
