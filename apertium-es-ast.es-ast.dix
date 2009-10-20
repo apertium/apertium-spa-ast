@@ -12271,6 +12271,7 @@
     <!-- Punctuación -->
 
 <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
 
   </section>
   
