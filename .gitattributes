@@ -24,6 +24,7 @@ ast-tagger-data/astwiki-20090122-pages-articles.xml.bz2 -text
 /autogen.sh -text
 /configure.ac -text
 dev/asturian.freqlist.txt -text
+dev/inconsistency.sh -text
 /es-ast-unsupervised.make -text
 /es-ast.prob -text svneol=unset#unset
 /modes.xml -text
