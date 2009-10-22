@@ -116,9 +116,9 @@
 <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
 <e><p><l>desde<s n="pr"/></l><r>dende<s n="pr"/></r></p></e>
 <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+<e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
 <e><p><l>en<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
 <e><p><l>entre<s n="pr"/></l><r>ente<s n="pr"/></r></p></e>
-<e><p><l>excepto<s n="pr"/></l><r>sacantes<s n="pr"/></r></p></e>
 <e><p><l>hacia<s n="pr"/></l><r>escontra<s n="pr"/></r></p></e>
 <e><p><l>hasta<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
 <e><p><l>junto<b/>a<s n="pr"/></l><r>al<b/>par<b/>de<s n="pr"/></r></p></e>
@@ -130,7 +130,6 @@
 <e><p><l>so<s n="pr"/></l><r>so<s n="pr"/></r></p></e>
 <e><p><l>tras<s n="pr"/></l><r>tres<s n="pr"/></r></p></e>
 <e r="LR"><p><l>cabe<s n="pr"/></l><r>cabo<s n="pr"/></r></p></e>
-<e r="LR"><p><l>junto<b/>a<s n="pr"/></l><r>al<b/>pie<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>acerca<b/>de<s n="pr"/></l><r>so<s n="pr"/></r></p></e>
 <e r="RL"><p><l>ante<s n="pr"/></l><r>ante<s n="pr"/></r></p></e>
 <e r="RL"><p><l>bajo<s n="pr"/></l><r>baxo<s n="pr"/></r></p></e>
@@ -147,7 +146,9 @@
 <e r="RL"><p><l>sin<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
 <e r="RL"><p><l>sobre<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
 <e r="RL"><p><l>sobre<s n="pr"/></l><r>so<s n="pr"/></r></p></e>
-
+<e><p><l>mediante<s n="pr"/></l><r>pente<b/>medies<b/>de<s n="pr"/></r></p></e>
+<e r="LR"><p><l>salvo<s n="pr"/></l><r>sacantes<s n="pr"/></r></p></e>
+<e><p><l>excepto<s n="pr"/></l><r>sacantes<s n="pr"/></r></p></e>
 
 <!-- Adverbios. Alverbios -->
 
@@ -705,13 +706,15 @@
 <e><p><l>ese<s n="det"/><s n="dem"/></l><r>esi<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>ése<s n="prn"/><s n="tn"/></l><r>ési<s n="prn"/><s n="tn"/></r></p></e>
 <e><p><l>eso<s n="prn"/><s n="tn"/><s n="nt"/></l><r>ese<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+<e><p><l>ese<s n="prn"/><s n="tn"/></l><r>esi<s n="prn"/><s n="tn"/></r></p></e>
 <e><p><l>este<s n="det"/><s n="dem"/></l><r>esti<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>éste<s n="prn"/><s n="tn"/></l><r>ésti<s n="prn"/><s n="tn"/></r></p></e>
+<e><p><l>este<s n="prn"/><s n="tn"/></l><r>esti<s n="prn"/><s n="tn"/></r></p></e>
 <e><p><l>esto<s n="prn"/><s n="tn"/><s n="nt"/></l><r>este<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 <e><p><l>le<s n="prn"/></l><r>-y<s n="prn"/></r></p></e>
 <e><p><l>les<s n="prn"/></l><r>-yos<s n="prn"/></r></p></e>
 <!--<e><p><l>lo<s n="prn"/><s n="enc"/></l><r>lo<s n="prn"/><s n="enc"/></r></p></e>-->
-<!--<e><p><l>lo<s n="prn"/><s n="enc"/></l><r>lu<s n="prn"/><s n="enc"/></r></p></e>-->
+<e><p><l>lo<s n="prn"/><s n="enc"/></l><r>lu<s n="prn"/><s n="enc"/></r></p></e>
 <!--<e><p><l>lo<s n="prn"/><s n="pro"/></l><r>lo<s n="prn"/><s n="pro"/></r></p></e>-->
 <e><p><l>lo<s n="prn"/><s n="pro"/></l><r>lu<s n="prn"/><s n="pro"/></r></p></e>
 <e><p><l>me<s n="prn"/><s n="enc"/></l><r>me<s n="prn"/><s n="enc"/></r></p></e>
@@ -1243,7 +1246,6 @@
 <e><p><l>a<b/>no<b/>ser<b/>que<s n="cnjadv"/></l><r>a<b/>nun<b/>ser<b/>que<s n="cnjadv"/></r></p></e>
 <e><p><l>a<b/>excepción<b/>de<s n="adv"/></l><r>sacante<s n="cnjadv"/></r></p></e>
 <e><p><l>a<b/>excepción<b/>de<b/>que<s n="cnjadv"/></l><r>nun<b/>siendo<b/>que<s n="cnjadv"/></r></p></e>
-<e r ="LR"><p><l>excepto<s n="pr"/></l><r>nun<b/>siendo<s n="pr"/></r></p></e>
 <e r ="LR"><p><l>excepción<b/>hecha<b/>de<s n="adv"/></l><r>quitando<s n="cnjadv"/></r></p></e>
 <e><p><l>aunque<s n="cnjadv"/></l><r>anque<s n="cnjadv"/></r></p></e>
 <e><p><l>a<b/>pesar<b/>de<s n="adv"/></l><r>magar<s n="cnjadv"/></r></p></e>
@@ -1377,7 +1379,7 @@
 <e r="RL"><p><l>sin<b/>embargo,<s n="adv"/></l><r>ensin<b/>embargo,<s n="adv"/></r></p></e>
 <e r="LR"><p><l>no<b/>obstante,<s n="adv"/></l><r>sicasí,<s n="adv"/></r></p></e>
 <e><p><l>ahora<b/>bien:<s n="adv"/></l><r>con<b/>too<b/>y<b/>con<b/>ello,<s n="adv"/></r></p></e>
-<e r="LR"><p><l>empero<s n="adv"/></l><r>sicasí<s n="adv"/></r></p></e>
+<e><p><l>empero<s n="cnjadv"/></l><r>sicasí<s n="cnjadv"/></r></p></e>
 <e><p><l>o<b/>sea,<s n="adv"/></l><r>esto<b/>ye,<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>saber,<s n="adv"/></l><r>esto<b/>ye,<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>saber:<s n="adv"/></l><r>esto<b/>ye:<s n="adv"/></r></p></e>
@@ -1497,7 +1499,6 @@
 <e><p><l>de<b/>entonces<b/>a<b/>acá,<s n="adv"/></l><r>de<b/>magar,<s n="adv"/></r></p></e>
 <e><p><l>de<b/>ahora<b/>en<b/>adelante<s n="adv"/></l><r>d’equí<b/>p’arriba<s n="adv"/></r></p></e>
 <e><p><l>a<b/>partir<b/>de<b/>ahora<s n="adv"/></l><r>d’equí<b/>p’arriba<s n="adv"/></r></p></e>
-<e><p><l>en<b/>opinión<b/>de<s n="adv"/></l><r>acordies<b/>con<s n="adv"/></r></p></e>
 <e><p><l>en<b/>opinión<b/>de<s n="adv"/></l><r>d’acordies<b/>con<s n="adv"/></r></p></e>
 
 <!-- Nomes. Nombres-->
@@ -3244,7 +3245,7 @@
 <e><p><l>comodidad<s n="n"/></l><r>comodidá<s n="n"/></r></p></e>
 <e><p><l>cómodo<s n="n"/></l><r>cómodu<s n="n"/></r></p></e>
 <e><p><l>compañero<s n="n"/></l><r>collaciu<s n="n"/></r></p></e>
-<e><p><l>compañía<s n="n"/></l><r>compaña<s n="n"/></r></p></e>
+<e><p><l>compañía<s n="n"/></l><r>compañía<s n="n"/></r></p></e>
 <e><p><l>comparación<s n="n"/></l><r>comparanza<s n="n"/></r></p></e>
 <e><p><l>compasión<s n="n"/></l><r>compasión<s n="n"/></r></p></e>
 <e><p><l>compasión<s n="n"/></l><r>duelgu<s n="n"/></r></p></e>
@@ -3295,7 +3296,7 @@
 <e><p><l>confianza<s n="n"/><s n="f"/></l><r>enfotu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>confidencia<s n="n"/></l><r>ficia<s n="n"/></r></p></e>
 <e><p><l>configuración<s n="n"/></l><r>configuración<s n="n"/></r></p></e>
-<e><p><l>confín<s n="n"/></l><r>llende<s n="n"/></r></p></e>
+<e r="LR"><p><l>confín<s n="n"/></l><r>llende<s n="n"/></r></p></e>
 <e><p><l>confirmación<s n="n"/></l><r>confirmación<s n="n"/></r></p></e>
 <e><p><l>conflicto<s n="n"/></l><r>conflictu<s n="n"/></r></p></e>
 <e><p><l>confortable<s n="n"/></l><r>atopadizu<s n="n"/></r></p></e>
@@ -3869,7 +3870,6 @@
 <e><p><l>evento<s n="n"/></l><r>eventu<s n="n"/></r></p></e>
 <e><p><l>eventualidad<s n="n"/></l><r>eventualidá<s n="n"/></r></p></e>
 <e><p><l>evidencia<s n="n"/></l><r>evidente<s n="n"/></r></p></e>
-<e><p><l>evocador<s n="n"/></l><r>evocador<s n="n"/></r></p></e>
 <e><p><l>evolucionista<s n="n"/></l><r>evolucionista<s n="n"/></r></p></e>
 <e><p><l>evolución<s n="n"/></l><r>evolución<s n="n"/></r></p></e>
 <e><p><l>exactitud<s n="n"/></l><r>exactitú<s n="n"/></r></p></e>
@@ -4206,7 +4206,6 @@
 <e><p><l>humanidad<s n="n"/></l><r>humanidá<s n="n"/></r></p></e>
 <e><p><l>humano<s n="n"/></l><r>humanu<s n="n"/></r></p></e>
 <e><p><l>humedad<s n="n"/></l><r>muga<s n="n"/></r></p></e>
-<e><p><l>humor<s n="n"/><s n="m"/></l><r>gracia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>humo<s n="n"/></l><r>fumu<s n="n"/></r></p></e>
 <e><p><l>huracán<s n="n"/></l><r>ciclón<s n="n"/></r></p></e>
 <e><p><l>ideal<s n="n"/></l><r>ideal<s n="n"/></r></p></e>
@@ -4315,7 +4314,6 @@
 <e><p><l>insensato<s n="n"/></l><r>insensatu<s n="n"/></r></p></e>
 <e><p><l>insistencia<s n="n"/></l><r>insistencia<s n="n"/></r></p></e>
 <e><p><l>inspección<s n="n"/></l><r>inspección<s n="n"/></r></p></e>
-<e><p><l>inspector<s n="n"/></l><r>inspector<s n="n"/></r></p></e>
 <e><p><l>inspiración<s n="n"/></l><r>inspiración<s n="n"/></r></p></e>
 <e><p><l>instalación<s n="n"/></l><r>instalación<s n="n"/></r></p></e>
 <e><p><l>instancia<s n="n"/></l><r>instancia<s n="n"/></r></p></e>
@@ -4469,7 +4467,7 @@
 <e><p><l>lienzo<s n="n"/></l><r>llenzu<s n="n"/></r></p></e>
 <e><p><l>liga<s n="n"/></l><r>lliga<s n="n"/></r></p></e>
 <e><p><l>limitación<s n="n"/></l><r>llimitación<s n="n"/></r></p></e>
-<e><p><l>límite<s n="n"/></l><r>llende<s n="n"/></r></p></e>
+<e><p><l>límite<s n="n"/><s n="m"/></l><r>llende<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>limón<s n="n"/></l><r>llimón<s n="n"/></r></p></e>
 <e><p><l>limosna<s n="n"/></l><r>llimosna<s n="n"/></r></p></e>
 <e><p><l>limpieza<s n="n"/></l><r>llimpieza<s n="n"/></r></p></e>
@@ -4661,7 +4659,6 @@
 <e><p><l>mofadura<s n="n"/></l><r>amofadura<s n="n"/></r></p></e>
 <e><p><l>molécula<s n="n"/></l><r>molécula<s n="n"/></r></p></e>
 <e><p><l>molestia<s n="n"/><s n="f"/></l><r>fadiu<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>molesto<s n="n"/></l><r>cafiante<s n="n"/></r></p></e>
 <e><p><l>momento<s n="n"/></l><r>momentu<s n="n"/></r></p></e>
 <e><p><l>monarca<s n="n"/></l><r>rei<s n="n"/></r></p></e>
 <e><p><l>moneda<s n="n"/></l><r>moneda<s n="n"/></r></p></e>
@@ -6980,7 +6977,6 @@
 <e><p><l>inútil<s n="adj"/></l><r>inútil<s n="adj"/></r></p></e>
 <e><p><l>invariable<s n="adj"/></l><r>invariable<s n="adj"/></r></p></e>
 <e><p><l>inventor<s n="adj"/></l><r>inventor<s n="adj"/></r></p></e>
-<e><p><l>investigador<s n="adj"/></l><r>investigador<s n="adj"/></r></p></e>
 <e><p><l>invisible<s n="adj"/></l><r>invisible<s n="adj"/></r></p></e>
 <e><p><l>invitado<s n="adj"/></l><r>invitáu<s n="adj"/></r></p></e>
 <e><p><l>irreal<s n="adj"/></l><r>irreal<s n="adj"/></r></p></e>
@@ -10141,6 +10137,14 @@
 <e><p><l>Virginia<s n="np"/></l><r>Virginia<s n="np"/></r></p></e>
 <e><p><l>Xavier<s n="np"/></l><r>Xavier<s n="np"/></r></p></e>
 <e><p><l>Yolanda<s n="np"/></l><r>Yolanda<s n="np"/></r></p></e>
+<e><p><l>Carme<s n="np"/></l><r>Carmen<s n="np"/></r></p></e>
+<e><p><l>Fidel<s n="np"/></l><r>Fidel<s n="np"/></r></p></e>
+<e><p><l>Garzón<s n="np"/></l><r>Garzón<s n="np"/></r></p></e>
+<e><p><l>Gibraltar<s n="np"/></l><r>Gibraltar<s n="np"/></r></p></e>
+<e><p><l>Plácido<s n="np"/></l><r>Plácido<s n="np"/></r></p></e>
+<e><p><l>Zapatero<s n="np"/></l><r>Zapatero<s n="np"/></r></p></e>
+<e><p><l>Cabal<s n="np"/></l><r>Cabal<s n="np"/></r></p></e>
+<e><p><l>Barça<s n="np"/></l><r>Barça<s n="np"/></r></p></e>
 <e><p><l>fin<b/>de<b/>semana<s n="n"/><s n="m"/></l><r>fin<b/>de<b/>selmana<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>pedagogo<s n="n"/></l><r>pedagogu<s n="n"/></r></p></e>
 <e><p><l>primaria<s n="n"/></l><r>primaria<s n="n"/></r></p></e>
@@ -12267,6 +12271,18 @@
 <e><p><l>convicción<s n="n"/></l><r>convencimientu<s n="n"/></r></p></e>
 <e><p><l>tiro<s n="n"/></l><r>tiru<s n="n"/></r></p></e>
 <e><p><l>era<s n="n"/></l><r>dómina<s n="n"/></r></p></e>
+<e><p><l>cabecilla<s n="n"/></l><r>cabezaleru<s n="n"/></r></p></e>
+<e><p><l>expulsar<s n="vblex"/></l><r>espulsar<s n="vblex"/></r></p></e>
+<e><p><l>destacar<s n="vblex"/></l><r>destacar<s n="vblex"/></r></p></e>
+<e><p><l>excluir<s n="vblex"/></l><r>escluyir<s n="vblex"/></r></p></e>
+<e><p><l>viabilidad<s n="n"/></l><r>viabilidá<s n="n"/></r></p></e>
+<e><p><l>retraso<s n="n"/></l><r>retrasu<s n="n"/></r></p></e>
+<e><p><l>regulación<s n="n"/></l><r>regulación<s n="n"/></r></p></e>
+<e><p><l>hostelero<s n="n"/></l><r>hosteleru<s n="n"/></r></p></e>
+<e><p><l>hostelero<s n="adj"/></l><r>hosteleru<s n="adj"/></r></p></e>
+<e><p><l>blindado<s n="adj"/></l><r>blindáu<s n="adj"/></r></p></e>
+<e><p><l>Dios<b/>mediante<s n="adv"/></l><r>si<b/>Dios<b/>quier<s n="adv"/></r></p></e>
+
 
     <!-- Punctuación -->
 
