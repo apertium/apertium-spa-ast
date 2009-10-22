@@ -606,6 +606,7 @@
 <e><p><l>doce<s n="num"/></l><r>dolce<s n="num"/></r></p></e>
 <e><p><l>doscientos<s n="num"/></l><r>doscientos<s n="num"/></r></p></e>
 <e><p><l>dos<s n="num"/></l><r>dos<s n="num"/></r></p></e>
+<e><p><l>tres<s n="num"/></l><r>trés<s n="num"/></r></p></e>
 <e><p><l>duodécimo<s n="adj"/></l><r>doceavu<s n="adj"/></r></p></e>
 <e><p><l>milésimo<s n="adj"/></l><r>milésimu<s n="adj"/></r></p></e>
 <e><p><l>millonésimo<s n="adj"/></l><r>millonésimu<s n="adj"/></r></p></e>
@@ -635,19 +636,43 @@
 <e><p><l>tercero<s n="adj"/></l><r>terceru<s n="adj"/></r></p></e>
 <e><p><l>trece<s n="num"/></l><r>trelce<s n="num"/></r></p></e>
 <e><p><l>treinta<s n="num"/></l><r>trenta<s n="num"/></r></p></e>
+<e r="LR"><p><l>treinta<b/>y<b/>un<s n="num"/><s n="m"/></l><r>trenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>treinta<b/>y<b/>un<s n="num"/><s n="f"/></l><r>trenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>treinta<b/>y<b/>un<s n="num"/><s n="GD"/></l><r>trenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>cuarenta<b/>y<b/>un<s n="num"/><s n="m"/></l><r>cuarenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>cuarenta<b/>y<b/>un<s n="num"/><s n="f"/></l><r>cuarenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>cuarenta<b/>y<b/>un<s n="num"/><s n="GD"/></l><r>cuarenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>cincuenta<b/>y<b/>un<s n="num"/><s n="m"/></l><r>cincuenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>cincuenta<b/>y<b/>un<s n="num"/><s n="f"/></l><r>cincuenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>cincuenta<b/>y<b/>un<s n="num"/><s n="GD"/></l><r>cincuenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>sesenta<b/>y<b/>un<s n="num"/><s n="m"/></l><r>sesenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>sesenta<b/>y<b/>un<s n="num"/><s n="f"/></l><r>sesenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>sesenta<b/>y<b/>un<s n="num"/><s n="GD"/></l><r>sesenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>setenta<b/>y<b/>un<s n="num"/><s n="m"/></l><r>setenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>setenta<b/>y<b/>un<s n="num"/><s n="f"/></l><r>setenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>setenta<b/>y<b/>un<s n="num"/><s n="GD"/></l><r>setenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>ochenta<b/>y<b/>un<s n="num"/><s n="m"/></l><r>ochenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>ochenta<b/>y<b/>un<s n="num"/><s n="f"/></l><r>ochenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>ochenta<b/>y<b/>un<s n="num"/><s n="GD"/></l><r>ochenta<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>noventa<b/>y<b/>un<s n="num"/><s n="m"/></l><r>noventa<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>noventa<b/>y<b/>un<s n="num"/><s n="f"/></l><r>noventa<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>noventa<b/>y<b/>un<s n="num"/><s n="GD"/></l><r>noventa<b/>y<b/>un<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>veintiún<s n="num"/><s n="m"/></l><r>ventiún<s n="num"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>veintiún<s n="num"/><s n="f"/></l><r>ventiún<s n="num"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>veintiún<s n="num"/><s n="GD"/></l><r>ventiún<s n="num"/><s n="mf"/></r></p></e>
 <e><p><l>trescientos<s n="num"/></l><r>trescientos<s n="num"/></r></p></e>
 <e><p><l>un<s n="num"/></l><r>un<s n="num"/></r></p></e>
 <e><p><l>veinte<s n="num"/></l><r>venti<s n="num"/></r></p></e>
-<e><p><l>veinte<s n="num"/></l><r>ventiún<s n="num"/></r></p></e>
+<e><p><l>veinticuatro<s n="num"/></l><r>venticuatro<s n="num"/></r></p></e>
 <e><p><l>veinticinco<s n="num"/></l><r>venticinco<s n="num"/></r></p></e>
 <e><p><l>veintinueve<s n="num"/></l><r>ventinueve<s n="num"/></r></p></e>
 <e><p><l>veintiocho<s n="num"/></l><r>ventiocho<s n="num"/></r></p></e>
 <e><p><l>veintiséis<s n="num"/></l><r>ventiséis<s n="num"/></r></p></e>
 <e><p><l>veintisiete<s n="num"/></l><r>ventisiete<s n="num"/></r></p></e>
 <e><p><l>ventésimo<s n="adj"/></l><r>ventésimu<s n="adj"/></r></p></e>
-<e><p><l>venticuatro<s n="num"/></l><r>venticuatro<s n="num"/></r></p></e>
-<e><p><l>ventidós<s n="num"/></l><r>ventidós<s n="num"/></r></p></e>
-<e><p><l>ventitrés<s n="num"/></l><r>ventitrés<s n="num"/></r></p></e>
+<e><p><l>veinticuatro<s n="num"/></l><r>venticuatro<s n="num"/></r></p></e>
+<e><p><l>veintidós<s n="num"/></l><r>ventidós<s n="num"/></r></p></e>
+<e><p><l>veintitrés<s n="num"/></l><r>ventitrés<s n="num"/></r></p></e>
 <e><p><l>vigésimo<s n="adj"/></l><r>ventiavu<s n="adj"/></r></p></e>
 <e r="LR"><p><l>trecésimo<s n="adj"/></l><r>trixésimu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>trece<s n="num"/></l><r>trece<s n="num"/></r></p></e>
@@ -790,6 +815,7 @@
 <e><p><l>arre<s n="ij"/></l><r>arre<s n="ij"/></r></p></e>
 <e><p><l>ay<s n="ij"/></l><r>ai<s n="ij"/></r></p></e>
 <e><p><l>bah<s n="ij"/></l><r>bah<s n="ij"/></r></p></e>
+<e><p><l>bien<s n="ij"/></l><r>bien<s n="ij"/></r></p></e>
 <!--<e><p><l>caracoles<s n="ij"/></l><r>concho<s n="ij"/></r></p></e>-->
 <e><p><l>caramba<s n="ij"/></l><r>anda<s n="ij"/></r></p></e>
 <e><p><l>coño<s n="ij"/></l><r>coño<s n="ij"/></r></p></e>
@@ -799,6 +825,9 @@
 <e><p><l>ea<s n="ij"/></l><r>hala<s n="ij"/></r></p></e>
 <e><p><l>eh<s n="ij"/></l><r>eh<s n="ij"/></r></p></e>
 <e><p><l>epa<s n="ij"/></l><r>guo<s n="ij"/></r></p></e>
+<e><p><l>hostia<s n="ij"/></l><r>hostia<s n="ij"/></r></p></e>
+<e><p><l>hostias<s n="ij"/></l><r>hosties<s n="ij"/></r></p></e>
+<e r="LR"><p><l>guo<s n="ij"/></l><r>guo<s n="ij"/></r></p></e>
 <e><p><l>hala<s n="ij"/></l><r>hala<s n="ij"/></r></p></e>
 <e><p><l>hale<s n="ij"/></l><r>hale<s n="ij"/></r></p></e>
 <e><p><l>hola<s n="ij"/></l><r>hola<s n="ij"/></r></p></e>
@@ -806,7 +835,10 @@
 <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
 <e><p><l>ostras<s n="ij"/></l><r>orca<s n="ij"/></r></p></e>
 <e><p><l>puf<s n="ij"/></l><r>buo<s n="ij"/></r></p></e>
+<e><p><l>carajo<s n="ij"/></l><r>coyona<s n="ij"/></r></p></e>
+<e r="LR"><p><l>buo<s n="ij"/></l><r>buo<s n="ij"/></r></p></e>
 <e><p><l>pumba<s n="ij"/></l><r>pumba<s n="ij"/></r></p></e>
+<e><p><l>salud<s n="ij"/></l><r>salú<s n="ij"/></r></p></e>
 <e><p><l>uf<s n="ij"/></l><r>uf<s n="ij"/></r></p></e>
 <e><p><l>upa<s n="ij"/></l><r>upa<s n="ij"/></r></p></e>
 <e><p><l>vaya<s n="ij"/></l><r>vaya<s n="ij"/></r></p></e>

@@ -67264,11 +67264,25 @@
     <e>
       <p>
         <l/>
-        <r><s n="num"/><s n="mf"/><s n="sp"/></r>
+        <r><s n="num"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
   </pardef>
   <pardef n="cincuenta_y_un__num">
+    <e>
+      <p>
+        <l>a</l>
+        <r><s n="num"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l/>
+        <r><s n="num"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+  </pardef>
+  <pardef n="un__num">
     <e>
       <p>
         <l>a</l>
@@ -67293,14 +67307,6 @@
       <p>
         <l/>
         <r><s n="num"/><s n="mf"/><s n="sg"/></r>
-      </p>
-    </e>
-  </pardef>
-  <pardef n="C__num">
-    <e>
-      <p>
-        <l/>
-        <r><s n="num"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
   </pardef>
@@ -69927,54 +69933,61 @@
     <!--Numerales-->
     <!--Numberales-->
 
-    <e><i>catorce</i><par n="C__num"/></e>
+    <e><i>catorce</i><par n="cero__num"/></e>
     <e><i>cero</i><par n="cero__num"/></e>
-    <e><i>cien</i><par n="C__num"/></e>
-    <e><i>ciento</i><par n="C__num"/></e>
-    <e><i>cinco</i><par n="C__num"/></e>
-    <e><i>cincuenta</i><par n="C__num"/></e>
-    <e><i>cuarenta</i><par n="C__num"/></e>
+    <e><i>cien</i><par n="cero__num"/></e>
+    <e><i>ciento</i><par n="cero__num"/></e>
+    <e><i>cinco</i><par n="cero__num"/></e>
+    <e><i>cincuenta<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>    
+    <e><i>cincuenta</i><par n="cero__num"/></e>
+    <e><i>cuarenta<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>
+    <e><i>cuarenta</i><par n="cero__num"/></e>
     <e><i>cuatrocient</i><par n="cuatrocient/os__num"/></e>
-    <e><i>cuatro</i><par n="C__num"/></e>
-    <e><i>diecinueve</i><par n="C__num"/></e>
-    <e><i>dieciocho</i><par n="C__num"/></e>
-    <e><i>dieciséis</i><par n="C__num"/></e>
-    <e><i>diecisiete</i><par n="C__num"/></e>
-    <e><i>diez</i><par n="C__num"/></e>
-    <e><i>doce</i><par n="C__num"/></e>
+    <e><i>cuatro</i><par n="cero__num"/></e>
+    <e><i>diecinueve</i><par n="cero__num"/></e>
+    <e><i>dieciocho</i><par n="cero__num"/></e>
+    <e><i>dieciséis</i><par n="cero__num"/></e>
+    <e><i>diecisiete</i><par n="cero__num"/></e>
+    <e><i>diez</i><par n="cero__num"/></e>
+    <e><i>doce</i><par n="cero__num"/></e>
     <e><i>doscient</i><par n="cuatrocient/os__num"/></e>
-    <e><i>dos</i><par n="C__num"/></e>
-    <e><i>mil</i><par n="C__num"/></e>
+    <e><i>dos</i><par n="cero__num"/></e>
+    <e><i>mil</i><par n="cero__num"/></e>
     <e><i>novecient</i><par n="cuatrocient/os__num"/></e>
-    <e><i>noventa</i><par n="C__num"/></e>
-    <e><i>nueve</i><par n="C__num"/></e>
-    <e><i>ochenta</i><par n="C__num"/></e>
+    <e><i>noventa<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>    
+    <e><i>noventa</i><par n="cero__num"/></e>
+    <e><i>nueve</i><par n="cero__num"/></e>
+    <e><i>ochenta<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>    
+    <e><i>ochenta</i><par n="cero__num"/></e>
     <e><i>ochocient</i><par n="cuatrocient/os__num"/></e>
-    <e><i>ocho</i><par n="C__num"/></e>
-    <e><i>once</i><par n="C__num"/></e>
-    <e><i>quince</i><par n="C__num"/></e>
+    <e><i>ocho</i><par n="cero__num"/></e>
+    <e><i>once</i><par n="cero__num"/></e>
+    <e><i>quince</i><par n="cero__num"/></e>
     <e><i>quinient</i><par n="cuatrocient/os__num"/></e>
     <e><i>seiscient</i><par n="cuatrocient/os__num"/></e>
-    <e><i>seis</i><par n="C__num"/></e>
-    <e><i>sesenta</i><par n="C__num"/></e>
+    <e><i>seis</i><par n="cero__num"/></e>
+    <e><i>sesenta<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>    
+    <e><i>sesenta</i><par n="cero__num"/></e>
     <e><i>setecient</i><par n="cuatrocient/os__num"/></e>
-    <e><i>setenta</i><par n="C__num"/></e>
-    <e><i>siete</i><par n="C__num"/></e>
-    <e><i>trece</i><par n="C__num"/></e>
-    <e><i>treinta</i><par n="C__num"/></e>
+    <e><i>setenta<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>    
+    <e><i>setenta</i><par n="cero__num"/></e>
+    <e><i>siete</i><par n="cero__num"/></e>
+    <e><i>trece</i><par n="cero__num"/></e>
+    <e><i>treinta<b/>y<b/>un</i><par n="cincuenta_y_un__num"/></e>
+    <e><i>treinta</i><par n="cero__num"/></e>
     <e><i>trescient</i><par n="cuatrocient/os__num"/></e>
-    <e><i>tres</i><par n="C__num"/></e>
-    <e><i>un</i><par n="cincuenta_y_un__num"/></e>
-    <e><i>veinte</i><par n="C__num"/></e>
-    <e><i>veinticinco</i><par n="C__num"/></e>
-    <e><i>veinticuatro</i><par n="C__num"/></e>
-    <e><i>veintidós</i><par n="C__num"/></e>
+    <e><i>tres</i><par n="cero__num"/></e>
+    <e><i>un</i><par n="un__num"/></e>
+    <e><i>veinte</i><par n="cero__num"/></e>
+    <e><i>veinticinco</i><par n="cero__num"/></e>
+    <e><i>veinticuatro</i><par n="cero__num"/></e>
+    <e><i>veintidós</i><par n="cero__num"/></e>
     <e><i>veinti</i><par n="veinti/ún__num"/></e>
-    <e><i>veintinueve</i><par n="C__num"/></e>
-    <e><i>veintiocho</i><par n="C__num"/></e>
-    <e><i>veintiséis</i><par n="C__num"/></e>
-    <e><i>veintisiete</i><par n="C__num"/></e>
-    <e><i>veintitrés</i><par n="C__num"/></e>
+    <e><i>veintinueve</i><par n="cero__num"/></e>
+    <e><i>veintiocho</i><par n="cero__num"/></e>
+    <e><i>veintiséis</i><par n="cero__num"/></e>
+    <e><i>veintisiete</i><par n="cero__num"/></e>
+    <e><i>veintitrés</i><par n="cero__num"/></e>
 
     <!--Pronombres -->
     <!--Pronomes-->
@@ -83214,7 +83227,6 @@
     <!--Interjecciones-->
     <!--Interxecciones-->
 
-    <e><i>abur</i><par n="Sniff__ij"/></e>
     <e><i>ah</i><par n="Sniff__ij"/></e>
     <e><i>aleluya</i><par n="Sniff__ij"/></e>
     <e><i>amén</i><par n="Sniff__ij"/></e>
@@ -83223,7 +83235,6 @@
     <e><i>bah</i><par n="Sniff__ij"/></e>
     <e><i>bien</i><par n="Sniff__ij"/></e>
     <e><i>buo</i><par n="Sniff__ij"/></e>
-    <e><i>caracoles</i><par n="Sniff__ij"/></e>
     <e><i>carajo</i><par n="Sniff__ij"/></e>
     <e><i>caramba</i><par n="Sniff__ij"/></e>
     <e><i>coño</i><par n="Sniff__ij"/></e>
@@ -83235,13 +83246,13 @@
     <e><i>hale</i><par n="Sniff__ij"/></e>
     <e><i>hola</i><par n="Sniff__ij"/></e>
     <e><i>hostia</i><par n="Sniff__ij"/></e>
+    <e><i>hostias</i><par n="Sniff__ij"/></e>
     <e><i>hurra</i><par n="Sniff__ij"/></e>
     <e><i>oh</i><par n="Sniff__ij"/></e>
     <e><i>ojalá</i><par n="Sniff__ij"/></e>
     <e><i>olé</i><par n="Sniff__ij"/></e>
     <e><i>ostras</i><par n="Sniff__ij"/></e>
     <e><i>oxalá</i><par n="Sniff__ij"/></e>
-    <e><i>paf</i><par n="Sniff__ij"/></e>
     <e><i>puf</i><par n="Sniff__ij"/></e>
     <e><i>pumba</i><par n="Sniff__ij"/></e>
     <e><i>salud</i><par n="Sniff__ij"/></e>

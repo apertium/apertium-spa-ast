@@ -6,8 +6,6 @@
 
   <section-def-cats>
 
-    
- 
     <def-cat n="detnt">
       <cat-item tags="detnt"/>
     </def-cat>
@@ -219,11 +217,36 @@
 	</def-cat>
     <!-- preposición 'por' -->
 
-<def-cat n="adj_det">
+	<def-cat n="adj_det_num">
       <cat-item tags="adj.*"/>
       <cat-item tags="det.*"/>
+	  <cat-item tags="num.*"/>
     </def-cat>
+    <!-- adjetivos, determinantes o numerales -->
+	
+	<def-cat n="sustantivo_temporal">
+      <cat-item lemma="segundo" tags="n.*"/>	
+      <cat-item lemma="minuto" tags="n.*"/>	  
+      <cat-item lemma="hora" tags="n.*"/>	  
+      <cat-item lemma="día" tags="n.*"/>
+	  <cat-item lemma="semana" tags="n.*"/>
+      <cat-item lemma="mes" tags="n.*"/>
+	  <cat-item lemma="año" tags="n.*"/>
+      <cat-item lemma="década" tags="n.*"/>	
+      <cat-item lemma="lustro" tags="n.*"/>		  
+      <cat-item lemma="siglo" tags="n.*"/>	
+      <cat-item lemma="tiempo" tags="n.*"/>		
+      <cat-item lemma="rato" tags="n.*"/>		
+      <cat-item lemma="temporada" tags="n.*"/>			  
+	</def-cat>
+    <!-- sustantivos temporales -->	
+	
+    <def-cat n="hacer">
+      <cat-item lemma="hacer" tags="vblex.*"/>
+    </def-cat>
+    <!--verbos léxicos con lema 'hacer' -->
 
+	
 </section-def-cats>
 
 
@@ -14584,7 +14607,7 @@ acabar por acabar -> acabar por acabar
     <rule>
       <pattern>
         <pattern-item n="verb"/>
-        <pattern-item n="prep"/>
+        <pattern-item n="por"/>
         <pattern-item n="verb"/>
       </pattern>
       <action>
@@ -14655,7 +14678,7 @@ acabar por no acabar -> acabar por nun acabar
     <rule>
       <pattern>
         <pattern-item n="verb"/>
-        <pattern-item n="prep"/>
+        <pattern-item n="por"/>
 		<pattern-item n="adv"/>
         <pattern-item n="verb"/>
       </pattern>
@@ -15098,7 +15121,7 @@ regla EGV48 por + (adj)(det) + nombre -> PER (si nombre en sustantivos-per)
 <rule>
       <pattern>
         <pattern-item n="por"/>
-	<pattern-item n="adj_det"/>
+		<pattern-item n="adj_det_num"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -15157,8 +15180,8 @@ regla EGV48b por + (adj)(det) + (adj)(det) + nombre -> PER (si nombre en sustant
 <rule>
       <pattern>
         <pattern-item n="por"/>
-	<pattern-item n="adj_det"/>
-	<pattern-item n="adj_det"/>
+		<pattern-item n="adj_det_num"/>
+		<pattern-item n="adj_det_num"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -15216,6 +15239,8 @@ regla EGV48b por + (adj)(det) + (adj)(det) + nombre -> PER (si nombre en sustant
       </choose>
    </action>
 </rule>
+
+
 <!-- 
 regla EGV49 por + nombre -> PER (si nombre en sustantivos-per)
 -->  
@@ -15324,5 +15349,86 @@ regla EGV50 por + adverbio -> PER (si adverbio en adverbios-per)
     </rule>
     
 
+	
+<!-- HACE TIEMPO -> VA TIEMPU -->
+<!-- 
+regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sustantivo_temporal
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="hacer"/>
+		<pattern-item n="adj_det_num"/>
+        <pattern-item n="sustantivo_temporal"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+	      <equal caseless="yes">
+		     <clip pos="1" side="sl" part="lem"/>
+              <lit v="hacer"/>
+           </equal>
+        </test>
+        <out>
+            <lu>
+		       <lit v="dir"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <clip pos="1" side="tl" part="temps"/>
+               <clip pos="1" side="tl" part="persona"/>
+               <clip pos="1" side="tl" part="nbr"/>
+			</lu>
+            <b/>
+            <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+			</lu>
+             <b/>
+            <lu>
+		      <clip pos="3" side="tl" part="whole"/> 
+			</lu> 		    
+        </out>
+       </when>
+      </choose>
+     </action>
+    </rule>	
+	
+	
+<!-- 
+regla EGV51 hacer + sustantivo_temporal -> DIR + sustantivo_temporal
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="hacer"/>
+        <pattern-item n="sustantivo_temporal"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+	      <equal caseless="yes">
+		     <clip pos="1" side="sl" part="lem"/>
+              <lit v="hacer"/>
+           </equal>
+        </test>
+        <out>
+            <lu>
+		       <lit v="dir"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <clip pos="1" side="tl" part="temps"/>
+               <clip pos="1" side="tl" part="persona"/>
+               <clip pos="1" side="tl" part="nbr"/>
+			</lu>
+             <b/>
+            <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+			</lu> 		    
+        </out>
+       </when>
+      </choose>
+     </action>
+    </rule>	
+	
   </section-rules>
+  
 </transfer>
