@@ -66667,6 +66667,20 @@
       </p>
     </e>
   </pardef>
+    <pardef n="veinti/ún__n">
+    <e>
+      <p>
+        <l>ún</l>
+        <r>ún<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>unos</l>
+        <r>ún<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+  </pardef>
   <pardef n="dependient/e__n">
     <e>
       <p>
@@ -66892,13 +66906,13 @@
     <e>
       <p>
         <l>órdenes</l>
-        <r>orden<s n="n"/><s n="mf"/><s n="pl"/></r>
+        <r>orden<s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>orden</l>
-        <r>orden<s n="n"/><s n="mf"/><s n="sg"/></r>
+        <r>orden<s n="n"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
   </pardef>
@@ -67808,7 +67822,7 @@
     </e>
   </pardef>
 
-  <pardef n="Imaxin__np">
+  <pardef n="Apertium__np">
     <e>
       <p>
         <l/>
@@ -68122,18 +68136,18 @@
       </p>
     </e>
   </pardef>
-  <pardef n="mi/o__det">
+  <pardef n="mi__det">
     <e>
       <p>
         <l>s</l> 
-        <r>o<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+        <r><s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l></l> 
-        <r>o<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+        <l/> 
+        <r><s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
   </pardef>
@@ -68161,7 +68175,8 @@
 
     <e lm="vuestro"><i>vuestr</i><par n="nuestr/o__det"/></e>
     <e lm="nuestro"><i>nuestr</i><par n="nuestr/o__det"/></e>
-    <e lm="mío"><p><l>mi</l><r>mí</r></p><par n="mi/o__det"/></e>
+    <e lm="mi"><i>mi</i><par n="mi__det"/></e>
+    <e><p><l>mi</l><r>mí</r></p><par n="mi__det"/></e>
     <e lm="suyo"><i>su</i><par n="su__det"/></e>
     <e lm="tuyo"><i>tu</i><par n="su__det"/></e>
 
@@ -70106,32 +70121,20 @@
     <e><i>Extremadura</i><par n="Muxia__np"/></e>
     <e><i>Francia</i><par n="Muxia__np"/></e>
     <e><i>Galicia</i><par n="Muxia__np"/></e>
-    <e><i>Galiza</i><par n="Muxia__np"/></e>
     <e><i>Gijón</i><par n="Muxia__np"/></e>
     <e><i>Japón</i><par n="Muxia__np"/></e>
     <e><i>Celleruelo</i><par n="Muxia__np"/></e>
 
-    <e><i>Alberte</i><par n="Artai__np"/></e>
     <e><i>Albert</i><par n="Artai__np"/></e>
     <e><i>Alberto</i><par n="Artai__np"/></e>
     <e><i>Álvarez</i><par n="Artai__np"/></e>
     <e><i>Ana</i><par n="Artai__np"/></e>
     <e><i>Ánxeles</i><par n="Artai__np"/></e>
-    <e><i>Anxo</i><par n="Artai__np"/></e>
-    <e><i>Anxos</i><par n="Artai__np"/></e>
     <e><i>Arsenio</i><par n="Artai__np"/></e>
-    <e><i>Artai</i><par n="Artai__np"/></e>
-    <e><i>Beiras</i><par n="Artai__np"/></e>
-    <e><i>Bieito</i><par n="Artai__np"/></e>
-    <e><i>Bringas</i><par n="Artai__np"/></e>
-    <e><i>Caride</i><par n="Artai__np"/></e>
     <e><i>Carlos</i><par n="Artai__np"/></e>
     <e><i>Carme</i><par n="Artai__np"/></e>
-    <e><i>Castelao</i><par n="Artai__np"/></e>
     <e><i>Clemente</i><par n="Artai__np"/></e>
-    <e><i>Constenla</i><par n="Artai__np"/></e>
     <e><i>Cristóbal</i><par n="Artai__np"/></e>
-    <e><i>Docampo</i><par n="Artai__np"/></e>
     <e><i>Elena</i><par n="Artai__np"/></e>
     <e><i>Elsa</i><par n="Artai__np"/></e>
     <e><i>Elvira</i><par n="Artai__np"/></e>
@@ -70139,64 +70142,42 @@
     <e><i>Eva</i><par n="Artai__np"/></e>
     <e><i>Fernández</i><par n="Artai__np"/></e>
     <e><i>Fidel</i><par n="Artai__np"/></e>
-    <e><i>Fontenla</i><par n="Artai__np"/></e>
-    <e><i>Forcada</i><par n="Artai__np"/></e>
     <e><i>Fraga</i><par n="Artai__np"/></e>
     <e><i>Francisco</i><par n="Artai__np"/></e>
     <e><i>García</i><par n="Artai__np"/></e>
     <e><i>Gómez</i><par n="Artai__np"/></e>
     <e><i>González</i><par n="Artai__np"/></e>
     <e><i>Gonzalo</i><par n="Artai__np"/></e>
-    <e><i>Guinovart</i><par n="Artai__np"/></e>
-    <e><i>Hermida</i><par n="Artai__np"/></e>
     <e><i>Iñaki</i><par n="Artai__np"/></e>
     <e><i>Irene</i><par n="Artai__np"/></e>
     <e><i>Iria</i><par n="Artai__np"/></e>
-    <e><i>Irigoyen</i><par n="Artai__np"/></e>
-    <e><i>Irimia</i><par n="Artai__np"/></e>
     <e><i>Javier</i><par n="Artai__np"/></e>
     <e><i>Jordi</i><par n="Artai__np"/></e>
     <e><i>Jorge</i><par n="Artai__np"/></e>
     <e><i>José</i><par n="Artai__np"/></e>
     <e><i>Josep</i><par n="Artai__np"/></e>
-    <e><i>Lluís</i><par n="Artai__np"/></e>
-    <e><i>Lois</i><par n="Artai__np"/></e>
+    <e><i>Lluis</i><par n="Artai__np"/></e>
     <e><i>López</i><par n="Artai__np"/></e>
-    <e><i>Lugrís</i><par n="Artai__np"/></e>
-    <e><i>Luís</i><par n="Artai__np"/></e>
     <e><i>María</i><par n="Artai__np"/></e>
     <e><i>Mikel</i><par n="Artai__np"/></e>
-    <e><i>Pichel</i><par n="Artai__np"/></e>
     <e><i>Quintana</i><par n="Artai__np"/></e>
     <e><i>Rodríguez</i><par n="Artai__np"/></e>
     <e><i>Susana</i><par n="Artai__np"/></e>
-    <e><i>Touriño</i><par n="Artai__np"/></e>
-    <e><i>Uxía</i><par n="Artai__np"/></e>
-    <e><i>Xabier</i><par n="Artai__np"/></e>
     <e><i>Xavier</i><par n="Artai__np"/></e>
     <e><i>Xosé</i><par n="Artai__np"/></e>
     <e><i>Zapatero</i><par n="Artai__np"/></e>
     <e><i>Carme</i><par n="Artai__np"/></e>
     <e><i>Fidel</i><par n="Artai__np"/></e>
     <e><i>Garzón</i><par n="Artai__np"/></e>
-    <e><i>Gibraltar</i><par n="Artai__np"/></e>
+    <e><i>Gibraltar</i><par n="Muxia__np"/></e>
     <e><i>Plácido</i><par n="Artai__np"/></e>
     <e><i>Cabal</i><par n="Artai__np"/></e>
     <e><i>Barça</i><par n="Artai__np"/></e>
     
-    <e><i>Caixanova</i><par n="Imaxin__np"/></e>
-    <e><i>Citroën</i><par n="Imaxin__np"/></e>
-    <e><i>Coren</i><par n="Imaxin__np"/></e>
-    <e><i>Danone</i><par n="Imaxin__np"/></e>
-    <e><i>Eleka</i><par n="Imaxin__np"/></e>
-    <e><i>Elhuyar</i><par n="Imaxin__np"/></e>
-    <e><i>Eroski</i><par n="Imaxin__np"/></e>
-    <e><i>Filmax</i><par n="Imaxin__np"/></e>
-    <e><i>Imaxin</i><par n="Imaxin__np"/></e>
-    <e><i>Inditex</i><par n="Imaxin__np"/></e>
-    <e><i>Intel</i><par n="Imaxin__np"/></e>
-    <e><i>Intur</i><par n="Imaxin__np"/></e>
-    <e><i>Ipr</i><par n="Imaxin__np"/></e>    
+    <e><i>Caixanova</i><par n="Apertium__np"/></e>
+    <e><i>Cajastur</i><par n="Apertium__np"/></e>
+    <e><i>Citroën</i><par n="Apertium__np"/></e>
+    <e><i>Intel</i><par n="Apertium__np"/></e>
     
     <e r="RL"><p><l>haces<b/>falta</l><r>hacer<b/>falta<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>hace<b/>falta</l><r>hacer<b/>falta<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -70295,7 +70276,6 @@
     <e><i>vari</i><par n="send/os__det"/></e>
     <e><i>vuestr</i><par n="nuestr/o__det"/></e>
     <e><par n="/el__det"/></e>
-    <e><p><l>mi</l><r>mí</r></p><par n="mi/o__det"/></e>
     <e r="LR"><i>amb</i><par n="send/os__det"/></e>
     <e r="RL"><p><l><a/>amb</l><r>amb</r></p><par n="send/os__det"/></e>
     <e r="RL"><p><l><a/>la</l><r>el</r></p><par n="/la__det"/></e>
@@ -71395,7 +71375,6 @@
     <e><i>poco<b/>más<b/>o<b/>menos</i><par n="abajo__adv"/></e>
     <e><i>poco</i><par n="abajo__adv"/></e>
     <e><i>por<b/>adelantado</i><par n="abajo__adv"/></e>
-    <e><i>por<b/>ahí</i><par n="abajo__adv"/></e>
     <e><i>por<b/>ahora</i><par n="abajo__adv"/></e>
     <e><i>por<b/>anticipado</i><par n="abajo__adv"/></e>
     <e><i>por<b/>añadidura</i><par n="abajo__adv"/></e>
@@ -77657,7 +77636,6 @@
     <e><i>catedrátic</i><par n="abogad/o__n"/></e>
     <e><i>categoría</i><par n="abundancia__n"/></e>
     <e><i>católic</i><par n="abogad/o__n"/></e>
-    <e><i>catorce</i><par n="abandono__n"/></e>
     <e><i>cauce</i><par n="abandono__n"/></e>
     <e><i>causa</i><par n="abundancia__n"/></e>
     <e><i>cazador</i><par n="redactor__n"/></e>
@@ -77736,8 +77714,6 @@
     <e><i>cigarrillo</i><par n="abandono__n"/></e>
     <e><i>cima</i><par n="abundancia__n"/></e>
     <e><i>cimiento</i><par n="abandono__n"/></e>
-    <e><i>cinco</i><par n="abandono__n"/></e>
-    <e><i>cincuenta</i><par n="abandono__n"/></e>
     <e><i>cincuentenario</i><par n="abandono__n"/></e>
     <e><i>cine</i><par n="abandono__n"/></e>
     <e><i>cinta</i><par n="abundancia__n"/></e>
@@ -78035,14 +78011,12 @@
     <e><i>cuadrilátero</i><par n="abandono__n"/></e>
     <e><i>cuadro</i><par n="abandono__n"/></e>
     <e><i>cuádruplo</i><par n="abandono__n"/></e>
-    <e><i>cuarenta</i><par n="abandono__n"/></e>
     <e><i>cuarent</i><par n="patr/ón__n"/></e>
     <e><i>cuartel</i><par n="abril__n"/></e>
     <e><i>cuarto</i><par n="abandono__n"/></e>
     <e><i>cuarzo</i><par n="abandono__n"/></e>
     <e><i>cuatripartito</i><par n="abandono__n"/></e>
     <e><i>cuatrocientos</i><par n="análisis__n"/></e>
-    <e><i>cuatro</i><par n="abandono__n"/></e>
     <e><i>cuba</i><par n="abundancia__n"/></e>
     <e><i>cuban</i><par n="abogad/o__n"/></e>
     <e><i>cubierta</i><par n="abundancia__n"/></e>
@@ -78303,11 +78277,6 @@
     <e><i>diciembre</i><par n="abandono__n"/></e>
     <e><i>dictadura</i><par n="abundancia__n"/></e>
     <e><i>dict</i><par n="ex/amen__n"/></e>
-    <e><i>diecinueve</i><par n="abandono__n"/></e>
-    <e><i>dieciocho</i><par n="abandono__n"/></e>
-    <e><i>diecisiete</i><par n="abandono__n"/></e>
-    <e><i>diecis</i><par n="veintis/éis__n"/></e>
-    <e><i>die</i><par n="altavo/z__n"/></e>
     <e><i>diente</i><par n="abandono__n"/></e>
     <e><i>dieta</i><par n="abundancia__n"/></e>
     <e><i>dietética</i><par n="abundancia__n"/></e>
@@ -79669,7 +79638,6 @@
     <e><i>novedad</i><par n="a__n"/></e>
     <e><i>novela</i><par n="abundancia__n"/></e>
     <e><i>novelista</i><par n="agente__n"/></e>
-    <e><i>noventa</i><par n="abandono__n"/></e>
     <e><i>noviembre</i><par n="abandono__n"/></e>
     <e><i>novi</i><par n="abogad/o__n"/></e>
     <e><i>nube</i><par n="abundancia__n"/></e>
@@ -79677,7 +79645,6 @@
     <e><i>núcleo</i><par n="abandono__n"/></e>
     <e><i>nudo</i><par n="abandono__n"/></e>
     <e><i>nue</i><par n="actri/z__n"/></e>
-    <e><i>nueve</i><par n="abandono__n"/></e>
     <e><i>número</i><par n="abandono__n"/></e>
     <e><i>obediencia</i><par n="abundancia__n"/></e>
     <e><i>óbice</i><par n="abandono__n"/></e>
@@ -79696,9 +79663,7 @@
     <e><i>occidente</i><par n="abandono__n"/></e>
     <e><i>océano</i><par n="abandono__n"/></e>
     <e><i>ochavo</i><par n="abandono__n"/></e>
-    <e><i>ochenta</i><par n="abandono__n"/></e>
     <e><i>ochocientos</i><par n="análisis__n"/></e>
-    <e><i>ocho</i><par n="abandono__n"/></e>
     <e><i>ocio</i><par n="abandono__n"/></e>
     <e><i>octavo</i><par n="abandono__n"/></e>
     <e><i>octubre</i><par n="abandono__n"/></e>
@@ -79735,6 +79700,7 @@
     <e><i>órbita</i><par n="abundancia__n"/></e>
     <e><i>ordenador</i><par n="abril__n"/></e>
     <e><i>orden</i><par n="/orden__n"/></e>
+    <e><i>orden</i><par n="des/orden__n"/></e>
     <e><i>oreja</i><par n="abundancia__n"/></e>
     <e><i>orensan</i><par n="abogad/o__n"/></e>
     <e><i>organismo</i><par n="abandono__n"/></e>
@@ -80529,11 +80495,9 @@
     <e><i>servicio</i><par n="abandono__n"/></e>
     <e><i>servidor</i><par n="redactor__n"/></e>
     <e><i>servidumbre</i><par n="abundancia__n"/></e>
-    <e><i>sesenta</i><par n="abandono__n"/></e>
     <e><i>sesi</i><par n="acci/ón__n"/></e>
     <e><i>sesteadero</i><par n="abandono__n"/></e>
     <e><i>setecientos</i><par n="análisis__n"/></e>
-    <e><i>setenta</i><par n="abandono__n"/></e>
     <e><i>setenter</i><par n="abogad/o__n"/></e>
     <e><i>sétimo</i><par n="abandono__n"/></e>
     <e><i>seto</i><par n="abandono__n"/></e>
@@ -80551,7 +80515,6 @@
     <e><i>sien</i><par n="a__n"/></e>
     <e><i>sierv</i><par n="abogad/o__n"/></e>
     <e><i>siesta</i><par n="abundancia__n"/></e>
-    <e><i>siete</i><par n="abandono__n"/></e>
     <e><i>sigla</i><par n="abundancia__n"/></e>
     <e><i>siglo</i><par n="abandono__n"/></e>
     <e><i>significaci</i><par n="acci/ón__n"/></e>
@@ -80900,12 +80863,9 @@
     <e><i>traviesa</i><par n="abundancia__n"/></e>
     <e><i>trayecto</i><par n="abandono__n"/></e>
     <e><i>trayectoria</i><par n="abundancia__n"/></e>
-    <e><i>trece</i><par n="abandono__n"/></e>
     <e><i>trecho</i><par n="abandono__n"/></e>
-    <e><i>treinta</i><par n="abandono__n"/></e>
     <e><i>tren</i><par n="abril__n"/></e>
     <e><i>trescientos</i><par n="análisis__n"/></e>
-    <e><i>tres</i><par n="dos__n"/></e>
     <e><i>triatleta</i><par n="agente__n"/></e>
     <e><i>tribu</i><par n="abundancia__n"/></e>
     <e><i>tribunal</i><par n="abril__n"/></e>
@@ -81004,8 +80964,6 @@
     <e><i>vecin</i><par n="abogad/o__n"/></e>
     <e><i>vega</i><par n="abundancia__n"/></e>
     <e><i>vehículo</i><par n="abandono__n"/></e>
-    <e><i>veinte</i><par n="abandono__n"/></e>
-    <e><i>veintiuno</i><par n="abandono__n"/></e>
     <e><i>ve</i><par n="actri/z__n"/></e>
     <e><i>vejaci</i><par n="acci/ón__n"/></e>
     <e><i>veje</i><par n="actri/z__n"/></e>
@@ -81023,8 +80981,6 @@
     <e><i>ventaja</i><par n="abundancia__n"/></e>
     <e><i>ventana</i><par n="abundancia__n"/></e>
     <e><i>ventanilla</i><par n="abundancia__n"/></e>
-    <e><i>venticuatro</i><par n="abandono__n"/></e>
-    <e><i>ventid</i><par n="veintid/ós__n"/></e>
     <e><i>verano</i><par n="abandono__n"/></e>
     <e><i>verdad</i><par n="a__n"/></e>
     <e><i>verde</i><par n="abandono__n"/></e>
@@ -82139,7 +82095,6 @@
     <e><i>Loredo</i><par n="Muxia__np"/></e>
     <e><i>Lorío</i><par n="Muxia__np"/></e>
     <e><i>Los<b/>Callejos</i><par n="Muxia__np"/></e>
-    <e><i>Los<b/>Verdes</i><par n="Imaxin__np"/></e>
     <e><i>Luanco</i><par n="Muxia__np"/></e>
     <e><i>Lue</i><par n="Muxia__np"/></e>
     <e><i>Lugás</i><par n="Muxia__np"/></e>
@@ -82392,8 +82347,8 @@
     <e><i>ron</i><par n="abar/car__vblex"/></e>
     <e><i>rotul</i><par n="abandon/ar__vblex"/></e>
     <e><i>Rozadas</i><par n="Muxia__np"/></e>
-    <e><i>RTPA</i><par n="Imaxin__np"/></e>
-    <e><i>RTVE</i><par n="Imaxin__np"/></e>
+    <e><i>RTPA</i><par n="Apertium__np"/></e>
+    <e><i>RTVE</i><par n="Apertium__np"/></e>
     <e><i>Rubiano</i><par n="Muxia__np"/></e>
     <e><i>sabore</i><par n="abandon/ar__vblex"/></e>
     <e><i>saci</i><par n="abandon/ar__vblex"/></e>
@@ -82413,7 +82368,6 @@
     <e><i>Santa<b/>María<b/>de<b/>Grado</i><par n="Muxia__np"/></e>
     <e><i>Santa<b/>María<b/>de<b/>Villandás</i><par n="Muxia__np"/></e>
     <e><i>Santianes</i><par n="Muxia__np"/></e>
-    <e><i>santiguar</i><par n="Muxia__np"/></e>
     <e><i>Santo<b/>Adriano<b/>del<b/>Monte</i><par n="Muxia__np"/></e>
     <e><i>Santullano</i><par n="Muxia__np"/></e>
     <e><i>Sariego</i><par n="Muxia__np"/></e>
@@ -83910,24 +83864,6 @@
   </p>
 </e>
 
-<e lm="sea lo que sea">
-  <i>sea<b/></i>
-  <par n="/el__det"/>
-  <p>
-     <l><b/>que<b/>sea</l>
-     <r><g><b/>que<b/>sea</g></r>
-   </p>
-</e>
-
-<e lm="sean lo que sean">
-  <i>sean<b/></i>
-  <par n="/el__det"/>
-  <p>
-     <l><b/>que<b/>sean</l>
-     <r><g><b/>que<b/>sean</g></r>
-   </p>
-</e>
-
 <e lm="ser cierto">
   <i/>
   <par n="/ser__vbser"/>
@@ -84209,14 +84145,14 @@
 <e><i>Andrés</i><par n="Artai__np"/></e>
 <e><i>Álvaro</i><par n="Artai__np"/></e>
 <e><i>Santiago</i><par n="Artai__np"/></e>
-<e><i>Oscar</i><par n="Artai__np"/></e>
+<e><i>Óscar</i><par n="Artai__np"/></e>
 <e><i>Adrián</i><par n="Artai__np"/></e>
 <e><i>Juan<b/>Manuel</i><par n="Artai__np"/></e>
 <e><i>Iván</i><par n="Artai__np"/></e>
 <e><i>Rubén</i><par n="Artai__np"/></e>
 <e><i>Eduardo</i><par n="Artai__np"/></e>
 <e><i>Roberto</i><par n="Artai__np"/></e>
-<e><i>Victor</i><par n="Artai__np"/></e>
+<e><i>Víctor</i><par n="Artai__np"/></e>
 <e><i>Jaime</i><par n="Artai__np"/></e>
 <e><i>Alfonso</i><par n="Artai__np"/></e>
 <e><i>Francisco<b/>José</i><par n="Artai__np"/></e>
@@ -84396,7 +84332,7 @@
 <e><i>Brian</i><par n="Artai__np"/></e>
 <e><i>Paul</i><par n="Artai__np"/></e>
 <e><i>Paolo</i><par n="Artai__np"/></e>
-<e><i>Michel</i><par n="Artai__np"/></e>
+<e><i>Míchel</i><par n="Artai__np"/></e>
 <e><i>Pierre</i><par n="Artai__np"/></e>
 <e><i>Christophe</i><par n="Artai__np"/></e>
 <e><i>David</i><par n="Artai__np"/></e>
@@ -84412,11 +84348,11 @@
 <e><i>Sánchez</i><par n="Artai__np"/></e>
 <e><i>Pérez</i><par n="Artai__np"/></e>
 <e><i>Gómez</i><par n="Artai__np"/></e>
-<e><i>Martin</i><par n="Artai__np"/></e>
+<e><i>Martín</i><par n="Artai__np"/></e>
 <e><i>Jiménez</i><par n="Artai__np"/></e>
 <e><i>Ruiz</i><par n="Artai__np"/></e>
 <e><i>Hernández</i><par n="Artai__np"/></e>
-<e><i>Diaz</i><par n="Artai__np"/></e>
+<e><i>Díaz</i><par n="Artai__np"/></e>
 <e><i>Moreno</i><par n="Artai__np"/></e>
 <e><i>Álvarez</i><par n="Artai__np"/></e>
 <e><i>Muñoz</i><par n="Artai__np"/></e>
@@ -84448,7 +84384,7 @@
 <e><i>Medina</i><par n="Artai__np"/></e>
 <e><i>Santos</i><par n="Artai__np"/></e>
 <e><i>Castillo</i><par n="Artai__np"/></e>
-<e><i>Cortes</i><par n="Artai__np"/></e>
+<e><i>Cortés</i><par n="Artai__np"/></e>
 <e><i>Lozano</i><par n="Artai__np"/></e>
 <e><i>Guerrero</i><par n="Artai__np"/></e>
 <e><i>Cano</i><par n="Artai__np"/></e>
@@ -84458,8 +84394,7 @@
 <e><i>Vidal</i><par n="Artai__np"/></e>
 <e><i>Gallego</i><par n="Artai__np"/></e>
 <e><i>Cruz</i><par n="Artai__np"/></e>
-<e><i>Leon</i><par n="Artai__np"/></e>
-<e><i>Marquez</i><par n="Artai__np"/></e>
+<e><i>Márquez</i><par n="Artai__np"/></e>
 <e><i>Peña</i><par n="Artai__np"/></e>
 <e><i>Herrera</i><par n="Artai__np"/></e>
 <e><i>Cabrera</i><par n="Artai__np"/></e>
@@ -84487,12 +84422,12 @@
 <e><i>Mora</i><par n="Artai__np"/></e>
 <e><i>Arias</i><par n="Artai__np"/></e>
 <e><i>Santiago</i><par n="Artai__np"/></e>
-<e><i>Benitez</i><par n="Artai__np"/></e>
+<e><i>Benítez</i><par n="Artai__np"/></e>
 <e><i>Carmona</i><par n="Artai__np"/></e>
 <e><i>Vargas</i><par n="Artai__np"/></e>
 <e><i>Crespo</i><par n="Artai__np"/></e>
 <e><i>Pastor</i><par n="Artai__np"/></e>
-<e><i>Roman</i><par n="Artai__np"/></e>
+<e><i>Román</i><par n="Artai__np"/></e>
 <e><i>Saez</i><par n="Artai__np"/></e>
 <e><i>Soto</i><par n="Artai__np"/></e>
 <e><i>Velasco</i><par n="Artai__np"/></e>
@@ -84609,6 +84544,178 @@
 <e><p><l>alért</l><r>alert</r></p><par n="abandón/ar__vblex"/></e>
 <e><i>espes</i><par n="abandon/ar__vblex"/></e>
 <e><p><l>espés</l><r>espes</r></p><par n="abandón/ar__vblex"/></e>
+
+<e><i>un</i><par n="abogad/o__n"/></e>
+<e><i>dos</i><par n="abril__n"/></e>
+<e><i>tres</i><par n="abril__n"/></e>
+<e><i>cuatro</i><par n="abandono__n"/></e>
+<e><i>cinco</i><par n="abandono__n"/></e>
+<e><i>seis</i><par n="abril__n"/></e>
+<e><i>siete</i><par n="abandono__n"/></e>
+<e><i>ocho</i><par n="abandono__n"/></e>
+<e><i>nueve</i><par n="abandono__n"/></e>
+<e><i>cero</i><par n="abandono__n"/></e>
+<e><i>die</i><par n="altavo/z__n"/></e>
+<e><i>once</i><par n="abandono__n"/></e>
+<e><i>dolce</i><par n="abandono__n"/></e>
+<e><i>trelce</i><par n="abandono__n"/></e>
+<e><i>catorce</i><par n="abandono__n"/></e>
+<e><i>quince</i><par n="abandono__n"/></e>
+<e><i>dieciséis</i><par n="análisis__n"/></e>
+<e><i>diecisiete</i><par n="abandono__n"/></e>
+<e><i>dieciocho</i><par n="abandono__n"/></e>
+<e><i>diecinueve</i><par n="abandono__n"/></e>
+<e><i>veinti</i><par n="abandono__n"/></e>
+<e><i>veinti</i><par n="veinti/ún__n"/></e>
+<e><i>veintid</i><par n="veintid/ós__n"/></e>
+<e><i>veintitr</i><par n="veintitr/és__n"/></e>
+<e><i>veinticuatro</i><par n="abandono__n"/></e>
+<e><i>veinticinco</i><par n="abandono__n"/></e>
+<e><i>veintiséis</i><par n="veintis/éis__n"/></e>
+<e><i>veintisiete</i><par n="abandono__n"/></e>
+<e><i>veintiocho</i><par n="abandono__n"/></e>
+<e><i>veintinueve</i><par n="abandono__n"/></e>
+<e><i>treinta</i><par n="abandono__n"/></e>
+<e><i>treinta<b/>y<b/>uno</i><par n="abandono__n"/></e>
+<e><i>treinta<b/>y<b/>dos</i><par n="abril__n"/></e>
+<e><i>treinta<b/>y<b/>tres</i><par n="abril__n"/></e>
+<e><i>treinta<b/>y<b/>cuatro</i><par n="abandono__n"/></e>
+<e><i>treinta<b/>y<b/>cinco</i><par n="abandono__n"/></e>
+<e><i>treinta<b/>y<b/>seis</i><par n="abril__n"/></e>
+<e><i>treinta<b/>y<b/>siete</i><par n="abandono__n"/></e>
+<e><i>treinta<b/>y<b/>ocho</i><par n="abandono__n"/></e>
+<e><i>treinta<b/>y<b/>nueve</i><par n="abandono__n"/></e>
+<e><i>cuarenta</i><par n="abandono__n"/></e>
+<e><i>cuarenta<b/>y<b/>uno</i><par n="abandono__n"/></e>
+<e><i>cuarenta<b/>y<b/>dos</i><par n="abril__n"/></e>
+<e><i>cuarenta<b/>y<b/>tres</i><par n="abril__n"/></e>
+<e><i>cuarenta<b/>y<b/>cuatro</i><par n="abandono__n"/></e>
+<e><i>cuarenta<b/>y<b/>cinco</i><par n="abandono__n"/></e>
+<e><i>cuarenta<b/>y<b/>seis</i><par n="abril__n"/></e>
+<e><i>cuarenta<b/>y<b/>siete</i><par n="abandono__n"/></e>
+<e><i>cuarenta<b/>y<b/>ocho</i><par n="abandono__n"/></e>
+<e><i>cuarenta<b/>y<b/>nueve</i><par n="abandono__n"/></e>
+<e><i>cincuenta</i><par n="abandono__n"/></e>
+<e><i>cincuenta<b/>y<b/>uno</i><par n="abandono__n"/></e>
+<e><i>cincuenta<b/>y<b/>dos</i><par n="abril__n"/></e>
+<e><i>cincuenta<b/>y<b/>tres</i><par n="abril__n"/></e>
+<e><i>cincuenta<b/>y<b/>cuatro</i><par n="abandono__n"/></e>
+<e><i>cincuenta<b/>y<b/>cinco</i><par n="abandono__n"/></e>
+<e><i>cincuenta<b/>y<b/>seis</i><par n="abril__n"/></e>
+<e><i>cincuenta<b/>y<b/>siete</i><par n="abandono__n"/></e>
+<e><i>cincuenta<b/>y<b/>ocho</i><par n="abandono__n"/></e>
+<e><i>cincuenta<b/>y<b/>nueve</i><par n="abandono__n"/></e>
+<e><i>sesenta</i><par n="abandono__n"/></e>
+<e><i>sesenta<b/>y<b/>uno</i><par n="abandono__n"/></e>
+<e><i>sesenta<b/>y<b/>dos</i><par n="abril__n"/></e>
+<e><i>sesenta<b/>y<b/>tres</i><par n="abril__n"/></e>
+<e><i>sesenta<b/>y<b/>cuatro</i><par n="abandono__n"/></e>
+<e><i>sesenta<b/>y<b/>cinco</i><par n="abandono__n"/></e>
+<e><i>sesenta<b/>y<b/>seis</i><par n="abril__n"/></e>
+<e><i>sesenta<b/>y<b/>siete</i><par n="abandono__n"/></e>
+<e><i>sesenta<b/>y<b/>ocho</i><par n="abandono__n"/></e>
+<e><i>sesenta<b/>y<b/>nueve</i><par n="abandono__n"/></e>
+<e><i>setenta</i><par n="abandono__n"/></e>
+<e><i>setenta<b/>y<b/>uno</i><par n="abandono__n"/></e>
+<e><i>setenta<b/>y<b/>dos</i><par n="abril__n"/></e>
+<e><i>setenta<b/>y<b/>tres</i><par n="abril__n"/></e>
+<e><i>setenta<b/>y<b/>cuatro</i><par n="abandono__n"/></e>
+<e><i>setenta<b/>y<b/>cinco</i><par n="abandono__n"/></e>
+<e><i>setenta<b/>y<b/>seis</i><par n="abril__n"/></e>
+<e><i>setenta<b/>y<b/>siete</i><par n="abandono__n"/></e>
+<e><i>setenta<b/>y<b/>ocho</i><par n="abandono__n"/></e>
+<e><i>setenta<b/>y<b/>nueve</i><par n="abandono__n"/></e>
+<e><i>ochenta</i><par n="abandono__n"/></e>
+<e><i>ochenta<b/>y<b/>uno</i><par n="abandono__n"/></e>
+<e><i>ochenta<b/>y<b/>dos</i><par n="abril__n"/></e>
+<e><i>ochenta<b/>y<b/>tres</i><par n="abril__n"/></e>
+<e><i>ochenta<b/>y<b/>cuatro</i><par n="abandono__n"/></e>
+<e><i>ochenta<b/>y<b/>cinco</i><par n="abandono__n"/></e>
+<e><i>ochenta<b/>y<b/>seis</i><par n="abril__n"/></e>
+<e><i>ochenta<b/>y<b/>siete</i><par n="abandono__n"/></e>
+<e><i>ochenta<b/>y<b/>ocho</i><par n="abandono__n"/></e>
+<e><i>ochenta<b/>y<b/>nueve</i><par n="abandono__n"/></e>
+<e><i>noventa</i><par n="abandono__n"/></e>
+<e><i>noventa<b/>y<b/>uno</i><par n="abandono__n"/></e>
+<e><i>noventa<b/>y<b/>dos</i><par n="abril__n"/></e>
+<e><i>noventa<b/>y<b/>tres</i><par n="abril__n"/></e>
+<e><i>noventa<b/>y<b/>cuatro</i><par n="abandono__n"/></e>
+<e><i>noventa<b/>y<b/>cinco</i><par n="abandono__n"/></e>
+<e><i>noventa<b/>y<b/>seis</i><par n="abril__n"/></e>
+<e><i>noventa<b/>y<b/>siete</i><par n="abandono__n"/></e>
+<e><i>noventa<b/>y<b/>ocho</i><par n="abandono__n"/></e>
+<e><i>noventa<b/>y<b/>nueve</i><par n="abandono__n"/></e>
+<e><i>cien</i><par n="abril__n"/></e>
+
+<e><i>Israel</i><par n="Muxia__np"/></e>
+<e><i>Chicago</i><par n="Muxia__np"/></e>
+<e><i>constante</i><par n="abundancia__n"/></e>
+<e><i>diversidad</i><par n="a__n"/></e>
+<e><i>Eugenia</i><par n="Artai__np"/></e>
+
+<e><i>sea<b/>lo<b/>que<b/>sea</i><par n="abajo__adv"/></e>
+
+<e><i>eslovac</i><par n="absolut/o__adj"/></e>
+<e><i>eslovac</i><par n="abogad/o__n"/></e>
+<e><i>Erasmus</i><par n="gran__adj"/></e>
+<e><i>apestos</i><par n="absolut/o__adj"/></e>
+<e><i>Comunidad<b/>Valenciana</i><par n="Muxia__np"/></e>
+<e><i>demografía</i><par n="abundancia__n"/></e>
+<e><i>radiografía</i><par n="abundancia__n"/></e>
+<e><i>típico</i><par n="absolut/o__adj"/></e>
+<e><i>compatriota</i><par n="abundante__adj"/></e>
+<e><i>históric</i><par n="abogad/o__n"/></e>
+<e><i>Citroën</i><par n="Apertium__np"/></e>
+<e><i>ACS</i><par n="Apertium__np"/></e>
+<e><i>Arcelor-Mittal</i><par n="Apertium__np"/></e>
+<e><i>Banco<b/>Popular</i><par n="Apertium__np"/></e>
+<e><i>Banco<b/>Sabadell</i><par n="Apertium__np"/></e>
+<e><i>Banco<b/>Santander</i><par n="Apertium__np"/></e>
+<e><i>BBVA</i><par n="Apertium__np"/></e>
+<e><i>Banesto</i><par n="Apertium__np"/></e>
+<e><i>Bankinter</i><par n="Apertium__np"/></e>
+<e><i>Cintra</i><par n="Apertium__np"/></e>
+<e><i>Sacyr</i><par n="Apertium__np"/></e>
+<e><i>Endesa</i><par n="Apertium__np"/></e>
+<e><i>Hidrocantábrico</i><par n="Apertium__np"/></e>
+<e><i>Telecable</i><par n="Apertium__np"/></e>
+<e><i>Gas<b/>Natural</i><par n="Apertium__np"/></e>
+<e><i>Duro<b/>Felguera</i><par n="Apertium__np"/></e>
+<e><i>Hunosa</i><par n="Apertium__np"/></e>
+<e><i>Ferrovial</i><par n="Apertium__np"/></e>
+<e><i>Iberdrola</i><par n="Apertium__np"/></e>
+<e><i>Iberia</i><par n="Apertium__np"/></e>
+<e><i>Inditex</i><par n="Apertium__np"/></e>
+<e><i>Indra</i><par n="Apertium__np"/></e>
+<e><i>Repsol</i><par n="Apertium__np"/></e>
+<e><i>Cepsa</i><par n="Apertium__np"/></e>
+<e><i>Telefónica</i><par n="Apertium__np"/></e>
+<e><i>France<b/>Telecom</i><par n="Apertium__np"/></e>
+<e><i>Movistar</i><par n="Apertium__np"/></e>
+<e><i>Vodafone</i><par n="Apertium__np"/></e>
+<e><i>Yoigo</i><par n="Apertium__np"/></e>
+<e><i>Orange</i><par n="Apertium__np"/></e>
+<e><i>Sony</i><par n="Apertium__np"/></e>
+<e><i>Toshiba</i><par n="Apertium__np"/></e>
+<e><i>LG</i><par n="Apertium__np"/></e>
+<e><i>Philips</i><par n="Apertium__np"/></e>
+<e><i>Apple</i><par n="Apertium__np"/></e>
+<e><i>Microsoft</i><par n="Apertium__np"/></e>
+<e><i>Windows</i><par n="Apertium__np"/></e>
+<e><i>Ubuntu</i><par n="Apertium__np"/></e>
+<e><i>Linux</i><par n="Apertium__np"/></e>
+<e><i>Banco<b/>Popular</i><par n="Apertium__np"/></e>
+<e><i>Vocento</i><par n="Apertium__np"/></e>
+<e><i>Prisa</i><par n="Apertium__np"/></e>
+<e><i>Seat</i><par n="Apertium__np"/></e>
+<e><i>Audi</i><par n="Apertium__np"/></e>
+<e><i>BMW</i><par n="Apertium__np"/></e>
+<e><i>Volkswagen</i><par n="Apertium__np"/></e>
+<e><i>Peugeot</i><par n="Apertium__np"/></e>
+<e><i>Honda</i><par n="Apertium__np"/></e>
+<e><i>Nokia</i><par n="Apertium__np"/></e>
+<e><i>Ikea</i><par n="Apertium__np"/></e>
+
 
 </section>
 <section id="final" type="inconditional">

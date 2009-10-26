@@ -242,7 +242,7 @@
     <!-- sustantivos temporales -->	
 	
     <def-cat n="hacer">
-      <cat-item lemma="hacer" tags="vblex.*"/>
+      <cat-item lemma="hacer" tags="vblex.*.p3.sg"/>
     </def-cat>
     <!--verbos léxicos con lema 'hacer' -->
 
@@ -3053,11 +3053,12 @@
 	<!--lista para búsqueda de adverbios 'per' -->    
     <!-- por aquí -> per equí -> "aquí" está en la lista -->   
     <def-list n="adverbios-per">
+		<list-item v="aquí"/>	
 		<list-item v="acá"/>
 	    <list-item v="ahí"/>
 	    <list-item v="allí"/>
 		<list-item v="arriba"/>
-		<list-item v="arriba"/>
+		<list-item v="abajo"/>
 	    <list-item v="ahora"/>
 		<list-item v="allá"/>
 		<list-item v="alrededor"/>
@@ -3069,6 +3070,7 @@
         <list-item v="delante"/>
         <list-item v="dentro"/>
         <list-item v="encima"/>
+        <list-item v="entre"/>		
         <list-item v="entonces"/>
         <list-item v="fuera"/>
 		<list-item v="adentro"/>
@@ -15365,10 +15367,16 @@ regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sus
 	  <choose>
 	   <when>
         <test>
-	      <equal caseless="yes">
-		     <clip pos="1" side="sl" part="lem"/>
-              <lit v="hacer"/>
-           </equal>
+		  <and>
+			  <equal caseless="yes">
+				 <clip pos="1" side="sl" part="persona"/>
+				  <lit-tag v="p3"/>
+			  </equal>
+			  <equal caseless="yes">
+				 <clip pos="1" side="sl" part="nbr"/>
+				  <lit-tag v="sg"/>
+			  </equal>		
+		  </and>
         </test>
         <out>
             <lu>
@@ -15406,10 +15414,16 @@ regla EGV51 hacer + sustantivo_temporal -> DIR + sustantivo_temporal
 	  <choose>
 	   <when>
         <test>
-	      <equal caseless="yes">
-		     <clip pos="1" side="sl" part="lem"/>
-              <lit v="hacer"/>
-           </equal>
+		  <and>
+			  <equal caseless="yes">
+				 <clip pos="1" side="sl" part="persona"/>
+				  <lit-tag v="p3"/>
+			  </equal>
+			  <equal caseless="yes">
+				 <clip pos="1" side="sl" part="nbr"/>
+				  <lit-tag v="sg"/>
+			  </equal>		
+		  </and>
         </test>
         <out>
             <lu>
