@@ -6484,10 +6484,16 @@
           <when>
             <test>
               <and>
-                <equal caseless="yes">
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="le"/>
-                </equal>
+			    <or>
+					<equal caseless="yes">
+					  <clip pos="2" side="sl" part="lem"/>
+					  <lit v="le"/>
+					</equal>
+					<equal caseless="yes">
+					  <clip pos="2" side="sl" part="lem"/>
+					  <lit v="se"/>
+					</equal>
+				</or>
                 <equal caseless="yes">
                   <clip pos="3" side="sl" part="lem"/>
                   <lit v="le"/>
@@ -6505,10 +6511,49 @@
                   <lit-tag v="prn.enc.ref.p3.mf.sp"/>
                 </lu>
                 <lu>
-                  <clip pos="3" side="tl" part="whole"/> 
+                  <get-case-from pos="3">
+                    <lit v="-y"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.p3.mf"/>
+				  <clip pos="3" side="sl" part="nbr"/>
                 </lu></mlu>
             </out> 
           </when>
+          <when>
+            <test>
+              <and>
+			    <or>
+					<equal caseless="yes">
+					  <clip pos="2" side="sl" part="lem"/>
+					  <lit v="le"/>
+					</equal>
+					<equal caseless="yes">
+					  <clip pos="2" side="sl" part="lem"/>
+					  <lit v="se"/>
+					</equal>
+				</or>					
+                <equal caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="lo"/>
+                </equal>
+              </and>
+            </test>
+            <out>
+              <mlu><lu>
+                  <clip pos="1" side="tl" part="whole"/> 
+                </lu> 
+                <lu>
+                  <get-case-from pos="3">
+                    <lit v="-y"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc.p3.mf.sg"/>
+                </lu>
+				<lu>
+                  <clip pos="3" side="tl" part="whole"/> 
+				</lu>
+			  </mlu>
+            </out> 
+          </when>		  
           <otherwise> 
             <out>
               <mlu><lu>
