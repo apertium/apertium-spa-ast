@@ -388,14 +388,56 @@
     <pardef n="contraccion_cada">
       <e>
         <p>
-          <l><b/><a/><a/>uno</l>
+          <l><b/><a/><a/>ún</l>
           <r>ún</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+      <e>
+        <p>
+          <l><b/><a/><a/>unu</l>
+          <r>únu</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/><a/>uno</l>
+          <r>úno</r>
         </p>
         <par n="caracter_general"/>
       </e>
       <e>
         <p>
           <l><b/><a/><a/>una</l>
+          <r>úna</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ún</l>
+          <r>ún</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+      <e>
+        <p>
+          <l><b/><a/>unu</l>
+          <r>únu</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/>uno</l>
+          <r>úno</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>una</l>
           <r>úna</r>
         </p>
         <par n="caracter_general"/>

@@ -67523,7 +67523,15 @@
     <e>
       <p>
         <l/>
-        <r><s n="prn"/><s n="tn"/><s n="nt"/></r>
+        <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r>
+      </p>
+    </e>
+  </pardef>
+  <pardef n="cualquiera__prn">
+    <e>
+      <p>
+        <l/>
+        <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
   </pardef>
@@ -67615,12 +67623,14 @@
     </e>
   </pardef>
   <pardef n="un/o__prn">
-    <e r="RL">
+    <!--
+	<e r="RL">
       <p>
         <l>o</l>
         <r>o<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
+	-->
     <e>
       <p>
         <l>as</l>
@@ -67672,6 +67682,32 @@
       </p>
     </e>
   </pardef>
+  <pardef n="/el_propio__prn">
+    <e>
+      <p>
+        <l>las<b/>propias</l>
+        <r>el<b/>propio<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>la<b/>propia</l>
+        <r>el<b/>propio<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>los<b/>propios</l>
+        <r>el<b/>propio<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>el<b/>propio</l>
+        <r>el<b/>propio<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+  </pardef>
   <pardef n="nosotr/os__prn">
     <e>
       <p>
@@ -67697,20 +67733,6 @@
       <p>
         <l>os</l>
         <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-  </pardef>
-  <pardef n="l/os_dos__prn">
-    <e>
-      <p>
-        <l>as<b/>dos</l>
-        <r>os<b/>dos<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>os<b/>dos</l>
-        <r>os<b/>dos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
   </pardef>
@@ -70011,21 +70033,19 @@
     <!--Pronomes-->
 
     <e><i>algo</i><par n="algo__prn"/></e>
+    <e><i/><par n="/el_propio__prn"/></e>
     <e><i>alguien</i><par n="algo__prn"/></e>
     <e><i>algun</i><par n="algun/o__prn"/></e>
     <e><i>aquel</i><par n="aquel__prn"/></e>
     <e><i>aquello</i><par n="aquello__prn"/></e>
-    <e><i>cada</i><par n="algo__prn"/></e>
-    <e><i>con<b/>nosotr</i><par n="nosotr/os__prn"/></e>
-    <e><i>con<b/>vosotr</i><par n="vosotr/os__prn"/></e>
     <e><i>cuál</i><par n="cuál__prn"/></e>
-    <e><i>cualquiera</i><par n="algo__prn"/></e>
+    <e><i>cualquiera</i><par n="cualquiera__prn"/></e>
     <e><i>cuánt</i><par n="cuánt/o__prn"/></e>
     <e><i>es</i><par n="es/e__prn"/></e>
     <e><i>eso</i><par n="aquello__prn"/></e>
     <e><i>est</i><par n="es/e__prn"/></e>
     <e><i>esto</i><par n="aquello__prn"/></e>
-    <e><i></i><par n="/él__prn"/></e>
+    <e><i/><par n="/él__prn"/></e>
     <e><i>l</i><par n="l/o__prn"/></e>
     <e><i>me</i><par n="me__prn"/></e>
     <e><i>mí</i><par n="yo__prn"/></e>
@@ -70039,10 +70059,9 @@
     <e><i>os</i><par n="os__prn"/></e>
     <e><i>otr</i><par n="algun/o__prn"/></e>
     <e><i>poc</i><par n="algun/o__prn"/></e>
-    <e><i>propi</i><par n="algun/o__prn"/></e>
     <e><i>qué</i><par n="qué__prn"/></e>
     <e><i>quién</i><par n="cuál__prn"/></e>
-    <e><i>quienquiera</i><par n="algo__prn"/></e>
+    <e><i>quienquiera</i><par n="cualquiera__prn"/></e>
     <e><i>se</i><par n="se__prn"/></e>
     <e><i>sí</i><par n="sí__prn"/></e>
     <e><i>tant</i><par n="algun/o__prn"/></e>
@@ -70056,13 +70075,11 @@
     <e><i>vosotr</i><par n="vosotr/os__prn"/></e>
     <e><i>yo</i><par n="yo__prn"/></e>
     <e r="LR"><i>amb</i><par n="amb/os__prn"/></e>
-    <e r="LR"><i>aquél</i><par n="aquel__prn"/></e>
+    <e><i>aquél</i><par n="aquel__prn"/></e>
     <e r="LR"><i>ello</i><par n="ello__prn"/></e>
     <e r="LR"><i>és</i><par n="es/e__prn"/></e>
     <e r="LR"><i>ést</i><par n="es/e__prn"/></e>
     <e r="LR"><i>le</i><par n="le__prn"/></e>
-    <e r="RL"><i>l</i><par n="l/os_dos__prn"/></e>
-    <e r="RL"><i>uno<b/>sólo</i><par n="algo__prn"/></e>
     <e r="RL"><p><l><a/>amb</l><r>amb</r></p><par n="amb/os__prn"/></e>
     <e r="RL"><p><l><a/>le</l><r>le</r></p><par n="le__prn"/></e>
 
@@ -70288,171 +70305,58 @@
     <!--Conxunciones-->
 
     <e><i>a<b/>fin<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>a<b/>lo<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>a<b/>menos<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>a<b/>nada<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>a<b/>no<b/>ser<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>a<b/>no<b/>ser<b/>si</i><par n="aun__cnjadv"/></e>
     <e><i>a<b/>poco<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>ahora<b/>bien</i><par n="aun__cnjadv"/></e>
-    <e><i>ahora<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>al<b/>igual<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>al<b/>parecer</i><par n="aun__cnjadv"/></e>
     <e><i>al<b/>tiempo<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>antes<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>antes<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>así<b/>como</i><par n="aun__cnjadv"/></e>
-    <e><i>así<b/>pues</i><par n="aun__cnjadv"/></e>
     <e><i>así<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>aun<b/>así</i><par n="aun__cnjadv"/></e>
     <e><i>aun</i><par n="aun__cnjadv"/></e>
     <e><i>aún</i><par n="aun__cnjadv"/></e>
     <e><i>aunque</i><par n="aun__cnjadv"/></e>
-    <e><i>basta<b/>con<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>bien<b/>como</i><par n="aun__cnjadv"/></e>
-    <e><i>bien<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>cada<b/>vez<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>como</i><par n="aun__cnjadv"/></e>
-    <e><i>como<b/>si</i><par n="aun__cnjadv"/></e>
     <e><i>cómo</i><par n="adónde__adv"/></e>
-    <e><i>comoquiera<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>con<b/>el<b/>fin<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>con<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>con<b/>sólo<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>con<b/>tal<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>con<b/>todo</i><par n="aun__cnjadv"/></e>
     <e><i>conque</i><par n="aun__cnjadv"/></e>
-    <e><i>cuando<b/>quiera<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>cuándo</i><par n="adónde__adv"/></e>
     <e><i>cuando</i><par n="aun__cnjadv"/></e>
-    <e><i>dada<b/>cuenta<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>dado<b/>el<b/>caso<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>dado<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>dando<b/>por<b/>sentado</i><par n="aun__cnjadv"/></e>
-    <e><i>de<b/>ahí<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>de<b/>aquí<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>de<b/>forma<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>de<b/>lo<b/>contrario</i><par n="aun__cnjadv"/></e>
     <e><i>de<b/>manera<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>de<b/>modo<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>de<b/>no<b/>ser<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>de<b/>no<b/>ser<b/>si</i><par n="aun__cnjadv"/></e>
-    <e><i>de<b/>suerte<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>desde<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>después<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>donde<b/>quiera<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>dónde</i><par n="adónde__adv"/></e>
-    <e><i>donde</i><par n="aun__cnjadv"/></e>
-    <e><i>en<b/>caso<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>en<b/>cuanto<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>en<b/>el<b/>supuesto<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>en<b/>favor<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>en<b/>tanto<b/>en<b/>cuanto</i><par n="aun__cnjadv"/></e>
     <e><i>en<b/>tanto<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>en<b/>tanto</i><par n="aun__cnjadv"/></e>
-    <e><i>entonces</i><par n="aun__cnjadv"/></e>
     <e><i>es<b/>decir</i><par n="aun__cnjadv"/></e>
-    <e><i>excepto<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>excepto<b/>si</i><par n="aun__cnjadv"/></e>
-    <e><i>fuera<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>habida<b/>cuenta</i><par n="aun__cnjadv"/></e>
-    <e><i>hasta<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>incluso</i><par n="aun__cnjadv"/></e>
-    <e><i>junto<b/>con</i><par n="aun__cnjadv"/></e>
     <e><i>luego<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>luego</i><par n="aun__cnjadv"/></e>
-    <e><i>mal<b/>como</i><par n="aun__cnjadv"/></e>
-    <e><i>más<b/>bien</i><par n="aun__cnjadv"/></e>
-    <e><i>más<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>mas</i><par n="aun__cnjadv"/></e>
-    <e><i>menos<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>mientras<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>mientras</i><par n="aun__cnjadv"/></e>
-    <e><i>ni<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>no<b/>obstante<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>no<b/>obstante</i><par n="aun__cnjadv"/></e>
-    <e><i>para<b/>lo<b/>cual</i><par n="aun__cnjadv"/></e>
     <e><i>para<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>causa<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>consiguiente</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>cosa<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>cuanto</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>culpa<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>por<b/>ende</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>eso<b/>es<b/>por<b/>lo<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>lo<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>lo<b/>tanto</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>más<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>mucho<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>poco<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>tanto</i><par n="aun__cnjadv"/></e>
-    <e><i>por<b/>todo<b/>ello</i><par n="aun__cnjadv"/></e>
     <e><i>porque</i><par n="aun__cnjadv"/></e>
-    <e><i>pues<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>pues</i><par n="aun__cnjadv"/></e>
     <e><i>puesto<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>salvo<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>salvo<b/>si</i><par n="aun__cnjadv"/></e>
-    <e><i>siempre<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>siempre<b/>y<b/>cuando</i><par n="aun__cnjadv"/></e>
     <e><i>si</i><par n="aun__cnjadv"/></e>
-    <e><i>sin<b/>embargo</i><par n="aun__cnjadv"/></e>
-    <e><i>sin<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>sino<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>tal<b/>como</i><par n="aun__cnjadv"/></e>
-    <e><i>tan<b/>pronto</i><par n="aun__cnjadv"/></e>
-    <e><i>tanto<b/>más<b/>cuanto</i><par n="aun__cnjadv"/></e>
     <e><i>toda<b/>vez<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>todavía</i><par n="aun__cnjadv"/></e>
-    <e><i>todo<b/>lo<b/>bien<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>visto<b/>que</i><par n="aun__cnjadv"/></e>
     <e><i>ya<b/>que</i><par n="aun__cnjadv"/></e>
-    <e><i>ya</i><par n="aun__cnjadv"/></e>
-    <e><i>y<b/>eso<b/>que</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>a<b/>causa<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>a<b/>la<b/>par<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>a<b/>partir<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>a<b/>pesar<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>a<b/>punto<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>a<b/>través<b/>de</i><par n="aun__cnjadv"/></e>
     <e r="LR"><i>adónde</i><par n="adónde__adv"/></e>
-    <e r="LR"><i>al<b/>tanto<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>alrededor<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>antes<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>cerca<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>como</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>con<b/>respecto<b/>a</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>delante<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>dentro<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>después<b/>de</i><par n="aun__cnjadv"/></e>
+    <e r="LR"><p><l>como</l><r>como<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l><a/>como</l><r>como<s n="cnjadv"/></r></p></e>	
     <e r="LR"><i>en<b/>dónde</i><par n="adónde__adv"/></e>
-    <e r="LR"><i>en<b/>vez<b/>de</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>frente<b/>a</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>gracias<b/>a</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>junto<b/>a</i><par n="aun__cnjadv"/></e>
-    <e r="LR"><i>pese<b/>a</i><par n="aun__cnjadv"/></e>
     <e r="LR"><i>si<b/>bien</i><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>a<b/>causa<b/><a/>de</l><r>a<b/>causa<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>a<b/>la<b/>par<b/><a/>de</l><r>a<b/>la<b/>par<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>a<b/>partir<b/><a/>de</l><r>a<b/>partir<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>a<b/>pesar<b/><a/>de</l><r>a<b/>pesar<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>a<b/>punto<b/><a/>de</l><r>a<b/>punto<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>a<b/>través<b/><a/>de</l><r>a<b/>través<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l><a/>como</l><r>como</r></p><par n="aun__cnjadv"/></e>
     <e r="RL"><p><l><a/>dónde<b/>está</l><r>dónde<b/>está</r></p><par n="adónde__adv"/></e>
-    <e r="RL"><p><l>al<b/>tanto<b/><a/>de</l><r>al<b/>tanto<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>alrededor<b/><a/>de</l><r>alrededor<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>antes<b/><a/>de</l><r>antes<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>cerca<b/><a/>de</l><r>cerca<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>con<b/>respecto<b/><a/>a</l><r>con<b/>respecto<b/>a</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>delante<b/><a/>de</l><r>delante<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>dentro<b/><a/>de</l><r>dentro<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>después<b/><a/>de</l><r>después<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>en<b/>vez<b/><a/>de</l><r>en<b/>vez<b/>de</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>frente<b/><a/>a</l><r>frente<b/>a</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>gracias<b/><a/>a</l><r>gracias<b/>a</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>junto<b/><a/>a</l><r>junto<b/>a</r></p><par n="aun__cnjadv"/></e>
-    <e r="RL"><p><l>pese<b/><a/>a</l><r>pese<b/>a</r></p><par n="aun__cnjadv"/></e>    
+
+	<e><p><l>gracias<b/>a</l><r>gracias<b/>a<s n="cnjadv"/></r></p></e>
+    <e><p><l>junto<b/>a</l><r>junto<b/>a<s n="cnjadv"/></r></p></e>	
+    <e><p><l>pese<b/>a</l><r>pese<b/>a<s n="cnjadv"/></r></p></e>    
+
     <e><i>empero</i><par n="aun__cnjadv"/></e>
 
     <e><i>ni</i><par n="desque__cnjcoo"/></e>
@@ -76790,7 +76694,7 @@
     <e><i>ateniense</i><par n="agente__n"/></e>
     <e><i>atentado</i><par n="abandono__n"/></e>
     <e><i>aterrizaje</i><par n="abandono__n"/></e>
-    <e><i>atestad</i><par n="abogad/o__n"/></e>
+    <e><i>atestado</i><par n="abandono__n"/></e>
     <e><i>atestadura</i><par n="abundancia__n"/></e>
     <e><i>atestamiento</i><par n="abandono__n"/></e>
     <e><i>atestiguaci</i><par n="acci/ón__n"/></e>
@@ -77516,6 +77420,7 @@
     <e><i>calle</i><par n="abundancia__n"/></e>
     <e><i>callej</i><par n="avi/ón__n"/></e>
     <e><i>callo</i><par n="abandono__n"/></e>
+    <e><i>callos</i><par n="alrededores__n"/></e>
     <e><i>calma</i><par n="abundancia__n"/></e>
     <e><i>calor</i><par n="abril__n"/></e>
     <e><i>calv</i><par n="abogad/o__n"/></e>
@@ -79694,8 +79599,8 @@
     <e><i>oraci</i><par n="acci/ón__n"/></e>
     <e><i>órbita</i><par n="abundancia__n"/></e>
     <e><i>ordenador</i><par n="abril__n"/></e>
-    <e><i>orden</i><par n="/orden__n"/></e>
-    <e><i>orden</i><par n="des/orden__n"/></e>
+    <e><i/><par n="/orden__n"/></e>
+    <e><i/><par n="des/orden__n"/></e>
     <e><i>oreja</i><par n="abundancia__n"/></e>
     <e><i>orensan</i><par n="abogad/o__n"/></e>
     <e><i>organismo</i><par n="abandono__n"/></e>
@@ -79838,7 +79743,8 @@
     <e><i>peluche</i><par n="abandono__n"/></e>
     <e><i>peluquería</i><par n="abundancia__n"/></e>
     <e><i>pena</i><par n="abundancia__n"/></e>
-    <e><i>pendiente</i><par n="agente__n"/></e>
+    <e><i>pendiente</i><par n="abandono__n"/></e>
+    <e><i>pendiente</i><par n="abundancia__n"/></e>
     <e><i>penicilina</i><par n="abundancia__n"/></e>
     <e><i>penitencia</i><par n="abundancia__n"/></e>
     <e><i>pensamiento</i><par n="abandono__n"/></e>
@@ -81326,7 +81232,7 @@
     <e><i>al<b/>hilo<b/>del<b/>mediodía</i><par n="abajo__adv"/></e>
     <e><i>al<b/>libre<b/>albedrío</i><par n="abajo__adv"/></e>
     <e><i>al<b/>lucero<b/>del<b/>alba</i><par n="abajo__adv"/></e>
-    <e><i>al<b/>objeto<b/>de</i><par n="abajo__adv"/></e>
+    <e><i>al<b/>objeto<b/>de</i><par n="aun__cnjadv"/></e>
     <e><i>alborot</i><par n="abandon/ar__vblex"/></e>
     <e><i>al<b/>par<b/>que</i><par n="abajo__adv"/></e>
     <e><i>al<b/>pie<b/>de<b/>la<b/>letra</i><par n="abajo__adv"/></e>
@@ -81580,7 +81486,6 @@
     <e><i>concord</i><par n="abandon/ar__vblex"/></e>
     <e><i>Condado</i><par n="Muxia__np"/></e>
     <e><i>condecor</i><par n="abandon/ar__vblex"/></e>
-    <e><i>conejillo</i><par n="abandono__n"/><p><l><b/>de<b/>indias</l><r><g><b/>de<b/>indias</g></r></p></e>
     <e><i>confeder</i><par n="abandon/ar__vblex"/></e>
     <e><i>confiando<b/>en</i><par n="abajo__adv"/></e>
     <e><i>coordin</i><par n="abandon/ar__vblex"/></e>
@@ -81605,7 +81510,6 @@
     <e><i>cucharete</i><par n="abandon/ar__vblex"/></e>
     <e><i>curiose</i><par n="abandon/ar__vblex"/></e>
 
-    <!--<e><i>darse<b/>el<b/>piro</i><par n="__n"/></e>-->
 
     <e><i>de<b/>abajo</i><par n="abajo__adv"/></e>
     <e><i>de<b/>andar<b/>por<b/>casa</i><par n="abajo__adv"/></e>
@@ -82144,8 +82048,6 @@
     <e><i>¡ni<b/>hablar!</i><par n="abajo__adv"/></e>
     <e><i>ni<b/>pincha<b/>ni<b/>corta</i><par n="abajo__adv"/></e>
     <e><i>ni<b/>que<b/>niño<b/>muerto</i><par n="abajo__adv"/></e>
-    <e><i>niño<b/>de<b/>corta<b/>edad</i><par n="abandono__n"/></e>
-    <e><i>niño</i><par n="abandono__n"/><p><l><b/>de<b/>corta<b/>edad</l><r><g><b/>de<b/>corta<b/>edad</g></r></p></e>
     <e><i>no<b/>bien,</i><par n="abajo__adv"/></e>
     <e><i>no<b/>en<b/>vano</i><par n="abajo__adv"/></e>
     <e><i>¡no<b/>me<b/>digas!</i><par n="abajo__adv"/></e>
@@ -82168,7 +82070,6 @@
     <e><i>olfate</i><par n="abandon/ar__vblex"/></e>
     <e><i>olisque</i><par n="abandon/ar__vblex"/></e>
     <e><i>oportunamente</i><par n="abajo__adv"/></e>
-    <e><i>orden</i><par n="/orden__n"/></e>
     <e><i>blog</i><par n="abandono__n"/></e>
     <e><i>ordeñ</i><par n="abandon/ar__vblex"/></e>
     <e><i>oreje</i><par n="abandon/ar__vblex"/></e>
@@ -82252,7 +82153,6 @@
     <e><i>¡por<b/>supuesto<b/>que<b/>sí!</i><par n="abajo__adv"/></e>
     <e><i>¡por<b/>supuesto!</i><par n="abajo__adv"/></e>
     <e><i>por<b/>tanto,</i><par n="abajo__adv"/></e>
-    <e><i>por<b/>todos<b/>los<b/>sitios</i><par n="aun__cnjadv"/></e>
     <e><i>por<b/>último,</i><par n="abajo__adv"/></e>
     <e><i>por<b/>una<b/>parte,</i><par n="abajo__adv"/></e>
     <e><i>postrer</i><par n="abogad/o__n"/></e>
@@ -82289,7 +82189,6 @@
     <e><i>rastrill</i><par n="abandon/ar__vblex"/></e>
     <e><i>ray</i><par n="abandon/ar__vblex"/></e>
     <e><i>rebañ</i><par n="abandon/ar__vblex"/></e>
-    <e><i>rebaño</i><par n="abandono__n"/><p><l><b/>de<b/>ovejas</l><r><g><b/>de<b/>ovejas</g></r></p></e>
     <e><i>Rebollada</i><par n="Muxia__np"/></e>
     <e><i>rebrin</i><par n="abar/car__vblex"/></e>
     <e><i>rebrot</i><par n="abandon/ar__vblex"/></e>
@@ -82489,7 +82388,6 @@
     <e><i>La<b/>Felguerina</i><par n="Muxia__np"/></e>
     <e><i>qué<b/>extraño<b/>que</i><par n="abajo__adv"/></e>
     <e><i>la<b/>calderilla</i><par n="cuaresma__n"/></e>
-    <e><i>libro</i><par n="abandono__n"/><p><l><b/>de<b/>bolsillo</l><r><g><b/>de<b/>bolsillo</g></r></p></e>
     <e><i>Andorra<b/>la<b/>Vieja</i><par n="Muxia__np"/></e>
     <e><i>atontad</i><par n="abogad/o__n"/></e>
     <e><i>comentario</i><par n="abandono__n"/></e>
@@ -82501,7 +82399,7 @@
     <e><i>paso</i><par n="abandono__n"/></e>
     <e><i>pesimismo</i><par n="abandono__n"/></e>
     <e><i>zarzuela</i><par n="abundancia__n"/></e>
-    <e><i>ventitr</i><par n="veintitr/és__n"/></e>
+    <e><i>veintitr</i><par n="veintitr/és__n"/></e>
     <e><i>tarambaina</i><par n="abundancia__n"/></e>
     <e><i>odre</i><par n="abandono__n"/></e>
     <e><i>broche</i><par n="abandono__n"/></e>
@@ -84141,6 +84039,8 @@
    </p>
 </e>
 
+
+
 <!-- Actualización 2/10/2009 -->
     <e><i>aprovisionamiento</i><par n="abandono__n"/></e>
     <e><i>aprovision</i><par n="abandon/ar__vblex"/></e>
@@ -84163,7 +84063,7 @@
     <e><i>novel</i><par n="actual__adj"/></e>     
     <e><i>pomarada</i><par n="abundancia__n"/></e>
     <e><i>prejubil</i><par n="abandon/ar__vblex"/></e>
-    <e><i>provisión</i><par n="acci/ón__n"/></e>
+    <e><i>provisi</i><par n="acci/ón__n"/></e>
     <e><i>quebr</i><par n="abandon/ar__vblex"/></e>
     <e><i>recab</i><par n="abandon/ar__vblex"/></e>
     <e><i>ret</i><par n="t/emblar__vblex"/></e>
@@ -84556,7 +84456,7 @@
 <e><p><l>convalíd</l><r>convalid</r></p><par n="abandón/ar__vblex"/></e>
 <e><i>interanual</i><par n="actual__adj"/></e>
 <e><i>tributaci</i><par n="acci/ón__n"/></e>
-<e><i>plusvalía</i><par n="abogacía__n"/></e>
+<e><i>plusvalía</i><par n="abundancia__n"/></e>
 <e><i>impositiv</i><par n="primer/o__adj"/></e>
 <e><i>obt</i><par n="t/ener__vblex"/></e>
 <e><i>actualmente</i><par n="abajo__adv"/></e>
@@ -84635,8 +84535,8 @@
 <e><i>cero</i><par n="abandono__n"/></e>
 <e><i>die</i><par n="altavo/z__n"/></e>
 <e><i>once</i><par n="abandono__n"/></e>
-<e><i>dolce</i><par n="abandono__n"/></e>
-<e><i>trelce</i><par n="abandono__n"/></e>
+<e><i>doce</i><par n="abandono__n"/></e>
+<e><i>trece</i><par n="abandono__n"/></e>
 <e><i>catorce</i><par n="abandono__n"/></e>
 <e><i>quince</i><par n="abandono__n"/></e>
 <e><i>dieciséis</i><par n="análisis__n"/></e>
@@ -84649,7 +84549,7 @@
 <e><i>veintitr</i><par n="veintitr/és__n"/></e>
 <e><i>veinticuatro</i><par n="abandono__n"/></e>
 <e><i>veinticinco</i><par n="abandono__n"/></e>
-<e><i>veintiséis</i><par n="veintis/éis__n"/></e>
+<e><i>veintis</i><par n="veintis/éis__n"/></e>
 <e><i>veintisiete</i><par n="abandono__n"/></e>
 <e><i>veintiocho</i><par n="abandono__n"/></e>
 <e><i>veintinueve</i><par n="abandono__n"/></e>
@@ -84824,6 +84724,132 @@
 <e><i>enemistad</i><par n="a__n"/></e>
 <e><i>líder</i><par n="actual__adj"/></e>
 <e><i>Erasmus</i><par n="aguafiestas__n"/></e>
+<e><i>Rato</i><par n="Artai__np"/></e>
+<e><i>jerga</i><par n="abundancia__n"/></e>
+<e><i>decret</i><par n="abandono__n"/></e>
+<e><i>delinqu</i><par n="abat/ir__vblex"/></e>
+<e><p><l>delínqu</l><r>delinq</r></p><par n="abát/ir__vblex"/></e>
+<e><i>algarabía</i><par n="abundancia__n"/></e>
+<e><i>pali</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>pali</l><r>pali</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>nocivo</i><par n="absolut/o__adj"/></e>
+
+<!-- 2 de noviembre 2009 -->
+<e><i>zurd</i><par n="absolut/o__adj"/></e>
+<e><i>desproporcionad</i><par n="absolut/o__adj"/></e>
+<e><i>asalari</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>asalári</l><r>asalari</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>deshauci</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>desháuci</l><r>deshauci</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>suegr</i><par n="abogad/o__n"/></e>
+<e><i>prim</i><par n="abogad/o__n"/></e>
+<e><i>libreta</i><par n="a__n"/></e>
+<e><i>federal</i><par n="mal__adj"/></e>
+<e><i>sonroj</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>sonrój</l><r>sonroj</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>sonroj</i><par n="abandono__n"/></e>
+<e><i>abuche</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>abuche</l><r>abuche</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>Huerna</i><par n="Muxia__np"/></e>
+<e><i>saúc</i><par n="abandono__n"/></e>
+<e><i>beod</i><par n="absolut/o__adj"/></e>
+<e><i>gozne</i><par n="abandono__n"/></e>
+
+<e lm="café con gotas">
+  <i>café</i>
+  <par n="abandono__n"/>
+  <p>
+     <l><b/>con<b/>gotas</l>
+     <r><g><b/>con<b/>gotas</g></r>
+   </p>
+</e>
+<e lm="rebaño de ovejas">
+  <i>rebaño</i>
+  <par n="abandono__n"/>
+  <p>
+     <l><b/>de<b/>ovejas</l>
+     <r><g><b/>de<b/>ovejas</g></r>
+   </p>
+</e>
+<e lm="libro de bolsillo">
+  <i>libro</i>
+  <par n="abandono__n"/>
+  <p>
+     <l><b/>de<b/>bolsillo</l>
+     <r><g><b/>de<b/>bolsillo</g></r>
+   </p>
+</e>
+<e lm="conejillo de indias">
+  <i>conejillo</i>
+  <par n="abandono__n"/>
+  <p>
+     <l><b/>de<b/>indias</l>
+     <r><g><b/>de<b/>indias</g></r>
+   </p>
+</e>
+<e lm="niño de corta edad">
+  <i>niñ</i>
+  <par n="abogad/o__n"/>
+  <p>
+     <l><b/>de<b/>corta<b/>edad</l>
+     <r><g><b/>de<b/>corta<b/>edad</g></r>
+   </p>
+</e>
+
+<!--9 de noviembre de 2009-->
+<e><i>disloc</i><par n="abar/car__vblex"/></e>
+<e><p><l>dislóc</l><r>disloc</r></p><par n="abár/car__vblex"/></e>
+<e><i>mejoría</i><par n="abundancia__n"/></e>
+<e><i>cepo</i><par n="abandono__n"/></e>
+<e><i>garduña</i><par n="abundancia__n"/></e>
+<e><i>comadreja</i><par n="abundancia__n"/></e>
+<e><i>polipodio</i><par n="abandono__n"/></e>
+<e><i>ata</i><par n="abar/car__vblex"/></e>
+<e><p><l>atá</l><r>ata</r></p><par n="abár/car__vblex"/></e>
+<e><i>fiscalidad</i><par n="a__n"/></e>
+<e><i>chivatazo</i><par n="abandono__n"/></e>
+<e><i>chascarrillo</i><par n="abandono__n"/></e>
+<e><i>cereal</i><par n="abril__n"/></e>
+<e><i>cicl</i><par n="avi/ón__n"/></e>
+<e><i>anteproyecto</i><par n="abandono__n"/></e>
+<e><i>integrad</i><par n="absolut/o__adj"/></e>
+<e><i>automovilístic</i><par n="absolut/o__adj"/></e>
+<e><i>desánimo</i><par n="abandono__n"/></e>
+<e><i>plumazo</i><par n="abandono__n"/></e>
+<e><i>palestin</i><par n="absolut/o__adj"/></e>
+<e><i>secuestro</i><par n="abandono__n"/></e>
+<e><i>regeneraci</i><par n="acci/ón__n"/></e>
+<e><i>comparecencia</i><par n="abundancia__n"/></e>
+<e><i>rediri</i><par n="diri/gir__vblex"/></e>
+<e><p><l>redirí</l><r>rediri</r></p><par n="dirí/gir__vblex"/></e>
+<e><i>funerari</i><par n="absolut/o__adj"/></e>
+<e><i>bipartit</i><par n="absolut/o__adj"/></e>
+<e><i>sustitut</i><par n="absolut/o__adj"/></e>
+<e><i>sustitut</i><par n="abogad/o__n"/></e>
+<e><i>desvincul</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>desvincúl</l><r>desvincul</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>presupuest</i><par n="absolut/o__adj"/></e>
+<e><i>exculp</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>excúlp</l><r>exculp</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>tuerc</i><par n="abundancia__n"/></e>
+<e><i>románic</i><par n="absolut/o__adj"/></e>
+<e><i>románic</i><par n="abogad/o__n"/></e>
+<e><i>espiga</i><par n="abundancia__n"/></e>
+<e><i>ronda</i><par n="abundancia__n"/></e>
+<e><i>lanz</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>lánz</l><r>lanz</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>extranjería</i><par n="abogacía__n"/></e>
+<e><i>macroproyecto</i><par n="abandono__n"/></e>
+<e><i>biología</i><par n="abogacía__n"/></e>
+<e><i>constructora</i><par n="abundancia__n"/></e>
+<e><i>climátic</i><par n="absolut/o__adj"/></e>
+<e><i>veto</i><par n="abandono__n"/></e>
+<e><i>ratifi</i><par n="abar/car__vblex"/></e>
+<e><p><l>ratifí</l><r>ratifi</r></p><par n="abár/car__vblex"/></e>
+<e><i>Bruno</i><par n="Artai__np"/></e>
+<e><i>Manolo</i><par n="Artai__np"/></e>
+<e><i>Preciado</i><par n="Artai__np"/></e>
+<e><i>espionaje</i><par n="abandono__n"/></e>
 
 </section>
 <section id="final" type="inconditional">
