@@ -166,7 +166,7 @@
       </e>
    </pardef>
 
-<pardef n="vocal_i_hi">
+	<pardef n="vocal_i_hi">
       <e>
         <i>i</i>
       </e>
@@ -231,7 +231,6 @@
     </pardef>
 
 
-
     <pardef n="apostrofe">
       <e>
         <p>
@@ -275,6 +274,13 @@
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ANTE</l>
+          <r>ANTE</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  	  
    </pardef>
 
     <pardef n="contraccion_con_por_per">
@@ -282,6 +288,13 @@
         <p>
           <l><b/><a/><a/>el</l>
           <r>l</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>EL</l>
+          <r>L</r>
         </p>
         <par n="caracter_general"/>
       </e>
@@ -294,11 +307,25 @@
       </e>
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>MIO</l>
+          <r>L<b/>MIO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>míu</l>
           <r>l<b/>míu</r>
         </p>
         <par n="caracter_general"/>
       </e>	 
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>MÍU</l>
+          <r>L<b/>MÍU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>to</l>
@@ -308,11 +335,25 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>TO</l>
+          <r>L<b/>TO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>tuyu</l>
           <r>l<b/>tuyu</r>
         </p>
         <par n="caracter_general"/>
-      </e>	 
+      </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>TUYU</l>
+          <r>L<b/>TUYU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>so</l>
@@ -322,8 +363,22 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>SO</l>
+          <r>L<b/>SO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>suyu</l>
           <r>l<b/>suyu</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>SUYU</l>
+          <r>L<b/>SUYU</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -336,8 +391,22 @@
       </e>	
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>NUESU</l>
+          <r>L<b/>NUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>nuestru</l>
           <r>l<b/>nuestru</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>NUESTRU</l>
+          <r>L<b/>NUESTRU</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -350,8 +419,22 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>VUESU</l>
+          <r>L<b/>VUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>vuestro</l>
           <r>l<b/>vuestro</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	 
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>VUESTRO</l>
+          <r>L<b/>VUESTRO</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -364,11 +447,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>LA</l>
+          <r>LA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>lo</l>
           <r>lo</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>LO</l>
+          <r>LO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>los</l>
@@ -378,11 +475,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>LOS</l>
+          <r>LOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>les</l>
           <r>les</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>LES</l>
+          <r>LES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
     </pardef>
 
     <pardef n="contraccion_cada">
@@ -395,11 +506,25 @@
       </e>	
       <e>
         <p>
+          <l><b/><a/><a/>ÚN</l>
+          <r>ÚN</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>unu</l>
           <r>únu</r>
         </p>
         <par n="caracter_general"/>
       </e>	
+      <e>
+        <p>
+          <l><b/><a/><a/>UNU</l>
+          <r>ÚNU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
 	  <e>
         <p>
           <l><b/><a/><a/>uno</l>
@@ -407,6 +532,13 @@
         </p>
         <par n="caracter_general"/>
       </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>UNO</l>
+          <r>ÚNO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>una</l>
@@ -416,6 +548,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>UNA</l>
+          <r>ÚNA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/>ún</l>
           <r>ún</r>
         </p>
@@ -423,8 +562,22 @@
       </e>	
       <e>
         <p>
+          <l><b/><a/>ÚN</l>
+          <r>ÚN</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/>unu</l>
           <r>únu</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+      <e>
+        <p>
+          <l><b/><a/>UNU</l>
+          <r>ÚNU</r>
         </p>
         <par n="caracter_general"/>
       </e>	
@@ -435,6 +588,13 @@
         </p>
         <par n="caracter_general"/>
       </e>
+	  <e>
+        <p>
+          <l><b/><a/>UNO</l>
+          <r>ÚNO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/>una</l>
@@ -442,6 +602,13 @@
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/>UNA</l>
+          <r>ÚNA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
     </pardef>
 
     <pardef n="contraccion_en">
@@ -452,6 +619,13 @@
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>EL</l>
+          <r>EL</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>mio</l>
@@ -461,11 +635,25 @@
       </e>
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>MIO</l>
+          <r>EL<b/>MIO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>míu</l>
           <r>el<b/>míu</r>
         </p>
         <par n="caracter_general"/>
-      </e>	
+      </e>	 
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>MÍU</l>
+          <r>EL<b/>MÍU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>to</l>
@@ -475,11 +663,25 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>TO</l>
+          <r>EL<b/>TO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>tuyu</l>
           <r>el<b/>tuyu</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>TUYU</l>
+          <r>EL<b/>TUYU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>so</l>
@@ -489,8 +691,22 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>SO</l>
+          <r>EL<b/>SO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>suyu</l>
           <r>el<b/>suyu</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>SUYU</l>
+          <r>EL<b/>SUYU</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -500,11 +716,25 @@
           <r>el<b/>nuesu</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>NUESU</l>
+          <r>EL<b/>NUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>nuestru</l>
           <r>el<b/>nuestru</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>NUESTRU</l>
+          <r>EL<b/>NUESTRU</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -517,8 +747,22 @@
       </e>	  
 	  <e>
         <p>
-          <l><b/><a/><a/>el<b/>vuestru</l>
-          <r>el<b/>vuestru</r>
+          <l><b/><a/><a/>EL<b/>VUESU</l>
+          <r>EL<b/>VUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
+          <l><b/><a/><a/>el<b/>vuestro</l>
+          <r>el<b/>vuestro</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	 
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>VUESTRO</l>
+          <r>EL<b/>VUESTRO</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -531,11 +775,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>LA</l>
+          <r>A</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>lo</l>
           <r>o</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>LO</l>
+          <r>O</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>los</l>
@@ -545,6 +803,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>LOS</l>
+          <r>OS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>les</l>
           <r>es</r>
         </p>
@@ -552,11 +817,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>LES</l>
+          <r>ES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+	  <e>
+        <p>
           <l><b/><a/><a/>uno</l>
           <r>uno</r>
         </p>
         <par n="caracter_general"/>
       </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>UNO</l>
+          <r>UNO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>una</l>
@@ -566,11 +845,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>UNA</l>
+          <r>UNA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>un</l>
           <r>un</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>UN</l>
+          <r>UN</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>unos</l>
@@ -580,11 +873,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>UNOS</l>
+          <r>UNOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>unes</l>
           <r>unes</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>UNES</l>
+          <r>UNES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>eses</l>
@@ -594,11 +901,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ESES</l>
+          <r>ESES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>esos</l>
           <r>esos</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ESOS</l>
+          <r>ESOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>esi</l>
@@ -608,11 +929,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ESI</l>
+          <r>ESI</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>esa</l>
           <r>esa</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ESA</l>
+          <r>ESA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>eso</l>
@@ -622,11 +957,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ESO</l>
+          <r>ESO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>estes</l>
           <r>estes</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ESTES</l>
+          <r>ESTES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>estos</l>
@@ -636,11 +985,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ESTOS</l>
+          <r>ESTOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>esti</l>
           <r>esti</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ESTI</l>
+          <r>ESTI</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>esta</l>
@@ -650,11 +1013,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ESTA</l>
+          <r>ESTA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>esto</l>
           <r>esto</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ESTO</l>
+          <r>ESTO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>aquelles</l>
@@ -664,6 +1041,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>AQUELLES</l>
+          <r>AQUELLES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>aquellos</l>
           <r>aquellos</r>
         </p>
@@ -671,8 +1055,22 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>AQUELLOS</l>
+          <r>AQUELLOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
           <l><b/><a/><a/>aquel</l>
           <r>aquel</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>AQUEL</l>
+          <r>AQUEL</r>
         </p>
         <par n="caracter_general"/>
       </e>
@@ -685,11 +1083,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>AQUELLA</l>
+          <r>AQUELLA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/><a/>aquello</l>
           <r>aquello</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>AQUELLO</l>
+          <r>AQUELLO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>aquelli</l>
@@ -699,11 +1111,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>AQUELLI</l>
+          <r>AQUELLI</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>éses</l>
           <r>éses</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ÉSES</l>
+          <r>ÉSES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>ésos</l>
@@ -713,11 +1139,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ÉSOS</l>
+          <r>ÉSOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>ési</l>
           <r>ési</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ÉSI</l>
+          <r>ÉSI</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>ésa</l>
@@ -727,11 +1167,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ÉSA</l>
+          <r>ÉSA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>éstes</l>
           <r>éstes</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ÉSTES</l>
+          <r>ÉSTES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>éstos</l>
@@ -741,11 +1195,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ÉSTOS</l>
+          <r>ÉSTOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>ésti</l>
           <r>ésti</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ÉSTI</l>
+          <r>ÉSTI</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>ésta</l>
@@ -755,11 +1223,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ÉSTA</l>
+          <r>ÉSTA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>aquélles</l>
           <r>aquélles</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>AQUÉLLES</l>
+          <r>AQUÉLLES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>aquéllos</l>
@@ -769,11 +1251,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>AQUÉLLOS</l>
+          <r>AQUÉLLOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>aquél</l>
           <r>aquél</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>AQUÉL</l>
+          <r>AQUÉL</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>aquélla</l>
@@ -783,12 +1279,26 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>AQUÉLLA</l>
+          <r>AQUÉLLA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>aquélli</l>
           <r>aquélli</r>
         </p>
         <par n="caracter_general"/>
       </e>
-
+      <e>
+        <p>
+          <l><b/><a/><a/>AQUÉLLI</l>
+          <r>AQUÉLLI</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+	  
       <e>
         <p>
           <l><b/><a/><a/>él</l>
@@ -798,11 +1308,25 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ÉL</l>
+          <r>ÉL</r>
+        </p>
+        <par n="caracter_general"/> 
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>ello</l>
           <r>ello</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ELLO</l>
+          <r>ELLO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>ella</l>
@@ -812,6 +1336,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ELLA</l>
+          <r>ELLA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>ellos</l>
           <r>ellos</r>
         </p>
@@ -819,16 +1350,29 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ELLOS</l>
+          <r>ELLOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
           <l><b/><a/><a/>elles</l>
           <r>elles</r>
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ELLES</l>
+          <r>ELLES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
     </pardef>
 
 
    <pardef n="contraccion_del">
-
       <e>
         <p>
           <l><b/><a/><a/>el</l>
@@ -836,6 +1380,13 @@
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>EL</l>
+          <r>L</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>mio</l>
@@ -845,11 +1396,25 @@
       </e>
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>MIO</l>
+          <r>L<b/>MIO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>míu</l>
           <r>l<b/>míu</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>	 
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>MÍU</l>
+          <r>L<b/>MÍU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>to</l>
@@ -859,11 +1424,25 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>TO</l>
+          <r>L<b/>TO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>tuyu</l>
           <r>l<b/>tuyu</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>TUYU</l>
+          <r>L<b/>TUYU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>so</l>
@@ -873,8 +1452,22 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>EL<b/>SO</l>
+          <r>L<b/>SO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>suyu</l>
           <r>l<b/>suyu</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>SUYU</l>
+          <r>L<b/>SUYU</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -884,7 +1477,14 @@
           <r>l<b/>nuesu</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>NUESU</l>
+          <r>L<b/>NUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>nuestru</l>
@@ -894,8 +1494,8 @@
       </e>	  
 	  <e>
         <p>
-          <l><b/><a/><a/>el<b/>vuestru</l>
-          <r>l<b/>vuestru</r>
+          <l><b/><a/><a/>EL<b/>NUESTRU</l>
+          <r>L<b/>NUESTRU</r>
         </p>
         <par n="caracter_general"/>
       </e>	  
@@ -906,6 +1506,27 @@
         </p>
         <par n="caracter_general"/>
       </e>	  
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>VUESU</l>
+          <r>L<b/>VUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
+          <l><b/><a/><a/>el<b/>vuestro</l>
+          <r>l<b/>vuestro</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	 
+	  <e>
+        <p>
+          <l><b/><a/><a/>EL<b/>VUESTRO</l>
+          <r>L<b/>VUESTRO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
     </pardef>
 
    <pardef n="contraccion_per">
@@ -915,7 +1536,7 @@
           <r>equí</r>
         </p>
         <par n="caracter_general"/>
-      </e>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>ehí</l>
@@ -979,6 +1600,76 @@
         </p>
         <par n="caracter_general"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>EQUÍ</l>
+          <r>EQUÍ</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>  
+      <e>
+        <p>
+          <l><b/><a/><a/>EHÍ</l>
+          <r>ERHÍ</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ENDE</l>
+          <r>ENDE</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ELLÍ</l>
+          <r>ELLÍ</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ALLÍ</l>
+          <r>ELLÍ</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ARRIBA</l>
+          <r>ERRIBA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ENRIBA</l>
+          <r>ENRIBA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ABAXO</l>
+          <r>ERBAXO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>EMBAXO</l>
+          <r>EMBAXO</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>ENTE</l>
+          <r>ENTE</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
     </pardef>
 
   </pardefs>
@@ -992,14 +1683,98 @@
 	<!-- marcamos para segundo postgenerador -->
 
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
+	  <e><p><l><a/><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><a/></l><r><b/></r></p></e>
 
 
 	<!-- establecemos prioridades en casos especiales -->
 
 
+      <e><p><l><a/>y<b/><a/><a/>el<b/><a/></l><r>y l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/></l><r>y n'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>y<b/><a/><a/>de<b/><a/></l><r>y d'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/></l><r>y p'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>y<b/><a/><a/>que<b/><a/></l><r>y qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>y<b/><a/><a/>la<b/><a/></l><r>y l'</r></p><par n="vocals"/></e>
+      <!--<e><p><l><a/>y<b/><a/><a/>me<b/><a/></l><r>y m'</r></p><par n="vocals"/></e>-->
+
+       <e><p><l><a/>y<b/><a/><a/>de<b/><a/><a/>el</l><r>y<b/>del</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>a<b/><a/><a/>el</l><r>y<b/>al</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>so<b/><a/><a/>el</l><r>y<b/>sol</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>el</l><r>y<b/>col</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>la</l><r>y<b/>cola</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>los</l><r>y<b/>colos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>les</l><r>y<b/>coles</r></p></e> 
+      <!--<e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>lo</l><r>y<b/>colo</r></p></e> -->
+      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>el</l><r>y<b/>pal</r></p></e> 
+      <!--<e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>la</l><r>y<b/>cola</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>los</l><r>y<b/>colos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>les</l><r>y<b/>coles</r></p></e>-->
+      <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>el</l><r>y<b/>pol</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>la</l><r>y<b/>pola</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>lo</l><r>y<b/>polo</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>los</l><r>y<b/>polos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>les</l><r>y<b/>poles</r></p></e>  
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>el</l><r>y<b/>nel</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>la</l><r>y<b/>na</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>los</l><r>y<b/>nos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>les</l><r>y<b/>nes</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>un</l><r>y<b/>nun</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>una</l><r>y<b/>nuna</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>unos</l><r>y<b/>nunos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>unes</l><r>y<b/>nunes</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>esti</l><r>y<b/>nesti</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>esta</l><r>y<b/>nesta</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>estos</l><r>y<b/>nestos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>estes</l><r>y<b/>nestes</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>esto</l><r>y<b/>nesto</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>esi</l><r>y<b/>nesi</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>esa</l><r>y<b/>nesa</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>esos</l><r>y<b/>nesos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>eses</l><r>y<b/>neses</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>eso</l><r>y<b/>neso</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ésti</l><r>y<b/>nésti</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ésta</l><r>y<b/>nésta</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>éstos</l><r>y<b/>néstos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>éstes</l><r>y<b/>néstes</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ési</l><r>y<b/>nési</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ésa</l><r>y<b/>nésa</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ésos</l><r>y<b/>nésos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>éses</l><r>y<b/>néses</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquel</l><r>y<b/>naquel</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquella</l><r>y<b/>naquella</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquelles</l><r>y<b/>naquelles</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquellos</l><r>y<b/>naquellos</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquél</l><r>y<b/>naquél</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquélla</l><r>y<b/>naquélla</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquélles</l><r>y<b/>naquélles</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>aquéllos</l><r>y<b/>naquéllos</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>él</l><r>y<b/>nél</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ella</l><r>y<b/>nella</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>elles</l><r>y<b/>nelles</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ellos</l><r>y<b/>nellos</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ello</l><r>y<b/>nello</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>tou<b/><a/><a/>lo</l><r>y<b/>nella</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>tou<b/><a/><a/>el</l><r>y<b/>tol</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>toa<b/><a/><a/>la</l><r>y<b/>tola</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>toes<b/><a/><a/>les</l><r>y<b/>toles</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>toos<b/><a/><a/>los</l><r>y<b/>tolos</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>per<b/><a/><a/>enriba</l><r>y<b/>penriba</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>per<b/><a/><a/>embaxo</l><r>y<b/>pembaxo</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>per<b/><a/><a/>equí</l><r>y<b/>pequí</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>per<b/><a/><a/>ende</l><r>y<b/>pende</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>cada<b/><a/>unu</l><r>y<b/>caúnu</r></p></e>
+      <e><p><l><a/>y<b/><a/><a/>cada<b/><a/><a/>una</l><r>y<b/>caúna</r></p></e>
+
+
+
+
+
 
       <e><p><l><a/>y<b/><a/></l><r>ya<b/></r></p><par n="vocal_i_hi"/></e>
+
+
+
       <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><a/><a/>que<b/><a/><a/>el<b/><a/></l><r>que'l<b/></r></p><par n="consonante"/></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/></l><r>que<b/>n'</r></p><par n="vocals"/></e>
@@ -1012,7 +1787,7 @@
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>un</l><r>que<b/>nun</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>una</l><r>que<b/>nuna</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>unos</l><r>que<b/>nunos</r></p></e>
-      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>unes</l><r>que<b/>nunes</r></p></e>      
+      <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>unes</l><r>que<b/>nunes</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esta</l><r>que<b/>nesta</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esti</l><r>que<b/>nesti</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>esto</l><r>que<b/>nesto</r></p></e>
@@ -1047,25 +1822,25 @@
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ellos</l><r>que<b/>nellos</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>elles</l><r>que<b/>nelles</r></p></e>
 
-      <e><p><l><a/>así que<b/><a/></l><r><b/>así qu'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>así que<b/><a/><a/>el<b/><a/></l><r><b/>así que'l<b/></r></p><par n="consonante"/></e>
-      <e><p><l><a/>así que<b/><a/><a/>el<b/></l><r><b/>así que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>así que<b/><a/></l><r>así qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>así que<b/><a/><a/>el<b/><a/></l><r>así que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>así que<b/><a/><a/>el<b/></l><r>así que'l<b/></r></p><par n="consonante"/></e>
 
-      <e><p><l><a/>magar que<b/><a/></l><r><b/>magar qu'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>magar que<b/><a/><a/>el<b/><a/></l><r><b/>magar que'l<b/></r></p><par n="consonante"/></e>
-      <e><p><l><a/>magar que<b/><a/><a/>el<b/></l><r><b/>magar que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>magar que<b/><a/></l><r>magar qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>magar que<b/><a/><a/>el<b/><a/></l><r>magar que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>magar que<b/><a/><a/>el<b/></l><r>magar que'l<b/></r></p><par n="consonante"/></e>
 
-      <e><p><l><a/>de mou que<b/><a/></l><r><b/>de mou qu'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>de mou que<b/><a/><a/>el<b/><a/></l><r><b/>de mou que'l<b/></r></p><par n="consonante"/></e>
-      <e><p><l><a/>de mou que<b/><a/><a/>el<b/></l><r><b/>de mou que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>de mou que<b/><a/></l><r>de mou qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>de mou que<b/><a/><a/>el<b/><a/></l><r>de mou que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>de mou que<b/><a/><a/>el<b/></l><r>de mou que'l<b/></r></p><par n="consonante"/></e>
 
-      <e><p><l><a/>de manera que<b/><a/></l><r><b/>de manera qu'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>de manera que<b/><a/><a/>el<b/><a/></l><r><b/>de manera que'l<b/></r></p><par n="consonante"/></e>
-      <e><p><l><a/>de manera que<b/><a/><a/>el<b/></l><r><b/>de manera que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>de manera que<b/><a/></l><r>de manera qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>de manera que<b/><a/><a/>el<b/><a/></l><r>de manera que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>de manera que<b/><a/><a/>el<b/></l><r>de manera que'l<b/></r></p><par n="consonante"/></e>
 
-      <e><p><l><a/>de mou y manera que<b/><a/></l><r><b/>de mou y manera qu'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>de mou y manera que<b/><a/><a/>el<b/><a/></l><r><b/>de mou y manera que'l<b/></r></p><par n="consonante"/></e>
-      <e><p><l><a/>de mou y manera que<b/><a/><a/>el<b/></l><r><b/>de mou y manera que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>de mou y manera que<b/><a/></l><r>de mou y manera qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>de mou y manera que<b/><a/><a/>el<b/><a/></l><r>de mou y manera que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>de mou y manera que<b/><a/><a/>el<b/></l><r>de mou y manera que'l<b/></r></p><par n="consonante"/></e>
 
       <e><p><l><a/>asina que<b/><a/></l><r><b/>asina qu'</r></p><par n="vocals"/></e>
       <e><p><l><a/>asina que<b/><a/><a/>el<b/><a/></l><r><b/>asína que'l<b/></r></p><par n="consonante"/></e>
@@ -1344,6 +2119,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>DE</l>
+          <r><a/>DE</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>a</l>
           <r><a/>a</r>
         </p>
@@ -1366,10 +2148,38 @@
       <e>
         <p>
           <l><a/><a/>Pa</l>
+          <r><a/>Pa</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>	  
+      <e>
+        <p>
+          <l><a/><a/>PA</l>
+          <r><a/>PA</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>	  
+      <e>
+        <p>
+          <l><a/><a/>pa</l>
+          <r><a/>p</r>
+        </p>
+        <par n="contraccion_pa"/>
+      </e>	  
+      <e>
+        <p>
+          <l><a/><a/>Pa</l>
           <r><a/>P</r>
         </p>
         <par n="contraccion_pa"/>
       </e>
+      <e>
+        <p>
+          <l><a/><a/>PA</l>
+          <r><a/>P</r>
+        </p>
+        <par n="contraccion_pa"/>
+      </e>	  
       <e>
         <p>
           <l><a/><a/>so</l>
@@ -1386,6 +2196,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>SO</l>
+          <r><a/>SO</r>
+        </p>
+        <par n="contraccion_del"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>con</l>
           <r><a/>co</r>
         </p>
@@ -1398,6 +2215,13 @@
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
+      <e>
+        <p>
+          <l><a/><a/>CON</l>
+          <r><a/>CO</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>	  
       <e>
         <p>
           <l><a/><a/>per</l>
@@ -1414,6 +2238,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>PER</l>
+          <r><a/>PE</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>por</l>
           <r><a/>po</r>
         </p>
@@ -1426,6 +2257,13 @@
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
+      <e>
+        <p>
+          <l><a/><a/>POR</l>
+          <r><a/>PO</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>  
       <e>
         <p>
           <l><a/><a/>en</l>
@@ -1442,6 +2280,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>EN</l>
+          <r><a/>N</r>
+        </p>
+        <par n="contraccion_en"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>tou</l>
           <r><a/>to</r>
         </p>
@@ -1454,6 +2299,13 @@
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
+      <e>
+        <p>
+          <l><a/><a/>TOU</l>
+          <r><a/>TO</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>	  
       <e>
         <p>
           <l><a/><a/>toa</l>
@@ -1470,6 +2322,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>TOA</l>
+          <r><a/>TO</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>too</l>
           <r><a/>to</r>
         </p>
@@ -1484,6 +2343,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>TOO</l>
+          <r><a/>TO</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>toos</l>
           <r><a/>to</r>
         </p>
@@ -1493,6 +2359,13 @@
         <p>
           <l><a/><a/>Toos</l>
           <r><a/>To</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>
+      <e>
+        <p>
+          <l><a/><a/>TOOS</l>
+          <r><a/>TO</r>
         </p>
         <par n="contraccion_con_por_per"/>
       </e>
@@ -1512,6 +2385,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>TOES</l>
+          <r><a/>TO</r>
+        </p>
+        <par n="contraccion_con_por_per"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>cada</l>
           <r><a/>ca</r>
         </p>
@@ -1526,6 +2406,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>CADA</l>
+          <r><a/>CA</r>
+        </p>
+        <par n="contraccion_cada"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>per</l>
           <r><a/>p</r>
         </p>
@@ -1538,6 +2425,13 @@
         </p>
         <par n="contraccion_per"/>
       </e>
+      <e>
+        <p>
+          <l><a/><a/>PER</l>
+          <r><a/>P</r>
+        </p>
+        <par n="contraccion_per"/>
+      </e>	  
 
 
 
@@ -1561,6 +2455,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>PA</l>
+          <r><a/>P</r>
+        </p>
+        <par n="apostrofe_a"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>en</l>
           <r><a/>n</r>
         </p>
@@ -1573,6 +2474,13 @@
         </p>
         <par n="apostrofe"/>
       </e>
+      <e>
+        <p>
+          <l><a/><a/>EN</l>
+          <r><a/>N</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>	  
       <e>
         <p>
           <l><a/><a/>me</l>
@@ -1589,6 +2497,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>ME</l>
+          <r><a/>M</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>te</l>
           <r><a/>t</r>
         </p>
@@ -1601,6 +2516,13 @@
         </p>
         <par n="apostrofe"/>
       </e>
+     <e>
+        <p>
+          <l><a/><a/>TE</l>
+          <r><a/>T</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>	  
       <e>
         <p>
           <l><a/><a/>se</l>
@@ -1617,6 +2539,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>SE</l>
+          <r><a/>S</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>que</l>
           <r><a/>qu</r>
         </p>
@@ -1631,6 +2560,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>QUE</l>
+          <r><a/>QU</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>el</l>
           <r><a/>l</r>
         </p>
@@ -1642,7 +2578,14 @@
           <r><a/>L</r>
         </p>
         <par n="apostrofe"/>
-      </e>
+      </e>	  
+      <e>
+        <p>
+          <l><a/><a/>EL</l>
+          <r><a/>L</r>
+        </p>
+        <par n="apostrofe"/>
+      </e>	  
       <e>
         <p>
           <l><a/><a/>la</l>
@@ -1659,6 +2602,13 @@
       </e>
       <e>
         <p>
+          <l><a/><a/>LA</l>
+          <r><a/>L</r>
+        </p>
+        <par n="apostrofe_a"/>
+      </e>	  
+      <e>
+        <p>
           <l><a/><a/>de</l>
           <r><a/>d</r>
         </p>
@@ -1671,16 +2621,15 @@
         </p>
         <par n="apostrofe"/>
       </e>
-
-
- <!-- <e>
-            <p>
-                <l><a/>y<b/><a/></l>
-                <r>ya</r>
-            </p>
-            <re>[I|i|HI|Hi|hi][A-Za-zá-úÁ-Ú]*</re>
+      <e>
+        <p>
+          <l><a/><a/>DE</l>
+          <r><a/>D</r>
+        </p>
+        <par n="apostrofe"/>
       </e>
--->
+
+
 </section>
 
       <!-- Otra menera de apostrofar, con expresiones regulares.
