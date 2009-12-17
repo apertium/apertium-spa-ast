@@ -165,6 +165,9 @@
   <def-label name="VSERIMP" closed="true">
     <tags-item tags="vbser.imp.*"/>
   </def-label>
+  <def-label name="VHABER" closed="true">
+    <tags-item tags="vbhaver.*"/>
+  </def-label>  
   <def-label name="VHABERINF" closed="true">
     <tags-item tags="vbhaver.inf"/>
   </def-label>
@@ -762,6 +765,10 @@
       <label-item label="NPALTRES"/>
       <label-item label="ACRONIMO"/>
     </label-sequence>
+    <label-sequence>
+      <label-item label="PRNPRO"/>
+      <label-item label="NOM"/>
+    </label-sequence>	
   </forbid>
 
   <enforce-rules>
@@ -774,6 +781,7 @@
         <label-item label="VSERPFCI"/>
         <label-item label="VSERIPI"/>
         <label-item label="VSERSUBJ"/>
+        <label-item label="VHABER"/>		
         <label-item label="VHABERPFCI"/>
         <label-item label="VHABERIPI"/>
         <label-item label="VHABERSUBJ"/>

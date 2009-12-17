@@ -5,6 +5,12 @@
 	<cat-item tags="*"/>
 	<cat-item tags="*.*"/>
 	</def-cat>
+	<def-cat n="verbo">
+	<cat-item tags="vblex.*"/>
+	</def-cat>
+	<def-cat n="prnenc">
+	<cat-item tags="prn.enc.*"/>
+	</def-cat>
 	</section-def-cats>
 
 	<section-def-attrs>
@@ -18,6 +24,24 @@
 	</section-def-vars>
 
 	<section-rules>
+
+		<rule comment="REGLA: VERB+ENC">
+			<pattern>
+			<pattern-item n="verbo"/>
+			<pattern-item n="prnenc"/>
+			</pattern>
+
+			<action>
+			<out> <!-- Print ~ before every word -->
+			  <lu><lit-tag v="a"/></lu>
+			  <mlu>
+			    <lu><clip pos="1" side="tl" part="whole"/></lu>
+			    <lu><clip pos="2" side="tl" part="whole"/></lu>
+			  </mlu>
+			</out>
+			</action>
+		</rule>
+
 		<rule comment="REGLA: TOT">
 			<pattern>
 			<pattern-item n="tot"/>
@@ -30,6 +54,7 @@
 			</out>
 			</action>
 		</rule>
+
 	</section-rules>
 
 </transfer>
