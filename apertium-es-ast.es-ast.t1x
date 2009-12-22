@@ -6625,7 +6625,8 @@
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="1" side="tl" part="whole"/> 
                 </lu> 
                 <lu>
@@ -6663,7 +6664,8 @@
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="1" side="tl" part="whole"/> 
                 </lu> 
                 <lu>
@@ -6680,7 +6682,8 @@
           </when>		  
           <otherwise> 
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="1" side="tl" part="whole"/> 
                 </lu> 
                 <lu>
@@ -6717,7 +6720,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
 			</in>
 	   </test>
 		<out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="1" side="tl" part="lem"/>
               </get-case-from>
@@ -6740,7 +6744,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
 	</when>
         <otherwise>
 	   <out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="1" side="tl" part="lem"/>
               </get-case-from>
@@ -6783,7 +6788,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
                 </equal>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 	            <clip pos="1" side="tl" part="lemh"/>
 	            <clip pos="1" side="tl" part="a_verb"/>
 		  		<lit-tag v="pis"/>
@@ -6800,7 +6806,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
          </when>	
 		 <otherwise>
         <out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <clip pos="1" side="tl" part="whole"/> 
             </lu> 
             
@@ -7165,7 +7172,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="3">
                     <clip pos="5" side="tl" part="lem"/>
                   </get-case-from> 
@@ -7324,7 +7332,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
                 <clip pos="3" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="4">
                     <clip pos="7" side="tl" part="lem"/>
                   </get-case-from> 
@@ -7590,7 +7599,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="3">
                     <clip pos="6" side="tl" part="lem"/>
                   </get-case-from> 
@@ -7759,7 +7769,8 @@ provocándole -> provocándo-y ('provocar' intransitivo)
                 <clip pos="3" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="4">
                     <clip pos="7" side="tl" part="lem"/>
                   </get-case-from> 
@@ -8029,7 +8040,8 @@ La persona que más te lo ha encontrado
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="3">
                     <clip pos="6" side="tl" part="lem"/>
                   </get-case-from> 
@@ -8176,7 +8188,8 @@ La persona que más veces te lo encuentra
                 <clip pos="3" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="6" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -8218,7 +8231,8 @@ La persona que más veces te lo encuentra
                 <clip pos="3" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="6" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -8253,7 +8267,8 @@ La persona que más veces te lo encuentra
                 <clip pos="3" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="6" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -8429,7 +8444,8 @@ La persona que más te lo encuentra
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="5" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -8467,7 +8483,8 @@ La persona que más te lo encuentra
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="5" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -8498,7 +8515,8 @@ La persona que más te lo encuentra
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="5" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -8590,7 +8608,8 @@ La persona que más veces lo encuentra
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="5" side="tl" part="lem"/>
                   <clip pos="5" side="tl" part="a_verb"/>
                   <clip pos="5" side="tl" part="temps"/>
@@ -8962,7 +8981,8 @@ que más le comí->que más-y comí
                 <clip pos="2" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="4" side="tl" part="lem"/>
                   <clip pos="4" side="tl" part="a_verb"/>
                   <clip pos="4" side="tl" part="temps"/>
@@ -9287,7 +9307,8 @@ no me lo debo -> nun lo debo
               
               <b/>
               
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 	<clip pos="4" side="tl" part="whole"/>
               </lu>	
               <lu>
@@ -9350,7 +9371,8 @@ no me lo debo -> nun lo debo
               <b/>
               
               
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 	<clip pos="4" side="tl" part="whole"/>
               </lu>	
                 <lu>
@@ -9678,7 +9700,8 @@ no me lo debo -> nun lo debo
               
               
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 	<clip pos="4" side="tl" part="whole"/>
               </lu>
               
@@ -9822,7 +9845,8 @@ no me lo debo -> nun lo debo
              	
                <b/>	  
                
-              <mlu> <lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu> <lu>
                 	<clip pos="4" side="tl" part="whole"/>
               </lu>	
                 <lu>
@@ -9916,7 +9940,8 @@ no me lo debo -> nun lo debo
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="4" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -9944,7 +9969,8 @@ no me lo debo -> nun lo debo
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="4" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -10018,7 +10044,8 @@ se te alegró el día -> allegrósete el día
          </and>
          </test>
               <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                    <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from>
@@ -10058,7 +10085,8 @@ se te alegró el día -> allegrósete el día
          </and>
          </test>
               <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                    <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from>
@@ -10145,7 +10173,8 @@ se te alegró el día -> allegrósete el día
          </and>
        </test>
               <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                    <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from>
@@ -10217,7 +10246,8 @@ se te alegró el día -> allegrósete el día
 	   </test>
           
               <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                    <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from>
@@ -10242,7 +10272,8 @@ se te alegró el día -> allegrósete el día
 
       <otherwise>
         <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from>
@@ -10351,7 +10382,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               		<get-case-from pos="1">
                 	<clip pos="3" side="tl" part="lem"/>
               		</get-case-from>
@@ -10429,7 +10461,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               		<get-case-from pos="1">
                 	<clip pos="3" side="tl" part="lem"/>
               		</get-case-from>
@@ -10499,7 +10532,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               		<get-case-from pos="1">
                 	<clip pos="3" side="tl" part="lem"/>
               		</get-case-from>
@@ -10569,7 +10603,8 @@ me lo llamó -> llamómelo
              </and>
             </test>
               <out>
-		 <mlu><lu>
+		  <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 			<get-case-from pos="1">
 			 	<clip pos="3" side="tl" part="lem"/>
 			</get-case-from>
@@ -10646,7 +10681,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 			<get-case-from pos="1">
 			 	<clip pos="3" side="tl" part="lem"/>
 			</get-case-from>
@@ -10715,7 +10751,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 			<get-case-from pos="1">
 			 	<clip pos="3" side="tl" part="lem"/>
 			</get-case-from>
@@ -10768,7 +10805,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               		<get-case-from pos="1">
                 	<clip pos="3" side="tl" part="lem"/>
               		</get-case-from>
@@ -10826,7 +10864,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 			<get-case-from pos="1">
 			<clip pos="3" side="tl" part="lem"/>
 			</get-case-from>
@@ -10881,7 +10920,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               		<get-case-from pos="1">
                 	<clip pos="3" side="tl" part="lem"/>
               		</get-case-from>
@@ -10936,7 +10976,8 @@ me lo llamó -> llamómelo
           
              </test>
                <out>
-		  <mlu><lu>
+		   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 			<get-case-from pos="1">
 			<clip pos="3" side="tl" part="lem"/>
 			</get-case-from>
@@ -10976,7 +11017,8 @@ me lo llamó -> llamómelo
                 </equal>
              </test>
                <out>
-				  <mlu><lu>
+				   <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 					  <get-case-from pos="1">
 						<clip pos="3" side="tl" part="lem"/>
 					  </get-case-from>
@@ -11007,7 +11049,8 @@ me lo llamó -> llamómelo
           </when> 
         <otherwise>
         <out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="3" side="tl" part="lem"/>
               </get-case-from>
@@ -11094,7 +11137,8 @@ se cayó->cayó
         <otherwise>
          <out>
            
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
               </get-case-from>
@@ -11202,7 +11246,8 @@ la niña se cae -> la neña cai
 		<clip pos="2" side="tl" part="nbr"/>
 	    </lu>
 	   <b/>
-           <mlu>
+            <lu><lit-tag v="a"/></lu>
+	    <mlu>
 	    <lu>
               <get-case-from pos="4">
                 <clip pos="4" side="tl" part="lem"/>
@@ -11313,7 +11358,8 @@ Juan se duchó un rato -> Juan duchóse un ratu
 		 <clip pos="1" side="tl" part="whole"/> 
 	    </lu>
 	    <b/>
-           <mlu>
+            <lu><lit-tag v="a"/></lu>
+	    <mlu>
 	    <lu>
               <get-case-from pos="3">
                 <clip pos="3" side="tl" part="lem"/>
@@ -11431,7 +11477,8 @@ los niños se llaman un rato -> los neños llámense un ratu
 		 <clip pos="2" side="tl" part="whole"/> 
 	    </lu>
 	    <b/>
-           <mlu>
+            <lu><lit-tag v="a"/></lu>
+	    <mlu>
 	    <lu>
               <get-case-from pos="4">
                 <clip pos="4" side="tl" part="lem"/>
@@ -11529,7 +11576,8 @@ regla EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
 		    <clip pos="1" side="tl" part="nbr"/>
 	    </lu>
 	    <b/>
-           <mlu>
+            <lu><lit-tag v="a"/></lu>
+	    <mlu>
 	    <lu>
               <get-case-from pos="3">
                 <clip pos="3" side="tl" part="lem"/>
@@ -11857,7 +11905,8 @@ a David le mordió el perro -> A David mordiólu el perru
 	  </lu>
           <b/>
 	
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="3">
                 <clip pos="4" side="tl" part="lem"/>
               </get-case-from>
@@ -12025,7 +12074,8 @@ a David le haya mordido el perro -> a David mordiéralu el perru
 	    </lu>
             <b/>
            
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="lemh"/>
                 <clip pos="5" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -12107,7 +12157,8 @@ a David le haya mordido el perro -> a David mordiéralu el perru
 	    </lu>
             <b/>
            
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="lemh"/>
                 <clip pos="5" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -12187,7 +12238,8 @@ a David le haya mordido el perro -> a David mordiéralu el perru
 	    </lu>
             <b/>
            
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="lemh"/>
                 <clip pos="5" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -12270,7 +12322,8 @@ a David le haya mordido el perro -> a David mordiéralu el perru
 	    </lu>
             <b/>
             
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="lemh"/>
                 <clip pos="5" side="sl" part="a_verb"/>
                 <clip pos="4" side="sl" part="temps"/>
@@ -12776,7 +12829,8 @@ al niño le mordió el perro -> al neñu mordiólu el perru
 		<clip pos="3" side="tl" part="whole"/> 
 	  </lu>
           <b/>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="4">
                 <clip pos="5" side="tl" part="lem"/>
               </get-case-from>
@@ -12921,7 +12975,8 @@ al niño  rubio le mordió el perro -> al neñu roxu mordiólu el perru
 		<clip pos="4" side="tl" part="whole"/> 
 	  </lu>
           <b/>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="5">
                 <clip pos="6" side="tl" part="lem"/>
               </get-case-from>
@@ -13100,7 +13155,8 @@ al niño le haya mordido el perro -> al neñu mordiéralu el perru
 		<clip pos="3" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="lemh"/>
                 <clip pos="6" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -13185,7 +13241,8 @@ al niño le haya mordido el perro -> al neñu mordiéralu el perru
 		<clip pos="3" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="lemh"/>
                 <clip pos="6" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -13268,7 +13325,8 @@ al niño le haya mordido el perro -> al neñu mordiéralu el perru
 		<clip pos="3" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="lemh"/>
                 <clip pos="6" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -13354,7 +13412,8 @@ al niño le haya mordido el perro -> al neñu mordiéralu el perru
 		<clip pos="3" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="lemh"/>
                 <clip pos="6" side="sl" part="a_verb"/>
                 <clip pos="5" side="sl" part="temps"/>
@@ -13923,7 +13982,8 @@ al niño rubio le haya mordido el perro -> al neñu roxu mordiéralu el perru
 		<clip pos="4" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="7" side="tl" part="lemh"/>
                 <clip pos="7" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -14012,7 +14072,8 @@ al niño rubio le haya mordido el perro -> al neñu roxu mordiéralu el perru
 		<clip pos="4" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="7" side="tl" part="lemh"/>
                 <clip pos="7" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -14099,7 +14160,8 @@ al niño rubio le haya mordido el perro -> al neñu roxu mordiéralu el perru
 		<clip pos="4" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="7" side="tl" part="lemh"/>
                 <clip pos="7" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -14189,7 +14251,8 @@ al niño rubio le haya mordido el perro -> al neñu roxu mordiéralu el perru
 		<clip pos="4" side="tl" part="whole"/> 
 	    </lu>
             <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="7" side="tl" part="lemh"/>
                 <clip pos="7" side="sl" part="a_verb"/>
                 <clip pos="6" side="sl" part="temps"/>
@@ -14727,7 +14790,8 @@ le comí el bocadillo -> comí-y el bocáu
 			</equal>	
 		</test>
 	   <out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
               </get-case-from>
@@ -14868,7 +14932,8 @@ que le vi el bocadillo -> que-y vi'l bocáu
 	    </lu>
 	    
             <b/>
-           <mlu><lu>
+            <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="3">
                 <clip pos="3" side="tl" part="lem"/>
               </get-case-from>
@@ -14956,7 +15021,8 @@ le haya ido un asturiano -> fóra-y un asturianu
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -15028,7 +15094,8 @@ le haya ido un asturiano -> fóra-y un asturianu
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -15099,7 +15166,8 @@ le haya ido un asturiano -> fóra-y un asturianu
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -15173,7 +15241,8 @@ le haya ido un asturiano -> fóra-y un asturianu
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <clip pos="2" side="sl" part="temps"/>
@@ -15436,6 +15505,7 @@ que le habrá visto la pierna -> que-y vería la pierna
 	      <clip pos="1" side="tl" part="whole"/> 
 	    </lu>
             <b/>
+	     <lu><lit-tag v="a"/></lu>
 	    <mlu>
               <lu>
                 <clip pos="4" side="tl" part="lemh"/>
@@ -15669,6 +15739,7 @@ que le habrá visto la pierna -> que-y vería la pierna
 	      <clip pos="1" side="tl" part="whole"/> 
 	    </lu>
             <b/>
+	     <lu><lit-tag v="a"/></lu>
 	    <mlu>
               <lu>
                 <clip pos="4" side="tl" part="lemh"/>
@@ -15898,6 +15969,7 @@ que le habrá visto la pierna -> que-y vería la pierna
 	      <clip pos="1" side="tl" part="whole"/> 
 	    </lu>
             <b/>
+	     <lu><lit-tag v="a"/></lu>
 	    <mlu>
               <lu>
                 <clip pos="4" side="tl" part="lemh"/>
@@ -16115,6 +16187,7 @@ que le habrá visto la pierna -> que-y vería la pierna
 	      <clip pos="1" side="tl" part="whole"/> 
 	    </lu>
             <b/>
+	     <lu><lit-tag v="a"/></lu>
 	    <mlu>
               <lu>
                 <clip pos="4" side="tl" part="lemh"/>
@@ -16220,7 +16293,8 @@ le comí a bocados -> comí-y a taragaños
 	    </and>
 	   </test>
 	   <out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
               </get-case-from>
@@ -16265,7 +16339,8 @@ le comí a bocados -> comí-y a taragaños
 	    </and>
 	   </test>
 	   <out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
               </get-case-from>
@@ -16292,7 +16367,8 @@ le comí a bocados -> comí-y a taragaños
 	
         <otherwise>
 	<out>
-          <mlu><lu>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
               </get-case-from>
@@ -16573,7 +16649,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -16663,7 +16740,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -16752,7 +16830,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -16844,7 +16923,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <clip pos="2" side="sl" part="temps"/>
@@ -16927,7 +17007,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -17013,7 +17094,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -17098,7 +17180,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -17186,7 +17269,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <clip pos="2" side="sl" part="temps"/>
@@ -17256,7 +17340,8 @@ le haya acusado con ganas -> acusáralu con ganes
 
 
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -17329,7 +17414,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -17401,7 +17487,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -17476,7 +17563,8 @@ le haya acusado con ganas -> acusáralu con ganes
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
                 <clip pos="2" side="sl" part="temps"/>
@@ -18861,7 +18949,8 @@ que se cae -> que cai
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="3" side="tl" part="lem"/>
                   <clip pos="3" side="tl" part="a_verb"/>
                   <clip pos="3" side="tl" part="temps"/>
@@ -19271,7 +19360,8 @@ no le comí a bocados -> nun-y comí a taragaños
                 <clip pos="1" side="tl" part="whole"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="3" side="tl" part="lem"/>
                   <clip pos="3" side="tl" part="a_verb"/>
                   <clip pos="3" side="tl" part="temps"/>
@@ -19297,7 +19387,8 @@ no le comí a bocados -> nun-y comí a taragaños
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="3" side="tl" part="lem"/>
                   <clip pos="3" side="tl" part="a_verb"/>
                   <clip pos="3" side="tl" part="temps"/>
@@ -21496,7 +21587,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -21547,7 +21639,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -21613,7 +21706,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -21670,7 +21764,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -21736,7 +21831,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -21792,7 +21888,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -21852,7 +21949,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -21903,7 +22001,8 @@ se lo hubiera dicho -> dixésello (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22001,7 +22100,8 @@ te lo hubiera dicho -> dixésecho (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22054,7 +22154,8 @@ te lo hubiera dicho -> dixésecho (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22111,7 +22212,8 @@ te lo hubiera dicho -> dixésecho (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22177,7 +22279,8 @@ te lo hubiera dicho -> dixésecho (pis)
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22322,7 +22425,8 @@ y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22426,7 +22530,8 @@ y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22525,7 +22630,8 @@ y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22635,7 +22741,8 @@ y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="lemh"/>
                 <clip pos="4" side="sl" part="a_verb"/>
                 <clip pos="3" side="sl" part="temps"/>
@@ -22805,7 +22912,8 @@ se hayan caído -> cayeran
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -22936,7 +23044,8 @@ se hayan caído -> cayeran
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -23062,7 +23171,8 @@ se hayan caído -> cayeran
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -23198,7 +23308,8 @@ se hayan caído -> cayeran
               </and>
             </test>
             <out>
-			<mlu>	
+			 <lu><lit-tag v="a"/></lu>
+	    <mlu>	
               <lu>
                 <clip pos="3" side="tl" part="lemh"/>
                 <clip pos="3" side="sl" part="a_verb"/>
@@ -23605,7 +23716,8 @@ que le ha casado -> que lu casó
                 <b/>
               
             
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="lemh"/>
                 <clip pos="4" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
@@ -23667,7 +23779,8 @@ que le ha casado -> que lu casó
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -24051,7 +24164,8 @@ que le ha casado -> que lu casó
               </lu> 
               <b/>
 
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="lemh"/>
                 <clip pos="4" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
@@ -24121,7 +24235,8 @@ que le ha casado -> que lu casó
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -24496,7 +24611,8 @@ que le ha casado -> que lu casó
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="lemh"/>
                 <clip pos="4" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
@@ -24562,7 +24678,8 @@ que le ha casado -> que lu casó
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="4" side="tl" part="lem"/>
                   </get-case-from> 
@@ -24965,7 +25082,8 @@ que le ha casado -> que lu casó
               </lu> 
               <b/>
               	  
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="lemh"/>
                 <clip pos="4" side="sl" part="a_verb"/>
                 <clip pos="3" side="sl" part="temps"/>
@@ -25036,7 +25154,8 @@ que le ha casado -> que lu casó
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="lemh"/>
                 <clip pos="4" side="sl" part="a_verb"/>
                 <clip pos="3" side="sl" part="temps"/>
@@ -25227,7 +25346,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -25285,7 +25405,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -25437,7 +25558,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -25502,7 +25624,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -25650,7 +25773,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -25713,7 +25837,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="1">
                     <clip pos="3" side="tl" part="lem"/>
                   </get-case-from> 
@@ -25869,7 +25994,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu>
 		 <lu>
 			<clip pos="3" side="tl" part="lemh"/>
 			<clip pos="3" side="sl" part="a_verb"/>
@@ -25934,7 +26060,8 @@ le he comido a bocados -> comí-y a taragaños
               </and>
             </test>
             <out>
-              <mlu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu>
 		 <lu>
 			<clip pos="3" side="tl" part="lemh"/>
 			<clip pos="3" side="sl" part="a_verb"/>
@@ -26177,7 +26304,8 @@ y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se +
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="5" side="tl" part="lem"/>
                   </get-case-from> 
@@ -26406,7 +26534,8 @@ y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se +
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="5" side="tl" part="lem"/>
                   </get-case-from> 
@@ -26630,7 +26759,8 @@ y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se +
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="5" side="tl" part="lem"/>
                   </get-case-from> 
@@ -26876,7 +27006,8 @@ y se lo ha/haya/habría/habrá dicho ->  e díxollo    (decir-pret_perfec + se +
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="lemh"/>
                 <clip pos="5" side="sl" part="a_verb"/>
                 <clip pos="4" side="sl" part="temps"/>
@@ -27027,7 +27158,8 @@ y te lo ha/haya/habría/habrá dicho ->  e díxocho     (decir-pret_perfec + te 
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="5" side="tl" part="lem"/>
                   </get-case-from> 
@@ -27143,7 +27275,8 @@ y te lo ha/haya/habría/habrá dicho ->  e díxocho     (decir-pret_perfec + te 
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="5" side="tl" part="lem"/>
                   </get-case-from> 
@@ -27255,7 +27388,8 @@ y te lo ha/haya/habría/habrá dicho ->  e díxocho     (decir-pret_perfec + te 
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <get-case-from pos="2">
                     <clip pos="5" side="tl" part="lem"/>
                   </get-case-from> 
@@ -27378,7 +27512,8 @@ y te lo ha/haya/habría/habrá dicho ->  e díxocho     (decir-pret_perfec + te 
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="lemh"/>
                 <clip pos="5" side="sl" part="a_verb"/>
                 <clip pos="4" side="sl" part="temps"/>
@@ -27516,6 +27651,7 @@ ir a comerlo -> ir comelo (si al preposición es "a", la quita)
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
+                   <lu><lit-tag v="a"/></lu>
               <mlu><lu>
                   <clip pos="3" side="tl" part="whole"/> 
                 </lu>
@@ -27535,7 +27671,8 @@ ir a comerlo -> ir comelo (si al preposición es "a", la quita)
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="3" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -27576,7 +27713,8 @@ ir a comertelo -> ir comételo  (si al preposición es "a", la quita)
                 <clip pos="1" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="3" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -27598,7 +27736,8 @@ ir a comertelo -> ir comételo  (si al preposición es "a", la quita)
                 <clip pos="2" side="tl" part="whole"/> 
               </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                   <clip pos="3" side="tl" part="whole"/> 
                 </lu>
                 <lu>
@@ -27727,7 +27866,8 @@ me voy a caer -> voi cayer
                 <clip pos="2" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -27761,7 +27901,8 @@ me voy a caer -> voi cayer
                 <clip pos="2" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -27782,7 +27923,8 @@ me voy a caer -> voi cayer
                 <clip pos="2" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="4" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -28152,7 +28294,8 @@ se me va a casar -> va casáseme
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
 		<lu>
@@ -28192,7 +28335,8 @@ se me va a casar -> va casáseme
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -28271,7 +28415,8 @@ se me va a casar -> va casáseme
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -28319,7 +28464,8 @@ se me va a casar -> va casáseme
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -28350,7 +28496,8 @@ se me va a casar -> va casáseme
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -28380,7 +28527,8 @@ se me va a casar -> va casáseme
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -29646,7 +29794,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="2" side="sl" part="nbr"/>
                 <clip pos="3" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 
@@ -29716,7 +29865,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="2" side="sl" part="nbr"/>
                 <clip pos="3" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -29783,7 +29933,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="2" side="sl" part="nbr"/>
                 <clip pos="3" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -29977,7 +30128,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu>
@@ -30052,7 +30204,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -30126,7 +30279,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -30317,7 +30471,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu>
@@ -30391,7 +30546,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -30463,7 +30619,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -30664,7 +30821,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu>
@@ -30742,7 +30900,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -30820,7 +30979,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -30857,7 +31017,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -30881,7 +31042,8 @@ te haya venido a comprar -> viniera mercate
                 <clip pos="3" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="5" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -33012,7 +33174,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="3" side="sl" part="nbr"/>
                 <clip pos="4" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                  <lu>
@@ -33092,7 +33255,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="3" side="sl" part="nbr"/>
                 <clip pos="4" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -33248,7 +33412,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="3" side="sl" part="nbr"/>
                 <clip pos="4" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -33328,7 +33493,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="3" side="sl" part="nbr"/>
                 <clip pos="4" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
                     
@@ -33395,7 +33561,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="3" side="sl" part="nbr"/>
                 <clip pos="4" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -33472,7 +33639,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="3" side="sl" part="nbr"/>
                 <clip pos="4" side="tl" part="lemq"/>
               </lu><b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -33610,7 +33778,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                  <lu>
@@ -33697,7 +33866,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -33865,7 +34035,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -33952,7 +34123,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
                    
@@ -34022,7 +34194,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -34105,7 +34278,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -34239,7 +34413,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                  <lu>
@@ -34324,7 +34499,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -34487,7 +34663,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -34571,7 +34748,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
               
@@ -34641,7 +34819,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -34722,7 +34901,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -34862,7 +35042,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                  <lu>
@@ -34951,7 +35132,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -35124,7 +35306,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -35214,7 +35397,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
                        
@@ -35288,7 +35472,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -35375,7 +35560,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="lemq"/>
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
                  </lu>
                 <lu><get-case-from pos="1">
@@ -35421,7 +35607,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -35454,7 +35641,8 @@ te lo hayas ido a comprar -> foras mercalo
                 <clip pos="4" side="tl" part="whole"/> 
               </lu>
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
                 <clip pos="6" side="tl" part="whole"/> 
               </lu>
               <lu>
@@ -39714,7 +39902,8 @@ regla EGV51 hacer + sustantivo_temporal -> DIR + sustantivo_temporal
 	        <clip pos="1" side="tl" part="whole"/> 
 	      </lu> 
               <b/>
-              <mlu><lu>
+               <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
 	        <clip pos="2" side="tl" part="whole"/> 
 	      </lu> 	
               <lu>
