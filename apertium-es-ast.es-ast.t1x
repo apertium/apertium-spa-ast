@@ -64,7 +64,7 @@
     <def-cat n="nomp">
       <cat-item tags="np.ant"/>
     </def-cat>
-    <!-- nombre propio antropónimo -->
+    <!-- nombre propio antroponimo -->
 
     <def-cat n="nploc">
       <cat-item tags="np.loc"/>
@@ -9385,7 +9385,12 @@ no me lo debo -> nun lo debo
 				<clip pos="4" side="sl" part="lem"/>
 				<list n="transitivos"/>
 		        </in>
-                       
+                       <not>
+                          <in caseless="yes"><!--in-->
+				<clip pos="4" side="sl" part="lem"/>
+				<list n="reflexivos"/>
+		        </in>
+ 			</not>                      
 		</and>
 	     </test>            
             <out>
@@ -9423,6 +9428,12 @@ no me lo debo -> nun lo debo
 				<clip pos="4" side="sl" part="lem"/>
 				<list n="transitivos"/>
 		        </in>
+                          <not>
+                          <in caseless="yes"><!--in-->
+				<clip pos="4" side="sl" part="lem"/>
+				<list n="reflexivos"/>
+		        </in>
+ 			</not>  
                        
 		</and>
 	     </test>            
@@ -9531,7 +9542,9 @@ no me lo debo -> nun lo debo
               </lu>			  
             </out> 
           </when>
+        
          
+          
            <when>
             <test> 
 		<and>
@@ -9554,6 +9567,12 @@ no me lo debo -> nun lo debo
 				<clip pos="4" side="sl" part="lem"/>
 				<list n="transitivos"/>
 		        </in>
+                         <not>
+                          <in caseless="yes"><!--in-->
+				<clip pos="4" side="sl" part="lem"/>
+				<list n="reflexivos"/>
+		        </in>
+ 			</not>  
                        
 		</and>
 	     </test>            
@@ -9582,6 +9601,11 @@ no me lo debo -> nun lo debo
 		<and>
 		     
                        
+                          <in caseless="yes"><!--in-->
+				<clip pos="1" side="sl" part="lem"/>
+				<list n="pces"/>
+		        </in>	
+                        
                         <equal caseless="yes">
                         	<clip pos="2" side="sl" part="lem"/>
                         	<lit v="se"/>
@@ -9596,7 +9620,12 @@ no me lo debo -> nun lo debo
 				<clip pos="4" side="sl" part="lem"/>
 				<list n="transitivos"/>
 		        </in>
-                       
+                         <not>
+                          <in caseless="yes"><!--in-->
+				<clip pos="4" side="sl" part="lem"/>
+				<list n="reflexivos"/>
+		        </in>
+ 			</not>  
 		</and>
 	     </test>            
             <out>
@@ -9615,7 +9644,55 @@ no me lo debo -> nun lo debo
             </out> 
           </when>
 
-
+          
+          <when>
+            <test> 
+		<and>
+                        
+                        <equal caseless="yes">
+                        	<clip pos="2" side="sl" part="lem"/>
+                        	<lit v="se"/>
+                  	</equal>
+                 
+			<equal caseless="yes">
+				<clip pos="3" side="sl" part="lem"/>
+				<lit v="lo"/>
+				</equal>
+                       
+                        <in caseless="yes"><!--in-->
+				<clip pos="4" side="sl" part="lem"/>
+				<list n="transitivos"/>
+		        </in>
+                         <not>
+                          <in caseless="yes"><!--in-->
+				<clip pos="4" side="sl" part="lem"/>
+				<list n="reflexivos"/>
+		        </in>
+ 			</not>  
+		</and>
+	     </test>            
+            <out>
+             <lu>
+                	<clip pos="1" side="tl" part="whole"/>
+              </lu>
+              
+              
+              <b/>
+              <mlu><lu>
+                	<clip pos="4" side="tl" part="whole"/>
+              </lu>
+              
+               <lu>
+                	 <get-case-from pos="3">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="3" side="tl" part="persona"/>
+                  <clip pos="3" side="tl" part="gen"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+              </lu></mlu>	  
+            </out> 
+          </when>
 
            <when>
             <test> 
@@ -9653,6 +9730,7 @@ no me lo debo -> nun lo debo
                   	</get-case-from>
                   		<lit-tag v="prn.enc.p3.mf.sg"/>
               </lu>
+               <b/>
                <lu>
                	        <clip pos="3" side="tl" part="whole"/>
                </lu>		
@@ -9699,6 +9777,7 @@ no me lo debo -> nun lo debo
                   	</get-case-from>
                   		<lit-tag v="prn.enc.p3.mf.sg"/>
               </lu>
+               <b/>
                <lu>
                	        <clip pos="3" side="tl" part="whole"/>
                </lu>		
@@ -9711,6 +9790,59 @@ no me lo debo -> nun lo debo
           </when>
 
          
+
+          <when>
+            <test> 
+		<and>
+		       <not>
+                          <in caseless="yes"><!--in-->
+				<clip pos="1" side="sl" part="lem"/>
+				<list n="pces"/>
+		        </in>	
+                        </not>
+                        <equal caseless="yes">
+                        	<clip pos="2" side="sl" part="lem"/>
+                        	<lit v="se"/>
+                  	</equal>
+                 
+			<equal caseless="yes">
+				<clip pos="3" side="sl" part="lem"/>
+				<lit v="lo"/>
+				</equal>
+                     
+                       
+		</and>
+	     </test>            
+            <out>
+             <lu>
+               	        <clip pos="1" side="tl" part="whole"/>
+               </lu>	
+              
+              
+             	
+               <b/>	  
+               
+              <mlu> <lu>
+                	<clip pos="4" side="tl" part="whole"/>
+              </lu>	
+                <lu>
+                  <lit v="-y"/>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <lit-tag v="sg"/>
+                </lu>
+                <lu>
+                  <get-case-from pos="3">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from>
+                  <lit-tag v="prn.enc"/>
+                  <clip pos="3" side="tl" part="persona"/>
+                  <clip pos="3" side="tl" part="gen"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+               </lu></mlu>			  
+            </out> 
+          </when>
 
          
           <when>
@@ -9877,6 +10009,12 @@ se te alegró el día -> allegrósete el día
 		  <clip pos="3" side="sl" part="lem"/>
                   <list n="transitivos"/>
            </in>
+          <not>
+           <in caseless="yes">
+		  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+           </in>
+          </not>
          </and>
          </test>
               <out>
@@ -9968,6 +10106,12 @@ se te alegró el día -> allegrósete el día
 		  <clip pos="3" side="sl" part="lem"/>
                   <list n="transitivos"/>
            </in>
+             <not>
+           <in caseless="yes">
+		  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+           </in>
+          </not>
          </and>
          </test>
               <out>
@@ -10136,10 +10280,18 @@ se te alegró el día -> allegrósete el día
 
 <!--
 regla EGV23 pronombre_procl + pronombre_procl + verbo.
-te lo encuentra -> atópatelo
+te me caes -> cáesme 
+te me casó -> casóteme 
+me le casa -> cásamelu
+me le comí -> comílu
+me les comí ->comílos
+me le desquité -> esquité-y 
+te le llamé -> llamételu
+te lo encuentra -> atópatelo 
 te lo encuentras -> atópeslo
-te las comes -> cómesles
-te me casas -> cásesteme
+me lo llamó -> llamómelo 
+
+
 -->
     
     <rule>
@@ -10153,50 +10305,26 @@ te me casas -> cásesteme
 
 	   <when>
             <test>
-             <or>
+             
               <and>
-               <in caseless="yes">
-                  <clip pos="3" side="sl" part="lem"/>
-                  <list n="intransitivos"/>
-                </in>
+             
                 <equal>
                   <clip pos="1" side="sl" part="persona"/>
                   <clip pos="3" side="sl" part="persona"/>
-                </equal>            
-                <not>
-                  <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit v="le"/>
-                  </equal>
-               </not>
-                <not>
-                  <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit v="lo"/>
-                  </equal>
-               </not>
-                  <equal caseless="yes">
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="lo"/>
-                  </equal>
-              </and>
-
-              <and>
+                </equal>    
                 <equal>
                   <clip pos="1" side="sl" part="nbr"/>
                   <clip pos="3" side="sl" part="nbr"/>
-                </equal> 
-                <equal>
-                  <clip pos="1" side="sl" part="persona"/>
-                  <clip pos="3" side="sl" part="persona"/>
-                </equal>            
-                <in caseless="yes">
-                  <clip pos="3" side="sl" part="lem"/>
-                  <list n="transitivos"/>
-                </in>
+                </equal>         
                 <not>
                   <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               </not>
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
                   <lit v="le"/>
                   </equal>
                </not>
@@ -10206,12 +10334,20 @@ te me casas -> cásesteme
                   <lit v="lo"/>
                   </equal>
                </not>
-                  <equal caseless="yes">
-                  <clip pos="2" side="sl" part="lem"/>
-                  <lit v="lo"/>
-                  </equal>
-              </and>
-             </or>
+              <not>
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+             </not>
+             <not>
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+             </not> 
+             </and>
+
           
              </test>
                <out>
@@ -10236,6 +10372,602 @@ te me casas -> cásesteme
             	</lu></mlu>
 	    </out> 
           </when>   
+
+
+
+         <when>
+            <test>
+             
+              <and>
+             
+                <equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>    
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </equal>         
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               </not>
+                
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="lo"/>
+                  </equal>
+               </not>
+              <not>
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+             </not>
+             
+             <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="transitivos"/>
+                </in>
+             
+             <not>
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+             </not> 
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+              		<get-case-from pos="1">
+                	<clip pos="3" side="tl" part="lem"/>
+              		</get-case-from>
+              		<clip pos="3" side="tl" part="a_verb"/>
+              		<clip pos="3" side="tl" part="temps"/>
+              		<clip pos="3" side="tl" part="persona"/>
+              		<clip pos="3" side="tl" part="nbr"/>
+            	 </lu>
+
+              		 <lu>
+              		<get-case-from pos="3">
+			  <lit v="lu"/>
+              		</get-case-from>
+              		<lit-tag v="prn.enc"/>
+              		<clip pos="2" side="tl" part="persona"/>
+              		<lit-tag v="m"/>
+              		<clip pos="2" side="tl" part="nbr"/>
+            		</lu></mlu>
+	    </out> 
+          </when>   
+
+
+          <when>
+            <test>
+             
+              <and>
+             
+                <equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>    
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </equal>         
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               </not>
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="lo"/>
+                  </equal>
+               </not>
+             
+              <not>
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+             </not>
+             <not>
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+             </not> 
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+              		<get-case-from pos="1">
+                	<clip pos="3" side="tl" part="lem"/>
+              		</get-case-from>
+              		<clip pos="3" side="tl" part="a_verb"/>
+              		<clip pos="3" side="tl" part="temps"/>
+              		<clip pos="3" side="tl" part="persona"/>
+              		<clip pos="3" side="tl" part="nbr"/>
+            	 </lu>
+           
+           	 <lu>
+              		<get-case-from pos="2">
+                	<clip pos="2" side="tl" part="lem"/>
+              		</get-case-from>
+              		<lit-tag v="prn.enc"/>
+              		<clip pos="2" side="tl" part="persona"/>
+              		<clip pos="2" side="tl" part="gen"/>
+              		<clip pos="2" side="tl" part="nbr"/>
+            	</lu></mlu>
+	    </out> 
+          </when>   
+
+
+
+	   <when>
+            <test>
+             
+              <and>
+             
+                <equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>    
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </equal>         
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               </not>
+               <not>
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               </not>
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="lo"/>
+                  </equal>
+               </not>
+              <not>
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+             </not>
+            
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+      
+             </and>
+            </test>
+              <out>
+		 <mlu><lu>
+			<get-case-from pos="1">
+			 	<clip pos="3" side="tl" part="lem"/>
+			</get-case-from>
+				<clip pos="3" side="tl" part="a_verb"/>
+			<lit-tag v="pis"/>
+				<clip pos="3" side="tl" part="persona"/>
+				<clip pos="3" side="tl" part="nbr"/>
+			</lu>
+			
+			<lu>
+			<get-case-from pos="2">
+				<clip pos="2" side="tl" part="lem"/>
+			</get-case-from>
+				<lit-tag v="prn.enc"/>
+				<clip pos="2" side="tl" part="persona"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			</lu></mlu>
+		</out> 
+          </when> 
+
+
+
+           <when>
+            <test>
+             
+              <and>
+             
+                <equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>    
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </equal>         
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               </not>
+                
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="lo"/>
+                  </equal>
+               </not>
+              <not>
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+             </not>
+             <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="transitivos"/>
+                </in>
+            
+             
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+              
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+			<get-case-from pos="1">
+			 	<clip pos="3" side="tl" part="lem"/>
+			</get-case-from>
+				<clip pos="3" side="tl" part="a_verb"/>
+			<lit-tag v="pis"/>
+				<clip pos="3" side="tl" part="persona"/>
+				<clip pos="3" side="tl" part="nbr"/>
+			</lu>
+           
+              		 <lu>
+              		<get-case-from pos="3">
+			  <lit v="lu"/>
+              		</get-case-from>
+              		<lit-tag v="prn.enc"/>
+              		<clip pos="2" side="tl" part="persona"/>
+              		<lit-tag v="m"/>
+              		<clip pos="2" side="tl" part="nbr"/>
+            		</lu></mlu>
+	    </out> 
+          </when>   
+
+
+          <when>
+            <test>
+             
+              <and>
+             
+                <equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>    
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <clip pos="3" side="sl" part="nbr"/>
+                </equal>         
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+               </not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+                <not>
+                  <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="lo"/>
+                  </equal>
+               </not>
+              <not>
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+             </not>
+             
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+             
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+			<get-case-from pos="1">
+			 	<clip pos="3" side="tl" part="lem"/>
+			</get-case-from>
+				<clip pos="3" side="tl" part="a_verb"/>
+			<lit-tag v="pis"/>
+				<clip pos="3" side="tl" part="persona"/>
+				<clip pos="3" side="tl" part="nbr"/>
+			</lu>
+           
+           	 <lu>
+              		<get-case-from pos="2">
+                	<clip pos="2" side="tl" part="lem"/>
+              		</get-case-from>
+              		<lit-tag v="prn.enc"/>
+              		<clip pos="2" side="tl" part="persona"/>
+              		<clip pos="2" side="tl" part="gen"/>
+              		<clip pos="2" side="tl" part="nbr"/>
+            	</lu></mlu>
+	    </out> 
+          </when>   
+
+
+
+
+
+          <when>
+            <test>
+             
+              <and>
+           
+                
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+        
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="transitivos"/>
+                </in>
+            
+             <not>
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+             </not> 
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+              		<get-case-from pos="1">
+                	<clip pos="3" side="tl" part="lem"/>
+              		</get-case-from>
+              		<clip pos="3" side="tl" part="a_verb"/>
+              		<clip pos="3" side="tl" part="temps"/>
+              		<clip pos="3" side="tl" part="persona"/>
+              		<clip pos="3" side="tl" part="nbr"/>
+            	 </lu>
+                 <lu>
+			<get-case-from pos="2">
+			<clip pos="1" side="tl" part="lem"/>
+			</get-case-from>
+			<lit-tag v="prn.enc"/>
+			<clip pos="1" side="tl" part="persona"/>
+			<clip pos="1" side="tl" part="gen"/>
+			<clip pos="1" side="tl" part="nbr"/>
+		</lu>
+           	 <lu>
+              		<get-case-from pos="3">
+			  <lit v="lu"/>
+              		</get-case-from>
+              		<lit-tag v="prn.enc"/>
+              		<clip pos="2" side="tl" part="persona"/>
+              		<lit-tag v="m"/>
+              		<clip pos="2" side="tl" part="nbr"/>
+            		</lu></mlu>
+        	</out> 
+          </when>   
+
+       
+          
+          <when>
+            <test>
+             
+              <and>
+           
+                
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+        
+               <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="transitivos"/>
+                </in>
+          
+                <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+            
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+			<get-case-from pos="1">
+			<clip pos="3" side="tl" part="lem"/>
+			</get-case-from>
+			<clip pos="3" side="tl" part="a_verb"/>
+			<lit-tag v="pis"/>
+			<clip pos="3" side="tl" part="persona"/>
+			<clip pos="3" side="tl" part="nbr"/>
+		</lu>
+                 <lu>
+			<get-case-from pos="2">
+			<clip pos="1" side="tl" part="lem"/>
+			</get-case-from>
+			<lit-tag v="prn.enc"/>
+			<clip pos="1" side="tl" part="persona"/>
+			<clip pos="1" side="tl" part="gen"/>
+			<clip pos="1" side="tl" part="nbr"/>
+		</lu>
+           	 <lu>
+              		<get-case-from pos="3">
+			  <lit v="lu"/>
+              		</get-case-from>
+              		<lit-tag v="prn.enc"/>
+              		<clip pos="2" side="tl" part="persona"/>
+              		<lit-tag v="m"/>
+              		<clip pos="2" side="tl" part="nbr"/>
+            		</lu></mlu>
+        	</out> 
+          </when>   
+
+
+
+
+           <when>
+            <test>
+             
+              <and>
+           
+                
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+      
+             <not>
+             <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+             </not> 
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+              		<get-case-from pos="1">
+                	<clip pos="3" side="tl" part="lem"/>
+              		</get-case-from>
+              		<clip pos="3" side="tl" part="a_verb"/>
+              		<clip pos="3" side="tl" part="temps"/>
+              		<clip pos="3" side="tl" part="persona"/>
+              		<clip pos="3" side="tl" part="nbr"/>
+            	 </lu>
+                 <lu>
+			<get-case-from pos="2">
+			<clip pos="1" side="tl" part="lem"/>
+			</get-case-from>
+			<lit-tag v="prn.enc"/>
+			<clip pos="1" side="tl" part="persona"/>
+			<clip pos="1" side="tl" part="gen"/>
+			<clip pos="1" side="tl" part="nbr"/>
+		</lu>
+  
+              		<lu>
+			<get-case-from pos="3">
+			<clip pos="2" side="tl" part="lem"/>
+			</get-case-from>
+			<lit-tag v="prn.enc"/>
+			<clip pos="2" side="tl" part="persona"/>
+			<clip pos="2" side="tl" part="gen"/>
+			<clip pos="2" side="tl" part="nbr"/>
+		</lu></mlu>
+        	</out> 
+          </when>   
+
+       
+          
+          <when>
+            <test>
+             
+              <and>
+           
+                
+                  <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                  </equal>
+        
+            
+                <equal caseless="yes">
+                  <clip pos="3" side="sl" part="temps"/>
+		  <lit-tag v="fts"/>
+                </equal>
+            
+             </and>
+
+          
+             </test>
+               <out>
+		  <mlu><lu>
+			<get-case-from pos="1">
+			<clip pos="3" side="tl" part="lem"/>
+			</get-case-from>
+			<clip pos="3" side="tl" part="a_verb"/>
+			<lit-tag v="pis"/>
+			<clip pos="3" side="tl" part="persona"/>
+			<clip pos="3" side="tl" part="nbr"/>
+		</lu>
+                 <lu>
+			<get-case-from pos="2">
+			<clip pos="1" side="tl" part="lem"/>
+			</get-case-from>
+			<lit-tag v="prn.enc"/>
+			<clip pos="1" side="tl" part="persona"/>
+			<clip pos="1" side="tl" part="gen"/>
+			<clip pos="1" side="tl" part="nbr"/>
+		</lu>
+           	 <lu>
+			<get-case-from pos="3">
+			<clip pos="2" side="tl" part="lem"/>
+			</get-case-from>
+			<lit-tag v="prn.enc"/>
+			<clip pos="2" side="tl" part="persona"/>
+			<clip pos="2" side="tl" part="gen"/>
+			<clip pos="2" side="tl" part="nbr"/>
+		</lu></mlu>
+        	</out> 
+          </when>   
+
+
+
 	   <when>
             <test>
                 <equal caseless="yes">
@@ -10313,7 +11045,8 @@ te me casas -> cásesteme
 <!--
 regla EGV24 pronombre_procl_refl + verbo.
 se come->cómese
-se anda->anda
+se duchó -> duchóse 
+se cayó->cayó
 -->
     
     <rule>
@@ -10331,6 +11064,12 @@ se anda->anda
                   <clip pos="2" side="sl" part="lem"/>
                   <list n="intransitivos"/>
                </in>
+              <not>
+              <in caseless="yes"><!--in-->
+                  <clip pos="2" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+               </in>
+               </not>
 	       <equal>
                   <clip pos="2" side="sl" part="persona"/>
                   <clip pos="1" side="sl" part="persona"/>
@@ -10354,6 +11093,7 @@ se anda->anda
 	</when>
         <otherwise>
          <out>
+           
           <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
@@ -10362,7 +11102,7 @@ se anda->anda
               <clip pos="2" side="tl" part="temps"/>
               <clip pos="2" side="tl" part="persona"/>
               <clip pos="2" side="tl" part="nbr"/>
-            </lu>
+            </lu> 
             <lu>
               <get-case-from pos="2">
                 <clip pos="1" side="tl" part="lem"/>
@@ -10496,6 +11236,7 @@ la niña se cae -> la neña cai
 regla EGV24b2 algo + pronombre_procl_refl + verbo + algo.
 Juan se come el pan -> Juan come'l pan
 Juan se queda un rato ->Juan queda un ratu
+Juan se duchó un rato -> Juan duchóse un ratu
 -->
     <rule>
       <pattern>
@@ -10535,6 +11276,12 @@ Juan se queda un rato ->Juan queda un ratu
                       <list n="transitivos"/>
                 </in>
                 </or>
+                  <not>
+                <in caseless="yes">
+                      <clip pos="3" side="sl" part="lem"/>
+                      <list n="reflexivos"/>
+                </in>
+               </not>
                </and>
 	   </test>
            <out>
@@ -10585,6 +11332,10 @@ Juan se queda un rato ->Juan queda un ratu
               <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
             </lu></mlu>
+            <b/>
+            <lu>
+	      <clip pos="4" side="tl" part="whole"/> 
+	    </lu>
         </out> 
 	</otherwise>
 	</choose>
@@ -10597,6 +11348,7 @@ Juan se queda un rato ->Juan queda un ratu
 regla EGV24b3 algo + algo + nombre + pronombre_procl_refl + verbo + algo.
 el gato se come pescado -> el gatu come pexe
 los niños se quedan un rato ->los neños queden un ratu
+los niños se llaman un rato -> los neños llámense un ratu
 -->
 
     <rule>
@@ -10632,7 +11384,14 @@ los niños se quedan un rato ->los neños queden un ratu
                       <clip pos="4" side="sl" part="lem"/>
                       <list n="transitivos"/>
                 </in>
+               
                 </or>
+                <not>
+                <in caseless="yes">
+                      <clip pos="4" side="sl" part="lem"/>
+                      <list n="reflexivos"/>
+                </in>
+               </not>
                </and>
 	   </test>
            <out>
@@ -10666,7 +11425,7 @@ los niños se quedan un rato ->los neños queden un ratu
 		 <clip pos="1" side="tl" part="whole"/> 
 	    </lu>
 	    <b/>
-	    <b/>
+	    
 	    <lu>
 		  
 		 <clip pos="2" side="tl" part="whole"/> 
@@ -10691,10 +11450,11 @@ los niños se quedan un rato ->los neños queden un ratu
               <clip pos="3" side="tl" part="gen"/>
               <clip pos="3" side="tl" part="nbr"/>
             </lu></mlu>
+             <b/>
               <lu>
 		 <clip pos="5" side="tl" part="whole"/> 
 	    </lu>
-	    <b/>
+	    
         </out> 
 	</otherwise>
 	</choose>
@@ -10702,7 +11462,9 @@ los niños se quedan un rato ->los neños queden un ratu
     </rule> 
 <!--
 regla EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
-él se come -> come
+él se come -> él cómese 
+él se duchó -> él duchóse
+él se cae -> él cai
 -->
 
     
@@ -10721,12 +11483,7 @@ regla EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
                   <clip pos="2" side="sl" part="lem"/>
                   <lit v="se"/>
                 </equal>
-                <!--<or>
-                <in caseless="yes">
-                  <clip pos="3" side="sl" part="lem"/>
-                  <list n="transitivos"/>
-                </in>
-                <and>-->
+                
                   <equal>
                     <clip pos="3" side="sl" part="persona"/>
                     <clip pos="2" side="sl" part="persona"/>
@@ -10734,9 +11491,13 @@ regla EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
                     <in caseless="yes"><!--in-->
                      <clip pos="3" side="sl" part="lem"/>
                 <list n="intransitivos"/>
+                  </in>
+                <not>
+                  <in caseless="yes"><!--in-->
+                     <clip pos="3" side="sl" part="lem"/>
+                <list n="reflexivos"/>
                 </in>
-              <!-- </and>
-               </or>-->
+               </not>
               </and>
 	   </test>
            <out>
@@ -10802,7 +11563,7 @@ Comprobamos expletivos y leismos
 regla EGV25 pronombre_procl + verbo.
 
 me comí el filete -> comí'l filete
-te comí el bocadillo ->  comíte el bocáu
+te comí el bocadillo ->  comíte'l bocáu 
 me duché por la mañana -> duchéme pela mañana
 me llamas a las 8 -> llámesme a les 8
 me andas con cuidado -> ándesme con procuru
@@ -10940,6 +11701,7 @@ le comí a bocados -> comí-y a taragaños
             
 	   </test>
           <out>
+            <lu><lit-tag v="a"/></lu>
 	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
@@ -10982,6 +11744,7 @@ le comí a bocados -> comí-y a taragaños
             
 	   </test>
           <out>
+             <lu><lit-tag v="a"/></lu>
 	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
@@ -11012,6 +11775,7 @@ le comí a bocados -> comí-y a taragaños
 	</equal>				   
 	</test>
           <out>
+            <lu><lit-tag v="a"/></lu>
 	    <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
@@ -11034,6 +11798,7 @@ le comí a bocados -> comí-y a taragaños
 		</when>
         <otherwise>
 		<out>
+          <lu><lit-tag v="a"/></lu>
           <mlu><lu>
               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lem"/>
@@ -15692,7 +16457,7 @@ no le mordíó con fuerza -> nun lu mordió con fuerza
                  </get-case-from>
 		 <lit-tag v="adv"/>
 	    </lu>
-            <b/>
+            <b/> 
 	    <lu>
               <get-case-from pos="2">
 	      <lit v="lu"/>
@@ -17909,11 +18674,15 @@ no le haya acusado con ganas -> nun lu acusara con ganes
 regla EGV26 proclisis + pronom_procl_refl + verbo.
 que se jugó ('que' está en la lista)
 y se jugó ('y' no está en la lista)
-no se comió->nun comió
+
+no se comió->nun se comió
+no se duchaba -> nun se duchaba
 no se anduvo->nun anduvo
 y se comió -> y comióse
+y se duchó -> y duchóse
 y se cae -> y cai
 que se casó -> que se casó
+que se duchaba -> que se duchaba
 que se cae -> que cai
 -->
    
@@ -17943,7 +18712,12 @@ que se cae -> que cai
                     <clip pos="3" side="sl" part="lem"/>
                     <list n="intransitivos"/>
                 </in>
-           
+                <not>
+                 <in caseless="yes"><!--in-->
+                    <clip pos="3" side="sl" part="lem"/>
+                    <list n="reflexivos"/>
+                </in>
+                </not>
               </and>			
 	    </test>            
              <out>
@@ -17968,17 +18742,14 @@ que se cae -> que cai
 
 	 <when>
             <test> 
-              <and>
+             
                 <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
                   <lit v="no"/>
                 </equal>
-                    <in caseless="yes"><!--in-->
-                    <clip pos="3" side="sl" part="lem"/>
-                    <list n="transitivos"/>
-                </in>
+               
            
-              </and>			
+            			
 	    </test>            
              <out>
               <lu>
@@ -18001,10 +18772,6 @@ que se cae -> que cai
           <when>
             <test>
              <and>
-              <in caseless="yes"><!--in-->
-                <clip pos="1" side="sl" part="lem"/>
-                <list n="pces"/>
-              </in>
            
                   <equal>
                     <clip pos="3" side="sl" part="persona"/>
@@ -18014,7 +18781,12 @@ que se cae -> que cai
                     <clip pos="3" side="sl" part="lem"/>
                     <list n="intransitivos"/>
                 </in>
-          
+                 <not>
+                  <in caseless="yes"><!--in-->
+                    <clip pos="3" side="sl" part="lem"/>
+                    <list n="reflexivos"/>
+                </in>
+                </not>
 	    </and>
             </test>
             
@@ -18032,16 +18804,12 @@ que se cae -> que cai
           </when>
           <when>
             <test>
-              <and>
+             
               <in caseless="yes"><!--in-->
                 <clip pos="1" side="sl" part="lem"/>
                 <list n="pces"/>
               </in>
-              <in caseless="yes"><!--in-->
-                <clip pos="3" side="sl" part="lem"/>
-                <list n="transitivos"/>
-              </in>
-             </and>
+            
             </test>
             
             <out>
@@ -18276,7 +19044,7 @@ no le comí a bocados -> nun-y comí a taragaños
                   <lit v="no"/>
                 </equal>	
                 <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
+                  <clip pos="2" side="sl" part="lem"/>
                   <lit v="le"/>
                 </equal>
                 <in caseless="yes"><!--in-->
@@ -18305,10 +19073,6 @@ no le comí a bocados -> nun-y comí a taragaños
                      </lu>
 		      <b/>
                     <lu>
-      	               <clip pos="2" side="tl" part="whole"/> 
-              	    </lu>
-                    <b/>
-                    <lu>
                        <clip pos="3" side="tl" part="whole"/>
                 
                  </lu>
@@ -18317,7 +19081,41 @@ no le comí a bocados -> nun-y comí a taragaños
           </when>
 
 	
+         <when>
 
+            <test>
+               
+             <and>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="no"/>
+                </equal>	
+                <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="le"/>
+                </equal>
+               
+              </and>
+             </test>
+		  <out>
+                    
+		     <lu>
+		        <get-case-from pos="1">
+			    <lit v="nun"/>
+                          </get-case-from>
+		       <lit-tag v="adv"/>
+	            </lu>
+                     <lu>
+      	               <clip pos="2" side="tl" part="whole"/> 
+              	    </lu>
+		      <b/>
+                    <lu>
+                       <clip pos="3" side="tl" part="whole"/>
+                
+                 </lu>
+	       </out>  
+            
+          </when>
 
 
        <when>
@@ -18340,7 +19138,7 @@ no le comí a bocados -> nun-y comí a taragaños
                           </get-case-from>
 		       <lit-tag v="adv"/>
 	            </lu>
-
+                    <b/>
                     <lu>
       	               <clip pos="2" side="tl" part="whole"/> 
               	    </lu>
@@ -20247,6 +21045,101 @@ regla EGV28d no + pron_procl + pron_procl + haber + participio.
       </pattern>
       <action>
         <choose>
+
+
+<!--
+          <when>
+            <test>
+              <and>
+                <equal> 
+                <clip pos="2" side="sl" part="lem"/>
+                <lit v="se"/>
+              </equal>
+                <not>
+                <equal> 
+                <clip pos="3" side="sl" part="lem"/>
+                <lit v="le"/>
+              </equal>
+                </not>
+                  <not>
+                <equal> 
+                <clip pos="3" side="sl" part="lem"/>
+                <lit v="lo"/>
+              </equal>
+                </not>
+               <in caseless="yes">
+                  <clip pos="5" side="sl" part="lem"/>
+                  <list n="intransitivos"/>
+                </in>
+                <not>
+                <in caseless="yes">
+                  <clip pos="5" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+                </not>
+               <equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="3" side="sl" part="persona"/>
+                </equal>
+	
+                <equal>
+                  <clip pos="4" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <or>
+                <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                 <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+                <or>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+               </or>
+              </and>
+            </test>
+            <out>
+			  <lu>
+			     <get-case-from pos="1">
+			    <lit v="nun"/>
+                          </get-case-from>
+			    <lit-tag v="adv"/>
+			  </lu>
+             
+              <b/>	
+              <lu>
+                <clip pos="3" side="tl" part="whole"/> 
+              </lu> 
+              <b/>				  
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="sl" part="a_verb"/>
+                <lit-tag v="ifi"/>
+                <clip pos="4" side="sl" part="persona"/>
+                <clip pos="4" side="sl" part="nbr"/>
+                <clip pos="5" side="tl" part="lemq"/>
+              </lu>
+            </out>
+            <call-macro n="f_bcond">
+              <with-param pos="4"/>
+            </call-macro>
+          </when>          
+
+-->
           <when>
             <test>
               <and>
@@ -20258,14 +21151,26 @@ regla EGV28d no + pron_procl + pron_procl + haber + participio.
                   <clip pos="5" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                <or>
                 <equal>
                   <clip pos="5" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+                <or>
                 <equal>
                   <clip pos="5" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+               </or>
               </and>
             </test>
             <out>
@@ -20314,14 +21219,26 @@ regla EGV28d no + pron_procl + pron_procl + haber + participio.
                   <clip pos="5" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                 <or>
                 <equal>
                   <clip pos="5" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+                <or>
                 <equal>
                   <clip pos="5" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+               </or>
               </and>
             </test>
             <out>
@@ -20369,14 +21286,26 @@ regla EGV28d no + pron_procl + pron_procl + haber + participio.
                   <clip pos="5" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                <or>
                 <equal>
                   <clip pos="5" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+                <or>
                 <equal>
                   <clip pos="5" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+               </or>
               </and>
             </test>
             <out>
@@ -20429,14 +21358,26 @@ regla EGV28d no + pron_procl + pron_procl + haber + participio.
                   <clip pos="5" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                 <or>
                 <equal>
                   <clip pos="5" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="5" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+                <or>
                 <equal>
                   <clip pos="5" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="5" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+               </or>
               </and>
             </test>
             <out>
@@ -21742,10 +22683,23 @@ y se ha/haya/habría/habrá caído -> e caeuse   (caer-pret_perfec + se)
 
 <!-- 
 regla EGV32 pron_procl_refl + haber + participio.
-se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
--->
 
+se ha duchado -> duchóse
+se ha casado -> casóse
+se ha caído -> cayó
 
+se había duchado -> duchárase
+se había casado -> casárase
+se habían caído -> cayeran
+
+se habría duchado -> ducharíase
+se habrá casado -> casaríase 
+se habrían caído -> cayeríen
+
+se haya duchado -> duchárase
+se hayan casado -> casáranse
+se hayan caído -> cayeran 
+-->     
     <rule>
       <pattern>
         <pattern-item n="prnproref"/>
@@ -21754,9 +22708,24 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
       </pattern>
       <action>
         <choose>
-          <when>
+
+         <when>
             <test>
               <and>
+                <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="intransitivos"/>
+                </in>
+                 <not>
+                <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+                </not>
+		<equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="persona"/>
+               </equal>
                 <equal>
                   <clip pos="2" side="sl" part="temps"/>
                   <lit-tag v="pri"/>
@@ -21765,14 +22734,74 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                   <clip pos="3" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                <or>
                 <equal>
                   <clip pos="3" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
                 <equal>
                   <clip pos="3" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
+              </and>
+            </test>
+            <out>
+              <lu>
+                  <get-case-from pos="1">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from> 
+                  <clip pos="3" side="sl" part="a_verb"/>
+                  <lit-tag v="ifi"/>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="nbr"/>
+                </lu>
+               
+            </out> 
+         </when>
+
+          <when>
+            <test>
+              <and>
+
+                <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="pri"/>
+                </equal>			  
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <or>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
+                <equal>
+                  <clip pos="3" side="sl" part="persona"/>
+                  <lit-tag v="sg"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="persona"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
               </and>
             </test>
             <out>
@@ -21796,6 +22825,77 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                 </lu></mlu>
             </out> 
           </when>
+
+
+           <when>
+            <test>
+              <and>
+		 <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="intransitivos"/>
+                </in>
+                 <not>
+                <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+                </not>
+		<equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="persona"/>
+               </equal>
+		<or>
+		<equal>
+		<clip pos="2" side="sl" part="temps"/>
+		<lit-tag v="pii"/>
+		</equal>
+		<equal>
+		<clip pos="2" side="sl" part="temps"/>
+		<lit-tag v="prs"/>
+		</equal>
+		</or>			  
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                   <or>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
+              </and>
+            </test>
+            <out>
+              <lu>
+                  <get-case-from pos="1">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from> 
+                  <clip pos="3" side="sl" part="a_verb"/>
+                  <lit-tag v="pis"/>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="nbr"/>
+                </lu>
+                
+            </out> 
+          </when>
+
+
+
            <when>
             <test>
               <and>
@@ -21813,14 +22913,26 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                   <clip pos="3" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                   <or>
                 <equal>
                   <clip pos="3" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
                 <equal>
                   <clip pos="3" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
               </and>
             </test>
             <out>
@@ -21844,6 +22956,74 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                 </lu></mlu>
             </out> 
           </when>
+
+
+
+         <when>
+            <test>
+              <and>
+                <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="intransitivos"/>
+                </in>
+                 <not>
+                <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+                </not>
+		<equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="persona"/>
+               </equal>
+                <or><equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="fti"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="cni"/>
+                  </equal></or>			  
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                  <or>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
+              </and>
+            </test>
+            <out>
+              <lu>
+                  <get-case-from pos="1">
+                    <clip pos="3" side="tl" part="lem"/>
+                  </get-case-from> 
+                  <clip pos="3" side="sl" part="a_verb"/>
+                  <lit-tag v="cni"/>
+                  <clip pos="2" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="nbr"/>
+                </lu>
+                
+            </out> 
+          </when>
+
           <when>
             <test>
               <and>
@@ -21859,14 +23039,26 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                   <clip pos="3" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                  <or>
                 <equal>
                   <clip pos="3" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
                 <equal>
                   <clip pos="3" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
               </and>
             </test>
             <out>
@@ -21890,6 +23082,79 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                 </lu></mlu>
             </out> 
           </when>
+
+
+       
+          <when>
+            <test>
+              <and>
+                  <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="intransitivos"/>
+                </in>
+                 <not>
+                <in caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <list n="reflexivos"/>
+                </in>
+                </not>
+		<equal>
+                  <clip pos="1" side="sl" part="persona"/>
+                  <clip pos="2" side="sl" part="persona"/>
+               </equal>
+                <or>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="pis"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal>
+                  <equal>
+                    <clip pos="2" side="sl" part="temps"/>
+                    <lit-tag v="ger"/>
+                  </equal></or>			  
+                <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                 <or>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="m"/>
+                </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
+              </and>
+            </test>
+            <out>	
+              <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="sl" part="a_verb"/>
+                <clip pos="2" side="sl" part="temps"/>
+                <clip pos="2" side="sl" part="persona"/>
+                <clip pos="2" side="sl" part="nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>
+              </lu>
+                			  
+            </out> 
+          </when>
+
+
           <when>
             <test>
               <and>
@@ -21910,14 +23175,26 @@ se ha/haya/habría/habrá caído -> caeuse (caer-pret_perfec + se)
                   <clip pos="3" side="sl" part="temps"/>
                   <lit-tag v="pp"/>
                 </equal>
+                 <or>
                 <equal>
                   <clip pos="3" side="sl" part="gen"/>
                   <lit-tag v="m"/>
                 </equal>
+                 <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mf"/>
+                </equal>
+                </or>
+               <or>
                 <equal>
                   <clip pos="3" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sp"/>
+                </equal>
+              </or>
               </and>
             </test>
             <out>

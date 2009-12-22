@@ -107,6 +107,7 @@
         <file name="es-ast.t1x.bin"/>
         <file name="es-ast.autobil.bin"/>
       </program>
+      <!-- <program name="apertium-pretransfer"/> -->
       <program name="apertium-transfer -n">
 	<file name="apertium-es-ast.post-es-ast.t1x"/>
         <file name="es-ast.post.t1x.bin"/>

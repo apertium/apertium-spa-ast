@@ -232,6 +232,8 @@
 
 
     <pardef n="apostrofe">
+
+
       <e>
         <p>
           <l><b/><a/></l>
@@ -1685,6 +1687,7 @@
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
 	  <e><p><l><a/><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><a/></l><r><b/></r></p></e>
+ 
 
 
 	<!-- establecemos prioridades en casos especiales -->

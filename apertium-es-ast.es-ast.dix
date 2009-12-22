@@ -1331,7 +1331,7 @@
 <e><p><l>por<b/>la<b/>tremenda<s n="adv"/></l><r>pola<b/>tremenda<s n="adv"/></r></p></e>
 <e><p><l>por<b/>lo<b/>común<s n="adv"/></l><r>polo<b/>común<s n="adv"/></r></p></e>
 <e><p><l>por<b/>lo<b/>contrario<s n="adv"/></l><r>polo<b/>contrario<s n="adv"/></r></p></e>
-<e><p><l>por<b/>lo<b/>general<s n="adv"/></l><r>polo<b/>general<s n="adv"/></r></p></e>
+<e><p><l>por<b/>lo<b/>general<s n="adv"/></l><r>polo<b/>xeneral<s n="adv"/></r></p></e>
 <e><p><l>por<b/>lo<b/>menos<s n="adv"/></l><r>a<b/>lo<b/>menos<s n="adv"/></r></p></e>
 <e><p><l>por<b/>lo<b/>pronto<s n="adv"/></l><r>polo<b/>pronto<s n="adv"/></r></p></e>
 <e><p><l>por<b/>lo<b/>regular<s n="adv"/></l><r>polo<b/>regular<s n="adv"/></r></p></e>
@@ -1595,6 +1595,7 @@
 <e><p><l>cada<s n="det"/><s n="ind"/></l><r>cada<s n="det"/><s n="ind"/></r></p></e>
 <e><p><l>cualquier<s n="det"/><s n="ind"/></l><r>cualquier<s n="det"/><s n="ind"/></r></p></e>
 <e><p><l>cuanto<s n="det"/><s n="ind"/></l><r>cuantu<s n="det"/><s n="ind"/></r></p></e>
+<e><p><l>ningún<s n="det"/><s n="ind"/></l><r>nengún<s n="det"/><s n="ind"/></r></p></e>
 <e><p><l>mismo<s n="det"/><s n="ind"/></l><r>mesmu<s n="det"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>propio<s n="det"/><s n="ind"/></l><r>mesmu<s n="det"/><s n="ind"/></r></p></e>
 <e><p><l>mucho<s n="det"/><s n="ind"/></l><r>munchu<s n="det"/><s n="ind"/></r></p></e>
@@ -2544,7 +2545,7 @@
 <e><p><l>accesorio<s n="n"/></l><r>accesoriu<s n="n"/></r></p></e>
 <e><p><l>acceso<s n="n"/></l><r>accesu<s n="n"/></r></p></e>
 <e><p><l>accidente<s n="n"/></l><r>accidente<s n="n"/></r></p></e>
-<e r="RL"><p><l>acción<s n="n"/></l><r>aición<s n="n"/></r></p></e>
+<e><p><l>acción<s n="n"/></l><r>aición<s n="n"/></r></p></e>
 <e><p><l>acebal<s n="n"/></l><r>acebal<s n="n"/></r></p></e>
 <e><p><l>acebo<s n="n"/></l><r>xardón<s n="n"/></r></p></e>
 <e><p><l>aceitera<s n="n"/></l><r>aceitera<s n="n"/></r></p></e>
@@ -2801,7 +2802,7 @@
 <e><p><l>ajenjo<s n="n"/></l><r>axenxu<s n="n"/></r></p></e>
 <e><p><l>ajero<s n="n"/></l><r>ayeru<s n="n"/></r></p></e>
 <e><p><l>ajo<s n="n"/></l><r>ayu<s n="n"/></r></p></e>
-<e><p><l>ajuar<s n="n"/></l><r>dote<s n="n"/></r></p></e>
+<e><p><l>ajuar<s n="n"/><s n="m"/></l><r>dote<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>alabamiento<s n="n"/></l><r>allabamientu<s n="n"/></r></p></e>
 <e><p><l>alabanza<s n="n"/></l><r>allabancia<s n="n"/></r></p></e>
 <e><p><l>alabastro<s n="n"/></l><r>alabastru<s n="n"/></r></p></e>
@@ -2853,7 +2854,7 @@
 <e><p><l>alcanfor<s n="n"/></l><r>alcanfor<s n="n"/></r></p></e>
 <e><p><l>alcantarillado<s n="n"/></l><r>alcantarelláu<s n="n"/></r></p></e>
 <e><p><l>alcantarilla<s n="n"/></l><r>alcantariella<s n="n"/></r></p></e>
-<e><p><l>alcanzadura<s n="n"/></l><r>algame<s n="n"/></r></p></e>
+<e><p><l>alcanzadura<s n="n"/><s n="f"/></l><r>algame<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>alcanzamiento<s n="n"/></l><r>algame<s n="n"/></r></p></e>
 <e><p><l>alcaraván<s n="n"/></l><r>algaraván<s n="n"/></r></p></e>
 <e><p><l>alcayata<s n="n"/></l><r>alcayata<s n="n"/></r></p></e>
@@ -2880,7 +2881,6 @@
 <e><p><l>alegrón<s n="n"/></l><r>allegrón<s n="n"/></r></p></e>
 <e><p><l>alejamiento<s n="n"/></l><r>alloñamientu<s n="n"/></r></p></e>
 <e><p><l>aleluya<s n="n"/></l><r>aleluya<s n="n"/></r></p></e>
-<e><p><l>alemán<s n="n"/></l><r>alemán<s n="n"/></r></p></e>
 <e><p><l>alérgeno<s n="n"/></l><r>alérxenu<s n="n"/></r></p></e>
 <e><p><l>alergia<s n="n"/><s n="f"/></l><r>alerxa<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>alero<s n="n"/></l><r>bistechu<s n="n"/></r></p></e>
@@ -3102,7 +3102,6 @@
 <e><p><l>angina<s n="n"/></l><r>anxina<s n="n"/></r></p></e>
 <e><p><l>anglicanismo<s n="n"/></l><r>anglicanismu<s n="n"/></r></p></e>
 <e><p><l>anglicismo<s n="n"/></l><r>anglicismu<s n="n"/></r></p></e>
-<e><p><l>anglosajón<s n="n"/></l><r>anglosaxón<s n="n"/></r></p></e>
 <e><p><l>angora<s n="n"/></l><r>angora<s n="n"/></r></p></e>
 <e><p><l>anguarina<s n="n"/></l><r>anguarina<s n="n"/></r></p></e>
 <e><p><l>anguila<s n="n"/></l><r>anguila<s n="n"/></r></p></e>
@@ -3362,6 +3361,7 @@
 <e><p><l>ardor<s n="n"/></l><r>ardor<s n="n"/></r></p></e>
 <e><p><l>área<s n="n"/></l><r>área<s n="n"/></r></p></e>
 <e><p><l>arenal<s n="n"/></l><r>arenal<s n="n"/></r></p></e>
+<e><p><l>arenera<s n="n"/></l><r>sablera<s n="n"/></r></p></e>
 <e><p><l>arencón<s n="n"/></l><r>arencón<s n="n"/></r></p></e>
 <e><p><l>arenero<s n="n"/></l><r>areneru<s n="n"/></r></p></e>
 <e><p><l>arenga<s n="n"/></l><r>arenga<s n="n"/></r></p></e>
@@ -3418,7 +3418,7 @@
 <e><p><l>arquitectura<s n="n"/><s n="f"/></l><r>arquitectura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>arquitrabe<s n="n"/></l><r>arquitrabe<s n="n"/></r></p></e>
 <e><p><l>arrabalde<s n="n"/></l><r>arrabalde<s n="n"/></r></p></e>
-<e><p><l>arrabal<s n="n"/></l><r>alfoz<s n="n"/></r></p></e>
+<e><p><l>arrabal<s n="n"/><s n="m"/></l><r>alfoz<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>arracada<s n="n"/></l><r>arracada<s n="n"/></r></p></e>
 <e><p><l>arrancada<s n="n"/></l><r>arrancada<s n="n"/></r></p></e>
 <e><p><l>arrancadero<s n="n"/></l><r>arrincaderu<s n="n"/></r></p></e>
@@ -3429,7 +3429,7 @@
 <e><p><l>arrastramiento<s n="n"/></l><r>arrastramientu<s n="n"/></r></p></e>
 <e><p><l>arrastre<s n="n"/></l><r>arrastre<s n="n"/></r></p></e>
 <e><p><l>arreamiento<s n="n"/></l><r>arreamientu<s n="n"/></r></p></e>
-<e><p><l>arrebato<s n="n"/></l><r>venada<s n="n"/></r></p></e>
+<e><p><l>arrebato<s n="n"/><s n="m"/></l><r>venada<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>arredondeadura<s n="n"/><s n="f"/></l><r>arredondeamientu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>imbécil<s n="adj"/><s n="mf"/></l><r>babayu<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>imbécil<s n="adj"/><s n="mf"/></l><r>babayu<s n="adj"/><s n="f"/></r></p></e>
@@ -3539,7 +3539,11 @@
 <e><p><l>asimilación<s n="n"/></l><r>asimilación<s n="n"/></r></p></e>
 <e><p><l>asirio<s n="n"/></l><r>asiriu<s n="n"/></r></p></e>
 <e><p><l>asistencia<s n="n"/></l><r>asistencia<s n="n"/></r></p></e>
-<e><p><l>asistente<s n="n"/></l><r>asistente<s n="n"/></r></p></e>
+<e><p><l>asistente<s n="n"/><s n="m"/><s n="sg"/></l><r>asistente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>asistente<s n="n"/><s n="f"/><s n="sg"/></l><r>asistente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>asistente<s n="n"/><s n="m"/><s n="pl"/></l><r>asistente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>asistente<s n="n"/><s n="f"/><s n="pl"/></l><r>asistente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>asistente<s n="n"/><s n="GD"/><s n="pl"/></l><r>asistente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>asitiamiento<s n="n"/></l><r>asitiamientu<s n="n"/></r></p></e>
 <e><p><l>asma<s n="n"/></l><r>asma<s n="n"/></r></p></e>
 <e><p><l>a<s n="n"/></l><r>a<s n="n"/></r></p></e>
@@ -3732,7 +3736,11 @@
 <e><p><l>axiología<s n="n"/></l><r>axoloxía<s n="n"/></r></p></e>
 <e><p><l>axioma<s n="n"/></l><r>axoma<s n="n"/></r></p></e>
 <e><p><l>ayer<s n="n"/></l><r>ayeri<s n="n"/></r></p></e>
-<e><p><l>ayudante<s n="n"/></l><r>ayudante<s n="n"/></r></p></e>
+<e><p><l>ayudante<s n="n"/><s n="m"/><s n="sg"/></l><r>ayudante<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>ayudante<s n="n"/><s n="f"/><s n="sg"/></l><r>ayudante<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>ayudante<s n="n"/><s n="m"/><s n="pl"/></l><r>ayudante<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>ayudante<s n="n"/><s n="f"/><s n="pl"/></l><r>ayudante<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>ayudante<s n="n"/><s n="GD"/><s n="pl"/></l><r>ayudante<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>ayudantía<s n="n"/></l><r>ayudantía<s n="n"/></r></p></e>
 <e><p><l>ayuda<s n="n"/></l><r>ayuda<s n="n"/></r></p></e>
 <e><p><l>ayuno<s n="n"/></l><r>ayunu<s n="n"/></r></p></e>
@@ -3858,7 +3866,7 @@
 <e><p><l>broche<s n="n"/></l><r>broche<s n="n"/></r></p></e>
 <e><p><l>broma<s n="n"/></l><r>chancia<s n="n"/></r></p></e>
 <e><p><l>bronce<s n="n"/></l><r>bronce<s n="n"/></r></p></e> 
-<e><p><l>bruja<s n="n"/></l><r>bruxa<s n="n"/></r></p></e>
+<e><p><l>brujo<s n="n"/></l><r>bruxu<s n="n"/></r></p></e>
 <e><p><l>buitre<s n="n"/><s n="m"/></l><r>utre<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>bulto<s n="n"/></l><r>bultu<s n="n"/></r></p></e>
 <e><p><l>buque<s n="n"/></l><r>barcu<s n="n"/></r></p></e>
@@ -3924,7 +3932,6 @@
 <e><p><l>campamento<s n="n"/></l><r>campamentu<s n="n"/></r></p></e>
 <e><p><l>campaña<s n="n"/></l><r>campaña<s n="n"/></r></p></e>
 <e><p><l>campeonato<s n="n"/></l><r>campeonatu<s n="n"/></r></p></e>
-<e><p><l>campeón<s n="n"/></l><r>campeón<s n="n"/></r></p></e>
 <e r="LR"><p><l>campiña<s n="n"/><s n="f"/></l><r>campu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>campo<s n="n"/></l><r>campu<s n="n"/></r></p></e>
 <e><p><l>canal<s n="n"/><s n="m"/></l><r>canal<s n="n"/><s n="f"/></r></p></e>
@@ -3950,7 +3957,6 @@
 <e><p><l>capilla<s n="n"/></l><r>capiya<s n="n"/></r></p></e>
 <e><p><l>capitalismo<s n="n"/></l><r>capitalismu<s n="n"/></r></p></e>
 <e><p><l>capital<s n="n"/></l><r>capital<s n="n"/></r></p></e>
-<e><p><l>capitán<s n="n"/></l><r>capitán<s n="n"/></r></p></e>
 <e><p><l>capítulo<s n="n"/></l><r>capítulu<s n="n"/></r></p></e>
 <e><p><l>capricho<s n="n"/></l><r>caprichu<s n="n"/></r></p></e>
 <e><p><l>caprichoso<s n="n"/></l><r>caprichosu<s n="n"/></r></p></e>
@@ -4070,7 +4076,7 @@
 <e><p><l>cincuenta<s n="n"/></l><r>cincuenta<s n="n"/></r></p></e>
 <e><p><l>cincuentavo<s n="n"/></l><r>cincuentavu<s n="n"/></r></p></e>
 <e><p><l>cine<s n="n"/></l><r>cine<s n="n"/></r></p></e>
-<e><p><l>cinta<b/>adhesiva<s n="n"/></l><r>cinta<b/>de<b/>pegar<s n="n"/></r></p></e>
+<!--<e><p><l>cinta<b/>adhesiva<s n="n"/></l><r>cinta<b/>de<b/>pegar<s n="n"/></r></p></e>-->
 <e><p><l>cinta<s n="n"/></l><r>cinta<s n="n"/></r></p></e>
 <e><p><l>cintura<s n="n"/></l><r>cintura<s n="n"/></r></p></e>
 <e><p><l>cinturón<s n="n"/></l><r>cintu<s n="n"/></r></p></e>
@@ -4202,7 +4208,7 @@
 <e><p><l>confianza<s n="n"/><s n="f"/></l><r>enfotu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>confidencia<s n="n"/></l><r>ficia<s n="n"/></r></p></e>
 <e><p><l>configuración<s n="n"/></l><r>configuración<s n="n"/></r></p></e>
-<e r="LR"><p><l>confín<s n="n"/></l><r>llende<s n="n"/></r></p></e>
+<e r="LR"><p><l>confín<s n="n"/><s n="m"/></l><r>llende<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>confirmación<s n="n"/></l><r>confirmación<s n="n"/></r></p></e>
 <e><p><l>conflicto<s n="n"/></l><r>conflictu<s n="n"/></r></p></e>
 <e><p><l>confortable<s n="n"/></l><r>atopadizu<s n="n"/></r></p></e>
@@ -4305,7 +4311,11 @@
 <e><p><l>criado<s n="n"/></l><r>criáu<s n="n"/></r></p></e>
 <e><p><l>criatura<s n="n"/></l><r>criatura<s n="n"/></r></p></e>
 <e><p><l>criminal<s n="n"/></l><r>criminal<s n="n"/></r></p></e>
-<e><p><l>crío<s n="n"/></l><r>guahe<s n="n"/></r></p></e>
+<e><p><l>crío<s n="n"/><s n="m"/><s n="sg"/></l><r>guah.e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>crío<s n="n"/><s n="f"/><s n="sg"/></l><r>guah.e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>crío<s n="n"/><s n="m"/><s n="pl"/></l><r>guah.e<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>crío<s n="n"/><s n="f"/><s n="pl"/></l><r>guah.e<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>crío<s n="n"/><s n="GD"/><s n="pl"/></l><r>guah.e<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>crisis<s n="n"/></l><r>crisis<s n="n"/></r></p></e>
 <e><p><l>cristal<s n="n"/></l><r>cristal<s n="n"/></r></p></e>
 <e><p><l>cristiano<s n="n"/></l><r>cristianu<s n="n"/></r></p></e>
@@ -4317,7 +4327,7 @@
 <e><p><l>crueldad<s n="n"/></l><r>crueldá<s n="n"/></r></p></e>
 <e><p><l>cruz<s n="n"/></l><r>cruz<s n="n"/></r></p></e>
 <e><p><l>cuaderno<s n="n"/></l><r>cuadiernu<s n="n"/></r></p></e>
-<e r="RL"><p><l>cuadra<s n="n"/></l><r>corte<s n="n"/></r></p></e>
+<e><p><l>cuadra<s n="n"/><s n="f"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>cuadro<s n="n"/></l><r>cuadru<s n="n"/></r></p></e>
 <e><p><l>cuadruplo<s n="n"/></l><r>cuadruplu<s n="n"/></r></p></e>
 <e><p><l>cualidad<s n="n"/></l><r>cualidá<s n="n"/></r></p></e>
@@ -4356,7 +4366,9 @@
 <e><p><l>curiosidad<s n="n"/><s n="f"/></l><r>interés<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>curso<s n="n"/></l><r>cursu<s n="n"/></r></p></e>
 <e><p><l>cúspide<s n="n"/><s n="f"/></l><r>cumal<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>cutis<s n="n"/><s n="m"/></l><r>piel<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>cutis<s n="n"/><s n="m"/><s n="sp"/></l><r>piel<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>cutis<s n="n"/><s n="m"/><s n="sp"/></l><r>piel<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>cutis<s n="n"/><s n="m"/><s n="sp"/></l><r>piel<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e><p><l>dama<s n="n"/></l><r>dama<s n="n"/></r></p></e>
 <e><p><l>danza<s n="n"/></l><r>danza<s n="n"/></r></p></e>
 <e><p><l>daño<s n="n"/></l><r>dañu<s n="n"/></r></p></e>
@@ -4382,7 +4394,7 @@
 <e><p><l>déficit<s n="n"/></l><r>déficit<s n="n"/></r></p></e> 
 <e><p><l>definición<s n="n"/></l><r>definición<s n="n"/></r></p></e> 
 <e><p><l>defraudación<s n="n"/></l><r>defraudación<s n="n"/></r></p></e> 
-<e><p><l>defunción<s n="n"/></l><r>fallecimientu<s n="n"/></r></p></e> 
+<e><p><l>defunción<s n="n"/><s n="f"/></l><r>fallecimientu<s n="n"/><s n="m"/></r></p></e> 
 <e><p><l>dejadez<s n="n"/></l><r>dexadez<s n="n"/></r></p></e>
 <e><p><l>delantero<s n="n"/></l><r>delanteru<s n="n"/></r></p></e>
 <e><p><l>delegación<s n="n"/></l><r>delegación<s n="n"/></r></p></e>
@@ -4392,7 +4404,9 @@
 <e><p><l>delito<s n="n"/></l><r>delitu<s n="n"/></r></p></e>
 <e><p><l>demanda<s n="n"/></l><r>demanda<s n="n"/></r></p></e>
 <e><p><l>demencia<s n="n"/></l><r>llocura<s n="n"/></r></p></e>
-<e><p><l>demente<s n="n"/></l><r>llocu<s n="n"/></r></p></e>
+<e r="RL"><p><l>demente<s n="n"/><s n="mf"/></l><r>llocu<s n="n"/><s n="m"/></r></p></e> 
+<e r="RL"><p><l>demente<s n="n"/><s n="mf"/></l><r>llocu<s n="n"/><s n="f"/></r></p></e> 
+<e r="LR"><p><l>demente<s n="n"/><s n="mf"/></l><r>llocu<s n="n"/><s n="GD"/></r></p></e> 
 <e><p><l>democracia<s n="n"/></l><r>democracia<s n="n"/></r></p></e>
 <e><p><l>demonio<s n="n"/></l><r>demoniu<s n="n"/></r></p></e>
 <e><p><l>demostración<s n="n"/></l><r>demostración<s n="n"/></r></p></e>
@@ -4400,7 +4414,11 @@
 <e><p><l>denuncia<s n="n"/></l><r>denuncia<s n="n"/></r></p></e>
 <e><p><l>departamento<s n="n"/></l><r>departamentu<s n="n"/></r></p></e>
 <e><p><l>dependencia<s n="n"/></l><r>dependencia<s n="n"/></r></p></e>
-<e><p><l>dependiente<s n="n"/></l><r>dependente<s n="n"/></r></p></e>
+<e><p><l>dependiente<s n="n"/><s n="m"/><s n="sg"/></l><r>dependente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>dependiente<s n="n"/><s n="f"/><s n="sg"/></l><r>dependente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>dependiente<s n="n"/><s n="f"/></l><r>dependente<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>dependiente<s n="n"/><s n="m"/></l><r>dependente<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>dependiente<s n="n"/><s n="GD"/></l><r>dependente<s n="n"/><s n="mf"/></r></p></e>
 <e><p><l>deporte<s n="n"/></l><r>deporte<s n="n"/></r></p></e>
 <e><p><l>deportista<s n="n"/></l><r>deportista<s n="n"/></r></p></e>
 <e><p><l>depósito<s n="n"/></l><r>depósitu<s n="n"/></r></p></e>
@@ -4503,7 +4521,7 @@
 <e><p><l>discoteca<s n="n"/></l><r>discoteca<s n="n"/></r></p></e>
 <e><p><l>disculpa<s n="n"/></l><r>sida<s n="n"/></r></p></e>
 <e><p><l>discurso<s n="n"/></l><r>discursu<s n="n"/></r></p></e>
-<e><p><l>discusión<s n="n"/></l><r>discutiniu<s n="n"/></r></p></e>
+<e><p><l>discusión<s n="n"/><s n="f"/></l><r>discutiniu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>diseño<s n="n"/></l><r>diseñu<s n="n"/></r></p></e>
 <e><p><l>disgusto<s n="n"/></l><r>disgustu<s n="n"/></r></p></e>
 <e><p><l>disparate<s n="n"/></l><r>disparate<s n="n"/></r></p></e>
@@ -4527,7 +4545,7 @@
 <e><p><l>dólar<s n="n"/></l><r>dólar<s n="n"/></r></p></e>
 <e><p><l>dolor<s n="n"/></l><r>dolor<s n="n"/></r></p></e>
 <e><p><l>doméstico<s n="n"/></l><r>domésticu<s n="n"/></r></p></e>
-<e><p><l>domicilio<s n="n"/></l><r>casa<s n="n"/></r></p></e>
+<e><p><l>domicilio<s n="n"/><s n="m"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>domingo<s n="n"/></l><r>domingu<s n="n"/></r></p></e>
 <e><p><l>dominicano<s n="n"/></l><r>dominicanu<s n="n"/></r></p></e>
 <e><p><l>dominio<s n="n"/></l><r>dominiu<s n="n"/></r></p></e>
@@ -4553,7 +4571,10 @@
 <e><p><l>edición<s n="n"/></l><r>edición<s n="n"/></r></p></e>
 <e><p><l>edicto<s n="n"/></l><r>edictu<s n="n"/></r></p></e>
 <e><p><l>edificio<s n="n"/></l><r>edificiu<s n="n"/></r></p></e>
-<e><p><l>edil<s n="n"/></l><r>conceyal<s n="n"/></r></p></e>
+<e r="RL"><p><l>edil<s n="n"/><s n="mf"/><s n="sg"/></l><r>conceyal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>edil<s n="n"/><s n="mf"/><s n="sg"/></l><r>conceyal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>edil<s n="n"/><s n="mf"/><s n="sg"/></l><r>conceyal<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
+<e><p><l>edil<s n="n"/><s n="mf"/><s n="pl"/></l><r>conceyal<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>editorial<s n="n"/></l><r>editorial<s n="n"/></r></p></e>
 <e><p><l>educación<s n="n"/></l><r>educación<s n="n"/></r></p></e>
 <e><p><l>efectivo<s n="n"/></l><r>efectivu<s n="n"/></r></p></e>
@@ -4880,7 +4901,7 @@
 <e><p><l>frasco<s n="n"/></l><r>frascu<s n="n"/></r></p></e>
 <e><p><l>frase<s n="n"/></l><r>frase<s n="n"/></r></p></e>
 <e><p><l>fraude<s n="n"/></l><r>fraude<s n="n"/></r></p></e>
-<e><p><l>fraudulencia<s n="n"/></l><r>fraude<s n="n"/></r></p></e>
+<e><p><l>fraudulencia<s n="n"/><s n="f"/></l><r>fraude<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>frecuencia<s n="n"/></l><r>frecuencia<s n="n"/></r></p></e>
 <e><p><l>freno<s n="n"/></l><r>frenu<s n="n"/></r></p></e>
 <e><p><l>frente<s n="n"/></l><r>frente<s n="n"/></r></p></e>
@@ -4998,7 +5019,7 @@
 <e><p><l>halago<s n="n"/></l><r>afalagu<s n="n"/></r></p></e>
 <e><p><l>hálito<s n="n"/></l><r>aliendu<s n="n"/></r></p></e>
 <e><p><l>hambre<s n="n"/></l><r>fame<s n="n"/></r></p></e>
-<e><p><l>handicap<s n="n"/></l><r>hándicap<s n="n"/></r></p></e>
+<e><p><l>hándicap<s n="n"/></l><r>hándicap<s n="n"/></r></p></e>
 <e><p><l>harina<s n="n"/><s n="f"/></l><r>farina<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>hazaña<s n="n"/></l><r>fazaña<s n="n"/></r></p></e>
 <e><p><l>hebreo<s n="n"/></l><r>hebréu<s n="n"/></r></p></e>
@@ -5034,7 +5055,6 @@
 <e><p><l>hojalata<s n="n"/></l><r>lata<s n="n"/></r></p></e>
 <e><p><l>hoja<s n="n"/></l><r>fueya<s n="n"/></r></p></e>
 <e><p><l>holganza<s n="n"/></l><r>folganza<s n="n"/></r></p></e>
-<e><p><l>holgazán<s n="n"/></l><r>folgazán<s n="n"/></r></p></e>
 <e><p><l>holograma<s n="n"/></l><r>holograma<s n="n"/></r></p></e>
 <e><p><l>hombre<s n="n"/></l><r>home<s n="n"/></r></p></e>
 <e><p><l>hombro<s n="n"/></l><r>costazu<s n="n"/></r></p></e>
@@ -5104,7 +5124,7 @@
 <e><p><l>inactivo<s n="n"/></l><r>inactivu<s n="n"/></r></p></e>
 <e><p><l>incapacidad<s n="n"/></l><r>incapacidá<s n="n"/></r></p></e>
 <e><p><l>incapaz<s n="n"/></l><r>incapaz<s n="n"/></r></p></e>
-<e><p><l>incendio<s n="n"/></l><r>quema<s n="n"/></r></p></e>
+<e><p><l>incendio<s n="n"/><s n="m"/></l><r>quema<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>incentivo<s n="n"/></l><r>incentivu<s n="n"/></r></p></e>
 <e><p><l>incertidumbre<s n="n"/></l><r>incertidume<s n="n"/></r></p></e>
 <e><p><l>incidente<s n="n"/></l><r>incidente<s n="n"/></r></p></e>
@@ -5223,15 +5243,18 @@
 <e><p><l>irregularidad<s n="n"/></l><r>irregularidá<s n="n"/></r></p></e>
 <e><p><l>irritación<s n="n"/></l><r>enritación<s n="n"/></r></p></e>
 <e><p><l>isla<s n="n"/></l><r>islla<s n="n"/></r></p></e>
-<e><p><l>israelí<s n="n"/></l><r>israelín<s n="n"/></r></p></e>
+<e r="RL"><p><l>israelí<s n="n"/><s n="mf"/></l><r>israelín<s n="n"/><s n="m"/></r></p></e> 
+<e r="RL"><p><l>israelí<s n="n"/><s n="mf"/></l><r>israelín<s n="n"/><s n="f"/></r></p></e> 
+<e r="LR"><p><l>israelí<s n="n"/><s n="mf"/></l><r>israelín<s n="n"/><s n="GD"/></r></p></e> 
 <e><p><l>italiano<s n="n"/></l><r>italianu<s n="n"/></r></p></e>
 <e><p><l>izquierda<s n="n"/></l><r>esquierda<s n="n"/></r></p></e>
 <e><p><l>jaque<s n="n"/></l><r>xaqué<s n="n"/></r></p></e>
 <e><p><l>jardín<s n="n"/></l><r>xardín<s n="n"/></r></p></e>
-<e><p><l>jefe<s n="n"/></l><r>xefe<s n="n"/></r></p></e>
 <e><p><l>jerarquía<s n="n"/></l><r>xerarquía<s n="n"/></r></p></e>
 <e><p><l>jersey<s n="n"/></l><r>xersé<s n="n"/></r></p></e>
-<e><p><l>jinete<s n="n"/></l><r>caballeru<s n="n"/></r></p></e>
+<e r="RL"><p><l>jinete<s n="n"/><s n="mf"/></l><r>caballeru<s n="n"/><s n="m"/></r></p></e> 
+<e r="RL"><p><l>jinete<s n="n"/><s n="mf"/></l><r>caballeru<s n="n"/><s n="f"/></r></p></e> 
+<e r="LR"><p><l>jinete<s n="n"/><s n="mf"/></l><r>caballeru<s n="n"/><s n="GD"/></r></p></e> 
 <e><p><l>jornada<s n="n"/></l><r>xornada<s n="n"/></r></p></e>
 <e><p><l>joya<s n="n"/></l><r>xoya<s n="n"/></r></p></e>
 <e><p><l>jubilación<s n="n"/></l><r>xubilación<s n="n"/></r></p></e>
@@ -5264,7 +5287,6 @@
 <e><p><l>labor<s n="n"/><s n="f"/></l><r>llabor<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>lado<s n="n"/></l><r>llau<s n="n"/></r></p></e>
 <e><p><l>ladrillo<s n="n"/></l><r>lladriyu<s n="n"/></r></p></e>
-<e><p><l>ladrón<s n="n"/></l><r>lladrón<s n="n"/></r></p></e>
 <e><p><l>lago<s n="n"/></l><r>llagu<s n="n"/></r></p></e>
 <e><p><l>lágrima<s n="n"/></l><r>llárima<s n="n"/></r></p></e>
 <e><p><l>laguna<s n="n"/></l><r>llaguna<s n="n"/></r></p></e>
@@ -5289,7 +5311,11 @@
 <e><p><l>lenguaje<s n="n"/></l><r>llinguaxe<s n="n"/></r></p></e>
 <e><p><l>lengua<s n="n"/></l><r>llingua<s n="n"/></r></p></e>
 <e><p><l>leña<s n="n"/></l><r>lleña<s n="n"/></r></p></e>
-<e><p><l>león<s n="n"/></l><r>lleón<s n="n"/></r></p></e>
+<e r="LR"><p><l>león<s n="n"/><s n="f"/><s n="pl"/></l><r>lleón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>león<s n="n"/><s n="f"/><s n="sg"/></l><r>lleón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>león<s n="n"/><s n="GD"/><s n="pl"/></l><r>lleón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>león<s n="n"/><s n="m"/><s n="pl"/></l><r>lleón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>león<s n="n"/><s n="m"/><s n="sg"/></l><r>lleón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>leopardo<s n="n"/></l><r>lleopardu<s n="n"/></r></p></e>
 <e><p><l>lesbiana<s n="n"/></l><r>llesbiana<s n="n"/></r></p></e>
 <e><p><l>lesión<s n="n"/></l><r>mancadura<s n="n"/></r></p></e>
@@ -5319,7 +5345,7 @@
 <e><p><l>lío<s n="n"/></l><r>enguedeyu<s n="n"/></r></p></e>
 <e><p><l>líquido<s n="n"/></l><r>líquidu<s n="n"/></r></p></e>
 <e><p><l>lirio<s n="n"/></l><r>lliriu<s n="n"/></r></p></e>
-<e><p><l>lis<s n="n"/></l><r>lliriu<s n="n"/></r></p></e>
+<e><p><l>lis<s n="n"/><s n="f"/></l><r>lliriu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>lista<s n="n"/></l><r>llista<s n="n"/></r></p></e>
 <e><p><l>literato<s n="n"/></l><r>lliteratu<s n="n"/></r></p></e>
 <e><p><l>literatura<s n="n"/></l><r>lliteratura<s n="n"/></r></p></e>  
@@ -5500,7 +5526,7 @@
 <e><p><l>molécula<s n="n"/></l><r>molécula<s n="n"/></r></p></e>
 <e><p><l>molestia<s n="n"/><s n="f"/></l><r>fadiu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>momento<s n="n"/></l><r>momentu<s n="n"/></r></p></e>
-<e><p><l>monarca<s n="n"/></l><r>rei<s n="n"/></r></p></e>
+<e><p><l>monarca<s n="n"/></l><r>monarca<s n="n"/></r></p></e>
 <e><p><l>moneda<s n="n"/></l><r>moneda<s n="n"/></r></p></e>
 <e><p><l>monja<s n="n"/></l><r>monxa<s n="n"/></r></p></e>
 <e><p><l>monje<s n="n"/></l><r>monxu<s n="n"/></r></p></e>
@@ -5531,7 +5557,7 @@
 <e><p><l>muerto<s n="n"/></l><r>muertu<s n="n"/></r></p></e>
 <e><p><l>muestra<s n="n"/></l><r>amuesa<s n="n"/></r></p></e>
 <e><p><l>mujer<s n="n"/></l><r>muyer<s n="n"/></r></p></e>
-<e><p><l>mula<s n="n"/><s n="f"/></l><r>machu<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mula<s n="n"/><s n="f"/></l><r>machu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>multa<s n="n"/></l><r>multa<s n="n"/></r></p></e>
 <e><p><l>multinacional<s n="n"/></l><r>multinacional<s n="n"/></r></p></e>
 <e><p><l>multitud<s n="n"/><s n="f"/></l><r>ensame<s n="n"/><s n="m"/></r></p></e>
@@ -5548,7 +5574,6 @@
 <e><p><l>música<s n="n"/></l><r>música<s n="n"/></r></p></e>
 <e><p><l>músico<s n="n"/></l><r>músicu<s n="n"/></r></p></e>
 <e><p><l>muslo<s n="n"/><s n="m"/></l><r>zanca<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>musulmán<s n="n"/></l><r>musulmán<s n="n"/></r></p></e>
 <e><p><l>naciente<s n="n"/></l><r>naciente<s n="n"/></r></p></e>
 <e><p><l>nacimiento<s n="n"/><s n="m"/></l><r>nacencia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>nacionalidad<s n="n"/></l><r>nacionalidá<s n="n"/></r></p></e>
@@ -5636,9 +5661,8 @@
 <e><p><l>oeste<s n="n"/></l><r>oeste<s n="n"/></r></p></e>
 <e><p><l>ofensa<s n="n"/></l><r>ofiensa<s n="n"/></r></p></e>
 <e><p><l>oferta<s n="n"/></l><r>ufierta<s n="n"/></r></p></e>
-<e><p><l>oficial<s n="n"/></l><r>oficial<s n="n"/></r></p></e>
 <e><p><l>oficina<s n="n"/></l><r>oficina<s n="n"/></r></p></e>
-<e><p><l>oficio<s n="n"/></l><r>oficiu<s n="n"/></r></p></e>
+<e><p><l>oficio<s n="n"/><s n="m"/></l><r>oficiu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>oído<s n="n"/></l><r>oyíu<s n="n"/></r></p></e>
 <e><p><l>ojo<s n="n"/></l><r>güeyu<s n="n"/></r></p></e>
 <e><p><l>ola<s n="n"/></l><r>fola<s n="n"/></r></p></e>
@@ -5657,10 +5681,13 @@
 <e><p><l>optimismo<s n="n"/></l><r>optimismu<s n="n"/></r></p></e>
 <e><p><l>oración<s n="n"/></l><r>oración<s n="n"/></r></p></e>
 <e><p><l>órbita<s n="n"/></l><r>órbita<s n="n"/></r></p></e>
-<e><p><l>ordenador<s n="n"/></l><r>ordenador<s n="n"/></r></p></e>
 <e><p><l>orden<s n="n"/></l><r>orde<s n="n"/></r></p></e>
 <e><p><l>oreja<s n="n"/></l><r>oreya<s n="n"/></r></p></e>
-<e><p><l>orensano<s n="n"/></l><r>ourensán<s n="n"/></r></p></e>
+<e><p><l>orensano<s n="n"/><s n="m"/><s n="sg"/></l><r>ourensán<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>orensano<s n="n"/><s n="f"/><s n="sg"/></l><r>ourensán<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>orensano<s n="n"/><s n="m"/><s n="pl"/></l><r>ourensán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>orensano<s n="n"/><s n="f"/><s n="pl"/></l><r>ourensán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>orensano<s n="n"/><s n="GD"/><s n="pl"/></l><r>ourensán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>organismo<s n="n"/></l><r>organismu<s n="n"/></r></p></e>
 <e><p><l>organización<s n="n"/></l><r>organización<s n="n"/></r></p></e>
 <e><p><l>órgano<s n="n"/></l><r>órganu<s n="n"/></r></p></e>
@@ -5716,7 +5743,7 @@
 <e><p><l>paño<s n="n"/></l><r>pañu<s n="n"/></r></p></e>
 <e><p><l>pañuelo<s n="n"/></l><r>pañuelu<s n="n"/></r></p></e>
 <e><p><l>papa<s n="n"/></l><r>papa<s n="n"/></r></p></e>
-<e><p><l>papá<s n="n"/></l><r>pa<s n="n"/></r></p></e>
+<e><p><l>papá<s n="n"/></l><r>pá<s n="n"/></r></p></e>
 <e><p><l>papel<s n="n"/></l><r>papel<s n="n"/></r></p></e>   
 <e><p><l>paquete<s n="n"/></l><r>paquete<s n="n"/></r></p></e>
 <e><p><l>parada<s n="n"/></l><r>posa<s n="n"/></r></p></e>
@@ -5764,7 +5791,6 @@
 <e><p><l>patio<s n="n"/></l><r>patiu<s n="n"/></r></p></e>
 <e><p><l>patria<s n="n"/></l><r>patria<s n="n"/></r></p></e>
 <e><p><l>patrimonio<s n="n"/></l><r>patrimoniu<s n="n"/></r></p></e>
-<e><p><l>patrón<s n="n"/></l><r>patrón<s n="n"/></r></p></e>
 <e><p><l>paulatino<s n="n"/></l><r>paulatín<s n="n"/></r></p></e>
 <e><p><l>pausa<s n="n"/></l><r>posa<s n="n"/></r></p></e>
 <e><p><l>pavimento<s n="n"/></l><r>pavimentu<s n="n"/></r></p></e>
@@ -5892,12 +5918,14 @@
 <e><p><l>porcentaje<s n="n"/></l><r>porcentaxe<s n="n"/></r></p></e>
 <e><p><l>porción<s n="n"/></l><r>porción<s n="n"/></r></p></e>
 <e><p><l>portal<s n="n"/></l><r>portal<s n="n"/></r></p></e> 
-<e><p><l>portavoz<s n="n"/></l><r>voceru<s n="n"/></r></p></e>
+<e r="RL"><p><l>portavoz<s n="n"/><s n="mf"/></l><r>voceru<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>portavoz<s n="n"/><s n="mf"/></l><r>voceru<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>portavoz<s n="n"/><s n="mf"/></l><r>voceru<s n="n"/><s n="GD"/></r></p></e>
 <e><p><l>portero<s n="n"/></l><r>porteru<s n="n"/></r></p></e>
 <e><p><l>porvenir<s n="n"/></l><r>porvenir<s n="n"/></r></p></e>
 <e><p><l>posada<s n="n"/></l><r>posada<s n="n"/></r></p></e>
 <e><p><l>posesión<s n="n"/></l><r>posesión<s n="n"/></r></p></e>
-<e><p><l>posibilidad<s n="n"/></l><r>posibililidá<s n="n"/></r></p></e>
+<e><p><l>posibilidad<s n="n"/></l><r>posibilidá<s n="n"/></r></p></e>
 <e><p><l>posible<s n="n"/></l><r>posible<s n="n"/></r></p></e>
 <e><p><l>posición<s n="n"/></l><r>posición<s n="n"/></r></p></e>
 <e><p><l>positivo<s n="n"/></l><r>positivu<s n="n"/></r></p></e>
@@ -5929,7 +5957,16 @@
 <e><p><l>presentimiento<s n="n"/><s n="m"/></l><r>figuración<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>preservativo<s n="n"/></l><r>preservativu<s n="n"/></r></p></e>
 <e><p><l>presidencia<s n="n"/></l><r>presidencia<s n="n"/></r></p></e>
-<e><p><l>presidente<s n="n"/></l><r>presidente<s n="n"/></r></p></e>
+<e><p><l>presidente<s n="n"/><s n="m"/><s n="sg"/></l><r>presidente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>presidente<s n="n"/><s n="f"/><s n="sg"/></l><r>presidente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>presidente<s n="n"/><s n="m"/><s n="pl"/></l><r>presidente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>presidente<s n="n"/><s n="f"/><s n="pl"/></l><r>presidente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>presidente<s n="n"/><s n="GD"/><s n="pl"/></l><r>presidente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>jefe<s n="n"/><s n="m"/><s n="sg"/></l><r>xefe<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>jefe<s n="n"/><s n="f"/><s n="sg"/></l><r>xefe<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>jefe<s n="n"/><s n="m"/><s n="pl"/></l><r>xefe<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>jefe<s n="n"/><s n="f"/><s n="pl"/></l><r>xefe<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>jefe<s n="n"/><s n="GD"/><s n="pl"/></l><r>xefe<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>presidiario<s n="n"/></l><r>presidiariu<s n="n"/></r></p></e>
 <e><p><l>presidio<s n="n"/></l><r>presidiu<s n="n"/></r></p></e>
 <e><p><l>presión<s n="n"/></l><r>presión<s n="n"/></r></p></e>
@@ -5961,7 +5998,7 @@
 <e><p><l>producción<s n="n"/></l><r>producción<s n="n"/></r></p></e>
 <e><p><l>producto<s n="n"/></l><r>productu<s n="n"/></r></p></e>
 <e><p><l>profesional<s n="n"/></l><r>profesional<s n="n"/></r></p></e>
-<e><p><l>profesión<s n="n"/></l><r>oficiu<s n="n"/></r></p></e>
+<e><p><l>profesión<s n="n"/><s n="f"/></l><r>oficiu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>profundidad<s n="n"/></l><r>fondura<s n="n"/></r></p></e>
 <e><p><l>programa<s n="n"/></l><r>programa<s n="n"/></r></p></e>
 <e><p><l>progresista<s n="n"/></l><r>progresista<s n="n"/></r></p></e>
@@ -6365,7 +6402,7 @@
 <e><p><l>sorpresa<s n="n"/></l><r>sorpresa<s n="n"/></r></p></e>
 <e><p><l>sosiego<s n="n"/></l><r>aselu<s n="n"/></r></p></e>
 <e><p><l>sosiego<s n="n"/></l><r>asosegamientu<s n="n"/></r></p></e>
-<e><p><l>sospecha<s n="n"/></l><r>barruntu<s n="n"/></r></p></e>
+<e><p><l>sospecha<s n="n"/><s n="f"/></l><r>barruntu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sospechoso<s n="n"/></l><r>sospechosu<s n="n"/></r></p></e>
 <e><p><l>soviético<s n="n"/></l><r>soviéticu<s n="n"/></r></p></e>
 <e><p><l>sprint<s n="n"/></l><r>sprint<s n="n"/></r></p></e>
@@ -6417,7 +6454,9 @@
 <e><p><l>tapamiento<s n="n"/></l><r>atapamientu<s n="n"/></r></p></e>
 <e><p><l>tapiz<s n="n"/></l><r>tapiz<s n="n"/></r></p></e>
 <e><p><l>tarado<s n="n"/></l><r>pasáu<s n="n"/></r></p></e>
-<e><p><l>tarambaina<s n="n"/></l><r>pelamangos<s n="n"/></r></p></e>
+<e r="LR"><p><l>tarambaina<s n="n"/><s n="mf"/><s n="sg"/></l><r>pelamangos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>tarambaina<s n="n"/><s n="mf"/><s n="pl"/></l><r>pelamangos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>tarambaina<s n="n"/><s n="mf"/><s n="ND"/></l><r>pelamangos<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e><p><l>tarde<s n="n"/></l><r>tarde<s n="n"/></r></p></e>
 <e><p><l>tarea<s n="n"/></l><r>xera<s n="n"/></r></p></e>
 <e><p><l>tarifa<s n="n"/></l><r>tarifa<s n="n"/></r></p></e>
@@ -6468,7 +6507,6 @@
 <e><p><l>testigo<s n="n"/><s n="mf"/></l><r>testigu<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>testimonio<s n="n"/></l><r>testimoniu<s n="n"/></r></p></e>
 <e><p><l>teta<s n="n"/></l><r>teta<s n="n"/></r></p></e>
-<e><p><l>teutón<s n="n"/></l><r>teutón<s n="n"/></r></p></e>
 <e><p><l>texto<s n="n"/></l><r>testu<s n="n"/></r></p></e>
 <e><p><l>tiempo<s n="n"/></l><r>tiempu<s n="n"/></r></p></e>
 <e><p><l>tienda<s n="n"/></l><r>tienda<s n="n"/></r></p></e>
@@ -6638,7 +6676,11 @@
 <e><p><l>vía<s n="n"/></l><r>vía<s n="n"/></r></p></e>
 <e><p><l>vibración<s n="n"/></l><r>vibración<s n="n"/></r></p></e>
 <e><p><l>vicepresidencia<s n="n"/></l><r>vicepresidencia<s n="n"/></r></p></e>
-<e><p><l>vicepresidente<s n="n"/></l><r>vicepresidente<s n="n"/></r></p></e>
+<e><p><l>vicepresidente<s n="n"/><s n="m"/><s n="sg"/></l><r>vicepresidente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>vicepresidente<s n="n"/><s n="f"/><s n="sg"/></l><r>vicepresidente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>vicepresidente<s n="n"/><s n="m"/><s n="pl"/></l><r>vicepresidente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>vicepresidente<s n="n"/><s n="f"/><s n="pl"/></l><r>vicepresidente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>vicepresidente<s n="n"/><s n="GD"/><s n="pl"/></l><r>vicepresidente<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>víctima<s n="n"/></l><r>víctima<s n="n"/></r></p></e>
 <e><p><l>victoria<s n="n"/></l><r>victoria<s n="n"/></r></p></e>
 <e><p><l>vida<s n="n"/></l><r>vida<s n="n"/></r></p></e>
@@ -6719,7 +6761,7 @@
 <e r="LR"><p><l>abalizamiento<s n="n"/></l><r>abalizamientu<s n="n"/></r></p></e>    
 <e r="LR"><p><l>abejón<s n="n"/></l><r>abeyón<s n="n"/></r></p></e>
 <e r="LR"><p><l>abetar<s n="n"/></l><r>abetal<s n="n"/></r></p></e>
-<e r="LR"><p><l>acebeda<s n="n"/></l><r>acebal<s n="n"/></r></p></e>
+<e r="LR"><p><l>acebeda<s n="n"/><s n="f"/></l><r>acebal<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>acebedo<s n="n"/></l><r>acebal<s n="n"/></r></p></e>
 <e r="LR"><p><l>adviento<s n="n"/></l><r>avientu<s n="n"/></r></p></e>
 <e r="LR"><p><l>aeróstato<s n="n"/></l><r>aeróstatu<s n="n"/></r></p></e>
@@ -7164,7 +7206,7 @@
 <e r="RL"><p><l>órgano<s n="n"/></l><r>muérganu<s n="n"/></r></p></e>
 <e r="RL"><p><l>orilla<s n="n"/></l><r>oriella<s n="n"/></r></p></e>
 <e r="RL"><p><l>orzuelo<s n="n"/></l><r>arzuelu<s n="n"/></r></p></e>
-<e r="RL"><p><l>padre<s n="n"/></l><r>pa<s n="n"/></r></p></e>
+<e r="RL"><p><l>padre<s n="n"/></l><r>pá<s n="n"/></r></p></e>
 <e r="RL"><p><l>palabra<s n="n"/></l><r>palabra<s n="n"/></r></p></e>
 <e r="RL"><p><l>paliza<s n="n"/></l><r>corria<s n="n"/></r></p></e>
 <e r="RL"><p><l>paliza<s n="n"/></l><r>cuelma<s n="n"/></r></p></e>
@@ -7633,7 +7675,6 @@
 <e><p><l>hispano<s n="adj"/></l><r>hispanu<s n="adj"/></r></p></e>
 <e><p><l>histórico<s n="adj"/></l><r>hestóricu<s n="adj"/></r></p></e>
 <e><p><l>hito<s n="adj"/></l><r>afitáu<s n="adj"/></r></p></e>
-<e><p><l>holgazán<s n="adj"/></l><r>folgazán<s n="adj"/></r></p></e>
 <e><p><l>homicida<s n="adj"/></l><r>homicida<s n="adj"/></r></p></e>
 <e><p><l>homosexual<s n="adj"/></l><r>homosexual<s n="adj"/></r></p></e>
 <e><p><l>hondo<s n="adj"/></l><r>fondu<s n="adj"/></r></p></e>
@@ -7838,7 +7879,6 @@
 <e><p><l>mundial<s n="adj"/></l><r>mundial<s n="adj"/></r></p></e>
 <e><p><l>municipal<s n="adj"/></l><r>municipal<s n="adj"/></r></p></e>
 <e><p><l>músico<s n="adj"/></l><r>músicu<s n="adj"/></r></p></e>
-<e><p><l>musulmán<s n="adj"/></l><r>musulmán<s n="adj"/></r></p></e>
 <e><p><l>mutuo<s n="adj"/></l><r>mutuu<s n="adj"/></r></p></e>
 <e><p><l>nacionalista<s n="adj"/></l><r>nacionalista<s n="adj"/></r></p></e>
 <e><p><l>nacional<s n="adj"/></l><r>nacional<s n="adj"/></r></p></e>
@@ -11085,12 +11125,6 @@
 <e><p><l>bailador<s n="adj"/><s n="f"/><s n="sg"/></l><r>bailador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>bailador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>bailador<s n="adj"/><s n="m"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>bailador<s n="adj"/><s n="m"/><s n="sg"/></l><r>bailador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>bailaor<s n="adj"/><s n="f"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>bailaor<s n="adj"/><s n="f"/><s n="sg"/></l><r>bailador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<!--<e r="RL"><p><l>bailaor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>-->
-<e r="LR"><p><l>bailaor<s n="adj"/><s n="m"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>bailaor<s n="adj"/><s n="m"/><s n="sg"/></l><r>bailador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>bebedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>bebedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>bebedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>bebedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>bebedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>bebedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -11101,6 +11135,11 @@
 <e r="RL"><p><l>azotador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>azotador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>azotador<s n="adj"/><s n="m"/><s n="pl"/></l><r>azotador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>azotador<s n="adj"/><s n="m"/><s n="sg"/></l><r>azotador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>bailaor<s n="adj"/><s n="f"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailaor<s n="adj"/><s n="f"/><s n="sg"/></l><r>bailador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bailaor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bailaor<s n="adj"/><s n="m"/><s n="pl"/></l><r>bailador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailaor<s n="adj"/><s n="m"/><s n="sg"/></l><r>bailador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>barredor<s n="adj"/><s n="f"/><s n="pl"/></l><r>barredor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>barredor<s n="adj"/><s n="f"/><s n="sg"/></l><r>barredor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>barredor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>barredor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -12665,6 +12704,11 @@
 <e r="RL"><p><l>tirador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>tirador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>tirador<s n="adj"/><s n="m"/><s n="pl"/></l><r>tirador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>tirador<s n="adj"/><s n="m"/><s n="sg"/></l><r>tirador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>tirador<s n="n"/><s n="f"/><s n="pl"/></l><r>tirador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>tirador<s n="n"/><s n="f"/><s n="sg"/></l><r>tirador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>tirador<s n="n"/><s n="GD"/><s n="pl"/></l><r>tirador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>tirador<s n="n"/><s n="m"/><s n="pl"/></l><r>tirador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>tirador<s n="n"/><s n="m"/><s n="sg"/></l><r>tirador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>torturador<s n="adj"/><s n="f"/><s n="pl"/></l><r>torturador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>torturador<s n="adj"/><s n="f"/><s n="sg"/></l><r>torturador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>torturador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>torturador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -12829,9 +12873,9 @@
 <e><p><l>amplificador<s n="n"/><s n="m"/><s n="sg"/></l><r>amplificador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>antecesor<s n="n"/><s n="f"/><s n="pl"/></l><r>antecesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>antecesor<s n="n"/><s n="f"/><s n="sg"/></l><r>antecesor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>antecesor<s n="n"/><s n="m"/><s n="sg"/></l><r>antecesor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>antecesor<s n="n"/><s n="GD"/><s n="pl"/></l><r>antecesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>antecesor<s n="n"/><s n="m"/><s n="pl"/></l><r>antecesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>antecesor<s n="n"/><s n="m"/><s n="sg"/></l><r>antecesor<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>antecesor<s n="n"/><s n="m"/><s n="sg"/></l><r>antecesor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>aparador<s n="n"/><s n="f"/><s n="pl"/></l><r>aparador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>aparador<s n="n"/><s n="f"/><s n="sg"/></l><r>aparador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12846,9 +12890,9 @@
 <e><p><l>aparejador<s n="n"/><s n="m"/><s n="sg"/></l><r>apareyador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>apicultor<s n="n"/><s n="f"/><s n="pl"/></l><r>apicultor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>apicultor<s n="n"/><s n="f"/><s n="sg"/></l><r>apicultor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>apicultor<s n="n"/><s n="m"/><s n="sg"/></l><r>apicultor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>apicultor<s n="n"/><s n="GD"/><s n="pl"/></l><r>apicultor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>apicultor<s n="n"/><s n="m"/><s n="pl"/></l><r>apicultor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>apicultor<s n="n"/><s n="m"/><s n="sg"/></l><r>apicultor<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>apicultor<s n="n"/><s n="m"/><s n="sg"/></l><r>apicultor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>apuntador<s n="n"/><s n="f"/><s n="pl"/></l><r>apuntador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>apuntador<s n="n"/><s n="f"/><s n="sg"/></l><r>apuntador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12857,21 +12901,19 @@
 <e><p><l>apuntador<s n="n"/><s n="m"/><s n="sg"/></l><r>apuntador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>arador<s n="n"/><s n="f"/><s n="pl"/></l><r>arador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>arador<s n="n"/><s n="f"/><s n="sg"/></l><r>arador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>arador<s n="n"/><s n="m"/><s n="sg"/></l><r>arador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>arador<s n="n"/><s n="GD"/><s n="pl"/></l><r>arador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>arador<s n="n"/><s n="m"/><s n="pl"/></l><r>arador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>arador<s n="n"/><s n="m"/><s n="sg"/></l><r>arador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>arador<s n="n"/><s n="m"/><s n="sg"/></l><r>arador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>armador<s n="n"/><s n="f"/><s n="pl"/></l><r>armador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>armador<s n="n"/><s n="f"/><s n="sg"/></l><r>armador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>armador<s n="n"/><s n="GD"/><s n="pl"/></l><r>armador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>armador<s n="n"/><s n="m"/><s n="pl"/></l><r>armador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>armador<s n="n"/><s n="m"/><s n="sg"/></l><r>armador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>armador<s n="n"/><s n="m"/><s n="sg"/></l><r>armador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>arreador<s n="n"/><s n="f"/><s n="pl"/></l><r>arreador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>arreador<s n="n"/><s n="f"/><s n="sg"/></l><r>arreador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>arreador<s n="n"/><s n="GD"/><s n="pl"/></l><r>arreador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>arreador<s n="n"/><s n="m"/><s n="pl"/></l><r>arreador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>arreador<s n="n"/><s n="m"/><s n="sg"/></l><r>arreador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>arreador<s n="n"/><s n="m"/><s n="sg"/></l><r>arreador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>asesor<s n="n"/><s n="f"/><s n="pl"/></l><r>asesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>asesor<s n="n"/><s n="f"/><s n="sg"/></l><r>asesor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12887,13 +12929,11 @@
 <e><p><l>atacador<s n="n"/><s n="f"/><s n="sg"/></l><r>atacador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>atacador<s n="n"/><s n="GD"/><s n="pl"/></l><r>atacador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>atacador<s n="n"/><s n="m"/><s n="pl"/></l><r>atacador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>atacador<s n="n"/><s n="m"/><s n="sg"/></l><r>atacador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>atacador<s n="n"/><s n="m"/><s n="sg"/></l><r>atacador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>atizador<s n="n"/><s n="f"/><s n="pl"/></l><r>atizador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>atizador<s n="n"/><s n="f"/><s n="sg"/></l><r>atizador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>atizador<s n="n"/><s n="GD"/><s n="pl"/></l><r>atizador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>atizador<s n="n"/><s n="m"/><s n="pl"/></l><r>atizador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>atizador<s n="n"/><s n="m"/><s n="sg"/></l><r>atizador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>atizador<s n="n"/><s n="m"/><s n="sg"/></l><r>atizador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>auditor<s n="n"/><s n="f"/><s n="pl"/></l><r>auditor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>auditor<s n="n"/><s n="f"/><s n="sg"/></l><r>auditor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12924,13 +12964,11 @@
 <e><p><l>avicultor<s n="n"/><s n="f"/><s n="sg"/></l><r>avicultor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>avicultor<s n="n"/><s n="GD"/><s n="pl"/></l><r>avicultor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>avicultor<s n="n"/><s n="m"/><s n="pl"/></l><r>avicultor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>avicultor<s n="n"/><s n="m"/><s n="sg"/></l><r>avicultor<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>avicultor<s n="n"/><s n="m"/><s n="sg"/></l><r>avicultor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>basculador<s n="n"/><s n="f"/><s n="pl"/></l><r>basculador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>basculador<s n="n"/><s n="f"/><s n="sg"/></l><r>basculador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>basculador<s n="n"/><s n="GD"/><s n="pl"/></l><r>basculador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>basculador<s n="n"/><s n="m"/><s n="pl"/></l><r>basculador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>basculador<s n="n"/><s n="m"/><s n="sg"/></l><r>basculador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>basculador<s n="n"/><s n="m"/><s n="sg"/></l><r>basculador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>borrador<s n="n"/><s n="f"/><s n="pl"/></l><r>borrador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>borrador<s n="n"/><s n="f"/><s n="sg"/></l><r>borrador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12942,7 +12980,6 @@
 <e><p><l>calentador<s n="n"/><s n="f"/><s n="sg"/></l><r>calentador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>calentador<s n="n"/><s n="GD"/><s n="pl"/></l><r>calentador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>calentador<s n="n"/><s n="m"/><s n="pl"/></l><r>calentador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>calentador<s n="n"/><s n="m"/><s n="sg"/></l><r>calentador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>calentador<s n="n"/><s n="m"/><s n="sg"/></l><r>calentador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>campesino<s n="n"/><s n="f"/><s n="pl"/></l><r>llabrador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>campesino<s n="n"/><s n="f"/><s n="sg"/></l><r>llabrador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -13050,7 +13087,6 @@
 <e><p><l>contador<s n="n"/><s n="f"/><s n="sg"/></l><r>contador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>contador<s n="n"/><s n="GD"/><s n="pl"/></l><r>contador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>contador<s n="n"/><s n="m"/><s n="pl"/></l><r>contador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>contador<s n="n"/><s n="m"/><s n="sg"/></l><r>contador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>contador<s n="n"/><s n="m"/><s n="sg"/></l><r>contador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>corrector<s n="n"/><s n="f"/><s n="pl"/></l><r>corrector<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>corrector<s n="n"/><s n="f"/><s n="sg"/></l><r>corrector<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -13061,7 +13097,6 @@
 <e><p><l>corredor<s n="n"/><s n="f"/><s n="sg"/></l><r>corredor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>corredor<s n="n"/><s n="GD"/><s n="pl"/></l><r>corredor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>corredor<s n="n"/><s n="m"/><s n="pl"/></l><r>corredor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>corredor<s n="n"/><s n="m"/><s n="sg"/></l><r>corredor<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>corredor<s n="n"/><s n="m"/><s n="sg"/></l><r>corredor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>creador<s n="n"/><s n="f"/><s n="pl"/></l><r>ceador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>creador<s n="n"/><s n="f"/><s n="sg"/></l><r>ceador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -13246,12 +13281,6 @@
 <e r="RL"><p><l>espectador<s n="n"/><s n="GD"/><s n="pl"/></l><r>espectador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>espectador<s n="n"/><s n="m"/><s n="pl"/></l><r>espectador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>espectador<s n="n"/><s n="m"/><s n="sg"/></l><r>espectador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>esplendor<s n="n"/><s n="f"/><s n="pl"/></l><r>esplendor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>esplendor<s n="n"/><s n="f"/><s n="sg"/></l><r>esplendor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>esplendor<s n="n"/><s n="GD"/><s n="pl"/></l><r>esplendor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>esplendor<s n="n"/><s n="m"/><s n="pl"/></l><r>esplendor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>esplendor<s n="n"/><s n="m"/><s n="sg"/></l><r>esplendor<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-<e><p><l>esplendor<s n="n"/><s n="m"/><s n="sg"/></l><r>esplendor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>esquilador<s n="n"/><s n="f"/><s n="pl"/></l><r>esquilador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>esquilador<s n="n"/><s n="f"/><s n="sg"/></l><r>esquilador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>esquilador<s n="n"/><s n="GD"/><s n="pl"/></l><r>esquilador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -13305,7 +13334,6 @@
 <e><p><l>inspector<s n="n"/><s n="f"/><s n="sg"/></l><r>inspector<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>inspector<s n="n"/><s n="GD"/><s n="pl"/></l><r>inspector<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>inspector<s n="n"/><s n="m"/><s n="pl"/></l><r>inspector<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>inspector<s n="n"/><s n="m"/><s n="sg"/></l><r>inspector<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>inspector<s n="n"/><s n="m"/><s n="sg"/></l><r>inspector<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>instructor<s n="n"/><s n="f"/><s n="pl"/></l><r>instructor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>instructor<s n="n"/><s n="f"/><s n="sg"/></l><r>instructor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -13351,16 +13379,11 @@
 <e r="RL"><p><l>opositor<s n="n"/><s n="GD"/><s n="pl"/></l><r>opositor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>opositor<s n="n"/><s n="m"/><s n="pl"/></l><r>opositor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>opositor<s n="n"/><s n="m"/><s n="sg"/></l><r>opositor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>pastor<s n="n"/><s n="f"/><s n="pl"/></l><r>pastor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>pastor<s n="n"/><s n="f"/><s n="pl"/></l><r>pregueru<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>pastor<s n="n"/><s n="f"/><s n="sg"/></l><r>pastor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>pastor<s n="n"/><s n="f"/><s n="sg"/></l><r>pregueru<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>pastor<s n="n"/><s n="f"/><s n="pl"/></l><r>pastor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pastor<s n="n"/><s n="f"/><s n="sg"/></l><r>pastor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>pastor<s n="n"/><s n="GD"/><s n="pl"/></l><r>pastor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>pastor<s n="n"/><s n="GD"/><s n="pl"/></l><r>pregueru<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>pastor<s n="n"/><s n="m"/><s n="pl"/></l><r>pastor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>pastor<s n="n"/><s n="m"/><s n="pl"/></l><r>pregueru<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>pastor<s n="n"/><s n="m"/><s n="sg"/></l><r>pastor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>pastor<s n="n"/><s n="m"/><s n="sg"/></l><r>pregueru<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>pastor<s n="n"/><s n="m"/><s n="pl"/></l><r>pastor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pastor<s n="n"/><s n="m"/><s n="sg"/></l><r>pastor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>pescador<s n="n"/><s n="f"/><s n="pl"/></l><r>pescador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>pescador<s n="n"/><s n="f"/><s n="sg"/></l><r>pescador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>pescador<s n="n"/><s n="GD"/><s n="pl"/></l><r>pescador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -13420,13 +13443,11 @@
 <e><p><l>servidor<s n="n"/><s n="f"/><s n="sg"/></l><r>servidor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>servidor<s n="n"/><s n="GD"/><s n="pl"/></l><r>servidor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>servidor<s n="n"/><s n="m"/><s n="pl"/></l><r>servidor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>servidor<s n="n"/><s n="m"/><s n="sg"/></l><r>servidor<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>servidor<s n="n"/><s n="m"/><s n="sg"/></l><r>servidor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>sucesor<s n="n"/><s n="f"/><s n="pl"/></l><r>sucesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>sucesor<s n="n"/><s n="f"/><s n="sg"/></l><r>sucesor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>sucesor<s n="n"/><s n="GD"/><s n="pl"/></l><r>sucesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>sucesor<s n="n"/><s n="m"/><s n="pl"/></l><r>sucesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>sucesor<s n="n"/><s n="m"/><s n="sg"/></l><r>sucesor<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>sucesor<s n="n"/><s n="m"/><s n="sg"/></l><r>sucesor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>trabajador<s n="n"/><s n="f"/><s n="pl"/></l><r>trabayador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>trabajador<s n="n"/><s n="f"/><s n="sg"/></l><r>trabayador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -14878,7 +14899,11 @@
 <e><p><l>adulto<s n="n"/></l><r>adultu<s n="n"/></r></p></e>
 <e><p><l>aféresis<s n="n"/></l><r>aféresis<s n="n"/></r></p></e>
 <e><p><l>agarrón<s n="n"/></l><r>agarrón<s n="n"/></r></p></e>
-<e><p><l>aguafiestas<s n="n"/></l><r>vinagreru<s n="n"/></r></p></e>
+<e r="RL"><p><l>aguafiestas<s n="n"/><s n="mf"/><s n="sp"/></l><r>vinagreru<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>aguafiestas<s n="n"/><s n="mf"/><s n="sp"/></l><r>vinagreru<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>aguafiestas<s n="n"/><s n="mf"/><s n="sp"/></l><r>vinagreru<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>aguafiestas<s n="n"/><s n="mf"/><s n="sp"/></l><r>vinagreru<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>aguafiestas<s n="n"/><s n="mf"/><s n="sp"/></l><r>vinagreru<s n="n"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>agucia<s n="n"/></l><r>gucia<s n="n"/></r></p></e>
 <e><p><l>ajada<s n="n"/></l><r>ayada<s n="n"/></r></p></e>
 <e><p><l>ajetreo<s n="n"/></l><r>traxín<s n="n"/></r></p></e>
@@ -14897,7 +14922,7 @@
 <e><p><l>alcázar<s n="n"/></l><r>alcázar<s n="n"/></r></p></e>
 <e><p><l>alfareme<s n="n"/></l><r>alfareme<s n="n"/></r></p></e>
 <e><p><l>alferga<s n="n"/></l><r>alferga<s n="n"/></r></p></e>
-<e><p><l>alfoz<s n="n"/></l><r>alfoz<s n="n"/></r></p></e>
+<e><p><l>alfoz<s n="n"/><s n="m"/></l><r>alfoz<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>alga<s n="n"/></l><r>alga<s n="n"/></r></p></e>
 <e><p><l>aliado<s n="n"/></l><r>aliáu<s n="n"/></r></p></e>
 <e><p><l>aligote<s n="n"/></l><r>oyomol<s n="n"/></r></p></e>
@@ -14940,7 +14965,7 @@
 <e><p><l>aprendizaje<s n="n"/></l><r>aprendizaxe<s n="n"/></r></p></e>
 <e><p><l>arancel<s n="n"/></l><r>arancel<s n="n"/></r></p></e>
 <e><p><l>arbolada<s n="n"/><s n="f"/></l><r>arbolíu<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>arena<s n="n"/></l><r>sable<s n="n"/></r></p></e>
+<e><p><l>arena<s n="n"/><s n="f"/></l><r>sable<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>argentino<s n="n"/></l><r>arxentín<s n="n"/></r></p></e>
 <e><p><l>arrastrero<s n="n"/></l><r>arrastreru<s n="n"/></r></p></e>
 <e><p><l>arrecife<s n="n"/></l><r>petón<s n="n"/></r></p></e>
@@ -15004,7 +15029,7 @@
 <e><p><l>badajada<s n="n"/></l><r>mayolada<s n="n"/></r></p></e>
 <e><p><l>badajazo<s n="n"/></l><r>mayolazu<s n="n"/></r></p></e>
 <e><p><l>badajo<s n="n"/></l><r>mayuelu<s n="n"/></r></p></e>
-<e><p><l>badea<s n="n"/></l><r>melonuciu<s n="n"/></r></p></e>
+<e><p><l>badea<s n="n"/><s n="f"/></l><r>melonuciu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>badil<s n="n"/></l><r>badil<s n="n"/></r></p></e>
 <e><p><l>baga<s n="n"/></l><r>baga<s n="n"/></r></p></e>
 <e><p><l>bagaje<s n="n"/></l><r>bagaxe<s n="n"/></r></p></e>
@@ -15014,7 +15039,6 @@
 <e><p><l>bailarín<s n="n"/></l><r>bailarín<s n="n"/></r></p></e>
 <e><p><l>bailarín<s n="n"/></l><r>baillarín<s n="n"/></r></p></e>
 <e><p><l>bailete<s n="n"/></l><r>baillete<s n="n"/></r></p></e>
-<e><p><l>bailón<s n="n"/></l><r>baillón<s n="n"/></r></p></e>
 <e><p><l>bailoteo<s n="n"/></l><r>baillotéu<s n="n"/></r></p></e>
 <e><p><l>bajamar<s n="n"/></l><r>baxamar<s n="n"/></r></p></e>
 <e><p><l>bajamiento<s n="n"/></l><r>baxamientu<s n="n"/></r></p></e>
@@ -15204,7 +15228,6 @@
 <e><p><l>batuda<s n="n"/></l><r>batuda<s n="n"/></r></p></e>
 <e><p><l>batuta<s n="n"/></l><r>batuta<s n="n"/></r></p></e>
 <e><p><l>baúl<s n="n"/></l><r>arcón<s n="n"/></r></p></e>
-<e><p><l>bauprés<s n="n"/></l><r>moprés<s n="n"/></r></p></e>
 <e><p><l>bautismo<s n="n"/></l><r>bautismu<s n="n"/></r></p></e>
 <e><p><l>bautizo<s n="n"/></l><r>bautizu<s n="n"/></r></p></e>
 <e><p><l>bauxita<s n="n"/></l><r>bauxita<s n="n"/></r></p></e>
@@ -15217,7 +15240,7 @@
 <e><p><l>beatería<s n="n"/></l><r>beatura<s n="n"/></r></p></e>
 <e><p><l>beatificación<s n="n"/></l><r>beatificación<s n="n"/></r></p></e>
 <e><p><l>beatitud<s n="n"/></l><r>beatitú<s n="n"/></r></p></e>
-<e><p><l>bebedero<s n="n"/></l><r>bebezón<s n="n"/></r></p></e>
+<e><p><l>bebedero<s n="n"/><s n="m"/></l><r>bebezón<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>becada<s n="n"/></l><r>arcea<s n="n"/></r></p></e>
 <e><p><l>becario<s n="n"/></l><r>becariu<s n="n"/></r></p></e>
 <e><p><l>becerro<s n="n"/></l><r>magüetu<s n="n"/></r></p></e>
@@ -15315,7 +15338,6 @@
 <e><p><l>brega<s n="n"/></l><r>brega<s n="n"/></r></p></e>
 <e><p><l>breoganista<s n="n"/></l><r>breoganista<s n="n"/></r></p></e>
 <e><p><l>brete<s n="n"/></l><r>brete<s n="n"/></r></p></e>
-<e><p><l>bretón<s n="n"/></l><r>bretón<s n="n"/></r></p></e>
 <e><p><l>bricolaje<s n="n"/></l><r>bricolaxe<s n="n"/></r></p></e>
 <e><p><l>brigadista<s n="n"/></l><r>brigadista<s n="n"/></r></p></e>
 <e><p><l>brillante<s n="n"/></l><r>brillante<s n="n"/></r></p></e>
@@ -15330,7 +15352,6 @@
 <e><p><l>bruño<s n="n"/></l><r>cirgüeyu<s n="n"/></r></p></e>
 <e><p><l>budista<s n="n"/></l><r>budista<s n="n"/></r></p></e>
 <e><p><l>bufanda<s n="n"/></l><r>bufanda<s n="n"/></r></p></e>
-<e><p><l>bufón<s n="n"/></l><r>bofón<s n="n"/></r></p></e>
 <e><p><l>buhardilla<s n="n"/></l><r>bufarda<s n="n"/></r></p></e>
 <e><p><l>bula<s n="n"/></l><r>bulda<s n="n"/></r></p></e>
 <e><p><l>burelense<s n="n"/></l><r>burelense<s n="n"/></r></p></e>
@@ -15390,7 +15411,7 @@
 <e><p><l>cojín<s n="n"/></l><r>coxín<s n="n"/></r></p></e>
 <e><p><l>colectivista<s n="n"/></l><r>colectivista<s n="n"/></r></p></e>
 <e><p><l>col<s n="n"/></l><r>col<s n="n"/></r></p></e>
-<e><p><l>colmena<s n="n"/></l><r>truébanu<s n="n"/></r></p></e>
+<e><p><l>colmena<s n="n"/><s n="f"/></l><r>truébanu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>colmo<s n="n"/></l><r>cuelmu<s n="n"/></r></p></e>
 <e><p><l>colono<s n="n"/></l><r>colonu<s n="n"/></r></p></e>
 <e><p><l>colono<s n="n"/></l><r>colonuu<s n="n"/></r></p></e>
@@ -15438,7 +15459,6 @@
 <e><p><l>cuadrado<s n="n"/></l><r>cuadráu<s n="n"/></r></p></e>
 <e><p><l>cuadrilátero<s n="n"/></l><r>cuadriláteru<s n="n"/></r></p></e>
 <e><p><l>cuádruplo<s n="n"/></l><r>cuádruplu<s n="n"/></r></p></e>
-<e><p><l>cuarentón<s n="n"/></l><r>cuarentón<s n="n"/></r></p></e>
 <e><p><l>cuarzo<s n="n"/></l><r>cuarzu<s n="n"/></r></p></e>
 <e><p><l>cuatripartito<s n="n"/></l><r>cuatripartitu<s n="n"/></r></p></e>
 <e><p><l>cuatrocientos<s n="n"/></l><r>cuatrocientos<s n="n"/></r></p></e>
@@ -15456,7 +15476,7 @@
 <e><p><l>dádiva<s n="n"/></l><r>apurrida<s n="n"/></r></p></e>
 <e><p><l>danzante<s n="n"/></l><r>danzante<s n="n"/></r></p></e>
 <e><p><l>débito<s n="n"/></l><r>débeda<s n="n"/></r></p></e>
-<e><p><l>decaimiento<s n="n"/></l><r>escayencia<s n="n"/></r></p></e>
+<e><p><l>decaimiento<s n="n"/><s n="m"/></l><r>escayencia<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>decanato<s n="n"/></l><r>decanatu<s n="n"/></r></p></e>
 <e><p><l>decantación<s n="n"/></l><r>decantación<s n="n"/></r></p></e>
 <e><p><l>decapitación<s n="n"/></l><r>decapitación<s n="n"/></r></p></e>
@@ -15505,7 +15525,7 @@
 <e><p><l>desempate<s n="n"/></l><r>desempate<s n="n"/></r></p></e>
 <e><p><l>desenfreno<s n="n"/></l><r>esquiciadura<s n="n"/></r></p></e>
 <e><p><l>deserción<s n="n"/></l><r>deserción<s n="n"/></r></p></e>
-<e><p><l>desesperanza<s n="n"/></l><r>esperecimientu<s n="n"/></r></p></e>
+<e><p><l>desesperanza<s n="n"/><s n="f"/></l><r>esperecimientu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>desestabilización<s n="n"/></l><r>desestabilización<s n="n"/></r></p></e>
 <e><p><l>desestimación<s n="n"/></l><r>desestimación<s n="n"/></r></p></e>
 <e><p><l>desestructuración<s n="n"/></l><r>desestructuración<s n="n"/></r></p></e>
@@ -15657,7 +15677,6 @@
 <e><p><l>golpista<s n="n"/></l><r>golpista<s n="n"/></r></p></e>
 <e><p><l>gravidez<s n="n"/></l><r>gravidez<s n="n"/></r></p></e>
 <e><p><l>gravamen<s n="n"/></l><r>gravame<s n="n"/></r></p></e>
-<e><p><l>grosero<s n="n"/></l><r>bocayón<s n="n"/></r></p></e>
 <e><p><l>grovense<s n="n"/></l><r>grovense<s n="n"/></r></p></e>
 <e><p><l>grúa<s n="n"/></l><r>grúa<s n="n"/></r></p></e>
 <e><p><l>guardián<s n="n"/></l><r>guardián<s n="n"/></r></p></e>
@@ -15699,10 +15718,22 @@
 <e><p><l>ingenuidad<s n="n"/></l><r>inxenuidá<s n="n"/></r></p></e>
 <e><p><l>iniquidad<s n="n"/></l><r>enconía<s n="n"/></r></p></e>
 <e><p><l>injerto<s n="n"/></l><r>ensiertu<s n="n"/></r></p></e>
-<e><p><l>inmaduro<s n="n"/></l><r>neñón<s n="n"/></r></p></e>
+<e><p><l>inmaduro<s n="n"/><s n="m"/><s n="sg"/></l><r>neñón<s n="n"/><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>inmaduro<s n="n"/><s n="f"/><s n="sg"/></l><r>neñón<s n="n"/><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>inmaduro<s n="n"/><s n="m"/><s n="pl"/></l><r>neñón<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>inmaduro<s n="n"/><s n="f"/><s n="pl"/></l><r>neñón<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>inmaduro<s n="n"/><s n="GD"/><s n="pl"/></l><r>neñón<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>grosero<s n="n"/><s n="m"/><s n="sg"/></l><r>bocayón<s n="n"/><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>grosero<s n="n"/><s n="f"/><s n="sg"/></l><r>bocayón<s n="n"/><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>grosero<s n="n"/><s n="m"/><s n="pl"/></l><r>bocayón<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>grosero<s n="n"/><s n="f"/><s n="pl"/></l><r>bocayón<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>grosero<s n="n"/><s n="GD"/><s n="pl"/></l><r>bocayón<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>inmunodeficiencia<s n="n"/></l><r>inmunodeficiencia<s n="n"/></r></p></e>
 <e><p><l>Inorde<s n="n"/><s n="acr"/></l><r>Inorde<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>inri<s n="n"/></l><r>inri<s n="n"/></r></p></e>
+<e r="RL"><p><l>gandul<s n="n"/><s n="mf"/></l><r>bimbu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>gandul<s n="n"/><s n="mf"/></l><r>bimbu<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>gandul<s n="n"/><s n="mf"/></l><r>bimbu<s n="n"/><s n="GD"/></r></p></e>
 <e><p><l>insania<s n="n"/></l><r>alloria<s n="n"/></r></p></e>
 <e><p><l>insensatez<s n="n"/></l><r>insensatez<s n="n"/></r></p></e>
 <e><p><l>insidia<s n="n"/></l><r>engalima<s n="n"/></r></p></e>
@@ -15720,7 +15751,6 @@
 <e><p><l>inválido<s n="n"/></l><r>inválidu<s n="n"/></r></p></e>
 <e><p><l>inventiva<s n="n"/></l><r>inventiva<s n="n"/></r></p></e>
 <e><p><l>iracundia<s n="n"/></l><r>coraxina<s n="n"/></r></p></e>
-<e><p><l>israelita<s n="n"/></l><r>israelín<s n="n"/></r></p></e>
 <e><p><l>jaula<s n="n"/></l><r>xaula<s n="n"/></r></p></e>
 <e><p><l>jazmín<s n="n"/></l><r>xazmín<s n="n"/></r></p></e>
 <e><p><l>jeringa<s n="n"/></l><r>xeringa<s n="n"/></r></p></e>
@@ -15730,9 +15760,8 @@
 <e><p><l>lendrero<s n="n"/></l><r>biberu<s n="n"/></r></p></e>
 <e><p><l>liendre<s n="n"/></l><r>biba<s n="n"/></r></p></e>
 <e><p><l>lípido<s n="n"/></l><r>lípidu<s n="n"/></r></p></e>
-<e><p><l>liza<s n="n"/></l><r>tema<s n="n"/></r></p></e>
+<e><p><l>liza<s n="n"/><s n="f"/></l><r>tema<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>llegada<s n="n"/></l><r>llegada<s n="n"/></r></p></e>
-<e><p><l>llorón<s n="n"/></l><r>lloramingón<s n="n"/></r></p></e>
 <e><p><l>loanza<s n="n"/></l><r>lloanza<s n="n"/></r></p></e>
 <e><p><l>lobanillo<s n="n"/></l><r>abaniellu<s n="n"/></r></p></e>
 <e><p><l>loco<s n="n"/></l><r>llocu<s n="n"/></r></p></e>
@@ -15770,7 +15799,6 @@
 <e><p><l>meruéndano<s n="n"/></l><r>miruéndanu<s n="n"/></r></p></e>
 <e><p><l>metamorfosis<s n="n"/></l><r>metamorfosis<s n="n"/></r></p></e>
 <e><p><l>metodología<s n="n"/></l><r>metodoloxía<s n="n"/></r></p></e>
-<e><p><l>mezclador<s n="n"/></l><r>mezclador<s n="n"/></r></p></e>
 <e><p><l>micrófono<s n="n"/></l><r>micrófonu<s n="n"/></r></p></e>
 <e><p><l>milmillonésimo<s n="n"/></l><r>milmillonésimu<s n="n"/></r></p></e>
 <e><p><l>minifalda<s n="n"/></l><r>minifalda<s n="n"/></r></p></e>
@@ -15806,7 +15834,9 @@
 <e><p><l>opa<s n="n"/></l><r>opa<s n="n"/></r></p></e>
 <e><p><l>orificio<s n="n"/></l><r>furu<s n="n"/></r></p></e>
 <e><p><l>palestino<s n="n"/></l><r>palestín<s n="n"/></r></p></e>
-<e><p><l>páncreas<s n="n"/></l><r>entrellenzu<s n="n"/></r></p></e>
+<e r="RL"><p><l>páncreas<s n="n"/><s n="m"/><s n="sp"/></l><r>entrellenzu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>páncreas<s n="n"/><s n="m"/><s n="sp"/></l><r>entrellenzu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>páncreas<s n="n"/><s n="m"/><s n="sp"/></l><r>entrellenzu<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
 <e><p><l>pánico<s n="n"/></l><r>llerza<s n="n"/></r></p></e>
 <e><p><l>papiro<s n="n"/></l><r>papiru<s n="n"/></r></p></e>
 <e><p><l>paquebote<s n="n"/></l><r>paquebote<s n="n"/></r></p></e>
@@ -15834,7 +15864,7 @@
 <e><p><l>placero<s n="n"/></l><r>zabarceru<s n="n"/></r></p></e>
 <e><p><l>planeamiento<s n="n"/></l><r>planiamientu<s n="n"/></r></p></e>
 <e><p><l>pluralidad<s n="n"/></l><r>pluralidá<s n="n"/></r></p></e>
-<e><p><l>podredumbre<s n="n"/></l><r>podrén<s n="n"/></r></p></e>
+<e><p><l>podredumbre<s n="n"/><s n="f"/></l><r>podrén<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>polígrafo<s n="n"/></l><r>polígrafu<s n="n"/></r></p></e>
 <e><p><l>poltrona<s n="n"/></l><r>poltrona<s n="n"/></r></p></e>
 <e><p><l>ponencia<s n="n"/></l><r>ponencia<s n="n"/></r></p></e>
@@ -15887,12 +15917,10 @@
 <e><p><l>recolección<s n="n"/></l><r>recueya<s n="n"/></r></p></e>
 <e><p><l>recriminación<s n="n"/></l><r>recriminación<s n="n"/></r></p></e>
 <e><p><l>rectángulo<s n="n"/></l><r>rectángulu<s n="n"/></r></p></e>
-<e><p><l>recuperador<s n="n"/></l><r>recuperador<s n="n"/></r></p></e>
 <e><p><l>redelimitación<s n="n"/></l><r>redelimitación<s n="n"/></r></p></e>
 <e><p><l>redor<s n="n"/></l><r>redol<s n="n"/></r></p></e>
 <e><p><l>reforestación<s n="n"/></l><r>reforestación<s n="n"/></r></p></e>
 <e><p><l>reforzamiento<s n="n"/></l><r>reforzamientu<s n="n"/></r></p></e>
-<e><p><l>refrigerador<s n="n"/></l><r>refrixerador<s n="n"/></r></p></e>
 <e><p><l>regionalista<s n="n"/></l><r>rexonalista<s n="n"/></r></p></e>
 <e><p><l>regresión<s n="n"/></l><r>regresión<s n="n"/></r></p></e>
 <e><p><l>reincidencia<s n="n"/></l><r>reincidencia<s n="n"/></r></p></e>
@@ -15913,7 +15941,6 @@
 <e><p><l>revocación<s n="n"/></l><r>revocación<s n="n"/></r></p></e>
 <e><p><l>rigidez<s n="n"/></l><r>terrieza<s n="n"/></r></p></e>
 <e><p><l>rockero<s n="n"/></l><r>roqueru<s n="n"/></r></p></e>
-<e><p><l>roedor<s n="n"/></l><r>royedor<s n="n"/></r></p></e>
 <e><p><l>romanización<s n="n"/></l><r>romanización<s n="n"/></r></p></e>
 <e><p><l>romanticismo<s n="n"/></l><r>romanticismu<s n="n"/></r></p></e>
 <e><p><l>romería<s n="n"/></l><r>romería<s n="n"/></r></p></e>
@@ -15941,7 +15968,6 @@
 <e><p><l>sardina<s n="n"/></l><r>sardina<s n="n"/></r></p></e>
 <e><p><l>sátira<s n="n"/></l><r>sátira<s n="n"/></r></p></e>
 <e><p><l>saturnal<s n="n"/></l><r>saturnal<s n="n"/></r></p></e>
-<e><p><l>saudí<s n="n"/></l><r>saudín<s n="n"/></r></p></e>
 <e><p><l>savia<s n="n"/></l><r>cazumbre<s n="n"/></r></p></e>
 <e><p><l>sazón<s n="n"/></l><r>sazón<s n="n"/></r></p></e>
 <e><p><l>secta<s n="n"/></l><r>secta<s n="n"/></r></p></e>
@@ -15976,7 +16002,10 @@
 <e><p><l>simpatía<s n="n"/></l><r>simpatía<s n="n"/></r></p></e>
 <e><p><l>sindicalismo<s n="n"/></l><r>sindicalismu<s n="n"/></r></p></e>
 <e><p><l>singladura<s n="n"/></l><r>singladura<s n="n"/></r></p></e>
-<e><p><l>sinvergüenza<s n="n"/></l><r>manguán<s n="n"/></r></p></e>
+<e r="RL"><p><l>sinvergüenza<s n="n"/><s n="mf"/><s n="sg"/></l><r>manguán<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>sinvergüenza<s n="n"/><s n="mf"/><s n="sg"/></l><r>manguán<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>sinvergüenza<s n="n"/><s n="mf"/><s n="sg"/></l><r>manguán<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
+<e><p><l>sinvergüenza<s n="n"/><s n="mf"/><s n="pl"/></l><r>manguán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>sirio<s n="n"/></l><r>siriu<s n="n"/></r></p></e>
 <e><p><l>sobrecosto<s n="n"/></l><r>sobrecostu<s n="n"/></r></p></e>
 <e><p><l>sobreexplotación<s n="n"/></l><r>sobresplotación<s n="n"/></r></p></e>
@@ -16023,7 +16052,11 @@
 <e><p><l>tabique<s n="n"/></l><r>tabique<s n="n"/></r></p></e>
 <e><p><l>tabú<s n="n"/></l><r>tabú<s n="n"/></r></p></e>
 <e><p><l>taburete<s n="n"/></l><r>tayuelu<s n="n"/></r></p></e>
-<e><p><l>tacaño<s n="n"/></l><r>rustión<s n="n"/></r></p></e>
+<e><p><l>tacaño<s n="n"/><s n="m"/><s n="sg"/></l><r>rustión<s n="n"/><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>tacaño<s n="n"/><s n="f"/><s n="sg"/></l><r>rustión<s n="n"/><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>tacaño<s n="n"/><s n="m"/><s n="pl"/></l><r>rustión<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>tacaño<s n="n"/><s n="f"/><s n="pl"/></l><r>rustión<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>tacaño<s n="n"/><s n="GD"/><s n="pl"/></l><r>rustión<s n="n"/><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>tacón<s n="n"/></l><r>tacón<s n="n"/></r></p></e>
 <e><p><l>taco<s n="n"/></l><r>tazu<s n="n"/></r></p></e>
 <e><p><l>taladro<s n="n"/></l><r>táladru<s n="n"/></r></p></e>
@@ -16092,7 +16125,7 @@
 <e><p><l>tricentésimo<s n="n"/></l><r>tricentésimu<s n="n"/></r></p></e>
 <e><p><l>trilero<s n="n"/></l><r>trileru<s n="n"/></r></p></e>
 <e><p><l>tristeza<s n="n"/></l><r>murnia<s n="n"/></r></p></e>
-<e><p><l>triunfito<s n="n"/></l><r>triunfito<s n="n"/></r></p></e>
+<e><p><l>triunfito<s n="n"/></l><r>triunfín<s n="n"/></r></p></e>
 <e><p><l>trombón<s n="n"/></l><r>trombón<s n="n"/></r></p></e>
 <e><p><l>trompeta<s n="n"/></l><r>trompeta<s n="n"/></r></p></e>
 <e><p><l>tropiezo<s n="n"/></l><r>tropiezu<s n="n"/></r></p></e>
@@ -16128,6 +16161,7 @@
 <e><p><l>víbora<s n="n"/></l><r>víbora<s n="n"/></r></p></e>
 <e><p><l>vicisitud<s n="n"/></l><r>vicisitú<s n="n"/></r></p></e>
 <e><p><l>vid<s n="n"/></l><r>viña<s n="n"/></r></p></e>
+<e r="LR"><p><l>viña<s n="n"/></l><r>viña<s n="n"/></r></p></e>
 <e><p><l>vieira<s n="n"/></l><r>vieira<s n="n"/></r></p></e>
 <e><p><l>vigilia<s n="n"/></l><r>vixilia<s n="n"/></r></p></e>
 <e><p><l>vikingo<s n="n"/></l><r>viquingu<s n="n"/></r></p></e>
@@ -16181,7 +16215,7 @@
 <e><p><l>veintiún<s n="n"/></l><r>ventiún<s n="n"/></r></p></e>
 <e><p><l>treinta<b/>y<b/>uno<s n="n"/></l><r>trenta<b/>y<b/>ún<s n="n"/></r></p></e>
 <e><p><l>treinta<b/>y<b/>dos<s n="n"/></l><r>trenta<b/>y<b/>dos<s n="n"/></r></p></e>
-<e><p><l>treinta<b/>y<b/>tres<s n="n"/></l><r>trenta<b/>y<b/>trés<s n="n"/></r></p></e>
+<e><p><l>treinta<b/>y<b/>tres<s n="n"/></l><r>trenta<b/>y<b/>tres<s n="n"/></r></p></e>
 <e><p><l>treinta<b/>y<b/>cuatro<s n="n"/></l><r>trenta<b/>y<b/>cuatro<s n="n"/></r></p></e>
 <e><p><l>treinta<b/>y<b/>cinco<s n="n"/></l><r>trenta<b/>y<b/>cinco<s n="n"/></r></p></e>
 <e><p><l>treinta<b/>y<b/>seis<s n="n"/></l><r>trenta<b/>y<b/>seis<s n="n"/></r></p></e>
@@ -16249,7 +16283,7 @@
 <e><p><l>agitación<s n="n"/><s n="f"/></l><r>baturiciu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>alborozo<s n="n"/><s n="m"/></l><r>alegranza<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>aledaños<s n="n"/><s n="m"/><s n="pl"/></l><r>redoma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>alpendre<s n="n"/><s n="m"/><s n="sg"/></l><r>bistechera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>alpendre<s n="n"/><s n="m"/></l><r>bistechera<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>antuzano<s n="n"/><s n="m"/></l><r>quintana<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>argot<s n="n"/><s n="m"/></l><r>xíriga<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>artal<s n="n"/><s n="m"/></l><r>bolla<s n="n"/><s n="f"/></r></p></e>
@@ -16311,7 +16345,7 @@
 <e><p><l>travesaño<s n="n"/></l><r>travesón<s n="n"/></r></p></e>   
 <e><p><l>dislocar<s n="vblex"/></l><r>escordar<s n="vblex"/></r></p></e>   
 <e><p><l>camilla<s n="n"/></l><r>angaría<s n="n"/></r></p></e>   
-<e><p><l>mejoría<s n="n"/><s n="m"/></l><r>ameyoramientu<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mejoría<s n="n"/><s n="f"/></l><r>ameyoramientu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>cepo<s n="n"/><s n="m"/></l><r>garduña<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>garduña<s n="n"/></l><r>foina<s n="n"/></r></p></e>   
 <e><p><l>comadreja<s n="n"/></l><r>lliria<s n="n"/></r></p></e>   
@@ -16320,7 +16354,7 @@
 <e><p><l>fiscalidad<s n="n"/></l><r>fiscalidá<s n="n"/></r></p></e>   
 <e><p><l>chivatazo<s n="n"/></l><r>chivatazu<s n="n"/></r></p></e>   
 <e><p><l>chascarrillo<s n="n"/></l><r>refilachu<s n="n"/></r></p></e>   
-<e><p><l>cereal<s n="n"/></l><r>cebera<s n="n"/></r></p></e>   
+<e><p><l>cereal<s n="n"/><s n="m"/></l><r>cebera<s n="n"/><s n="f"/></r></p></e>   
 <e><p><l>ciclón<s n="n"/></l><r>ciclón<s n="n"/></r></p></e>   
 <e><p><l>huracán<s n="n"/></l><r>furacán<s n="n"/></r></p></e>
 <e><p><l>laboral<s n="adj"/></l><r>llaboral<s n="adj"/></r></p></e>
@@ -16331,7 +16365,7 @@
 <e><p><l>activo<s n="n"/></l><r>activu<s n="n"/></r></p></e>   
 <e><p><l>ansia<s n="n"/></l><r>enganía<s n="n"/></r></p></e>
 <e><p><l>desánimo<s n="n"/></l><r>afandu<s n="n"/></r></p></e>   
-<e r="RL"><p><l>catástrofe<s n="n"/></l><r>catástrofe<s n="n"/></r></p></e>
+<e><p><l>catástrofe<s n="n"/></l><r>catástrofe<s n="n"/></r></p></e>
 <e><p><l>desgracia<s n="n"/></l><r>laceria<s n="n"/></r></p></e>
 <e><p><l>oleaje<s n="n"/></l><r>folaxe<s n="n"/></r></p></e>  
 <e><p><l>plumazo<s n="n"/></l><r>plumazu<s n="n"/></r></p></e>  
@@ -16420,6 +16454,7 @@
 <e><p><l>magnífico<s n="adj"/></l><r>magníficu<s n="adj"/></r></p></e>
 <e><p><l>cuenca<s n="adj"/></l><r>cuenca<s n="adj"/></r></p></e>
 <e><p><l>jurista<s n="n"/></l><r>xurista<s n="n"/></r></p></e>
+<e><p><l>cuenca<s n="n"/></l><r>cuenca<s n="n"/></r></p></e>
 <e><p><l>hospitalario<s n="adj"/></l><r>hospitalariu<s n="adj"/></r></p></e>
 <e><p><l>tijera<s n="n"/></l><r>tisoria<s n="n"/></r></p></e>
 <e><p><l>malagueño<s n="adj"/></l><r>malagueñu<s n="adj"/></r></p></e>
@@ -16452,7 +16487,7 @@
 <e><p><l>IPC<s n="n"/></l><r>IPC<s n="n"/></r></p></e>
 <e><p><l>heregía<s n="n"/></l><r>herexía<s n="n"/></r></p></e> 
 <e><p><l>subir<s n="vblex"/></l><r>xubir<s n="vblex"/></r></p></e>
-<e><p><l>tijeretazo<s n="n"/></l><r>tisoriada<s n="n"/></r></p></e> 
+<e><p><l>tijeretazo<s n="n"/><s n="m"/></l><r>tisoriada<s n="n"/><s n="f"/></r></p></e> 
 <e><p><l>ladilla<s n="n"/></l><r>lladía<s n="n"/></r></p></e> 
 <e><p><l>laico<s n="adj"/></l><r>llaicu<s n="adj"/></r></p></e>
 <e><p><l>antagónico<s n="adj"/></l><r>antagónicu<s n="adj"/></r></p></e>
@@ -16464,7 +16499,7 @@
 <e><p><l>jurisprudencia<s n="n"/></l><r>xurisprudencia<s n="n"/></r></p></e>
 <e><p><l>tropezón<s n="n"/></l><r>zarapicu<s n="n"/></r></p></e>
 <e><p><l>genoma<s n="n"/></l><r>xenoma<s n="n"/></r></p></e>
-<e><p><l>xenómica<s n="n"/></l><r>xenómica<s n="n"/></r></p></e>
+<e><p><l>genómica<s n="n"/></l><r>xenómica<s n="n"/></r></p></e>
 <e><p><l>corte<s n="n"/><s n="m"/></l><r>tayu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>corte<s n="n"/><s n="f"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
 
@@ -16484,7 +16519,6 @@
 <e><p><l>aéreo<s n="adj"/></l><r>aereu<s n="adj"/></r></p></e>
 <e><p><l>aéreo<s n="adj"/></l><r>aéreu<s n="adj"/></r></p></e>
 <e><p><l>ajetreado<s n="adj"/></l><r>abatanáu<s n="adj"/></r></p></e>
-<e><p><l>alemán<s n="adj"/></l><r>alemán<s n="adj"/></r></p></e>
 <e><p><l>allegado<s n="adj"/></l><r>allegáu<s n="adj"/></r></p></e>
 <e><p><l>ambetunado<s n="adj"/></l><r>ambetunáu<s n="adj"/></r></p></e>
 <e><p><l>amoroso<s n="adj"/></l><r>amorosu<s n="adj"/></r></p></e>
@@ -16991,13 +17025,14 @@
 <e><p><l>concluyente<s n="adj"/></l><r>concluyente<s n="adj"/></r></p></e>
 <e><p><l>concursal<s n="adj"/></l><r>concursal<s n="adj"/></r></p></e>
 <e><p><l>consistorial<s n="adj"/></l><r>consistorial<s n="adj"/></r></p></e>
-<e r="RL"><p><l>contendiente<s n="adj"/></l><r>contendiente<s n="adj"/></r></p></e>
+<e><p><l>contendiente<s n="adj"/></l><r>contendiente<s n="adj"/></r></p></e>
 <e><p><l>continente<s n="adj"/></l><r>continente<s n="adj"/></r></p></e>
 <e><p><l>contorsionista<s n="adj"/></l><r>contorsionista<s n="adj"/></r></p></e>
 <e><p><l>convaleciente<s n="adj"/></l><r>doliente<s n="adj"/></r></p></e>
 <e><p><l>convocante<s n="adj"/></l><r>convocante<s n="adj"/></r></p></e>
 <e><p><l>cortés<s n="adj"/></l><r>cortés<s n="adj"/></r></p></e>
 <e><p><l>creciente<s n="adj"/></l><r>creciente<s n="adj"/></r></p></e>
+<e><p><l>mejor<s n="adj"/></l><r>meyor<s n="adj"/></r></p></e>
 <e><p><l>cuadrangular<s n="adj"/></l><r>cuadrangular<s n="adj"/></r></p></e>
 <e><p><l>cuatrienial<s n="adj"/></l><r>cuatriañal<s n="adj"/></r></p></e>
 <e><p><l>cuestionable<s n="adj"/></l><r>cuestionable<s n="adj"/></r></p></e>
@@ -17481,14 +17516,10 @@
 <e r="RL"><p><l>agreste<s n="adj"/><s n="mf"/></l><r>montascosu<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>agreste<s n="adj"/><s n="mf"/></l><r>montascosu<s n="adj"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>agreste<s n="adj"/><s n="mf"/></l><r>montascosu<s n="adj"/><s n="GD"/></r></p></e>
-<!--<e r="RL"><p><l>amable<s n="adj"/><s n="mf"/></l><r>atentu<s n="adj"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>amable<s n="adj"/><s n="mf"/></l><r>atentu<s n="adj"/><s n="f"/></r></p></e>-->
 <e r="LR"><p><l>amable<s n="adj"/><s n="mf"/></l><r>atentu<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>amante<s n="adj"/><s n="mf"/></l><r>amigu<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>amante<s n="adj"/><s n="mf"/></l><r>amigu<s n="adj"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>amante<s n="adj"/><s n="mf"/></l><r>amigu<s n="adj"/><s n="GD"/></r></p></e>
-<!--<e r="RL"><p><l>ardiente<s n="adj"/><s n="mf"/></l><r>encesu<s n="adj"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>ardiente<s n="adj"/><s n="mf"/></l><r>encesu<s n="adj"/><s n="f"/></r></p></e>-->
 <e r="LR"><p><l>ardiente<s n="adj"/><s n="mf"/></l><r>encesu<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>arrogante<s n="adj"/><s n="mf"/></l><r>sobeyosu<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>arrogante<s n="adj"/><s n="mf"/></l><r>sobeyosu<s n="adj"/><s n="f"/></r></p></e>
@@ -17596,8 +17627,8 @@
 <e r="LR"><p><l>ingenuo<s n="adj"/><s n="f"/></l><r>inocente<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>ingenuo<s n="adj"/><s n="GD"/></l><r>inocente<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>inquietante<s n="adj"/><s n="mf"/><s n="pl"/></l><r>esmolecedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<!--<e r="RL"><p><l>inquietante<s n="adj"/><s n="mf"/><s n="sg"/></l><r>esmolecedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>inquietante<s n="adj"/><s n="mf"/><s n="sg"/></l><r>esmolecedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>-->
+<e r="RL"><p><l>inquietante<s n="adj"/><s n="mf"/><s n="sg"/></l><r>esmolecedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>inquietante<s n="adj"/><s n="mf"/><s n="sg"/></l><r>esmolecedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>inquietante<s n="adj"/><s n="mf"/><s n="sg"/></l><r>esmolecedor<s n="adj"/><s n="GD"/><s n="sg"/></r></p></e>
 <e><p><l>preocupante<s n="adj"/><s n="mf"/><s n="pl"/></l><r>esmolecedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>preocupante<s n="adj"/><s n="mf"/><s n="sg"/></l><r>esmolecedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -17632,7 +17663,6 @@
 <e r="RL"><p><l>sereno<s n="adj"/><s n="GD"/></l><r>sele<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>calmo<s n="adj"/><s n="m"/></l><r>sele<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>calmo<s n="adj"/><s n="f"/></l><r>sele<s n="adj"/><s n="mf"/></r></p></e>
-<!--<e r="RL"><p><l>calmo<s n="adj"/><s n="GD"/></l><r>sele<s n="adj"/><s n="mf"/></r></p></e>-->
 <e r="RL"><p><l>suave<s n="adj"/><s n="mf"/></l><r>nidiu<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>suave<s n="adj"/><s n="mf"/></l><r>nidiu<s n="adj"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>suave<s n="adj"/><s n="mf"/></l><r>nidiu<s n="adj"/><s n="GD"/></r></p></e>
@@ -17986,6 +18016,9 @@
 <e r="LR"><p><l>israelí<s n="n"/><s n="mf"/></l><r>israelín<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>israelí<s n="n"/><s n="mf"/></l><r>israelín<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>israelí<s n="n"/><s n="mf"/></l><r>israelín<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>saudí<s n="n"/><s n="mf"/></l><r>saudín<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>saudí<s n="n"/><s n="mf"/></l><r>saudín<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>saudí<s n="n"/><s n="mf"/></l><r>saudín<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>yemení<s n="n"/><s n="mf"/></l><r>yemenín<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>yemení<s n="n"/><s n="mf"/></l><r>yemenín<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>yemení<s n="n"/><s n="mf"/></l><r>yemenín<s n="n"/><s n="f"/></r></p></e>
@@ -18023,13 +18056,15 @@
 <e><p><l>apología<s n="n"/></l><r>apoloxía<s n="n"/></r></p></e>
 <e><p><l>apresar<s n="vblex"/></l><r>prindar<s n="vblex"/></r></p></e>
 <e><p><l>batir<s n="vblex"/></l><r>bater<s n="vblex"/></r></p></e>
+<e><p><l>sauce<s n="n"/></l><r>sauce<s n="n"/></r></p></e>
 <e><p><l>biochip<s n="n"/></l><r>biochip<s n="n"/></r></p></e>
 <e><p><l>bodegón<s n="n"/></l><r>bodegón<s n="n"/></r></p></e>
 <e><p><l>Bonoloto<s n="np"/></l><r>Bonoloto<s n="np"/></r></p></e>
-<e><p><l>calentamiento<s n="n"/></l><r>calentamiento<s n="n"/></r></p></e>
+<e><p><l>calentamiento<s n="n"/></l><r>calentamientu<s n="n"/></r></p></e>
 <e><p><l>callejero<s n="adj"/></l><r>caleyeru<s n="adj"/></r></p></e>
 <e><p><l>cartelera<s n="n"/></l><r>cartelera<s n="n"/></r></p></e>
 <e><p><l>casero<s n="adj"/></l><r>caseru<s n="adj"/></r></p></e>
+<e><p><l>casero<s n="n"/></l><r>caseru<s n="n"/></r></p></e>
 <e><p><l>celuloide<s n="n"/></l><r>celuloide<s n="n"/></r></p></e>
 <e><p><l>cepa<s n="n"/></l><r>cepa<s n="n"/></r></p></e>
 <e><p><l>Champions<s n="np"/></l><r>Champions<s n="np"/></r></p></e>
@@ -18054,7 +18089,9 @@
 <e><p><l>Suiza<s n="np"/></l><r>Suiza<s n="np"/></r></p></e>
 <e><p><l>zanahoria<s n="n"/></l><r>cenadoria<s n="n"/></r></p></e>
 <e><p><l>visual<s n="adj"/></l><r>visual<s n="adj"/></r></p></e>
-<e><p><l>vil<s n="adj"/></l><r>llaín<s n="adj"/></r></p></e>
+<e r="RL"><p><l>vil<s n="adj"/><s n="mf"/></l><r>llaín<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>vil<s n="adj"/><s n="mf"/></l><r>llaín<s n="adj"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>vil<s n="adj"/><s n="mf"/></l><r>llaín<s n="adj"/><s n="GD"/></r></p></e>
 <e><p><l>repentinamente<s n="adv"/></l><r>de<b/>secute<s n="adv"/></r></p></e>
 <e r="LR"><p><l>tedioso<s n="adj"/><s n="m"/></l><r>aburrible<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>tedioso<s n="adj"/><s n="f"/></l><r>aburrible<s n="adj"/><s n="mf"/></r></p></e>
@@ -18112,12 +18149,12 @@
 <e r="RL"><p><l>buscador<s n="n"/><s n="GD"/><s n="pl"/></l><r>buscador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>buscador<s n="n"/><s n="m"/><s n="pl"/></l><r>buscador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>buscador<s n="n"/><s n="m"/><s n="sg"/></l><r>buscador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>  
-<e r="LR"><p><l>llibrepensador<s n="n"/><s n="f"/><s n="pl"/></l><r>llibrepensador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>llibrepensador<s n="n"/><s n="f"/><s n="sg"/></l><r>llibrepensador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>llibrepensador<s n="n"/><s n="GD"/><s n="pl"/></l><r>llibrepensador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>llibrepensador<s n="n"/><s n="m"/><s n="pl"/></l><r>llibrepensador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>llibrepensador<s n="n"/><s n="m"/><s n="sg"/></l><r>llibrepensador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>  
-<e><p><l>adquisitivo<s n="adj"/></l><r>adquisitivo<s n="adj"/></r></p></e>  
+<e r="LR"><p><l>librepensador<s n="n"/><s n="f"/><s n="pl"/></l><r>llibrepensador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>librepensador<s n="n"/><s n="f"/><s n="sg"/></l><r>llibrepensador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>librepensador<s n="n"/><s n="GD"/><s n="pl"/></l><r>llibrepensador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>librepensador<s n="n"/><s n="m"/><s n="pl"/></l><r>llibrepensador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>librepensador<s n="n"/><s n="m"/><s n="sg"/></l><r>llibrepensador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>  
+<e><p><l>adquisitivo<s n="adj"/></l><r>adquisitivu<s n="adj"/></r></p></e>  
 <e><p><l>afgano<s n="adj"/></l><r>afganu<s n="adj"/></r></p></e>  
 <e><p><l>hundimiento<s n="n"/></l><r>fundimientu<s n="n"/></r></p></e>  
 <e><p><l>infanta<s n="n"/></l><r>infanta<s n="n"/></r></p></e>  
@@ -18150,6 +18187,7 @@
 <e><p><l>supermercado<s n="n"/></l><r>supermercáu<s n="n"/></r></p></e>  
 <e><p><l>primogénito<s n="n"/></l><r>primoxénitu<s n="n"/></r></p></e>  
 <e><p><l>noticiero<s n="adj"/></l><r>noticieru<s n="adj"/></r></p></e>  
+<e><p><l>noticiero<s n="n"/></l><r>noticieru<s n="n"/></r></p></e>  
 <e><p><l>monasterio<s n="n"/></l><r>monesteriu<s n="n"/></r></p></e>  
 <e><p><l>vampiro<s n="n"/></l><r>vampiru<s n="n"/></r></p></e>  
 <e><p><l>venezolano<s n="adj"/></l><r>venezolanu<s n="adj"/></r></p></e>  
@@ -18166,24 +18204,27 @@
 <e><p><l>cátedra<s n="n"/></l><r>cátedra<s n="n"/></r></p></e>  
 <e><p><l>lupa<s n="n"/></l><r>lente<s n="n"/></r></p></e>  
 <e><p><l>manita<s n="n"/></l><r>manina<s n="n"/></r></p></e>  
-<e><p><l>neurociencia<s n="n"/></l><r>naurociencia<s n="n"/></r></p></e>  
+<e><p><l>neurociencia<s n="n"/></l><r>neurociencia<s n="n"/></r></p></e>  
 <e><p><l>omisión<s n="n"/></l><r>omisión<s n="n"/></r></p></e>  
 <e><p><l>operativo<s n="adj"/></l><r>operativu<s n="adj"/></r></p></e>  
 <e><p><l>ocultismo<s n="n"/></l><r>ocultismu<s n="n"/></r></p></e>  
 <e><p><l>ocultación<s n="n"/><s n="f"/></l><r>tapecimientu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>princesita<s n="n"/></l><r>princesina<s n="n"/></r></p></e>  
 <e><p><l>península<s n="n"/></l><r>península<s n="n"/></r></p></e>  
-<e><p><l>prolífero<s n="adj"/></l><r>granible<s n="adj"/></r></p></e>  
-<e><p><l>desafiante<s n="adj"/></l><r>griespu<s n="adj"/></r></p></e>  
+<e r="LR"><p><l>prolífero<s n="adj"/><s n="m"/></l><r>granible<s n="adj"/><s n="mf"/></r></p></e>  
+<e r="LR"><p><l>prolífero<s n="adj"/><s n="f"/></l><r>granible<s n="adj"/><s n="mf"/></r></p></e>  
+<e r="RL"><p><l>prolífero<s n="adj"/><s n="GD"/></l><r>granible<s n="adj"/><s n="mf"/></r></p></e>  
+<e r="RL"><p><l>desafiante<s n="adj"/><s n="mf"/></l><r>griespu<s n="adj"/><s n="m"/></r></p></e>  
+<e r="RL"><p><l>desafiante<s n="adj"/><s n="mf"/></l><r>griespu<s n="adj"/><s n="f"/></r></p></e>  
+<e r="LR"><p><l>desafiante<s n="adj"/><s n="mf"/></l><r>griespu<s n="adj"/><s n="GD"/></r></p></e>  
 <e><p><l>precozmente<s n="adv"/></l><r>abondo<b/>ceo<s n="adv"/></r></p></e>  
 <e><p><l>nihilismo<s n="n"/></l><r>nihilismu<s n="n"/></r></p></e>  
 <e><p><l>minorista<s n="n"/></l><r>minorista<s n="n"/></r></p></e>  
 <e><p><l>listado<s n="n"/></l><r>llistáu<s n="n"/></r></p></e>  
-<e><p><l>feligrés<s n="n"/></l><r>feligrés<s n="n"/></r></p></e>  
 <e><p><l>gratis<s n="adj"/></l><r>de<b/>baldre<s n="adj"/></r></p></e>  
-<e><p><l>librepensador<s n="n"/></l><r>llibrepensador<s n="n"/></r></p></e>  
 <e><p><l>jarabe<s n="n"/></l><r>xarabe<s n="n"/></r></p></e>  
 <e><p><l>extra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>  
+<e><p><l>extra<s n="n"/></l><r>extra<s n="n"/></r></p></e>
 <e><p><l>inflamable<s n="adj"/></l><r>inflamable<s n="adj"/></r></p></e>  
 <e><p><l>legislativo<s n="adj"/></l><r>lexislativu<s n="adj"/></r></p></e>  
 <e><p><l>legislativo<s n="n"/></l><r>lexislativu<s n="n"/></r></p></e>  
@@ -18216,11 +18257,6 @@
 <e r="LR"><p><l>generoso<s n="n"/><s n="m"/></l><r>arrogante<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>generoso<s n="n"/><s n="f"/></l><r>arrogante<s n="n"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>generoso<s n="n"/><s n="GD"/></l><r>arrogante<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>aspirador<s n="n"/><s n="m"/><s n="pl"/></l><r>aspirador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>aspirador<s n="n"/><s n="m"/><s n="sg"/></l><r>aspirador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>aspirador<s n="n"/><s n="m"/></l><r>aspirador<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>aspirador<s n="n"/><s n="f"/></l><r>aspirador<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>aspirador<s n="n"/><s n="GD"/></l><r>aspirador<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>atracador<s n="n"/><s n="f"/><s n="pl"/></l><r>atracador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>atracador<s n="n"/><s n="f"/><s n="sg"/></l><r>atracador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>atracador<s n="n"/><s n="GD"/><s n="pl"/></l><r>atracador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -18265,8 +18301,12 @@
 <e><p><l>mosto<s n="n"/></l><r>mostiu<s n="n"/></r></p></e> 
 <e><p><l>protocolo<s n="n"/></l><r>protocolu<s n="n"/></r></p></e> 
 <e><p><l>renombre<s n="n"/><s n="m"/></l><r>sonadía<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>somalí<s n="adj"/></l><r>somalín<s n="adj"/></r></p></e> 
-<e><p><l>somalí<s n="n"/></l><r>somalín<s n="n"/></r></p></e> 
+<e r="RL"><p><l>somalí<s n="adj"/><s n="mf"/></l><r>somalín<s n="adj"/><s n="m"/></r></p></e> 
+<e r="RL"><p><l>somalí<s n="adj"/><s n="mf"/></l><r>somalín<s n="adj"/><s n="f"/></r></p></e> 
+<e r="LR"><p><l>somalí<s n="adj"/><s n="mf"/></l><r>somalín<s n="adj"/><s n="GD"/></r></p></e> 
+<e r="RL"><p><l>somalí<s n="n"/><s n="mf"/></l><r>somalín<s n="n"/><s n="m"/></r></p></e> 
+<e r="RL"><p><l>somalí<s n="n"/><s n="mf"/></l><r>somalín<s n="n"/><s n="f"/></r></p></e> 
+<e r="LR"><p><l>somalí<s n="n"/><s n="mf"/></l><r>somalín<s n="n"/><s n="GD"/></r></p></e> 
 <e><p><l>incriminar<s n="vblex"/></l><r>acusar<s n="vblex"/></r></p></e> 
 <e><p><l>entonar<s n="vblex"/></l><r>entonar<s n="vblex"/></r></p></e> 
 <e><p><l>estupor<s n="n"/></l><r>plasmu<s n="n"/></r></p></e>
@@ -18278,7 +18318,7 @@
 <e><p><l>sastre<s n="n"/></l><r>xastre<s n="n"/></r></p></e> 
 <e><p><l>yugu <s n="n"/></l><r>xugu<s n="n"/></r></p></e> 
 <e><p><l>herrero<s n="n"/></l><r>ferreru<s n="n"/></r></p></e> 
-<e><p><l>rebaño <s n="n"/></l><r>fatáu<s n="n"/></r></p></e> 
+<e><p><l>rebaño<s n="n"/></l><r>fatáu<s n="n"/></r></p></e> 
 <e><p><l>estampado<s n="adj"/></l><r>estampáu<s n="adj"/></r></p></e> 
 <e><p><l>estampado<s n="n"/></l><r>estampáu<s n="n"/></r></p></e> 
 <e><p><l>cana<s n="n"/></l><r>cana<s n="n"/></r></p></e> 
@@ -18286,7 +18326,6 @@
 <e><p><l>turno<s n="n"/></l><r>turnu<s n="n"/></r></p></e> 
 <e><p><l>sencillez<s n="n"/></l><r>cencellez<s n="n"/></r></p></e>
 <e><p><l>obligatorio<s n="adj"/></l><r>obligáu<s n="adj"/></r></p></e>
-<e><p><l>pronto<s n="adv"/></l><r>lluéu<s n="adv"/></r></p></e> 
 <e><p><l>extremeño<s n="n"/></l><r>estremeñu<s n="n"/></r></p></e> 
 <e><p><l>ginecología<s n="n"/></l><r>xinecoloxía<s n="n"/></r></p></e> 
 <e><p><l>neumología<s n="n"/></l><r>neumoloxía<s n="n"/></r></p></e> 
@@ -18308,8 +18347,9 @@
 <e><p><l>rebrote<s n="n"/></l><r>retueyu<s n="n"/></r></p></e> 
 <e><p><l>gerente<s n="n"/></l><r>xerente<s n="n"/></r></p></e> 
 <e><p><l>indisposición<s n="n"/></l><r>indisposición<s n="n"/></r></p></e>
-<e><p><l>Jerusalem<s n="n"/></l><r>Xerusalem<s n="n"/></r></p></e> 
+<e><p><l>Jerusalem<s n="np"/></l><r>Xerusalem<s n="np"/></r></p></e> 
 <e><p><l>eólico<s n="n"/></l><r>eólicu<s n="n"/></r></p></e> 
+<e><p><l>eólico<s n="adj"/></l><r>eólicu<s n="adj"/></r></p></e> 
 <e><p><l>eurodiputado<s n="n"/></l><r>eurodiputáu<s n="n"/></r></p></e> 
 <e><p><l>titulación<s n="n"/></l><r>titulación<s n="n"/></r></p></e> 
 <e><p><l>marihuana<s n="n"/></l><r>mariguana<s n="n"/></r></p></e> 
@@ -18318,7 +18358,9 @@
 <e><p><l>desplazar<s n="vblex"/></l><r>mover<s n="vblex"/></r></p></e>
 <e><p><l>negligencia<s n="n"/></l><r>neglixencia<s n="n"/></r></p></e> 
 <e><p><l>inadecuado<s n="adv"/></l><r>non<b/>aparente<s n="adv"/></r></p></e> 
-<e><p><l>negligente<s n="n"/></l><r>desdexosu<s n="n"/></r></p></e> 
+<e r="RL"><p><l>negligente<s n="n"/><s n="mf"/></l><r>desdexosu<s n="n"/><s n="m"/></r></p></e> 
+<e r="RL"><p><l>negligente<s n="n"/><s n="mf"/></l><r>desdexosu<s n="n"/><s n="f"/></r></p></e> 
+<e r="LR"><p><l>negligente<s n="n"/><s n="mf"/></l><r>desdexosu<s n="n"/><s n="GD"/></r></p></e> 
 <e><p><l>imprudencia<s n="n"/></l><r>imprudencia<s n="n"/></r></p></e> 
 <e><p><l>rencilla<s n="n"/></l><r>reñediella<s n="n"/></r></p></e> 
 <e><p><l>riña<s n="n"/></l><r>reña<s n="n"/></r></p></e> 
@@ -18409,9 +18451,9 @@
 <e><p><l>ciénaga<s n="n"/></l><r>barraquera<s n="n"/></r></p></e>
 <e><p><l>pericia<s n="n"/><s n="f"/></l><r>remangu<s n="n"/><s n="m"/></r></p></e>  
 <e><p><l>rodilla<s n="n"/></l><r>rodía<s n="n"/></r></p></e>
+<e><p><l>RAE<s n="n"/></l><r>RAE<s n="n"/></r></p></e>
 <e><p><l>prerrománico<s n="n"/></l><r>prerrománicu<s n="n"/></r></p></e>
 <e><p><l>retorrománico<s n="n"/></l><r>retorrománicu<s n="n"/></r></p></e>
-<e><p><l>recogedor<s n="n"/></l><r>recoyedor<s n="n"/></r></p></e>
 <e><p><l>desangrado<s n="n"/><s n="m"/></l><r>sangradura<s n="n"/><s n="f"/></r></p></e>  
 <e><p><l>retrato<s n="n"/><s n="m"/></l><r>semeya<s n="n"/><s n="f"/></r></p></e>  
 <e><p><l>sentido<s n="n"/></l><r>sentíu<s n="n"/></r></p></e>
@@ -18483,14 +18525,14 @@
 <e r="LR"><p><l>entrevistador<s n="n"/><s n="m"/><s n="pl"/></l><r>entrevistador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>entrevistador<s n="n"/><s n="m"/><s n="sg"/></l><r>entrevistador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>EEUU<s n="n"/><s n="acr"/></l><r>EE.XX.<s n="n"/><s n="acr"/></r></p></e>
-    <e><p><l>Estados<b/>Unidos<s n="np"/></l><r>Estaos<b/>Xuníos<s n="np"/></r></p></e>
-	<e><p><l>embuste<s n="n"/><s n="m"/></l><r>endrómina<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>temporal<s n="n"/><s n="m"/></l><r>envernada<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>exageración<s n="n"/></l><r>desaxeración<s n="n"/></r></p></e>
-	<e><p><l>difusión<s n="n"/><s n="m"/></l><r>espardimientu<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>Estados<b/>Unidos<s n="np"/></l><r>Estaos<b/>Xuníos<s n="np"/></r></p></e>
+<e><p><l>embuste<s n="n"/><s n="m"/></l><r>endrómina<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>temporal<s n="n"/><s n="m"/></l><r>envernada<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>exageración<s n="n"/></l><r>desaxeración<s n="n"/></r></p></e>
+	<e><p><l>difusión<s n="n"/><s n="f"/></l><r>espardimientu<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>desenfreno<s n="n"/><s n="m"/></l><r>esquiciadura<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>barro<s n="n"/><s n="m"/></l><r>folla<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>algarada<s n="n"/><s n="m"/></l><r>gallaríu<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>algarada<s n="n"/><s n="f"/></l><r>gallaríu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>agarrador<s n="n"/></l><r>agarrador<s n="n"/></r></p></e>
 	<e><p><l>bisagra<s n="n"/><s n="f"/></l><r>gonciu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mirada<s n="n"/></l><r>güeyada<s n="n"/></r></p></e>
@@ -18498,7 +18540,7 @@
 	<e><p><l>festín<s n="n"/><s n="m"/></l><r>llacuada<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>lamentación<s n="n"/><s n="f"/></l><r>llamentu<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>longitud<s n="n"/><s n="f"/></l><r>llargor<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>temor<s n="n"/><s n="m"/></l><r>mieu<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>temor<s n="n"/></l><r>mieu<s n="n"/></r></p></e>
 	<e><p><l>inmundicia<s n="n"/><s n="f"/></l><r>morgazu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mejillonero<s n="n"/></l><r>moxoneru<s n="n"/></r></p></e>
     <e><p><l>narcisismo<s n="n"/></l><r>narcisismu<s n="n"/></r></p></e>
@@ -18513,7 +18555,7 @@
     <e><p><l>proteccionista<s n="n"/></l><r>proteccionista<s n="n"/></r></p></e>
     <e><p><l>familiar<s n="n"/></l><r>familiar<s n="n"/></r></p></e>
     <e><p><l>otomano<s n="adj"/></l><r>otomanu<s n="adj"/></r></p></e>
-    <e><p><l>otomano<s n="n"/></l><r>otomnu<s n="n"/></r></p></e>
+    <e><p><l>otomano<s n="n"/></l><r>otomanu<s n="n"/></r></p></e>
     <e><p><l>norte<s n="n"/></l><r>norte<s n="n"/></r></p></e>
     <e><p><l>pánico<s n="n"/><s n="m"/></l><r>llerza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>iluminación<s n="n"/><s n="f"/></l><r>llume<s n="n"/><s n="m"/></r></p></e>
@@ -18525,8 +18567,304 @@
 	<e><p><l>inclinación<s n="n"/><s n="f"/></l><r>enclín<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>europeo<s n="n"/></l><r>européu<s n="n"/></r></p></e>
 <e><p><l>requerir<s n="vblex"/></l><r>riquir<s n="vblex"/></r></p></e>
+<e><p><l>numeroso<s n="adj"/></l><r>numberosu<s n="adj"/></r></p></e>
+<e><p><l>similar<s n="adj"/></l><r>semeyante<s n="adj"/></r></p></e>
+<e><p><l>jorobado<s n="adj"/></l><r>gorrumbu<s n="adj"/></r></p></e>  
+<e><p><l>sostenible<s n="adj"/></l><r>sostenible<s n="adj"/></r></p></e>  
+<e><p><l>extremeño<s n="adj"/></l><r>estremeñu<s n="adj"/></r></p></e>
+    <e><p><l>séptimo<s n="n"/></l><r>séptimu<s n="n"/></r></p></e>
 
+<e r="LR"><p><l>rozador<s n="n"/><s n="f"/><s n="pl"/></l><r>rozador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>rozador<s n="n"/><s n="f"/><s n="sg"/></l><r>rozador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>rozador<s n="n"/><s n="GD"/><s n="pl"/></l><r>rozador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>rozador<s n="n"/><s n="m"/><s n="pl"/></l><r>rozador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>rozador<s n="n"/><s n="m"/><s n="sg"/></l><r>rozador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>recogedor<s n="n"/><s n="f"/><s n="pl"/></l><r>recoyedor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>recogedor<s n="n"/><s n="f"/><s n="sg"/></l><r>recoyedor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>recogedor<s n="n"/><s n="GD"/><s n="pl"/></l><r>recoyedor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>recogedor<s n="n"/><s n="m"/><s n="pl"/></l><r>recoyedor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>recogedor<s n="n"/><s n="m"/><s n="sg"/></l><r>recoyedor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>recuperador<s n="n"/><s n="f"/><s n="pl"/></l><r>recuperador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>recuperador<s n="n"/><s n="f"/><s n="sg"/></l><r>recuperador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>recuperador<s n="n"/><s n="GD"/><s n="pl"/></l><r>recuperador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>recuperador<s n="n"/><s n="m"/><s n="pl"/></l><r>recuperador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>recuperador<s n="n"/><s n="m"/><s n="sg"/></l><r>recuperador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>yugo<s n="n"/></l><r>xugu<s n="n"/></r></p></e> 
+<e><p><l>feligrés<s n="n"/><s n="m"/><s n="sg"/></l><r>feligrés<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>feligrés<s n="n"/><s n="f"/><s n="sg"/></l><r>feligrés<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>feligrés<s n="n"/><s n="f"/><s n="pl"/></l><r>feligrés<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>feligrés<s n="n"/><s n="m"/><s n="pl"/></l><r>feligrés<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>feligrés<s n="n"/><s n="GD"/><s n="pl"/></l><r>feligrés<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>oficial<s n="n"/><s n="f"/><s n="pl"/></l><r>oficial<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>oficial<s n="n"/><s n="f"/><s n="sg"/></l><r>oficial<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>oficial<s n="n"/><s n="GD"/><s n="pl"/></l><r>oficial<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>oficial<s n="n"/><s n="m"/><s n="pl"/></l><r>oficial<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>oficial<s n="n"/><s n="m"/><s n="sg"/></l><r>oficial<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>alemán<s n="adj"/><s n="f"/><s n="pl"/></l><r>alemán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>alemán<s n="adj"/><s n="f"/><s n="sg"/></l><r>alemán<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>alemán<s n="adj"/><s n="GD"/><s n="pl"/></l><r>alemán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>alemán<s n="adj"/><s n="m"/><s n="pl"/></l><r>alemán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>alemán<s n="adj"/><s n="m"/><s n="sg"/></l><r>alemán<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>holgazán<s n="adj"/><s n="f"/><s n="pl"/></l><r>folgazán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>holgazán<s n="adj"/><s n="f"/><s n="sg"/></l><r>folgazán<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>holgazán<s n="adj"/><s n="GD"/><s n="pl"/></l><r>folgazán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>holgazán<s n="adj"/><s n="m"/><s n="pl"/></l><r>folgazán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>holgazán<s n="adj"/><s n="m"/><s n="sg"/></l><r>folgazán<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>musulmán<s n="adj"/><s n="f"/><s n="pl"/></l><r>musulmán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>musulmán<s n="adj"/><s n="f"/><s n="sg"/></l><r>musulmán<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>musulmán<s n="adj"/><s n="GD"/><s n="pl"/></l><r>musulmán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>musulmán<s n="adj"/><s n="m"/><s n="pl"/></l><r>musulmán<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>musulmán<s n="adj"/><s n="m"/><s n="sg"/></l><r>musulmán<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>antinacionalismo<s n="n"/></l><r>antinacionalismu<s n="n"/></r></p></e>
+<e r="LR"><p><l>bocazas<s n="n"/><s n="mf"/><s n="sp"/></l><r>bocayón<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bocazas<s n="n"/><s n="mf"/><s n="sp"/></l><r>bocayón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bocazas<s n="n"/><s n="mf"/><s n="sp"/></l><r>bocayón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bocazas<s n="n"/><s n="mf"/><s n="sp"/></l><r>bocayón<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>bocazas<s n="n"/><s n="mf"/><s n="sp"/></l><r>bocayón<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>alemán<s n="n"/><s n="f"/><s n="pl"/></l><r>alemán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>alemán<s n="n"/><s n="f"/><s n="sg"/></l><r>alemán<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>alemán<s n="n"/><s n="GD"/><s n="pl"/></l><r>alemán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>alemán<s n="n"/><s n="m"/><s n="pl"/></l><r>alemán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>alemán<s n="n"/><s n="m"/><s n="sg"/></l><r>alemán<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>aspirador<s n="n"/><s n="f"/><s n="pl"/></l><r>aspirador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>aspirador<s n="n"/><s n="f"/><s n="sg"/></l><r>aspirador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>aspirador<s n="n"/><s n="GD"/><s n="pl"/></l><r>aspirador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>aspirador<s n="n"/><s n="m"/><s n="pl"/></l><r>aspirador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>aspirador<s n="n"/><s n="m"/><s n="sg"/></l><r>aspirador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>bailaor<s n="n"/><s n="f"/><s n="pl"/></l><r>bailador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailaor<s n="n"/><s n="f"/><s n="sg"/></l><r>bailador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bailaor<s n="n"/><s n="GD"/><s n="pl"/></l><r>bailador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bailaor<s n="n"/><s n="m"/><s n="pl"/></l><r>bailador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailaor<s n="n"/><s n="m"/><s n="sg"/></l><r>bailador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>bailón<s n="n"/><s n="f"/><s n="pl"/></l><r>baillón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailón<s n="n"/><s n="f"/><s n="sg"/></l><r>baillón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bailón<s n="n"/><s n="GD"/><s n="pl"/></l><r>baillón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bailón<s n="n"/><s n="m"/><s n="pl"/></l><r>baillón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailón<s n="n"/><s n="m"/><s n="sg"/></l><r>baillón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>anglosajón<s n="n"/><s n="f"/><s n="pl"/></l><r>anglosaxón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>anglosajón<s n="n"/><s n="f"/><s n="sg"/></l><r>anglosaxón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>anglosajón<s n="n"/><s n="GD"/><s n="pl"/></l><r>anglosaxón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>anglosajón<s n="n"/><s n="m"/><s n="pl"/></l><r>anglosaxón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>anglosajón<s n="n"/><s n="m"/><s n="sg"/></l><r>anglosaxón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>campeón<s n="n"/><s n="f"/><s n="pl"/></l><r>campeón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>campeón<s n="n"/><s n="f"/><s n="sg"/></l><r>campeón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>campeón<s n="n"/><s n="GD"/><s n="pl"/></l><r>campeón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>campeón<s n="n"/><s n="m"/><s n="pl"/></l><r>campeón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>campeón<s n="n"/><s n="m"/><s n="sg"/></l><r>campeón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>refrigerador<s n="n"/><s n="f"/><s n="pl"/></l><r>refrixerador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>refrigerador<s n="n"/><s n="f"/><s n="sg"/></l><r>refrixerador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>refrigerador<s n="n"/><s n="GD"/><s n="pl"/></l><r>refrixerador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>refrigerador<s n="n"/><s n="m"/><s n="pl"/></l><r>refrixerador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>refrigerador<s n="n"/><s n="m"/><s n="sg"/></l><r>refrixerador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>ordenador<s n="n"/><s n="f"/><s n="pl"/></l><r>ordenador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>ordenador<s n="n"/><s n="f"/><s n="sg"/></l><r>ordenador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>ordenador<s n="n"/><s n="GD"/><s n="pl"/></l><r>ordenador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>ordenador<s n="n"/><s n="m"/><s n="pl"/></l><r>ordenador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>ordenador<s n="n"/><s n="m"/><s n="sg"/></l><r>ordenador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>bauprés<s n="n"/><s n="m"/><s n="sg"/></l><r>moprés<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>bauprés<s n="n"/><s n="f"/><s n="sg"/></l><r>moprés<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>bauprés<s n="n"/><s n="f"/><s n="pl"/></l><r>moprés<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bauprés<s n="n"/><s n="m"/><s n="pl"/></l><r>moprés<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>bauprés<s n="n"/><s n="GD"/><s n="pl"/></l><r>moprés<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bretón<s n="n"/><s n="f"/><s n="pl"/></l><r>bretón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bretón<s n="n"/><s n="f"/><s n="sg"/></l><r>bretón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bretón<s n="n"/><s n="GD"/><s n="pl"/></l><r>bretón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bretón<s n="n"/><s n="m"/><s n="pl"/></l><r>bretón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bretón<s n="n"/><s n="m"/><s n="sg"/></l><r>bretón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>bufón<s n="n"/><s n="f"/><s n="pl"/></l><r>bofón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bufón<s n="n"/><s n="f"/><s n="sg"/></l><r>bofón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bufón<s n="n"/><s n="GD"/><s n="pl"/></l><r>bofón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bufón<s n="n"/><s n="m"/><s n="pl"/></l><r>bofón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bufón<s n="n"/><s n="m"/><s n="sg"/></l><r>bofón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>capitán<s n="n"/><s n="f"/><s n="pl"/></l><r>capitán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>capitán<s n="n"/><s n="f"/><s n="sg"/></l><r>capitán<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>capitán<s n="n"/><s n="GD"/><s n="pl"/></l><r>capitán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>capitán<s n="n"/><s n="m"/><s n="pl"/></l><r>capitán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>capitán<s n="n"/><s n="m"/><s n="sg"/></l><r>capitán<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>guardián<s n="n"/><s n="f"/><s n="pl"/></l><r>guardián<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>guardián<s n="n"/><s n="f"/><s n="sg"/></l><r>guardián<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>guardián<s n="n"/><s n="GD"/><s n="pl"/></l><r>guardián<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>guardián<s n="n"/><s n="m"/><s n="pl"/></l><r>guardián<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>guardián<s n="n"/><s n="m"/><s n="sg"/></l><r>guardián<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>teutón<s n="n"/><s n="f"/><s n="pl"/></l><r>teutón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>teutón<s n="n"/><s n="f"/><s n="sg"/></l><r>teutón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>teutón<s n="n"/><s n="GD"/><s n="pl"/></l><r>teutón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>teutón<s n="n"/><s n="m"/><s n="pl"/></l><r>teutón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>teutón<s n="n"/><s n="m"/><s n="sg"/></l><r>teutón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>vago<s n="n"/><s n="f"/><s n="pl"/></l><r>folgazán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>vago<s n="n"/><s n="f"/><s n="sg"/></l><r>folgazán<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>vago<s n="n"/><s n="GD"/><s n="pl"/></l><r>folgazán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>vago<s n="n"/><s n="m"/><s n="pl"/></l><r>folgazán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>vago<s n="n"/><s n="m"/><s n="sg"/></l><r>folgazán<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>segundón<s n="n"/><s n="f"/><s n="pl"/></l><r>segundón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>segundón<s n="n"/><s n="f"/><s n="sg"/></l><r>segundón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>segundón<s n="n"/><s n="GD"/><s n="pl"/></l><r>segundón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>segundón<s n="n"/><s n="m"/><s n="pl"/></l><r>segundón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>segundón<s n="n"/><s n="m"/><s n="sg"/></l><r>segundón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>cuarentón<s n="n"/><s n="f"/><s n="pl"/></l><r>cuarentón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>cuarentón<s n="n"/><s n="f"/><s n="sg"/></l><r>cuarentón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>cuarentón<s n="n"/><s n="GD"/><s n="pl"/></l><r>cuarentón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>cuarentón<s n="n"/><s n="m"/><s n="pl"/></l><r>cuarentón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>cuarentón<s n="n"/><s n="m"/><s n="sg"/></l><r>cuarentón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>llorón<s n="n"/><s n="f"/><s n="pl"/></l><r>lloramingón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>llorón<s n="n"/><s n="f"/><s n="sg"/></l><r>lloramingón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>llorón<s n="n"/><s n="GD"/><s n="pl"/></l><r>lloramingón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>llorón<s n="n"/><s n="m"/><s n="pl"/></l><r>lloramingón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>llorón<s n="n"/><s n="m"/><s n="sg"/></l><r>lloramingón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>ladrón<s n="n"/><s n="f"/><s n="pl"/></l><r>lladrón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>ladrón<s n="n"/><s n="f"/><s n="sg"/></l><r>lladrón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>ladrón<s n="n"/><s n="GD"/><s n="pl"/></l><r>lladrón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>ladrón<s n="n"/><s n="m"/><s n="pl"/></l><r>lladrón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>ladrón<s n="n"/><s n="m"/><s n="sg"/></l><r>lladrón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>patrón<s n="n"/><s n="f"/><s n="pl"/></l><r>patrón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>patrón<s n="n"/><s n="f"/><s n="sg"/></l><r>patrón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>patrón<s n="n"/><s n="GD"/><s n="pl"/></l><r>patrón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>patrón<s n="n"/><s n="m"/><s n="pl"/></l><r>patrón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>patrón<s n="n"/><s n="m"/><s n="sg"/></l><r>patrón<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mezclador<s n="n"/><s n="f"/><s n="pl"/></l><r>mezclador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mezclador<s n="n"/><s n="f"/><s n="sg"/></l><r>mezclador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mezclador<s n="n"/><s n="GD"/><s n="pl"/></l><r>mezclador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mezclador<s n="n"/><s n="m"/><s n="pl"/></l><r>mezclador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mezclador<s n="n"/><s n="m"/><s n="sg"/></l><r>mezclador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>roedor<s n="n"/><s n="f"/><s n="pl"/></l><r>royedor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>roedor<s n="n"/><s n="f"/><s n="sg"/></l><r>royedor<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>roedor<s n="n"/><s n="GD"/><s n="pl"/></l><r>royedor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>roedor<s n="n"/><s n="m"/><s n="pl"/></l><r>royedor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>roedor<s n="n"/><s n="m"/><s n="sg"/></l><r>royedor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>musulmán<s n="n"/><s n="f"/><s n="pl"/></l><r>musulmán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>musulmán<s n="n"/><s n="f"/><s n="sg"/></l><r>musulmán<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>musulmán<s n="n"/><s n="GD"/><s n="pl"/></l><r>musulmán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>musulmán<s n="n"/><s n="m"/><s n="pl"/></l><r>musulmán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>musulmán<s n="n"/><s n="m"/><s n="sg"/></l><r>musulmán<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>holgazán<s n="n"/><s n="f"/><s n="pl"/></l><r>folgazán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>holgazán<s n="n"/><s n="f"/><s n="sg"/></l><r>folgazán<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>holgazán<s n="n"/><s n="GD"/><s n="pl"/></l><r>folgazán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>holgazán<s n="n"/><s n="m"/><s n="pl"/></l><r>folgazán<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>holgazán<s n="n"/><s n="m"/><s n="sg"/></l><r>folgazán<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>pastor<s n="n"/><s n="m"/><s n="sg"/></l><r>pregueru<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>pastor<s n="n"/><s n="f"/><s n="sg"/></l><r>pregueru<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>pastor<s n="n"/><s n="mf"/><s n="pl"/></l><r>pregueru<s n="n"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>pastor<s n="n"/><s n="mf"/><s n="pl"/></l><r>pregueru<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>pastor<s n="n"/><s n="mf"/><s n="pl"/></l><r>pregueru<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+<!-- Más nomes propios-->
+<e><p><l>Arturo<s n="np"/></l><r>Arturo<s n="np"/></r></p></e>
+<e><p><l>Australia<s n="np"/></l><r>Australia<s n="np"/></r></p></e>
+<e><p><l>Austria<s n="np"/></l><r>Austria<s n="np"/></r></p></e>
+<e><p><l>Ávila<s n="np"/></l><r>Ávila<s n="np"/></r></p></e>
+<e><p><l>Balcanes<s n="np"/></l><r>Balcanes<s n="np"/></r></p></e>
+<e><p><l>Benavente<s n="np"/></l><r>Benavente<s n="np"/></r></p></e>
+<e><p><l>Berlín<s n="np"/></l><r>Berlín<s n="np"/></r></p></e>
+<e><p><l>Badajoz<s n="np"/></l><r>Badayoz<s n="np"/></r></p></e>
+<e><p><l>Burgos<s n="np"/></l><r>Burgos<s n="np"/></r></p></e>
+<e><p><l>Girona<s n="np"/></l><r>Girona<s n="np"/></r></p></e>
+<e><p><l>Castropol<s n="np"/></l><r>Castropol<s n="np"/></r></p></e>
+<e><p><l>Barack<s n="np"/></l><r>Barack<s n="np"/></r></p></e>
+<e><p><l>Borja<s n="np"/></l><r>Borja<s n="np"/></r></p></e>
+<e><p><l>Benjamín<s n="np"/></l><r>Benjamín<s n="np"/></r></p></e>
+<e><p><l>Buelna<s n="np"/></l><r>Buelna<s n="np"/></r></p></e>
+<e><p><l>Caribe<s n="np"/></l><r>Caribe<s n="np"/></r></p></e>
+<e><p><l>Cádiz<s n="np"/></l><r>Cádiz<s n="np"/></r></p></e>
+<e><p><l>Cares<s n="np"/></l><r>Cares<s n="np"/></r></p></e>
+<e><p><l>Cáceres<s n="np"/></l><r>Cáceres<s n="np"/></r></p></e>
+<e><p><l>Darío<s n="np"/></l><r>Darío<s n="np"/></r></p></e>
+<e><p><l>Centroamérica<s n="np"/></l><r>Centroamérica<s n="np"/></r></p></e>
+<e><p><l>Cipriano<s n="np"/></l><r>Cipriano<s n="np"/></r></p></e>
+<e><p><l>Caúcaso<s n="np"/></l><r>Caúcasu<s n="np"/></r></p></e>
+<e><p><l>Atlántico<s n="np"/></l><r>Atlánticu<s n="np"/></r></p></e>
+<e><p><l>Etiopía<s n="np"/></l><r>Etiopía<s n="np"/></r></p></e>
+<e><p><l>Federico<s n="np"/></l><r>Federico<s n="np"/></r></p></e>
+<e><p><l>Francesc<s n="np"/></l><r>Francesc<s n="np"/></r></p></e>
+<e><p><l>George<s n="np"/></l><r>George<s n="np"/></r></p></e>
+<e><p><l>Grecia<s n="np"/></l><r>Grecia<s n="np"/></r></p></e>
+<e><p><l>Guinea<s n="np"/></l><r>Guinea<s n="np"/></r></p></e>
+<e><p><l>Guipúzcoa<s n="np"/></l><r>Guipúzcoa<s n="np"/></r></p></e>
+<e><p><l>Himalaya<s n="np"/></l><r>Himalaya<s n="np"/></r></p></e>
+<e><p><l>Huelva<s n="np"/></l><r>Huelva<s n="np"/></r></p></e>
+<e><p><l>Huesca<s n="np"/></l><r>Huesca<s n="np"/></r></p></e>
+<e><p><l>Iberoamérica<s n="np"/></l><r>Iberoamérica<s n="np"/></r></p></e>
+<e><p><l>Inglaterra<s n="np"/></l><r>Inglaterra<s n="np"/></r></p></e>
+<e><p><l>Jaume<s n="np"/></l><r>Jaume<s n="np"/></r></p></e>
+<e><p><l>Jerez<s n="np"/></l><r>Xerez<s n="np"/></r></p></e>
+<e><p><l>Eivissa<s n="np"/></l><r>Eivissa<s n="np"/></r></p></e>
+<e><p><l>Jordán<s n="np"/></l><r>Xordán<s n="np"/></r></p></e>
+<e><p><l>Josué<s n="np"/></l><r>Josué<s n="np"/></r></p></e>
+<e><p><l>Jovellanos<s n="np"/></l><r>Xovellanos<s n="np"/></r></p></e>
+<e><p><l>Lanzarote<s n="np"/></l><r>Lanzarote<s n="np"/></r></p></e>
+<e><p><l>Latinoamérica<s n="np"/></l><r>Llatinoamérica<s n="np"/></r></p></e>
+<e><p><l>Lázaro<s n="np"/></l><r>Llázaro<s n="np"/></r></p></e>
+<e><p><l>Leitariegos<s n="np"/></l><r>L.leitariegos<s n="np"/></r></p></e>
+<e><p><l>Llaneza<s n="np"/></l><r>Llaneza<s n="np"/></r></p></e>
+<e><p><l>Lleida<s n="np"/></l><r>Lleida<s n="np"/></r></p></e>
+<e><p><l>Londres<s n="np"/></l><r>Londres<s n="np"/></r></p></e>
+<e><p><l>Lourdes<s n="np"/></l><r>Lourdes<s n="np"/></r></p></e>
+<e><p><l>Magreb<s n="np"/></l><r>Magreb<s n="np"/></r></p></e>
+<e><p><l>Maite<s n="np"/></l><r>Maite<s n="np"/></r></p></e>
+<e><p><l>Málaga<s n="np"/></l><r>Málaga<s n="np"/></r></p></e>
+<e><p><l>Mallorca<s n="np"/></l><r>Mallorca<s n="np"/></r></p></e>
+<e><p><l>Manresa<s n="np"/></l><r>Manresa<s n="np"/></r></p></e>
+<e><p><l>Mariví<s n="np"/></l><r>Mariví<s n="np"/></r></p></e>
+<e><p><l>Marte<s n="np"/></l><r>Marte<s n="np"/></r></p></e>
+<e><p><l>Mauritania<s n="np"/></l><r>Mauritania<s n="np"/></r></p></e>
+<e><p><l>Melilla<s n="np"/></l><r>Melilla<s n="np"/></r></p></e>
+<e><p><l>México<s n="np"/></l><r>Méxicu<s n="np"/></r></p></e>
+<e><p><l>Miami<s n="np"/></l><r>Miami<s n="np"/></r></p></e>
+<e><p><l>El<b/>Molinón<s n="np"/></l><r>El<b/>Molinón<s n="np"/></r></p></e>
+<e><p><l>Moscú<s n="np"/></l><r>Moscú<s n="np"/></r></p></e>
+<e><p><l>Nairobi<s n="np"/></l><r>Nairobi<s n="np"/></r></p></e>
+<e><p><l>Nalón<s n="np"/></l><r>Nalón<s n="np"/></r></p></e>
+<e><p><l>Nicole<s n="np"/></l><r>Nicole<s n="np"/></r></p></e>
+<e><p><l>Nobel<s n="np"/></l><r>Novel<s n="np"/></r></p></e>
+<e><p><l>Norteamérica<s n="np"/></l><r>Norteamérica<s n="np"/></r></p></e>
+<e><p><l>Obama<s n="np"/></l><r>Obama<s n="np"/></r></p></e>
+<e><p><l>Ordóñez<s n="np"/></l><r>Ordóñez<s n="np"/></r></p></e>
+<e><p><l>Ourense<s n="np"/></l><r>Ourense<s n="np"/></r></p></e>
+<e><p><l>Orlando<s n="np"/></l><r>Orlando<s n="np"/></r></p></e>
+<e><p><l>Palencia<s n="np"/></l><r>Palencia<s n="np"/></r></p></e>
+<e><p><l>Penagos<s n="np"/></l><r>Penagos<s n="np"/></r></p></e>
+<e><p><l>Peñamellera<s n="np"/></l><r>Peñamellera<s n="np"/></r></p></e>
+<e><p><l>Pirineo<s n="np"/></l><r>Pirinéu<s n="np"/></r></p></e>
+<e><p><l>Pontevedra<s n="np"/></l><r>Pontevedra<s n="np"/></r></p></e>
+<e><p><l>Pravia<s n="np"/></l><r>Pravia<s n="np"/></r></p></e>
+<e><p><l>Quirós<s n="np"/></l><r>Quirós<s n="np"/></r></p></e>
+<e><p><l>Rabat<s n="np"/></l><r>Rabar<s n="np"/></r></p></e>
+<e><p><l>Rodrigo<s n="np"/></l><r>Rodrigo<s n="np"/></r></p></e>
+<e><p><l>Rusia<s n="np"/></l><r>Rusia<s n="np"/></r></p></e>
+<e><p><l>Sabadell<s n="np"/></l><r>Sabadell<s n="np"/></r></p></e>
+<e><p><l>Sáenz<s n="np"/></l><r>Sáenz<s n="np"/></r></p></e>
+<e><p><l>Salamanca<s n="np"/></l><r>Salamanca<s n="np"/></r></p></e>
+<e><p><l>Salinas<s n="np"/></l><r>Salinas<s n="np"/></r></p></e>
+<e><p><l>Sancho<s n="np"/></l><r>Sancho<s n="np"/></r></p></e>
+<e><p><l>Segobia<s n="np"/></l><r>Segobia<s n="np"/></r></p></e>
+<e><p><l>Siero<s n="np"/></l><r>Siero<s n="np"/></r></p></e>
+<e><p><l>Solís<s n="np"/></l><r>Solís<s n="np"/></r></p></e>
+<e><p><l>Suráfrica<s n="np"/></l><r>Suráfrica<s n="np"/></r></p></e>
+<e><p><l>Suramérica<s n="np"/></l><r>Suramérica<s n="np"/></r></p></e>
+<e><p><l>Terrasa<s n="np"/></l><r>Terrasa<s n="np"/></r></p></e>
+<e><p><l>Tatiana<s n="np"/></l><r>Tatiana<s n="np"/></r></p></e>
+<e><p><l>Telecinco<s n="np"/></l><r>Telecinco<s n="np"/></r></p></e>
+<e><p><l>Telva<s n="np"/></l><r>Telva<s n="np"/></r></p></e>
+<e><p><l>La<b/>Arena<s n="np"/></l><r>L'Arena<s n="np"/></r></p></e>
+<e><p><l>Roces<s n="np"/></l><r>Roces<s n="np"/></r></p></e>
+<e><p><l>Zaragoza<s n="np"/></l><r>Zaragoza<s n="np"/></r></p></e>
+<e><p><l>Zamora<s n="np"/></l><r>Zamora<s n="np"/></r></p></e>
+<e><p><l>Jerez<s n="np"/></l><r>Xerez<s n="np"/></r></p></e>
+<e><p><l>Vizcaya<s n="np"/></l><r>Vizcaya<s n="np"/></r></p></e>
+<e><p><l>Tenerife<s n="np"/></l><r>Tenerife<s n="np"/></r></p></e>
+<e><p><l>Ventanielles<s n="np"/></l><r>Ventanielles<s n="np"/></r></p></e>
+<e><p><l>Venezuela<s n="np"/></l><r>Venezuela<s n="np"/></r></p></e>
+<e><p><l>Teruel<s n="np"/></l><r>Teruel<s n="np"/></r></p></e>
+<e><p><l>Toledo<s n="np"/></l><r>Toledo<s n="np"/></r></p></e>
+<e><p><l>Trasona<s n="np"/></l><r>Trasona<s n="np"/></r></p></e>
+<e><p><l>Peñaubiña<s n="np"/></l><r>Penaubina<s n="np"/></r></p></e>
+<e><p><l>Valentín<s n="np"/></l><r>Valentín<s n="np"/></r></p></e>
+<e><p><l>Uruguay<s n="np"/></l><r>Uruguai<s n="np"/></r></p></e>
+<e><p><l>Valverde<s n="np"/></l><r>Valverde<s n="np"/></r></p></e>
+<e><p><l>Versalles<s n="np"/></l><r>Versalles<s n="np"/></r></p></e>
+<e><p><l>Viena<s n="np"/></l><r>Viena<s n="np"/></r></p></e>
+<e><p><l>Washington<s n="np"/></l><r>Washington<s n="np"/></r></p></e>
     <!-- Puntuación -->
+
 
 <e><re>[.\?;:!·]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 <e><re>[,]</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>

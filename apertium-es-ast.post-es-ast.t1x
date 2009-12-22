@@ -1,38 +1,39 @@
 <transfer>
 
 	<section-def-cats>
-	<def-cat n="tot">
-	<cat-item tags="*"/>
-	<cat-item tags="*.*"/>
-	</def-cat>
-	<def-cat n="verbo">
-	<cat-item tags="vblex.*"/>
-	</def-cat>
-	<def-cat n="prnenc">
-	<cat-item tags="prn.enc.*"/>
-	</def-cat>
+		<def-cat n="tot">
+			<cat-item lemma="*" tags="*"/>		
+			<cat-item tags="*"/>
+			<cat-item tags="*.*"/>
+		</def-cat>
+		<def-cat n="verb">
+			<cat-item tags="vblex.*"/>
+		</def-cat>
+		<def-cat n="prnenc">
+			<cat-item tags="prn.enc.*"/>
+		</def-cat>
 	</section-def-cats>
 
 	<section-def-attrs>
-	<def-attr n="a_adj">
-	<attr-item tags="adj"/>
-	</def-attr>
+		<def-attr n="a_adj">
+			<attr-item tags="adj"/>
+		</def-attr>
 	</section-def-attrs>
 
 	<section-def-vars>
-	<def-var n="nombre"/>
+		<def-var n="nombre"/>
 	</section-def-vars>
 
 	<section-rules>
-
+<!--
 		<rule comment="REGLA: VERB+ENC">
 			<pattern>
-			<pattern-item n="verbo"/>
-			<pattern-item n="prnenc"/>
+				<pattern-item n="verb"/>
+				<pattern-item n="prnenc"/>
 			</pattern>
 
 			<action>
-			<out> <!-- Print ~ before every word -->
+			<out> 
 			  <lu><lit-tag v="a"/></lu>
 			  <mlu>
 			    <lu><clip pos="1" side="tl" part="whole"/></lu>
@@ -41,10 +42,11 @@
 			</out>
 			</action>
 		</rule>
-
+-->
+<!-- Print ~ before every word -->
 		<rule comment="REGLA: TOT">
 			<pattern>
-			<pattern-item n="tot"/>
+				<pattern-item n="tot"/>
 			</pattern>
 
 			<action>
@@ -54,6 +56,7 @@
 			</out>
 			</action>
 		</rule>
+
 
 	</section-rules>
 
