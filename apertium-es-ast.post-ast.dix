@@ -292,7 +292,7 @@
           <r>l</r>
         </p>
         <par n="caracter_general"/>
-      </e>
+      </e>	  
       <e>
         <p>
           <l><b/><a/><a/>EL</l>
@@ -306,7 +306,7 @@
           <r>l<b/>mio</r>
         </p>
         <par n="caracter_general"/>
-      </e>
+      </e>  
 	  <e>
         <p>
           <l><b/><a/><a/>EL<b/>MIO</l>
@@ -358,11 +358,18 @@
       </e>
 	  <e>
         <p>
+          <l><b/><a/>el<b/>so</l>
+          <r>l<b/>so</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		  
+	  <e>
+        <p>
           <l><b/><a/><a/>el<b/>so</l>
           <r>l<b/>so</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>
 	  <e>
         <p>
           <l><b/><a/><a/>EL<b/>SO</l>
@@ -398,6 +405,24 @@
         </p>
         <par n="caracter_general"/>
       </e>	
+
+
+       <e>
+        <p>
+          <l><b/><a/>el<b/>nuesu</l>
+          <r>l<b/>nuesu</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+	  <e>
+        <p>
+          <l><b/><a/>EL<b/>NUESU</l>
+          <r>L<b/>NUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	
+
+
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>nuestru</l>
@@ -453,7 +478,22 @@
           <r>LA</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>	
+
+      <e>
+        <p>
+          <l><b/><a/>la</l>
+          <r>la</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>LA</l>
+          <r>LA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	    
       <e>
         <p>
           <l><b/><a/><a/>lo</l>
@@ -481,7 +521,22 @@
           <r>LOS</r>
         </p>
         <par n="caracter_general"/>
-      </e>	  
+      </e>	 
+
+      <e>
+        <p>
+          <l><b/><a/>los</l>
+          <r>los</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>LOS</l>
+          <r>LOS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	   
       <e>
         <p>
           <l><b/><a/><a/>les</l>
@@ -492,6 +547,21 @@
       <e>
         <p>
           <l><b/><a/><a/>LES</l>
+          <r>LES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+
+       <e>
+        <p>
+          <l><b/><a/>les</l>
+          <r>les</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>LES</l>
           <r>LES</r>
         </p>
         <par n="caracter_general"/>
@@ -655,7 +725,14 @@
           <r>EL<b/>MÍU</r>
         </p>
         <par n="caracter_general"/>
-      </e>		  
+      </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>el<b/>to</l>
+          <r>el<b/>to</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>to</l>
@@ -684,6 +761,13 @@
         </p>
         <par n="caracter_general"/>
       </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>el<b/>so</l>
+          <r>el<b/>so</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>so</l>
@@ -725,7 +809,22 @@
           <r>EL<b/>NUESU</r>
         </p>
         <par n="caracter_general"/>
+      </e>
+
+          <e>
+        <p>
+          <l><b/><a/>el<b/>nuesu</l>
+          <r>el<b/>nuesu</r>
+        </p>
+        <par n="caracter_general"/>
       </e>	
+	  <e>
+        <p>
+          <l><b/><a/>EL<b/>NUESU</l>
+          <r>EL<b/>NUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>nuestru</l>
@@ -820,6 +919,64 @@
       <e>
         <p>
           <l><b/><a/><a/>LES</l>
+          <r>ES</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+     
+       
+      <e>
+        <p>
+          <l><b/><a/>la</l>
+          <r>a</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>LA</l>
+          <r>A</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
+          <l><b/><a/>lo</l>
+          <r>o</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>LO</l>
+          <r>O</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
+          <l><b/><a/>los</l>
+          <r>os</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>LOS</l>
+          <r>OS</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+      <e>
+        <p>
+          <l><b/><a/>les</l>
+          <r>es</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>LES</l>
           <r>ES</r>
         </p>
         <par n="caracter_general"/>
@@ -1454,6 +1611,13 @@
       </e>	  
 	  <e>
         <p>
+          <l><b/><a/><a/>el<b/>so</l>
+          <r>l<b/>so</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	  
+	  <e>
+        <p>
           <l><b/><a/><a/>EL<b/>SO</l>
           <r>L<b/>SO</r>
         </p>
@@ -1486,7 +1650,23 @@
           <r>L<b/>NUESU</r>
         </p>
         <par n="caracter_general"/>
+      </e>
+
+
+        <e>
+        <p>
+          <l><b/><a/>el<b/>nuesu</l>
+          <r>l<b/>nuesu</r>
+        </p>
+        <par n="caracter_general"/>
       </e>	
+	  <e>
+        <p>
+          <l><b/><a/>EL<b/>NUESU</l>
+          <r>L<b/>NUESU</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>		
 	  <e>
         <p>
           <l><b/><a/><a/>el<b/>nuestru</l>
@@ -1775,6 +1955,7 @@
 
 
       <e><p><l><a/>y<b/><a/></l><r>ya<b/></r></p><par n="vocal_i_hi"/></e>
+      <e><p><l><a/>Y<b/><a/></l><r>Ya<b/></r></p><par n="vocal_i_hi"/></e>
 
 
 

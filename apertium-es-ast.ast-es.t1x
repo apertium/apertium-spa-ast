@@ -21,6 +21,9 @@
     <def-cat n="pos">
       <cat-item tags="det.pos.*"/>
     </def-cat>
+	<def-cat n="posmf">
+      <cat-item tags="det.pos.mf.*"/>
+    </def-cat>
     <def-cat n="predet">
       <cat-item tags="predet.*"/>
     </def-cat>
@@ -2305,16 +2308,17 @@ is not applicable because gender and number cannot be taken from previous rules 
         </out>
       </action>
     </rule>
+	
     <rule>
-<!-- REGLA 4: DETERMINANT NOM -->
+		<!-- REGLA 4b: DET_POS NOM -->
       <pattern>
-        <pattern-item n="det"/>
+        <pattern-item n="posmf"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
         <call-macro n="f_concord2">
-          <with-param pos="2"/>
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
         <out>
           <lu>
@@ -2334,6 +2338,35 @@ is not applicable because gender and number cannot be taken from previous rules 
       </action>
     </rule>
     <rule>
+<!-- REGLA 4: DETERMINANT NOM -->
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out><b/>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_det"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+
 <!-- REGLA 5: NOM ADJECTIU-->
       <pattern>
         <pattern-item n="nom"/>
