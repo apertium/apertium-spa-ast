@@ -1881,9 +1881,14 @@
       <e><p><l><a/>y<b/><a/><a/>la<b/><a/></l><r>y l'</r></p><par n="vocals"/></e>
       <!--<e><p><l><a/>y<b/><a/><a/>me<b/><a/></l><r>y m'</r></p><par n="vocals"/></e>-->
 
-       <e><p><l><a/>y<b/><a/><a/>de<b/><a/><a/>el</l><r>y<b/>del</r></p></e> 
+	  <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>el</l><r><b/>vueltes<b/>col</r></p></e> 
+  	  <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>los</l><r><b/>vueltes<b/>colos</r></p></e> 
+  	  <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>la</l><r><b/>vueltes<b/>cola</r></p></e> 
+  	  <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>les</l><r><b/>vueltes<b/>coles</r></p></e> 
+	  
+      <e><p><l><a/>y<b/><a/><a/>de<b/><a/><a/>el</l><r>y<b/>del</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>a<b/><a/><a/>el</l><r>y<b/>al</r></p></e> 
-      <e><p><l><a/>y<b/><a/><a/>so<b/><a/><a/>el</l><r>y<b/>sol</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>so<b/><a/><a/>el</l><r>y<b/>sol</r></p></e> 	  
       <e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>el</l><r>y<b/>col</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>la</l><r>y<b/>cola</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>los</l><r>y<b/>colos</r></p></e> 
@@ -1891,8 +1896,8 @@
       <!--<e><p><l><a/>y<b/><a/><a/>con<b/><a/><a/>lo</l><r>y<b/>colo</r></p></e> -->
       <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>el</l><r>y<b/>pal</r></p></e> 
       <!--<e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>la</l><r>y<b/>cola</r></p></e> 
-      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>los</l><r>y<b/>colos</r></p></e> 
-      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>les</l><r>y<b/>coles</r></p></e>-->
+      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>los</l><r>y<b/>palos</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>pa<b/><a/><a/>les</l><r>y<b/>pales</r></p></e>-->
       <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>el</l><r>y<b/>pol</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>la</l><r>y<b/>pola</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>por<b/><a/><a/>lo</l><r>y<b/>polo</r></p></e> 
