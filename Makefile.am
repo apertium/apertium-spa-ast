@@ -1,4 +1,4 @@
-VERSION=1.0.6
+VERSION=1.0.0
 LANG1=es
 LANG2=ast
 PREFIX1=$(LANG1)-$(LANG2)
@@ -15,16 +15,9 @@ TARGETS_COMMON =  \
      $(PREFIX1).post.t1x.bin \
      $(PREFIX2).t1x.bin
     
-$(BASENAME).$(LANG1).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
-$(BASENAME).$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
-$(BASENAME).$(LANG1)-$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
-     
-$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
-	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
-	lt-comp lr $(BASENAME).$(LANG1).dix $@
+$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
+	apertium-validate-dictionary $(BASENAME).$(LANG1).dix 
+	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -42,9 +35,9 @@ $(PREFIX1).autopgen2.bin: $(BASENAME).post2-$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).post2-$(LANG2).dix
 	lt-comp lr $(BASENAME).post2-$(LANG2).dix $@
 
-$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
+$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG2).acx
 	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
-	lt-comp lr $(BASENAME).$(LANG2).dix $@
+	lt-comp lr $(BASENAME).$(LANG2).dix $@ $(BASENAME).$(LANG2).acx
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -90,17 +83,16 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix  $(BASENAME).post2-$(LANG2).dix \
 	   $(BASENAME).$(LANG2).dix \
-	   $(BASENAME).$(LANG1).dix.xml \
-	   $(BASENAME).$(LANG2).dix.xml \
-	   $(BASENAME).$(PREFIX1).dix.xml \
+	   $(BASENAME).$(LANG1).acx \
+	   $(BASENAME).$(LANG2).acx \
            $(PREFIX1).prob $(PREFIX2).prob \
 	   $(BASENAME).$(PREFIX1).t1x \
 	   $(BASENAME).post-$(PREFIX1).t1x \
 	   $(BASENAME).$(PREFIX2).t1x \
 	   $(BASENAME).$(LANG1).tsx \
-	   $(LANG1)-pn.dat $(LANG2)-pn.dat \
-	   $(BASENAME).$(LANG2).tsx modes.xml apertium-$(PREFIX1).symbols.xml
+	   $(BASENAME).$(LANG2).tsx modes.xml
 
+#	   $(LANG1)-pn.dat $(LANG2)-pn.dat 
 #           $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README 
 
 clean-dicts:
@@ -128,17 +120,20 @@ apertium_es_ast_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).t1x.bin \
 		    $(PREFIX1).post.t1x.bin \
 		    $(PREFIX2).t1x.bin \
-		    $(PREFIX1).mode $(PREFIX2).mode modes.xml apertium-$(PREFIX1).symbols.xml
+		    $(PREFIX1).mode modes.xml 
+
+#  $(PREFIX2).mode
 		  
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_es_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(apertium_es_astdir)
 	$(INSTALL_DATA) $(BASENAME).post-$(PREFIX1).t1x $(apertium_es_astdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(apertium_es_astdir)
-	$(INSTALL_DATA) $(PREFIX1)-pn.mode $(apertium_es_modesdir)
-	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(apertium_es_modesdir)
+
+#	$(INSTALL_DATA) $(PREFIX1)-pn.mode $(apertium_es_modesdir)
+#	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(apertium_es_modesdir)
+#	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_es_modesdir)
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes *~
 

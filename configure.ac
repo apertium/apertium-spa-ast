@@ -6,8 +6,8 @@ AC_PREREQ(2.52)
 
 m4_define([required_apertium_version], [3.1.0])
 
-AC_INIT([apertium-es-ast], [1.0.6], [jviejo@uniovi.es])
-AM_INIT_AUTOMAKE([apertium-es-ast], [1.0.6], no-define)
+AC_INIT([apertium-es-ast], [1.0.0], [jviejo@uniovi.es])
+AM_INIT_AUTOMAKE([apertium-es-ast], [1.0.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
@@ -46,11 +46,14 @@ AC_DEFUN([PKG_CHECK_APERTIUM], [
 
 
 
-AC_CHECK_PROG(PN_RECOGNISER,apertium-pn-recogniser,yes,no)
-      if test x$PN_RECOGNISER = xno
-      then
-        AC_MSG_ERROR([You don't have apertium-pn-recogniser installed.])
-      fi                      
+#
+# Commented out for first release ~FMT
+#AC_CHECK_PROG(PN_RECOGNISER,apertium-pn-recogniser,yes,no)
+#      if test x$PN_RECOGNISER = xno
+#      then
+#        AC_MSG_ERROR([You don't have apertium-pn-recogniser installed.])
+#      fi                      
+
 PKG_CHECK_APERTIUM
 
 

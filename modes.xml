@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="ast-es" install="yes">
+  <mode name="ast-es" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="ast-es.automorf.bin"/>
@@ -23,7 +23,7 @@
     </pipeline>
   </mode>
 
- <mode name="ast-es-pn" install="yes">
+ <mode name="ast-es-pn" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="ast-es.automorf.bin"/>
@@ -53,7 +53,7 @@
   </mode>
 
 
- <mode name="es-ast-pn" install="yes">
+ <mode name="es-ast-pn" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
@@ -97,10 +97,6 @@
       <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
-        <!-- Proper noun recogniser: -->
-         <!--<program name="apertium-pn-recogniser">
-            <file name="es-pn.dat"/>
-          </program>-->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-es-ast.es-ast.t1x"/>
