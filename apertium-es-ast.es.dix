@@ -73033,7 +73033,7 @@
     <!--Determinantes-->
 	
 <e><i>tod</i><par n="tod/o__predet"/></e>
-<e><i>poc</i><par n="tod/o__predet"/></e>
+<!--<e><i>poc</i><par n="tod/o__predet"/></e>-->
 <e><i>demasiad</i><par n="tod/o__predet"/></e>	
 <e><i>demasiad</i><par n="tod/o__prn"/></e>	
 <e><i>alg</i><par n="ning/ún__det"/></e>
@@ -88029,8 +88029,6 @@
 <e><i>públicamente</i><par n="abajo__adv"/></e>
 <e><i>sexualmente</i><par n="abajo__adv"/></e>
 <e><i>simplemente</i><par n="abajo__adv"/></e>
-<e><i>bonalmente</i><par n="abajo__adv"/></e>
-
 <e><i>guinean</i><par n="absolut/o__adj"/></e>
 <e><i>hondureñ</i><par n="absolut/o__adj"/></e>
 <e><i>ibéric</i><par n="absolut/o__adj"/></e>
@@ -88451,7 +88449,6 @@
 <e><i>definitivamente</i><par n="abajo__adv"/></e>
 <e><i>delicadamente</i><par n="abajo__adv"/></e>
 <e><i>densamente</i><par n="abajo__adv"/></e>
-<e><i>deseradamente</i><par n="abajo__adv"/></e>
 <e><i>desgraciadamente</i><par n="abajo__adv"/></e>
 <e><i>desigualmente</i><par n="abajo__adv"/></e>
 <e><i>detalladamente</i><par n="abajo__adv"/></e>
@@ -88473,10 +88470,10 @@
 <e><i>enteramente</i><par n="abajo__adv"/></e>
 <e><i>erróneamente</i><par n="abajo__adv"/></e>
 <e><i>esencialmente</i><par n="abajo__adv"/></e>
-<e><i>ecialmente</i><par n="abajo__adv"/></e>
-<e><i>ecíficamente</i><par n="abajo__adv"/></e>
-<e><i>eculativamente</i><par n="abajo__adv"/></e>
-<e><i>ontáneamente</i><par n="abajo__adv"/></e>
+<e><i>especialmente</i><par n="abajo__adv"/></e>
+<e><i>específicamente</i><par n="abajo__adv"/></e>
+<e><i>especulativamente</i><par n="abajo__adv"/></e>
+<e><i>espontáneamente</i><par n="abajo__adv"/></e>
 <e><i>estrechamente</i><par n="abajo__adv"/></e>
 <e><i>estrictamente</i><par n="abajo__adv"/></e>
 <e><i>estridentemente</i><par n="abajo__adv"/></e>
@@ -91794,7 +91791,6 @@
 <e><i>bursátil</i><par n="actual__adj"/></e>
 <e><i>caballar</i><par n="actual__adj"/></e>
 <e><i>calabr</i><par n="burgu/és__adj"/></e>
-<e><i>campal</i><par n="actual__adj"/></e>
 <e><i>canadiense</i><par n="abundante__adj"/></e>
 <e><i>canceros</i><par n="absolut/o__adj"/></e>
 <e><i>cándid</i><par n="absolut/o__adj"/></e>

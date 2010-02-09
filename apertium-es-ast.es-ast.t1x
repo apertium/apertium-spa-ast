@@ -113,6 +113,10 @@
     </def-cat>
    <!--relativo "que" -->
 
+    <def-cat n="coma">
+      <cat-item tags="cm"/>
+    </def-cat>
+
     <def-cat n="prn">
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.itg.*"/>
@@ -290,6 +294,10 @@
       <cat-item lemma="tras" tags="pr"/>
 	</def-cat>
     <!-- preposición 'tras' -->
+       <def-cat n="ojalá">
+      <cat-item lemma="ojalá" tags="ij"/>
+	</def-cat>
+    <!-- preposición 'ojalá' -->
 
       <def-cat n="a">
       <cat-item lemma="a" tags="pr"/>
@@ -328,6 +336,19 @@
 	</def-cat>
     <!-- sustantivos temporales -->	
 	
+
+       <def-cat n="prep_det_predet_adv_adj">
+      <cat-item tags="pr"/>
+      <cat-item lemma="poco" tags="det.*"/>	  
+      <cat-item lemma="mucho" tags="det.*"/>	  
+      <cat-item lemma="cuanto" tags="det.*"/>
+	  <cat-item lemma="tanto" tags="det.*"/>
+      <cat-item lemma="bastante" tags="adv"/>
+	  <cat-item lemma="demasiado" tags="predet"/>
+      <cat-item lemma="cuanto" tags="adv"/>	
+      <cat-item lemma="cuánto" tags="adj.*"/>		  		  
+	</def-cat>
+
     <def-cat n="hacer">
       <cat-item lemma="hacer" tags="vblex.*.p3.sg"/>
     </def-cat>
@@ -391,6 +412,15 @@
       <cat-item lemma="noveno" tags="adj.*"/>	
       <cat-item lemma="décimo" tags="adj.*"/>	
    </def-cat>
+
+   <def-cat n="y">
+      <cat-item lemma="y" tags="cnjcoo"/>	
+      <cat-item lemma="aunque" tags="cnjadv"/>	
+      <cat-item lemma="pero" tags="cnjcoo"/>	
+      <cat-item lemma="pero" tags="n.*"/>	
+      <cat-item lemma="ni" tags="cnjcoo"/>	
+   </def-cat>
+
 
  <!-- odinales y nombres para 'per' -->
 
@@ -1130,6 +1160,171 @@
     <!--lista para búsqueda de no animados-->    
     <def-list n="no_animados">
 		<list-item v="manzana"/>
+                <list-item v="pera"/>
+                 <list-item v="abedul"/>
+		 <list-item v="pino"/>
+		 <list-item v="haya"/>
+		 <list-item v="nogal"/>
+		 <list-item v="haya"/>
+                 <list-item v="roble"/>
+                  <list-item v=" castaño"/>
+                <list-item v="teka"/>
+		 <list-item v="abeto"/>
+		 <list-item v="acebo"/>
+		 <list-item v="aceituna"/>
+                 <list-item v="zanahoria"/>
+                 <list-item v="cebolla"/>
+                  <list-item v="lechuga"/>
+                  <list-item v="espinaca"/>
+                  <list-item v="repollo"/>
+                  <list-item v="alcachofa"/>
+                  <list-item v="campiñon"/>
+                   <list-item v="remolacha"/>
+                 <list-item v="acelga"/>
+                  <list-item v="espárrago"/>
+                 <list-item v="huevo"/>
+		 <list-item v="acelga"/>
+		 <list-item v="acuarela"/>
+                 <list-item v="pintura"/>
+		 <list-item v="ágata "/>
+                  <list-item v="perla"/>
+		<list-item v=" diamante"/>
+		<list-item v="rubí"/>
+				
+		<list-item v="aguacate"/>
+		<list-item v="mango"/>
+		<list-item v="banana"/>
+		<list-item v="plátano"/>
+		<list-item v="kiwi"/>
+		<list-item v="fresa"/>
+		<list-item v="pera"/>
+		<list-item v="higo"/>
+		 <list-item v="ajo"/>
+		 <list-item v="alambrada"/>
+		 <list-item v="alambre"/>
+		 <list-item v="álamo"/>
+		 <list-item v="albaricoque"/>
+		<list-item v="melocotón"/>
+		<list-item v="ciruela"/>
+		 <list-item v="alcachofa"/>
+		 <list-item v="algarroba"/>
+		 <list-item v="almeja"/>
+		<list-item v="mejillón"/>
+		<list-item v="ostra"/>
+		 <list-item v="almendra"/>
+		<list-item v="avellana"/>
+		<list-item v="nuez"/>
+		 <list-item v="almendrilla"/>
+		 <list-item v="amatista"/>
+		 <list-item v="anacronismo"/>
+		 <list-item v="anguila"/>
+		<list-item v="trucha"/>
+		<list-item v="sardina"/>
+		<list-item v="parrocha"/>
+		<list-item v="merluza"/>
+		<list-item v="lubina"/>
+		<list-item v="dorada"/>
+		<list-item v="pescadilla"/>
+		<list-item v="salmón"/>
+		 <list-item v="añojo"/>
+		 <list-item v="arándano"/>
+		<list-item v="endrino"/>
+		<list-item v="mora"/>
+		<list-item v="arandela"/>
+		<list-item v="tuerca"/>
+		<list-item v="tornillo"/>
+		 <list-item v="arcaísmo"/>
+		 <list-item v="arenque"/>
+		 <list-item v="artemisa"/>
+		<list-item v="valeriana"/>
+		<list-item v="yerbabuena"/>
+		<list-item v="menta"/>
+		<list-item v="tila"/>
+		<list-item v="manzanilla"/>
+		 <list-item v="azulejo"/>
+		 <list-item v="blanco"/>
+		 <list-item v="bonito"/>
+		<list-item v="atún"/>
+		<list-item v="mero"/>
+		<list-item v="rape"/>
+		 <list-item v="bosque"/>
+		 <list-item v="botella"/>
+		 <list-item v="brillo"/>
+		 <list-item v="cable"/>
+		 <list-item v="cabra"/>
+		<list-item v="cabrito"/>
+		 <list-item v="cacahuete"/>
+		<list-item v="pistacho"/>
+		<list-item v="maíz"/>
+		 <list-item v="cartón"/>
+		 <list-item v="castaña"/>
+		<list-item v="avellana"/>
+		<list-item v="nuez"/>
+		 <list-item v="castaño"/>
+		 <list-item v="chapa"/>
+		 <list-item v="energía"/>
+		 <list-item v="excremento"/>
+		 <list-item v="fibra"/>
+		 <list-item v="flora"/>
+		 <list-item v="gallina"/>
+		<list-item v="pollo"/>
+		<list-item v="cordero"/>
+		<list-item v="ternera"/>
+		<list-item v="cerdo"/>
+		 <list-item v="género"/>
+		 <list-item v="goma"/>
+		 <list-item v="granada"/>
+		 <list-item v="grano"/>
+		 <list-item v="gris"/>
+		 <list-item v="gritería"/>
+		 <list-item v="hierro"/>
+		 <list-item v="hígado"/>
+		 <list-item v="higo"/>
+		 <list-item v="hilo"/>
+		 <list-item v="hoja"/>
+		 <list-item v="hueso"/>
+		 <list-item v="huevo"/>
+		 <list-item v="jamón"/>
+		<list-item v="chorizo"/>
+		<list-item v="salchicha"/>
+		<list-item v="salchichón"/>
+		<list-item v="cecina"/>
+		 <list-item v="ladrillo"/>
+		 <list-item v="lata"/>
+		 <list-item v="limón"/>
+		<list-item v="pomelo"/>
+		<list-item v="naranja"/>
+		 <list-item v="manzana"/>
+		 <list-item v="monte"/>
+		 <list-item v="mueble"/>
+		 <list-item v="nabo"/>
+		 <list-item v="nuez"/>
+		 <list-item v="papaya"/>
+		 <list-item v="papel"/>
+		 <list-item v="patata"/>
+		 <list-item v="pelo"/>
+		 <list-item v="pera"/>
+		 <list-item v="perla"/>
+		 <list-item v="pez"/>
+		<list-item v="pescado"/>
+		 <list-item v="piedra"/>
+		 <list-item v="pino"/>
+		 <list-item v="pintura"/>
+		 <list-item v="pluma"/>
+		 <list-item v="rama"/>
+		 <list-item v="roble"/>
+		 <list-item v="sardina"/>
+		 <list-item v="semilla"/>
+		 <list-item v="soga"/>
+                <list-item v="cuerda"/>
+		 <list-item v="sol"/>
+		 <list-item v="sombra"/>
+ 		<list-item v="penumbra"/>
+		 <list-item v="tabla"/>
+		 <list-item v="tapiz"/>
+		 <list-item v="voz"/>
+
+
     </def-list>
 	
     <!--lista para búsqueda de abstractos-->    
@@ -1155,23 +1350,10 @@
     </def-list>	
     <!--lista para búsqueda de verbos reflexivos-->    
     <def-list n="reflexivos">
-		<list-item v="llamar"/>		
-		<list-item v="duchar"/>
-		<list-item v="alegrar"/>
-		<list-item v="divorciar"/>
-		<list-item v="peinar"/>	
-		<list-item v="enfadar"/>
-		<list-item v="acostar"/>
-		<list-item v="arreglar"/>
-		<list-item v="bañar"/>
-		<list-item v="convertir"/>
-		<list-item v="divertir"/>
-		<list-item v="dormir"/>
-		<list-item v="acordar"/>
-		<list-item v="despedir"/>
-		<list-item v="sentir"/>	
-              <list-item v="aclimatar"/>
+		<list-item v="aclimatar"/>
 		<list-item v="acobardar"/>
+		<list-item v="acordar"/>
+		<list-item v="acostar"/>
 		<list-item v="acostumbrar"/>
 		<list-item v="adaptar"/>
 		<list-item v="aficionar"/>
@@ -1185,28 +1367,52 @@
 		<list-item v="aplicar"/>
 		<list-item v="aprovechar"/>
 		<list-item v="apurar"/>
+		<list-item v="arreglar"/>
 		<list-item v="asociar"/>
 		<list-item v="atrever"/>
 		<list-item v="atribuir"/>
+		<list-item v="avergonzar"/>
+		<list-item v="bañar"/>
 		<list-item v="beneficiar"/>
+		<list-item v="cerciorar"/>
+		<list-item v="cernar"/>
 		<list-item v="colocar"/>
+		<list-item v="comportar"/>
 		<list-item v="concentrar"/>
 		<list-item v="constituir"/>
+		<list-item v="convertir"/>
 		<list-item v="dañar"/>
+		<list-item v="deprimir"/>
 		<list-item v="desanimar"/>
+		<list-item v="desembarazar"/>
+		<list-item v="desesperar"/>
+		<list-item v="desilusionar"/>
+		<list-item v="despedir"/>
+		<list-item v="desquiciar"/>
 		<list-item v="distraer"/>
+		<list-item v="divertir"/>
+		<list-item v="divorciar"/>
 		<list-item v="doblegar"/>
+		<list-item v="dormir"/>
 		<list-item v="drogar"/>
+		<list-item v="duchar"/>
+		<list-item v="emborrachar"/>		
+		<list-item v="encaprichar"/>
+		<list-item v="enfadar"/>
 		<list-item v="enfurruñar"/>
 		<list-item v="enfurruscar"/>
 		<list-item v="enlodar"/>
+		<list-item v="enorgullecer"/>
 		<list-item v="enredar"/>
 		<list-item v="enrollar"/>
-        <list-item v="enterar"/>
+		<list-item v="enterar"/>
+		<list-item v="envenenar"/>		
 		<list-item v="extinguir"/>
 		<list-item v="fajar"/>
 		<list-item v="fiar"/>
+		<list-item v="fijar"/>
 		<list-item v="frustrar"/>
+		<list-item v="gloriar"/>		
 		<list-item v="independizar"/>
 		<list-item v="indignar"/>
 		<list-item v="inscribir"/>
@@ -1215,38 +1421,40 @@
 		<list-item v="lanzar"/>
 		<list-item v="liar"/>
 		<list-item v="limitar"/>
+		<list-item v="llamar"/>		
 		<list-item v="malhumorar"/>
 		<list-item v="mancornar"/>
 		<list-item v="manifestar"/>
 		<list-item v="maravillar"/>
 		<list-item v="matricular"/>
-        <list-item v="mostrar"/>
+		<list-item v="mostrar"/>
 		<list-item v="negar"/>
 		<list-item v="obligar"/>
 		<list-item v="ofrecer"/>
 		<list-item v="oponer"/>
 		<list-item v="orientar"/>
+		<list-item v="otorgar"/>
+		<list-item v="peinar"/>	
 		<list-item v="popularizar"/>
+		<list-item v="preocupar"/>
+		<list-item v="presentar"/>
 		<list-item v="quejar"/>
 		<list-item v="rascar"/>
+		<list-item v="referir"/>		
 		<list-item v="relajar"/>
+		<list-item v="retrasar"/>
 		<list-item v="retrotraer"/>
-		<list-item v="sentir"/>
+		<list-item v="satisfacer"/>
+		<list-item v="sentar"/>
+		<list-item v="sentir"/>	
 		<list-item v="separar"/>
 		<list-item v="someter"/>
-		<list-item v="tener"/>
-		<list-item v="trasladar"/>
-		<list-item v="deprimir"/>
-		<list-item v="desesperar"/>
-		<list-item v="desilusionar"/>
-		<list-item v="desquiciar"/>
-		<list-item v="preocupar"/>
-		<list-item v="satisfacer"/>
-                <list-item v="sentar"/>
-                <list-item v="sentir"/>
 		<list-item v="sorprender"/>
+		<list-item v="sumar"/>
+		<list-item v="tener"/>
+		<list-item v="tramitar"/>
+		<list-item v="trasladar"/>
 		<list-item v="valer"/>
-	
     </def-list>	
 	
     <!--lista para búsqueda de verbos transitivos-->    
@@ -2076,6 +2284,7 @@
 		<list-item v="pesar"/>
 		<list-item v="pescar"/>
 		<list-item v="picar"/>
+                <list-item v="pillar"/>
 		<list-item v="pinchar"/>
 		<list-item v="pintar"/>
 		<list-item v="pisar"/>
@@ -3230,6 +3439,98 @@
 		<list-item v="montaña"/>
 		<list-item v="monte"/>
 		<list-item v="suelo"/>
+                <list-item v="autopista"/>
+		<list-item v="vía"/>
+		<list-item v="tierra"/>
+		<list-item v="mar"/>
+		<list-item v="aire"/>
+		<list-item v="agua"/>
+		<list-item v="mango"/>
+		<list-item v="media"/>
+		<list-item v="brazo"/>
+		<list-item v="cabeza"/>
+		<list-item v="pierna"/>
+		<list-item v="boca"/>
+		<list-item v="oreja"/>
+		<list-item v="nariz"/>
+		<list-item v="pantalón"/>
+		<list-item v="camisa"/>
+		<list-item v="abrigo"/>
+		<list-item v="chaqueta"/>
+		<list-item v="país"/>
+		<list-item v="ciudad"/>
+		<list-item v="detrás"/>
+		<list-item v="nube"/>
+		<list-item v="colina"/>
+		<list-item v="loma"/>
+		<list-item v="río"/>
+		<list-item v="lago"/>
+		<list-item v="océano"/>
+		<list-item v="mundo"/>
+		<list-item v="cielo"/>
+		<list-item v="espacio"/>
+		<list-item v="infierno"/>
+		<list-item v="paraíso"/>
+		<list-item v="órbita"/>
+		<list-item v="habitación"/>
+		<list-item v="cuarto"/>
+		<list-item v="internet"/>
+		<list-item v="radio"/>
+		<list-item v="parte"/>
+		<list-item v="orilla"/>
+		<list-item v="cien"/>
+		<list-item v="ciento"/>
+		<list-item v="mil"/>
+		<list-item v="carnaval"/>
+		<list-item v="margen"/>
+		<list-item v="interior"/>
+		<list-item v="exterior"/>
+		<list-item v="área"/>
+		<list-item v="banda"/>
+		<list-item v="extremo"/>
+		<list-item v="portería"/>
+		<list-item v="línea"/>
+		<list-item v="banderín"/>
+		<list-item v="centro"/>
+		<list-item v="lado"/>
+		<list-item v="puerta"/>
+		<list-item v="boca"/>
+		<list-item v="orejas"/>
+		<list-item v="nariz"/>
+		<list-item v="ventana"/>
+		<list-item v="medio"/>
+		<list-item v="chimenea"/>
+		<list-item v="agujero"/>
+		<list-item v="codo"/>
+		<list-item v="zona"/>
+		<list-item v="borda"/>
+		<list-item v="norte"/>
+		<list-item v="sur"/>
+		<list-item v="este"/>
+		<list-item v="oeste"/>
+		<list-item v="levante"/>
+		<list-item v="poniente"/>
+		<list-item v="entres"/>
+		<list-item v="pico"/>
+		<list-item v="inmediaciones"/>
+		<list-item v="círculo"/>
+		<list-item v="lateral"/>
+		<list-item v="ladera"/>
+		<list-item v="suelo"/>
+		<list-item v="falda"/>
+		<list-item v="campo"/>
+		<list-item v="pista"/>
+		<list-item v="cancha"/>
+		<list-item v="verde"/>
+		<list-item v="terreno"/>
+		<list-item v="prado"/>
+		<list-item v="medio"/>
+		<list-item v="eje"/>
+		<list-item v="detrás"/>
+		
+
+
+
     </def-list>	
 
 	
@@ -3441,16 +3742,12 @@
 	<when>
           <test>
 	   <and>
-		<or>
+		
 		        <in caseless="yes"><!--in-->
 		          <clip pos="1" side="sl" part="lem"/>
 		          <list n="incontables"/>
 		        </in>
-		        <in caseless="yes"><!--in-->
-		          <clip pos="1" side="sl" part="lem"/>
-		          <list n="no_animados"/>
-		        </in>
-		</or>
+	
 		<equal caseless="yes">
                   <clip pos="1" side="sl" part="nbr"/>
                   <lit-tag v="sg"/>
@@ -5566,6 +5863,37 @@ tras comerlo ->  en comiéndolo
         </out>
      </action>
 </rule>
+<!-- 
+regla PERIF011b ojalá + verbo -> yá que + verbo
+tras comerlo ->  en comiéndolo 
+-->  
+ 
+<rule>
+      <pattern>
+        <pattern-item n="ojalá"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+
+        <out>
+            <lu>
+                <get-case-from pos="1">
+		<lit v="yá que"/>
+                    </get-case-from>
+		<lit-tag v="ij"/>
+    	    </lu>
+            <b/>
+	  
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="2" side="tl" part="whole"/>
+              </get-case-from>
+            
+            </lu>
+          
+        </out>
+     </action>
+</rule>
 
 
     <rule>
@@ -5782,8 +6110,10 @@ tras comerlo ->  en comiéndolo
       </action>
     </rule>
 
+	
     <rule>
       <!-- REGLA 5: NOM ADJECTIU-->
+	
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
@@ -5816,18 +6146,243 @@ tras comerlo ->  en comiéndolo
       </action>
     </rule>
 
+	
+	
+   <rule>
+      <!-- REGLA 5b: NOM ADJET Y ADJET -->
+   
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="adjec"/>
+	<pattern-item n="y"/>
+        <pattern-item n="adjec"/>		
+      </pattern>
+      <action>
 
+
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
+        	<call-macro n="f_concord3">
+          		<with-param pos="1"/>
+         	 	<with-param pos="2"/>
+         	 	<with-param pos="4"/>				
+       		</call-macro>
+	<choose>
+	<when>
+          <test>
+	   <and>
+		
+		<in caseless="yes"><!--in-->
+			<clip pos="1" side="sl" part="lem"/>
+			<list n="incontables"/>
+		</in>
+	
+		<equal caseless="yes">
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
+	  </and>
+
+	  </test>
+
+        	<out>
+          		<lu>
+            			<clip pos="1" side="tl" part="lem"/>
+            			<clip pos="1" side="tl" part="a_nom"/>
+            			<clip pos="1" side="tl" part="gen"/>
+            			<clip pos="1" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			            <lit-tag v="nt"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+				<lu>
+				         <clip pos="3" side="tl" part="whole"/>
+          		</lu>
+          		<b pos="3"/>			
+          		<lu>
+            			<clip pos="4" side="tl" part="lem"/>
+            			<clip pos="4" side="tl" part="a_adjec"/>
+            			            <lit-tag v="nt"/>
+            			<clip pos="4" side="tl" part="nbr"/>
+          		</lu>				
+        	</out>
+          </when>
+         <otherwise>
+        	<out>
+          		<lu>
+            			<clip pos="1" side="tl" part="lem"/>
+            			<clip pos="1" side="tl" part="a_nom"/>
+            			<clip pos="1" side="tl" part="gen"/>
+            			<clip pos="1" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="2"/>
+				<lu>
+				         <clip pos="3" side="tl" part="whole"/>
+          		</lu>
+          		<b pos="3"/>			
+          		<lu>
+            			<clip pos="4" side="tl" part="lem"/>
+            			<clip pos="4" side="tl" part="a_adjec"/>
+            			<clip pos="4" side="tl" part="gen"/>
+            			<clip pos="4" side="tl" part="nbr"/>
+          		</lu>				
+        	</out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+	
+   <rule>
+      <!-- REGLA 5c: NOM ADJET Y ADJET -->
+   
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="coma"/>
+        <pattern-item n="adjec"/>
+		<pattern-item n="y"/>
+        <pattern-item n="adjec"/>		
+      </pattern>
+      <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
+        	<call-macro n="f_concord4">
+          		<with-param pos="1"/>
+         	 	<with-param pos="2"/>
+         	 	<with-param pos="4"/>	
+         	 	<with-param pos="5"/>				
+       		</call-macro>
+        <choose>
+	<when>
+          <test>
+	   <and>
+		
+		<in caseless="yes"><!--in-->
+			<clip pos="1" side="sl" part="lem"/>
+			<list n="incontables"/>
+		</in>
+	
+		<equal caseless="yes">
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
+	  </and>
+
+	  </test>
+
+        	<out>
+          		<lu>
+            			<clip pos="1" side="tl" part="lem"/>
+            			<clip pos="1" side="tl" part="a_nom"/>
+            			<clip pos="1" side="tl" part="gen"/>
+            			<clip pos="1" side="tl" part="nbr"/>
+          		</lu>
+          		<b/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			            <lit-tag v="nt"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+                        
+				<lu>
+				         <clip pos="3" side="tl" part="whole"/>
+          		</lu>
+          		<b/>
+                        <lu>
+            			<clip pos="4" side="tl" part="lem"/>
+            			<clip pos="4" side="tl" part="a_adjec"/>
+            			            <lit-tag v="nt"/>
+            			<clip pos="4" side="tl" part="nbr"/>
+          		</lu>
+                         
+          		<b/>
+				<lu>
+				         <clip pos="5" side="tl" part="whole"/>
+          		</lu>
+          		<b/>		
+          		<lu>
+            			<clip pos="6" side="tl" part="lem"/>
+            			<clip pos="6" side="tl" part="a_adjec"/>
+            			            <lit-tag v="nt"/>
+            			<clip pos="6" side="tl" part="nbr"/>
+          		</lu>				
+        	</out>
+          </when>
+          <otherwise>
+        	<out>
+          		<lu>
+            			<clip pos="1" side="tl" part="lem"/>
+            			<clip pos="1" side="tl" part="a_nom"/>
+            			<clip pos="1" side="tl" part="gen"/>
+            			<clip pos="1" side="tl" part="nbr"/>
+          		</lu>
+          		<b/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_adjec"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+                    
+				<lu>
+				         <clip pos="3" side="tl" part="whole"/>
+          		</lu>
+          		<b/>
+          		<lu>
+            			<clip pos="4" side="tl" part="lem"/>
+            			<clip pos="4" side="tl" part="a_adjec"/>
+            			<clip pos="4" side="tl" part="gen"/>
+            			<clip pos="4" side="tl" part="nbr"/>
+          		</lu>
+          		<b/>
+			<lu>
+			        <clip pos="5" side="tl" part="whole"/>
+          		</lu>
+          		<b/>	
+          		<lu>
+            			<clip pos="6" side="tl" part="lem"/>
+            			<clip pos="6" side="tl" part="a_adjec"/>
+            			<clip pos="6" side="tl" part="gen"/>
+            			<clip pos="6" side="tl" part="nbr"/>
+          		</lu>				
+        	</out>
+              </otherwise>
+              </choose>
+      </action>
+    </rule>
+	
+	
     <rule>
       <!-- REGLA 5b: PREP NOM ADJETIVO-->
       <pattern>
-	<pattern-item n="prep"/>
+	<pattern-item n="prep_det_predet_adv_adj"/>
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
       </pattern>
       <action>
         <let>
             <var n="concuerda"/>
-            <lit v="no"/>
+            <lit v="si"/>
         </let>
         <call-macro n="f_concord2">
         	<with-param pos="2"/>
@@ -5837,10 +6392,16 @@ tras comerlo ->  en comiéndolo
 	<choose>
 	   <when>
             <test>
+             <and>
+              <in caseless="yes"><!--in-->
+		          <clip pos="2" side="sl" part="lem"/>
+		          <list n="no_animados"/>
+		        </in>
               <equal caseless="yes">
                 <clip pos="2" side="sl" part="nbr"/>
                 <lit-tag v="sg"/>
               </equal>
+             </and>
             </test>
                  <out>
               		<lu>
@@ -18064,7 +18625,9 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
             </test>
             <out>
               <lu>
+               <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lemh"/>
+                </get-case-from>
                 <clip pos="2" side="sl" part="a_verb"/>
                 <lit-tag v="ifi"/>
                 <clip pos="1" side="sl" part="persona"/>
@@ -18120,7 +18683,9 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
             </test>
             <out>
               <lu>
+                <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lemh"/>
+                </get-case-from>
                 <clip pos="2" side="sl" part="a_verb"/>
                 <lit-tag v="pis"/>
                 <clip pos="1" side="sl" part="persona"/>
@@ -18173,7 +18738,9 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
             </test>
             <out>
               <lu>
+                 <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lemh"/>
+                </get-case-from>
                 <clip pos="2" side="sl" part="a_verb"/>
                 <lit-tag v="cni"/>
                 <clip pos="1" side="sl" part="persona"/>
@@ -18231,7 +18798,9 @@ habré/habría cantado (futuro_indicativo/condicional + participio -> condiciona
             </test>
             <out>
               <lu>
+                 <get-case-from pos="1">
                 <clip pos="2" side="tl" part="lemh"/>
+                </get-case-from>
                 <clip pos="2" side="sl" part="a_verb"/>
                 <clip pos="1" side="sl" part="temps"/>
                 <clip pos="1" side="sl" part="persona"/>
@@ -47365,6 +47934,12 @@ me voy a caer -> voi cayer
                   <clip pos="4" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+                <not>
+                         <in caseless="yes">
+                        	<clip pos="4" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+               </not>
             </and>
             </test>
             <out>
@@ -47574,6 +48149,12 @@ no me voy a caer -> nun voi cayer
                   <clip pos="5" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+                <not>
+                         <in caseless="yes">
+                        	<clip pos="4" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+               </not>
             </and>
             </test>
             <out>
@@ -48015,6 +48596,12 @@ se me va a casar -> va casáseme
                   <clip pos="5" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+                   <not>
+                         <in caseless="yes">
+                        	<clip pos="5" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+               </not>
                  <equal caseless="yes">
                   <clip pos="1" side="sl" part="persona"/>
                   <clip pos="3" side="sl" part="persona"/>
@@ -48112,7 +48699,12 @@ se me va a casar -> va casáseme
                   <clip pos="5" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
-                 
+                    <not>
+                         <in caseless="yes">
+                        	<clip pos="5" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+               </not>
               </and>
             </test>
             <out>
@@ -49322,6 +49914,12 @@ y se me va a casar -> y va casáseme
                   <list n="transitivos"/>
                 </in>
                <not>
+                         <in caseless="yes">
+                        	<clip pos="6" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+                </not>
+               <not>
                 <in caseless="yes"><!--in-->
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="reflexivos"/>
@@ -49387,6 +49985,12 @@ y se me va a casar -> y va casáseme
                   <list n="transitivos"/>
                 </in>
                <not>
+                         <in caseless="yes">
+                        	<clip pos="6" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+               </not>
+               <not>
                 <in caseless="yes"><!--in-->
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="reflexivos"/>
@@ -49443,6 +50047,12 @@ y se me va a casar -> y va casáseme
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+               <not>
+                         <in caseless="yes">
+                        	<clip pos="6" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+               </not>
                <not>
                 <in caseless="yes"><!--in-->
                   <clip pos="6" side="sl" part="lem"/>
@@ -49681,6 +50291,12 @@ y se me va a casar -> y va casáseme
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+               <not>
+                         <in caseless="yes">
+                        	<clip pos="6" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+             </not>
             </and>
             </test>
            <out>
@@ -49742,6 +50358,12 @@ y se me va a casar -> y va casáseme
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+               <not>
+                         <in caseless="yes">
+                        	<clip pos="6" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+ </not>
             </and>
             </test>
            <out>
@@ -49795,6 +50417,12 @@ y se me va a casar -> y va casáseme
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+               <not>
+                         <in caseless="yes">
+                        	<clip pos="6" side="sl" part="lem"/>
+                        	<list n="verbos_habla"/>
+                        </in>
+		 </not>
             </and>
             </test>
            <out>
@@ -51066,6 +51694,12 @@ te haya venido a comprar -> viniera mercate
                    <clip pos="1" side="sl" part="lem"/>
                    <lit v="le"/>
               	</equal>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="5" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                   <clip pos="5" side="sl" part="lem"/>
                   <list n="transitivos"/>
@@ -51399,6 +52033,12 @@ te haya venido a comprar -> viniera mercate
               	  <clip pos="1" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                  <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="5" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                   <clip pos="5" side="sl" part="lem"/>
                   <list n="transitivos"/>
@@ -51748,6 +52388,12 @@ te haya venido a comprar -> viniera mercate
               	  <clip pos="1" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="5" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <in caseless="yes"><!--in-->
                   <clip pos="5" side="sl" part="lem"/>
                   <list n="transitivos"/>
@@ -52101,6 +52747,12 @@ te haya venido a comprar -> viniera mercate
                   <clip pos="5" side="sl" part="lem"/>
                   <list n="transitivos"/>
                 </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="5" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <or>
                   <equal caseless="yes">
                     <clip pos="2" side="sl" part="temps"/>
@@ -52571,6 +53223,12 @@ no lo hayas ido a comprar -> nun lo foras mercar
                    <clip pos="2" side="sl" part="lem"/>
                    <lit v="le"/>
               	</equal>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                      <in caseless="yes"><!--in-->
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
@@ -53017,6 +53675,12 @@ no lo hayas ido a comprar -> nun lo foras mercar
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                     <in caseless="yes"><!--in-->
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
@@ -53484,6 +54148,12 @@ no lo hayas ido a comprar -> nun lo foras mercar
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                     <in caseless="yes"><!--in-->
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
@@ -53944,6 +54614,12 @@ no lo hayas ido a comprar -> nun lo foras mercar
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                  </equal>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                    <in caseless="yes"><!--in-->
                   <clip pos="6" side="sl" part="lem"/>
                   <list n="transitivos"/>
@@ -54951,6 +55627,12 @@ te le hayas ido a caer -> foras caye-y
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                  <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
@@ -55108,6 +55790,12 @@ te le hayas ido a caer -> foras caye-y
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                  <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
@@ -55956,6 +56644,12 @@ te le hayas ido a caer -> foras caye-y
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
@@ -56044,6 +56738,7 @@ te le hayas ido a caer -> foras caye-y
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+        
                   <in caseless="yes"><!--in-->
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="intransitivos"/>
@@ -56129,6 +56824,12 @@ te le hayas ido a caer -> foras caye-y
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                  <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 	<or>
 		 <equal caseless="yes">
 			<clip pos="3" side="sl" part="temps"/>
@@ -56979,6 +57680,12 @@ te le hayas ido a caer -> foras caye-y
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
@@ -57144,6 +57851,12 @@ te le hayas ido a caer -> foras caye-y
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
@@ -58018,6 +58731,12 @@ te le hayas ido a caer -> foras caye-y
               	  <clip pos="2" side="sl" part="lem"/>
               	  <lit v="le"/>
                 </equal>
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                   <in caseless="yes"><!--in-->
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
@@ -58198,6 +58917,12 @@ te le hayas ido a caer -> foras caye-y
                     <clip pos="6" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                   <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="6" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                     <or>
                   <equal caseless="yes">
                     <clip pos="3" side="sl" part="temps"/>
@@ -60060,6 +60785,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -60158,6 +60889,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+              <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
              <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -60249,6 +60986,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -60615,7 +61358,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <list n="transitivos"/>
                    </in>
               
-             
+              <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
               <equal caseless="yes">
                   <clip pos="4" side="sl" part="temps"/>
                   <lit-tag v="pri"/>
@@ -60702,6 +61450,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
               <equal caseless="yes"> 
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="le"/>
@@ -60792,6 +61546,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
               <equal caseless="yes">
                   <clip pos="4" side="sl" part="temps"/>
                   <lit-tag v="pri"/>
@@ -63070,6 +63830,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -63174,6 +63940,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
              <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -63271,6 +64043,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -63660,7 +64438,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
-              
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
              
                 <or>
 		 <equal caseless="yes">
@@ -63754,6 +64537,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
               <equal caseless="yes"> 
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="le"/>
@@ -63850,6 +64639,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                  <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <or>
 		 <equal caseless="yes">
 			<clip pos="4" side="sl" part="temps"/>
@@ -66186,6 +66981,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -66291,6 +67092,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <list n="transitivos"/>
                    </in>
              <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
+             <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="reflexivos"/>
@@ -66387,6 +67194,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -66777,7 +67590,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <list n="transitivos"/>
                    </in>
               
-             
+              <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <or>
 		 <equal caseless="yes">
 			<clip pos="4" side="sl" part="temps"/>
@@ -66870,6 +67688,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
               <equal caseless="yes"> 
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="le"/>
@@ -66966,6 +67790,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <or>
 		 <equal caseless="yes">
 			<clip pos="4" side="sl" part="temps"/>
@@ -69338,6 +70168,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -69445,6 +70281,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+              <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
              <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -69545,6 +70387,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+                 <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                 <not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
@@ -69941,7 +70789,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="le"/>
      	      </equal>
-              
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                    <in caseless="yes"><!--in-->
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
@@ -70043,6 +70896,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
               <equal caseless="yes"> 
                 <clip pos="3" side="sl" part="lem"/>
                 <lit v="le"/>
@@ -70142,6 +71001,12 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
                     <clip pos="7" side="sl" part="lem"/>
                     <list n="transitivos"/>
                    </in>
+               <not>
+                <in caseless="yes"><!--in-->
+                  <clip pos="7" side="sl" part="lem"/>
+                  <list n="verbos_habla"/>
+                </in>
+                 </not>
                <or>
                   <equal caseless="yes">
                     <clip pos="4" side="sl" part="temps"/>
@@ -71883,6 +72748,75 @@ Lo guapo que es Asturias
 <!-- POR/PER -->
 	
 <!-- 
+regla EGV45a nombre + por + nombre -> PER (si nombre iguales')
+casa por casa -> casa per casa
+
+-->  
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="por"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+	      <and>
+			
+		        <equal caseless="yes">
+		          <clip pos="1" side="sl" part="lem"/>
+		          <clip pos="3" side="sl" part="lem"/>
+		        </equal>
+			   <equal caseless="yes">
+		          <clip pos="1" side="sl" part="nbr"/>
+		          <clip pos="3" side="sl" part="nbr"/>
+		        </equal>
+                         <equal caseless="yes">
+		          <clip pos="1" side="sl" part="gen"/>
+		          <clip pos="3" side="sl" part="gen"/>
+		        </equal>
+
+	      </and>
+        </test>
+        <out>
+           <lu>
+				<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b pos="1"/>
+           <lu>
+			    <lit v="per"/>
+				<lit-tag v="pr"/>
+		   </lu>
+           <b pos="2"/>
+           <lu>
+				<clip pos="3" side="tl" part="whole"/> 
+		   </lu>
+        </out>
+       </when>
+	  <otherwise>
+	    <out>
+           <lu>
+				<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b pos="1"/>
+           <lu>
+				<clip pos="2" side="tl" part="whole"/> 
+		   </lu>
+           <b pos="2"/>
+           <lu>
+				<clip pos="3" side="tl" part="whole"/> 
+		   </lu>
+        </out>
+	  </otherwise>
+      </choose>
+  
+     </action>
+
+    </rule>
+
+<!-- 
 regla EGV45 verbo + por + verbo -> PER (si verbos distintos y verbo en lista 'verbos-per-1')
 comer por comer -> comer por comer
 acabar por comer -> acabar per comer
@@ -72860,6 +73794,7 @@ regla PERIF01 deber + inf -> tener + de + inf
               <clip pos="1" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
 		<lit v="de"/>
 		<lit-tag v="pr"/>
@@ -72932,11 +73867,14 @@ regla PERIF01b deber + inf -> tener + de + inf + prnenc
               <clip pos="1" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
 		<lit v="de"/>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
             <mlu><lu>
 		<clip pos="2" side="tl" part="whole"/> 
 	    </lu>
@@ -72989,11 +73927,14 @@ regla PERIF01c deber + inf -> tener + de + inf + prnenc+ prnenc
               <clip pos="1" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
 		<lit v="de"/>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
             <mlu><lu>
 		<clip pos="2" side="tl" part="whole"/> 
 	    </lu>
@@ -73020,11 +73961,14 @@ regla PERIF01c deber + inf -> tener + de + inf + prnenc+ prnenc
               <clip pos="1" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
 		<lit v="de"/>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
             <mlu><lu>
 		<clip pos="2" side="tl" part="whole"/> 
 	    </lu>
@@ -73158,6 +74102,7 @@ regla PERIF02 deber + inf -> tener + de + inf
               <clip pos="2" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="2">
 		<lit v="de"/>
@@ -73165,6 +74110,8 @@ regla PERIF02 deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	    <mlu>
 		<lu>
 		   <clip pos="3" side="tl" part="whole"/> 
@@ -73191,6 +74138,7 @@ regla PERIF02 deber + inf -> tener + de + inf
               <clip pos="2" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="2">
 		<lit v="de"/>
@@ -73198,6 +74146,8 @@ regla PERIF02 deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	    <mlu>
 		<lu>
 		   <clip pos="3" side="tl" part="whole"/> 
@@ -73364,6 +74314,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
 	    <b/>            
+	    <lu><lit-tag v="a"/></lu>		
 		<lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -73371,7 +74322,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
 		<b/>
-	     <mlu> <lu>
+	     	    <lu><lit-tag v="a"/></lu>			
+			<mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
               </get-case-from>
@@ -73515,6 +74467,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -73522,6 +74475,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
 	   
 	     <mlu> <lu>
               <get-case-from pos="2">
@@ -73584,6 +74538,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
                 <get-case-from pos="3">
 		<lit v="de"/>
@@ -73591,6 +74546,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -73655,6 +74612,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
                    <get-case-from pos="3">
 		<lit v="de"/>
@@ -73662,6 +74620,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -73732,6 +74692,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
                  <get-case-from pos="3">
 		<lit v="de"/>
@@ -73739,6 +74700,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -73803,6 +74766,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
                  <get-case-from pos="3">
 		<lit v="de"/>
@@ -73810,6 +74774,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="3">
                 <clip pos="4" side="tl" part="lem"/>
@@ -73867,6 +74833,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
                   <get-case-from pos="3">
 		<lit v="de"/>
@@ -73874,6 +74841,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -73950,6 +74919,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -73957,6 +74927,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74026,6 +74998,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
                    <get-case-from pos="3">
 		<lit v="de"/>
@@ -74033,6 +75006,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74105,6 +75080,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -74112,6 +75088,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74178,6 +75156,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -74185,6 +75164,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74247,6 +75228,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -74254,6 +75236,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74320,6 +75304,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -74327,6 +75312,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74395,6 +75382,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
                <get-case-from pos="3">
 		<lit v="de"/>
@@ -74402,6 +75390,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74467,6 +75457,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -74474,6 +75465,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
 	     <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74519,7 +75512,6 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 	   </test>
           <out>
 	    <lu><lit-tag v="a"/></lu>
-        
             
                               <lu>
               <get-case-from pos="1">
@@ -74531,6 +75523,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+			<lu><lit-tag v="a"/></lu>
             <lu>
                <get-case-from pos="3">
 		<lit v="de"/>
@@ -74538,6 +75531,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
               <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -74586,6 +75581,7 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
               <clip pos="3" side="tl" part="nbr"/>
             </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
             <lu>
               <get-case-from pos="3">
 		<lit v="de"/>
@@ -74593,6 +75589,8 @@ regla PERIF02b pro + pro + deber + inf -> tener + de + inf
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
+	    <lu><lit-tag v="a"/></lu>			
+			
               <mlu> <lu>
               <get-case-from pos="2">
                 <clip pos="4" side="tl" part="lem"/>
@@ -81215,7 +82213,7 @@ le comí el bocadillo -> comí-y el bocáu
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="tl" part="nbr"/>
             </lu></mlu>
-			<b/> 
+			<b/>
             <lu>
 				<clip pos="3" side="tl" part="whole"/> 
 			</lu>
@@ -81225,7 +82223,61 @@ le comí el bocadillo -> comí-y el bocáu
    </action>
   </rule>
 
+<!--
+regla EGV25b2 pronombre_procl_le + verbo +  det_nom_prn_num -> verbo-y + det_nom_prn_num 
+le comí el bocadillo -> comí-y el bocáu
+-->
 
+    <rule> 
+      <pattern>
+        <pattern-item n="le_les"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="prep"/>
+        <pattern-item n="det_nom_prn_num"/>		
+      </pattern>
+      <action>
+        <choose>   	
+	    <when>
+		<test>  
+	        <equal caseless="yes">
+				<clip pos="1" side="sl" part="lem"/>
+				<lit v="le"/>
+			</equal>	
+		</test>
+	   <out>
+           <lu><lit-tag v="a"/></lu>
+	    <mlu><lu>
+              <get-case-from pos="1">
+                <clip pos="2" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <lu>
+              <get-case-from pos="2">
+                <clip pos="1" side="tl" part="lem"/>
+              </get-case-from>
+              <lit-tag v="prn.enc"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu></mlu>
+			<b/> 
+            <lu>
+				<clip pos="3" side="tl" part="whole"/> 
+			</lu>
+            
+			<b/> 
+            <lu>
+				<clip pos="4" side="tl" part="whole"/> 
+			</lu>
+       </out> 
+	  </when>
+	</choose>
+   </action>
+  </rule>
 
 <!--
 regla EGV25b2 proclise + pronombre_procl_le + verbo +  det_nom_prn_num -> verbo-y + det_nom_prn_num 
