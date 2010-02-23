@@ -1886,6 +1886,13 @@
   	  <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>la</l><r><b/>vueltes<b/>cola</r></p></e> 
   	  <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>les</l><r><b/>vueltes<b/>coles</r></p></e> 
 	  
+
+       <e><p><l><a/><a/>tou<b/><a/><a/>lo<b/></l><r>tol<b/></r></p></e> 
+      <e><p><l><a/><a/>tou<b/><a/><a/>el</l><r>tol</r></p></e> 
+      <e><p><l><a/><a/>toa<b/><a/><a/>la</l><r>tola</r></p></e> 
+      <e><p><l><a/><a/>toes<b/><a/><a/>les</l><r>toles</r></p></e>
+      <e><p><l><a/><a/>toos<b/><a/><a/>los</l><r>tolos</r></p></e>
+
       <e><p><l><a/>y<b/><a/><a/>de<b/><a/><a/>el</l><r>y<b/>del</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>a<b/><a/><a/>el</l><r>y<b/>al</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>so<b/><a/><a/>el</l><r>y<b/>sol</r></p></e> 	  
@@ -1954,7 +1961,7 @@
       <e><p><l><a/>y<b/><a/><a/>per<b/><a/><a/>ende</l><r>y<b/>pende</r></p></e>
       <e><p><l><a/>y<b/><a/><a/>cada<b/><a/>unu</l><r>y<b/>caúnu</r></p></e>
       <e><p><l><a/>y<b/><a/><a/>cada<b/><a/><a/>una</l><r>y<b/>caúna</r></p></e>
-
+      
 
 
 
@@ -2474,111 +2481,6 @@
           <r><a/>N</r>
         </p>
         <par n="contraccion_en"/>
-      </e>	  
-      <e>
-        <p>
-          <l><a/><a/>tou</l>
-          <r><a/>to</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>Tou</l>
-          <r><a/>To</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>TOU</l>
-          <r><a/>TO</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>	  
-      <e>
-        <p>
-          <l><a/><a/>toa</l>
-          <r><a/>to</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>Toa</l>
-          <r><a/>To</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>TOA</l>
-          <r><a/>TO</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>	  
-      <e>
-        <p>
-          <l><a/><a/>too</l>
-          <r><a/>to</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>Too</l>
-          <r><a/>To</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>TOO</l>
-          <r><a/>TO</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>	  
-      <e>
-        <p>
-          <l><a/><a/>toos</l>
-          <r><a/>to</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>Toos</l>
-          <r><a/>To</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>TOOS</l>
-          <r><a/>TO</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>toes</l>
-          <r><a/>to</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>Toes</l>
-          <r><a/>To</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
-      </e>
-      <e>
-        <p>
-          <l><a/><a/>TOES</l>
-          <r><a/>TO</r>
-        </p>
-        <par n="contraccion_con_por_per"/>
       </e>	  
       <e>
         <p>
