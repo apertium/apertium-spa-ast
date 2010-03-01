@@ -77,6 +77,48 @@
       </p>
     </e>
   </pardef>
+    <pardef n="personas">
+      <e>
+        <re>[A-Z][a-z]+ [A-Z][a-z]+</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <re>[A-Z][a-z]+ [A-Z][a-z]+ [A-Z][a-z]+</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+	  <e>
+        <re>[A-Z][a-z]+ [A-Z][a-z]+ [A-Z][a-z]+ [A-Z][a-z]+</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+	</pardef>  
+    <pardef n="urls">
+      <e>
+        <re>(((www.)|(http://))[a-z\-]+([.][a-z\-]+)+)</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="al"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="emails">
+      <e>
+        <re>[a-z.]+@[a-z.]+</re>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="al"/></r>
+        </p>
+      </e>
+    </pardef>	
   <pardef n="separa">
     <e>
 <re>[.\?;:!]</re>
@@ -70663,6 +70705,14 @@
       </p>
     </e>
   </pardef>
+    <pardef n="IRC__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="ADSL__n">
     <e>
       <p>
@@ -73084,6 +73134,7 @@
 <e><i>antes<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
 <e><i>antes<b/>que</i><par n="aun__cnjadv"/></e>
 <e><i>así<b/>como</i><par n="aun__cnjadv"/></e>
+<e><i>así<b/>como<b/>de</i><par n="aun__cnjadv"/></e>
 <e><i>así<b/>que</i><par n="aun__cnjadv"/></e>
 <e><i>aun<b/>así</i><par n="aun__cnjadv"/></e>
 <e><i>aun</i><par n="aun__cnjadv"/></e>
@@ -73280,6 +73331,9 @@
 <e><i>a<b/>mansalva</i><par n="abajo__adv"/></e>
 <e><i>a<b/>manta</i><par n="abajo__adv"/></e>
 <e><i>a<b/>marchas<b/>forzadas</i><par n="abajo__adv"/></e>
+<e><i>palos<b/>de<b/>ciego</i><par n="abajo__adv"/></e>
+<e><i>en<b/>lo<b/>que<b/>respecta<b/>a</i><par n="abajo__adv"/></e>
+<e><i>marcha<b/>atrás</i><par n="abajo__adv"/></e>
 <e><i>a<b/>mares</i><par n="abajo__adv"/></e>
 <e><i>a<b/>más<b/>no<b/>poder</i><par n="abajo__adv"/></e>
 <e><i>a<b/>más<b/>tardar</i><par n="abajo__adv"/></e>
@@ -74309,6 +74363,7 @@
 <e><i>acaramel</i><par n="abandon/ar__vblex"/></e>
 <e><i>acarici</i><par n="abandon/ar__vblex"/></e>
 <e><i>acarre</i><par n="abandon/ar__vblex"/></e>
+<e><i>masaje</i><par n="abandon/ar__vblex"/></e>
 <e><i>acarret</i><par n="abandon/ar__vblex"/></e>
 <e><i>acarton</i><par n="abandon/ar__vblex"/></e>
 <e><i>acatarr</i><par n="abandon/ar__vblex"/></e>
@@ -74753,6 +74808,7 @@
 <e><i>camufl</i><par n="abandon/ar__vblex"/></e>
 <e><i>canali</i><par n="abra/zar__vblex"/></e>
 <e><i>cancel</i><par n="abandon/ar__vblex"/></e>
+<e><i>desnivel</i><par n="abandon/ar__vblex"/></e>
 <e><i>cans</i><par n="abandon/ar__vblex"/></e>
 <e><i>cant</i><par n="abandon/ar__vblex"/></e>
 <e><i>capacit</i><par n="abandon/ar__vblex"/></e>
@@ -74799,6 +74855,7 @@
 <e><i>civili</i><par n="abra/zar__vblex"/></e>
 <e><i>clam</i><par n="abandon/ar__vblex"/></e>
 <e><i>clasifi</i><par n="abar/car__vblex"/></e>
+<e><i>cualifi</i><par n="abar/car__vblex"/></e>
 <e><i>clausur</i><par n="abandon/ar__vblex"/></e>
 <e><i>clav</i><par n="abandon/ar__vblex"/></e>
 <e><i>clon</i><par n="abandon/ar__vblex"/></e>
@@ -75503,6 +75560,7 @@
 <e><i>lo</i><par n="abandon/ar__vblex"/></e>
 <e><i>luch</i><par n="abandon/ar__vblex"/></e>
 <e><i>lu</i><par n="lu/cir__vblex"/></e>
+<e><i>deslu</i><par n="lu/cir__vblex"/></e>
 <e><i>macha</i><par n="abar/car__vblex"/></e>
 <e><i>madrug</i><par n="agreg/ar__vblex"/></e>
 <e><i>madur</i><par n="abandon/ar__vblex"/></e>
@@ -76230,12 +76288,15 @@
     <e><par n="/ir__vblex"/></e>
     <e><par n="/oler__vblex"/></e>
 <e><p><l>abalán</l><r>abalan</r></p><par n="abrá/zar__vblex"/></e>
+<e><p><l>desnivél</l><r>desnivel</r></p><par n="abrá/zar__vblex"/></e>
 <e><p><l>abáll</l><r>aball</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>masajé</l><r>masaje</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>abandér</l><r>abander</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>abandón</l><r>abandon</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>abaní</l><r>abani</r></p><par n="abár/car__vblex"/></e>
 <e><p><l>abarát</l><r>abarat</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>abár</l><r>abar</r></p><par n="abár/car__vblex"/></e>
+<e><p><l>cualifí</l><r>cualifi</r></p><par n="abár/car__vblex"/></e>
 <e><p><l>abarrán</l><r>abarran</r></p><par n="abár/car__vblex"/></e>
 <e><p><l>abarró</l><r>abarro</r></p><par n="abár/car__vblex"/></e>
 <e><p><l>abarrót</l><r>abarrot</r></p><par n="abandón/ar__vblex"/></e>
@@ -78490,6 +78551,7 @@
 <e><i>aire</i><par n="abandono__n"/></e>
 <e><i>aislamiento</i><par n="abandono__n"/></e>
 <e><i>ajada</i><par n="abundancia__n"/></e>
+<e><i>mami</i><par n="abundancia__n"/></e>
 <e><i>ajedrecista</i><par n="modelo__n"/></e>
 <e><i>ajedre</i><par n="altavo/z__n"/></e>
 <e><i>ajenjo</i><par n="abandono__n"/></e>
@@ -82069,6 +82131,7 @@
 <e><i>meruéndano</i><par n="abandono__n"/></e>
 <e><i>mesa</i><par n="abundancia__n"/></e>
 <e><i>mes</i><par n="abril__n"/></e>
+<e><i>alféizar</i><par n="abril__n"/></e>
 <e><i>metafísic</i><par n="abogad/o__n"/></e>
 <e><i>metáfora</i><par n="abundancia__n"/></e>
 <e><i>meta</i><par n="abundancia__n"/></e>
@@ -84899,6 +84962,7 @@
 <e><i>retall</i><par n="abandon/ar__vblex"/></e>
 <e><i>retej</i><par n="abandon/ar__vblex"/></e>
 <e><i>reteñ</i><par n="par/ir__vblex"/></e>
+<e><i>teñ</i><par n="par/ir__vblex"/></e>
 <e><i>retiñ</i><par n="par/ir__vblex"/></e>
 <e><i>retorcij</i><par n="abandon/ar__vblex"/></e>
 <e><i>retrotra</i><par n="atra/er__vblex"/></e>
@@ -85656,6 +85720,7 @@
 <e><p><l>retáll</l><r>retall</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>retéj</l><r>retej</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>retéñ</l><r>reteñ</r></p><par n="pár/ir__vblex"/></e>
+<e><p><l>téñ</l><r>teñ</r></p><par n="pár/ir__vblex"/></e>
 <e><p><l>retíñ</l><r>retiñ</r></p><par n="pár/ir__vblex"/></e>
 <e><p><l>retorcíj</l><r>retorcij</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>retrotrá</l><r>retrotra</r></p><par n="atrá/er__vblex"/></e>
@@ -85953,6 +86018,66 @@
   </p>
 </e>
 
+<e lm="restar importancia a que">
+  <i>rest</i>
+  <par n="abandon/ar__vblex"/>
+  <p>
+     <l><b/>importancia<b/>a<b/>que</l>
+     <r><g><b/>importancia<b/>a<b/>que</g></r>
+  </p>
+</e>
+<e lm="restar importancia a que">
+  <p>
+    <l>rést</l>
+    <r>rest</r>
+  </p>
+  <par n="abandón/ar__vblex"/>
+  <p>
+     <l><b/>importancia<b/>a<b/>que</l>
+     <r><g><b/>importancia<b/>a<b/>que</g></r>
+  </p>
+</e>
+
+<e lm="echar una mano">
+  <i>ech</i>
+  <par n="abandon/ar__vblex"/>
+  <p>
+     <l><b/>una<b/>mano</l>
+     <r><g><b/>una<b/>mano</g></r>
+  </p>
+</e>
+<e lm="echar una mano">
+  <p>
+    <l>éch</l>
+    <r>ech</r>
+  </p>
+  <par n="abandón/ar__vblex"/>
+  <p>
+     <l><b/>una<b/>mano</l>
+     <r><g><b/>una<b/>mano</g></r>
+  </p>
+</e>
+
+<e lm="tirar fuera">
+  <i>tir</i>
+  <par n="abandon/ar__vblex"/>
+  <p>
+     <l><b/>fuera</l>
+     <r><g><b/>fuera</g></r>
+  </p>
+</e>
+<e lm="tirar fuera">
+  <p>
+    <l>tír</l>
+    <r>tir</r>
+  </p>
+  <par n="abandón/ar__vblex"/>
+  <p>
+     <l><b/>fuera</l>
+     <r><g><b/>fuera</g></r>
+  </p>
+</e>
+
 <e lm="echar el pestillo">
   <i>ech</i>
   <par n="abandon/ar__vblex"/>
@@ -86015,6 +86140,15 @@
   <p>
      <l><b/>el<b/>amor</l>
      <r><g><b/>el<b/>amor</g></r>
+  </p>
+</e>
+
+<e lm="afín a">
+  <i>af</i>
+  <par n="af/ín__adj"/>
+  <p>
+     <l><b/>a</l>
+     <r><g><b/>a</g></r>
   </p>
 </e>
 
@@ -86082,6 +86216,27 @@
      <r><g><b/>con</g></r>
   </p>
 </e>
+
+<e lm="tomar tierra">
+  <i>tom</i>
+  <par n="abandon/ar__vblex"/>
+  <p>
+     <l><b/>tierra</l>
+     <r><g><b/>tierra</g></r>
+  </p>
+</e>
+<e lm="tomar tierra">
+  <p>
+    <l>tóm</l>
+    <r>tom</r>
+  </p>
+  <par n="abandón/ar__vblex"/>
+  <p>
+     <l><b/>tierra</l>
+     <r><g><b/>tierra</g></r>
+  </p>
+</e>
+
 
 <e lm="llamar a la puerta">
   <i>llam</i>
@@ -86690,6 +86845,7 @@
 <e><i>balear</i><par n="actual__adj"/></e>
     <!--<e><i>caber</i><par n="abandono__n"/></e>-->
 <e><i>dios<b/>mediante</i><par n="abajo__adv"/></e>
+<e><i>de<b/>uno<b/>en<b/>uno</i><par n="abajo__adv"/></e>
 <e><i>llueve<b/>sobre<b/>mojado</i><par n="abajo__adv"/></e>
 <e><i>emborron</i><par n="abandon/ar__vblex"/></e>
 <e><i>ensoberbe</i><par n="agrade/cer__vblex"/></e>
@@ -87377,6 +87533,8 @@
 <!--9 de noviembre de 2009-->
 <e><i>dislo</i><par n="abar/car__vblex"/></e>
 <e><p><l>disló</l><r>dislo</r></p><par n="abár/car__vblex"/></e>
+<e><i>diagnosti</i><par n="abar/car__vblex"/></e>
+<e><p><l>diagností</l><r>diagnosti</r></p><par n="abár/car__vblex"/></e>
 <e><i>mejoría</i><par n="abundancia__n"/></e>
 <e><i>cepo</i><par n="abandono__n"/></e>
 <e><i>garduña</i><par n="abundancia__n"/></e>
@@ -88837,7 +88995,6 @@
 <e><i>deshelad</i><par n="absolut/o__adj"/></e>
 <e><i>desmedrad</i><par n="absolut/o__adj"/></e>
 <e><i>doblad</i><par n="absolut/o__adj"/></e>
-<e><i>dreciable</i><par n="abundante__adj"/></e>
 <e><i>desproporcionad</i><par n="absolut/o__adj"/></e>
 <e><i>provist</i><par n="absolut/o__adj"/></e>
 <e><i>destructor</i><par n="abrumador__adj"/></e>
@@ -88853,7 +89010,7 @@
 <e><i>diligente</i><par n="abundante__adj"/></e>
 <e><i>diluvial</i><par n="actual__adj"/></e>
 <e><i>dimorf</i><par n="absolut/o__adj"/></e>
-<e><i>discontínu</i><par n="absolut/o__adj"/></e>
+<e><i>discontinu</i><par n="absolut/o__adj"/></e>
 <e><i>discordante</i><par n="abundante__adj"/></e>
 <e><i>discutible</i><par n="abundante__adj"/></e>
 <e><i>disecad</i><par n="absolut/o__adj"/></e>
@@ -88913,6 +89070,8 @@
 <e><p><l>convér</l><r>conver</r></p><par n="abandón/ar__vblex"/></e>
 <e><i>cri</i><par n="ampli/ar__vblex"/></e>
 <e><p><l>crí</l><r>cri</r></p><par n="amplí/ar__vblex"/></e>
+<e><i>inventari</i><par n="ampli/ar__vblex"/></e>
+<e><p><l>inventarí</l><r>inventari</r></p><par n="amplí/ar__vblex"/></e>
 <e><i>cristali</i><par n="abra/zar__vblex"/></e>
 <e><p><l>cristalí</l><r>cristali</r></p><par n="abrá/zar__vblex"/></e>
 <e><i>cuadrupli</i><par n="abar/car__vblex"/></e>
@@ -89192,7 +89351,7 @@
 <e><i>estriad</i><par n="absolut/o__adj"/></e>
 <e><i>estructural</i><par n="actual__adj"/></e>
 <e><i>evidentísim</i><par n="absolut/o__adj"/></e>
-<e><i>excitables</i><par n="abundante__adj"/></e>
+<e><i>excitable</i><par n="abundante__adj"/></e>
 <e><i>explicable</i><par n="abundante__adj"/></e>
 <e><i>expresiv</i><par n="absolut/o__adj"/></e>
 <e><i>estraordinari</i><par n="absolut/o__adj"/></e>
@@ -89354,7 +89513,7 @@
 <e><i>literal</i><par n="actual__adj"/></e>
 <e><i>lustros</i><par n="absolut/o__adj"/></e>
 <e><i>malay</i><par n="absolut/o__adj"/></e>
-<e><i>mamarios</i><par n="absolut/o__adj"/></e>
+<e><i>mamari</i><par n="absolut/o__adj"/></e>
 <e><i>mans</i><par n="absolut/o__adj"/></e>
 <e><i>marginal</i><par n="actual__adj"/></e>
 <e><i>masticador</i><par n="abrumador__adj"/></e>
@@ -89365,7 +89524,7 @@
 <e><i>mediterráne</i><par n="absolut/o__adj"/></e>
 <e><i>melodios</i><par n="absolut/o__adj"/></e>
 <e><i>membranos</i><par n="absolut/o__adj"/></e>
-<e><i>meridianos</i><par n="absolut/o__adj"/></e>
+<e><i>meridian</i><par n="absolut/o__adj"/></e>
 <e><i>meridional</i><par n="actual__adj"/></e>
 <e><i>merin</i><par n="absolut/o__adj"/></e>
 <e><i>mestiz</i><par n="absolut/o__adj"/></e>
@@ -89379,7 +89538,7 @@
 <e><i>monstruos</i><par n="absolut/o__adj"/></e>
 <e><i>montaños</i><par n="absolut/o__adj"/></e>
 <e><i>morfológic</i><par n="absolut/o__adj"/></e>
-<e><i>moteados</i><par n="absolut/o__adj"/></e>
+<e><i>motead</i><par n="absolut/o__adj"/></e>
 <e><i>movible</i><par n="abundante__adj"/></e>
 <e><i>mudable</i><par n="abundante__adj"/></e>
 <e><i>mutable</i><par n="abundante__adj"/></e>
@@ -89579,7 +89738,7 @@
 <e><i>unicelular</i><par n="actual__adj"/></e>
 <e><i>unilocular</i><par n="actual__adj"/></e>
 <e><i>unisexual</i><par n="actual__adj"/></e>
-<e><i>utilisim</i><par n="absolut/o__adj"/></e>
+<e><i>utilísim</i><par n="absolut/o__adj"/></e>
 <e><i>utilitari</i><par n="absolut/o__adj"/></e>
 <e><i>utilizable</i><par n="abundante__adj"/></e>
 <e><i>vacante</i><par n="abundante__adj"/></e>
@@ -93618,11 +93777,138 @@
 <e><i>habladuría</i><par n="abundancia__n"/></e>
 <e><i>Unidá<b/>Nacionalista<b/>Asturiana</i><par n="Apertium__np"/></e>
 <e><i>UNA</i><par n="RAE__n"/></e>
+<e><i>drag</i><par n="agreg/ar__vblex"/></e>
+<e><p><l>drág</l><r>drag</r></p><par n="agrég/ar__vblex"/></e>
+<e><i>granje</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>granjé</l><r>granje</r></p><par n="abandón/ar__vblex"/></e>    
+<e><i>aparej</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>aparéj</l><r>aparej</r></p><par n="abandón/ar__vblex"/></e>  
+<e><i>diptong</i><par n="agreg/ar__vblex"/></e>
+<e><p><l>diptóng</l><r>diptong</r></p><par n="agrég/ar__vblex"/></e>
+<e><i>oficiali</i><par n="abra/zar__vblex"/></e>
+<e><p><l>oficialí</l><r>oficiali</r></p><par n="abrá/zar__vblex"/></e>
+<e><i>embal</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>embál</l><r>embal</r></p><par n="abandón/ar__vblex"/></e> 
+<e><i>refriger</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>refrigér</l><r>refriger</r></p><par n="abandón/ar__vblex"/></e> 
+<e><i>mail</i><par n="abandono__n"/></e>
+<e><i>extra</i><par n="abundante__adj"/></e>
+<e><i>rugby</i><par n="abandono__n"/></e>
+<e><i>El<b/>Escalorio</i><par n="Muxia__np"/></e>
+<e><i>NBA</i><par n="RAE__n"/></e>
+<e><i>ATB</i><par n="RAE__n"/></e>
+<e><i>BBC</i><par n="RAE__n"/></e>
+<e><i>Telma</i><par n="Artai__np"/></e>
+<e><i>Sergi</i><par n="Artai__np"/></e>
+<e><i>Mali</i><par n="Muxia__np"/></e>
+<e><i>Madeira</i><par n="Muxia__np"/></e>
+<e><i>Luis</i><par n="Artai__np"/></e>
+<e><i>Letizia</i><par n="Artai__np"/></e>
+<e><i>Alex</i><par n="Artai__np"/></e>
+<e><i>Finlandia</i><par n="Muxia__np"/></e>
+<e><i>Julián</i><par n="Artai__np"/></e>
+<e><i>Inter </i><par n="Artai__np"/></e>
+<e><i>Ibex</i><par n="Artai__np"/></e>
+<e><i>Jerónimo</i><par n="Artai__np"/></e>
+<e><i>Eurovisión</i><par n="Artai__np"/></e>
+<e><i>Eurobásket</i><par n="Artai__np"/></e>
+<e><i>Eloy</i><par n="Artai__np"/></e>
+<e><i>Areces</i><par n="Artai__np"/></e>
+<e><i>Aramo</i><par n="Artai__np"/></e>
+<e><i>Arístegui</i><par n="Artai__np"/></e>
+<e><i>Ágora</i><par n="Artai__np"/></e>
+<e><i>Ibiza</i><par n="Muxia__np"/></e>
+<e><i>SESPA </i><par n="IRC__n"/></e>
+<e><i>SOMA</i><par n="IRC__n"/></e>
+<e><i>vergonzos</i><par n="absolut/o__adj"/></e>
+<e><i>teatrer</i><par n="absolut/o__adj"/></e>
+<e><i>sudadera</i><par n="abundancia__n"/></e>
+<e><i>bullicios</i><par n="absolut/o__adj"/></e> 
+<e><i>cinegétic</i><par n="absolut/o__adj"/></e>
+<e><i>cofrade</i><par n="agente__n"/></e>
+<e><i>concurso</i><par n="abandono__n"/></e>
+<e><i>embutido</i><par n="abandono__n"/></e>
+<e><i>gratuidad</i><par n="a__n"/></e>
+<e><i>itinerario</i><par n="abandono__n"/></e>
+<e><i>joter</i><par n="absolut/o__adj"/></e>
+<e><i>ob</i><par n="autob/ús__n"/></e>
+<e><i>píldora</i><par n="abundancia__n"/></e>
+<e><i>poscoital</i><par n="actual__adj"/></e>
+<e><i>reverso</i><par n="abandono__n"/></e>
+<e><i>salarial</i><par n="actual__adj"/></e>
+<e><i>salmoner</i><par n="absolut/o__adj"/></e>
+<e><i>secadero</i><par n="abandono__n"/></e>
+<e><i>terminantemente</i><par n="abajo__adv"/></e>
+<e><i>monocultivo</i><par n="abandono__n"/></e>
+<e><i>peineta</i><par n="abundancia__n"/></e>
+<e><i>pensionazo</i><par n="abandono__n"/></e>
+<e><i>anticatal</i><par n="alem/án__n"/></e>
+<e><i>bienformad</i><par n="absolut/o__adj"/></e>
+<e><i>cómputo</i><par n="abandono__n"/></e>
+<e><i>cotizaci</i><par n="acci/ón__n"/></e>
+<e><i>dinitrotolueno</i><par n="abandono__n"/></e>
+<e><i>emblema</i><par n="abundancia__n"/></e>
+<e><i>encantador</i><par n="redactor__n"/></e>
+<e><i>encantador</i><par n="abrumador__adj"/></e>
+<e><i>eutanasia</i><par n="abundancia__n"/></e>
+<e><i>extraoficial</i><par n="actual__adj"/></e>
+<e><i>flirteo</i><par n="abandono__n"/></e>
+<e><i>futboler</i><par n="absolut/o__adj"/></e>
+<e><i>golpismo</i><par n="abandono__n"/></e>
+<e><i>higa</i><par n="abundancia__n"/></e>
+<e><i>hipocampo</i><par n="abandono__n"/></e>
+<e><i>kurdo</i><par n="absolut/o__adj"/></e>
+<e><i>selectiv</i><par n="absolut/o__adj"/></e>
+<e><i>lavadora</i><par n="abundancia__n"/></e>
+<e><i>loter</i><par n="abogad/o__n"/></e>
+<e><i>gallego-asturian</i><par n="abogad/o__n"/></e>
+<e><i>gallego-asturian</i><par n="absolut/o__adj"/></e>
+<e><i>selectiv</i><par n="abogad/o__n"/></e>
+<e><i>mercadeo</i><par n="abandono__n"/></e>
+<e><i>mimbre</i><par n="abandono__n"/></e>
+<e><i>minimalismo</i><par n="abandono__n"/></e>
+<e><i>obra</i><par n="abundancia__n"/></e>
+<e><i>pony</i><par n="abandono__n"/></e>
+<e><i>pórtico</i><par n="abandono__n"/></e>
+<e><i>pronunciamiento</i><par n="abandono__n"/></e>
+<e><i>purga</i><par n="abundancia__n"/></e>
+<e><i>ralentización</i><par n="acci/ón__n"/></e>
+<e><i>rotativo</i><par n="abandono__n"/></e>
+<e><i>salarial</i><par n="actual__adj"/></e>
+<e><i>termita</i><par n="abundancia__n"/></e>
+<e><i>tilde</i><par n="abundancia__n"/></e>
+<e><i>timorato</i><par n="abandono__n"/></e>
+<e><i>codazo</i><par n="abandono__n"/></e>
+<e><i>fichero</i><par n="abandono__n"/></e>
+<e><i>lince</i><par n="abandono__n"/></e>
+<e><i>esfum</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>esfúm</l><r>esfum</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>noque</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>noqué</l><r>noque</r></p><par n="abandón/ar__vblex"/></e>
 
+<e lm="granito de arena">
+  <i>granito</i>
+  <par n="abandono__n"/>
+  <p>
+     <l><b/>de<b/>arena</l>
+     <r><g><b/>de<b/>arena</g></r>
+  </p>
+</e>
+<e lm="cargo de confianza">
+  <i>cargo</i>
+  <par n="abandono__n"/>
+  <p>
+     <l><b/>de<b/>confianza</l>
+     <r><g><b/>de<b/>confianza</g></r>
+  </p>
+</e>
 </section>
 <section id="final" type="inconditional">
     <e><par n="separa"/></e>
     <e><par n="numeros"/></e>
+    <e><par n="personas"/></e>	
+    <e><par n="urls"/></e>	
+    <e><par n="emails"/></e>		
     <e><par n="coma"/></e>
     <e><par n="paresq"/></e>
     <e><par n="pardret"/></e>

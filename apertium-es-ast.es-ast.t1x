@@ -60,6 +60,12 @@
       <cat-item tags="n.*"/>
     </def-cat>
     <!-- sustantivos -->
+     
+     <def-cat n="nomprn">
+      <cat-item tags="n.*"/>
+      <cat-item tags="prn.*"/>
+    </def-cat>
+    <!-- sustantivos -->
 
     <def-cat n="nomp">
       <cat-item tags="np.ant"/>
@@ -122,6 +128,13 @@
       <cat-item tags="prn.itg.*"/>
     </def-cat>
     <!--pronombre tónicos y pronombres interrogativos -->
+
+
+      <def-cat n="todo">
+       <cat-item lemma="todo" tags="prn.*"/>
+       <cat-item lemma="todo" tags="predet.*"/>
+    </def-cat>
+
 
     <def-cat n="prnenc">
       <cat-item tags="prn.enc.*"/>
@@ -463,10 +476,6 @@
     <!-- determinantes definidos, indefinidos, demostrativos y posesivos-->
 
 
-    <def-attr n="a_predet">
-      <attr-item tags="predet"/>
-    </def-attr>
-    <!--predeterminantes -->
 
 
     <def-attr n="a_adjec">
@@ -517,6 +526,11 @@
       <attr-item tags="prn.tn.ref.p3"/>
       <attr-item tags="prn.tn.pos"/>
       <attr-item tags="prn.itg"/>
+    </def-attr>
+
+    
+    <def-attr n="a_predet">
+      <attr-item tags="predet"/>
     </def-attr>
     <!--pronombres tónicos de 1ª, 2ª y 3ª persona, tónico reflexivo de 3ª persona, tónicos posesivos y pronombres interrogativos -->
 
@@ -797,6 +811,7 @@
 
     <!--lista para búsqueda de incontables--> 
     <def-list n="incontables">
+	 	<list-item v="dinero"/>
 		<list-item v="leña"/>
 		<list-item v="agua"/>
 		<list-item v="leche"/>
@@ -1428,6 +1443,7 @@
 		<list-item v="manifestar"/>
 		<list-item v="maravillar"/>
 		<list-item v="matricular"/>
+		<list-item v="meter"/>
 		<list-item v="mostrar"/>
 		<list-item v="negar"/>
 		<list-item v="obligar"/>
@@ -1528,6 +1544,7 @@
 		<list-item v="adular"/>
 		<list-item v="adulterar"/>
 		<list-item v="advertir"/>
+                <list-item v="afirmar"/>
 		<list-item v="afear"/>
 		<list-item v="afectar"/>
 		<list-item v="afeitar"/>
@@ -1649,6 +1666,7 @@
 		<list-item v="auscultar"/>
 		<list-item v="autorizar"/>
 		<list-item v="avanzar"/>
+                <list-item v="aventajar"/>
 		<list-item v="aventar"/>
 		<list-item v="avergonzar"/>
 		<list-item v="averiguar"/>
@@ -2338,8 +2356,10 @@
 		<list-item v="raspar"/>
 		<list-item v="rastrear"/>
 		<list-item v="rastrillar"/>
+		<list-item v="ratificar"/>
 		<list-item v="rayar"/>
 		<list-item v="reabrir"/>
+                <list-item v="reafirmar"/>
 		<list-item v="realizar"/>
 		<list-item v="rebajar"/>
 		<list-item v="rebañar"/>
@@ -2627,7 +2647,6 @@
 		<list-item v="atufar"/>
 		<list-item v="aumentar"/>
 		<list-item v="avejentar"/>
-		<list-item v="aventajar"/>
 		<list-item v="aviejar"/>
 		<list-item v="bastar"/>
 		<list-item v="berrear"/>
@@ -2755,6 +2774,7 @@
 		<list-item v="escapar"/>
 		<list-item v="escaquear"/>
 		<list-item v="escarmentar"/>
+                <list-item v="esfumar"/>
 		<list-item v="esquiar"/>
 		<list-item v="estirar"/>
 		<list-item v="estornudar"/>
@@ -3380,6 +3400,12 @@
     <!-- por la mañana -> pela mañana -> "mañana" está en la lista -->   
     <def-list n="sustantivos-per">
 		<list-item v="enero"/>
+		<list-item v="hora"/>
+		<list-item v="minuto"/>
+		<list-item v="segundo"/>
+		<list-item v="día"/>
+		<list-item v="mes"/>
+		<list-item v="año"/>
 		<list-item v="febrero"/>
 		<list-item v="marzo"/>
 		<list-item v="abril"/>
@@ -6767,6 +6793,374 @@ tras comerlo ->  en comiéndolo
       </action>
     </rule>
 
+
+
+
+      <!-- REGLA 10b: nom todo --> 
+	<rule>
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="todo"/>
+      </pattern>
+      <action>
+   
+       <choose>
+	<when>
+          <test>
+	   <and>
+		<equal caseless="yes">
+                  <clip pos="2" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+		<in caseless="yes"><!--in-->
+		          <clip pos="1" side="sl" part="lem"/>
+		          <list n="incontables"/>
+		</in>
+	  </and>
+	  </test>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+           
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_prn"/>
+            <lit-tag v="nt"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+        </out>
+        </when>
+        <otherwise>
+	      
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="whole"/>
+		
+		  </lu>
+		  <b/>
+		  <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_prn"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+		 
+		</out>
+	</otherwise>
+	</choose>
+      </action>
+    </rule>	
+
+	
+	      <rule>
+      <!-- REGLA 10c: det nom todo -->
+      <pattern>
+        <pattern-item n="det"/>	  
+        <pattern-item n="nom"/>
+        <pattern-item n="todo"/>
+      </pattern>
+      <action>
+   
+       <choose>
+	<when>
+          <test>
+	   <and>
+		<equal caseless="yes">
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+		<in caseless="yes"><!--in-->
+		          <clip pos="2" side="sl" part="lem"/>
+		          <list n="incontables"/>
+		</in>
+	  </and>
+	  </test>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>		
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_prn"/>
+            <lit-tag v="nt"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+        </out>
+        </when>
+        <otherwise>
+	      
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="whole"/>
+		  </lu>
+		  <b/>
+		  <lu>
+		    <clip pos="2" side="tl" part="whole"/>
+		  </lu>
+		  <b/>		  
+		  <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_prn"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+		 
+		</out>
+	</otherwise>
+	</choose>
+      </action>
+    </rule> 
+	
+
+ 
+	      <rule>
+      <!-- REGLA 10d: nom/prn todo -->
+      <pattern>
+     
+        <pattern-item n="nomprn"/>
+        <pattern-item n="todo"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+   
+       <choose>
+	<when>
+          <test>
+	   <and>
+		<equal caseless="yes">
+                  <clip pos="2" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+		<in caseless="yes"><!--in-->
+		          <clip pos="1" side="sl" part="lem"/>
+		          <list n="incontables"/>
+		</in>
+	  </and>
+	  </test>
+        <out>
+        
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_predet"/>
+            <lit-tag v="nt"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b/>
+            <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_adj"/>
+            <lit-tag v="nt"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+        </out>
+        </when>
+        <otherwise>
+	      
+		<out>
+		  
+		  <lu>
+		    <clip pos="1" side="tl" part="whole"/>
+		  </lu>
+		  <b/>
+		  <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_predet"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+           <b/>
+            <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_adj"/>
+           <clip pos="1" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+		</out>
+	</otherwise>
+	</choose>
+      </action>
+    </rule> 
+	
+	
+
+	      <rule>
+      <!-- REGLA 10e:det nom/prn todo -->
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nomprn"/>
+        <pattern-item n="todo"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+   
+       <choose>
+	<when>
+          <test>
+	   <and>
+		<equal caseless="yes">
+                  <clip pos="3" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+		<in caseless="yes"><!--in-->
+		          <clip pos="2" side="sl" part="lem"/>
+		          <list n="incontables"/>
+		</in>
+	  </and>
+	  </test>
+        <out>
+        <lu>
+		    <clip pos="1" side="tl" part="whole"/>
+		  </lu>
+		  <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/> 
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_predet"/>
+            <lit-tag v="nt"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+          <b/>
+            <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="a_adj"/>
+            <lit-tag v="nt"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+        </out>
+        </when>
+        <otherwise>
+	      
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="whole"/>
+		  </lu>
+		  <b/>
+		  <lu>
+		    <clip pos="2" side="tl" part="whole"/>
+		  </lu>
+		  <b/>	  
+		  <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_predet"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+           <b/>
+            <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="a_adj"/>
+           <clip pos="2" side="tl" part="gen"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+		</out>
+	</otherwise>
+	</choose>
+      </action>
+    </rule> 
+	
+	
+
+
+  
+	      <rule>
+      <!-- REGLA 10f:det nom/prn todo -->
+      <pattern>
+        <pattern-item n="prnpro"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="todo"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+
+		<out>
+		
+		  <mlu><lu>
+		    <clip pos="2" side="tl" part="whole"/>
+		  </lu>
+                   <lu>
+		      <get-case-from pos="1">
+			      <clip pos="1" side="tl" part="lem"/>
+		      </get-case-from>
+		      <lit-tag v="prn.enc"/>
+		      <clip pos="1" side="tl" part="persona"/>
+		      <clip pos="1" side="tl" part="gen"/>
+		      <clip pos="1" side="tl" part="nbr"/>
+                </lu></mlu>
+		<b/>
+		 
+		  <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_predet"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+           <b/>
+            <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="a_adj"/>
+           <clip pos="1" side="tl" part="gen"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+		</out>
+	
+      </action>
+    </rule> 
+	
+	
+
+     	      <rule>
+      <!-- REGLA 10f:det nom/prn todo -->
+      <pattern>
+        <pattern-item n="verb"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="todo"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+
+		<out>
+		
+		  <mlu><lu>
+		    <clip pos="1" side="tl" part="whole"/>
+		  </lu>
+          
+		      <lu>
+		    <clip pos="2" side="tl" part="whole"/>
+		  </lu>
+                </mlu>
+		
+		  <b/>	  
+		  <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_predet"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>
+           <b/>
+            <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="a_adj"/>
+           <clip pos="2" side="tl" part="gen"/>
+            <clip pos="4" side="tl" part="nbr"/>
+          </lu>
+		</out>
+	
+      </action>
+    </rule> 
 
     <rule>
       <!-- REGLA 10: DETERMINANT ADJECTIU-->
@@ -74352,7 +74746,50 @@ regla PERIF01 deber + inf -> tener + de + inf
      </action>
 </rule>
 
+<!-- 
+regla PERIF01b no + deber + inf -> tener + de + inf 
+no deben ir ->  nun tienen de dir
+-->  
+ 
+<rule>
+      <pattern>
+	<pattern-item n="no"/>
+        <pattern-item n="deber"/>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
 
+        <out>
+	       <lu>
+	       <get-case-from pos="1">
+			<lit v="nun"/>
+               </get-case-from>
+		        <lit-tag v="adv"/>
+	       </lu>
+            
+	     <b/>
+	    <lu>
+              <get-case-from pos="2">
+                <lit v="tener"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+	    <lu><lit-tag v="a"/></lu>			
+            <lu>
+		<lit v="de"/>
+		<lit-tag v="pr"/>
+    	    </lu>
+            <b/>
+            <lu>
+		<clip pos="3" side="tl" part="whole"/> 
+	    </lu>
+        </out>
+     </action>
+</rule>
 
 <!-- 
 regla PERIF011 tras + inf -> en + ger 
@@ -74710,6 +75147,7 @@ regla PERIF02 deber + inf -> tener + de + inf
         </choose>
      </action>
 </rule>
+
 
 
 

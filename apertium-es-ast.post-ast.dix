@@ -1864,6 +1864,8 @@
 
 	<!-- marcamos para segundo postgenerador -->
 
+
+
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
 	  <e><p><l><a/><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><b/></l><r><b/></r></p></e>
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><a/></l><r><b/></r></p></e>
@@ -1871,7 +1873,7 @@
 
 
 	<!-- establecemos prioridades en casos especiales -->
-
+     
 
       <e><p><l><a/>y<b/><a/><a/>el<b/><a/></l><r>y l'</r></p><par n="vocals"/></e>
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/></l><r>y n'</r></p><par n="vocals"/></e>
@@ -1887,11 +1889,18 @@
   	  <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>les</l><r><b/>vueltes<b/>coles</r></p></e> 
 	  
 
+       <e><p><l><a/><a/>por<b/><a/><a/>el<b/>so<b/><a/>estilu</l><r>por<b/>el<b/>so<b/>estilo</r></p></e> 
+
        <e><p><l><a/><a/>tou<b/><a/><a/>lo<b/></l><r>tol<b/></r></p></e> 
       <e><p><l><a/><a/>tou<b/><a/><a/>el</l><r>tol</r></p></e> 
       <e><p><l><a/><a/>toa<b/><a/><a/>la</l><r>tola</r></p></e> 
       <e><p><l><a/><a/>toes<b/><a/><a/>les</l><r>toles</r></p></e>
       <e><p><l><a/><a/>toos<b/><a/><a/>los</l><r>tolos</r></p></e>
+      <e><p><l><a/><a/>TOU<b/><a/><a/>LO<b/></l><r>TOL<b/></r></p></e> 
+      <e><p><l><a/><a/>TOU<b/><a/><a/>EL</l><r>TOL</r></p></e> 
+      <e><p><l><a/><a/>TOA<b/><a/><a/>LA</l><r>TOLA</r></p></e> 
+      <e><p><l><a/><a/>TOES<b/><a/><a/>LES</l><r>TOLES</r></p></e>
+      <e><p><l><a/><a/>TOOS<b/><a/><a/>LOS</l><r>TOLOS</r></p></e>
 
       <e><p><l><a/>y<b/><a/><a/>de<b/><a/><a/>el</l><r>y<b/>del</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>a<b/><a/><a/>el</l><r>y<b/>al</r></p></e> 
@@ -2019,6 +2028,10 @@
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>ellos</l><r>que<b/>nellos</r></p></e>
       <e><p><l><a/><a/>que<b/><a/><a/>en<b/><a/><a/>elles</l><r>que<b/>nelles</r></p></e>
 
+	  <e><p><l><a/>por que<b/><a/></l><r>por qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>por que<b/><a/><a/>el<b/><a/></l><r>por que'l<b/></r></p><par n="consonante"/></e>
+      <e><p><l><a/>por que<b/><a/><a/>el<b/></l><r>por que'l<b/></r></p><par n="consonante"/></e>
+	  
       <e><p><l><a/>así que<b/><a/></l><r>así qu'</r></p><par n="vocals"/></e>
       <e><p><l><a/>así que<b/><a/><a/>el<b/><a/></l><r>así que'l<b/></r></p><par n="consonante"/></e>
       <e><p><l><a/>así que<b/><a/><a/>el<b/></l><r>así que'l<b/></r></p><par n="consonante"/></e>
