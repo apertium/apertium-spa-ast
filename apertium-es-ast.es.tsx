@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tagger name="spanish">
 <tagset>
+  <!-- tagset asturiano -->
+  <def-label name="ADMIRACION" closed="true">
+    <tags-item lemma="¡" tags=""/>
+  </def-label>    
+  <def-label name="PARAPR" closed="true">
+    <tags-item lemma="para" tags="pr"/>
+  </def-label>  
+  <def-label name="PARAVBLEX" closed="true">
+    <tags-item lemma="parar" tags="vblex.imp.p2.sg"/>
+    <tags-item lemma="parar" tags="vblex.pri.p3.sg"/>	
+  </def-label>  
+  <def-label name="PRONTOADJ" closed="true">
+    <tags-item lemma="pronto" tags="adj.*"/>
+  </def-label>
+  <def-label name="PARADANOM" closed="true"> 
+    <tags-item lemma="parada" tags="n.*"/>
+  </def-label>    
+  <def-label name="ADJBUENO" closed="true">
+    <tags-item lemma="bueno" tags="adj.*"/>
+    <tags-item lemma="gran" tags="adj.*"/>
+    <tags-item lemma="espléndido" tags="adj.*"/>
+    <tags-item lemma="magnífico" tags="adj.*"/>
+  </def-label>        
+  <!-- fin tagset asturiano-->
   <def-label name="QUECNJ" closed="true">
     <tags-item lemma="que" tags="cnjsub"/>
-  </def-label>
+  </def-label>  
   <def-label name="QUEREL" closed="true">
     <tags-item lemma="que" tags="rel.*"/>
   </def-label>
@@ -202,6 +226,21 @@
   <def-label name="RELADV" closed="true">
     <tags-item tags="rel.adv"/>
   </def-label>
+  <def-label name="VERB">
+    <tags-item tags="vblex.*"/>
+    <tags-item tags="vbser.*"/>
+    <tags-item tags="vbhaber.*"/>	
+    <tags-item tags="vbmod.*"/>
+  </def-label>
+  <def-label name="COMA" closed="true">
+    <tags-item tags="cm"/>
+  </def-label>    
+  <def-mult name="NP," closed="true">
+    <sequence>
+      <label-item label="ANTROPONIM"/>
+      <tags-item tags="cm"/>
+    </sequence>
+  </def-mult>  
   <def-mult name="PREPDET" closed="true">
     <sequence>
       <label-item label="PREP"/>
@@ -353,10 +392,48 @@
 </tagset>
 
   <forbid>
+  <!-- forbid asturiano -->  
+    <label-sequence>
+      <label-item label="NOM"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ANTROPONIM"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>	
+    <label-sequence>
+      <label-item label="PARAPR"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PREP"/>
+      <label-item label="PARAPR"/>
+	</label-sequence>	
+    <label-sequence>
+      <label-item label="VERB"/>
+      <label-item label="PARAVBLEX"/>
+	</label-sequence>		
+    <label-sequence>
+      <label-item label="PARAVBLEX"/>	
+      <label-item label="VERB"/>
+	</label-sequence>	
+    <label-sequence>
+      <label-item label="PARAVBLEX"/>	
+      <label-item label="VLEXINF"/>
+	</label-sequence>		
+    <label-sequence>
+      <label-item label="VLEXINF"/>
+      <label-item label="PARADANOM"/>		  
+	</label-sequence>		
+    <label-sequence>
+      <label-item label="ADJBUENO"/>
+      <label-item label="PARADANOM"/>		  
+	</label-sequence>		
+  <!-- fin forbid asturiano --> 	
     <label-sequence>
       <label-item label="ALGOADV"/>
       <label-item label="QUECNJ"/>
-    </label-sequence>
+    </label-sequence>	
     <label-sequence>
       <label-item label="ALGOADV"/>
       <label-item label="PREADV"/>
@@ -769,7 +846,13 @@
       <label-item label="PRNPRO"/>
       <label-item label="NOM"/>
     </label-sequence>	
+	<label-sequence>
+      <label-item label="PRNTN"/>
+      <label-item label="NOM"/>
+    </label-sequence>			
   </forbid>
+
+
 
   <enforce-rules>
     <enforce-after label="PRNPRO">
@@ -791,6 +874,9 @@
 
 
   <preferences>
+   <!-- preferencias asturianas -->
+   <prefer tags="vblex.pri.p3.sg"/>   
+   <!-- fin preferencias asturianas -->  
    <prefer tags="vblex.pii.p3.sg"/>
    <prefer tags="vbser.pii.p3.sg"/>
    <prefer tags="vbhaver.pii.p3.sg"/>
@@ -803,6 +889,7 @@
    <prefer tags="vblex.pis.p3.sg"/>
    <prefer tags="vbser.pis.p3.sg"/>
    <prefer tags="vbhaver.pis.p3.sg"/>
-  </preferences>
+
+   </preferences>
 
 </tagger>

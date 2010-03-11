@@ -43,4 +43,4 @@ $(TAGGER)/$(LANG1).crp: $(PREFIX).automorf.bin $(TAGGER)/$(LANG1).crp.txt
 	apertium-destxt < $(TAGGER)/$(LANG1).crp.txt | lt-proc $(PREFIX).automorf.bin > $(TAGGER)/$(LANG1).crp
 
 clean:
-	rm -f $(PREFIX).prob
+	rm -f $(PREFIX).prob ./es-tagger-data/es.crp ./es-tagger-data/es.dic
