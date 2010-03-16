@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tagger name="galician">
+<tagger name="asturian">
 <tagset>
 <def-label name="VBIRNPS" closed="true">
 <tags-item lemma="ir" tags="vblex.infps.*"/>
@@ -80,6 +80,9 @@
 </def-label>
 <def-label name="DETMF" closed="true">
 <tags-item tags="det.*.mf.*"/>
+</def-label>
+<def-label name="DETNT" closed="true">
+<tags-item tags="det.*.nt.*"/>
 </def-label>
 <def-label name="DETN" closed="true">
 <tags-item tags="detnt"/>
@@ -200,6 +203,7 @@
 <def-label name="ADJMF">
 <tags-item tags="adj.*.mf.*"/>
 <tags-item tags="adj.mf.*"/>
+<tags-item tags="adj.nt.*"/>
 </def-label>
 <def-label name="REL" closed="true">
 <tags-item tags="rel.an.*"/>

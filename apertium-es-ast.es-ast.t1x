@@ -455,6 +455,9 @@
       <cat-item lemma="ni" tags="cnjcoo"/>	
    </def-cat>
 
+   <def-cat n="recién">
+      <cat-item lemma="recién" tags="adv"/>	
+   </def-cat>   
 
  <!-- odinales y nombres para 'per' -->
 
@@ -1481,6 +1484,7 @@
 		<list-item v="rascar"/>
 		<list-item v="referir"/>		
 		<list-item v="relajar"/>
+		<list-item v="reservar"/>
 		<list-item v="retrasar"/>
 		<list-item v="retrotraer"/>
 		<list-item v="satisfacer"/>
@@ -3578,7 +3582,7 @@
 		<list-item v="medio"/>
 		<list-item v="eje"/>
 		<list-item v="detrás"/>
-		
+		<list-item v="vía"/>
 
 
 
@@ -5879,6 +5883,69 @@
 
 
   <section-rules>
+
+<!-- 
+regla EGV49 por + nombre -> PER (si nombre en sustantivos-per)
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="por"/>
+        <pattern-item n="nom"/>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		  
+	      <in caseless="yes">
+		     <clip pos="2" side="sl" part="lem"/>
+              <list n="sustantivos-per"/>
+            </in>
+		 
+        </test>
+        <out>
+               
+                <lu>
+		      <lit v="per"/>
+		      <lit-tag v="pr"/>
+		</lu>
+                      <b/>
+                <lu>
+		      <clip pos="2" side="tl" part="whole"/> 
+		</lu>
+		   <b/>
+                <lu>
+		      <clip pos="3" side="tl" part="whole"/> 
+		</lu>
+  		
+                     
+        </out>
+       </when>
+       <otherwise>
+		<out>
+                 <lu>
+		       <clip pos="1" side="tl" part="whole"/> 
+		 </lu>
+		 <b/>
+                 <lu>
+		       <clip pos="2" side="tl" part="whole"/> 
+		 </lu>
+		 <b/>
+                 <lu>
+		       <clip pos="3" side="tl" part="whole"/> 
+		 </lu>
+            
+                   
+        </out>
+      </otherwise>
+      </choose>
+
+     </action>
+
+    </rule>
+
 <!-- 
 regla PERIF011b tras + inf -> en + ger + prnenc
 tras comerlo ->  en comiéndolo 
@@ -79021,6 +79088,8 @@ regla EGV49 por + nombre -> PER (si nombre en sustantivos-per)
     </rule>
 
 
+
+
 <!-- 
 regla EGV50 por + adverbio -> PER (si adverbio en adverbios-per)
 -->  
@@ -91116,7 +91185,6 @@ le haya acusado con ganas -> acusáralu con ganes
 
 
 
-
 <!--
 regla EGV25c4 pronombre_procl_le + haber + verbo +  algo
 no le he hablado ayer -> nun-y falé ayeri
@@ -92266,6 +92334,35 @@ no le haya acusado con ganas -> nun lu acusara con ganes
 	</choose>
    </action>
   </rule>
+  
+<!-- 
+regla recién + participio -> ACABANTE + infinitivo 
+ Recién llegado, llegada, llegados -> acabante llegar
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="recién"/>
+        <pattern-item n="part"/>
+      </pattern>
+      <action>
+
+		<out>
+		<lu>
+			<lit v="acabante"/>
+			<lit-tag v="adv"/>
+			</lu>
+		<b/>
+		  <lu>
+			<clip pos="2" side="tl" part="lemh"/>
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="inf"/>
+		  </lu>
+		</out>
+
+     </action>
+</rule>  
+
 
 
     </section-rules>

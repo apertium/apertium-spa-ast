@@ -20,8 +20,6 @@
 /apertium-es-ast.symbols.xml -text
 /ast-es-unsupervised.make -text
 /ast-es.prob -text svneol=unset#unset
-ast-tagger-data/ast.crp.txt -text
-ast-tagger-data/astwiki-20090122-pages-articles.xml.bz2 -text
 /autogen.sh -text
 /configure.ac -text
 dev/asturian.freqlist.txt -text

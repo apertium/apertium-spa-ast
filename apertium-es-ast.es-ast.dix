@@ -1975,6 +1975,7 @@
 <e><p><l>Orlé<s n="np"/></l><r>Orllé<s n="np"/></r></p></e>
 <e><p><l>Oseja<s n="np"/></l><r>Oseya<s n="np"/></r></p></e>
 <e><p><l>Oviedo<s n="np"/></l><r>Uviéu<s n="np"/></r></p></e>
+<e r="LR"><p><l>Uviéu<s n="np"/></l><r>Uviéu<s n="np"/></r></p></e>
 <e><p><l>País<b/>Vasco<s n="np"/></l><r>País<b/>Vascu<s n="np"/></r></p></e>
 <e><p><l>Países<b/>Bajos<s n="np"/></l><r>Países<b/>Baxos<s n="np"/></r></p></e>
 <e><p><l>Pajares<s n="np"/></l><r>Payares<s n="np"/></r></p></e>
@@ -2211,7 +2212,7 @@
 <e><p><l>a<b/>excepción<b/>de<b/>que<s n="cnjadv"/></l><r>nun<b/>siendo<b/>que<s n="cnjadv"/></r></p></e>
 <e r ="LR"><p><l>excepción<b/>hecha<b/>de<s n="adv"/></l><r>quitando<s n="adv"/></r></p></e>
 <e><p><l>aunque<s n="cnjadv"/></l><r>anque<s n="cnjadv"/></r></p></e>
-<e><p><l>a<b/>pesar<b/>de<b/><s n="cnjadv"/></l><r>magar<s n="cnjadv"/></r></p></e>
+<e><p><l>a<b/>pesar<b/>de<s n="adv"/></l><r>magar<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>aún<b/>cuando<s n="cnjadv"/></l><r>inda<b/>que<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>aún<b/>cuando<s n="cnjadv"/></l><r>aínda<b/>que<s n="cnjadv"/></r></p></e>
 <e><p><l>pese<b/>a<s n="cnjadv"/></l><r>magar<s n="cnjadv"/></r></p></e>
@@ -3091,7 +3092,6 @@
 <e><p><l>americanización<s n="n"/></l><r>americanización<s n="n"/></r></p></e>
 <e><p><l>americano<s n="n"/></l><r>americanu<s n="n"/></r></p></e>
 <e><p><l>ametralladora<s n="n"/></l><r>ametralladora<s n="n"/></r></p></e>
-<e><p><l>rallador<s n="n"/></l><r>arrallador<s n="n"/></r></p></e>
 <e><p><l>ametrallamiento<s n="n"/></l><r>ametrallamientu<s n="n"/></r></p></e>
 <e><p><l>amianto<s n="n"/></l><r>amiantu<s n="n"/></r></p></e>
 <e><p><l>amigo<s n="n"/></l><r>amigu<s n="n"/></r></p></e>
@@ -3122,9 +3122,6 @@
 <e><p><l>amplificación<s n="n"/></l><r>amplificación<s n="n"/></r></p></e>
 <e><p><l>amplitud<s n="n"/></l><r>amplitú<s n="n"/></r></p></e>
 <e><p><l>ampolla<s n="n"/></l><r>angüeña<s n="n"/></r></p></e>
-<e r="RL"><p><l>ampolla<s n="n"/></l><r>angüeza<s n="n"/></r></p></e>
-<e r="RL"><p><l>ampolla<s n="n"/></l><r>angüezna<s n="n"/></r></p></e>
-<e r="RL"><p><l>ampolla<s n="n"/></l><r>angüexa<s n="n"/></r></p></e>
 <e><p><l>amueblamiento<s n="n"/></l><r>amoblamientu<s n="n"/></r></p></e>
 <e><p><l>amura<s n="n"/></l><r>amura<s n="n"/></r></p></e>
 <e><p><l>anaconda<s n="n"/></l><r>anaconda<s n="n"/></r></p></e>
@@ -3142,9 +3139,7 @@
 <e><p><l>anchura<s n="n"/><s n="f"/></l><r>anchor<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ancla<s n="n"/></l><r>ancla<s n="n"/></r></p></e>
 <e><p><l>andador<s n="n"/></l><r>andador<s n="n"/></r></p></e>
-<e><p><l>andar<s n="n"/></l><r>andar<s n="n"/></r></p></e>
 <e><p><l>andadura<s n="n"/></l><r>andadura<s n="n"/></r></p></e>
-<e r="RL"><p><l>andadura<s n="n"/></l><r>andadera<s n="n"/></r></p></e>
 <e><p><l>andalucismo<s n="n"/></l><r>andalucismu<s n="n"/></r></p></e>
 <e><p><l>andamio<s n="n"/></l><r>andamiu<s n="n"/></r></p></e>
 <e><p><l>andana<s n="n"/></l><r>andana<s n="n"/></r></p></e>
@@ -3183,12 +3178,8 @@
 <e><p><l>angula<s n="n"/></l><r>angula<s n="n"/></r></p></e>
 <e><p><l>ángulo<s n="n"/></l><r>ángulu<s n="n"/></r></p></e>
 <e><p><l>angustia<s n="n"/></l><r>congoxa<s n="n"/></r></p></e>
-<e r="RL"><p><l>angustia<s n="n"/></l><r>angustiamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>angustia<s n="n"/></l><r>angustia<s n="n"/></r></p></e>
 <e><p><l>anhídrido<s n="n"/></l><r>anhídridu<s n="n"/></r></p></e>
 <e><p><l>anilla<s n="n"/></l><r>argolla<s n="n"/></r></p></e>
-<e r="RL"><p><l>anilla<s n="n"/></l><r>aniella<s n="n"/></r></p></e>
-<e r="RL"><p><l>anilla<s n="n"/></l><r>anía<s n="n"/></r></p></e>
 <e><p><l>animación<s n="n"/></l><r>animación<s n="n"/></r></p></e>
 <e><p><l>animadversión<s n="n"/></l><r>perceguera<s n="n"/></r></p></e>
 <e><p><l>animalada<s n="n"/></l><r>animalada<s n="n"/></r></p></e>
@@ -3280,9 +3271,7 @@
 <e><p><l>anuro<s n="n"/></l><r>anuru<s n="n"/></r></p></e>
 <e><p><l>anzuelo<s n="n"/></l><r>anzuelu<s n="n"/></r></p></e>
 <e><p><l>añadidura<s n="n"/></l><r>amestadura<s n="n"/></r></p></e>
-<e r="RL"><p><l>añadidura<s n="n"/></l><r>añadedura<s n="n"/></r></p></e>
 <e><p><l>añadimiento<s n="n"/></l><r>amestamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>añadimiento<s n="n"/></l><r>añadimientu<s n="n"/></r></p></e>
 <e><p><l>añojo<s n="n"/></l><r>anoyu<s n="n"/></r></p></e>
 <e><p><l>año<s n="n"/><s n="m"/></l><r>añu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>aorta<s n="n"/></l><r>aorta<s n="n"/></r></p></e>
@@ -3300,7 +3289,6 @@
 <e><p><l>aparecido<s n="n"/></l><r>apaecíu<s n="n"/></r></p></e>
 <e><p><l>aparecimiento<s n="n"/></l><r>apaecimientu<s n="n"/></r></p></e>
 <e><p><l>aparejo<s n="n"/></l><r>apareyu<s n="n"/></r></p></e>
-<e r="RL"><p><l>aparejo<s n="n"/></l><r>aparexu<s n="n"/></r></p></e>
 <e><p><l>aparición<s n="n"/></l><r>apaición<s n="n"/></r></p></e>
 <e><p><l>apariencia<s n="n"/></l><r>apariencia<s n="n"/></r></p></e>
 <e><p><l>apartado<s n="n"/></l><r>apartáu<s n="n"/></r></p></e>
@@ -3312,7 +3300,6 @@
 <e><p><l>apedreamiento<s n="n"/><s n="m"/></l><r>apedriadura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>apegamiento<s n="n"/><s n="m"/></l><r>apegadura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>apego<s n="n"/></l><r>apegu<s n="n"/></r></p></e>
-<e r="RL"><p><l>apego<s n="n"/></l><r>apiegu<s n="n"/></r></p></e>
 <e><p><l>apelativo<s n="n"/></l><r>apellativu<s n="n"/></r></p></e>
 <e><p><l>apellidamiento<s n="n"/></l><r>apellidamientu<s n="n"/></r></p></e>
 <e><p><l>apellido<s n="n"/></l><r>apellíu<s n="n"/></r></p></e>
@@ -3339,7 +3326,6 @@
 <e><p><l>apogeo<s n="n"/><s n="m"/></l><r>apoxéu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>apolilladura<s n="n"/></l><r>aberugadura<s n="n"/></r></p></e>
 <e><p><l>apolillamiento<s n="n"/></l><r>apoliyamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>apolillamiento<s n="n"/><s n="m"/></l><r>apoliyadura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>apoplejía<s n="n"/></l><r>apoplexía<s n="n"/></r></p></e>
 <e><p><l>aportación<s n="n"/></l><r>aportación<s n="n"/></r></p></e>
 <e><p><l>aportillado<s n="n"/></l><r>aportelláu<s n="n"/></r></p></e>
@@ -3358,7 +3344,6 @@
 <e><p><l>apotema<s n="n"/></l><r>apotema<s n="n"/></r></p></e>
 <e><p><l>apoyadura<s n="n"/></l><r>apoyadura<s n="n"/></r></p></e>
 <e><p><l>apoyo<s n="n"/></l><r>sofitu<s n="n"/></r></p></e>
-<e r="RL"><p><l>apoyo<s n="n"/></l><r>apoyu<s n="n"/></r></p></e>
 <e><p><l>apreciación<s n="n"/></l><r>apreciación<s n="n"/></r></p></e>
 <e><p><l>apreciamiento<s n="n"/></l><r>apreciamientu<s n="n"/></r></p></e>
 <e><p><l>aprecio<s n="n"/></l><r>apreciu<s n="n"/></r></p></e>
@@ -3412,11 +3397,9 @@
 <e><p><l>arbolado<s n="n"/></l><r>arboláu<s n="n"/></r></p></e>
 <e><p><l>arboladura<s n="n"/></l><r>arboladura<s n="n"/></r></p></e>
 <e><p><l>arboleda<s n="n"/></l><r>arbolea<s n="n"/></r></p></e>
-<e r="RL"><p><l>arboleda<s n="n"/></l><r>arboleda<s n="n"/></r></p></e>
 <e><p><l>árbol<s n="n"/></l><r>árbol<s n="n"/></r></p></e>
 <e><p><l>arbotante<s n="n"/></l><r>arbotante<s n="n"/></r></p></e>
 <e><p><l>arbusto<s n="n"/></l><r>parrotal<s n="n"/></r></p></e>
-<e r="RL"><p><l>arbusto<s n="n"/></l><r>arbustu<s n="n"/></r></p></e>
 <e><p><l>arcabucería<s n="n"/></l><r>arcabucería<s n="n"/></r></p></e>
 <e><p><l>arcabucero<s n="n"/></l><r>arcabuceru<s n="n"/></r></p></e>
 <e><p><l>arcabuz<s n="n"/></l><r>arcabuz<s n="n"/></r></p></e>
@@ -3442,11 +3425,9 @@
 <e><p><l>ardimiento<s n="n"/><s n="m"/></l><r>ardidura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>ardora<s n="n"/></l><r>ardora<s n="n"/></r></p></e>
 <e><p><l>ardor<s n="n"/></l><r>ardor<s n="n"/></r></p></e>
-<e r="RL"><p><l>ardor<s n="n"/><s n="m"/></l><r>ardura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>área<s n="n"/></l><r>área<s n="n"/></r></p></e>
 <e><p><l>arenal<s n="n"/></l><r>arenal<s n="n"/></r></p></e>
 <e><p><l>arenera<s n="n"/></l><r>sablera<s n="n"/></r></p></e>
-<e r="RL"><p><l>arenera<s n="n"/></l><r>arenera<s n="n"/></r></p></e>
 <e><p><l>arencón<s n="n"/></l><r>arencón<s n="n"/></r></p></e>
 <e><p><l>arenero<s n="n"/></l><r>areneru<s n="n"/></r></p></e>
 <e><p><l>arenga<s n="n"/></l><r>arenga<s n="n"/></r></p></e>
@@ -3474,7 +3455,6 @@
 <e><p><l>armadijo<s n="n"/></l><r>armadíu<s n="n"/></r></p></e>
 <e><p><l>armadilla<s n="n"/></l><r>armadía<s n="n"/></r></p></e>
 <e><p><l>armadillo<s n="n"/></l><r>armadíu<s n="n"/></r></p></e>
-<e r="RL"><p><l>armadillo<s n="n"/></l><r>armadillu<s n="n"/></r></p></e>
 <e><p><l>armadura<s n="n"/></l><r>armadura<s n="n"/></r></p></e>
 <e><p><l>armamento<s n="n"/></l><r>armamentu<s n="n"/></r></p></e>
 <e><p><l>armario<s n="n"/></l><r>armariu<s n="n"/></r></p></e>
@@ -3489,7 +3469,6 @@
 <e><p><l>arna<s n="n"/></l><r>arna<s n="n"/></r></p></e>
 <e><p><l>árnica<s n="n"/></l><r>árnica<s n="n"/></r></p></e>
 <e><p><l>aroma<s n="n"/></l><r>arume<s n="n"/></r></p></e>
-<e r="RL"><p><l>aroma<s n="n"/></l><r>aroma<s n="n"/></r></p></e>
 <e><p><l>aromaticidad<s n="n"/></l><r>arumosidá<s n="n"/></r></p></e>
 <e><p><l>aromatización<s n="n"/><s n="f"/></l><r>arumamientu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>arpa<s n="n"/></l><r>arpa<s n="n"/></r></p></e>
@@ -3507,17 +3486,13 @@
 <e><p><l>arracada<s n="n"/></l><r>arracada<s n="n"/></r></p></e>
 <e><p><l>arrancada<s n="n"/></l><r>arrancada<s n="n"/></r></p></e>
 <e><p><l>arrancadero<s n="n"/></l><r>arrincaderu<s n="n"/></r></p></e>
-<e r="RL"><p><l>arrancadero<s n="n"/></l><r>arrincadoriu<s n="n"/></r></p></e>
 <e><p><l>arrancadura<s n="n"/></l><r>arrancadura<s n="n"/></r></p></e>
-<e r="RL"><p><l>arrancadura<s n="n"/></l><r>arrincadura<s n="n"/></r></p></e>
 <e><p><l>arrancamiento<s n="n"/></l><r>arrancamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>arrancamiento<s n="n"/></l><r>arrincamientu<s n="n"/></r></p></e>
 <e><p><l>arranque<s n="n"/></l><r>arranque<s n="n"/></r></p></e>
 <e><p><l>arra<s n="n"/></l><r>arra<s n="n"/></r></p></e>
 <e><p><l>arrastramiento<s n="n"/></l><r>arrastramientu<s n="n"/></r></p></e>
 <e><p><l>arrastre<s n="n"/></l><r>arrastre<s n="n"/></r></p></e>
 <e><p><l>arreamiento<s n="n"/></l><r>arreamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>arrebato<s n="n"/></l><r>arrebatu<s n="n"/></r></p></e>
 <e><p><l>arrebato<s n="n"/><s n="m"/></l><r>venada<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>arredondeadura<s n="n"/><s n="f"/></l><r>arredondeamientu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>imbécil<s n="adj"/><s n="mf"/></l><r>babayu<s n="adj"/><s n="m"/></r></p></e>
@@ -3679,7 +3654,7 @@
 <e><p><l>asunto<s n="n"/></l><r>asuntu<s n="n"/></r></p></e>
 <e><p><l>atabal<s n="n"/></l><r>atabal<s n="n"/></r></p></e>
 <e><p><l>atadero<s n="n"/></l><r>ataderu<s n="n"/></r></p></e>
-<e r="RL"><p><l>atadura<s n="n"/></l><r>atadura<s n="n"/></r></p></e>
+<e><p><l>atadura<s n="n"/></l><r>atadura<s n="n"/></r></p></e>
 <e><p><l>ataharre<s n="n"/><s n="m"/></l><r>altafarra<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>atajada<s n="n"/></l><r>atayada<s n="n"/></r></p></e>
 <e><p><l>atajamiento<s n="n"/></l><r>atayamientu<s n="n"/></r></p></e>
@@ -3710,8 +3685,8 @@
 <e><p><l>atomización<s n="n"/></l><r>atomización<s n="n"/></r></p></e>
 <e><p><l>átomo<s n="n"/></l><r>átomu<s n="n"/></r></p></e>
 <e><p><l>atontado<s n="n"/></l><r>lluellu<s n="n"/></r></p></e>
-<e><p><l>atontamiento<s n="n"/></l><r>atontamientu<s n="n"/></r></p></e>
-<e><p><l>atontamiento<s n="n"/><s n="m"/></l><r>atontadura<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>atontamiento<s n="n"/></l><r>atontamiento<s n="n"/></r></p></e>
+<e><p><l>atontamientu<s n="n"/><s n="m"/></l><r>atontadura<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>atoramiento<s n="n"/></l><r>aturamientu<s n="n"/></r></p></e>
 <e><p><l>atracadero<s n="n"/></l><r>atracaderu<s n="n"/></r></p></e>
 <e r="RL"><p><l>atracción<s n="n"/></l><r>atraición<s n="n"/></r></p></e>
@@ -3857,7 +3832,8 @@
 <e><p><l>báculo<s n="n"/></l><r>blagu<s n="n"/></r></p></e>
 <e><p><l>badulaque<s n="n"/></l><r>mangaráu<s n="n"/></r></p></e>
 <e><p><l>baile<s n="n"/></l><r>baille<s n="n"/></r></p></e>
-<e><p><l>bajada<s n="n"/></l><r>baxadera<s n="n"/></r></p></e>
+<e r="RL"><p><l>bajada<s n="n"/></l><r>baxadera<s n="n"/></r></p></e>
+<e><p><l>bajada<s n="n"/></l><r>baxada<s n="n"/></r></p></e>
 <e><p><l>baja<s n="n"/></l><r>baxa<s n="n"/></r></p></e>
 <e><p><l>bajo<s n="n"/></l><r>baxu<s n="n"/></r></p></e>
 <e><p><l>balance<s n="n"/></l><r>balance<s n="n"/></r></p></e>
@@ -4500,11 +4476,11 @@
 <e><p><l>denuncia<s n="n"/></l><r>denuncia<s n="n"/></r></p></e>
 <e><p><l>departamento<s n="n"/></l><r>departamentu<s n="n"/></r></p></e>
 <e><p><l>dependencia<s n="n"/></l><r>dependencia<s n="n"/></r></p></e>
-<e><p><l>dependiente<s n="n"/><s n="m"/><s n="sg"/></l><r>dependente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>dependiente<s n="n"/><s n="f"/><s n="sg"/></l><r>dependente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>dependiente<s n="n"/><s n="f"/></l><r>dependente<s n="n"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>dependiente<s n="n"/><s n="m"/></l><r>dependente<s n="n"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>dependiente<s n="n"/><s n="GD"/></l><r>dependente<s n="n"/><s n="mf"/></r></p></e>
+<e><p><l>dependiente<s n="n"/><s n="m"/><s n="sg"/></l><r>dependiente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>dependiente<s n="n"/><s n="f"/><s n="sg"/></l><r>dependiente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>dependiente<s n="n"/><s n="f"/></l><r>dependiente<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>dependiente<s n="n"/><s n="m"/></l><r>dependiente<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>dependiente<s n="n"/><s n="GD"/></l><r>dependiente<s n="n"/><s n="mf"/></r></p></e>
 <e><p><l>deporte<s n="n"/></l><r>deporte<s n="n"/></r></p></e>
 <e><p><l>deportista<s n="n"/></l><r>deportista<s n="n"/></r></p></e>
 <e><p><l>depósito<s n="n"/></l><r>depósitu<s n="n"/></r></p></e>
@@ -4742,11 +4718,9 @@
 <e><p><l>entorno<s n="n"/><s n="m"/></l><r>redolada<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>entrada<s n="n"/></l><r>entrada<s n="n"/></r></p></e>
 <e><p><l>antesala<s n="n"/></l><r>antoxana<s n="n"/></r></p></e>
-<e r="RL"><p><l>antesala<s n="n"/></l><r>antesala<s n="n"/></r></p></e>
 <e><p><l>yerno<s n="n"/></l><r>xenru<s n="n"/></r></p></e>
 <e><p><l>entrega<s n="n"/></l><r>entrega<s n="n"/></r></p></e>
 <e><p><l>entrevista<s n="n"/></l><r>entrevista<s n="n"/></r></p></e>
-<e><p><l>anteojos<s n="n"/></l><r>antioyos<s n="n"/></r></p></e>
 <e><p><l>entusiasmo<s n="n"/></l><r>entusiasmu<s n="n"/></r></p></e>
 <e><p><l>envidia<s n="n"/></l><r>envidia<s n="n"/></r></p></e>
 <e><p><l>epidemia<s n="n"/></l><r>andancia<s n="n"/></r></p></e> 
@@ -5121,7 +5095,8 @@
 <e><p><l>hemisferio<s n="n"/></l><r>hemisferiu<s n="n"/></r></p></e>
 <e><p><l>herbáceo<s n="n"/></l><r>yerbáceu<s n="n"/></r></p></e>
 <e><p><l>heredero<s n="n"/></l><r>herederu<s n="n"/></r></p></e>
-<e><p><l>herido<s n="n"/></l><r>firíu<s n="n"/></r></p></e>
+<e r="RL"><p><l>herido<s n="n"/></l><r>firíu<s n="n"/></r></p></e>
+<e><p><l>herido<s n="n"/></l><r>mancáu<s n="n"/></r></p></e>
 <e><p><l>hermano<s n="n"/></l><r>hermanu<s n="n"/></r></p></e>
 <e><p><l>héroe<s n="n"/></l><r>héroe<s n="n"/></r></p></e>
 <e><p><l>heroicidad<s n="n"/></l><r>heroicidá<s n="n"/></r></p></e>
@@ -5644,8 +5619,6 @@
 <e><p><l>muerte<s n="n"/></l><r>muerte<s n="n"/></r></p></e>
 <e><p><l>muerto<s n="n"/></l><r>muertu<s n="n"/></r></p></e>
 <e><p><l>muestra<s n="n"/></l><r>amuesa<s n="n"/></r></p></e>
-<e r="RL"><p><l>muestra<s n="n"/></l><r>amosanza<s n="n"/></r></p></e>
-<e r="RL"><p><l>muestra<s n="n"/><s n="f"/></l><r>amosamientu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>mujer<s n="n"/></l><r>muyer<s n="n"/></r></p></e>
 <e><p><l>mula<s n="n"/></l><r>mula<s n="n"/></r></p></e>
 <e r="LR"><p><l>mulo<s n="n"/></l><r>machu<s n="n"/></r></p></e>
@@ -5942,7 +5915,6 @@
 <e><p><l>pestaña<s n="n"/></l><r>pestaña<s n="n"/></r></p></e>
 <e><p><l>pestañeo<s n="n"/></l><r>ceguñón<s n="n"/></r></p></e>
 <e><p><l>peste<s n="n"/></l><r>peste<s n="n"/></r></p></e> 
-<e r="RL"><p><l>peste<s n="n"/><s n="f"/></l><r>apestor<s n="n"/><s n="m"/></r></p></e> 
 <e><p><l>petición<s n="n"/></l><r>petición<s n="n"/></r></p></e> 
 <e><p><l>petróleo<s n="n"/></l><r>petróleu<s n="n"/></r></p></e> 
 <e><p><l>pez<s n="n"/></l><r>pexe<s n="n"/></r></p></e>
@@ -6880,15 +6852,14 @@
 <e r="LR"><p><l>alisal<s n="n"/></l><r>alisal<s n="n"/></r></p></e>
 <e r="LR"><p><l>aloya<s n="n"/></l><r>aloya<s n="n"/></r></p></e>
 <e r="LR"><p><l>altiveza<s n="n"/></l><r>altiveza<s n="n"/></r></p></e>
-<e><p><l>ambulatorio<s n="n"/></l><r>ambulatoriu<s n="n"/></r></p></e>
+<e r="LR"><p><l>ambulatorio<s n="n"/></l><r>ambulatoriu<s n="n"/></r></p></e>
 <e r="LR"><p><l>amoniaco<s n="n"/></l><r>amoniacu<s n="n"/></r></p></e>
-<e r="RL"><p><l>análisis<s n="n"/></l><r>analís<s n="n"/></r></p></e>
 <e r="LR"><p><l>ancheza<s n="n"/></l><r>ancheza<s n="n"/></r></p></e>
 <e r="LR"><p><l>anchor<s n="n"/></l><r>anchor<s n="n"/></r></p></e>
 <e r="LR"><p><l>anejo<s n="n"/></l><r>anexu<s n="n"/></r></p></e>
 <e r="LR"><p><l>anta<s n="n"/><s n="f"/></l><r>alce<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>anticipamiento<s n="n"/></l><r>anticipamientu<s n="n"/></r></p></e>
-<e><p><l>antipatía<s n="n"/></l><r>antipatía<s n="n"/></r></p></e>
+<e r="LR"><p><l>antipatía<s n="n"/></l><r>antipatía<s n="n"/></r></p></e>
 <e r="LR"><p><l>antojanza<s n="n"/><s n="f"/></l><r>antoxamientu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>apegadura<s n="n"/></l><r>apegadura<s n="n"/></r></p></e>
 <e r="LR"><p><l>aportellado<s n="n"/></l><r>aportelláu<s n="n"/></r></p></e>
@@ -7036,7 +7007,6 @@
 <e r="RL"><p><l>anchura<s n="n"/></l><r>anchura<s n="n"/></r></p></e>
 <e r="RL"><p><l>andarríos<s n="n"/></l><r>andarríos<s n="n"/></r></p></e>
 <e r="RL"><p><l>anillo<s n="n"/></l><r>aniyu<s n="n"/></r></p></e>
-<e r="RL"><p><l>anillo<s n="n"/></l><r>aniellu<s n="n"/></r></p></e>
 <e r="RL"><p><l>anillo<s n="n"/></l><r>aru<s n="n"/></r></p></e>
 <e r="RL"><p><l>aniquilamiento<s n="n"/><s n="m"/></l><r>aniquiladura<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>anotación<s n="n"/></l><r>anotadura<s n="n"/></r></p></e>
@@ -7059,7 +7029,7 @@
 <e r="RL"><p><l>apreciación<s n="n"/></l><r>apreciadura<s n="n"/></r></p></e>
 <e r="RL"><p><l>aprendimiento<s n="n"/></l><r>aprendimientu<s n="n"/></r></p></e>
 <e r="RL"><p><l>apretujamiento<s n="n"/></l><r>apetiguñamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>aprobación<s n="n"/></l><r>aprobamientu<s n="n"/></r></p></e>
+<e r="RL"><p><l>aprobación<s n="n"/><s n="f"/></l><r>aprobamientu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>apropiación<s n="n"/><s n="f"/></l><r>apropiamientu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>aprovechamiento<s n="n"/><s n="m"/></l><r>aprovechadura<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>aproximación<s n="n"/></l><r>aproximación<s n="n"/></r></p></e>
@@ -7070,7 +7040,7 @@
 <e r="RL"><p><l>arañazo<s n="n"/></l><r>arañazu<s n="n"/></r></p></e>
 <e r="RL"><p><l>arbitraje<s n="n"/></l><r>arbitrax<s n="n"/></r></p></e>
 <e r="RL"><p><l>árbol<s n="n"/></l><r>árbole<s n="n"/></r></p></e>
-<e r="RL"><p><l>archivo<s n="n"/></l><r>archivu<s n="n"/></r></p></e>
+<e r="RL"><p><l>archivo<s n="n"/></l><r>arquivu<s n="n"/></r></p></e>
 <e r="RL"><p><l>ardimiento<s n="n"/></l><r>ardimientu<s n="n"/></r></p></e>
 <e r="RL"><p><l>arenal<s n="n"/></l><r>arenar<s n="n"/></r></p></e>
 <e r="RL"><p><l>arenque<s n="n"/></l><r>arenque<s n="n"/></r></p></e>
@@ -7191,7 +7161,7 @@
 <e r="RL"><p><l>cauce<s n="n"/><s n="m"/></l><r>calce<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>celo<s n="n"/></l><r>enfotu<s n="n"/></r></p></e>
 <e r="RL"><p><l>cementerio<s n="n"/></l><r>cementeriu<s n="n"/></r></p></e>
-<e r="RL"><p><l>cerca<s n="n"/></l><r>barganaz<s n="n"/></r></p></e>
+<e r="RL"><p><l>cerca<s n="n"/><s n="f"/></l><r>barganaz<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>cesta<s n="n"/></l><r>banastra<s n="n"/></r></p></e>
 <e r="RL"><p><l>cesta<s n="n"/></l><r>filoxa<s n="n"/></r></p></e>
 <e r="RL"><p><l>charco<s n="n"/></l><r>fontán<s n="n"/></r></p></e>
@@ -7445,6 +7415,7 @@
 <e><p><l>antepenúltimo<s n="adj"/></l><r>antepenúltimu<s n="adj"/></r></p></e>
 <e><p><l>anterior<s n="adj"/></l><r>anterior<s n="adj"/></r></p></e>
 <e><p><l>antiguo<s n="adj"/></l><r>antiguu<s n="adj"/></r></p></e>
+<e><p><l>anual<s n="adj"/></l><r>añal<s n="adj"/></r></p></e>
 <e><p><l>apacible<s n="adj"/></l><r>pacetible<s n="adj"/></r></p></e>
 <e><p><l>aparente<s n="adj"/></l><r>aparente<s n="adj"/></r></p></e>
 <e><p><l>apasionado<s n="adj"/></l><r>apasionáu<s n="adj"/></r></p></e>
@@ -7603,7 +7574,7 @@
 <e><p><l>delicado<s n="adj"/></l><r>delicáu<s n="adj"/></r></p></e>
 <e><p><l>demostrable<s n="adj"/></l><r>demostrable<s n="adj"/></r></p></e>
 <e><p><l>denso<s n="adj"/></l><r>trupu<s n="adj"/></r></p></e>
-<e><p><l>dependiente<s n="adj"/></l><r>dependente<s n="adj"/></r></p></e>
+<e><p><l>dependiente<s n="adj"/></l><r>dependiente<s n="adj"/></r></p></e>
 <e><p><l>deportista<s n="adj"/></l><r>deportista<s n="adj"/></r></p></e>
 <e><p><l>deportivo<s n="adj"/></l><r>deportivu<s n="adj"/></r></p></e>
 <e><p><l>derecho<s n="adj"/></l><r>derechu<s n="adj"/></r></p></e>
@@ -7834,7 +7805,7 @@
 <e><p><l>inconveniente<s n="adj"/></l><r>inconveniente<s n="adj"/></r></p></e>
 <e><p><l>increíble<s n="adj"/></l><r>increíble<s n="adj"/></r></p></e>
 <e><p><l>indecible<s n="adj"/></l><r>indicible<s n="adj"/></r></p></e>
-<e><p><l>independiente<s n="adj"/></l><r>independente<s n="adj"/></r></p></e>
+<e><p><l>independiente<s n="adj"/></l><r>independiente<s n="adj"/></r></p></e>
 <e><p><l>indio<s n="adj"/></l><r>indiu<s n="adj"/></r></p></e>
 <e><p><l>indirecto<s n="adj"/></l><r>indirectu<s n="adj"/></r></p></e>
 <e><p><l>indiscutible<s n="adj"/></l><r>indiscutible<s n="adj"/></r></p></e>
@@ -13000,12 +12971,6 @@
 <e r="RL"><p><l>antecesor<s n="n"/><s n="GD"/><s n="pl"/></l><r>antecesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>antecesor<s n="n"/><s n="m"/><s n="pl"/></l><r>antecesor<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>antecesor<s n="n"/><s n="m"/><s n="sg"/></l><r>antecesor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>aparador<s n="n"/><s n="f"/><s n="pl"/></l><r>aparador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>aparador<s n="n"/><s n="f"/><s n="sg"/></l><r>aparador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>aparador<s n="n"/><s n="GD"/><s n="pl"/></l><r>aparador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>aparador<s n="n"/><s n="m"/><s n="pl"/></l><r>aparador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>aparador<s n="n"/><s n="m"/><s n="sg"/></l><r>aparador<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-<e><p><l>aparador<s n="n"/><s n="m"/><s n="sg"/></l><r>aparador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>aparejador<s n="n"/><s n="f"/><s n="pl"/></l><r>apareyador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>aparejador<s n="n"/><s n="f"/><s n="sg"/></l><r>apareyador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>aparejador<s n="n"/><s n="GD"/><s n="pl"/></l><r>apareyador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -15021,7 +14986,7 @@
 <e><p><l>albarca<s n="n"/></l><r>abarca<s n="n"/></r></p></e>
 <e><p><l>albareque<s n="n"/></l><r>albareque<s n="n"/></r></p></e>
 <e><p><l>albarán<s n="n"/></l><r>albarán<s n="n"/></r></p></e>
-<e r="RL"><p><l>albor<s n="n"/></l><r>alborocer<s n="n"/></r></p></e>
+<e><p><l>albor<s n="n"/></l><r>alborocer<s n="n"/></r></p></e>
 <e><p><l>albor<s n="n"/></l><r>alborecer<s n="n"/></r></p></e>
 <e><p><l>alborozo<s n="n"/></l><r>alegranza<s n="n"/></r></p></e>
 <e><p><l>alcaide<s n="n"/></l><r>alcaide<s n="n"/></r></p></e>
@@ -15060,12 +15025,10 @@
 <e><p><l>apaleadura<s n="n"/></l><r>cuera<s n="n"/></r></p></e>
 <e><p><l>aparatosidad<s n="n"/></l><r>aparatosidá<s n="n"/></r></p></e>
 <e><p><l>aparcero<s n="n"/></l><r>comuñeru<s n="n"/></r></p></e>
-<e r="RL"><p><l>aparcero<s n="n"/></l><r>aparceru<s n="n"/></r></p></e>
 <e><p><l>apartadijo<s n="n"/></l><r>apartadixu<s n="n"/></r></p></e>
 <e><p><l>apartijo<s n="n"/></l><r>apartixu<s n="n"/></r></p></e>
 <e><p><l>apatusco<s n="n"/></l><r>tarecu<s n="n"/></r></p></e>
 <e><p><l>apero<s n="n"/></l><r>preséu<s n="n"/></r></p></e>
-<e r="RL"><p><l>apero<s n="n"/></l><r>aperiu<s n="n"/></r></p></e>
 <e><p><l>apetencia<s n="n"/></l><r>apetencia<s n="n"/></r></p></e>
 <e><p><l>apetito<s n="n"/></l><r>mambís<s n="n"/></r></p></e>
 <e><p><l>apisonamiento<s n="n"/></l><r>apisonamientu<s n="n"/></r></p></e>
@@ -15077,7 +15040,6 @@
 <e><p><l>arbolada<s n="n"/><s n="f"/></l><r>arbolíu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>arena<s n="n"/><s n="f"/></l><r>sable<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>argentino<s n="n"/></l><r>arxentín<s n="n"/></r></p></e>
-<e r="RL"><p><l>arena<s n="n"/></l><r>arena<s n="n"/></r></p></e>
 <e><p><l>arrastrero<s n="n"/></l><r>arrastreru<s n="n"/></r></p></e>
 <e><p><l>arrecife<s n="n"/></l><r>petón<s n="n"/></r></p></e>
 <e><p><l>arredondeamiento<s n="n"/></l><r>arredondeamientu<s n="n"/></r></p></e>
@@ -15145,13 +15107,12 @@
 <e><p><l>baga<s n="n"/></l><r>baga<s n="n"/></r></p></e>
 <e><p><l>bagaje<s n="n"/></l><r>bagaxe<s n="n"/></r></p></e>
 <e><p><l>bailadero<s n="n"/></l><r>bailladoriu<s n="n"/></r></p></e>
-<e><p><l>bailador<s n="n"/></l><r>baillador<s n="n"/></r></p></e>
 <e><p><l>bailarina<s n="n"/></l><r>baillarina<s n="n"/></r></p></e>
 <e><p><l>bailarín<s n="n"/></l><r>bailarín<s n="n"/></r></p></e>
 <e><p><l>bailarín<s n="n"/></l><r>baillarín<s n="n"/></r></p></e>
 <e><p><l>bailete<s n="n"/></l><r>baillete<s n="n"/></r></p></e>
 <e><p><l>bailoteo<s n="n"/></l><r>baillotéu<s n="n"/></r></p></e>
-<e><p><l>bajamar<s n="n"/></l><r>baxamar<s n="n"/></r></p></e>
+<e><p><l>bajamar<s n="n"/><s n="f"/></l><r>baxamar<s n="n"/><s n="mf"/></r></p></e>
 <e><p><l>bajamiento<s n="n"/></l><r>baxamientu<s n="n"/></r></p></e>
 <e><p><l>bajez<s n="n"/></l><r>baxez<s n="n"/></r></p></e>
 <e><p><l>bajera<s n="n"/></l><r>baxera<s n="n"/></r></p></e>
@@ -15503,14 +15464,10 @@
 <e><p><l>carbonero<s n="n"/></l><r>carboneru<s n="n"/></r></p></e>
 <e><p><l>carencia<s n="n"/></l><r>falta<s n="n"/></r></p></e>
 <e><p><l>carnaval<s n="n"/></l><r>antroxu<s n="n"/></r></p></e>
-<e r="RL"><p><l>carnaval<s n="n"/></l><r>antroidu<s n="n"/></r></p></e>
-<e r="RL"><p><l>carnaval<s n="n"/></l><r>antroyu<s n="n"/></r></p></e>
 <e><p><l>castrismo<s n="n"/></l><r>castrismu<s n="n"/></r></p></e>
 <e><p><l>católico<s n="n"/></l><r>católicu<s n="n"/></r></p></e>
 <e><p><l>celeste<s n="n"/></l><r>celeste<s n="n"/></r></p></e>
 <e><p><l>cerco<s n="n"/></l><r>cercu<s n="n"/></r></p></e>
-<e><p><l>antroponimia<s n="n"/></l><r>antroponimia<s n="n"/></r></p></e>
-<e><p><l>antropónimo<s n="n"/></l><r>antropónimu<s n="n"/></r></p></e>
 <e><p><l>certeza<s n="n"/></l><r>certidume<s n="n"/></r></p></e>
 <e><p><l>cetaria<s n="n"/></l><r>cetaria<s n="n"/></r></p></e>
 <e><p><l>chaqué<s n="n"/></l><r>xaqué<s n="n"/></r></p></e>
@@ -15669,7 +15626,6 @@
 <e><p><l>despojo<s n="n"/></l><r>réfugu<s n="n"/></r></p></e>
 <e><p><l>despotismo<s n="n"/></l><r>despotismu<s n="n"/></r></p></e>
 <e><p><l>desprendimiento<s n="n"/></l><r>argayu<s n="n"/></r></p></e>
-<e r="RL"><p><l>desprendimiento<s n="n"/></l><r>argaxu<s n="n"/></r></p></e>
 <e><p><l>desprestigio<s n="n"/></l><r>desprestixu<s n="n"/></r></p></e>
 <e><p><l>desproporción<s n="n"/></l><r>desproporción<s n="n"/></r></p></e>
 <e><p><l>desprotección<s n="n"/></l><r>desprotección<s n="n"/></r></p></e>
@@ -16485,7 +16441,6 @@
 <e><p><l>esfera<s n="n"/></l><r>esfera<s n="n"/></r></p></e>   
 <e><p><l>activo<s n="n"/></l><r>activu<s n="n"/></r></p></e>   
 <e><p><l>ansia<s n="n"/></l><r>enganía<s n="n"/></r></p></e>
-<e r="RL"><p><l>ansia<s n="n"/></l><r>ansia<s n="n"/></r></p></e>
 <e><p><l>desánimo<s n="n"/></l><r>afandu<s n="n"/></r></p></e>   
 <e><p><l>catástrofe<s n="n"/></l><r>catástrofe<s n="n"/></r></p></e>
 <e><p><l>desgracia<s n="n"/></l><r>laceria<s n="n"/></r></p></e>
@@ -18000,6 +17955,7 @@
 <e><p><l>Santillana<s n="np"/></l><r>Santillana<s n="np"/></r></p></e> 
 <e><p><l>Bermeo<s n="np"/></l><r>Bermeo<s n="np"/></r></p></e> 
 <e><p><l>IBEX<s n="n"/></l><r>IBEX<s n="n"/></r></p></e> 
+<e><p><l>Ibex<b/>35<s n="np"/></l><r>Ibex<b/>35<s n="np"/></r></p></e> 
 <e><p><l>WEB<s n="n"/></l><r>WEB<s n="n"/></r></p></e> 
 <e><p><l>Valladolid<s n="np"/></l><r>Valladolid<s n="np"/></r></p></e> 
 <e><p><l>Tarragona<s n="np"/></l><r>Tarragona<s n="np"/></r></p></e> 
@@ -18766,6 +18722,11 @@
 <e r="RL"><p><l>bailaor<s n="n"/><s n="GD"/><s n="pl"/></l><r>bailador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>bailaor<s n="n"/><s n="m"/><s n="pl"/></l><r>bailador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>bailaor<s n="n"/><s n="m"/><s n="sg"/></l><r>bailador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>bailaor<s n="n"/><s n="f"/><s n="pl"/></l><r>baillador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailaor<s n="n"/><s n="f"/><s n="sg"/></l><r>baillador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>bailaor<s n="n"/><s n="GD"/><s n="pl"/></l><r>baillador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>bailaor<s n="n"/><s n="m"/><s n="pl"/></l><r>baillador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>bailaor<s n="n"/><s n="m"/><s n="sg"/></l><r>baillador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>bailón<s n="n"/><s n="f"/><s n="pl"/></l><r>baillón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>bailón<s n="n"/><s n="f"/><s n="sg"/></l><r>baillón<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>bailón<s n="n"/><s n="GD"/><s n="pl"/></l><r>baillón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -20732,7 +20693,7 @@
 <e><p><l>clavicordio<s n="n"/></l><r>clavicordiu<s n="n"/></r></p></e>
 <e><p><l>cóccido<s n="n"/></l><r>cóccidu<s n="n"/></r></p></e>
 <e><p><l>cocodrilo<s n="n"/></l><r>cocodrilu<s n="n"/></r></p></e>
-<e><p><l>codorniz<s n="n"/><s n="f"/></l><r>parpayar<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>codorniz<s n="n"/></l><r>parpayar<s n="n"/></r></p></e>
 <e><p><l>coexistencia<s n="n"/></l><r>coesistencia<s n="n"/></r></p></e>
 <e><p><l>colector<s n="n"/></l><r>colector<s n="n"/></r></p></e>
 <e><p><l>coleóptero<s n="n"/></l><r>coleópteru<s n="n"/></r></p></e>
@@ -20877,7 +20838,6 @@
 <e><p><l>enano<s n="n"/></l><r>nanu<s n="n"/></r></p></e>
 <e><p><l>encadenamiento<s n="n"/></l><r>encadenamientu<s n="n"/></r></p></e>
 <e><p><l>encía<s n="n"/></l><r>mella<s n="n"/></r></p></e>
-<e r="RL"><p><l>encía<s n="n"/></l><r>anxiva<s n="n"/></r></p></e>
 <e><p><l>enfriamiento<s n="n"/></l><r>esfrecimientu<s n="n"/></r></p></e>
 <e><p><l>éngido<s n="n"/></l><r>énxidu<s n="n"/></r></p></e>
 <e><p><l>entomólogo<s n="n"/></l><r>entomólogu<s n="n"/></r></p></e>
@@ -21032,7 +20992,6 @@
 <e><p><l>hipoteca<s n="n"/></l><r>hipoteca<s n="n"/></r></p></e>
 <e><p><l>en<b/>vilo<s n="adv"/></l><r>en<b/>fierros<s n="adv"/></r></p></e>
 <e><p><l>reyerta<s n="n"/></l><r>amarradiella<s n="n"/></r></p></e>
-<e r="RL"><p><l>reyerta<s n="n"/></l><r>amarrada<s n="n"/></r></p></e>
 <e><p><l>realojar<s n="vblex"/></l><r>reasitiar<s n="vblex"/></r></p></e>
 <e><p><l>gira<s n="n"/></l><r>xira<s n="n"/></r></p></e>
 <e><p><l>psicológicamente<s n="adv"/></l><r>psicolóxicamente<s n="adv"/></r></p></e>
@@ -22383,7 +22342,6 @@
 <e><p><l>zarandear<s n="vblex"/></l><r>solmenar<s n="vblex"/></r></p></e>
 <e><p><l>aguar<s n="vblex"/></l><r>enaguar<s n="vblex"/></r></p></e>
 <e><p><l>apocalipsis<s n="n"/></l><r>apocalipsis<s n="n"/></r></p></e>
-<e><p><l>agua<b/>de<b/>nube<s n="n"/></l><r>agua<b/>de<b/>mayo<s n="n"/></r></p></e>
 <e><p><l>discípulo<s n="n"/></l><r>discípulu<s n="n"/></r></p></e>
 <e><p><l>jugón<s n="adj"/></l><r>xugón<s n="adj"/></r></p></e>
 <e><p><l>galáctico<s n="adj"/></l><r>galácticu<s n="adj"/></r></p></e>
@@ -23214,7 +23172,6 @@
 <e><p><l>antónimo<s n="n"/></l><r>antónimu<s n="n"/></r></p></e>
 <e><p><l>añito<s n="n"/></l><r>añín<s n="n"/></r></p></e>
 <e><p><l>apelación<s n="n"/></l><r>apelación<s n="n"/></r></p></e>
-<e r="RL"><p><l>apelación<s n="n"/></l><r>apellación<s n="n"/></r></p></e>
 <e><p><l>arce<s n="n"/></l><r>pláganu<s n="n"/></r></p></e>
 <e><p><l>archivo<s n="n"/></l><r>arquivu<s n="n"/></r></p></e>
 <e><p><l>ardilla<s n="n"/></l><r>esguil<s n="n"/></r></p></e>
@@ -24917,7 +24874,7 @@
 <e><p><l>refrigerar<s n="vblex"/></l><r>esfrecer<s n="vblex"/></r></p></e>
 <e><p><l>deslucir<s n="vblex"/></l><r>esllucir<s n="vblex"/></r></p></e>
 <e><p><l>agua<g><b/>de<b/>mayo</g><s n="n"/></l><r>agua<g><b/>de<b/>nube</g><s n="n"/></r></p></e>
-<e><p><l>capilla<b/>ardiente<s n="n"/><s n="f"/></l><r>veloriu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>capilla<g><b/>ardiente</g><s n="n"/><s n="f"/></l><r>veloriu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>cada<b/>vez<s n="cnjadv"/></l><r>cada<b/>vegada<s n="cnjadv"/></r></p></e>
 <e><p><l>apabullar<s n="vblex"/></l><r>apolmonar<s n="vblex"/></r></p></e>
 <e><p><l>oficializar<s n="vblex"/></l><r>oficializar<s n="vblex"/></r></p></e>
@@ -26599,7 +26556,7 @@
 <e><p><l>adán<s n="n"/></l><r>adán<s n="n"/></r></p></e>
 <e><p><l>anexo<s n="n"/></l><r>axuntu<s n="n"/></r></p></e>
 <e><p><l>tanto<s n="n"/></l><r>tantu<s n="n"/></r></p></e>
-<e><p><l>en<b/>volandas<s n="adv"/></l><r>a<b/>les<b/>les<b/>arandines<s n="adv"/></r></p></e>
+<e><p><l>en<b/>volandas<s n="adv"/></l><r>a<b/>les<b/>arandines<s n="adv"/></r></p></e>
 <e><p><l>refresco<s n="n"/></l><r>refrescu<s n="n"/></r></p></e>
 <e r="LR"><p><l>amarrador<s n="adj"/><s n="f"/><s n="pl"/></l><r>amarrador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>amarrador<s n="adj"/><s n="f"/><s n="sg"/></l><r>amarrador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -27045,7 +27002,7 @@
 <e r="RL"><p><l>anulador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>anulador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>anulador<s n="adj"/><s n="m"/><s n="pl"/></l><r>anulador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>anulador<s n="adj"/><s n="m"/><s n="sg"/></l><r>anulador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>anual<s n="adj"/></l><r>anual<s n="adj"/></r></p></e>
+<e><p><l>anual<s n="adj"/></l><r>anual<s n="adj"/></r></p></e>
 <e><p><l>antroxero<s n="adj"/></l><r>antroxeru<s n="adj"/></r></p></e>
 <e r="LR"><p><l>antroxador<s n="adj"/><s n="f"/><s n="pl"/></l><r>antroxador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>antroxador<s n="adj"/><s n="f"/><s n="sg"/></l><r>antroxador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -27168,7 +27125,9 @@
 <e r="RL"><p><l>achicador<s n="n"/><s n="GD"/><s n="pl"/></l><r>achicador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>achicador<s n="n"/><s n="m"/><s n="pl"/></l><r>achicador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>achicador<s n="n"/><s n="m"/><s n="sg"/></l><r>achicador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>cachivaches<s n="n"/></l><r>achiperres<s n="n"/></r></p></e>
+<e r="LR"><p><l>achiperres<s n="n"/><s n="f"/><s n="sp"/></l><r>cachivache<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>achiperres<s n="n"/><s n="f"/><s n="sp"/></l><r>cachivache<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>achiperres<s n="n"/><s n="f"/><s n="sp"/></l><r>cachivache<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e><p><l>achique<s n="n"/></l><r>achique<s n="n"/></r></p></e>
 <e><p><l>achuchón<s n="n"/></l><r>achuchón<s n="n"/></r></p></e>
 <e><p><l>aclarón<s n="n"/></l><r>aclarón<s n="n"/></r></p></e>
@@ -27635,266 +27594,1339 @@
 <e r="RL"><p><l>amortiguador<s n="n"/><s n="GD"/><s n="pl"/></l><r>amortiguador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>amortiguador<s n="n"/><s n="m"/><s n="pl"/></l><r>amortiguador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e><p><l>amortiguador<s n="n"/><s n="m"/><s n="sg"/></l><r>amortiguador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>mamarracho<s n="n"/></l><r>alicáncanu<s n="n"/></r></p></e>
-<e><p><l>aliso<s n="n"/><s n="m"/></l><r>alisa<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>demora<s n="n"/></l><r>allancia<s n="n"/></r></p></e>
-<e><p><l>reteso<s n="n"/></l><r>allexu<s n="n"/></r></p></e>
-<e><p><l>lejanía<s n="n"/></l><r>alloñanza<s n="n"/></r></p></e>
-<e><p><l>iluminado<s n="n"/></l><r>allumáu<s n="n"/></r></p></e>
-<e><p><l>empacadora<s n="n"/></l><r>alpacadora<s n="n"/></r></p></e>
-<e r="RL"><p><l>zapatazo<s n="n"/></l><r>alpargatazu<s n="n"/></r></p></e>
-<e><p><l>zapatillazo<s n="n"/><s n="m"/></l><r>alpargatada<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>altanería<s n="n"/></l><r>altanería<s n="n"/></r></p></e>
-<e r="RL"><p><l>amago<s n="n"/></l><r>amagamientu<s n="n"/></r></p></e>
-<e><p><l>parrillada<s n="n"/></l><r>amagostada<s n="n"/></r></p></e>
-<e><p><l>desmejoramiento<s n="n"/></l><r>amalecimientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>albor<s n="n"/></l><r>amanecerín<s n="n"/></r></p></e>
-<e r="RL"><p><l>amanecer<s n="n"/><s n="m"/></l><r>amanecida<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>camorrista<s n="n"/><s n="mf"/><s n="sg"/></l><r>amarrador<s n="n"/><s n="GD"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>camorrista<s n="n"/><s n="mf"/><s n="sg"/></l><r>amarrador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>camorrista<s n="n"/><s n="mf"/><s n="sg"/></l><r>amarrador<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>camorrista<s n="n"/><s n="mf"/><s n="pl"/></l><r>amarrador<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>atadura<s n="n"/></l><r>amarradura<s n="n"/></r></p></e>
-<e><p><l>ligamiento<s n="n"/></l><r>amarramientu<s n="n"/></r></p></e>
-<e><p><l>toqueteo<s n="n"/><s n="m"/></l><r>amasuñadura<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>toqueteo<s n="n"/></l><r>amasuñamientu<s n="n"/></r></p></e>
-<e><p><l>mengua<s n="n"/></l><r>amenorgadura<s n="n"/></r></p></e>
-<e><p><l>anemómetro<s n="n"/></l><r>anemómetru<s n="n"/></r></p></e>
-<e><p><l>anestésico<s n="n"/></l><r>anestésicu<s n="n"/></r></p></e>
-<e><p><l>anestesia<s n="n"/></l><r>anestesia<s n="n"/></r></p></e>
-<e><p><l>angazo<s n="n"/><s n="m"/></l><r>angaza<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>anglística<s n="n"/></l><r>anglística<s n="n"/></r></p></e>
-<e><p><l>anidamiento<s n="n"/><s n="m"/></l><r>anidiadura<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>anualidad<s n="n"/></l><r>anualidá<s n="n"/></r></p></e>
-<e><p><l>etnológico<s n="adj"/></l><r>etnolóxicu<s n="adj"/></r></p></e>
-<e><p><l>etolio<s n="adj"/></l><r>etoliu<s n="adj"/></r></p></e>
-<e><p><l>etológico<s n="adj"/></l><r>etolóxicu<s n="adj"/></r></p></e>
-<e><p><l>etrusco<s n="adj"/></l><r>etruscu<s n="adj"/></r></p></e>
-<e><p><l>eucarístico<s n="adj"/></l><r>eucarísticu<s n="adj"/></r></p></e>
-<e><p><l>euclidiano<s n="adj"/></l><r>euclidianu<s n="adj"/></r></p></e>
-<e><p><l>eufemístico<s n="adj"/></l><r>eufemísticu<s n="adj"/></r></p></e>
-<e><p><l>eufónico<s n="adj"/></l><r>eufónicu<s n="adj"/></r></p></e>
-<e><p><l>europeísta<s n="adj"/></l><r>europeísta<s n="adj"/></r></p></e>
-<e><p><l>eusquérico<s n="adj"/></l><r>eusquéricu<s n="adj"/></r></p></e>
-<e><p><l>accionista<s n="adj"/></l><r>aicionista<s n="adj"/></r></p></e>
-<e><p><l>eugenético<s n="adj"/></l><r>euxenéticu<s n="adj"/></r></p></e>
-<e><p><l>evanxélico<s n="adj"/></l><r>evanxélicu<s n="adj"/></r></p></e>
-<e r="LR"><p><l>evangelizador<s n="adj"/><s n="f"/><s n="pl"/></l><r>evanxelizador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>evangelizador<s n="adj"/><s n="f"/><s n="sg"/></l><r>evanxelizador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>evangelizador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>evanxelizador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>evangelizador<s n="adj"/><s n="m"/><s n="pl"/></l><r>evanxelizador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>evangelizador<s n="adj"/><s n="m"/><s n="sg"/></l><r>evanxelizador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>facedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>facedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>facedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>facedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>facedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>facedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>facedor<s n="adj"/><s n="m"/><s n="pl"/></l><r>facedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>facedor<s n="adj"/><s n="m"/><s n="sg"/></l><r>facedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>faedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>faedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>faedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>faedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>faedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>faedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>faedor<s n="adj"/><s n="m"/><s n="pl"/></l><r>faedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>faedor<s n="adj"/><s n="m"/><s n="sg"/></l><r>faedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>evasivo<s n="adj"/></l><r>evasivu<s n="adj"/></r></p></e>
-<e><p><l>eventual<s n="adj"/></l><r>eventual<s n="adj"/></r></p></e>
-<e><p><l>exacto<s n="adj"/></l><r>exactu<s n="adj"/></r></p></e>
-<e><p><l>exauto<s n="adj"/></l><r>exautu<s n="adj"/></r></p></e>
-<e><p><l>egecutor<s n="adj"/></l><r>executor<s n="adj"/></r></p></e>
-<e><p><l>exhibicionista<s n="adj"/></l><r>exhibicionista<s n="adj"/></r></p></e>
-<e><p><l>egipciano<s n="adj"/></l><r>exipcianu<s n="adj"/></r></p></e>
-<e><p><l>airado<s n="adj"/></l><r>airáu<s n="adj"/></r></p></e>
-<e><p><l>egipcio<s n="adj"/></l><r>exipciu<s n="adj"/></r></p></e>
-<e><p><l>exoftálmico<s n="adj"/></l><r>exoftálmicu<s n="adj"/></r></p></e>
-<e><p><l>facial<s n="adj"/></l><r>facial<s n="adj"/></r></p></e>
-<e><p><l>facsímil<s n="adj"/></l><r>facsímil<s n="adj"/></r></p></e>
-<e><p><l>facsimilar<s n="adj"/></l><r>facsimilar<s n="adj"/></r></p></e>
-<e><p><l>factible<s n="adj"/></l><r>factible<s n="adj"/></r></p></e>
-<e><p><l>fadioso<s n="adj"/></l><r>fadiosu<s n="adj"/></r></p></e>
-<e><p><l>fadio<s n="adj"/></l><r>fadiu<s n="adj"/></r></p></e>
-<e r="LR"><p><l>falador<s n="adj"/><s n="f"/><s n="pl"/></l><r>falador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>falador<s n="adj"/><s n="f"/><s n="sg"/></l><r>falador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>falador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>falador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>falador<s n="adj"/><s n="m"/><s n="pl"/></l><r>falador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>falador<s n="adj"/><s n="m"/><s n="sg"/></l><r>falador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>airoso<s n="adj"/></l><r>airosu<s n="adj"/></r></p></e>
-<e><p><l>falangista<s n="adj"/></l><r>falanxista<s n="adj"/></r></p></e>
-<e><p><l>faldero<s n="adj"/></l><r>falderu<s n="adj"/></r></p></e>
-<e><p><l>fálico<s n="adj"/></l><r>fálicu<s n="adj"/></r></p></e>
-<e><p><l>falisco<s n="adj"/></l><r>faliscu<s n="adj"/></r></p></e>
-<e><p><l>fallico<s n="adj"/></l><r>fallicu<s n="adj"/></r></p></e>
-<e r="LR"><p><l>falsificador<s n="adj"/><s n="f"/><s n="pl"/></l><r>falsificador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>falsificador<s n="adj"/><s n="f"/><s n="sg"/></l><r>falsificador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>falsificador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>falsificador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>falsificador<s n="adj"/><s n="m"/><s n="pl"/></l><r>falsificador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>falsificador<s n="adj"/><s n="m"/><s n="sg"/></l><r>falsificador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>fallido<s n="adj"/></l><r>fallíu<s n="adj"/></r></p></e>
-<e><p><l>falto<s n="adj"/></l><r>faltu<s n="adj"/></r></p></e>
-<e r="LR"><p><l>aislador<s n="adj"/><s n="f"/><s n="pl"/></l><r>aislador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>aislador<s n="adj"/><s n="f"/><s n="sg"/></l><r>aislador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>aislador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>aislador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>aislador<s n="adj"/><s n="m"/><s n="pl"/></l><r>aislador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>aislador<s n="adj"/><s n="m"/><s n="sg"/></l><r>aislador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>fanfarrón<s n="adj"/></l><r>fanfarrón<s n="adj"/></r></p></e>
-<e><p><l>fantasioso<s n="adj"/></l><r>fantasiosu<s n="adj"/></r></p></e>
-<e><p><l>farinxal<s n="adj"/></l><r>farinxal<s n="adj"/></r></p></e>
-<e><p><l>farisaico<s n="adj"/></l><r>farisaicu<s n="adj"/></r></p></e>
-<e><p><l>fario<s n="adj"/></l><r>fariu<s n="adj"/></r></p></e>
-<e><p><l>farmacéutico<s n="adj"/></l><r>farmacéuticu<s n="adj"/></r></p></e>
-<e><p><l>farmacológico<s n="adj"/></l><r>farmacolóxicu<s n="adj"/></r></p></e>
-<e><p><l>farsante<s n="adj"/></l><r>farsante<s n="adj"/></r></p></e>
-<e><p><l>fartón<s n="adj"/></l><r>fartón<s n="adj"/></r></p></e>
-<e r="LR"><p><l>fecundador<s n="adj"/><s n="f"/><s n="pl"/></l><r>fecundador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>fecundador<s n="adj"/><s n="f"/><s n="sg"/></l><r>fecundador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>fecundador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>fecundador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>fecundador<s n="adj"/><s n="m"/><s n="pl"/></l><r>fecundador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>fecundador<s n="adj"/><s n="m"/><s n="sg"/></l><r>fecundador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>fartuco<s n="adj"/></l><r>fartucu<s n="adj"/></r></p></e>
-<e><p><l>fastidioso<s n="adj"/></l><r>fastidiosu<s n="adj"/></r></p></e>
-<e><p><l>aislante<s n="adj"/></l><r>aislante<s n="adj"/></r></p></e>
-<e><p><l>fatigoso<s n="adj"/></l><r>fatigosu<s n="adj"/></r></p></e>
-<e><p><l>febril<s n="adj"/></l><r>febril<s n="adj"/></r></p></e>
-<e><p><l>fecundo<s n="adj"/></l><r>fecundu<s n="adj"/></r></p></e>
-<e><p><l>federalista<s n="adj"/></l><r>federalista<s n="adj"/></r></p></e>
-<e><p><l>federativo<s n="adj"/></l><r>federativu<s n="adj"/></r></p></e>
-<e><p><l>feminista<s n="adj"/></l><r>feminista<s n="adj"/></r></p></e>
-<e><p><l>femoral<s n="adj"/></l><r>femoral<s n="adj"/></r></p></e>
-<e><p><l>fenicio<s n="adj"/></l><r>feniciu<s n="adj"/></r></p></e>
-<e><p><l>fenomenal<s n="adj"/></l><r>fenomenal<s n="adj"/></r></p></e>
-<e><p><l>alabastrado<s n="adj"/></l><r>alabastráu<s n="adj"/></r></p></e>
-<e><p><l>fenoménico<s n="adj"/></l><r>fenoménicu<s n="adj"/></r></p></e>
-<e><p><l>fenomenológico<s n="adj"/></l><r>fenomenolóxicu<s n="adj"/></r></p></e>
-<e><p><l>ferial<s n="adj"/></l><r>ferial<s n="adj"/></r></p></e>
-<e><p><l>fermoso<s n="adj"/></l><r>fermosu<s n="adj"/></r></p></e>
-<e><p><l>feroz<s n="adj"/></l><r>feroz<s n="adj"/></r></p></e>
-<e><p><l>fértil<s n="adj"/></l><r>fértil<s n="adj"/></r></p></e>
-<e><p><l>fertilizante<s n="adj"/></l><r>fertilizante<s n="adj"/></r></p></e>
-<e><p><l>festero<s n="adj"/></l><r>festeru<s n="adj"/></r></p></e>
-<e><p><l>festexero<s n="adj"/></l><r>festexeru<s n="adj"/></r></p></e>
-<e><p><l>festivalero<s n="adj"/></l><r>festivaleru<s n="adj"/></r></p></e>
-<e><p><l>alabastrino<s n="adj"/></l><r>alabastrín<s n="adj"/></r></p></e>
-<e><p><l>avellanoso<s n="adj"/></l><r>ablanosu<s n="adj"/></r></p></e>
-<e><p><l>festivo<s n="adj"/></l><r>festivu<s n="adj"/></r></p></e>
-<e><p><l>fetal<s n="adj"/></l><r>fetal<s n="adj"/></r></p></e>
-<e><p><l>fetichista<s n="adj"/></l><r>fetichista<s n="adj"/></r></p></e>
-<e><p><l>feudal<s n="adj"/></l><r>feudal<s n="adj"/></r></p></e>
-<e><p><l>fiable<s n="adj"/></l><r>fiable<s n="adj"/></r></p></e>
-<e><p><l>fibroso<s n="adj"/></l><r>fibrosu<s n="adj"/></r></p></e>
-<e><p><l>fidalgo<s n="adj"/></l><r>fidalgu<s n="adj"/></r></p></e>
-<e><p><l>fiero<s n="adj"/></l><r>fieru<s n="adj"/></r></p></e>
-<e><p><l>figurativo<s n="adj"/></l><r>figurativu<s n="adj"/></r></p></e>
-<e><p><l>filantrópico<s n="adj"/></l><r>filantrópicu<s n="adj"/></r></p></e>
-<e><p><l>alacrado<s n="adj"/></l><r>alacráu<s n="adj"/></r></p></e>
-<e><p><l>filántropo<s n="adj"/></l><r>filántropu<s n="adj"/></r></p></e>
-<e><p><l>filarmónico<s n="adj"/></l><r>filarmónicu<s n="adj"/></r></p></e>
-<e><p><l>filatélico<s n="adj"/></l><r>filatélicu<s n="adj"/></r></p></e>
-<e><p><l>filial<s n="adj"/></l><r>filial<s n="adj"/></r></p></e>
-<e><p><l>filiforme<s n="adj"/></l><r>filiforme<s n="adj"/></r></p></e>
-<e><p><l>filipense<s n="adj"/></l><r>filipense<s n="adj"/></r></p></e>
-<e><p><l>filológico<s n="adj"/></l><r>filolóxicu<s n="adj"/></r></p></e>
-<e><p><l>filoxénico<s n="adj"/></l><r>filoxénicu<s n="adj"/></r></p></e>
-<e><p><l>finalista<s n="adj"/></l><r>finalista<s n="adj"/></r></p></e>
-<e><p><l>fisicoquímico<s n="adj"/></l><r>fisicoquímicu<s n="adj"/></r></p></e>
-<e><p><l>fisiológico<s n="adj"/></l><r>fisiolóxicu<s n="adj"/></r></p></e>
-<e><p><l>fisioterapéutico<s n="adj"/></l><r>fisioterapéuticu<s n="adj"/></r></p></e>
-<e><p><l>fisonómico<s n="adj"/></l><r>fisonómicu<s n="adj"/></r></p></e>
-<e><p><l>fito<s n="adj"/></l><r>fitu<s n="adj"/></r></p></e>
-<e><p><l>flamante<s n="adj"/></l><r>flamante<s n="adj"/></r></p></e>
-<e><p><l>flamígero<s n="adj"/></l><r>flamíxeru<s n="adj"/></r></p></e>
-<e><p><l>flautero<s n="adj"/></l><r>flauteru<s n="adj"/></r></p></e>
-<e><p><l>flexonal<s n="adj"/></l><r>flexonal<s n="adj"/></r></p></e>
-<e><p><l>flexo<s n="adj"/></l><r>flexu<s n="adj"/></r></p></e>
-<e><p><l>floral<s n="adj"/></l><r>floral<s n="adj"/></r></p></e>
-<e><p><l>florido<s n="adj"/></l><r>floríu<s n="adj"/></r></p></e>
-<e><p><l>flotante<s n="adj"/></l><r>flotante<s n="adj"/></r></p></e>
-<e><p><l>floxo<s n="adj"/></l><r>floxu<s n="adj"/></r></p></e>
-<e><p><l>fluorescente<s n="adj"/></l><r>fluorescente<s n="adj"/></r></p></e>
-<e><p><l>fluvial<s n="adj"/></l><r>fluvial<s n="adj"/></r></p></e>
-<e><p><l>focal<s n="adj"/></l><r>focal<s n="adj"/></r></p></e>
-<e><p><l>folclórico<s n="adj"/></l><r>folclóricu<s n="adj"/></r></p></e>
-<e><p><l>folletinero<s n="adj"/></l><r>folletineru<s n="adj"/></r></p></e>
-<e><p><l>follón<s n="adj"/></l><r>follón<s n="adj"/></r></p></e>
-<e><p><l>fonemático<s n="adj"/></l><r>fonemáticu<s n="adj"/></r></p></e>
-<e><p><l>fonético<s n="adj"/></l><r>fonéticu<s n="adj"/></r></p></e>
-<e><p><l>fónico<s n="adj"/></l><r>fónicu<s n="adj"/></r></p></e>
-<e><p><l>fonográfico<s n="adj"/></l><r>fonográficu<s n="adj"/></r></p></e>
-<e><p><l>fonológico<s n="adj"/></l><r>fonolóxicu<s n="adj"/></r></p></e>
-<e><p><l>forano<s n="adj"/></l><r>foranu<s n="adj"/></r></p></e>
-<e><p><l>forastero<s n="adj"/></l><r>forasteru<s n="adj"/></r></p></e>
-<e><p><l>forense<s n="adj"/></l><r>forense<s n="adj"/></r></p></e>
-<e><p><l>forestal<s n="adj"/></l><r>forestal<s n="adj"/></r></p></e>
-<e><p><l>foriato<s n="adj"/></l><r>foriatu<s n="adj"/></r></p></e>
-<e><p><l>foriado<s n="adj"/></l><r>foriáu<s n="adj"/></r></p></e>
-<e><p><l>formal<s n="adj"/></l><r>formal<s n="adj"/></r></p></e>
-<e><p><l>formalista<s n="adj"/></l><r>formalista<s n="adj"/></r></p></e>
-<e><p><l>formante<s n="adj"/></l><r>formante<s n="adj"/></r></p></e>
-<e><p><l>formativo<s n="adj"/></l><r>formativu<s n="adj"/></r></p></e>
-<e><p><l>fórmico<s n="adj"/></l><r>fórmicu<s n="adj"/></r></p></e>
-<e><p><l>formiento<s n="adj"/></l><r>formientu<s n="adj"/></r></p></e>
-<e><p><l>forro<s n="adj"/></l><r>forru<s n="adj"/></r></p></e>
-<e><p><l>forzoso<s n="adj"/></l><r>forzosu<s n="adj"/></r></p></e>
-<e><p><l>forzudo<s n="adj"/></l><r>forzudu<s n="adj"/></r></p></e>
-<e><p><l>fosforescente<s n="adj"/></l><r>fosforescente<s n="adj"/></r></p></e>
-<e><p><l>fosfórico<s n="adj"/></l><r>fosfóricu<s n="adj"/></r></p></e>
-<e><p><l>fosforoso<s n="adj"/></l><r>fosforosu<s n="adj"/></r></p></e>
-<e><p><l>fósil<s n="adj"/></l><r>fósil<s n="adj"/></r></p></e>
-<e><p><l>fotoeléctrico<s n="adj"/></l><r>fotoeléctricu<s n="adj"/></r></p></e>
-<e><p><l>fotolitográfico<s n="adj"/></l><r>fotolitográficu<s n="adj"/></r></p></e>
-<e><p><l>fotomagnético<s n="adj"/></l><r>fotomagnéticu<s n="adj"/></r></p></e>
-<e><p><l>fotomecánico<s n="adj"/></l><r>fotomecánicu<s n="adj"/></r></p></e>
-<e><p><l>fotométrico<s n="adj"/></l><r>fotométricu<s n="adj"/></r></p></e>
-<e><p><l>fotoquímico<s n="adj"/></l><r>fotoquímicu<s n="adj"/></r></p></e>
-<e><p><l>fotosensible<s n="adj"/></l><r>fotosensible<s n="adj"/></r></p></e>
-<e><p><l>fotosintético<s n="adj"/></l><r>fotosintéticu<s n="adj"/></r></p></e>
-<e><p><l>fototrópico<s n="adj"/></l><r>fototrópicu<s n="adj"/></r></p></e>
-<e><p><l>fotoxénico<s n="adj"/></l><r>fotoxénicu<s n="adj"/></r></p></e>
-<e><p><l>fotógeno<s n="adj"/></l><r>fotóxenu<s n="adj"/></r></p></e>
-<e><p><l>fozado<s n="adj"/></l><r>fozáu<s n="adj"/></r></p></e>
-<e><p><l>fraccionario<s n="adj"/></l><r>fraccionariu<s n="adj"/></r></p></e>
-<e><p><l>franciscano<s n="adj"/></l><r>franciscanu<s n="adj"/></r></p></e>
-<e><p><l>francmasón<s n="adj"/></l><r>francmasón<s n="adj"/></r></p></e>
-<e><p><l>francoprovenzal<s n="adj"/></l><r>francoprovenzal<s n="adj"/></r></p></e>
-<e><p><l>franquista<s n="adj"/></l><r>franquista<s n="adj"/></r></p></e>
-<e><p><l>abortivo<s n="adj"/></l><r>albortivu<s n="adj"/></r></p></e>
-<e><p><l>fraseológico<s n="adj"/></l><r>fraseolóxicu<s n="adj"/></r></p></e>
-<e><p><l>fraternal<s n="adj"/></l><r>fraternal<s n="adj"/></r></p></e>
-<e><p><l>fraterno<s n="adj"/></l><r>fraternu<s n="adj"/></r></p></e>
-<e><p><l>fratricida<s n="adj"/></l><r>fratricida<s n="adj"/></r></p></e>
-<e><p><l>frecuentativo<s n="adj"/></l><r>frecuentativu<s n="adj"/></r></p></e>
-<e><p><l>frenopático<s n="adj"/></l><r>frenopáticu<s n="adj"/></r></p></e>
-<e><p><l>freudiano<s n="adj"/></l><r>freudianu<s n="adj"/></r></p></e>
-<e><p><l>fricativo<s n="adj"/></l><r>fricativu<s n="adj"/></r></p></e>
-<e><p><l>frigorífico<s n="adj"/></l><r>frigoríficu<s n="adj"/></r></p></e>
-<e><p><l>frívolo<s n="adj"/></l><r>frívolu<s n="adj"/></r></p></e>
-<e><p><l>frontal<s n="adj"/></l><r>frontal<s n="adj"/></r></p></e>
-<e><p><l>fronterizo<s n="adj"/></l><r>fronterizu<s n="adj"/></r></p></e>
-<e><p><l>frontero<s n="adj"/></l><r>fronteru<s n="adj"/></r></p></e>
-<e><p><l>frutal<s n="adj"/></l><r>frutal<s n="adj"/></r></p></e>
-<e><p><l>frutero<s n="adj"/></l><r>fruteru<s n="adj"/></r></p></e>
-<e><p><l>funcional<s n="adj"/></l><r>funcional<s n="adj"/></r></p></e>
-<e><p><l>funcionalista<s n="adj"/></l><r>funcionalista<s n="adj"/></r></p></e>
-<e><p><l>fundacional<s n="adj"/></l><r>fundacional<s n="adj"/></r></p></e>
-<e><p><l>fundamentalista<s n="adj"/></l><r>fundamentalista<s n="adj"/></r></p></e>
-<e><p><l>fúnebre<s n="adj"/></l><r>fúnebre<s n="adj"/></r></p></e>
-<e r="LR"><p><l>blanqueador<s n="adj"/><s n="f"/><s n="pl"/></l><r>ablanquiador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>blanqueador<s n="adj"/><s n="f"/><s n="sg"/></l><r>ablanquiador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>blanqueador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>ablanquiador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>blanqueador<s n="adj"/><s n="m"/><s n="pl"/></l><r>ablanquiador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e><p><l>blanqueador<s n="adj"/><s n="m"/><s n="sg"/></l><r>ablanquiador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>funguicida<s n="adj"/></l><r>funguicida<s n="adj"/></r></p></e>
-<e><p><l>furioso<s n="adj"/></l><r>furiosu<s n="adj"/></r></p></e>
-<e><p><l>furtivo<s n="adj"/></l><r>furtivu<s n="adj"/></r></p></e>
-<e><p><l>fusiforme<s n="adj"/></l><r>fusiforme<s n="adj"/></r></p></e>
-<e><p><l>futbolero<s n="adj"/></l><r>futboleru<s n="adj"/></r></p></e>
-<e><p><l>futurista<s n="adj"/></l><r>futurista<s n="adj"/></r></p></e>
+<e><p><l>kantiano<s n="adj"/></l><r>kantianu<s n="adj"/></r></p></e>
+<e><p><l>kepleriano<s n="adj"/></l><r>keplerianu<s n="adj"/></r></p></e>
+<e><p><l>kilométrico<s n="adj"/></l><r>kilométricu<s n="adj"/></r></p></e>
+<e><p><l>krausista<s n="adj"/></l><r>krausista<s n="adj"/></r></p></e>
+<e><p><l>kuwaitiano<s n="adj"/></l><r>kuwaitianu<s n="adj"/></r></p></e>
+<e><p><l>lacianiego<s n="adj"/></l><r>lacianiegu<s n="adj"/></r></p></e>
+<e><p><l>luarqués<s n="adj"/></l><r>luarqués<s n="adj"/></r></p></e>
+<e><p><l>lacedemonio<s n="adj"/></l><r>lacedemoniu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>amburador<s n="adj"/><s n="f"/><s n="pl"/></l><r>amburador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>amburador<s n="adj"/><s n="f"/><s n="sg"/></l><r>amburador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>amburador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>amburador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>amburador<s n="adj"/><s n="m"/><s n="pl"/></l><r>amburador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>amburador<s n="adj"/><s n="m"/><s n="sg"/></l><r>amburador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>lacónico<s n="adj"/></l><r>lacónicu<s n="adj"/></r></p></e>
+<e><p><l>laconio<s n="adj"/></l><r>laconiu<s n="adj"/></r></p></e>
+<e><p><l>laicista<s n="adj"/></l><r>laicista<s n="adj"/></r></p></e>
+<e><p><l>laico<s n="adj"/></l><r>laicu<s n="adj"/></r></p></e>
+<e><p><l>laosiano<s n="adj"/></l><r>laosianu<s n="adj"/></r></p></e>
+<e><p><l>lapón<s n="adj"/></l><r>lapón<s n="adj"/></r></p></e>
+<e><p><l>laringal<s n="adj"/></l><r>laringal<s n="adj"/></r></p></e>
+<e><p><l>latente<s n="adj"/></l><r>latente<s n="adj"/></r></p></e>
+<e><p><l>latifundista<s n="adj"/></l><r>latifundista<s n="adj"/></r></p></e>
+<e><p><l>lego<s n="adj"/></l><r>legu<s n="adj"/></r></p></e>
+<e><p><l>leninista<s n="adj"/></l><r>leninista<s n="adj"/></r></p></e>
+<e><p><l>lésbico<s n="adj"/></l><r>lésbicu<s n="adj"/></r></p></e>
+<e><p><l>letón<s n="adj"/></l><r>letón<s n="adj"/></r></p></e>
+<e><p><l>lexemático<s n="adj"/></l><r>lexemáticu<s n="adj"/></r></p></e>
+<e><p><l>lexicográfico<s n="adj"/></l><r>lexicográficu<s n="adj"/></r></p></e>
+<e><p><l>lexicológico<s n="adj"/></l><r>lexicolóxicu<s n="adj"/></r></p></e>
+<e><p><l>léxico<s n="adj"/></l><r>léxicu<s n="adj"/></r></p></e>
+<e><p><l>libanés<s n="adj"/></l><r>libanés<s n="adj"/></r></p></e>
+<e><p><l>liberiano<s n="adj"/></l><r>liberianu<s n="adj"/></r></p></e>
+<e><p><l>libio<s n="adj"/></l><r>libiu<s n="adj"/></r></p></e>
+<e><p><l>amelonado<s n="adj"/></l><r>amelonáu<s n="adj"/></r></p></e>
+<e><p><l>licio<s n="adj"/></l><r>liciu<s n="adj"/></r></p></e>
+<e><p><l>ligur<s n="adj"/></l><r>ligur<s n="adj"/></r></p></e>
+<e><p><l>limeño<s n="adj"/></l><r>limeñu<s n="adj"/></r></p></e>
+<e><p><l>linfático<s n="adj"/></l><r>linfáticu<s n="adj"/></r></p></e>
+<e><p><l>liposoluble<s n="adj"/></l><r>liposoluble<s n="adj"/></r></p></e>
+<e><p><l>lítico<s n="adj"/></l><r>líticu<s n="adj"/></r></p></e>
+<e><p><l>litófago<s n="adj"/></l><r>litófagu<s n="adj"/></r></p></e>
+<e><p><l>litológico<s n="adj"/></l><r>litolóxicu<s n="adj"/></r></p></e>
+<e><p><l>lituano<s n="adj"/></l><r>lituanu<s n="adj"/></r></p></e>
+<e><p><l>labiado<s n="adj"/></l><r>llabiáu<s n="adj"/></r></p></e>
+<e><p><l>laborable<s n="adj"/></l><r>llaborable<s n="adj"/></r></p></e>
+<e><p><l>laboralista<s n="adj"/></l><r>llaboralista<s n="adj"/></r></p></e>
+<e><p><l>laborista<s n="adj"/></l><r>llaborista<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ladrador<s n="adj"/><s n="f"/><s n="pl"/></l><r>lladrador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>ladrador<s n="adj"/><s n="f"/><s n="sg"/></l><r>lladrador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>ladrador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>lladrador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>ladrador<s n="adj"/><s n="m"/><s n="pl"/></l><r>lladrador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>ladrador<s n="adj"/><s n="m"/><s n="sg"/></l><r>lladrador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>ladronado<s n="adj"/></l><r>lladronáu<s n="adj"/></r></p></e>
+<e><p><l>lagarero<s n="adj"/></l><r>llagareru<s n="adj"/></r></p></e>
+<e><p><l>lagartero<s n="adj"/></l><r>llagarteru<s n="adj"/></r></p></e>
+<e><p><l>lagartesero<s n="adj"/></l><r>llagarteseru<s n="adj"/></r></p></e>
+<e><p><l>lagrimal<s n="adj"/></l><r>llagrimal<s n="adj"/></r></p></e>
+<e><p><l>laicista<s n="adj"/></l><r>llaicista<s n="adj"/></r></p></e>
+<e><p><l>llamadero<s n="adj"/></l><r>llamaderu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>llamador<s n="adj"/><s n="f"/><s n="pl"/></l><r>llamador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>llamador<s n="adj"/><s n="f"/><s n="sg"/></l><r>llamador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>llamador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>llamador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>llamador<s n="adj"/><s n="m"/><s n="pl"/></l><r>llamador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>llamador<s n="adj"/><s n="m"/><s n="sg"/></l><r>llamador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>llamativo<s n="adj"/></l><r>llamativu<s n="adj"/></r></p></e>
+<e><p><l>langreano<s n="adj"/></l><r>llangreanu<s n="adj"/></r></p></e>
+<e><p><l>lanisco<s n="adj"/></l><r>llaniscu<s n="adj"/></r></p></e>
+<e><p><l>llano<s n="adj"/></l><r>llanu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>lanzador<s n="adj"/><s n="f"/><s n="pl"/></l><r>llanzador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>lanzador<s n="adj"/><s n="f"/><s n="sg"/></l><r>llanzador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>lanzador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>llanzador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>lanzador<s n="adj"/><s n="m"/><s n="pl"/></l><r>llanzador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>lanzador<s n="adj"/><s n="m"/><s n="sg"/></l><r>llanzador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>larimal<s n="adj"/></l><r>llarimal<s n="adj"/></r></p></e>
+<e><p><l>laringal<s n="adj"/></l><r>llaringal<s n="adj"/></r></p></e>
+<e><p><l>llarizón<s n="adj"/></l><r>llarizón<s n="adj"/></r></p></e>
+<e><p><l>lastimero<s n="adj"/></l><r>llastimeru<s n="adj"/></r></p></e>
+<e><p><l>lastimoso<s n="adj"/></l><r>llastimosu<s n="adj"/></r></p></e>
+<e><p><l>latente<s n="adj"/></l><r>llatente<s n="adj"/></r></p></e>
+<e><p><l>lateral<s n="adj"/></l><r>llateral<s n="adj"/></r></p></e>
+<e><p><l>latifundista<s n="adj"/></l><r>llatifundista<s n="adj"/></r></p></e>
+<e r="LR"><p><l>lastimador<s n="adj"/><s n="f"/><s n="pl"/></l><r>llastimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>lastimador<s n="adj"/><s n="f"/><s n="sg"/></l><r>llastimador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>lastimador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>llastimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>lastimador<s n="adj"/><s n="m"/><s n="pl"/></l><r>llastimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>lastimador<s n="adj"/><s n="m"/><s n="sg"/></l><r>llastimador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>latinista<s n="adj"/></l><r>llatinista<s n="adj"/></r></p></e>
+<e><p><l>latinoamericano<s n="adj"/></l><r>llatinoamericanu<s n="adj"/></r></p></e>
+<e><p><l>latitudinal<s n="adj"/></l><r>llatitudinal<s n="adj"/></r></p></e>
+<e><p><l>latón<s n="adj"/></l><r>llatón<s n="adj"/></r></p></e>
+<e><p><l>lebaniego<s n="adj"/></l><r>llebaniegu<s n="adj"/></r></p></e>
+<e><p><l>lechar<s n="adj"/></l><r>llechar<s n="adj"/></r></p></e>
+<e><p><l>lechado<s n="adj"/></l><r>llecháu<s n="adj"/></r></p></e>
+<e><p><l>lechero<s n="adj"/></l><r>llecheru<s n="adj"/></r></p></e>
+<e><p><l>lechón<s n="adj"/></l><r>llechón<s n="adj"/></r></p></e>
+<e><p><l>lectivo<s n="adj"/></l><r>llectivu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>leedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>lleedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>leedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>lleedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>leedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>lleedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>leedor<s n="adj"/><s n="m"/><s n="pl"/></l><r>lleedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>leedor<s n="adj"/><s n="m"/><s n="sg"/></l><r>lleedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>legalista<s n="adj"/></l><r>llegalista<s n="adj"/></r></p></e>
+<e><p><l>lego<s n="adj"/></l><r>llegu<s n="adj"/></r></p></e>
+<e><p><l>leíble<s n="adj"/></l><r>lleíble<s n="adj"/></r></p></e>
+<e><p><l>leido<s n="adj"/></l><r>lleíu<s n="adj"/></r></p></e>
+<e><p><l>leñero<s n="adj"/></l><r>lleñeru<s n="adj"/></r></p></e>
+<e><p><l>leonés<s n="adj"/></l><r>lleonés<s n="adj"/></r></p></e>
+<e><p><l>leonesista<s n="adj"/></l><r>lleonesista<s n="adj"/></r></p></e>
+<e><p><l>leprado<s n="adj"/></l><r>llepráu<s n="adj"/></r></p></e>
+<e><p><l>leproso<s n="adj"/></l><r>lleprosu<s n="adj"/></r></p></e>
+<e><p><l>letrado<s n="adj"/></l><r>lletráu<s n="adj"/></r></p></e>
+<e><p><l>llevadero<s n="adj"/></l><r>llevaderu<s n="adj"/></r></p></e>
+<e><p><l>americanista<s n="adj"/></l><r>americanista<s n="adj"/></r></p></e>
+<e><p><l>llevado<s n="adj"/></l><r>lleváu<s n="adj"/></r></p></e>
+<e><p><l>lexemático<s n="adj"/></l><r>llexemáticu<s n="adj"/></r></p></e>
+<e><p><l>lexicográfico<s n="adj"/></l><r>llexicográficu<s n="adj"/></r></p></e>
+<e><p><l>lexicológico<s n="adj"/></l><r>llexicolóxicu<s n="adj"/></r></p></e>
+<e><p><l>léxico<s n="adj"/></l><r>lléxicu<s n="adj"/></r></p></e>
+<e><p><l>legislable<s n="adj"/></l><r>llexislable<s n="adj"/></r></p></e>
+<e r="LR"><p><l>legislador<s n="adj"/><s n="f"/><s n="pl"/></l><r>llexislador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>legislador<s n="adj"/><s n="f"/><s n="sg"/></l><r>llexislador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>legislador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>llexislador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>legislador<s n="adj"/><s n="m"/><s n="pl"/></l><r>llexislador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>legislador<s n="adj"/><s n="m"/><s n="sg"/></l><r>llexislador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>legislativo<s n="adj"/></l><r>llexislativu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>legitimador<s n="adj"/><s n="f"/><s n="pl"/></l><r>llexitimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>legitimador<s n="adj"/><s n="f"/><s n="sg"/></l><r>llexitimador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>legitimador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>llexitimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>legitimador<s n="adj"/><s n="m"/><s n="pl"/></l><r>llexitimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>legitimador<s n="adj"/><s n="m"/><s n="sg"/></l><r>llexitimador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>legítimo<s n="adj"/></l><r>llexítimu<s n="adj"/></r></p></e>
+<e><p><l>legionario<s n="adj"/></l><r>llexonariu<s n="adj"/></r></p></e>
+<e><p><l>libertador<s n="adj"/></l><r>llibertador<s n="adj"/></r></p></e>
+<e><p><l>libertario<s n="adj"/></l><r>llibertariu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>liberador<s n="adj"/><s n="f"/><s n="pl"/></l><r>lliberador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>liberador<s n="adj"/><s n="f"/><s n="sg"/></l><r>lliberador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>liberador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>lliberador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>liberador<s n="adj"/><s n="m"/><s n="pl"/></l><r>lliberador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>liberador<s n="adj"/><s n="m"/><s n="sg"/></l><r>lliberador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>librecambista<s n="adj"/></l><r>llibrecambista<s n="adj"/></r></p></e>
+<e><p><l>libresco<s n="adj"/></l><r>llibrescu<s n="adj"/></r></p></e>
+<e><p><l>lícito<s n="adj"/></l><r>llícitu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>limador<s n="adj"/><s n="f"/><s n="pl"/></l><r>llimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>limador<s n="adj"/><s n="f"/><s n="sg"/></l><r>llimador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>limador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>llimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>limador<s n="adj"/><s n="m"/><s n="pl"/></l><r>llimador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>limador<s n="adj"/><s n="m"/><s n="sg"/></l><r>llimador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>limado<s n="adj"/></l><r>llimáu<s n="adj"/></r></p></e>
+<e><p><l>limonero<s n="adj"/></l><r>llimoneru<s n="adj"/></r></p></e>
+<e><p><l>limosnero<s n="adj"/></l><r>llimosneru<s n="adj"/></r></p></e>
+<e r="LR"><p><l>limpiador<s n="adj"/><s n="f"/><s n="pl"/></l><r>llimpiador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>limpiador<s n="adj"/><s n="f"/><s n="sg"/></l><r>llimpiador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>limpiador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>llimpiador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>limpiador<s n="adj"/><s n="m"/><s n="pl"/></l><r>llimpiador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>limpiador<s n="adj"/><s n="m"/><s n="sg"/></l><r>llimpiador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>lindero<s n="adj"/></l><r>llinderu<s n="adj"/></r></p></e>
+<e><p><l>lindo<s n="adj"/></l><r>llindu<s n="adj"/></r></p></e>
+<e><p><l>linfático<s n="adj"/></l><r>llinfáticu<s n="adj"/></r></p></e>
+<e><p><l>lingual<s n="adj"/></l><r>llingual<s n="adj"/></r></p></e>
+<e><p><l>lingüiforme<s n="adj"/></l><r>llingüiforme<s n="adj"/></r></p></e>
+<e><p><l>liposoluble<s n="adj"/></l><r>lliposoluble<s n="adj"/></r></p></e>
+<e><p><l>líquido<s n="adj"/></l><r>llíquíu<s n="adj"/></r></p></e>
+<e><p><l>lírico<s n="adj"/></l><r>llíricu<s n="adj"/></r></p></e>
+<e><p><l>amigable<s n="adj"/></l><r>amigable<s n="adj"/></r></p></e>
+<e><p><l>lirón<s n="adj"/></l><r>llirón<s n="adj"/></r></p></e>
+<e><p><l>literal<s n="adj"/></l><r>lliteral<s n="adj"/></r></p></e>
+<e><p><l>lítico<s n="adj"/></l><r>llíticu<s n="adj"/></r></p></e>
+<e><p><l>litófago<s n="adj"/></l><r>llitófagu<s n="adj"/></r></p></e>
+<e><p><l>litológico<s n="adj"/></l><r>llitolóxicu<s n="adj"/></r></p></e>
+<e><p><l>litúrgico<s n="adj"/></l><r>llitúrxicu<s n="adj"/></r></p></e>
+<e><p><l>liviano<s n="adj"/></l><r>llivianu<s n="adj"/></r></p></e>
+<e><p><l>lívido<s n="adj"/></l><r>llívíu<s n="adj"/></r></p></e>
+<e><p><l>loable<s n="adj"/></l><r>lloable<s n="adj"/></r></p></e>
+<e r="LR"><p><l>loador<s n="adj"/><s n="f"/><s n="pl"/></l><r>lloador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>loador<s n="adj"/><s n="f"/><s n="sg"/></l><r>lloador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>loador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>lloador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>loador<s n="adj"/><s n="m"/><s n="pl"/></l><r>lloador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>loador<s n="adj"/><s n="m"/><s n="sg"/></l><r>lloador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>amilanado<s n="adj"/></l><r>amilanáu<s n="adj"/></r></p></e>
+<e><p><l>lóbrego<s n="adj"/></l><r>llóbregu<s n="adj"/></r></p></e>
+<e><p><l>lobular<s n="adj"/></l><r>llobular<s n="adj"/></r></p></e>
+<e><p><l>lobulado<s n="adj"/></l><r>llobuláu<s n="adj"/></r></p></e>
+<e><p><l>local<s n="adj"/></l><r>llocal<s n="adj"/></r></p></e>
+<e><p><l>localista<s n="adj"/></l><r>llocalista<s n="adj"/></r></p></e>
+<e><p><l>locativo<s n="adj"/></l><r>llocativu<s n="adj"/></r></p></e>
+<e><p><l>locomotor<s n="adj"/></l><r>llocomotor<s n="adj"/></r></p></e>
+<e r="LR"><p><l>loramicador<s n="adj"/><s n="f"/><s n="pl"/></l><r>lloramicador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>loramicador<s n="adj"/><s n="f"/><s n="sg"/></l><r>lloramicador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>loramicador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>lloramicador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>loramicador<s n="adj"/><s n="m"/><s n="pl"/></l><r>lloramicador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>loramicador<s n="adj"/><s n="m"/><s n="sg"/></l><r>lloramicador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>logarítmico<s n="adj"/></l><r>llogarítmicu<s n="adj"/></r></p></e>
+<e><p><l>lombricero<s n="adj"/></l><r>llombriceru<s n="adj"/></r></p></e>
+<e><p><l>lejano<s n="adj"/></l><r>llonxanu<s n="adj"/></r></p></e>
+<e><p><l>amnésico<s n="adj"/></l><r>amnésicu<s n="adj"/></r></p></e>
+<e><p><l>longitudinal<s n="adj"/></l><r>llonxitudinal<s n="adj"/></r></p></e>
+<e><p><l>llorón<s n="adj"/></l><r>lloramicón<s n="adj"/></r></p></e>
+<e><p><l>llorica<s n="adj"/></l><r>llorica<s n="adj"/></r></p></e>
+<e><p><l>llorón<s n="adj"/></l><r>llorón<s n="adj"/></r></p></e>
+<e><p><l>logicista<s n="adj"/></l><r>lloxicista<s n="adj"/></r></p></e>
+<e><p><l>lógico<s n="adj"/></l><r>llóxicu<s n="adj"/></r></p></e>
+<e><p><l>logístico<s n="adj"/></l><r>lloxísticu<s n="adj"/></r></p></e>
+<e><p><l>lozano<s n="adj"/></l><r>llozanu<s n="adj"/></r></p></e>
+<e><p><l>amniótico<s n="adj"/></l><r>amnióticu<s n="adj"/></r></p></e>
+<e><p><l>lubricante<s n="adj"/></l><r>llubricante<s n="adj"/></r></p></e>
+<e><p><l>lubrificante<s n="adj"/></l><r>llubrificante<s n="adj"/></r></p></e>
+<e><p><l>lúdico<s n="adj"/></l><r>llúdicu<s n="adj"/></r></p></e>
+<e><p><l>luminotécnico<s n="adj"/></l><r>lluminotécnicu<s n="adj"/></r></p></e>
+<e><p><l>lunático<s n="adj"/></l><r>llunáticu<s n="adj"/></r></p></e>
+<e><p><l>lunero<s n="adj"/></l><r>lluneru<s n="adj"/></r></p></e>
+<e><p><l>lustroso<s n="adj"/></l><r>llustrosu<s n="adj"/></r></p></e>
+<e><p><l>lluvioso<s n="adj"/></l><r>lluviosu<s n="adj"/></r></p></e>
+<e><p><l>lujoso<s n="adj"/></l><r>lluxosu<s n="adj"/></r></p></e>
+<e><p><l>luxurioso<s n="adj"/></l><r>lluxuriosu<s n="adj"/></r></p></e>
+<e><p><l>lobular<s n="adj"/></l><r>lobular<s n="adj"/></r></p></e>
+<e><p><l>lobulado<s n="adj"/></l><r>lobuláu<s n="adj"/></r></p></e>
+<e><p><l>localista<s n="adj"/></l><r>localista<s n="adj"/></r></p></e>
+<e><p><l>locativo<s n="adj"/></l><r>locativu<s n="adj"/></r></p></e>
+<e><p><l>logarítmico<s n="adj"/></l><r>logarítmicu<s n="adj"/></r></p></e>
+<e><p><l>logicista<s n="adj"/></l><r>loxicista<s n="adj"/></r></p></e>
+<e><p><l>logístico<s n="adj"/></l><r>loxísticu<s n="adj"/></r></p></e>
+<e><p><l>lúdico<s n="adj"/></l><r>lúdicu<s n="adj"/></r></p></e>
+<e><p><l>luminotécnico<s n="adj"/></l><r>luminotécnicu<s n="adj"/></r></p></e>
+<e><p><l>lusitánico<s n="adj"/></l><r>lusitánicu<s n="adj"/></r></p></e>
+<e><p><l>lusitanista<s n="adj"/></l><r>lusitanista<s n="adj"/></r></p></e>
+<e><p><l>luterano<s n="adj"/></l><r>luteranu<s n="adj"/></r></p></e>
+<e><p><l>luxemburgués<s n="adj"/></l><r>luxemburgués<s n="adj"/></r></p></e>
+<e><p><l>lujurioso<s n="adj"/></l><r>luxuriosu<s n="adj"/></r></p></e>
+<e><p><l>macabro<s n="adj"/></l><r>macabru<s n="adj"/></r></p></e>
+<e><p><l>macanudo<s n="adj"/></l><r>macanudu<s n="adj"/></r></p></e>
+<e><p><l>macedonio<s n="adj"/></l><r>macedoniu<s n="adj"/></r></p></e>
+<e><p><l>machacón<s n="adj"/></l><r>machacón<s n="adj"/></r></p></e>
+<e><p><l>machista<s n="adj"/></l><r>machista<s n="adj"/></r></p></e>
+<e><p><l>macrocéfalo<s n="adj"/></l><r>macrocéfalu<s n="adj"/></r></p></e>
+<e><p><l>amorosiego<s n="adj"/></l><r>amorosiegu<s n="adj"/></r></p></e>
+<e><p><l>macroeconómico<s n="adj"/></l><r>macroeconómicu<s n="adj"/></r></p></e>
+<e><p><l>maderable<s n="adj"/></l><r>maderable<s n="adj"/></r></p></e>
+<e><p><l>maderero<s n="adj"/></l><r>madereru<s n="adj"/></r></p></e>
+<e><p><l>madero<s n="adj"/></l><r>maderu<s n="adj"/></r></p></e>
+<e><p><l>madreñón<s n="adj"/></l><r>madreñón<s n="adj"/></r></p></e>
+<e><p><l>madrugón<s n="adj"/></l><r>madrugón<s n="adj"/></r></p></e>
+<e><p><l>mafioso<s n="adj"/></l><r>mafiosu<s n="adj"/></r></p></e>
+<e><p><l>magdaleniense<s n="adj"/></l><r>magdaleniense<s n="adj"/></r></p></e>
+<e><p><l>magmático<s n="adj"/></l><r>magmáticu<s n="adj"/></r></p></e>
+<e><p><l>magnésico<s n="adj"/></l><r>magnésicu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>amortajador<s n="adj"/><s n="f"/><s n="pl"/></l><r>amortayador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>amortajador<s n="adj"/><s n="f"/><s n="sg"/></l><r>amortayador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>amortajador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>amortayador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>amortajador<s n="adj"/><s n="m"/><s n="pl"/></l><r>amortayador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>amortajador<s n="adj"/><s n="m"/><s n="sg"/></l><r>amortayador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>magnético<s n="adj"/></l><r>magnéticu<s n="adj"/></r></p></e>
+<e><p><l>magnetofónico<s n="adj"/></l><r>magnetofónicu<s n="adj"/></r></p></e>
+<e><p><l>maizón<s n="adj"/></l><r>maizón<s n="adj"/></r></p></e>
+<e><p><l>malabar<s n="adj"/></l><r>malabar<s n="adj"/></r></p></e>
+<e><p><l>malcriado<s n="adj"/></l><r>malcriáu<s n="adj"/></r></p></e>
+<e><p><l>maleto<s n="adj"/></l><r>maletu<s n="adj"/></r></p></e>
+<e><p><l>malhumorado<s n="adj"/></l><r>malhumoráu<s n="adj"/></r></p></e>
+<e><p><l>malintencionado<s n="adj"/></l><r>malintencionáu<s n="adj"/></r></p></e>
+<e><p><l>maligno<s n="adj"/></l><r>malinu<s n="adj"/></r></p></e>
+<e><p><l>malpensado<s n="adj"/></l><r>malpensáu<s n="adj"/></r></p></e>
+<e><p><l>amortajado<s n="adj"/></l><r>amortayáu<s n="adj"/></r></p></e>
+<e><p><l>malquerido<s n="adj"/></l><r>malqueríu<s n="adj"/></r></p></e>
+<e><p><l>malsano<s n="adj"/></l><r>malsanu<s n="adj"/></r></p></e>
+<e><p><l>malsonante<s n="adj"/></l><r>malsonante<s n="adj"/></r></p></e>
+<e><p><l>mamario<s n="adj"/></l><r>mamariu<s n="adj"/></r></p></e>
+<e><p><l>mameluco<s n="adj"/></l><r>mamelucu<s n="adj"/></r></p></e>
+<e><p><l>mamón<s n="adj"/></l><r>mamón<s n="adj"/></r></p></e>
+<e><p><l>manco<s n="adj"/></l><r>mancu<s n="adj"/></r></p></e>
+<e><p><l>mandado<s n="adj"/></l><r>mandáu<s n="adj"/></r></p></e>
+<e><p><l>mandón<s n="adj"/></l><r>mandón<s n="adj"/></r></p></e>
+<e><p><l>ampliable<s n="adj"/></l><r>ampliable<s n="adj"/></r></p></e>
+<e><p><l>abondo<s n="adj"/></l><r>abondu<s n="adj"/></r></p></e>
+<e><p><l>manés<s n="adj"/></l><r>manés<s n="adj"/></r></p></e>
+<e><p><l>manejable<s n="adj"/></l><r>manexable<s n="adj"/></r></p></e>
+<e><p><l>mangante<s n="adj"/></l><r>mangante<s n="adj"/></r></p></e>
+<e><p><l>maniatado<s n="adj"/></l><r>maniatáu<s n="adj"/></r></p></e>
+<e><p><l>maniático<s n="adj"/></l><r>maniáticu<s n="adj"/></r></p></e>
+<e><p><l>manierista<s n="adj"/></l><r>manierista<s n="adj"/></r></p></e>
+<e><p><l>manirroto<s n="adj"/></l><r>manirrotu<s n="adj"/></r></p></e>
+<e><p><l>manido<s n="adj"/></l><r>maníu<s n="adj"/></r></p></e>
+<e><p><l>manso<s n="adj"/></l><r>mansu<s n="adj"/></r></p></e>
+<e><p><l>manudo<s n="adj"/></l><r>manudu<s n="adj"/></r></p></e>
+<e><p><l>amplio<s n="adj"/></l><r>ampliu<s n="adj"/></r></p></e>
+<e><p><l>manuscrito<s n="adj"/></l><r>manuscritu<s n="adj"/></r></p></e>
+<e><p><l>mañanero<s n="adj"/></l><r>mañaneru<s n="adj"/></r></p></e>
+<e><p><l>mañoso<s n="adj"/></l><r>mañosu<s n="adj"/></r></p></e>
+<e><p><l>maoísta<s n="adj"/></l><r>maoísta<s n="adj"/></r></p></e>
+<e><p><l>maquiavélico<s n="adj"/></l><r>maquiavélicu<s n="adj"/></r></p></e>
+<e><p><l>maquinal<s n="adj"/></l><r>maquinal<s n="adj"/></r></p></e>
+<e><p><l>maragato<s n="adj"/></l><r>maragatu<s n="adj"/></r></p></e>
+<e><p><l>marañero<s n="adj"/></l><r>marañeru<s n="adj"/></r></p></e>
+<e><p><l>maravilloso<s n="adj"/></l><r>maraviyosu<s n="adj"/></r></p></e>
+<e><p><l>marcial<s n="adj"/></l><r>marcial<s n="adj"/></r></p></e>
+<e><p><l>anacrónico<s n="adj"/></l><r>anacrónicu<s n="adj"/></r></p></e>
+<e><p><l>marciano<s n="adj"/></l><r>marcianu<s n="adj"/></r></p></e>
+<e><p><l>mariado<s n="adj"/></l><r>mariáu<s n="adj"/></r></p></e>
+<e><p><l>marinero<s n="adj"/></l><r>marineru<s n="adj"/></r></p></e>
+<e><p><l>mariológico<s n="adj"/></l><r>mariolóxicu<s n="adj"/></r></p></e>
+<e><p><l>mariposón<s n="adj"/></l><r>mariposón<s n="adj"/></r></p></e>
+<e><p><l>marisquero<s n="adj"/></l><r>marisqueru<s n="adj"/></r></p></e>
+<e><p><l>marista<s n="adj"/></l><r>marista<s n="adj"/></r></p></e>
+<e><p><l>marítimo<s n="adj"/></l><r>marítimu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>marmullador<s n="adj"/><s n="f"/><s n="pl"/></l><r>marmullador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>marmullador<s n="adj"/><s n="f"/><s n="sg"/></l><r>marmullador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>marmullador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>marmullador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>marmullador<s n="adj"/><s n="m"/><s n="pl"/></l><r>marmullador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>marmullador<s n="adj"/><s n="m"/><s n="sg"/></l><r>marmullador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>maronita<s n="adj"/></l><r>maronita<s n="adj"/></r></p></e>
+<e><p><l>anaerobio<s n="adj"/></l><r>anaerobiu<s n="adj"/></r></p></e>
+<e><p><l>marrano<s n="adj"/></l><r>marranu<s n="adj"/></r></p></e>
+<e><p><l>marroquí<s n="adj"/></l><r>marroquín<s n="adj"/></r></p></e>
+<e><p><l>marsellés<s n="adj"/></l><r>marsellés<s n="adj"/></r></p></e>
+<e><p><l>marginal<s n="adj"/></l><r>marxinal<s n="adj"/></r></p></e>
+<e><p><l>masón<s n="adj"/></l><r>masón<s n="adj"/></r></p></e>
+<e><p><l>masoquista<s n="adj"/></l><r>masoquista<s n="adj"/></r></p></e>
+<e><p><l>mastológico<s n="adj"/></l><r>mastolóxicu<s n="adj"/></r></p></e>
+<e><p><l>mastuerzo<s n="adj"/></l><r>mastuerzu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>masuñador<s n="adj"/><s n="f"/><s n="pl"/></l><r>masuñador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>masuñador<s n="adj"/><s n="f"/><s n="sg"/></l><r>masuñador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>masuñador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>masuñador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>masuñador<s n="adj"/><s n="m"/><s n="pl"/></l><r>masuñador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>masuñador<s n="adj"/><s n="m"/><s n="sg"/></l><r>masuñador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>matadero<s n="adj"/></l><r>mataderu<s n="adj"/></r></p></e>
+<e><p><l>matarile<s n="adj"/></l><r>matarile<s n="adj"/></r></p></e>
+<e><p><l>matado<s n="adj"/></l><r>matáu<s n="adj"/></r></p></e>
+<e><p><l>materialista<s n="adj"/></l><r>materialista<s n="adj"/></r></p></e>
+<e><p><l>maternal<s n="adj"/></l><r>maternal<s n="adj"/></r></p></e>
+<e><p><l>materno<s n="adj"/></l><r>maternu<s n="adj"/></r></p></e>
+<e><p><l>matón<s n="adj"/></l><r>matón<s n="adj"/></r></p></e>
+<e><p><l>matriarcal<s n="adj"/></l><r>matriarcal<s n="adj"/></r></p></e>
+<e><p><l>matrimonial<s n="adj"/></l><r>matrimonial<s n="adj"/></r></p></e>
+<e><p><l>mauritano<s n="adj"/></l><r>mauritanu<s n="adj"/></r></p></e>
+<e><p><l>mayúsculo<s n="adj"/></l><r>mayúsculu<s n="adj"/></r></p></e>
+<e><p><l>analfabeto<s n="adj"/></l><r>analfabetu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>mazcador<s n="adj"/><s n="f"/><s n="pl"/></l><r>mazcador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mazcador<s n="adj"/><s n="f"/><s n="sg"/></l><r>mazcador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mazcador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>mazcador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mazcador<s n="adj"/><s n="m"/><s n="pl"/></l><r>mazcador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mazcador<s n="adj"/><s n="m"/><s n="sg"/></l><r>mazcador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>mecanicista<s n="adj"/></l><r>mecanicista<s n="adj"/></r></p></e>
+<e><p><l>mecanográfico<s n="adj"/></l><r>mecanográficu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>mecedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>mecedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mecedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>mecedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mecedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>mecedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mecedor<s n="adj"/><s n="m"/><s n="pl"/></l><r>mecedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mecedor<s n="adj"/><s n="m"/><s n="sg"/></l><r>mecedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>mecido<s n="adj"/></l><r>mecíu<s n="adj"/></r></p></e>
+<e><p><l>medianero<s n="adj"/></l><r>medianeru<s n="adj"/></r></p></e>
+<e><p><l>meditativo<s n="adj"/></l><r>meditativu<s n="adj"/></r></p></e>
+<e><p><l>medular<s n="adj"/></l><r>medular<s n="adj"/></r></p></e>
+<e><p><l>mefistofélico<s n="adj"/></l><r>mefistofélicu<s n="adj"/></r></p></e>
+<e><p><l>megafónico<s n="adj"/></l><r>megafónicu<s n="adj"/></r></p></e>
+<e><p><l>megalítico<s n="adj"/></l><r>megalíticu<s n="adj"/></r></p></e>
+<e><p><l>megalómano<s n="adj"/></l><r>megalómanu<s n="adj"/></r></p></e>
+<e><p><l>melanesio<s n="adj"/></l><r>melanesiu<s n="adj"/></r></p></e>
+<e><p><l>melanodermo<s n="adj"/></l><r>melanodermu<s n="adj"/></r></p></e>
+<e><p><l>melenudo<s n="adj"/></l><r>melenudu<s n="adj"/></r></p></e>
+<e><p><l>melgado<s n="adj"/></l><r>melgáu<s n="adj"/></r></p></e>
+<e><p><l>mellizo<s n="adj"/></l><r>mellizu<s n="adj"/></r></p></e>
+<e><p><l>melódico<s n="adj"/></l><r>melódicu<s n="adj"/></r></p></e>
+<e><p><l>melodioso<s n="adj"/></l><r>melodiosu<s n="adj"/></r></p></e>
+<e><p><l>melodramático<s n="adj"/></l><r>melodramáticu<s n="adj"/></r></p></e>
+<e><p><l>analizable<s n="adj"/></l><r>analizable<s n="adj"/></r></p></e>
+<e><p><l>melómano<s n="adj"/></l><r>melómanu<s n="adj"/></r></p></e>
+<e><p><l>melón<s n="adj"/></l><r>melón<s n="adj"/></r></p></e>
+<e><p><l>meloso<s n="adj"/></l><r>melosu<s n="adj"/></r></p></e>
+<e><p><l>menguante<s n="adj"/></l><r>menguante<s n="adj"/></r></p></e>
+<e><p><l>meningeal<s n="adj"/></l><r>meninxal<s n="adj"/></r></p></e>
+<e><p><l>meningítico<s n="adj"/></l><r>meninxíticu<s n="adj"/></r></p></e>
+<e><p><l>menonita<s n="adj"/></l><r>menonita<s n="adj"/></r></p></e>
+<e><p><l>mensual<s n="adj"/></l><r>mensual<s n="adj"/></r></p></e>
+<e><p><l>mentecato<s n="adj"/></l><r>mentecatu<s n="adj"/></r></p></e>
+<e><p><l>mentiroso<s n="adj"/></l><r>mentirosu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>analizador<s n="adj"/><s n="f"/><s n="pl"/></l><r>analizador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>analizador<s n="adj"/><s n="f"/><s n="sg"/></l><r>analizador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>analizador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>analizador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>analizador<s n="adj"/><s n="m"/><s n="pl"/></l><r>analizador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>analizador<s n="adj"/><s n="m"/><s n="sg"/></l><r>analizador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mercador<s n="adj"/><s n="f"/><s n="pl"/></l><r>mercador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mercador<s n="adj"/><s n="f"/><s n="sg"/></l><r>mercador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mercador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>mercador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mercador<s n="adj"/><s n="m"/><s n="pl"/></l><r>mercador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mercador<s n="adj"/><s n="m"/><s n="sg"/></l><r>mercador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>mercante<s n="adj"/></l><r>mercante<s n="adj"/></r></p></e>
+<e><p><l>mercantil<s n="adj"/></l><r>mercantil<s n="adj"/></r></p></e>
+<e><p><l>mercantilista<s n="adj"/></l><r>mercantilista<s n="adj"/></r></p></e>
+<e><p><l>mercenario<s n="adj"/></l><r>mercenariu<s n="adj"/></r></p></e>
+<e><p><l>merendado<s n="adj"/></l><r>merendáu<s n="adj"/></r></p></e>
+<e><p><l>meridional<s n="adj"/></l><r>meridional<s n="adj"/></r></p></e>
+<e><p><l>meritorio<s n="adj"/></l><r>meritoriu<s n="adj"/></r></p></e>
+<e><p><l>mesiánico<s n="adj"/></l><r>mesiánicu<s n="adj"/></r></p></e>
+<e><p><l>mesolítico<s n="adj"/></l><r>mesolíticu<s n="adj"/></r></p></e>
+<e><p><l>anárquico<s n="adj"/></l><r>anárquicu<s n="adj"/></r></p></e>
+<e><p><l>mesopotámico<s n="adj"/></l><r>mesopotámicu<s n="adj"/></r></p></e>
+<e><p><l>mesozoico<s n="adj"/></l><r>mesozoicu<s n="adj"/></r></p></e>
+<e><p><l>mestizo<s n="adj"/></l><r>mestizu<s n="adj"/></r></p></e>
+<e><p><l>mesto<s n="adj"/></l><r>mestu<s n="adj"/></r></p></e>
+<e><p><l>metabólico<s n="adj"/></l><r>metabólicu<s n="adj"/></r></p></e>
+<e><p><l>metacarpiano<s n="adj"/></l><r>metacarpianu<s n="adj"/></r></p></e>
+<e><p><l>metafónico<s n="adj"/></l><r>metafónicu<s n="adj"/></r></p></e>
+<e><p><l>metafórico<s n="adj"/></l><r>metafóricu<s n="adj"/></r></p></e>
+<e><p><l>metalingüístico<s n="adj"/></l><r>metallingüísticu<s n="adj"/></r></p></e>
+<e><p><l>metalográfico<s n="adj"/></l><r>metalográficu<s n="adj"/></r></p></e>
+<e><p><l>anarquista<s n="adj"/></l><r>anarquista<s n="adj"/></r></p></e>
+<e><p><l>metalúrgico<s n="adj"/></l><r>metalúrxicu<s n="adj"/></r></p></e>
+<e><p><l>metamórfico<s n="adj"/></l><r>metamórficu<s n="adj"/></r></p></e>
+<e><p><l>metastático<s n="adj"/></l><r>metastáticu<s n="adj"/></r></p></e>
+<e><p><l>metatarsiano<s n="adj"/></l><r>metatarsianu<s n="adj"/></r></p></e>
+<e><p><l>meteco<s n="adj"/></l><r>metecu<s n="adj"/></r></p></e>
+<e><p><l>meteórico<s n="adj"/></l><r>meteóricu<s n="adj"/></r></p></e>
+<e><p><l>metílico<s n="adj"/></l><r>metílicu<s n="adj"/></r></p></e>
+<e><p><l>metódico<s n="adj"/></l><r>metódicu<s n="adj"/></r></p></e>
+<e><p><l>metodista<s n="adj"/></l><r>metodista<s n="adj"/></r></p></e>
+<e><p><l>metodológico<s n="adj"/></l><r>metodolóxicu<s n="adj"/></r></p></e>
+<e><p><l>anatómico<s n="adj"/></l><r>anatómicu<s n="adj"/></r></p></e>
+<e><p><l>metonímico<s n="adj"/></l><r>metonímicu<s n="adj"/></r></p></e>
+<e><p><l>métrico<s n="adj"/></l><r>métricu<s n="adj"/></r></p></e>
+<e><p><l>metrológico<s n="adj"/></l><r>metrolóxicu<s n="adj"/></r></p></e>
+<e><p><l>mexón<s n="adj"/></l><r>mexón<s n="adj"/></r></p></e>
+<e><p><l>micénico<s n="adj"/></l><r>micénicu<s n="adj"/></r></p></e>
+<e><p><l>microbiano<s n="adj"/></l><r>microbianu<s n="adj"/></r></p></e>
+<e><p><l>microbiológico<s n="adj"/></l><r>microbiolóxicu<s n="adj"/></r></p></e>
+<e><p><l>microcefálico<s n="adj"/></l><r>microcefálicu<s n="adj"/></r></p></e>
+<e><p><l>micronesio<s n="adj"/></l><r>micronesiu<s n="adj"/></r></p></e>
+<e><p><l>microscópico<s n="adj"/></l><r>microscópicu<s n="adj"/></r></p></e>
+<e><p><l>anado<s n="adj"/></l><r>anáu<s n="adj"/></r></p></e>
+<e><p><l>mico<s n="adj"/></l><r>micu<s n="adj"/></r></p></e>
+<e><p><l>midible<s n="adj"/></l><r>midible<s n="adj"/></r></p></e>
+<e r="LR"><p><l>mididor<s n="adj"/><s n="f"/><s n="pl"/></l><r>mididor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mididor<s n="adj"/><s n="f"/><s n="sg"/></l><r>mididor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mididor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>mididor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mididor<s n="adj"/><s n="m"/><s n="pl"/></l><r>mididor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mididor<s n="adj"/><s n="m"/><s n="sg"/></l><r>mididor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>miedoso<s n="adj"/></l><r>miedosu<s n="adj"/></r></p></e>
+<e><p><l>mielero<s n="adj"/></l><r>mieleru<s n="adj"/></r></p></e>
+<e><p><l>mieloso<s n="adj"/></l><r>mielosu<s n="adj"/></r></p></e>
+<e><p><l>mierdoso<s n="adj"/></l><r>mierdosu<s n="adj"/></r></p></e>
+<e><p><l>mierense<s n="adj"/></l><r>mierense<s n="adj"/></r></p></e>
+<e><p><l>miguelino<s n="adj"/></l><r>miguelín<s n="adj"/></r></p></e>
+<e><p><l>milagrero<s n="adj"/></l><r>milagreru<s n="adj"/></r></p></e>
+<e><p><l>andalucista<s n="adj"/></l><r>andalucista<s n="adj"/></r></p></e>
+<e><p><l>milanés<s n="adj"/></l><r>milanés<s n="adj"/></r></p></e>
+<e><p><l>milenarista<s n="adj"/></l><r>milenarista<s n="adj"/></r></p></e>
+<e><p><l>milenario<s n="adj"/></l><r>milenariu<s n="adj"/></r></p></e>
+<e><p><l>milenta<s n="adj"/></l><r>milenta<s n="adj"/></r></p></e>
+<e><p><l>milimétrico<s n="adj"/></l><r>milimétricu<s n="adj"/></r></p></e>
+<e><p><l>militarista<s n="adj"/></l><r>militarista<s n="adj"/></r></p></e>
+<e><p><l>millonario<s n="adj"/></l><r>millonariu<s n="adj"/></r></p></e>
+<e><p><l>millonavo<s n="adj"/></l><r>millonavu<s n="adj"/></r></p></e>
+<e><p><l>mimético<s n="adj"/></l><r>miméticu<s n="adj"/></r></p></e>
+<e><p><l>mímico<s n="adj"/></l><r>mímicu<s n="adj"/></r></p></e>
+<e><p><l>andarino<s n="adj"/></l><r>andarín<s n="adj"/></r></p></e>
+<e><p><l>mimoso<s n="adj"/></l><r>mimosu<s n="adj"/></r></p></e>
+<e><p><l>mineral<s n="adj"/></l><r>mineral<s n="adj"/></r></p></e>
+<e><p><l>mineralógico<s n="adj"/></l><r>mineralóxicu<s n="adj"/></r></p></e>
+<e><p><l>minero<s n="adj"/></l><r>mineru<s n="adj"/></r></p></e>
+<e><p><l>minifundista<s n="adj"/></l><r>minifundista<s n="adj"/></r></p></e>
+<e><p><l>ministerial<s n="adj"/></l><r>ministerial<s n="adj"/></r></p></e>
+<e><p><l>minoico<s n="adj"/></l><r>minoicu<s n="adj"/></r></p></e>
+<e><p><l>minoritario<s n="adj"/></l><r>minoritariu<s n="adj"/></r></p></e>
+<e><p><l>minucioso<s n="adj"/></l><r>minuciosu<s n="adj"/></r></p></e>
+<e><p><l>mioceno<s n="adj"/></l><r>miocenu<s n="adj"/></r></p></e>
+<e><p><l>andino<s n="adj"/></l><r>andín<s n="adj"/></r></p></e>
+<e><p><l>miope<s n="adj"/></l><r>miope<s n="adj"/></r></p></e>
+<e r="LR"><p><l>mirador<s n="adj"/><s n="f"/><s n="pl"/></l><r>mirador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mirador<s n="adj"/><s n="f"/><s n="sg"/></l><r>mirador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mirador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>mirador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mirador<s n="adj"/><s n="m"/><s n="pl"/></l><r>mirador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mirador<s n="adj"/><s n="m"/><s n="sg"/></l><r>mirador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>mirado<s n="adj"/></l><r>miráu<s n="adj"/></r></p></e>
+<e><p><l>mirón<s n="adj"/></l><r>mirón<s n="adj"/></r></p></e>
+<e><p><l>misantrópico<s n="adj"/></l><r>misantrópicu<s n="adj"/></r></p></e>
+<e><p><l>misántropo<s n="adj"/></l><r>misántropu<s n="adj"/></r></p></e>
+<e><p><l>misericordioso<s n="adj"/></l><r>misericordiosu<s n="adj"/></r></p></e>
+<e><p><l>mísero<s n="adj"/></l><r>míseru<s n="adj"/></r></p></e>
+<e><p><l>misógino<s n="adj"/></l><r>misóxinu<s n="adj"/></r></p></e>
+<e><p><l>místico<s n="adj"/></l><r>místicu<s n="adj"/></r></p></e>
+<e><p><l>mitológico<s n="adj"/></l><r>mitolóxicu<s n="adj"/></r></p></e>
+<e><p><l>mitómano<s n="adj"/></l><r>mitómanu<s n="adj"/></r></p></e>
+<e><p><l>mocón<s n="adj"/></l><r>mocón<s n="adj"/></r></p></e>
+<e><p><l>mocoso<s n="adj"/></l><r>mocosu<s n="adj"/></r></p></e>
+<e><p><l>moco<s n="adj"/></l><r>mocu<s n="adj"/></r></p></e>
+<e><p><l>moco<s n="adj"/></l><r>mocu<s n="adj"/></r></p></e>
+<e><p><l>modal<s n="adj"/></l><r>modal<s n="adj"/></r></p></e>
+<e><p><l>moderado<s n="adj"/></l><r>moderáu<s n="adj"/></r></p></e>
+<e><p><l>modernista<s n="adj"/></l><r>modernista<s n="adj"/></r></p></e>
+<e><p><l>modoso<s n="adj"/></l><r>modosu<s n="adj"/></r></p></e>
+<e><p><l>mohicano<s n="adj"/></l><r>mohicanu<s n="adj"/></r></p></e>
+<e><p><l>moldavo<s n="adj"/></l><r>moldavu<s n="adj"/></r></p></e>
+<e><p><l>molecular<s n="adj"/></l><r>molecular<s n="adj"/></r></p></e>
+<e><p><l>monacal<s n="adj"/></l><r>monacal<s n="adj"/></r></p></e>
+<e><p><l>monárquico<s n="adj"/></l><r>monárquicu<s n="adj"/></r></p></e>
+<e><p><l>monástico<s n="adj"/></l><r>monásticu<s n="adj"/></r></p></e>
+<e><p><l>mondo<s n="adj"/></l><r>mondu<s n="adj"/></r></p></e>
+<e><p><l>monegasco<s n="adj"/></l><r>monegascu<s n="adj"/></r></p></e>
+<e><p><l>monero<s n="adj"/></l><r>moneru<s n="adj"/></r></p></e>
+<e><p><l>monetario<s n="adj"/></l><r>monetariu<s n="adj"/></r></p></e>
+<e><p><l>anegratado<s n="adj"/></l><r>anegratáu<s n="adj"/></r></p></e>
+<e><p><l>mongólico<s n="adj"/></l><r>mongólicu<s n="adj"/></r></p></e>
+<e><p><l>mongólido<s n="adj"/></l><r>mongólíu<s n="adj"/></r></p></e>
+<e><p><l>mongoloide<s n="adj"/></l><r>mongoloide<s n="adj"/></r></p></e>
+<e><p><l>monista<s n="adj"/></l><r>monista<s n="adj"/></r></p></e>
+<e><p><l>monocelular<s n="adj"/></l><r>monocelular<s n="adj"/></r></p></e>
+<e><p><l>monocorde<s n="adj"/></l><r>monocorde<s n="adj"/></r></p></e>
+<e><p><l>monocromo<s n="adj"/></l><r>monocromu<s n="adj"/></r></p></e>
+<e><p><l>monocular<s n="adj"/></l><r>monocular<s n="adj"/></r></p></e>
+<e><p><l>monofásico<s n="adj"/></l><r>monofásicu<s n="adj"/></r></p></e>
+<e><p><l>monógamo<s n="adj"/></l><r>monógamu<s n="adj"/></r></p></e>
+<e><p><l>anémico<s n="adj"/></l><r>anémicu<s n="adj"/></r></p></e>
+<e><p><l>monográfico<s n="adj"/></l><r>monográficu<s n="adj"/></r></p></e>
+<e><p><l>monolingüe<s n="adj"/></l><r>monollingüe<s n="adj"/></r></p></e>
+<e><p><l>monopétalo<s n="adj"/></l><r>monopétalu<s n="adj"/></r></p></e>
+<e><p><l>monopolista<s n="adj"/></l><r>monopolista<s n="adj"/></r></p></e>
+<e><p><l>monorrimo<s n="adj"/></l><r>monorrimu<s n="adj"/></r></p></e>
+<e><p><l>monosilábico<s n="adj"/></l><r>monosilábicu<s n="adj"/></r></p></e>
+<e><p><l>monosílabo<s n="adj"/></l><r>monosílabu<s n="adj"/></r></p></e>
+<e><p><l>monoteísta<s n="adj"/></l><r>monoteísta<s n="adj"/></r></p></e>
+<e><p><l>monótono<s n="adj"/></l><r>monótonu<s n="adj"/></r></p></e>
+<e><p><l>monovalente<s n="adj"/></l><r>monovalente<s n="adj"/></r></p></e>
+<e><p><l>anemio<s n="adj"/></l><r>anemiu<s n="adj"/></r></p></e>
+<e><p><l>monstruoso<s n="adj"/></l><r>monstruosu<s n="adj"/></r></p></e>
+<e><p><l>montenegrino<s n="adj"/></l><r>montenegrín<s n="adj"/></r></p></e>
+<e><p><l>montesino<s n="adj"/></l><r>montesín<s n="adj"/></r></p></e>
+<e><p><l>monumental<s n="adj"/></l><r>monumental<s n="adj"/></r></p></e>
+<e><p><l>moralista<s n="adj"/></l><r>moralista<s n="adj"/></r></p></e>
+<e><p><l>morado<s n="adj"/></l><r>moráu<s n="adj"/></r></p></e>
+<e><p><l>morfemático<s n="adj"/></l><r>morfemáticu<s n="adj"/></r></p></e>
+<e><p><l>morfinómano<s n="adj"/></l><r>morfinómanu<s n="adj"/></r></p></e>
+<e><p><l>morfológico<s n="adj"/></l><r>morfolóxicu<s n="adj"/></r></p></e>
+<e><p><l>morfosintáctico<s n="adj"/></l><r>morfosintácticu<s n="adj"/></r></p></e>
+<e><p><l>morganático<s n="adj"/></l><r>morganáticu<s n="adj"/></r></p></e>
+<e><p><l>morisco<s n="adj"/></l><r>moriscu<s n="adj"/></r></p></e>
+<e><p><l>moroso<s n="adj"/></l><r>morosu<s n="adj"/></r></p></e>
+<e><p><l>morrón<s n="adj"/></l><r>morrón<s n="adj"/></r></p></e>
+<e><p><l>morro<s n="adj"/></l><r>morru<s n="adj"/></r></p></e>
+<e><p><l>mortífero<s n="adj"/></l><r>mortíferu<s n="adj"/></r></p></e>
+<e><p><l>mortorio<s n="adj"/></l><r>mortoriu<s n="adj"/></r></p></e>
+<e><p><l>moruno<s n="adj"/></l><r>morunu<s n="adj"/></r></p></e>
+<e><p><l>mosaico<s n="adj"/></l><r>mosaicu<s n="adj"/></r></p></e>
+<e><p><l>mosado<s n="adj"/></l><r>mosáu<s n="adj"/></r></p></e>
+<e><p><l>moscón<s n="adj"/></l><r>moscón<s n="adj"/></r></p></e>
+<e><p><l>mosto<s n="adj"/></l><r>mostu<s n="adj"/></r></p></e>
+<e><p><l>movedizo<s n="adj"/></l><r>movedizu<s n="adj"/></r></p></e>
+<e><p><l>movible<s n="adj"/></l><r>movible<s n="adj"/></r></p></e>
+<e><p><l>mogigato<s n="adj"/></l><r>moxigatu<s n="adj"/></r></p></e>
+<e><p><l>mozárabe<s n="adj"/></l><r>mozárabe<s n="adj"/></r></p></e>
+<e><p><l>mudéjar<s n="adj"/></l><r>mudéxar<s n="adj"/></r></p></e>
+<e><p><l>muelle<s n="adj"/></l><r>muelle<s n="adj"/></r></p></e>
+<e><p><l>muello<s n="adj"/></l><r>muellu<s n="adj"/></r></p></e>
+<e><p><l>mulero<s n="adj"/></l><r>muleru<s n="adj"/></r></p></e>
+<e><p><l>anexado<s n="adj"/></l><r>anexáu<s n="adj"/></r></p></e>
+<e><p><l>multicelular<s n="adj"/></l><r>multicelular<s n="adj"/></r></p></e>
+<e><p><l>multiforme<s n="adj"/></l><r>multiforme<s n="adj"/></r></p></e>
+<e><p><l>multillingüe<s n="adj"/></l><r>multillingüe<s n="adj"/></r></p></e>
+<e><p><l>multimillonario<s n="adj"/></l><r>multimillonariu<s n="adj"/></r></p></e>
+<e><p><l>multiplicativo<s n="adj"/></l><r>multiplicativu<s n="adj"/></r></p></e>
+<e><p><l>multirracial<s n="adj"/></l><r>multirracial<s n="adj"/></r></p></e>
+<e><p><l>mundanal<s n="adj"/></l><r>mundanal<s n="adj"/></r></p></e>
+<e><p><l>mundano<s n="adj"/></l><r>mundanu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>murador<s n="adj"/><s n="f"/><s n="pl"/></l><r>murador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>murador<s n="adj"/><s n="f"/><s n="sg"/></l><r>murador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>murador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>murador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>murador<s n="adj"/><s n="m"/><s n="pl"/></l><r>murador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>murador<s n="adj"/><s n="m"/><s n="sg"/></l><r>murador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>mural<s n="adj"/></l><r>mural<s n="adj"/></r></p></e>
+<e><p><l>murciano<s n="adj"/></l><r>murcianu<s n="adj"/></r></p></e>
+<e><p><l>musaraño<s n="adj"/></l><r>musarañu<s n="adj"/></r></p></e>
+<e><p><l>muscular<s n="adj"/></l><r>muscular<s n="adj"/></r></p></e>
+<e><p><l>musculoso<s n="adj"/></l><r>musculosu<s n="adj"/></r></p></e>
+<e><p><l>museístico<s n="adj"/></l><r>museísticu<s n="adj"/></r></p></e>
+<e><p><l>museográfico<s n="adj"/></l><r>museográficu<s n="adj"/></r></p></e>
+<e><p><l>museológico<s n="adj"/></l><r>museolóxicu<s n="adj"/></r></p></e>
+<e><p><l>musicológico<s n="adj"/></l><r>musicolóxicu<s n="adj"/></r></p></e>
+<e><p><l>mustio<s n="adj"/></l><r>mustiu<s n="adj"/></r></p></e>
+<e><p><l>mutante<s n="adj"/></l><r>mutante<s n="adj"/></r></p></e>
+<e><p><l>mutualista<s n="adj"/></l><r>mutualista<s n="adj"/></r></p></e>
+<e><p><l>nacarado<s n="adj"/></l><r>nacaráu<s n="adj"/></r></p></e>
+<e><p><l>nacho<s n="adj"/></l><r>nachu<s n="adj"/></r></p></e>
+<e><p><l>nacionalsocialista<s n="adj"/></l><r>nacionalsocialista<s n="adj"/></r></p></e>
+<e><p><l>namoradizo<s n="adj"/></l><r>namoradizu<s n="adj"/></r></p></e>
+<e><p><l>napoleónico<s n="adj"/></l><r>napoleónicu<s n="adj"/></r></p></e>
+<e><p><l>napolitán<s n="adj"/></l><r>napolitán<s n="adj"/></r></p></e>
+<e><p><l>napolitano<s n="adj"/></l><r>napolitanu<s n="adj"/></r></p></e>
+<e><p><l>narcótico<s n="adj"/></l><r>narcóticu<s n="adj"/></r></p></e>
+<e><p><l>narigón<s n="adj"/></l><r>narigón<s n="adj"/></r></p></e>
+<e><p><l>anglicista<s n="adj"/></l><r>anglicista<s n="adj"/></r></p></e>
+<e><p><l>narigudo<s n="adj"/></l><r>narigudu<s n="adj"/></r></p></e>
+<e><p><l>narizón<s n="adj"/></l><r>narizón<s n="adj"/></r></p></e>
+<e><p><l>narrativo<s n="adj"/></l><r>narrativu<s n="adj"/></r></p></e>
+<e><p><l>nasal<s n="adj"/></l><r>nasal<s n="adj"/></r></p></e>
+<e><p><l>natal<s n="adj"/></l><r>natal<s n="adj"/></r></p></e>
+<e><p><l>nativo<s n="adj"/></l><r>nativu<s n="adj"/></r></p></e>
+<e><p><l>naturalista<s n="adj"/></l><r>naturalista<s n="adj"/></r></p></e>
+<e><p><l>naturista<s n="adj"/></l><r>naturista<s n="adj"/></r></p></e>
+<e><p><l>naval<s n="adj"/></l><r>naval<s n="adj"/></r></p></e>
+<e><p><l>navegable<s n="adj"/></l><r>navegable<s n="adj"/></r></p></e>
+<e><p><l>anglista<s n="adj"/></l><r>anglista<s n="adj"/></r></p></e>
+<e><p><l>navegante<s n="adj"/></l><r>navegante<s n="adj"/></r></p></e>
+<e><p><l>naveto<s n="adj"/></l><r>navetu<s n="adj"/></r></p></e>
+<e><p><l>naviego<s n="adj"/></l><r>naviegu<s n="adj"/></r></p></e>
+<e><p><l>naviero<s n="adj"/></l><r>navieru<s n="adj"/></r></p></e>
+<e><p><l>nazareno<s n="adj"/></l><r>nazarenu<s n="adj"/></r></p></e>
+<e><p><l>necio<s n="adj"/></l><r>neciu<s n="adj"/></r></p></e>
+<e><p><l>necrófago<s n="adj"/></l><r>necrófagu<s n="adj"/></r></p></e>
+<e><p><l>necrófilo<s n="adj"/></l><r>necrófilu<s n="adj"/></r></p></e>
+<e><p><l>necrológico<s n="adj"/></l><r>necrolóxicu<s n="adj"/></r></p></e>
+<e><p><l>nefrítico<s n="adj"/></l><r>nefríticu<s n="adj"/></r></p></e>
+<e><p><l>negado<s n="adj"/></l><r>negáu<s n="adj"/></r></p></e>
+<e><p><l>negociable<s n="adj"/></l><r>negociable<s n="adj"/></r></p></e>
+<e><p><l>negociante<s n="adj"/></l><r>negociante<s n="adj"/></r></p></e>
+<e><p><l>ninguno<s n="adj"/></l><r>nengunu<s n="adj"/></r></p></e>
+<e><p><l>neoclasicista<s n="adj"/></l><r>neoclasicista<s n="adj"/></r></p></e>
+<e><p><l>neoclásico<s n="adj"/></l><r>neoclásicu<s n="adj"/></r></p></e>
+<e><p><l>neocolonial<s n="adj"/></l><r>neocolonial<s n="adj"/></r></p></e>
+<e><p><l>neocolonialista<s n="adj"/></l><r>neocolonialista<s n="adj"/></r></p></e>
+<e><p><l>neogótico<s n="adj"/></l><r>neogóticu<s n="adj"/></r></p></e>
+<e><p><l>neoimpresionista<s n="adj"/></l><r>neoimpresionista<s n="adj"/></r></p></e>
+<e><p><l>neolítico<s n="adj"/></l><r>neolíticu<s n="adj"/></r></p></e>
+<e><p><l>neoliberal<s n="adj"/></l><r>neolliberal<s n="adj"/></r></p></e>
+<e><p><l>neológico<s n="adj"/></l><r>neolóxicu<s n="adj"/></r></p></e>
+<e><p><l>neonazi<s n="adj"/></l><r>neonazi<s n="adj"/></r></p></e>
+<e><p><l>neoplatónico<s n="adj"/></l><r>neoplatónicu<s n="adj"/></r></p></e>
+<e><p><l>neorromántico<s n="adj"/></l><r>neorrománticu<s n="adj"/></r></p></e>
+<e><p><l>neozelandés<s n="adj"/></l><r>neozelandés<s n="adj"/></r></p></e>
+<e><p><l>neperiano<s n="adj"/></l><r>neperianu<s n="adj"/></r></p></e>
+<e><p><l>neto<s n="adj"/></l><r>netu<s n="adj"/></r></p></e>
+<e><p><l>neumático<s n="adj"/></l><r>neumáticu<s n="adj"/></r></p></e>
+<e><p><l>neumológico<s n="adj"/></l><r>neumolóxicu<s n="adj"/></r></p></e>
+<e><p><l>neural<s n="adj"/></l><r>neural<s n="adj"/></r></p></e>
+<e><p><l>neurálgico<s n="adj"/></l><r>neurálxicu<s n="adj"/></r></p></e>
+<e><p><l>neurasténico<s n="adj"/></l><r>neurasténicu<s n="adj"/></r></p></e>
+<e><p><l>neurológico<s n="adj"/></l><r>neurolóxicu<s n="adj"/></r></p></e>
+<e><p><l>neurópata<s n="adj"/></l><r>neurópata<s n="adj"/></r></p></e>
+<e><p><l>neuropático<s n="adj"/></l><r>neuropáticu<s n="adj"/></r></p></e>
+<e><p><l>neuropsiquiátrico<s n="adj"/></l><r>neurosiquiátricu<s n="adj"/></r></p></e>
+<e><p><l>neurótico<s n="adj"/></l><r>neuróticu<s n="adj"/></r></p></e>
+<e><p><l>anímico<s n="adj"/></l><r>anímicu<s n="adj"/></r></p></e>
+<e><p><l>neutral<s n="adj"/></l><r>neutral<s n="adj"/></r></p></e>
+<e><p><l>neutro<s n="adj"/></l><r>neutru<s n="adj"/></r></p></e>
+<e><p><l>nicotínico<s n="adj"/></l><r>nicotínicu<s n="adj"/></r></p></e>
+<e><p><l>nigromántico<s n="adj"/></l><r>nigrománticu<s n="adj"/></r></p></e>
+<e><p><l>nihilista<s n="adj"/></l><r>nihilista<s n="adj"/></r></p></e>
+<e><p><l>nilótico<s n="adj"/></l><r>nilóticu<s n="adj"/></r></p></e>
+<e><p><l>ninfómano<s n="adj"/></l><r>ninfómanu<s n="adj"/></r></p></e>
+<e><p><l>niquelado<s n="adj"/></l><r>niqueláu<s n="adj"/></r></p></e>
+<e><p><l>nobiliario<s n="adj"/></l><r>nobiliariu<s n="adj"/></r></p></e>
+<e><p><l>nocional<s n="adj"/></l><r>nocional<s n="adj"/></r></p></e>
+<e><p><l>nocivo<s n="adj"/></l><r>nocivu<s n="adj"/></r></p></e>
+<e><p><l>nómada<s n="adj"/></l><r>nómada<s n="adj"/></r></p></e>
+<e><p><l>nomado<s n="adj"/></l><r>nomáu<s n="adj"/></r></p></e>
+<e><p><l>nominal<s n="adj"/></l><r>nominal<s n="adj"/></r></p></e>
+<e><p><l>nominalista<s n="adj"/></l><r>nominalista<s n="adj"/></r></p></e>
+<e><p><l>nominativo<s n="adj"/></l><r>nominativu<s n="adj"/></r></p></e>
+<e><p><l>nórdico<s n="adj"/></l><r>nórdicu<s n="adj"/></r></p></e>
+<e><p><l>normando<s n="adj"/></l><r>normandu<s n="adj"/></r></p></e>
+<e><p><l>normativo<s n="adj"/></l><r>normativu<s n="adj"/></r></p></e>
+<e><p><l>noseológico<s n="adj"/></l><r>noseolóxicu<s n="adj"/></r></p></e>
+<e><p><l>anoréxico<s n="adj"/></l><r>anoréxicu<s n="adj"/></r></p></e>
+<e><p><l>notarial<s n="adj"/></l><r>notarial<s n="adj"/></r></p></e>
+<e><p><l>notado<s n="adj"/></l><r>notáu<s n="adj"/></r></p></e>
+<e><p><l>notorio<s n="adj"/></l><r>notoriu<s n="adj"/></r></p></e>
+<e><p><l>novato<s n="adj"/></l><r>novatu<s n="adj"/></r></p></e>
+<e><p><l>novedoso<s n="adj"/></l><r>novedosu<s n="adj"/></r></p></e>
+<e><p><l>novelero<s n="adj"/></l><r>noveleru<s n="adj"/></r></p></e>
+<e><p><l>novelesco<s n="adj"/></l><r>novelescu<s n="adj"/></r></p></e>
+<e><p><l>noveno<s n="adj"/></l><r>novenu<s n="adj"/></r></p></e>
+<e><p><l>novicio<s n="adj"/></l><r>noviciu<s n="adj"/></r></p></e>
+<e><p><l>nubio<s n="adj"/></l><r>nubiu<s n="adj"/></r></p></e>
+<e><p><l>anormal<s n="adj"/></l><r>anormal<s n="adj"/></r></p></e>
+<e><p><l>nubloso<s n="adj"/></l><r>nublosu<s n="adj"/></r></p></e>
+<e><p><l>nudista<s n="adj"/></l><r>nudista<s n="adj"/></r></p></e>
+<e><p><l>nudoso<s n="adj"/></l><r>nudosu<s n="adj"/></r></p></e>
+<e><p><l>nulo<s n="adj"/></l><r>nulu<s n="adj"/></r></p></e>
+<e><p><l>númida<s n="adj"/></l><r>númida<s n="adj"/></r></p></e>
+<e><p><l>numismático<s n="adj"/></l><r>numismáticu<s n="adj"/></r></p></e>
+<e><p><l>nuncio<s n="adj"/></l><r>nunciu<s n="adj"/></r></p></e>
+<e><p><l>nutricio<s n="adj"/></l><r>nutriciu<s n="adj"/></r></p></e>
+<e><p><l>nutritivo<s n="adj"/></l><r>nutritivu<s n="adj"/></r></p></e>
+<e><p><l>ñarro<s n="adj"/></l><r>ñarru<s n="adj"/></r></p></e>
+<e><p><l>anovulatorio<s n="adj"/></l><r>anovulatoriu<s n="adj"/></r></p></e>
+<e><p><l>ñaso<s n="adj"/></l><r>ñasu<s n="adj"/></r></p></e>
+<e><p><l>ñato<s n="adj"/></l><r>ñatu<s n="adj"/></r></p></e>
+<e><p><l>navayero<s n="adj"/></l><r>ñavayeru<s n="adj"/></r></p></e>
+<e><p><l>navidiego<s n="adj"/></l><r>ñavidiegu<s n="adj"/></r></p></e>
+<e><p><l>necio<s n="adj"/></l><r>ñeciu<s n="adj"/></r></p></e>
+<e><p><l>negado<s n="adj"/></l><r>ñegáu<s n="adj"/></r></p></e>
+<e><p><l>negrero<s n="adj"/></l><r>ñegreru<s n="adj"/></r></p></e>
+<e><p><l>negriento<s n="adj"/></l><r>ñegrientu<s n="adj"/></r></p></e>
+<e><p><l>negro<s n="adj"/></l><r>ñegru<s n="adj"/></r></p></e>
+<e><p><l>ñeñego<s n="adj"/></l><r>ñeñegu<s n="adj"/></r></p></e>
+<e><p><l>antártico<s n="adj"/></l><r>antárticu<s n="adj"/></r></p></e>
+<e><p><l>niñero<s n="adj"/></l><r>ñeñeru<s n="adj"/></r></p></e>
+<e><p><l>niño<s n="adj"/></l><r>ñeñu<s n="adj"/></r></p></e>
+<e><p><l>nerón<s n="adj"/></l><r>ñerón<s n="adj"/></r></p></e>
+<e><p><l>nervioso<s n="adj"/></l><r>ñerviosu<s n="adj"/></r></p></e>
+<e><p><l>nerviudo<s n="adj"/></l><r>ñerviudu<s n="adj"/></r></p></e>
+<e><p><l>nervoso<s n="adj"/></l><r>ñervosu<s n="adj"/></r></p></e>
+<e><p><l>nervudo<s n="adj"/></l><r>ñervudu<s n="adj"/></r></p></e>
+<e><p><l>neto<s n="adj"/></l><r>ñetu<s n="adj"/></r></p></e>
+<e><p><l>ñoño<s n="adj"/></l><r>ñoñu<s n="adj"/></r></p></e>
+<e><p><l>novato<s n="adj"/></l><r>ñovatu<s n="adj"/></r></p></e>
+<e><p><l>nubloso<s n="adj"/></l><r>ñublosu<s n="adj"/></r></p></e>
+<e><p><l>nublo<s n="adj"/></l><r>ñublu<s n="adj"/></r></p></e>
+<e><p><l>nudoso<s n="adj"/></l><r>ñudosu<s n="adj"/></r></p></e>
+<e><p><l>nuevo<s n="adj"/></l><r>ñuevu<s n="adj"/></r></p></e>
 
 <e><p><l>aparador<s n="n"/></l><r>aparador<s n="n"/></r></p></e>
-<e><p><l>apartadero<s n="n"/></l><r>apartaderu<s n="n"/></r></p></e>
-<e><p><l>aparejamiento<s n="n"/></l><r>apareyamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>aparejamiento<s n="n"/><s n="m"/></l><r>apareyadura<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>apicultura<s n="n"/></l><r>apicultura<s n="n"/></r></p></e>
-<e><p><l>arrasamiento<s n="n"/></l><r>arrasamientu<s n="n"/></r></p></e>
-<e r="RL"><p><l>arrasamiento<s n="n"/><s n="m"/></l><r>arrasadura<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>arrastradero<s n="n"/></l><r>arrastradoriu<s n="n"/></r></p></e>
-
+<e><p><l>obediente<s n="adj"/></l><r>obediente<s n="adj"/></r></p></e>
+<e><p><l>obispal<s n="adj"/></l><r>obispal<s n="adj"/></r></p></e>
+<e><p><l>oblicuo<s n="adj"/></l><r>oblicuu<s n="adj"/></r></p></e>
+<e><p><l>obligatorio<s n="adj"/></l><r>obligatoriu<s n="adj"/></r></p></e>
+<e><p><l>obligado<s n="adj"/></l><r>obligáu<s n="adj"/></r></p></e>
+<e><p><l>obrerista<s n="adj"/></l><r>obrerista<s n="adj"/></r></p></e>
+<e><p><l>observable<s n="adj"/></l><r>observable<s n="adj"/></r></p></e>
+<e><p><l>obseso<s n="adj"/></l><r>obsesu<s n="adj"/></r></p></e>
+<e><p><l>obtuso<s n="adj"/></l><r>obtusu<s n="adj"/></r></p></e>
+<e><p><l>ocasional<s n="adj"/></l><r>ocasional<s n="adj"/></r></p></e>
+<e><p><l>occipital<s n="adj"/></l><r>occipital<s n="adj"/></r></p></e>
+<e><p><l>occitánico<s n="adj"/></l><r>occitánicu<s n="adj"/></r></p></e>
+<e><p><l>occitanista<s n="adj"/></l><r>occitanista<s n="adj"/></r></p></e>
+<e><p><l>occitano<s n="adj"/></l><r>occitanu<s n="adj"/></r></p></e>
+<e><p><l>oceánico<s n="adj"/></l><r>oceánicu<s n="adj"/></r></p></e>
+<e><p><l>oceanográfico<s n="adj"/></l><r>oceanográficu<s n="adj"/></r></p></e>
+<e><p><l>ocioso<s n="adj"/></l><r>ociosu<s n="adj"/></r></p></e>
+<e><p><l>oclusivo<s n="adj"/></l><r>oclusivu<s n="adj"/></r></p></e>
+<e><p><l>octaédrico<s n="adj"/></l><r>octaédricu<s n="adj"/></r></p></e>
+<e><p><l>octogonal<s n="adj"/></l><r>octogonal<s n="adj"/></r></p></e>
+<e><p><l>óctuple<s n="adj"/></l><r>óctuple<s n="adj"/></r></p></e>
+<e><p><l>ocular<s n="adj"/></l><r>ocular<s n="adj"/></r></p></e>
+<e><p><l>ocultista<s n="adj"/></l><r>ocultista<s n="adj"/></r></p></e>
+<e><p><l>ocurrente<s n="adj"/></l><r>ocurrente<s n="adj"/></r></p></e>
+<e><p><l>odioso<s n="adj"/></l><r>odiosu<s n="adj"/></r></p></e>
+<e><p><l>odontológico<s n="adj"/></l><r>odontolóxicu<s n="adj"/></r></p></e>
+<e><p><l>antiasturianista<s n="adj"/></l><r>antiasturianista<s n="adj"/></r></p></e>
+<e r="LR"><p><l>abrasador<s n="adj"/><s n="f"/><s n="pl"/></l><r>abrasador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>abrasador<s n="adj"/><s n="f"/><s n="sg"/></l><r>abrasador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>abrasador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>abrasador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>abrasador<s n="adj"/><s n="m"/><s n="pl"/></l><r>abrasador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>abrasador<s n="adj"/><s n="m"/><s n="sg"/></l><r>abrasador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>oficioso<s n="adj"/></l><r>oficiosu<s n="adj"/></r></p></e>
+<e><p><l>oftalmológico<s n="adj"/></l><r>oftalmolóxicu<s n="adj"/></r></p></e>
+<e><p><l>olfativo<s n="adj"/></l><r>olfativu<s n="adj"/></r></p></e>
+<e><p><l>oligárquico<s n="adj"/></l><r>oligárquicu<s n="adj"/></r></p></e>
+<e><p><l>oligoceno<s n="adj"/></l><r>oligocenu<s n="adj"/></r></p></e>
+<e><p><l>oligofrénico<s n="adj"/></l><r>oligofrénicu<s n="adj"/></r></p></e>
+<e><p><l>olmeca<s n="adj"/></l><r>olmeca<s n="adj"/></r></p></e>
+<e><p><l>olvidadizo<s n="adj"/></l><r>olvidadizu<s n="adj"/></r></p></e>
+<e><p><l>omeya<s n="adj"/></l><r>omeya<s n="adj"/></r></p></e>
+<e><p><l>omnipotente<s n="adj"/></l><r>omnipotente<s n="adj"/></r></p></e>
+<e><p><l>omnipresente<s n="adj"/></l><r>omnipresente<s n="adj"/></r></p></e>
+<e><p><l>omnívoro<s n="adj"/></l><r>omnívoru<s n="adj"/></r></p></e>
+<e><p><l>onanista<s n="adj"/></l><r>onanista<s n="adj"/></r></p></e>
+<e><p><l>oncológico<s n="adj"/></l><r>oncolóxicu<s n="adj"/></r></p></e>
+<e><p><l>ondulatorio<s n="adj"/></l><r>ondulatoriu<s n="adj"/></r></p></e>
+<e><p><l>onírico<s n="adj"/></l><r>oníricu<s n="adj"/></r></p></e>
+<e><p><l>onomástico<s n="adj"/></l><r>onomásticu<s n="adj"/></r></p></e>
+<e><p><l>onomatopéyico<s n="adj"/></l><r>onomatopéyicu<s n="adj"/></r></p></e>
+<e><p><l>ontológico<s n="adj"/></l><r>ontolóxicu<s n="adj"/></r></p></e>
+<e><p><l>opcional<s n="adj"/></l><r>opcional<s n="adj"/></r></p></e>
+<e><p><l>operatorio<s n="adj"/></l><r>operatoriu<s n="adj"/></r></p></e>
+<e><p><l>operístico<s n="adj"/></l><r>operísticu<s n="adj"/></r></p></e>
+<e><p><l>opinable<s n="adj"/></l><r>opinable<s n="adj"/></r></p></e>
+<e><p><l>oponente<s n="adj"/></l><r>oponente<s n="adj"/></r></p></e>
+<e><p><l>oportunista<s n="adj"/></l><r>oportunista<s n="adj"/></r></p></e>
+<e><p><l>optativo<s n="adj"/></l><r>optativu<s n="adj"/></r></p></e>
+<e><p><l>optimista<s n="adj"/></l><r>optimista<s n="adj"/></r></p></e>
+<e><p><l>oracional<s n="adj"/></l><r>oracional<s n="adj"/></r></p></e>
+<e><p><l>oratorio<s n="adj"/></l><r>oratoriu<s n="adj"/></r></p></e>
+<e><p><l>orbital<s n="adj"/></l><r>orbital<s n="adj"/></r></p></e>
+<e><p><l>ordinal<s n="adj"/></l><r>ordinal<s n="adj"/></r></p></e>
+<e><p><l>ordinario<s n="adj"/></l><r>ordinariu<s n="adj"/></r></p></e>
+<e><p><l>oriundo<s n="adj"/></l><r>oriundu<s n="adj"/></r></p></e>
+<e><p><l>ornitológico<s n="adj"/></l><r>ornitolóxicu<s n="adj"/></r></p></e>
+<e><p><l>orográfico<s n="adj"/></l><r>orográficu<s n="adj"/></r></p></e>
+<e><p><l>oronímico<s n="adj"/></l><r>oronímicu<s n="adj"/></r></p></e>
+<e><p><l>orogénico<s n="adj"/></l><r>oroxénicu<s n="adj"/></r></p></e>
+<e><p><l>orquestal<s n="adj"/></l><r>orquestal<s n="adj"/></r></p></e>
+<e><p><l>ortigado<s n="adj"/></l><r>ortigáu<s n="adj"/></r></p></e>
+<e><p><l>ortodoxo<s n="adj"/></l><r>ortodoxu<s n="adj"/></r></p></e>
+<e><p><l>ortoédrico<s n="adj"/></l><r>ortoédricu<s n="adj"/></r></p></e>
+<e><p><l>ortofónico<s n="adj"/></l><r>ortofónicu<s n="adj"/></r></p></e>
+<e><p><l>ortogonal<s n="adj"/></l><r>ortogonal<s n="adj"/></r></p></e>
+<e><p><l>ortográfico<s n="adj"/></l><r>ortográficu<s n="adj"/></r></p></e>
+<e><p><l>ortológico<s n="adj"/></l><r>ortolóxicu<s n="adj"/></r></p></e>
+<e><p><l>ortopédico<s n="adj"/></l><r>ortopédicu<s n="adj"/></r></p></e>
+<e><p><l>oscilatorio<s n="adj"/></l><r>oscilatoriu<s n="adj"/></r></p></e>
+<e><p><l>osco<s n="adj"/></l><r>oscu<s n="adj"/></r></p></e>
+<e><p><l>osetio<s n="adj"/></l><r>osetiu<s n="adj"/></r></p></e>
+<e><p><l>osteológico<s n="adj"/></l><r>osteolóxicu<s n="adj"/></r></p></e>
+<e><p><l>ostrogodo<s n="adj"/></l><r>ostrogodu<s n="adj"/></r></p></e>
+<e><p><l>otomano<s n="adj"/></l><r>otomanu<s n="adj"/></r></p></e>
+<e><p><l>oval<s n="adj"/></l><r>oval<s n="adj"/></r></p></e>
+<e><p><l>ovíparo<s n="adj"/></l><r>ovíparu<s n="adj"/></r></p></e>
+<e><p><l>objetivo<s n="adj"/></l><r>oxetivu<s n="adj"/></r></p></e>
+<e><p><l>oxidante<s n="adj"/></l><r>oxidante<s n="adj"/></r></p></e>
+<e><p><l>pacifista<s n="adj"/></l><r>pacifista<s n="adj"/></r></p></e>
+<e><p><l>paecido<s n="adj"/></l><r>paecíu<s n="adj"/></r></p></e>
+<e><p><l>pagadero<s n="adj"/></l><r>pagaderu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pagador<s n="adj"/><s n="f"/><s n="pl"/></l><r>pagador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pagador<s n="adj"/><s n="f"/><s n="sg"/></l><r>pagador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>pagador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>pagador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>pagador<s n="adj"/><s n="m"/><s n="pl"/></l><r>pagador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pagador<s n="adj"/><s n="m"/><s n="sg"/></l><r>pagador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>pagano<s n="adj"/></l><r>paganu<s n="adj"/></r></p></e>
+<e><p><l>palabrero<s n="adj"/></l><r>palabreru<s n="adj"/></r></p></e>
+<e><p><l>palatal<s n="adj"/></l><r>palatal<s n="adj"/></r></p></e>
+<e><p><l>palenciano<s n="adj"/></l><r>palencianu<s n="adj"/></r></p></e>
+<e><p><l>paleoceno<s n="adj"/></l><r>paleocenu<s n="adj"/></r></p></e>
+<e><p><l>paleocristiano<s n="adj"/></l><r>paleocristianu<s n="adj"/></r></p></e>
+<e><p><l>paleográfico<s n="adj"/></l><r>paleográficu<s n="adj"/></r></p></e>
+<e><p><l>paleolítico<s n="adj"/></l><r>paleolíticu<s n="adj"/></r></p></e>
+<e><p><l>paleológico<s n="adj"/></l><r>paleolóxicu<s n="adj"/></r></p></e>
+<e><p><l>paleontológico<s n="adj"/></l><r>paleontolóxicu<s n="adj"/></r></p></e>
+<e><p><l>paleozoico<s n="adj"/></l><r>paleozoicu<s n="adj"/></r></p></e>
+<e><p><l>paleto<s n="adj"/></l><r>paletu<s n="adj"/></r></p></e>
+<e><p><l>pálido<s n="adj"/></l><r>pálíu<s n="adj"/></r></p></e>
+<e><p><l>palinológico<s n="adj"/></l><r>palinolóxicu<s n="adj"/></r></p></e>
+<e><p><l>palmero<s n="adj"/></l><r>palmeru<s n="adj"/></r></p></e>
+<e><p><l>palmón<s n="adj"/></l><r>palmón<s n="adj"/></r></p></e>
+<e><p><l>palúdico<s n="adj"/></l><r>palúdicu<s n="adj"/></r></p></e>
+<e><p><l>pamplonés<s n="adj"/></l><r>pamplonés<s n="adj"/></r></p></e>
+<e><p><l>panafricano<s n="adj"/></l><r>panafricanu<s n="adj"/></r></p></e>
+<e><p><l>panamericano<s n="adj"/></l><r>panamericanu<s n="adj"/></r></p></e>
+<e><p><l>panarabista<s n="adj"/></l><r>panarabista<s n="adj"/></r></p></e>
+<e><p><l>pancreático<s n="adj"/></l><r>pancreáticu<s n="adj"/></r></p></e>
+<e><p><l>pandémico<s n="adj"/></l><r>pandémicu<s n="adj"/></r></p></e>
+<e><p><l>panderero<s n="adj"/></l><r>pandereru<s n="adj"/></r></p></e>
+<e><p><l>panderetero<s n="adj"/></l><r>pandereteru<s n="adj"/></r></p></e>
+<e><p><l>paneuropeísta<s n="adj"/></l><r>paneuropeísta<s n="adj"/></r></p></e>
+<e><p><l>paneuropeo<s n="adj"/></l><r>paneuropéu<s n="adj"/></r></p></e>
+<e><p><l>panegírico<s n="adj"/></l><r>panexíricu<s n="adj"/></r></p></e>
+<e><p><l>antidemocrático<s n="adj"/></l><r>antidemocráticu<s n="adj"/></r></p></e>
+<e><p><l>pánfilo<s n="adj"/></l><r>pánfilu<s n="adj"/></r></p></e>
+<e><p><l>panfletero<s n="adj"/></l><r>panfleteru<s n="adj"/></r></p></e>
+<e><p><l>panhelénico<s n="adj"/></l><r>panhelénicu<s n="adj"/></r></p></e>
+<e><p><l>panhelenista<s n="adj"/></l><r>panhelenista<s n="adj"/></r></p></e>
+<e><p><l>panislámico<s n="adj"/></l><r>panislámicu<s n="adj"/></r></p></e>
+<e><p><l>panislamista<s n="adj"/></l><r>panislamista<s n="adj"/></r></p></e>
+<e><p><l>panorámico<s n="adj"/></l><r>panorámicu<s n="adj"/></r></p></e>
+<e><p><l>pantanoso<s n="adj"/></l><r>pantanosu<s n="adj"/></r></p></e>
+<e><p><l>panteísta<s n="adj"/></l><r>panteísta<s n="adj"/></r></p></e>
+<e><p><l>pangermanista<s n="adj"/></l><r>panxermanista<s n="adj"/></r></p></e>
+<e><p><l>antideportivo<s n="adj"/></l><r>antideportivu<s n="adj"/></r></p></e>
+<e><p><l>abridero<s n="adj"/></l><r>abrideru<s n="adj"/></r></p></e>
+<e><p><l>panzudo<s n="adj"/></l><r>panzudu<s n="adj"/></r></p></e>
+<e><p><l>papal<s n="adj"/></l><r>papal<s n="adj"/></r></p></e>
+<e><p><l>paparón<s n="adj"/></l><r>paparón<s n="adj"/></r></p></e>
+<e><p><l>papelero<s n="adj"/></l><r>papeleru<s n="adj"/></r></p></e>
+<e><p><l>papelludo<s n="adj"/></l><r>papelludu<s n="adj"/></r></p></e>
+<e><p><l>papilar<s n="adj"/></l><r>papilar<s n="adj"/></r></p></e>
+<e><p><l>papista<s n="adj"/></l><r>papista<s n="adj"/></r></p></e>
+<e><p><l>papón<s n="adj"/></l><r>papón<s n="adj"/></r></p></e>
+<e><p><l>paquistaní<s n="adj"/></l><r>paquistanín<s n="adj"/></r></p></e>
+<e><p><l>antidepresivo<s n="adj"/></l><r>antidepresivu<s n="adj"/></r></p></e>
+<e><p><l>parabólico<s n="adj"/></l><r>parabólicu<s n="adj"/></r></p></e>
+<e><p><l>paradigmático<s n="adj"/></l><r>paradigmáticu<s n="adj"/></r></p></e>
+<e><p><l>paradisíaco<s n="adj"/></l><r>paradisiacu<s n="adj"/></r></p></e>
+<e><p><l>parafrástico<s n="adj"/></l><r>parafrásticu<s n="adj"/></r></p></e>
+<e><p><l>paramilitar<s n="adj"/></l><r>paramilitar<s n="adj"/></r></p></e>
+<e><p><l>paranoico<s n="adj"/></l><r>paranoicu<s n="adj"/></r></p></e>
+<e><p><l>paranoide<s n="adj"/></l><r>paranoide<s n="adj"/></r></p></e>
+<e><p><l>paranormal<s n="adj"/></l><r>paranormal<s n="adj"/></r></p></e>
+<e><p><l>parasicológico<s n="adj"/></l><r>parasicolóxicu<s n="adj"/></r></p></e>
+<e><p><l>parasimpático<s n="adj"/></l><r>parasimpáticu<s n="adj"/></r></p></e>
+<e><p><l>antiespañol<s n="adj"/></l><r>antiespañol<s n="adj"/></r></p></e>
+<e><p><l>parasintético<s n="adj"/></l><r>parasintéticu<s n="adj"/></r></p></e>
+<e><p><l>parasitológico<s n="adj"/></l><r>parasitolóxicu<s n="adj"/></r></p></e>
+<e><p><l>parásito<s n="adj"/></l><r>parásitu<s n="adj"/></r></p></e>
+<e><p><l>pardo<s n="adj"/></l><r>pardu<s n="adj"/></r></p></e>
+<e><p><l>paremiológico<s n="adj"/></l><r>paremiolóxicu<s n="adj"/></r></p></e>
+<e><p><l>parenquimático<s n="adj"/></l><r>parenquimáticu<s n="adj"/></r></p></e>
+<e><p><l>parenteral<s n="adj"/></l><r>parenteral<s n="adj"/></r></p></e>
+<e><p><l>parentético<s n="adj"/></l><r>parentéticu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>paridor<s n="adj"/><s n="f"/><s n="pl"/></l><r>paridor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>paridor<s n="adj"/><s n="f"/><s n="sg"/></l><r>paridor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>paridor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>paridor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>paridor<s n="adj"/><s n="m"/><s n="pl"/></l><r>paridor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>paridor<s n="adj"/><s n="m"/><s n="sg"/></l><r>paridor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>parietal<s n="adj"/></l><r>parietal<s n="adj"/></r></p></e>
+<e><p><l>antifascista<s n="adj"/></l><r>antifascista<s n="adj"/></r></p></e>
+<e><p><l>parlamentario<s n="adj"/></l><r>parlamentariu<s n="adj"/></r></p></e>
+<e><p><l>paródico<s n="adj"/></l><r>paródicu<s n="adj"/></r></p></e>
+<e><p><l>paroxítono<s n="adj"/></l><r>paroxítonu<s n="adj"/></r></p></e>
+<e><p><l>parragués<s n="adj"/></l><r>parragués<s n="adj"/></r></p></e>
+<e><p><l>parrado<s n="adj"/></l><r>parráu<s n="adj"/></r></p></e>
+<e><p><l>parroquial<s n="adj"/></l><r>parroquial<s n="adj"/></r></p></e>
+<e><p><l>parroquiano<s n="adj"/></l><r>parroquianu<s n="adj"/></r></p></e>
+<e><p><l>participante<s n="adj"/></l><r>participante<s n="adj"/></r></p></e>
+<e><p><l>participativo<s n="adj"/></l><r>participativu<s n="adj"/></r></p></e>
+<e><p><l>participial<s n="adj"/></l><r>participial<s n="adj"/></r></p></e>
+<e><p><l>antigás<s n="adj"/></l><r>antigás<s n="adj"/></r></p></e>
+<e><p><l>partidario<s n="adj"/></l><r>partidariu<s n="adj"/></r></p></e>
+<e><p><l>partidero<s n="adj"/></l><r>partideru<s n="adj"/></r></p></e>
+<e><p><l>partidista<s n="adj"/></l><r>partidista<s n="adj"/></r></p></e>
+<e><p><l>partitivo<s n="adj"/></l><r>partitivu<s n="adj"/></r></p></e>
+<e><p><l>pascual<s n="adj"/></l><r>pascual<s n="adj"/></r></p></e>
+<e><p><l>pasero<s n="adj"/></l><r>paseru<s n="adj"/></r></p></e>
+<e><p><l>paseante<s n="adj"/></l><r>pasiante<s n="adj"/></r></p></e>
+<e><p><l>pasional<s n="adj"/></l><r>pasional<s n="adj"/></r></p></e>
+<e><p><l>pasido<s n="adj"/></l><r>pasíu<s n="adj"/></r></p></e>
+<e><p><l>pastelero<s n="adj"/></l><r>pasteleru<s n="adj"/></r></p></e>
+<e><p><l>antillano<s n="adj"/></l><r>antillanu<s n="adj"/></r></p></e>
+<e><p><l>pastoral<s n="adj"/></l><r>pastoral<s n="adj"/></r></p></e>
+<e><p><l>pastoso<s n="adj"/></l><r>pastosu<s n="adj"/></r></p></e>
+<e><p><l>pátaro<s n="adj"/></l><r>pátaru<s n="adj"/></r></p></e>
+<e><p><l>patatero<s n="adj"/></l><r>patateru<s n="adj"/></r></p></e>
+<e><p><l>paternal<s n="adj"/></l><r>paternal<s n="adj"/></r></p></e>
+<e><p><l>paternalista<s n="adj"/></l><r>paternalista<s n="adj"/></r></p></e>
+<e><p><l>paterno<s n="adj"/></l><r>paternu<s n="adj"/></r></p></e>
+<e><p><l>patero<s n="adj"/></l><r>pateru<s n="adj"/></r></p></e>
+<e><p><l>patilargo<s n="adj"/></l><r>patillargu<s n="adj"/></r></p></e>
+<e><p><l>patológico<s n="adj"/></l><r>patolóxicu<s n="adj"/></r></p></e>
+<e><p><l>antimilitarista<s n="adj"/></l><r>antimilitarista<s n="adj"/></r></p></e>
+<e><p><l>patón<s n="adj"/></l><r>patón<s n="adj"/></r></p></e>
+<e><p><l>patoso<s n="adj"/></l><r>patosu<s n="adj"/></r></p></e>
+<e><p><l>patoxénico<s n="adj"/></l><r>patoxénicu<s n="adj"/></r></p></e>
+<e><p><l>patógeno<s n="adj"/></l><r>patóxenu<s n="adj"/></r></p></e>
+<e><p><l>patrañero<s n="adj"/></l><r>patrañeru<s n="adj"/></r></p></e>
+<e><p><l>patriarcal<s n="adj"/></l><r>patriarcal<s n="adj"/></r></p></e>
+<e><p><l>patricio<s n="adj"/></l><r>patriciu<s n="adj"/></r></p></e>
+<e><p><l>patrimonial<s n="adj"/></l><r>patrimonial<s n="adj"/></r></p></e>
+<e><p><l>patriota<s n="adj"/></l><r>patriota<s n="adj"/></r></p></e>
+<e><p><l>patriotero<s n="adj"/></l><r>patrioteru<s n="adj"/></r></p></e>
+<e><p><l>patriótico<s n="adj"/></l><r>patrióticu<s n="adj"/></r></p></e>
+<e><p><l>patrístico<s n="adj"/></l><r>patrísticu<s n="adj"/></r></p></e>
+<e><p><l>patrio<s n="adj"/></l><r>patriu<s n="adj"/></r></p></e>
+<e><p><l>patronal<s n="adj"/></l><r>patronal<s n="adj"/></r></p></e>
+<e><p><l>patronímico<s n="adj"/></l><r>patronímicu<s n="adj"/></r></p></e>
+<e><p><l>pato<s n="adj"/></l><r>patu<s n="adj"/></r></p></e>
+<e><p><l>pato<s n="adj"/></l><r>patu<s n="adj"/></r></p></e>
+<e><p><l>pausado<s n="adj"/></l><r>pausáu<s n="adj"/></r></p></e>
+<e><p><l>pavoroso<s n="adj"/></l><r>pavorosu<s n="adj"/></r></p></e>
+<e><p><l>pazguato<s n="adj"/></l><r>pazguatu<s n="adj"/></r></p></e>
+<e><p><l>pecaminoso<s n="adj"/></l><r>pecaminosu<s n="adj"/></r></p></e>
+<e><p><l>pectoral<s n="adj"/></l><r>pectoral<s n="adj"/></r></p></e>
+<e><p><l>pecuario<s n="adj"/></l><r>pecuariu<s n="adj"/></r></p></e>
+<e><p><l>pecuniario<s n="adj"/></l><r>pecuniariu<s n="adj"/></r></p></e>
+<e><p><l>pedagógico<s n="adj"/></l><r>pedagóxicu<s n="adj"/></r></p></e>
+<e><p><l>pedestre<s n="adj"/></l><r>pedestre<s n="adj"/></r></p></e>
+<e><p><l>pediátrico<s n="adj"/></l><r>pediátricu<s n="adj"/></r></p></e>
+<e><p><l>pedofílico<s n="adj"/></l><r>pedofílicu<s n="adj"/></r></p></e>
+<e><p><l>pedófilo<s n="adj"/></l><r>pedófilu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pedorro<s n="adj"/><s n="f"/><s n="pl"/></l><r>pedorru<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pedorro<s n="adj"/><s n="f"/><s n="sg"/></l><r>pedorru<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>pedorro<s n="adj"/><s n="GD"/><s n="pl"/></l><r>pedorru<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>pedorro<s n="adj"/><s n="m"/><s n="pl"/></l><r>pedorru<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pedorro<s n="adj"/><s n="m"/><s n="sg"/></l><r>pedorru<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>pedorro<s n="adj"/></l><r>pedorru<s n="adj"/></r></p></e>
+<e><p><l>pedrado<s n="adj"/></l><r>pedráu<s n="adj"/></r></p></e>
+<e><p><l>pedrero<s n="adj"/></l><r>pedreru<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pegador<s n="adj"/><s n="f"/><s n="pl"/></l><r>pegador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pegador<s n="adj"/><s n="f"/><s n="sg"/></l><r>pegador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>pegador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>pegador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>pegador<s n="adj"/><s n="m"/><s n="pl"/></l><r>pegador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pegador<s n="adj"/><s n="m"/><s n="sg"/></l><r>pegador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>pegón<s n="adj"/></l><r>pegón<s n="adj"/></r></p></e>
+<e><p><l>pelado<s n="adj"/></l><r>peláu<s n="adj"/></r></p></e>
+<e><p><l>pelágico<s n="adj"/></l><r>peláxicu<s n="adj"/></r></p></e>
+<e><p><l>pelele<s n="adj"/></l><r>pelele<s n="adj"/></r></p></e>
+<e><p><l>pelgar<s n="adj"/></l><r>pelgar<s n="adj"/></r></p></e>
+<e><p><l>pelirrojo<s n="adj"/></l><r>pelirroxu<s n="adj"/></r></p></e>
+<e><p><l>abrigado<s n="adj"/></l><r>abrigáu<s n="adj"/></r></p></e>
+<e><p><l>pelón<s n="adj"/></l><r>pelón<s n="adj"/></r></p></e>
+<e><p><l>peloponesio<s n="adj"/></l><r>peloponesiu<s n="adj"/></r></p></e>
+<e><p><l>peloso<s n="adj"/></l><r>pelosu<s n="adj"/></r></p></e>
+<e><p><l>pelucón<s n="adj"/></l><r>pelucón<s n="adj"/></r></p></e>
+<e><p><l>pendolista<s n="adj"/></l><r>pendolista<s n="adj"/></r></p></e>
+<e><p><l>pendón<s n="adj"/></l><r>pendón<s n="adj"/></r></p></e>
+<e><p><l>pendular<s n="adj"/></l><r>pendular<s n="adj"/></r></p></e>
+<e><p><l>peninsular<s n="adj"/></l><r>peninsular<s n="adj"/></r></p></e>
+<e><p><l>penitencial<s n="adj"/></l><r>penitencial<s n="adj"/></r></p></e>
+<e><p><l>penitenciario<s n="adj"/></l><r>penitenciariu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pensador<s n="adj"/><s n="f"/><s n="pl"/></l><r>pensador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pensador<s n="adj"/><s n="f"/><s n="sg"/></l><r>pensador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>pensador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>pensador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>pensador<s n="adj"/><s n="m"/><s n="pl"/></l><r>pensador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pensador<s n="adj"/><s n="m"/><s n="sg"/></l><r>pensador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>pensativo<s n="adj"/></l><r>pensatible<s n="adj"/></r></p></e>
+<e><p><l>pensativo<s n="adj"/></l><r>pensativu<s n="adj"/></r></p></e>
+<e><p><l>pensado<s n="adj"/></l><r>pensáu<s n="adj"/></r></p></e>
+<e><p><l>pentagonal<s n="adj"/></l><r>pentagonal<s n="adj"/></r></p></e>
+<e><p><l>pentasilábico<s n="adj"/></l><r>pentasilábicu<s n="adj"/></r></p></e>
+<e><p><l>pentasílabo<s n="adj"/></l><r>pentasílabu<s n="adj"/></r></p></e>
+<e><p><l>peñascoso<s n="adj"/></l><r>peñascosu<s n="adj"/></r></p></e>
+<e><p><l>peñerador<s n="adj"/></l><r>peñerador<s n="adj"/></r></p></e>
+<e><p><l>peñerero<s n="adj"/></l><r>peñereru<s n="adj"/></r></p></e>
+<e><p><l>pequinés<s n="adj"/></l><r>pequinés<s n="adj"/></r></p></e>
+<e><p><l>perchero<s n="adj"/></l><r>percheru<s n="adj"/></r></p></e>
+<e><p><l>perdido<s n="adj"/></l><r>perdíu<s n="adj"/></r></p></e>
+<e><p><l>perecedero<s n="adj"/></l><r>perecederu<s n="adj"/></r></p></e>
+<e><p><l>perecido<s n="adj"/></l><r>perecíu<s n="adj"/></r></p></e>
+<e><p><l>perenne<s n="adj"/></l><r>perenne<s n="adj"/></r></p></e>
+<e><p><l>perezoso<s n="adj"/></l><r>perezosu<s n="adj"/></r></p></e>
+<e><p><l>perfeccionista<s n="adj"/></l><r>perfeccionista<s n="adj"/></r></p></e>
+<e><p><l>perfecho<s n="adj"/></l><r>perfechu<s n="adj"/></r></p></e>
+<e><p><l>perfectivo<s n="adj"/></l><r>perfectivu<s n="adj"/></r></p></e>
+<e><p><l>antirreformista<s n="adj"/></l><r>antirreformista<s n="adj"/></r></p></e>
+<e><p><l>perfecto<s n="adj"/></l><r>perfectu<s n="adj"/></r></p></e>
+<e><p><l>perfeicionista<s n="adj"/></l><r>perfeicionista<s n="adj"/></r></p></e>
+<e><p><l>pericón<s n="adj"/></l><r>pericón<s n="adj"/></r></p></e>
+<e><p><l>pericote<s n="adj"/></l><r>pericote<s n="adj"/></r></p></e>
+<e><p><l>perico<s n="adj"/></l><r>pericu<s n="adj"/></r></p></e>
+<e><p><l>perico<s n="adj"/></l><r>pericu<s n="adj"/></r></p></e>
+<e><p><l>periférico<s n="adj"/></l><r>periféricu<s n="adj"/></r></p></e>
+<e><p><l>perifrástico<s n="adj"/></l><r>perifrásticu<s n="adj"/></r></p></e>
+<e><p><l>periglaciar<s n="adj"/></l><r>periglaciar<s n="adj"/></r></p></e>
+<e><p><l>perimétrico<s n="adj"/></l><r>perimétricu<s n="adj"/></r></p></e>
+<e><p><l>peripatético<s n="adj"/></l><r>peripatéticu<s n="adj"/></r></p></e>
+<e><p><l>peripuesto<s n="adj"/></l><r>peripuestu<s n="adj"/></r></p></e>
+<e><p><l>periscópico<s n="adj"/></l><r>periscópicu<s n="adj"/></r></p></e>
+<e><p><l>permeable<s n="adj"/></l><r>permeable<s n="adj"/></r></p></e>
+<e><p><l>peronista<s n="adj"/></l><r>peronista<s n="adj"/></r></p></e>
+<e><p><l>perpendicular<s n="adj"/></l><r>perpendicular<s n="adj"/></r></p></e>
+<e><p><l>perplejo<s n="adj"/></l><r>perplexu<s n="adj"/></r></p></e>
+<e><p><l>perrero<s n="adj"/></l><r>perreru<s n="adj"/></r></p></e>
+<e><p><l>perronero<s n="adj"/></l><r>perroneru<s n="adj"/></r></p></e>
+<e><p><l>perro<s n="adj"/></l><r>perru<s n="adj"/></r></p></e>
+<e><p><l>perruno<s n="adj"/></l><r>perrunu<s n="adj"/></r></p></e>
+<e><p><l>pérsico<s n="adj"/></l><r>pérsicu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>persiguidor<s n="adj"/><s n="f"/><s n="pl"/></l><r>persiguidor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>persiguidor<s n="adj"/><s n="f"/><s n="sg"/></l><r>persiguidor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>persiguidor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>persiguidor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>persiguidor<s n="adj"/><s n="m"/><s n="pl"/></l><r>persiguidor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>persiguidor<s n="adj"/><s n="m"/><s n="sg"/></l><r>persiguidor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>personalista<s n="adj"/></l><r>personalista<s n="adj"/></r></p></e>
+<e><p><l>peruano<s n="adj"/></l><r>peruanu<s n="adj"/></r></p></e>
+<e><p><l>perverso<s n="adj"/></l><r>perversu<s n="adj"/></r></p></e>
+<e><p><l>perjudicial<s n="adj"/></l><r>perxudicial<s n="adj"/></r></p></e>
+<e><p><l>perjuro<s n="adj"/></l><r>perxuru<s n="adj"/></r></p></e>
+<e><p><l>pesaroso<s n="adj"/></l><r>pesarosu<s n="adj"/></r></p></e>
+<e><p><l>pesado<s n="adj"/></l><r>pesáu<s n="adj"/></r></p></e>
+<e><p><l>pesetero<s n="adj"/></l><r>peseteru<s n="adj"/></r></p></e>
+<e><p><l>pésico<s n="adj"/></l><r>pésicu<s n="adj"/></r></p></e>
+<e><p><l>pesimista<s n="adj"/></l><r>pesimista<s n="adj"/></r></p></e>
+<e><p><l>pésimo<s n="adj"/></l><r>pésimu<s n="adj"/></r></p></e>
+<e><p><l>petrolero<s n="adj"/></l><r>petroleru<s n="adj"/></r></p></e>
+<e><p><l>petrolífero<s n="adj"/></l><r>petrolíferu<s n="adj"/></r></p></e>
+<e><p><l>petrológico<s n="adj"/></l><r>petrolóxicu<s n="adj"/></r></p></e>
+<e><p><l>peyorativo<s n="adj"/></l><r>peyorativu<s n="adj"/></r></p></e>
+<e><p><l>piamontés<s n="adj"/></l><r>piamontés<s n="adj"/></r></p></e>
+<e><p><l>picante<s n="adj"/></l><r>picante<s n="adj"/></r></p></e>
+<e><p><l>antisemita<s n="adj"/></l><r>antisemita<s n="adj"/></r></p></e>
+<e><p><l>pícaro<s n="adj"/></l><r>pícaru<s n="adj"/></r></p></e>
+<e><p><l>picado<s n="adj"/></l><r>picáu<s n="adj"/></r></p></e>
+<e><p><l>pictográfico<s n="adj"/></l><r>pictográficu<s n="adj"/></r></p></e>
+<e><p><l>pictórico<s n="adj"/></l><r>pictóricu<s n="adj"/></r></p></e>
+<e><p><l>piernilargo<s n="adj"/></l><r>piernillargu<s n="adj"/></r></p></e>
+<e><p><l>melocotón<s n="adj"/></l><r>piescu<s n="adj"/></r></p></e>
+<e><p><l>cierre<s n="adj"/></l><r>piesllu<s n="adj"/></r></p></e>
+<e><p><l>pillo<s n="adj"/></l><r>pillu<s n="adj"/></r></p></e>
+<e><p><l>pilón<s n="adj"/></l><r>pilón<s n="adj"/></r></p></e>
+<e><p><l>pilongo<s n="adj"/></l><r>pilongu<s n="adj"/></r></p></e>
+<e><p><l>piloñeso<s n="adj"/></l><r>piloñesu<s n="adj"/></r></p></e>
+<e><p><l>piloñeto<s n="adj"/></l><r>piloñetu<s n="adj"/></r></p></e>
+<e><p><l>pincho<s n="adj"/></l><r>pinchu<s n="adj"/></r></p></e>
+<e><p><l>pintado<s n="adj"/></l><r>pintáu<s n="adj"/></r></p></e>
+<e><p><l>pinto<s n="adj"/></l><r>pintu<s n="adj"/></r></p></e>
+<e><p><l>pinto<s n="adj"/></l><r>pintu<s n="adj"/></r></p></e>
+<e><p><l>pioyoso<s n="adj"/></l><r>pioyosu<s n="adj"/></r></p></e>
+<e><p><l>piramidal<s n="adj"/></l><r>piramidal<s n="adj"/></r></p></e>
+<e><p><l>piraván<s n="adj"/></l><r>piraván<s n="adj"/></r></p></e>
+<e><p><l>pirenaico<s n="adj"/></l><r>pirenaicu<s n="adj"/></r></p></e>
+<e><p><l>antiterrorista<s n="adj"/></l><r>antiterrorista<s n="adj"/></r></p></e>
+<e><p><l>pirómano<s n="adj"/></l><r>pirómanu<s n="adj"/></r></p></e>
+<e><p><l>pirotécnico<s n="adj"/></l><r>pirotécnicu<s n="adj"/></r></p></e>
+<e><p><l>pírrico<s n="adj"/></l><r>pírricu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pisador<s n="adj"/><s n="f"/><s n="pl"/></l><r>pisador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pisador<s n="adj"/><s n="f"/><s n="sg"/></l><r>pisador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>pisador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>pisador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>pisador<s n="adj"/><s n="m"/><s n="pl"/></l><r>pisador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pisador<s n="adj"/><s n="m"/><s n="sg"/></l><r>pisador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>piscícola<s n="adj"/></l><r>piscícola<s n="adj"/></r></p></e>
+<e><p><l>pistolón<s n="adj"/></l><r>pistolón<s n="adj"/></r></p></e>
+<e><p><l>pistonudo<s n="adj"/></l><r>pistonudu<s n="adj"/></r></p></e>
+<e><p><l>pitagórico<s n="adj"/></l><r>pitagóricu<s n="adj"/></r></p></e>
+<e><p><l>pitón<s n="adj"/></l><r>pitón<s n="adj"/></r></p></e>
+<e><p><l>pixueto<s n="adj"/></l><r>pixuetu<s n="adj"/></r></p></e>
+<e><p><l>antitético<s n="adj"/></l><r>antitéticu<s n="adj"/></r></p></e>
+<e><p><l>pizarroso<s n="adj"/></l><r>pizarrosu<s n="adj"/></r></p></e>
+<e><p><l>plago<s n="adj"/></l><r>plagu<s n="adj"/></r></p></e>
+<e><p><l>planetario<s n="adj"/></l><r>planetariu<s n="adj"/></r></p></e>
+<e><p><l>plantado<s n="adj"/></l><r>plantáu<s n="adj"/></r></p></e>
+<e><p><l>plañidero<s n="adj"/></l><r>plañideru<s n="adj"/></r></p></e>
+<e><p><l>platanero<s n="adj"/></l><r>plataneru<s n="adj"/></r></p></e>
+<e><p><l>plateresco<s n="adj"/></l><r>platerescu<s n="adj"/></r></p></e>
+<e><p><l>platiado<s n="adj"/></l><r>platiáu<s n="adj"/></r></p></e>
+<e><p><l>platiquero<s n="adj"/></l><r>platiqueru<s n="adj"/></r></p></e>
+<e><p><l>platónico<s n="adj"/></l><r>platónicu<s n="adj"/></r></p></e>
+<e><p><l>antológico<s n="adj"/></l><r>antolóxicu<s n="adj"/></r></p></e>
+<e><p><l>playero<s n="adj"/></l><r>playeru<s n="adj"/></r></p></e>
+<e><p><l>plebeyo<s n="adj"/></l><r>plebeyu<s n="adj"/></r></p></e>
+<e><p><l>plegable<s n="adj"/></l><r>plegable<s n="adj"/></r></p></e>
+<e><p><l>pleistoceno<s n="adj"/></l><r>pleistocenu<s n="adj"/></r></p></e>
+<e><p><l>plenario<s n="adj"/></l><r>plenariu<s n="adj"/></r></p></e>
+<e><p><l>pleonástico<s n="adj"/></l><r>pleonásticu<s n="adj"/></r></p></e>
+<e><p><l>pleural<s n="adj"/></l><r>pleural<s n="adj"/></r></p></e>
+<e><p><l>plioceno<s n="adj"/></l><r>pliocenu<s n="adj"/></r></p></e>
+<e><p><l>plomizo<s n="adj"/></l><r>plomizu<s n="adj"/></r></p></e>
+<e><p><l>plumífero<s n="adj"/></l><r>plumíferu<s n="adj"/></r></p></e>
+<e><p><l>antonímico<s n="adj"/></l><r>antonímicu<s n="adj"/></r></p></e>
+<e><p><l>plural<s n="adj"/></l><r>plural<s n="adj"/></r></p></e>
+<e><p><l>pluralista<s n="adj"/></l><r>pluralista<s n="adj"/></r></p></e>
+<e><p><l>pluricelular<s n="adj"/></l><r>pluricelular<s n="adj"/></r></p></e>
+<e><p><l>plurillingüe<s n="adj"/></l><r>plurillingüe<s n="adj"/></r></p></e>
+<e><p><l>plurinacional<s n="adj"/></l><r>plurinacional<s n="adj"/></r></p></e>
+<e><p><l>plurirracial<s n="adj"/></l><r>plurirracial<s n="adj"/></r></p></e>
+<e><p><l>plutocrático<s n="adj"/></l><r>plutocráticu<s n="adj"/></r></p></e>
+<e><p><l>pluvial<s n="adj"/></l><r>pluvial<s n="adj"/></r></p></e>
+<e><p><l>pluviométrico<s n="adj"/></l><r>pluviométricu<s n="adj"/></r></p></e>
+<e><p><l>pocho<s n="adj"/></l><r>pochu<s n="adj"/></r></p></e>
+<e><p><l>antónimo<s n="adj"/></l><r>antónimu<s n="adj"/></r></p></e>
+<e><p><l>pocilguero<s n="adj"/></l><r>pocilgueru<s n="adj"/></r></p></e>
+<e><p><l>poco<s n="adj"/></l><r>pocu<s n="adj"/></r></p></e>
+<e><p><l>podólogo<s n="adj"/></l><r>podólogu<s n="adj"/></r></p></e>
+<e><p><l>podológico<s n="adj"/></l><r>podolóxicu<s n="adj"/></r></p></e>
+<e><p><l>polar<s n="adj"/></l><r>polar<s n="adj"/></r></p></e>
+<e><p><l>polemista<s n="adj"/></l><r>polemista<s n="adj"/></r></p></e>
+<e><p><l>poleso<s n="adj"/></l><r>polesu<s n="adj"/></r></p></e>
+<e><p><l>poliándrico<s n="adj"/></l><r>poliándricu<s n="adj"/></r></p></e>
+<e><p><l>policiaco<s n="adj"/></l><r>policiacu<s n="adj"/></r></p></e>
+<e><p><l>policromo<s n="adj"/></l><r>policromu<s n="adj"/></r></p></e>
+<e><p><l>antonomástico<s n="adj"/></l><r>antonomásticu<s n="adj"/></r></p></e>
+<e><p><l>poliédrico<s n="adj"/></l><r>poliédricu<s n="adj"/></r></p></e>
+<e><p><l>polifacético<s n="adj"/></l><r>polifacéticu<s n="adj"/></r></p></e>
+<e><p><l>polifónico<s n="adj"/></l><r>polifónicu<s n="adj"/></r></p></e>
+<e><p><l>polígamo<s n="adj"/></l><r>polígamu<s n="adj"/></r></p></e>
+<e><p><l>políglota<s n="adj"/></l><r>políglota<s n="adj"/></r></p></e>
+<e><p><l>poligonal<s n="adj"/></l><r>poligonal<s n="adj"/></r></p></e>
+<e><p><l>polimorfo<s n="adj"/></l><r>polimorfu<s n="adj"/></r></p></e>
+<e><p><l>polinesio<s n="adj"/></l><r>polinesiu<s n="adj"/></r></p></e>
+<e><p><l>polinuclear<s n="adj"/></l><r>polinuclear<s n="adj"/></r></p></e>
+<e><p><l>polirrítmico<s n="adj"/></l><r>polirrítmicu<s n="adj"/></r></p></e>
+<e><p><l>polisémico<s n="adj"/></l><r>polisémicu<s n="adj"/></r></p></e>
+<e><p><l>polisilábico<s n="adj"/></l><r>polisilábicu<s n="adj"/></r></p></e>
+<e><p><l>polisílabo<s n="adj"/></l><r>polisílabu<s n="adj"/></r></p></e>
+<e><p><l>polisintético<s n="adj"/></l><r>polisintéticu<s n="adj"/></r></p></e>
+<e><p><l>politeísta<s n="adj"/></l><r>politeísta<s n="adj"/></r></p></e>
+<e><p><l>politiquero<s n="adj"/></l><r>politiqueru<s n="adj"/></r></p></e>
+<e><p><l>polivalente<s n="adj"/></l><r>polivalente<s n="adj"/></r></p></e>
+<e><p><l>pompeyano<s n="adj"/></l><r>pompeyanu<s n="adj"/></r></p></e>
+<e><p><l>pomposo<s n="adj"/></l><r>pomposu<s n="adj"/></r></p></e>
+<e><p><l>pontifical<s n="adj"/></l><r>pontifical<s n="adj"/></r></p></e>
+<e><p><l>antojadizo<s n="adj"/></l><r>antoxadizu<s n="adj"/></r></p></e>
+<e><p><l>pontificio<s n="adj"/></l><r>pontificiu<s n="adj"/></r></p></e>
+<e><p><l>populista<s n="adj"/></l><r>populista<s n="adj"/></r></p></e>
+<e><p><l>poquitino<s n="adj"/></l><r>poquitín<s n="adj"/></r></p></e>
+<e><p><l>pornográfico<s n="adj"/></l><r>pornográficu<s n="adj"/></r></p></e>
+<e><p><l>poroso<s n="adj"/></l><r>porosu<s n="adj"/></r></p></e>
+<e><p><l>portátil<s n="adj"/></l><r>portátil<s n="adj"/></r></p></e>
+<e><p><l>portuario<s n="adj"/></l><r>portuariu<s n="adj"/></r></p></e>
+<e><p><l>posado<s n="adj"/></l><r>posáu<s n="adj"/></r></p></e>
+<e><p><l>posesivo<s n="adj"/></l><r>posesivu<s n="adj"/></r></p></e>
+<e><p><l>positivista<s n="adj"/></l><r>positivista<s n="adj"/></r></p></e>
+<e><p><l>posológico<s n="adj"/></l><r>posolóxicu<s n="adj"/></r></p></e>
+<e><p><l>pospuesto<s n="adj"/></l><r>pospuestu<s n="adj"/></r></p></e>
+<e><p><l>postal<s n="adj"/></l><r>postal<s n="adj"/></r></p></e>
+<e><p><l>postinero<s n="adj"/></l><r>postineru<s n="adj"/></r></p></e>
+<e><p><l>postónico<s n="adj"/></l><r>postónicu<s n="adj"/></r></p></e>
+<e><p><l>póstumo<s n="adj"/></l><r>póstumu<s n="adj"/></r></p></e>
+<e><p><l>potable<s n="adj"/></l><r>potable<s n="adj"/></r></p></e>
+<e><p><l>potásico<s n="adj"/></l><r>potásicu<s n="adj"/></r></p></e>
+<e><p><l>potente<s n="adj"/></l><r>potente<s n="adj"/></r></p></e>
+<e><p><l>potestativo<s n="adj"/></l><r>potestativu<s n="adj"/></r></p></e>
+<e><p><l>antropocéntrico<s n="adj"/></l><r>antropocéntricu<s n="adj"/></r></p></e>
+<e><p><l>pragmático<s n="adj"/></l><r>pragmáticu<s n="adj"/></r></p></e>
+<e><p><l>praviano<s n="adj"/></l><r>pravianu<s n="adj"/></r></p></e>
+<e><p><l>prebélico<s n="adj"/></l><r>prebélicu<s n="adj"/></r></p></e>
+<e><p><l>precapitalista<s n="adj"/></l><r>precapitalista<s n="adj"/></r></p></e>
+<e><p><l>precario<s n="adj"/></l><r>precariu<s n="adj"/></r></p></e>
+<e><p><l>precavido<s n="adj"/></l><r>precavíu<s n="adj"/></r></p></e>
+<e><p><l>precelta<s n="adj"/></l><r>precelta<s n="adj"/></r></p></e>
+<e><p><l>preciado<s n="adj"/></l><r>preciáu<s n="adj"/></r></p></e>
+<e><p><l>preclásico<s n="adj"/></l><r>preclásicu<s n="adj"/></r></p></e>
+<e><p><l>precordial<s n="adj"/></l><r>precordial<s n="adj"/></r></p></e>
+<e><p><l>precristiano<s n="adj"/></l><r>precristianu<s n="adj"/></r></p></e>
+<e><p><l>predeterminista<s n="adj"/></l><r>predeterminista<s n="adj"/></r></p></e>
+<e><p><l>predicativo<s n="adj"/></l><r>predicativu<s n="adj"/></r></p></e>
+<e><p><l>preescolar<s n="adj"/></l><r>preescolar<s n="adj"/></r></p></e>
+<e><p><l>preesistente<s n="adj"/></l><r>preesistente<s n="adj"/></r></p></e>
+<e><p><l>preferente<s n="adj"/></l><r>preferente<s n="adj"/></r></p></e>
+<e><p><l>preferible<s n="adj"/></l><r>preferible<s n="adj"/></r></p></e>
+<e><p><l>pregón<s n="adj"/></l><r>pregón<s n="adj"/></r></p></e>
+<e><p><l>prehispánico<s n="adj"/></l><r>prehispánicu<s n="adj"/></r></p></e>
+<e><p><l>prehispano<s n="adj"/></l><r>prehispanu<s n="adj"/></r></p></e>
+<e><p><l>prehistórico<s n="adj"/></l><r>prehistóricu<s n="adj"/></r></p></e>
+<e><p><l>prematrimonial<s n="adj"/></l><r>prematrimonial<s n="adj"/></r></p></e>
+<e><p><l>prematuro<s n="adj"/></l><r>prematuru<s n="adj"/></r></p></e>
+<e><p><l>premonitorio<s n="adj"/></l><r>premonitoriu<s n="adj"/></r></p></e>
+<e><p><l>prenatal<s n="adj"/></l><r>prenatal<s n="adj"/></r></p></e>
+<e><p><l>prendido<s n="adj"/></l><r>prendíu<s n="adj"/></r></p></e>
+<e><p><l>preñado<s n="adj"/></l><r>preñáu<s n="adj"/></r></p></e>
+<e><p><l>preocupante<s n="adj"/></l><r>preocupante<s n="adj"/></r></p></e>
+<e><p><l>preposicional<s n="adj"/></l><r>preposicional<s n="adj"/></r></p></e>
+<e><p><l>prepositivo<s n="adj"/></l><r>prepositivu<s n="adj"/></r></p></e>
+<e><p><l>prepotente<s n="adj"/></l><r>prepotente<s n="adj"/></r></p></e>
+<e><p><l>prerrenacentista<s n="adj"/></l><r>prerrenacentista<s n="adj"/></r></p></e>
+<e><p><l>prerrománico<s n="adj"/></l><r>prerrománicu<s n="adj"/></r></p></e>
+<e><p><l>prerromántico<s n="adj"/></l><r>prerrománticu<s n="adj"/></r></p></e>
+<e><p><l>prerromano<s n="adj"/></l><r>prerromanu<s n="adj"/></r></p></e>
+<e><p><l>presalso<s n="adj"/></l><r>presalsu<s n="adj"/></r></p></e>
+<e><p><l>presbiterial<s n="adj"/></l><r>presbiterial<s n="adj"/></r></p></e>
+<e><p><l>presbiteriano<s n="adj"/></l><r>presbiterianu<s n="adj"/></r></p></e>
+<e><p><l>prescriptivo<s n="adj"/></l><r>prescriptivu<s n="adj"/></r></p></e>
+<e><p><l>presentable<s n="adj"/></l><r>presentable<s n="adj"/></r></p></e>
+<e><p><l>presidencialista<s n="adj"/></l><r>presidencialista<s n="adj"/></r></p></e>
+<e><p><l>presocrático<s n="adj"/></l><r>presocráticu<s n="adj"/></r></p></e>
+<e><p><l>presumido<s n="adj"/></l><r>presumíu<s n="adj"/></r></p></e>
+<e><p><l>pretónico<s n="adj"/></l><r>pretónicu<s n="adj"/></r></p></e>
+<e><p><l>pretoriano<s n="adj"/></l><r>pretorianu<s n="adj"/></r></p></e>
+<e><p><l>preventivo<s n="adj"/></l><r>preventivu<s n="adj"/></r></p></e>
+<e><p><l>previsto<s n="adj"/></l><r>previstu<s n="adj"/></r></p></e>
+<e><p><l>prejuicioso<s n="adj"/></l><r>prexuiciosu<s n="adj"/></r></p></e>
+<e><p><l>primaveral<s n="adj"/></l><r>primaveral<s n="adj"/></r></p></e>
+<e><p><l>primerizo<s n="adj"/></l><r>primerizu<s n="adj"/></r></p></e>
+<e><p><l>primordial<s n="adj"/></l><r>primordial<s n="adj"/></r></p></e>
+<e><p><l>primogénito<s n="adj"/></l><r>primoxénitu<s n="adj"/></r></p></e>
+<e><p><l>principesco<s n="adj"/></l><r>principescu<s n="adj"/></r></p></e>
+<e><p><l>principiante<s n="adj"/></l><r>principiante<s n="adj"/></r></p></e>
+<e r="LR"><p><l>prindador<s n="adj"/><s n="f"/><s n="pl"/></l><r>prindador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>prindador<s n="adj"/><s n="f"/><s n="sg"/></l><r>prindador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>prindador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>prindador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>prindador<s n="adj"/><s n="m"/><s n="pl"/></l><r>prindador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>prindador<s n="adj"/><s n="m"/><s n="sg"/></l><r>prindador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>prioritario<s n="adj"/></l><r>prioritariu<s n="adj"/></r></p></e>
+<e><p><l>prisionero<s n="adj"/></l><r>prisioneru<s n="adj"/></r></p></e>
+<e><p><l>prismático<s n="adj"/></l><r>prismáticu<s n="adj"/></r></p></e>
+<e><p><l>privativo<s n="adj"/></l><r>privativu<s n="adj"/></r></p></e>
+<e><p><l>privado<s n="adj"/></l><r>priváu<s n="adj"/></r></p></e>
+<e><p><l>probiquino<s n="adj"/></l><r>probiquín<s n="adj"/></r></p></e>
+<e><p><l>pobrecillo<s n="adj"/></l><r>probitín<s n="adj"/></r></p></e>
+<e><p><l>problemático<s n="adj"/></l><r>problemáticu<s n="adj"/></r></p></e>
+<e><p><l>procesal<s n="adj"/></l><r>procesal<s n="adj"/></r></p></e>
+<e><p><l>procesional<s n="adj"/></l><r>procesional<s n="adj"/></r></p></e>
+<e><p><l>proclítico<s n="adj"/></l><r>proclíticu<s n="adj"/></r></p></e>
+<e><p><l>proconsular<s n="adj"/></l><r>proconsular<s n="adj"/></r></p></e>
+<e><p><l>productible<s n="adj"/></l><r>productible<s n="adj"/></r></p></e>
+<e><p><l>productivo<s n="adj"/></l><r>productivu<s n="adj"/></r></p></e>
+<e><p><l>profano<s n="adj"/></l><r>profanu<s n="adj"/></r></p></e>
+<e><p><l>profesoral<s n="adj"/></l><r>profesoral<s n="adj"/></r></p></e>
+<e><p><l>profético<s n="adj"/></l><r>proféticu<s n="adj"/></r></p></e>
+<e><p><l>profiláctico<s n="adj"/></l><r>profilácticu<s n="adj"/></r></p></e>
+<e><p><l>proletario<s n="adj"/></l><r>proletariu<s n="adj"/></r></p></e>
+<e><p><l>promotor<s n="adj"/></l><r>promotor<s n="adj"/></r></p></e>
+<e><p><l>pronominal<s n="adj"/></l><r>pronominal<s n="adj"/></r></p></e>
+<e><p><l>propagandístico<s n="adj"/></l><r>propagandísticu<s n="adj"/></r></p></e>
+<e><p><l>propio<s n="adj"/></l><r>propiu<s n="adj"/></r></p></e>
+<e><p><l>proporcional<s n="adj"/></l><r>proporcional<s n="adj"/></r></p></e>
+<e><p><l>proporcionado<s n="adj"/></l><r>proporcionáu<s n="adj"/></r></p></e>
+<e><p><l>propuesto<s n="adj"/></l><r>propuestu<s n="adj"/></r></p></e>
+<e><p><l>proselitista<s n="adj"/></l><r>proselitista<s n="adj"/></r></p></e>
+<e><p><l>prosódico<s n="adj"/></l><r>prosódicu<s n="adj"/></r></p></e>
+<e><p><l>próspero<s n="adj"/></l><r>prósperu<s n="adj"/></r></p></e>
+<e><p><l>prostático<s n="adj"/></l><r>prostáticu<s n="adj"/></r></p></e>
+<e><p><l>proteico<s n="adj"/></l><r>proteicu<s n="adj"/></r></p></e>
+<e><p><l>proteínico<s n="adj"/></l><r>proteínicu<s n="adj"/></r></p></e>
+<e><p><l>protestante<s n="adj"/></l><r>protestante<s n="adj"/></r></p></e>
+<e><p><l>protestón<s n="adj"/></l><r>protestón<s n="adj"/></r></p></e>
+<e><p><l>protético<s n="adj"/></l><r>protéticu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>protegedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>protexedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>protegedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>protexedor<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>protegedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>protexedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>protegedor<s n="adj"/><s n="m"/><s n="pl"/></l><r>protexedor<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>protegedor<s n="adj"/><s n="m"/><s n="sg"/></l><r>protexedor<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>protocolario<s n="adj"/></l><r>protocolariu<s n="adj"/></r></p></e>
+<e><p><l>protohistórico<s n="adj"/></l><r>protohistóricu<s n="adj"/></r></p></e>
+<e><p><l>prototípico<s n="adj"/></l><r>prototípicu<s n="adj"/></r></p></e>
+<e><p><l>protráctil<s n="adj"/></l><r>protráctil<s n="adj"/></r></p></e>
+<e><p><l>provenzal<s n="adj"/></l><r>provenzal<s n="adj"/></r></p></e>
+<e><p><l>provenzalista<s n="adj"/></l><r>provenzalista<s n="adj"/></r></p></e>
+<e><p><l>providencial<s n="adj"/></l><r>providencial<s n="adj"/></r></p></e>
+<e><p><l>provincial<s n="adj"/></l><r>provincial<s n="adj"/></r></p></e>
+<e><p><l>provinciano<s n="adj"/></l><r>provincianu<s n="adj"/></r></p></e>
+<e><p><l>provisional<s n="adj"/></l><r>provisional<s n="adj"/></r></p></e>
+<e><p><l>provocativo<s n="adj"/></l><r>provocativu<s n="adj"/></r></p></e>
+<e><p><l>prudencial<s n="adj"/></l><r>prudencial<s n="adj"/></r></p></e>
+<e><p><l>prusiano<s n="adj"/></l><r>prusianu<s n="adj"/></r></p></e>
+<e><p><l>psicoanalítico<s n="adj"/></l><r>psicoanalíticu<s n="adj"/></r></p></e>
+<e><p><l>psiquiátrico<s n="adj"/></l><r>psiquiátricu<s n="adj"/></r></p></e>
+<e><p><l>ptolemaico<s n="adj"/></l><r>ptolemaicu<s n="adj"/></r></p></e>
+<e><p><l>púbico<s n="adj"/></l><r>púbicu<s n="adj"/></r></p></e>
+<e><p><l>publicable<s n="adj"/></l><r>publicable<s n="adj"/></r></p></e>
+<e><p><l>puertorriqueño<s n="adj"/></l><r>puertorriqueñu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>mecedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>añador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mecedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>añador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mecedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>añador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mecedor<s n="adj"/><s n="m"/><s n="pl"/></l><r>añador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mecedor<s n="adj"/><s n="m"/><s n="sg"/></l><r>añador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>mecedor<s n="adj"/><s n="f"/><s n="pl"/></l><r>añador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mecedor<s n="adj"/><s n="f"/><s n="sg"/></l><r>añador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>mecedor<s n="adj"/><s n="GD"/><s n="pl"/></l><r>añador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mecedor<s n="adj"/><s n="m"/><s n="pl"/></l><r>añador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>mecedor<s n="adj"/><s n="m"/><s n="sg"/></l><r>añador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>pulgoso<s n="adj"/></l><r>pulgosu<s n="adj"/></r></p></e>
+<e><p><l>pulido<s n="adj"/></l><r>pulíu<s n="adj"/></r></p></e>
+<e><p><l>pulmonar<s n="adj"/></l><r>pulmonar<s n="adj"/></r></p></e>
+<e><p><l>pulmoniento<s n="adj"/></l><r>pulmonientu<s n="adj"/></r></p></e>
+<e><p><l>púnico<s n="adj"/></l><r>púnicu<s n="adj"/></r></p></e>
+<e><p><l>puntuable<s n="adj"/></l><r>puntuable<s n="adj"/></r></p></e>
+<e><p><l>puntual<s n="adj"/></l><r>puntual<s n="adj"/></r></p></e>
+<e><p><l>puñetero<s n="adj"/></l><r>puñeteru<s n="adj"/></r></p></e>
+<e><p><l>pupilo<s n="adj"/></l><r>pupilu<s n="adj"/></r></p></e>
+<e><p><l>purgante<s n="adj"/></l><r>purgante<s n="adj"/></r></p></e>
+<e><p><l>purista<s n="adj"/></l><r>purista<s n="adj"/></r></p></e>
+<e><p><l>puritano<s n="adj"/></l><r>puritanu<s n="adj"/></r></p></e>
+<e><p><l>púrpura<s n="adj"/></l><r>púrpura<s n="adj"/></r></p></e>
+<e><p><l>putativo<s n="adj"/></l><r>putativu<s n="adj"/></r></p></e>
+<e><p><l>putero<s n="adj"/></l><r>puteru<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pujador<s n="adj"/><s n="f"/><s n="pl"/></l><r>puxador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pujador<s n="adj"/><s n="f"/><s n="sg"/></l><r>puxador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>pujador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>puxador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>pujador<s n="adj"/><s n="m"/><s n="pl"/></l><r>puxador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>pujador<s n="adj"/><s n="m"/><s n="sg"/></l><r>puxador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>quebrado<s n="adj"/></l><r>quebráu<s n="adj"/></r></p></e>
+<e><p><l>quedado<s n="adj"/></l><r>quedáu<s n="adj"/></r></p></e>
+<e><p><l>quedo<s n="adj"/></l><r>quedu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>quemador<s n="adj"/><s n="f"/><s n="pl"/></l><r>quemador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>quemador<s n="adj"/><s n="f"/><s n="sg"/></l><r>quemador<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>quemador<s n="adj"/><s n="GD"/><s n="pl"/></l><r>quemador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>quemador<s n="adj"/><s n="m"/><s n="pl"/></l><r>quemador<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e><p><l>quemador<s n="adj"/><s n="m"/><s n="sg"/></l><r>quemador<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>quesero<s n="adj"/></l><r>queseru<s n="adj"/></r></p></e>
+<e><p><l>quilométrico<s n="adj"/></l><r>quilométricu<s n="adj"/></r></p></e>
+<e><p><l>quimérico<s n="adj"/></l><r>quiméricu<s n="adj"/></r></p></e>
+<e><p><l>quinado<s n="adj"/></l><r>quináu<s n="adj"/></r></p></e>
+<e><p><l>quincenal<s n="adj"/></l><r>quincenal<s n="adj"/></r></p></e>
+<e><p><l>quinceno<s n="adj"/></l><r>quincenu<s n="adj"/></r></p></e>
+<e><p><l>quinquenal<s n="adj"/></l><r>quinquenal<s n="adj"/></r></p></e>
+<e><p><l>quinto<s n="adj"/></l><r>quintu<s n="adj"/></r></p></e>
+<e><p><l>quiromántico<s n="adj"/></l><r>quirománticu<s n="adj"/></r></p></e>
+<e><p><l>apacible<s n="adj"/></l><r>apacible<s n="adj"/></r></p></e>
+<e><p><l>quirosano<s n="adj"/></l><r>quirosán<s n="adj"/></r></p></e>
+<e><p><l>quirosano<s n="adj"/></l><r>quirosanu<s n="adj"/></r></p></e>
+<e><p><l>quirúrgico<s n="adj"/></l><r>quirúrxicu<s n="adj"/></r></p></e>
 <!-- Puntuación -->
 
 
@@ -27905,3 +28937,4 @@
   </section>
   
 </dictionary>
+

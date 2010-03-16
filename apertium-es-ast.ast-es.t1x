@@ -2,7 +2,22 @@
 
 <!-- -*- nxml -*- -->
 <transfer>
+
+  
   <section-def-cats>
+
+    <def-cat n="proclise">
+      <cat-item tags="prn.itg.*"/>
+      <cat-item tags="adv.itg"/>
+      <cat-item tags="cnjsub"/>
+      <cat-item tags="rel.*"/>
+      <cat-item tags="adv"/>
+      <cat-item tags="ij"/>
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="pr"/>
+      <cat-item tags="cnjadv"/>
+    </def-cat>
+
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -3042,11 +3057,12 @@ is not applicable because gender and number cannot be taken from previous rules 
     </rule>
 
 
-
-
- 
     
-<!--REGRA EGV02: V+ENC (incluídos REF)-->
+<!--REGRA EGV02: V+ENC 
+cómi-yos->cómeles
+comiólu->le comió
+cómese->se come
+-->
 
   <rule>
       <pattern>
@@ -3055,91 +3071,7 @@ is not applicable because gender and number cannot be taken from previous rules 
       </pattern>
       <action>
          <choose>
-           
-           
-           <when>
-             <test>
-               <and>
-                 <equal>
-                   <clip pos="2" side="sl" part="a_prnenc"/>
-                   <lit-tag v="prn.enc.ref"/>
-                 </equal>
-                 <equal>
-                     <clip pos="1" side="sl" part="temps"/>
-                     <lit-tag v="pmp"/>
-                   </equal>
-               </and>
-             </test>
-             <out>
-               <lu>
-                 <get-case-from pos="1">
-                   <clip pos="2" side="tl" part="lem"/>
-                 </get-case-from>
-                 <lit-tag v="prn.pro.ref"/>
-                 <clip pos="2" side="tl" part="persona"/>
-                 <clip pos="2" side="tl" part="gen"/>
-                 <clip pos="2" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <get-case-from pos="2">
-                 <lit v="haber"/>
-               </get-case-from>
-                 <lit-tag v="vbhaver.pii"/>
-                 <clip pos="1" side="sl" part="persona"/>
-                 <clip pos="1" side="sl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <get-case-from pos="2">
-                 <clip pos="1" side="tl" part="lem"/>
-               </get-case-from>
-                 <clip pos="1" side="sl" part="a_verb"/>
-                 <lit-tag v="pp"/>
-                 <lit-tag v="m"/>
-                 <lit-tag v="sg"/>
-              </lu>
-             </out>
-          </when>
-          <when>
-            <test>
-                <equal>
-                  <clip pos="1" side="sl" part="temps"/>
-                  <lit-tag v="pmp"/>
-                </equal>
-            </test>
-            <out>
-              <lu>
-                <get-case-from pos="1">
-                  <clip pos="2" side="tl" part="lem"/>
-                </get-case-from>
-                <lit-tag v="prn.pro"/>
-                <clip pos="2" side="tl" part="persona"/>
-                <clip pos="2" side="tl" part="gen"/>
-                <clip pos="2" side="tl" part="nbr"/>
-              </lu>
-              <b/>
-              <lu>
-                <get-case-from pos="2">
-                <lit v="haber"/>
-              </get-case-from>
-                <lit-tag v="vbhaver.pii"/>
-                <clip pos="1" side="sl" part="persona"/>
-                <clip pos="1" side="sl" part="nbr"/>
-              </lu>
-              <b/>
-              <lu>
-                <get-case-from pos="2">
-                <clip pos="1" side="tl" part="lem"/>
-              </get-case-from>
-                <clip pos="1" side="sl" part="a_verb"/>
-                <lit-tag v="pp"/>
-                <lit-tag v="m"/>
-                <lit-tag v="sg"/>
-              </lu>
-            </out>
-          </when> 
-           
+
           <when>
             <test>
               <and>
@@ -3186,6 +3118,59 @@ is not applicable because gender and number cannot be taken from previous rules 
               <clip pos="1" side="tl" part="nbr"/>
                 </lu>    
   
+            </out>
+          </when>
+
+
+          <when>
+            <test>
+              <and>
+
+		 <equal>
+                 <clip pos="2" side="sl" part="lem"/>
+                <lit v="lu"/>
+                </equal>
+	     
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="infps"/>
+                </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="ger"/>
+                  </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="imp"/>
+                  </equal></not>
+              </and>
+            </test>
+            <out> 
+              <lu>
+              
+                   <get-case-from pos="1">
+		<lit v="le"/>
+             </get-case-from>
+             <lit-tag v="prn.pro"/>
+             <clip pos="2" side="tl" part="persona"/>
+             <lit-tag v="mf"/>
+            <clip pos="2" side="tl" part="nbr"/>
+	    </lu>
+              <b/>
+              <lu>
+                <get-case-from pos="2">
+                  <clip pos="1" side="tl" part="lem"/>
+                </get-case-from>
+                <clip pos="1" side="sl" part="a_verb"/>
+                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="persona"/>
+                <clip pos="1" side="tl" part="nbr"/>
+              </lu>    
+              
             </out>
           </when>
 
@@ -3288,9 +3273,99 @@ is not applicable because gender and number cannot be taken from previous rules 
     </rule>
 
  
+<!--REGRA EGV02b: proclise + ENC + Verbo  
+Nun lu llamé -> No le llamé
+
+comiólu->le comió
+Que-yos debía -> Que les debía
+Nun se mercaron el bolsu -> No se compraron el bolso
+-->
+
+  <rule>
+      <pattern>
+	<pattern-item n="proclise"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="verb"/>
+        
+      </pattern>
+      <action>
+         <choose>
+
+             <when>
+            <test>
+              
+                 <equal caseless="yes">
+                  <clip pos="2" side="sl" part="lem"/>
+                  <lit v="-y"/>
+                </equal>
+       
+            </test>
+          <out>
+	 <lu>
+              
+                <clip pos="1" side="tl" part="whole"/>
+              
+             
+            </lu><b/>
+            <lu>
+              <get-case-from pos="3">
+                <clip pos="2" side="tl" part="lem"/>
+              </get-case-from>
+              <lit-tag v="prn.pro"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              
+              <clip pos="3" side="sl" part="whole"/>
+            </lu>    
+  
+            </out>
+          </when>
+
+          <otherwise>
+
+    	    <out>
+               <lu>
+            
+                <clip pos="1" side="tl" part="whole"/>
+          
+             
+            </lu><b/>
+            <lu>
+	        <get-case-from pos="2">
+		<lit v="le"/>
+               </get-case-from>
+              <lit-tag v="prn.pro"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <lit-tag v="mf"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              
+              <clip pos="3" side="sl" part="whole"/>
+      
+                </lu>    
+  
+            </out>  
+          </otherwise>
+        </choose>     
+      </action>
+    </rule>
+
+
     
-    <!--REGRA EGV03: V+ENC+ENC (non hai REF)-->
-   <rule>
+ 
+
+ <!--REGRA EGV03: V+ENC+ENC
+cómese-yos->se les come
+mercómelo->me lo compró
+
+-->
+    <rule>
       <pattern>
         <pattern-item n="verb"/>
         <pattern-item n="prnenc"/>
@@ -3298,108 +3373,73 @@ is not applicable because gender and number cannot be taken from previous rules 
       </pattern>
       <action>
         <choose>
+         
+        
           <when>
             <test>
               <and>
+              <equal>
+                 <clip pos="3" side="sl" part="lem"/>
+                <lit v="lu"/>
+                </equal>
+		
                 <equal>
                   <clip pos="2" side="sl" part="a_prnenc"/>
                   <lit-tag v="prn.enc.ref"/>
                 </equal>
-                <equal>
-                  <clip pos="1" side="sl" part="temps"/>
-                  <lit-tag v="pmp"/>
-                </equal>
-               </and>
-            </test>
-             <out>
-               <lu>
-                 <get-case-from pos="1">
-                   <clip pos="2" side="tl" part="lem"/>
-                 </get-case-from>
-                 <lit-tag v="prn.pro.ref"/>
-                 <clip pos="2" side="tl" part="persona"/>
-                 <clip pos="2" side="tl" part="gen"/>
-                 <clip pos="2" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="3" side="tl" part="lem"/>
-                 <lit-tag v="prn.pro"/>
-                 <clip pos="3" side="tl" part="persona"/>
-                 <clip pos="3" side="tl" part="gen"/>
-                 <clip pos="3" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
-               <b/>
-               <lu>
-                 <get-case-from pos="3">
-                   <lit v="haber"/>
-                 </get-case-from>
-                   <lit-tag v="vbhaver.pii"/>
-                   <clip pos="1" side="sl" part="persona"/>
-                   <clip pos="1" side="sl" part="nbr"/>
-                 </lu>
-                 <b/>
-                 <lu>
-                   <get-case-from pos="3">
-                   <clip pos="1" side="tl" part="lem"/>
-                 </get-case-from>
-                   <clip pos="1" side="sl" part="a_verb"/>
-                   <lit-tag v="pp"/>
-                   <lit-tag v="m"/>
-                   <lit-tag v="sg"/>
-                </lu>    
-   
-            </out>
-          </when>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="sl" part="temps"/>
-                <lit-tag v="pmp"/>
-              </equal>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="infps"/>
+                </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="ger"/>
+                  </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="imp"/>
+                  </equal></not>
+              </and>
             </test>
             <out>
               <lu>
                 <get-case-from pos="1">
                   <clip pos="2" side="tl" part="lem"/>
                 </get-case-from>
-                <lit-tag v="prn.pro"/>
+                <lit-tag v="prn.pro.ref"/>
                 <clip pos="2" side="tl" part="persona"/>
                 <clip pos="2" side="tl" part="gen"/>
                 <clip pos="2" side="tl" part="nbr"/>
               </lu>
               <b/>
-              <lu>
-                <clip pos="3" side="tl" part="lem"/>
-                <lit-tag v="prn.pro"/>
-                <clip pos="3" side="tl" part="persona"/>
-                <clip pos="3" side="tl" part="gen"/>
-                <clip pos="3" side="tl" part="nbr"/>
-                <clip pos="1" side="tl" part="lemq"/>
-              </lu>
-              <b/>
-              <lu>
-                <get-case-from pos="3">
-                  <lit v="haber"/>
-                </get-case-from>
-                <lit-tag v="vbhaver.pii"/>
-                <clip pos="1" side="sl" part="persona"/>
-                <clip pos="1" side="sl" part="nbr"/>
-              </lu>
+               <lu>
+              
+                   <get-case-from pos="1">
+		<lit v="le"/>
+             </get-case-from>
+             <lit-tag v="prn.pro"/>
+             <clip pos="3" side="tl" part="persona"/>
+             <lit-tag v="mf"/>
+            <clip pos="3" side="tl" part="nbr"/>
+	    </lu>
               <b/>
               <lu>
                 <get-case-from pos="3">
                   <clip pos="1" side="tl" part="lem"/>
                 </get-case-from>
                 <clip pos="1" side="sl" part="a_verb"/>
-                <lit-tag v="pp"/>
-                <lit-tag v="m"/>
-                <lit-tag v="sg"/>
+                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="persona"/>
+                <clip pos="1" side="tl" part="nbr"/>
               </lu>    
               
             </out>
-          </when>      
+          </when>
+
           <when>
             <test>
               <and>
@@ -3457,6 +3497,67 @@ is not applicable because gender and number cannot be taken from previous rules 
             </out>
           </when>
           
+            <when>
+            <test>
+              <and>
+		 <equal>
+                 <clip pos="3" side="sl" part="lem"/>
+                <lit v="lu"/>
+                </equal>
+              
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="inf"/>
+                  </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="infps"/>
+                  </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="ger"/>
+                  </equal></not>
+                <not><equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="imp"/>
+                  </equal></not>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="2" side="tl" part="lem"/>
+                </get-case-from>
+                <lit-tag v="prn.pro"/>
+                <clip pos="2" side="tl" part="persona"/>
+                <clip pos="2" side="tl" part="gen"/>
+                <clip pos="2" side="tl" part="nbr"/>
+              </lu>
+              <b/>
+             <lu>
+              
+                   <get-case-from pos="1">
+		<lit v="le"/>
+             </get-case-from>
+             <lit-tag v="prn.pro"/>
+             <clip pos="3" side="tl" part="persona"/>
+             <lit-tag v="mf"/>
+            <clip pos="3" side="tl" part="nbr"/>
+	    </lu>
+              <b/>
+              <lu>
+                <get-case-from pos="3">
+                  <clip pos="1" side="tl" part="lem"/>
+                </get-case-from>
+                <clip pos="1" side="sl" part="a_verb"/>
+                <clip pos="1" side="tl" part="temps"/>
+                <clip pos="1" side="tl" part="persona"/>
+                <clip pos="1" side="tl" part="nbr"/>
+              </lu>    
+              
+            </out>
+          </when>
+
           <when>
             <test>
               <and>
@@ -3509,6 +3610,10 @@ is not applicable because gender and number cannot be taken from previous rules 
               
             </out>
           </when>
+
+
+       
+
           <when>
             <test>
               
@@ -3577,6 +3682,105 @@ is not applicable because gender and number cannot be taken from previous rules 
         </choose>
       </action>
     </rule>
+
+
+
+<!--REGRA EGV03b: proclise + ENC + ENC + Verbo  
+Nun lu llamé -> No le llamé
+
+Que me lu comió -> Que me le comió
+Nun te-y debía -> No te le debía
+
+-->
+
+  <rule>
+      <pattern>
+	<pattern-item n="proclise"/>
+	<pattern-item n="prnpro"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="verb"/>
+        
+      </pattern>
+      <action>
+         <choose>
+
+             <when>
+            <test>
+              
+                 <equal caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="-y"/>
+                </equal>
+       
+            </test>
+          <out>
+	 <lu>
+              
+                <clip pos="1" side="tl" part="whole"/>
+              
+             
+            </lu><b/>
+	    <lu>
+              
+                <clip pos="2" side="tl" part="whole"/>
+              
+             
+            </lu><b/>
+            <lu>
+              <get-case-from pos="4">
+                <clip pos="3" side="tl" part="lem"/>
+              </get-case-from>
+              <lit-tag v="prn.pro"/>
+              <clip pos="3" side="tl" part="persona"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              
+              <clip pos="4" side="sl" part="whole"/>
+            </lu>    
+  
+            </out>
+          </when>
+
+          <otherwise>
+
+    	    <out>
+               <lu>
+            
+                <clip pos="1" side="tl" part="whole"/>
+          
+             
+            </lu><b/>
+	    <lu>
+            
+                <clip pos="2" side="tl" part="whole"/>
+          
+             
+            </lu><b/>
+            <lu>
+	        <get-case-from pos="3">
+		<lit v="le"/>
+               </get-case-from>
+              <lit-tag v="prn.pro"/>
+              <clip pos="3" side="tl" part="persona"/>
+              <lit-tag v="mf"/>
+              <clip pos="3" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              
+              <clip pos="4" side="sl" part="whole"/>
+      
+                </lu>    
+  
+            </out>  
+          </otherwise>
+        </choose>     
+      </action>
+    </rule>
+
 
 
 

@@ -422,6 +422,10 @@
       <label-item label="VLEXINF"/>
 	</label-sequence>		
     <label-sequence>
+      <label-item label="PARAVBLEX"/>	
+      <label-item label="DET"/>
+	</label-sequence>		
+    <label-sequence>
       <label-item label="VLEXINF"/>
       <label-item label="PARADANOM"/>		  
 	</label-sequence>		
