@@ -1,4 +1,5 @@
 Spanish and Asturian
+===================================================================
 
 You need apertium-3.1.0 and lttoolbox-3.0.0 to use this translator. To compile
 the linguistic data simply do:
@@ -19,4 +20,10 @@ To use this language-pair package with apertium YOU DO NOT NEED TO
 RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
 both the es-ast and the ast-es translation directions which should be
 acceptable for most applications.
+
+===================================================================
+
+More information about this module, and others can be found on
+the Apertium: Wiki, http://wiki.apertium.org
+
 
