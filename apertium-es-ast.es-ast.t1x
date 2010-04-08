@@ -22,6 +22,7 @@
     <!-- nombres propios -->
 
     <def-cat n="proclise">
+	<cat-item tags="adj.itg.*"/>
       <cat-item tags="prn.itg.*"/>
       <cat-item tags="adv.itg"/>
       <cat-item tags="cnjsub"/>
@@ -97,6 +98,9 @@
       <cat-item tags="adj.*"/>
     </def-cat>
     <!-- adjetivos propiamente dicho -->
+    <def-cat n="adjms">
+      <cat-item tags="adj.m.sg"/>
+    </def-cat>
 
     <def-cat n="adv">
       <cat-item tags="adv"/>
@@ -119,6 +123,14 @@
     </def-cat>
    <!--relativo "que" -->
 
+    <def-cat n="cada">
+      <cat-item lemma="cada" tags="det.*"/>
+    </def-cat>
+
+    <def-cat n="ex">
+      <cat-item lemma="ex" tags="n.*"/>
+    </def-cat>
+
     <def-cat n="coma">
       <cat-item tags="cm"/>
     </def-cat>
@@ -128,13 +140,16 @@
       <cat-item tags="prn.itg.*"/>
     </def-cat>
     <!--pronombre tónicos y pronombres interrogativos -->
+	
+	<def-cat n="prntn">
+      <cat-item tags="prn.tn.*"/>
+    </def-cat>
+	<!--Pronombres tónicos-->
 
-
-      <def-cat n="todo">
+    <def-cat n="todo">
        <cat-item lemma="todo" tags="prn.*"/>
        <cat-item lemma="todo" tags="predet.*"/>
     </def-cat>
-
 
     <def-cat n="prnenc">
       <cat-item tags="prn.enc.*"/>
@@ -146,6 +161,10 @@
     </def-cat>
     <!--pronombres proclíticos -->
 
+    <def-cat n="proclo">
+	<cat-item lemma="lo" tags="prn.pro.p3.nt.sg*"/>
+
+    </def-cat>
 
     <def-cat n="cnj">
       <cat-item tags="cnjcoo"/>
@@ -222,6 +241,11 @@
     </def-cat>
     <!--verbo deber -->
 
+      <def-cat n="estar">
+      <cat-item lemma="estar" tags="vblex.*"/>
+    </def-cat>
+    <!--verbo ser -->
+
      <def-cat n="ceder">
       <cat-item lemma="ceder" tags="vblex.*"/>
     </def-cat>
@@ -266,6 +290,12 @@
       <cat-item tags="vbmod.pp.*"/>
     </def-cat>
 
+	<def-cat n="partms">
+      <cat-item tags="vblex.pp.m.sg"/>
+      <cat-item tags="vbser.pp.m.sg"/>
+      <cat-item tags="vbhaver.pp.m.sg"/>
+      <cat-item tags="vbmod.pp.m.sg"/>
+    </def-cat>
     <def-cat n="lquest">
       <cat-item tags="lquest"/>
     </def-cat>
@@ -296,8 +326,8 @@
       <cat-item tags="num.*"/>
       <cat-item tags="num"/>
       <cat-item tags="prn.*"/>
-      <cat-item tags="rel.*"/>
-      <cat-item tags="rel"/>
+   <!--   <cat-item tags="rel.*"/>
+      <cat-item tags="rel"/>-->
       <cat-item tags="ij"/>
       <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
@@ -336,6 +366,10 @@
       <def-cat n="a">
       <cat-item lemma="a" tags="pr"/>
 	</def-cat>
+	
+    <def-cat n="de">
+      <cat-item lemma="de" tags="pr"/>
+	</def-cat>	
 
 	<def-cat n="adj_det_num_nom">
       <cat-item tags="adj.*"/>
@@ -426,8 +460,13 @@
       <cat-item lemma="teléfono" tags="n.*"/>
       <cat-item lemma="satélite" tags="n.*"/>		  
       <cat-item lemma="radio" tags="n.*"/>		  
-	  
    </def-cat>
+   
+ <!-- adjetivos, nombres -->
+
+   <def-cat n="primera">
+      <cat-item lemma="primer" tags="adj.*"/>	  
+   </def-cat>   
 
    <def-cat n="np_per">
       <cat-item lemma="Internet" tags="np.*"/>
@@ -459,6 +498,12 @@
       <cat-item lemma="recién" tags="adv"/>	
    </def-cat>   
 
+   <def-cat n="fácil-difícil">
+      <cat-item lemma="fácil" tags="adj.mf.sg"/>	
+      <cat-item lemma="difícil" tags="adj.mf.sg"/>		  
+   </def-cat>   
+   
+   
  <!-- odinales y nombres para 'per' -->
 
 </section-def-cats>
@@ -558,6 +603,8 @@
     </def-attr>
     <!--pronombres tónicos de 1ª, 2ª y 3ª persona, tónico reflexivo de 3ª persona, tónicos posesivos y pronombres interrogativos -->
 
+
+   
 
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
@@ -1039,6 +1086,7 @@
 		<list-item v="carbón"/>
 		<list-item v="carbono"/>
 		<list-item v="carne"/>
+		<list-item v="cerveza"/>
 		<list-item v="contenido"/>
 		<list-item v="dentadura"/>
 		<list-item v="deporte"/>
@@ -1198,16 +1246,15 @@
 
     <!--lista para búsqueda de no animados-->    
     <def-list n="no_animados">
-		<list-item v="manzana"/>
-                <list-item v="pera"/>
-                 <list-item v="abedul"/>
+         <list-item v="manzana"/>
+         <list-item v="pera"/>
+         <list-item v="abedul"/>
 		 <list-item v="pino"/>
 		 <list-item v="haya"/>
 		 <list-item v="nogal"/>
-		 <list-item v="haya"/>
-                 <list-item v="roble"/>
-                  <list-item v=" castaño"/>
-                <list-item v="teka"/>
+         <list-item v="roble"/>
+         <list-item v=" castaño"/>
+         <list-item v="teka"/>
 		 <list-item v="abeto"/>
 		 <list-item v="acebo"/>
 		 <list-item v="aceituna"/>
@@ -1355,7 +1402,7 @@
 		 <list-item v="sardina"/>
 		 <list-item v="semilla"/>
 		 <list-item v="soga"/>
-                <list-item v="cuerda"/>
+         <list-item v="cuerda"/>
 		 <list-item v="sol"/>
 		 <list-item v="sombra"/>
  		<list-item v="penumbra"/>
@@ -1368,7 +1415,1138 @@
 	
     <!--lista para búsqueda de abstractos-->    
     <def-list n="abstractos">
+		<list-item v="derecho"/>
+		<list-item v="causa"/>
+		<list-item v="culpa"/>	
+		<list-item v="lógica"/>
+		<list-item v="polémica"/>
+		<list-item v="retórica"/>
+		<list-item v="astrofísica"/>
+		<list-item v="música"/>
+		<list-item v="práctica"/>
+		<list-item v="ética"/>
+		<list-item v="ascética"/>
+		<list-item v="aritmética"/>
+		<list-item v="política"/>
+		<list-item v="estadística"/>
+		<list-item v="archivística"/>
+		<list-item v="astronáutica"/>
+		<list-item v="nada"/>
+		<list-item v="retirada"/>
+		<list-item v="sida"/>
+		<list-item v="propaganda"/>
+		<list-item v="moda"/>
+		<list-item v="ayuda"/>
+		<list-item v="intriga"/>
+		<list-item v="huelga"/>
+		<list-item v="sospecha"/>
+		<list-item v="lucha"/>
+		<list-item v="soberbia"/>
+		<list-item v="democracia"/>
+		<list-item v="aristocracia"/>
+		<list-item v="gracia"/>
+		<list-item v="pericia"/>
+		<list-item v="justicia"/>
+		<list-item v="insignificancia"/>
+		<list-item v="infancia"/>
+		<list-item v="arrogancia"/>
+		<list-item v="ganancia"/>
+		<list-item v="asonancia"/>
+		<list-item v="alternancia"/>
+		<list-item v="ignorancia"/>
+		<list-item v="militancia"/>
+		<list-item v="importancia"/>
+		<list-item v="relevancia"/>
+		<list-item v="inocencia"/>
+		<list-item v="anticadencia"/>
+		<list-item v="antecedencia"/>
+		<list-item v="presidencia"/>
+		<list-item v="evidencia"/>
+		<list-item v="ascendencia"/>
+		<list-item v="dependencia"/>
+		<list-item v="independencia"/>
+		<list-item v="prudencia"/>
+		<list-item v="inteligencia"/>
+		<list-item v="paciencia"/>
+		<list-item v="impaciencia"/>
+		<list-item v="conveniencia"/>
+		<list-item v="apariencia"/>
+		<list-item v="valencia"/>
+		<list-item v="ambivalencia"/>
+		<list-item v="excelencia"/>
+		<list-item v="fraudulencia"/>
+		<list-item v="avenencia"/>
+		<list-item v="abstinencia"/>
+		<list-item v="indiferencia"/>
+		<list-item v="herencia"/>
+		<list-item v="presencia"/>
+		<list-item v="incompetencia"/>
+		<list-item v="penitencia"/>
+		<list-item v="potencia"/>
+		<list-item v="impotencia"/>
+		<list-item v="advertencia"/>
+		<list-item v="asistencia"/>
+		<list-item v="resistencia"/>
+		<list-item v="insistencia"/>
+		<list-item v="existencia"/>
+		<list-item v="frecuencia"/>
+		<list-item v="influencia"/>
+		<list-item v="convivencia"/>
+		<list-item v="supervivencia"/>
+		<list-item v="renuncia"/>
+		<list-item v="astucia"/>
+		<list-item v="estadía"/>
+		<list-item v="picardía"/>
+		<list-item v="mafia"/>
+		<list-item v="caligrafía"/>
+		<list-item v="geografía"/>
+		<list-item v="filosofía"/>
+		<list-item v="antropofagia"/>
+		<list-item v="magia"/>
+		<list-item v="Estrategia"/>
+		<list-item v="nostalgia"/>
+		<list-item v="analogía"/>
+		<list-item v="anfibología"/>
+		<list-item v="psicología"/>
+		<list-item v="ideología"/>
+		<list-item v="geología"/>
+		<list-item v="arqueología"/>
+		<list-item v="axiología"/>
+		<list-item v="tecnología"/>
+		<list-item v="antropología"/>
+		<list-item v="astrología"/>
+		<list-item v="apoplejía"/>
+		<list-item v="anomalía"/>
+		<list-item v="melancolía"/>
+		<list-item v="antroponimia"/>
+		<list-item v="antonimia"/>
+		<list-item v="antinomia"/>
+		<list-item v="economía"/>
+		<list-item v="astronomía"/>
+		<list-item v="anatomía"/>
+		<list-item v="arritmia"/>
+		<list-item v="soberanía"/>
+		<list-item v="artesanía"/>
+		<list-item v="armonía"/>
+		<list-item v="ironía"/>
+		<list-item v="aparcería"/>
+		<list-item v="arcabucería"/>
+		<list-item v="miseria"/>
+		<list-item v="gritería"/>
+		<list-item v="avería"/>
+		<list-item v="teoría"/>
+		<list-item v="euforia"/>
+		<list-item v="gloria"/>
+		<list-item v="memoria"/>
+		<list-item v="minoría"/>
+		<list-item v="asesoría"/>
+		<list-item v="historia"/>
+		<list-item v="mayoría"/>
+		<list-item v="asimetría"/>
+		<list-item v="areometría"/>
+		<list-item v="industria"/>
+		<list-item v="sabiduría"/>
+		<list-item v="furia"/>
+		<list-item v="injuria"/>
+		<list-item v="antonomasia"/>
+		<list-item v="fantasía"/>
+		<list-item v="apostasía"/>
+		<list-item v="amnesia"/>
+		<list-item v="burguesía"/>
+		<list-item v="ansia"/>
+		<list-item v="controversia"/>
+		<list-item v="antipatía"/>
+		<list-item v="simpatía"/>
+		<list-item v="arteriopatía"/>
+		<list-item v="ayudantía"/>
+		<list-item v="garantía"/>
+		<list-item v="amnistía"/>
+		<list-item v="eucaristía"/>
+		<list-item v="angustia"/>
+		<list-item v="sequía"/>
+		<list-item v="anarquía"/>
+		<list-item v="jerarquía"/>
+		<list-item v="anorexia"/>
+		<list-item v="asfixia"/>
+		<list-item v="pena"/>
+		<list-item v="rutina"/>
+		<list-item v="limosna"/>
+		<list-item v="fortuna"/>
+		<list-item v="maña"/>
+		<list-item v="álgebra"/>
+		<list-item v="quiebra"/>
+		<list-item v="ira"/>
+		<list-item v="honra"/>
+		<list-item v="guerra"/>
+		<list-item v="locura"/>
+		<list-item v="andadura"/>
+		<list-item v="mofadura"/>
+		<list-item v="amortajadura"/>
+		<list-item v="arralladura"/>
+		<list-item v="arboladura"/>
+		<list-item v="amoladura"/>
+		<list-item v="armadura"/>
+		<list-item v="arrebañadura"/>
+		<list-item v="aradura"/>
+		<list-item v="asadura"/>
+		<list-item v="alisadura"/>
+		<list-item v="dentadura"/>
+		<list-item v="asestadura"/>
+		<list-item v="apoyadura"/>
+		<list-item v="añadidura"/>
+		<list-item v="hondura"/>
+		<list-item v="verdura"/>
+		<list-item v="amargura"/>
+		<list-item v="anchura"/>
+		<list-item v="temperatura"/>
+		<list-item v="literatura"/>
+		<list-item v="estatura"/>
+		<list-item v="lectura"/>
+		<list-item v="arquitectura"/>
+		<list-item v="apretura"/>
+		<list-item v="escritura"/>
+		<list-item v="altura"/>
+		<list-item v="avicultura"/>
+		<list-item v="incultura"/>
+		<list-item v="aventura"/>
+		<list-item v="pintura"/>
+		<list-item v="ruptura"/>
+		<list-item v="apertura"/>
+		<list-item v="apostura"/>
+		<list-item v="risa"/>
+		<list-item v="prisa"/>
+		<list-item v="amenaza"/>
+		<list-item v="delicadeza"/>
+		<list-item v="grandeza"/>
+		<list-item v="limpieza"/>
+		<list-item v="naturaleza"/>
+		<list-item v="nobleza"/>
+		<list-item v="belleza"/>
+		<list-item v="firmeza"/>
+		<list-item v="rareza"/>
+		<list-item v="pobreza"/>
+		<list-item v="pereza"/>
+		<list-item v="aspereza"/>
+		<list-item v="riqueza"/>
+		<list-item v="andanza"/>
+		<list-item v="holganza"/>
+		<list-item v="alianza"/>
+		<list-item v="semejanza"/>
+		<list-item v="antojanza"/>
+		<list-item v="bonanza"/>
+		<list-item v="fuerza"/>
+		<list-item v="sociedad"/>
+		<list-item v="piedad"/>
+		<list-item v="arbitrariedad"/>
+		<list-item v="seriedad"/>
+		<list-item v="ansiedad"/>
+		<list-item v="soledad"/>
+		<list-item v="humedad"/>
+		<list-item v="ambigüedad"/>
+		<list-item v="antigüedad"/>
+		<list-item v="gravedad"/>
+		<list-item v="tenacidad"/>
+		<list-item v="incapacidad"/>
+		<list-item v="publicidad"/>
+		<list-item v="felicidad"/>
+		<list-item v="heroicidad"/>
+		<list-item v="aromaticidad"/>
+		<list-item v="profundidad"/>
+		<list-item v="calidad"/>
+		<list-item v="modalidad"/>
+		<list-item v="realidad"/>
+		<list-item v="artificialidad"/>
+		<list-item v="bestialidad"/>
+		<list-item v="anormalidad"/>
+		<list-item v="finalidad"/>
+		<list-item v="nacionalidad"/>
+		<list-item v="anticonstitucionalidad"/>
+		<list-item v="personalidad"/>
+		<list-item v="naturalidad"/>
+		<list-item v="individualidad"/>
+		<list-item v="eventualidad"/>
+		<list-item v="sexualidad"/>
+		<list-item v="rivalidad"/>
+		<list-item v="fidelidad"/>
+		<list-item v="infidelidad"/>
+		<list-item v="probabilidad"/>
+		<list-item v="habilidad"/>
+		<list-item v="amabilidad"/>
+		<list-item v="responsabilidad"/>
+		<list-item v="inestabilidad"/>
+		<list-item v="sensibilidad"/>
+		<list-item v="facilidad"/>
+		<list-item v="inmovilidad"/>
+		<list-item v="intimidad"/>
+		<list-item v="proximidad"/>
+		<list-item v="humanidad"/>
+		<list-item v="sanidad"/>
+		<list-item v="serenidad"/>
+		<list-item v="eternidad"/>
+		<list-item v="solidaridad"/>
+		<list-item v="peculiaridad"/>
+		<list-item v="particularidad"/>
+		<list-item v="irregularidad"/>
+		<list-item v="singularidad"/>
+		<list-item v="popularidad"/>
+		<list-item v="paridad"/>
+		<list-item v="superioridad"/>
+		<list-item v="anterioridad"/>
+		<list-item v="interioridad"/>
+		<list-item v="oscuridad"/>
+		<list-item v="seguridad"/>
+		<list-item v="inseguridad"/>
+		<list-item v="necesidad"/>
+		<list-item v="inmensidad"/>
+		<list-item v="intensidad"/>
+		<list-item v="artificiosidad"/>
+		<list-item v="generosidad"/>
+		<list-item v="asquerosidad"/>
+		<list-item v="biodiversidad"/>
+		<list-item v="cantidad"/>
+		<list-item v="identidad"/>
+		<list-item v="honestidad"/>
+		<list-item v="continuidad"/>
+		<list-item v="pasividad"/>
+		<list-item v="maldad"/>
+		<list-item v="igualdad"/>
+		<list-item v="bondad"/>
+		<list-item v="facultad"/>
+		<list-item v="voluntad"/>
+		<list-item v="potestad"/>
+		<list-item v="amistad"/>
+		<list-item v="pared"/>
+		<list-item v="sed"/>
+		<list-item v="alud"/>
+		<list-item v="salud"/>
+		<list-item v="longitud"/>
+		<list-item v="amplitud"/>
+		<list-item v="plenitud"/>
+		<list-item v="magnitud"/>
+		<list-item v="exactitud"/>
+		<list-item v="altitud"/>
+		<list-item v="aptitud"/>
+		<list-item v="juventud"/>
+		<list-item v="apéndice"/>
+		<list-item v="balance"/>
+		<list-item v="bronce"/>
+		<list-item v="fraude"/>
+		<list-item v="fe"/>
+		<list-item v="arribaje"/>
+		<list-item v="almacenaje"/>
+		<list-item v="coraje"/>
+		<list-item v="arbitraje"/>
+		<list-item v="lenguaje"/>
+		<list-item v="fiebre"/>
+		<list-item v="hambre"/>
+		<list-item v="incertidumbre"/>
+		<list-item v="arrastre"/>
+		<list-item v="rescate"/>
+		<list-item v="talante"/>
+		<list-item v="ambiente"/>
+		<list-item v="arte"/>
+		<list-item v="muerte"/>
+		<list-item v="suerte"/>
+		<list-item v="deporte"/>
+		<list-item v="contraste"/>
+		<list-item v="arranque"/>
+		<list-item v="relieve"/>
+		<list-item v="potencial"/>
+		<list-item v="material"/>
+		<list-item v="mal"/>
+		<list-item v="personal"/>
+		<list-item v="moral"/>
+		<list-item v="control"/>
+		<list-item v="origen"/>
+		<list-item v="bien"/>
+		<list-item v="volumen"/>
+		<list-item v="fin"/>
+		<list-item v="perdón"/>
+		<list-item v="aprobación"/>
+		<list-item v="perturbación"/>
+		<list-item v="indicación"/>
+		<list-item v="calificación"/>
+		<list-item v="amplificación"/>
+		<list-item v="significación"/>
+		<list-item v="ratificación"/>
+		<list-item v="identificación"/>
+		<list-item v="justificación"/>
+		<list-item v="aplicación"/>
+		<list-item v="explicación"/>
+		<list-item v="fabricación"/>
+		<list-item v="defraudación"/>
+		<list-item v="apostrofación"/>
+		<list-item v="indagación"/>
+		<list-item v="obligación"/>
+		<list-item v="investigación"/>
+		<list-item v="apreciación"/>
+		<list-item v="financiación"/>
+		<list-item v="anunciación"/>
+		<list-item v="radiación"/>
+		<list-item v="ampliación"/>
+		<list-item v="apropiación"/>
+		<list-item v="aviación"/>
+		<list-item v="población"/>
+		<list-item v="antelación"/>
+		<list-item v="jubilación"/>
+		<list-item v="asimilación"/>
+		<list-item v="aniquilación"/>
+		<list-item v="legislación"/>
+		<list-item v="articulación"/>
+		<list-item v="anulación"/>
+		<list-item v="animación"/>
+		<list-item v="aproximación"/>
+		<list-item v="formación"/>
+		<list-item v="información"/>
+		<list-item v="indignación"/>
+		<list-item v="resignación"/>
+		<list-item v="imaginación"/>
+		<list-item v="inclinación"/>
+		<list-item v="iluminación"/>
+		<list-item v="anticipación"/>
+		<list-item v="participación"/>
+		<list-item v="ocupación"/>
+		<list-item v="preocupación"/>
+		<list-item v="preparación"/>
+		<list-item v="separación"/>
+		<list-item v="cooperación"/>
+		<list-item v="recuperación"/>
+		<list-item v="aliteración"/>
+		<list-item v="alteración"/>
+		<list-item v="integración"/>
+		<list-item v="aspiración"/>
+		<list-item v="respiración"/>
+		<list-item v="inspiración"/>
+		<list-item v="exploración"/>
+		<list-item v="ilustración"/>
+		<list-item v="restauración"/>
+		<list-item v="curación"/>
+		<list-item v="figuración"/>
+		<list-item v="sensación"/>
+		<list-item v="conversación"/>
+		<list-item v="excitación"/>
+		<list-item v="imitación"/>
+		<list-item v="limitación"/>
+		<list-item v="irritación"/>
+		<list-item v="ambientación"/>
+		<list-item v="orientación"/>
+		<list-item v="lamentación"/>
+		<list-item v="alimentación"/>
+		<list-item v="argumentación"/>
+		<list-item v="tentación"/>
+		<list-item v="explotación"/>
+		<list-item v="anotación"/>
+		<list-item v="aportación"/>
+		<list-item v="exportación"/>
+		<list-item v="reputación"/>
+		<list-item v="averiguación"/>
+		<list-item v="amortiguación"/>
+		<list-item v="salvación"/>
+		<list-item v="renovación"/>
+		<list-item v="innovación"/>
+		<list-item v="observación"/>
+		<list-item v="arabización"/>
+		<list-item v="realización"/>
+		<list-item v="americanización"/>
+		<list-item v="indemnización"/>
+		<list-item v="aromatización"/>
+		<list-item v="alfabetización"/>
+		<list-item v="amortización"/>
+		<list-item v="satisfacción"/>
+		<list-item v="interacción"/>
+		<list-item v="abstracción"/>
+		<list-item v="perfección"/>
+		<list-item v="imperfección"/>
+		<list-item v="protección"/>
+		<list-item v="ficción"/>
+		<list-item v="restricción"/>
+		<list-item v="convicción"/>
+		<list-item v="reducción"/>
+		<list-item v="producción"/>
+		<list-item v="reproducción"/>
+		<list-item v="instrucción"/>
+		<list-item v="reconstrucción"/>
+		<list-item v="prohibición"/>
+		<list-item v="exhibición"/>
+		<list-item v="ambición"/>
+		<list-item v="bendición"/>
+		<list-item v="aparición"/>
+		<list-item v="aposición"/>
+		<list-item v="anteposición"/>
+		<list-item v="predisposición"/>
+		<list-item v="abstención"/>
+		<list-item v="defunción"/>
+		<list-item v="anticoncepción"/>
+		<list-item v="precaución"/>
+		<list-item v="contribución"/>
+		<list-item v="alocución"/>
+		<list-item v="evolución"/>
+		<list-item v="institución"/>
+		<list-item v="prostitución"/>
+		<list-item v="religión"/>
+		<list-item v="pasión"/>
+		<list-item v="evasión"/>
+		<list-item v="recesión"/>
+		<list-item v="procesión"/>
+		<list-item v="presión"/>
+		<list-item v="represión"/>
+		<list-item v="impresión"/>
+		<list-item v="obsesión"/>
+		<list-item v="precisión"/>
+		<list-item v="sumisión"/>
+		<list-item v="televisión"/>
+		<list-item v="Expansión"/>
+		<list-item v="suspensión"/>
+		<list-item v="aprensión"/>
+		<list-item v="tensión"/>
+		<list-item v="pretensión"/>
+		<list-item v="stensión"/>
+		<list-item v="extensión"/>
+		<list-item v="explosión"/>
+		<list-item v="aspersión"/>
+		<list-item v="animadversión"/>
+		<list-item v="inversión"/>
+		<list-item v="alusión"/>
+		<list-item v="inclusión"/>
+		<list-item v="ilusión"/>
+		<list-item v="gestión"/>
+		<list-item v="reflexión"/>
+		<list-item v="anexión"/>
+		<list-item v="arribazón"/>
+		<list-item v="pánico"/>
+		<list-item v="arsénico"/>
+		<list-item v="asco"/>
+		<list-item v="pasado"/>
+		<list-item v="miedo"/>
+		<list-item v="parecido"/>
+		<list-item v="contenido"/>
+		<list-item v="ruido"/>
+		<list-item v="olvido"/>
+		<list-item v="recuerdo"/>
+		<list-item v="apogeo"/>
+		<list-item v="apaleo"/>
+		<list-item v="aseo"/>
+		<list-item v="apego"/>
+		<list-item v="riesgo"/>
+		<list-item v="cambio"/>
+		<list-item v="aprecio"/>
+		<list-item v="beneficio"/>
+		<list-item v="ocio"/>
+		<list-item v="remedio"/>
+		<list-item v="asedio"/>
+		<list-item v="homicidio"/>
+		<list-item v="presidio"/>
+		<list-item v="incendio"/>
+		<list-item v="estudio"/>
+		<list-item v="privilegio"/>
+		<list-item v="prestigio"/>
+		<list-item v="apremio"/>
+		<list-item v="ingenio"/>
+		<list-item v="exterminio"/>
+		<list-item v="matrimonio"/>
+		<list-item v="patrimonio"/>
+		<list-item v="ideario"/>
+		<list-item v="salario"/>
+		<list-item v="brío"/>
+		<list-item v="poderío"/>
+		<list-item v="frío"/>
+		<list-item v="Delirio"/>
+		<list-item v="antojo"/>
+		<list-item v="lujo"/>
+		<list-item v="influjo"/>
+		<list-item v="recelo"/>
+		<list-item v="júbilo"/>
+		<list-item v="orgullo"/>
+		<list-item v="ridículo"/>
+		<list-item v="ánimo"/>
+		<list-item v="aplomo"/>
+		<list-item v="pasmo"/>
+		<list-item v="arcaísmo"/>
+		<list-item v="racismo"/>
+		<list-item v="anglicismo"/>
+		<list-item v="antifascismo"/>
+		<list-item v="andalucismo"/>
+		<list-item v="periodismo"/>
+		<list-item v="pacifismo"/>
+		<list-item v="anticlericalismo"/>
+		<list-item v="realismo"/>
+		<list-item v="socialismo"/>
+		<list-item v="antiimperialismo"/>
+		<list-item v="nacionalismo"/>
+		<list-item v="aristotelismo"/>
+		<list-item v="antiespañolismo"/>
+		<list-item v="optimismo"/>
+		<list-item v="antirreformismo"/>
+		<list-item v="anglicanismo"/>
+		<list-item v="americanismo"/>
+		<list-item v="arrianismo"/>
+		<list-item v="alpinismo"/>
+		<list-item v="antagonismo"/>
+		<list-item v="anacronismo"/>
+		<list-item v="anticomunismo"/>
+		<list-item v="militarismo"/>
+		<list-item v="antimilitarismo"/>
+		<list-item v="antropocentrismo"/>
+		<list-item v="aragonesismo"/>
+		<list-item v="analfabetismo"/>
+		<list-item v="ascetismo"/>
+		<list-item v="antisemitismo"/>
+		<list-item v="franquismo"/>
+		<list-item v="anarquismo"/>
+		<list-item v="altruismo"/>
+		<list-item v="bochorno"/>
+		<list-item v="ayuno"/>
+		<list-item v="paro"/>
+		<list-item v="amparo"/>
+		<list-item v="asombro"/>
+		<list-item v="lucro"/>
+		<list-item v="peligro"/>
+		<list-item v="retiro"/>
+		<list-item v="socorro"/>
+		<list-item v="apuro"/>
+		<list-item v="futuro"/>
+		<list-item v="fracaso"/>
+		<list-item v="exceso"/>
+		<list-item v="peso"/>
+		<list-item v="regreso"/>
+		<list-item v="ingreso"/>
+		<list-item v="progreso"/>
+		<list-item v="ascenso"/>
+		<list-item v="asenso"/>
+		<list-item v="reposo"/>
+		<list-item v="anonimato"/>
+		<list-item v="asesinato"/>
+		<list-item v="ornato"/>
+		<list-item v="tacto"/>
+		<list-item v="intelecto"/>
+		<list-item v="Aspecto"/>
+		<list-item v="respeto"/>
+		<list-item v="infinito"/>
+		<list-item v="mérito"/>
+		<list-item v="éxito"/>
+		<list-item v="apocamiento"/>
+		<list-item v="arrendamiento"/>
+		<list-item v="anudamiento"/>
+		<list-item v="arredondeamiento"/>
+		<list-item v="apaleamiento"/>
+		<list-item v="alineamiento"/>
+		<list-item v="apedreamiento"/>
+		<list-item v="arreamiento"/>
+		<list-item v="apagamiento"/>
+		<list-item v="apegamiento"/>
+		<list-item v="arrugamiento"/>
+		<list-item v="asechamiento"/>
+		<list-item v="aprovechamiento"/>
+		<list-item v="apreciamiento"/>
+		<list-item v="anunciamiento"/>
+		<list-item v="asociamiento"/>
+		<list-item v="apremiamiento"/>
+		<list-item v="aliviamiento"/>
+		<list-item v="aventajamiento"/>
+		<list-item v="antojamiento"/>
+		<list-item v="apretujamiento"/>
+		<list-item v="apuñalamiento"/>
+		<list-item v="apuntalamiento"/>
+		<list-item v="amueblamiento"/>
+		<list-item v="apilamiento"/>
+		<list-item v="aniquilamiento"/>
+		<list-item v="ametrallamiento"/>
+		<list-item v="arrodillamiento"/>
+		<list-item v="apolillamiento"/>
+		<list-item v="asolamiento"/>
+		<list-item v="llamamiento"/>
+		<list-item v="allanamiento"/>
+		<list-item v="avillanamiento"/>
+		<list-item v="aplanamiento"/>
+		<list-item v="almacenamiento"/>
+		<list-item v="apadrinamiento"/>
+		<list-item v="amotinamiento"/>
+		<list-item v="arruinamiento"/>
+		<list-item v="arrinconamiento"/>
+		<list-item v="posicionamiento"/>
+		<list-item v="funcionamiento"/>
+		<list-item v="apasionamiento"/>
+		<list-item v="apisonamiento"/>
+		<list-item v="amontonamiento"/>
+		<list-item v="razonamiento"/>
+		<list-item v="arañamiento"/>
+		<list-item v="apiñamiento"/>
+		<list-item v="tapamiento"/>
+		<list-item v="anticipamiento"/>
+		<list-item v="palpamiento"/>
+		<list-item v="arropamiento"/>
+		<list-item v="amparamiento"/>
+		<list-item v="nombramiento"/>
+		<list-item v="alumbramiento"/>
+		<list-item v="apoderamiento"/>
+		<list-item v="aligeramiento"/>
+		<list-item v="amaneramiento"/>
+		<list-item v="alteramiento"/>
+		<list-item v="mejoramiento"/>
+		<list-item v="asesoramiento"/>
+		<list-item v="azoramiento"/>
+		<list-item v="arbitramiento"/>
+		<list-item v="arrastramiento"/>
+		<list-item v="aseguramiento"/>
+		<list-item v="apuramiento"/>
+		<list-item v="apresuramiento"/>
+		<list-item v="amasamiento"/>
+		<list-item v="apresamiento"/>
+		<list-item v="alisamiento"/>
+		<list-item v="amansamiento"/>
+		<list-item v="pensamiento"/>
+		<list-item v="aquilatamiento"/>
+		<list-item v="asentamiento"/>
+		<list-item v="aposentamiento"/>
+		<list-item v="aventamiento"/>
+		<list-item v="arrejuntamiento"/>
+		<list-item v="apuntamiento"/>
+		<list-item v="ayuntamiento"/>
+		<list-item v="azotamiento"/>
+		<list-item v="apartamiento"/>
+		<list-item v="apaciguamiento"/>
+		<list-item v="averiguamiento"/>
+		<list-item v="amortiguamiento"/>
+		<list-item v="avivamiento"/>
+		<list-item v="renovamiento"/>
+		<list-item v="aplazamiento"/>
+		<list-item v="alzamiento"/>
+		<list-item v="lanzamiento"/>
+		<list-item v="avergonzamiento"/>
+		<list-item v="apercibimiento"/>
+		<list-item v="nacimiento"/>
+		<list-item v="fallecimiento"/>
+		<list-item v="aparecimiento"/>
+		<list-item v="amortecimiento"/>
+		<list-item v="reconocimiento"/>
+		<list-item v="añadimiento"/>
+		<list-item v="procedimiento"/>
+		<list-item v="rendimiento"/>
+		<list-item v="aprendimiento"/>
+		<list-item v="ardimiento"/>
+		<list-item v="mantenimiento"/>
+		<list-item v="sufrimiento"/>
+		<list-item v="arrepentimiento"/>
+		<list-item v="sentimiento"/>
+		<list-item v="asentimiento"/>
+		<list-item v="resentimiento"/>
+		<list-item v="presentimiento"/>
+		<list-item v="movimiento"/>
+		<list-item v="talento"/>
+		<list-item v="armamento"/>
+		<list-item v="ornamento"/>
+		<list-item v="temperamento"/>
+		<list-item v="juramento"/>
+		<list-item v="incremento"/>
+		<list-item v="excremento"/>
+		<list-item v="sedimento"/>
+		<list-item v="alimento"/>
+		<list-item v="pavimento"/>
+		<list-item v="contento"/>
+		<list-item v="sustento"/>
+		<list-item v="instinto"/>
+		<list-item v="antídoto"/>
+		<list-item v="gasto"/>
+		<list-item v="presupuesto"/>
+		<list-item v="gusto"/>
+		<list-item v="luto"/>
+		<list-item v="rechazo"/>
+		<list-item v="pesar"/>
+		<list-item v="malestar"/>
+		<list-item v="bienestar"/>
+		<list-item v="placer"/>
+		<list-item v="poder"/>
+		<list-item v="sabor"/>
+		<list-item v="rencor"/>
+		<list-item v="ardor"/>
+		<list-item v="sudor"/>
+		<list-item v="rigor"/>
+		<list-item v="fulgor"/>
+		<list-item v="calor"/>
+		<list-item v="olor"/>
+		<list-item v="amor"/>
+		<list-item v="temor"/>
+		<list-item v="humor"/>
+		<list-item v="rumor"/>
+		<list-item v="honor"/>
+		<list-item v="terror"/>
+		<list-item v="horror"/>
+		<list-item v="favor"/>
+		<list-item v="pavor"/>
+		<list-item v="interés"/>
+		<list-item v="antífasis"/>
+		<list-item v="ascesis"/>
+		<list-item v="arterioesclerosis"/>
+		<list-item v="artrosis"/>
+		<list-item v="apendicitis"/>
+		<list-item v="artritis"/>
+		<list-item v="Dejadez"/>
+		<list-item v="honradez"/>
+		<list-item v="candidez"/>
+		<list-item v="invalidez"/>
+		<list-item v="solidez"/>
+		<list-item v="rapidez"/>
+		<list-item v="madurez"/>
+		<list-item v="sensatez"/>
+		<list-item v="altivez"/>
+
+
+               <list-item v="dinero"/>
+		<list-item v="leña"/>
+		<list-item v="leche"/>
+		<list-item v="pan"/>
+		<list-item v="madera"/>
 		<list-item v="aire"/>
+		<list-item v="luz"/>
+		<list-item v="sal"/>
+		<list-item v="caldo"/>
+		<list-item v="harina"/>
+		<list-item v="nieve"/>
+		<list-item v="vino"/>
+		<list-item v="azúcar"/>
+		<list-item v="manteca"/>
+		<list-item v="té"/>
+		<list-item v="queso"/>
+		<list-item v="sidra"/>
+		<list-item v="abaniqueo"/>
+		<list-item v="abono"/>
+		<list-item v="ábrego"/>
+		<list-item v="abrillantador"/>
+		<list-item v="absolutismo"/>
+		<list-item v="abstencionismo"/>
+		<list-item v="acarreo"/>
+		<list-item v="acebache"/>
+		<list-item v="aceite"/>
+		<list-item v="acero"/>
+		<list-item v="acetileno"/>
+		<list-item v="acetona"/>
+		<list-item v="achicoria"/>
+		<list-item v="ácido"/>
+		<list-item v="aclarado"/>
+		<list-item v="acné"/>
+		<list-item v="acristalamiento"/>
+		<list-item v="acromatismo"/>
+		<list-item v="actinio"/>
+		<list-item v="activismo"/>
+		<list-item v="adobe"/>
+		<list-item v="adobío"/>
+		<list-item v="adrenalina"/>
+		<list-item v="aeromodelismo"/>
+		<list-item v="agua"/>
+		<list-item v="aguadija"/>
+		<list-item v="aguadulce"/>
+		<list-item v="aguafuerte"/>
+		<list-item v="aguaje"/>
+		<list-item v="aguanieve"/>
+		<list-item v="aguante"/>
+		<list-item v="aguardiente"/>
+		<list-item v="aguaza"/>
+		<list-item v="ahorro"/>
+		<list-item v="ajenjo"/>
+		<list-item v="alabastro"/>
+		<list-item v="albahaca"/>
+		<list-item v="albañilería"/>
+		<list-item v="albinismo"/>
+		<list-item v="albúmina"/>
+		<list-item v="albuminoide"/>
+		<list-item v="alcacer"/>
+		<list-item v="alcaloide"/>
+		<list-item v="alcanfor"/>
+		<list-item v="alcantarillado"/>
+		<list-item v="alcohol"/>
+		<list-item v="alcoholismo"/>
+		<list-item v="aleación"/>
+		<list-item v="alegría"/>
+		<list-item v="alelí"/>
+		<list-item v="alergia"/>
+		<list-item v="alerta"/>
+		<list-item v="aleteo"/>
+		<list-item v="alfalfa"/>
+		<list-item v="alfalfa"/>
+		<list-item v="alfarería"/>
+		<list-item v="alferecía"/>
+		<list-item v="algodón"/>
+		<list-item v="alhelí"/>
+		<list-item v="aliento"/>
+		<list-item v="alimentación"/>
+		<list-item v="alimento"/>
+		<list-item v="aliño"/>
+		<list-item v="almacenaje"/>
+		<list-item v="almibar"/>
+		<list-item v="almidón"/>
+		<list-item v="alpargatería"/>
+		<list-item v="alpinismo"/>
+		<list-item v="alpiste"/>
+		<list-item v="alquitrán"/>
+		<list-item v="alterne"/>
+		<list-item v="alto"/>
+		<list-item v="altruismo"/>
+		<list-item v="alúmina"/>
+		<list-item v="aluminio"/>
+		<list-item v="alumnado"/>
+		<list-item v="amanecer"/>
+		<list-item v="amargura"/>
+		<list-item v="amarillo"/>
+		<list-item v="amarre"/>
+		<list-item v="amasado"/>
+		<list-item v="ámbar"/>
+		<list-item v="ambiente"/>
+		<list-item v="amianto"/>
+		<list-item v="aminoácido"/>
+		<list-item v="amoníaco"/>
+		<list-item v="amor"/>
+		<list-item v="amortajadura"/>
+		<list-item v="analfabetismo"/>
+		<list-item v="analgésico"/>
+		<list-item v="anarquismo"/>
+		<list-item v="anchura"/>
+		<list-item v="anglicanismo"/>
+		<list-item v="angora"/>
+		<list-item v="angula"/>
+		<list-item v="anhídrido"/>
+		<list-item v="ansia"/>
+		<list-item v="ansiedad"/>
+		<list-item v="antagonismo"/>
+		<list-item v="ante"/>
+		<list-item v="antibiótico"/>
+		<list-item v="anticlericalismo"/>
+		<list-item v="anticomunismo"/>
+		<list-item v="antídoto"/>
+		<list-item v="antiespañolismo"/>
+		<list-item v="antifascismo"/>
+		<list-item v="antiimperialismo"/>
+		<list-item v="antimilitarismo"/>
+		<list-item v="antimonio"/>
+		<list-item v="antirreformismo"/>
+		<list-item v="antisemitismo"/>
+		<list-item v="antracita"/>
+		<list-item v="antropocentrismo"/>
+		<list-item v="apaleo"/>
+		<list-item v="apego"/>
+		<list-item v="apio"/>
+		<list-item v="apostolado"/>
+		<list-item v="apostura"/>
+		<list-item v="aramio"/>
+		<list-item v="arbolado"/>
+		<list-item v="arboladura"/>
+		<list-item v="arcabucería"/>
+		<list-item v="arcén"/>
+		<list-item v="ardor"/>
+		<list-item v="argamasa"/>
+		<list-item v="árgoma"/>
+		<list-item v="árnica"/>
+		<list-item v="aroma"/>
+		<list-item v="arralladura"/>
+		<list-item v="arreo"/>
+		<list-item v="arrianismo"/>
+		<list-item v="arrodeo"/>
+		<list-item v="arrojo"/>
+		<list-item v="arroz"/>
+		<list-item v="arruda"/>
+		<list-item v="arsenal"/>
+		<list-item v="arsénico"/>
+		<list-item v="arte"/>
+		<list-item v="artesanado"/>
+		<list-item v="artesanía"/>
+		<list-item v="artillería"/>
+		<list-item v="asado"/>
+		<list-item v="asadura"/>
+		<list-item v="ascetismo"/>
+		<list-item v="asco"/>
+		<list-item v="aseo"/>
+		<list-item v="asfalto"/>
+		<list-item v="asma"/>
+		<list-item v="asonancia"/>
+		<list-item v="avena"/>
+		<list-item v="ayer"/>
+		<list-item v="azabache"/>
+		<list-item v="azafrán"/>
+		<list-item v="azahar"/>
+		<list-item v="azogue"/>
+		<list-item v="azúcar"/>
+		<list-item v="azufre"/>
+		<list-item v="azul"/>
+		<list-item v="azulete"/>
+		<list-item v="azumbre"/>
+		<list-item v="baloncesto"/>
+		<list-item v="bambú"/>
+		<list-item v="baño"/>
+		<list-item v="barro"/>
+		<list-item v="bebida"/>
+		<list-item v="bien"/>
+		<list-item v="bienestar"/>
+		<list-item v="bochorno"/>
+		<list-item v="borra"/>
+		<list-item v="brea"/>
+		<list-item v="bronce"/>
+		<list-item v="cabello"/>
+		<list-item v="caca"/>
+		<list-item v="café"/>
+		<list-item v="cal"/>
+		<list-item v="caldo"/>
+		<list-item v="calor"/>
+		<list-item v="calzado"/>
+		<list-item v="campiña"/>
+		<list-item v="campo"/>
+		<list-item v="candor"/>
+		<list-item v="canto"/>
+		<list-item v="carbón"/>
+		<list-item v="carbono"/>
+		<list-item v="carne"/>
+		<list-item v="contenido"/>
+		<list-item v="dentadura"/>
+		<list-item v="deporte"/>
+		<list-item v="escritura"/>
+		<list-item v="estupefaciente"/>
+		<list-item v="explosivo"/>
+		<list-item v="fármaco"/>
+		<list-item v="fiebre"/>
+		<list-item v="flujo"/>
+		<list-item v="fragancia"/>
+		<list-item v="frío"/>
+		<list-item v="fruta"/>
+		<list-item v="fuego"/>
+		<list-item v="fuerza"/>
+		<list-item v="fulgor"/>
+		<list-item v="furia"/>
+		<list-item v="fútbol"/>
+		<list-item v="ganado"/>
+		<list-item v="gas"/>
+		<list-item v="gasóil"/>
+		<list-item v="gasóleo"/>
+		<list-item v="gasolina"/>
+		<list-item v="gente"/>
+		<list-item v="ginebra"/>
+		<list-item v="golf"/>
+		<list-item v="gozo"/>
+		<list-item v="grasa"/>
+		<list-item v="hálito"/>
+		<list-item v="herbáceo"/>
+		<list-item v="herramienta"/>
+		<list-item v="hielo"/>
+		<list-item v="hierba"/>
+		<list-item v="honor"/>
+		<list-item v="honra"/>
+		<list-item v="horror"/>
+		<list-item v="humedad"/>
+		<list-item v="humo"/>
+		<list-item v="humor"/>
+		<list-item v="iluminación"/>
+		<list-item v="industria"/>
+		<list-item v="infinito"/>
+		<list-item v="inmundicia"/>
+		<list-item v="ira"/>
+		<list-item v="jugo"/>
+		<list-item v="lana"/>
+		<list-item v="láser"/>
+		<list-item v="leche"/>
+		<list-item v="leña"/>
+		<list-item v="líquido"/>
+		<list-item v="lluvia"/>
+		<list-item v="lodo"/>
+		<list-item v="madera"/>
+		<list-item v="magia"/>
+		<list-item v="mal"/>
+		<list-item v="malestar"/>
+		<list-item v="mármol"/>
+		<list-item v="marrón"/>
+		<list-item v="masa"/>
+		<list-item v="mate"/>
+		<list-item v="materia"/>
+		<list-item v="material"/>
+		<list-item v="metal"/>
+		<list-item v="mezcla"/>
+		<list-item v="miedo"/>
+		<list-item v="miel"/>
+		<list-item v="mierda"/>
+		<list-item v="miseria"/>
+		<list-item v="muchedumbre"/>
+		<list-item v="nacionalismo"/>
+		<list-item v="nada"/>
+		<list-item v="nafta"/>
+		<list-item v="naftalina"/>
+		<list-item v="nata"/>
+		<list-item v="niebla"/>
+		<list-item v="nieve"/>
+		<list-item v="olor"/>
+		<list-item v="olvido"/>
+		<list-item v="orgullo"/>
+		<list-item v="ornato"/>
+		<list-item v="oro"/>
+		<list-item v="oxígeno"/>
+		<list-item v="ozono"/>
+		<list-item v="pacifismo"/>
+		<list-item v="paisaje"/>
+		<list-item v="paja"/>
+		<list-item v="pan"/>
+		<list-item v="pánico"/>
+		<list-item v="paro"/>
+		<list-item v="pasta"/>
+		<list-item v="pavimento"/>
+		<list-item v="pavor"/>
+		<list-item v="perfume"/>
+		<list-item v="personal"/>
+		<list-item v="pescado"/>
+		<list-item v="pestañeo"/>
+		<list-item v="peste"/>
+		<list-item v="petróleo"/>
+		<list-item v="piel"/>
+		<list-item v="plástico"/>
+		<list-item v="plata"/>
+		<list-item v="poder"/>
+		<list-item v="polvo"/>
+		<list-item v="poso"/>
+		<list-item v="potasio"/>
+		<list-item v="proteína"/>
+		<list-item v="publicidad"/>
+		<list-item v="pulso"/>
+		<list-item v="queso"/>
+		<list-item v="racismo"/>
+		<list-item v="radiación"/>
+		<list-item v="rencor"/>
+		<list-item v="resplandor"/>
+		<list-item v="ridículo"/>
+		<list-item v="riesgo"/>
+		<list-item v="rigor"/>
+		<list-item v="roña"/>
+		<list-item v="ropa"/>
+		<list-item v="ruda"/>
+		<list-item v="ruido"/>
+		<list-item v="rumor"/>
+		<list-item v="saber"/>
+		<list-item v="sabor"/>
+		<list-item v="sal"/>
+		<list-item v="sangre"/>
+		<list-item v="seda"/>
+		<list-item v="sedimento"/>
+		<list-item v="sentir"/>
+		<list-item v="sexo"/>
+		<list-item v="silicio"/>
+		<list-item v="soberbia"/>
+		<list-item v="socialismo"/>
+		<list-item v="suciedá"/>
+		<list-item v="sudor"/>
+		<list-item v="sustancia"/>
+		<list-item v="tacto"/>
+		<list-item v="talante"/>
+		<list-item v="talento"/>
+		<list-item v="te"/>
+		<list-item v="tejido"/>
+		<list-item v="tela"/>
+		<list-item v="temperatura"/>
+		<list-item v="tensión"/>
+		<list-item v="terror"/>
+		<list-item v="tiniebla"/>
+		<list-item v="verdura"/>
+		<list-item v="volumen"/>
+		<list-item v="whisky"/>
+		<list-item v="yedra"/>
+		<list-item v="yerba"/>
+		<list-item v="yodo"/>
+		<list-item v="yoga"/>
+		<list-item v="yogur"/>
+		<list-item v="zafiro"/>
+		<list-item v="zumo"/>
     </def-list>	
 
     <def-list n="verbos_habla">
@@ -3824,7 +5002,7 @@
             <clip pos="2" side="tl" part="gen"/>
             <lit-tag v="nt"/>
           </let>
-        </when>
+    </when>
 
 	<otherwise>
 	<choose>
@@ -5884,6 +7062,7 @@
 
   <section-rules>
 
+
 <!-- 
 regla EGV49 por + nombre -> PER (si nombre en sustantivos-per)
 -->  
@@ -5908,7 +7087,9 @@ regla EGV49 por + nombre -> PER (si nombre en sustantivos-per)
         <out>
                
                 <lu>
+			 <get-case-from pos="1">
 		      <lit v="per"/>
+			</get-case-from> 
 		      <lit-tag v="pr"/>
 		</lu>
                       <b/>
@@ -5983,7 +7164,7 @@ tras comerlo ->  en comiéndolo
 </rule>
 <!-- 
 regla PERIF011b ojalá + verbo -> yá que + verbo
-tras comerlo ->  en comiéndolo 
+ojalá llueva -> yá que llueva
 -->  
  
 <rule>
@@ -6227,7 +7408,114 @@ tras comerlo ->  en comiéndolo
         </out>
       </action>
     </rule>
+	
+	
+    <rule>
+      <!-- REGLA 4b: DETERMINANT EX NOM -->
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="ex"/>	
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
 
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_det"/>
+            <clip pos="3" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="a_nom"/>
+            <clip pos="3" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+          </lu>		  
+        </out>
+      </action>
+    </rule>	
+
+ <rule>
+      <!-- REGLA 4b: NOM ADJECTIU-->
+	
+      <pattern>
+        <pattern-item n="estar"/>
+        <pattern-item n="todo"/>
+	<pattern-item n="adjms"/>
+      </pattern>
+      <action>
+        
+        	<out>
+          		<lu>
+            			<clip pos="1" side="tl" part="whole"/>
+            			
+          		</lu>
+          		<b/>
+			 <lu>
+         		     <clip pos="2" side="tl" part="lem"/>
+       			     <clip pos="2" side="tl" part="a_predet"/>
+         		     <lit-tag v="nt"/>
+         		     <clip pos="2" side="tl" part="nbr"/>
+        	        </lu>
+          		<b/>
+         	        <lu>
+        		    <clip pos="3" side="tl" part="lem"/>
+        		    <clip pos="3" side="tl" part="a_adj"/>
+        		    <lit-tag v="nt"/>
+        		    <clip pos="3" side="tl" part="nbr"/>
+        	       </lu>
+        	</out>
+  
+      </action>
+    </rule>
+ 
+	
+      <!-- REGLA 4c: NOM ADJECTIU-->
+	
+  <rule>
+      <pattern>
+        <pattern-item n="estar"/>
+        <pattern-item n="todo"/>
+	<pattern-item n="partms"/>
+      </pattern>
+      <action>
+        
+        	<out>
+          		<lu>
+            			<clip pos="1" side="tl" part="whole"/>
+            			
+          		</lu>
+          		<b/>
+			 <lu>
+         		     <clip pos="2" side="tl" part="lem"/>
+       			     <clip pos="2" side="tl" part="a_prn"/>
+         		     <lit-tag v="nt"/>
+         		     <clip pos="2" side="tl" part="nbr"/>
+        	        </lu>
+          		<b/>
+         	         <lu>
+	            <clip pos="3" side="tl" part="lemh"/>
+	            <clip pos="3" side="tl" part="a_verb"/>
+		    <clip pos="3" side="tl" part="temps"/>
+	            <clip pos="3" side="tl" part="persona"/>
+	            <lit-tag v="nt"/>
+	            <clip pos="3" side="tl" part="nbr"/>
+	            <clip pos="3" side="tl" part="lemq"/>
+	          </lu>
+        	</out>
+  
+      </action>
+    </rule>
+ 
 	
     <rule>
       <!-- REGLA 5: NOM ADJECTIU-->
@@ -6417,6 +7705,32 @@ tras comerlo ->  en comiéndolo
       </action>
     </rule>
 
+	
+    <rule>
+      <!-- REGLA 5c: det primera -->
+   
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="primera"/>	
+      </pattern>
+      <action>
+        <out>
+			<lu>
+					<clip pos="1" side="tl" part="whole"/>
+					
+			</lu>
+			<b/>
+			  <lu>
+				<get-case-from pos="2">
+				<lit v="primeru"/>
+				</get-case-from>
+				<clip pos="2" side="tl" part="a_adjec"/>
+				<lit-tag v="f"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			  </lu>			
+        </out>
+      </action>
+    </rule>
 
 
    <rule>
@@ -6541,7 +7855,119 @@ tras comerlo ->  en comiéndolo
               </choose>
       </action>
     </rule>
+
+      <!-- REGLA 5c: NOM ADJET Y ADJET -->
+    <rule>   
+      <pattern>
+        <pattern-item n="det"/>	  
+        <pattern-item n="nom"/>
+        <pattern-item n="adjec"/>
+		<pattern-item n="y"/>
+        <pattern-item n="adjec"/>		
+      </pattern>
+      <action>
+        <let>
+            <var n="concuerda"/>
+            <lit v="si"/>
+        </let>
+        	<call-macro n="f_concord4">
+          		<with-param pos="2"/>
+         	 	<with-param pos="1"/>
+         	 	<with-param pos="3"/>	
+         	 	<with-param pos="5"/>				
+       		</call-macro>
+        <choose>
+	<when>
+          <test>
+	   <and>
+		
+		<in caseless="yes"><!--in-->
+			<clip pos="1" side="sl" part="lem"/>
+			<list n="incontables"/>
+		</in>
 	
+		<equal caseless="yes">
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+
+	  </and>
+
+	  </test>
+
+        	<out>
+				<lu>
+				         <clip pos="1" side="tl" part="whole"/>
+          		</lu>
+          		<b/>			
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_nom"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b/>
+                <lu>
+            			<clip pos="3" side="tl" part="lem"/>
+            			<clip pos="3" side="tl" part="a_adjec"/>
+            			            <lit-tag v="nt"/>
+            			<clip pos="3" side="tl" part="nbr"/>
+          		</lu>
+                         
+          		<b/>
+
+				<lu>
+				         <clip pos="4" side="tl" part="whole"/>
+          		</lu>				
+
+          		<b/>		
+          		<lu>
+            			<clip pos="5" side="tl" part="lem"/>
+            			<clip pos="5" side="tl" part="a_adjec"/>
+            			            <lit-tag v="nt"/>
+            			<clip pos="5" side="tl" part="nbr"/>
+          		</lu>				
+        	</out>
+          </when>
+          <otherwise>
+        	<out>
+				<lu>
+				         <clip pos="1" side="tl" part="whole"/>
+          		</lu>
+          		<b/>			
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="2" side="tl" part="a_nom"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+          		<b/>
+          		<lu>
+            			<clip pos="3" side="tl" part="lem"/>
+            			<clip pos="3" side="tl" part="a_adjec"/>
+            			<clip pos="3" side="tl" part="gen"/>
+            			<clip pos="3" side="tl" part="nbr"/>
+          		</lu>
+                         
+          		<b/>
+
+				<lu>
+				         <clip pos="4" side="tl" part="whole"/>
+          		</lu>				
+
+          		<b/>		
+          		<lu>
+            			<clip pos="5" side="tl" part="lem"/>
+            			<clip pos="5" side="tl" part="a_adjec"/>
+            			<clip pos="5" side="tl" part="gen"/>
+            			<clip pos="5" side="tl" part="nbr"/>
+          		</lu>			
+        	</out>		  
+
+              </otherwise>
+              </choose>
+      </action>
+    </rule>	
 	
     <rule>
       <!-- REGLA 5b: PREP NOM ADJETIVO-->
@@ -6622,12 +8048,201 @@ tras comerlo ->  en comiéndolo
       </action>
     </rule>
 
+      <!-- REGLA 6b: FÁCIL/DIFÍCIL NOM 
+		Fácil solución> bona solución, difícil solución> mala solución	  
+	  -->
 
+    <rule>
+      <pattern>
+        <pattern-item n="fácil-difícil"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<choose>
+	   <when>
+            <test>
+			<and>
+				<equal>
+				     <clip pos="1" side="tl" part="lem"/>
+					 <lit v="fácil"/>
+				</equal>
+				<equal>
+				     <clip pos="2" side="tl" part="gen"/>
+					 <lit-tag v="m"/>
+				</equal>
+			</and>
+			</test>	  
+			<out>
+			  <lu>
+				 <get-case-from pos="1">
+				<lit v="bon"/>
+				</get-case-from> 
+				<clip pos="1" side="tl" part="a_adj"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_nom"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			  </lu>
+			</out>
+		</when>
 
+		<when>
+            <test>
+			
+				<equal>
+				     <clip pos="1" side="tl" part="lem"/>
+					 <lit v="fácil"/>
+				</equal>
+				
+			</test>	  
+			<out>
+			  <lu>
+				 <get-case-from pos="1">
+				<lit v="bonu"/>
+				</get-case-from>
+				<clip pos="1" side="tl" part="a_adj"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_nom"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			  </lu>
+			</out>
+		</when>
+
+		 <when>
+               <test>
+			<and>
+				<equal>
+				     <clip pos="1" side="tl" part="lem"/>
+					 <lit v="difícil"/>
+				</equal>
+				<equal>
+				     <clip pos="2" side="tl" part="gen"/>
+					 <lit-tag v="m"/>
+				</equal>
+			</and>
+			</test>	  
+			<out>
+			  <lu>
+				 <get-case-from pos="1">
+				<lit v="mal"/>
+				</get-case-from> 
+				<clip pos="1" side="tl" part="a_adj"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_nom"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			  </lu>
+			</out>
+		</when>
+	   <otherwise> 
+			<out>
+			  <lu>
+				<get-case-from pos="1">
+				<lit v="malu"/>
+				</get-case-from> 
+				<clip pos="1" side="tl" part="a_adj"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_nom"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			  </lu>
+			</out>
+		</otherwise>	
+	  </choose>
+      </action>
+    </rule>
+	
+
+	
+      <!-- REGLA 6c: FÁCIL/DIFÍCIL DE INF 
+		fácil de estudiar -> bono d'estudiar
+		difícil de estudiar -> malo d'estudiar
+	  -->
+
+    <rule>
+      <pattern>
+        <pattern-item n="fácil-difícil"/>
+        <pattern-item n="de"/>		
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<choose>
+	   <when>
+            <test>
+				<equal>
+				     <clip pos="1" side="tl" part="lem"/>
+					 <lit v="fácil"/>
+				</equal>
+			</test>	  
+			<out>
+			  <lu>
+				 <get-case-from pos="1">
+				<lit v="bonu"/>
+				</get-case-from>
+				<clip pos="1" side="tl" part="a_adj"/>
+				<lit-tag v="nt"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="whole"/>
+			  </lu>
+			<b pos="1"/>
+			  <lu>
+				<clip pos="3" side="tl" part="whole"/>
+			  </lu>			  
+			</out>
+		</when>
+	   <otherwise> 
+			<out>
+			  <lu>
+				<get-case-from pos="1">
+				<lit v="malu"/>
+				</get-case-from>
+				<clip pos="1" side="tl" part="a_adj"/>
+				<lit-tag v="nt"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="whole"/>
+			  </lu>
+			<b pos="1"/>
+			  <lu>
+				<clip pos="3" side="tl" part="whole"/>
+			  </lu>			  
+			</out>
+		</otherwise>	
+	  </choose>
+      </action>
+    </rule>
+
+	
+      <!-- REGLA 6: ADJECTIU NOM -->
 
 
     <rule>
-      <!-- REGLA 6: ADJECTIU NOM -->
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
@@ -6659,15 +8274,60 @@ tras comerlo ->  en comiéndolo
       </action>
     </rule>
 
+	
+	
+
 
     <rule>
-      <!-- REGLA 7: DET NOM ADJECTIU-->
+      <!-- REGLA 7: DET NOM ADJETIVO-->
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
       </pattern>
       <action>
+
+	<choose>
+	   <when>
+            <test>	
+			  <and>
+               <equal caseless="yes">
+                  <clip pos="3" side="sl" part="lem"/>
+                  <lit v="primer"/>
+               </equal>
+               <equal caseless="yes">
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="f"/>
+               </equal>			   
+			  </and>
+			</test>
+			<out>
+			  <lu>
+				<clip pos="1" side="tl" part="lem"/>
+				<clip pos="1" side="tl" part="a_det"/>
+				<clip pos="1" side="tl" part="gen"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_nom"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="2"/>
+			  <lu>
+				<get-case-from pos="3">
+				<lit v="primeru"/>
+				</get-case-from>
+				<clip pos="3" side="tl" part="a_adjec"/>
+				<lit-tag v="f"/>
+				<clip pos="3" side="tl" part="nbr"/>
+			  </lu>
+			</out>			
+		</when>
+
+	<otherwise>
         <let>
             <var n="concuerda"/>
             <lit v="si"/>
@@ -6676,31 +8336,33 @@ tras comerlo ->  en comiéndolo
 		  <with-param pos="2"/>
 		  <with-param pos="3"/>
 		  <with-param pos="1"/>
-		</call-macro>
-		<out>
-		  <lu>
-		    <clip pos="1" side="tl" part="lem"/>
-		    <clip pos="1" side="tl" part="a_det"/>
-		    <clip pos="1" side="tl" part="gen"/>
-		    <clip pos="1" side="tl" part="nbr"/>
-		  </lu>
-		  <b pos="1"/>
-		  <lu>
-		    <clip pos="2" side="tl" part="lem"/>
-		    <clip pos="2" side="tl" part="a_nom"/>
-		    <clip pos="2" side="tl" part="gen"/>
-		    <clip pos="2" side="tl" part="nbr"/>
-		  </lu>
-		  <b pos="2"/>
-		  <lu>
-		    <clip pos="3" side="tl" part="lem"/>
-		    <clip pos="3" side="tl" part="a_adjec"/>
-		    <clip pos="3" side="tl" part="gen"/>
-		    <clip pos="3" side="tl" part="nbr"/>
-		  </lu>
-		</out>
-      </action>
-    </rule>
+		</call-macro>	
+			<out>
+			  <lu>
+				<clip pos="1" side="tl" part="lem"/>
+				<clip pos="1" side="tl" part="a_det"/>
+				<clip pos="1" side="tl" part="gen"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="1"/>
+			  <lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_nom"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			  </lu>
+			  <b pos="2"/>
+			  <lu>
+				<clip pos="3" side="tl" part="lem"/>
+				<clip pos="3" side="tl" part="a_adjec"/>
+				<clip pos="3" side="tl" part="gen"/>
+				<clip pos="3" side="tl" part="nbr"/>
+			  </lu>
+			</out>
+	</otherwise>			
+   </choose>
+   </action>
+ </rule>
 
 
 
@@ -7950,7 +9612,9 @@ tras comerlo ->  en comiéndolo
 			</test>  
 	        <out>
 			  <lu>
-				<lit v="dir"/>	            
+				<get-case-from pos="1">
+				<lit v="dir"/>
+				</get-case-from>           
 		<lit-tag v="vblex.pri"/>
 	            <clip pos="1" side="tl" part="persona"/>
 	            <clip pos="1" side="tl" part="gen"/>
@@ -8015,7 +9679,9 @@ tras comerlo ->  en comiéndolo
 			  </lu>
               <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="2">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="2" side="tl" part="persona"/>
 	        <clip pos="2" side="tl" part="gen"/>
@@ -8266,6 +9932,13 @@ tras comerlo ->  en comiéndolo
       </action>
     </rule>
     
+    
+    
+    
+    
+    
+  
+
     
    <!-- regla regla EGV03b proclise + v + enc--> 
     <!--Ejemplo: para convertirse -->
@@ -10825,7 +12498,9 @@ no me le debe -> nun me-y debe
               </lu>
               <b/>
                  <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -11111,7 +12786,9 @@ no me le debe -> nun me-y debe
               </lu>
               <b/>
                 <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -11374,7 +13051,9 @@ no me le debe -> nun me-y debe
               
               <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -11582,7 +13261,9 @@ no me le debe -> nun me-y debe
               
                <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -11802,7 +13483,9 @@ no me le debe -> nun me-y debe
               </lu>
               <b/>
               <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -11913,7 +13596,9 @@ no me le debe -> nun me-y debe
               </lu>
               <b/>
               <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12008,7 +13693,9 @@ no me le debe -> nun me-y debe
              
                <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12143,7 +13830,9 @@ no me le debe -> nun me-y debe
               </lu>
               <b/>
               <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12256,7 +13945,9 @@ no me le debe -> nun me-y debe
               </lu>
               <b/>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12363,7 +14054,9 @@ no me le debe -> nun me-y debe
               <b/>
               <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12486,7 +14179,9 @@ no me le debe -> nun me-y debe
                <b/>	  
                
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12596,7 +14291,9 @@ no me le debe -> nun me-y debe
                <b/>	  
                
                 <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12698,7 +14395,9 @@ no me le debe -> nun me-y debe
                
                  <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12849,7 +14548,9 @@ no me le debe -> nun me-y debe
                	  
                
                 <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -12985,7 +14686,9 @@ no me le debe -> nun me-y debe
                  
                
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -13110,7 +14813,9 @@ no me le debe -> nun me-y debe
                
                 <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -13242,7 +14947,9 @@ no me le debe -> nun me-y debe
                	  
                
                 <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -13358,7 +15065,9 @@ no me le debe -> nun me-y debe
                  
                
                 <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -13464,7 +15173,9 @@ no me le debe -> nun me-y debe
                
                   <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -13601,7 +15312,9 @@ no me le debe -> nun me-y debe
             		</lu>
                 <b/>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -13750,7 +15463,9 @@ no me le debe -> nun me-y debe
               </lu>
                 <b/>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -13870,7 +15585,9 @@ no me le debe -> nun me-y debe
                
                 <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14022,7 +15739,9 @@ no me le debe -> nun me-y debe
                <b/>
                
               <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>           
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14147,7 +15866,9 @@ no me le debe -> nun me-y debe
                <b/>
                
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14253,7 +15974,9 @@ no me le debe -> nun me-y debe
 
                 <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14372,7 +16095,9 @@ no me le debe -> nun me-y debe
               		</lu>
 	              	<b/>
               		<lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14448,7 +16173,9 @@ no me le debe -> nun me-y debe
               		</lu>
 	              	<b/>
               		<lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14513,7 +16240,9 @@ no me le debe -> nun me-y debe
               <b/>
               <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14596,7 +16325,9 @@ no me le debe -> nun me-y debe
               <b/>
               <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="4">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="4" side="tl" part="persona"/>
 	        <clip pos="4" side="tl" part="gen"/>
@@ -14716,7 +16447,9 @@ se te alegró el día -> allegrósete'l día
               <out>
                <lu><lit-tag v="a"/></lu>
                <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -14815,7 +16548,9 @@ se te alegró el día -> allegrósete'l día
          </test>
               <out>
           	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -14966,7 +16701,9 @@ se te alegró el día -> allegrósete'l día
             
                <lu><lit-tag v="a"/></lu>
 	        <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -15094,7 +16831,9 @@ se te alegró el día -> allegrósete'l día
               <out>
                <lu><lit-tag v="a"/></lu>
 	          <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -15200,7 +16939,9 @@ se te alegró el día -> allegrósete'l día
               <out>
                <lu><lit-tag v="a"/></lu>
 	          <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -15434,7 +17175,9 @@ me lo llamó -> llamómelo
                <out>
 		   <lu><lit-tag v="a"/></lu>
 	    <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<clip pos="3" side="tl" part="a_verb"/>
 		<lit-tag v="pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
@@ -15592,7 +17335,9 @@ me lo llamó -> llamómelo
                <out>
 		   <lu><lit-tag v="a"/></lu>
 	    <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>           
 		<clip pos="3" side="tl" part="a_verb"/>
 		<lit-tag v="pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
@@ -15831,7 +17576,9 @@ me lo llamó -> llamómelo
                <out>
 		   <lu><lit-tag v="a"/></lu>
 	     <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<clip pos="3" side="tl" part="a_verb"/>
 		<lit-tag v="pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
@@ -16288,7 +18035,9 @@ me lo llamó -> llamómelo
                <out>
 		   <lu><lit-tag v="a"/></lu>
 	         <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -16422,7 +18171,9 @@ me lo llamó -> llamómelo
                <out>
 		   <lu><lit-tag v="a"/></lu>
 	    <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<clip pos="3" side="tl" part="a_verb"/>
 		<lit-tag v="pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
@@ -16660,7 +18411,9 @@ me lo llamó -> llamómelo
                <out>
 		   <lu><lit-tag v="a"/></lu>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<clip pos="3" side="tl" part="a_verb"/>
 		<lit-tag v="pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
@@ -16803,7 +18556,9 @@ me lo llamó -> llamómelo
                <out>
 				   <lu><lit-tag v="a"/></lu>
 	        <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -16936,7 +18691,9 @@ se caerá -> va cayese-->
 			</test>
           <out>
 			  <lu>
-				<lit v="dir"/>	            
+				<get-case-from pos="2">
+				<lit v="dir"/>
+				</get-case-from>	            
 		  		<lit-tag v="vblex.pri"/>
 	            <clip pos="2" side="tl" part="persona"/>
 	            <clip pos="2" side="tl" part="gen"/>
@@ -17344,7 +19101,7 @@ regla EGV24c pronombre(tónico) + pronombre_procl_refl + verbo.
     
     <rule>
       <pattern>
-        <pattern-item n="prn"/>
+        <pattern-item n="prntn"/>
         <pattern-item n="prnproref"/>
         <pattern-item n="verb"/>
       </pattern>
@@ -17470,7 +19227,7 @@ lo cedió-> dexólo
 regla PERIF01-3a2 proclise + prnpro + ceder 
 no les cederemos-> nun-yos dexaremos
 -->  
- <!--Aquí-->
+ 
 <rule>
       <pattern>
 	<pattern-item n="proclise"/>
@@ -17924,7 +19681,9 @@ le comí a bocados -> comí-y a taragaños
 	</test>
           <out>
 			  <lu>
-				<lit v="dir"/>	            
+				<get-case-from pos="2">
+				<lit v="dir"/>
+				</get-case-from>	            
 				<lit-tag v="vblex.pri"/>
 
 	            <clip pos="2" side="tl" part="persona"/>
@@ -17979,7 +19738,770 @@ le comí a bocados -> comí-y a taragaños
     </rule>
 
 
+  <!--	Comprobamos expletivos y leismos
+	regla EGV252 nom + pronombre(lo)  + verbo.
 
+	CAÑÓN LO TENÍA JUAN -> CAÑÓN TENÍALU JUAN
+  	CERVEZA LA TENIA JUAN -> CERVEZA TENÍALA JUAN
+    
+    -->
+    
+  
+  <rule>
+	  <pattern>
+		  <pattern-item n="nom"/>
+		  <pattern-item n="proclo"/>
+		  <pattern-item n="verb"/>
+	  </pattern>
+	  <action>
+		  <choose>          
+			  <when>
+				  <test>
+					  
+					<in caseless="yes">
+					<clip pos="1" side="sl" part="lem"/>
+					<list n="incontables"/>
+					</in>
+						
+				  </test>
+				  <out>
+					 <lu>
+					  <clip pos="1" side="tl" part="whole"/>
+				  	</lu>
+					  <b/>
+					<mlu>
+					 <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <clip pos="3" side="tl" part="temps"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu>
+					  <lu>
+						  <get-case-from pos="3">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="2" side="tl" part="persona"/>
+						  <lit-tag v="nt"/>
+						  <clip pos="2" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </when>
+			  
+			 
+			  <otherwise>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <mlu>
+						  <lu>
+							  <get-case-from pos="2">
+								  <clip pos="3" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="3" side="tl" part="a_verb"/>
+							  <clip pos="3" side="tl" part="temps"/>
+							  <clip pos="3" side="tl" part="persona"/>
+							  <clip pos="3" side="tl" part="nbr"/>
+					  	  </lu>
+						  <lu>
+							  <get-case-from pos="3">
+								  <clip pos="2" side="tl" part="lem"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="2" side="tl" part="persona"/>
+							  <clip pos="1" side="tl" part="gen"/>
+							  <clip pos="2" side="tl" part="nbr"/>
+						</lu></mlu>
+				  </out> 
+			  </otherwise>
+		  </choose>
+	  </action>
+  </rule>
+  
+  
+  
+  <!--	Comprobamos expletivos y leismos
+	regla EGV252a nom + proclise + pronombre(lo)  + verbo.
+	
+	CAÑÓN NO LO TENÍA JUAN -> CAÑÓN NUN LU TENÍA JUAN 
+        cerveza y la tenía -> cerveza y teníalo 
+
+  
+  -->
+
+  
+  <rule>
+	  <pattern>
+		  <pattern-item n="nom"/>
+		  <pattern-item n="proclise"/>
+		  <pattern-item n="proclo"/>
+		  <pattern-item n="verb"/>
+	  </pattern>
+	  <action>
+		  <choose>          
+			
+					  
+					  <when>
+						  <test>
+							  <and>
+								  <in caseless="yes">
+									  <clip pos="1" side="sl" part="lem"/>
+									  <list n="incontables"/>
+								  </in>
+								  <equal caseless="yes"> 
+									  <clip pos="2" side="sl" part="lem"/>
+									  <lit v="no"/>
+                                                                   </equal>
+							  </and> 
+						  </test>
+						  <out>
+							  <lu>
+								  <clip pos="1" side="tl" part="whole"/>
+							  </lu>
+							  <b/>
+							  <lu>
+								  <get-case-from pos="2">
+									  <lit v="nun"/>
+								  </get-case-from>
+								  <lit-tag v="adv"/>
+							  </lu>
+							  <b/>
+			  
+							  <lu>
+								  <get-case-from pos="3">
+									  <lit v="lu"/>
+								  </get-case-from>
+								  <lit-tag v="prn.enc"/>
+								  <clip pos="3" side="tl" part="persona"/>
+								  <lit-tag v="nt"/>
+								  <clip pos="3" side="tl" part="nbr"/>
+							  </lu>
+							  <b/>
+							  
+							  <lu>
+								  <get-case-from pos="3">
+									  <clip pos="4" side="tl" part="lem"/>
+								  </get-case-from>
+								  <clip pos="4" side="tl" part="a_verb"/>
+								  <clip pos="4" side="tl" part="temps"/>
+								  <clip pos="4" side="tl" part="persona"/>
+								  <clip pos="4" side="tl" part="nbr"/>
+							  </lu>
+							  
+						  </out> 
+					  </when>
+			  
+			  <when>
+				  <test>
+				     <and>
+					  <in caseless="yes">
+						  <clip pos="1" side="sl" part="lem"/>
+						  <list n="incontables"/>
+					  </in>
+					  <in caseless="yes">
+						  <clip pos="2" side="sl" part="lem"/>
+						  <list n="pces"/>
+					  </in>
+				  </and> 
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="3">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <lit-tag v="nt"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+				         </lu>
+					 <b/>
+					
+				         <lu>
+						   <get-case-from pos="3">
+						   <clip pos="4" side="tl" part="lem"/>
+						   </get-case-from>
+						   <clip pos="4" side="tl" part="a_verb"/>
+					           <clip pos="4" side="tl" part="temps"/>
+						   <clip pos="4" side="tl" part="persona"/>
+						   <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  
+				  </out> 
+			  </when>
+			  
+			  <when>
+				  <test>
+					  
+					  <in caseless="yes">
+						  <clip pos="1" side="sl" part="lem"/>
+						  <list n="incontables"/>
+					  </in>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu><b/>
+					  <mlu>
+						  <lu>
+							  <get-case-from pos="4">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="4">
+								  <lit v="lu"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="3" side="tl" part="persona"/>
+							  <lit-tag v="nt"/>
+							  <clip pos="3" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </when>
+			  
+			  <when>
+				  <test>
+					  
+					  <equal caseless="yes"> 
+						  <clip pos="2" side="sl" part="lem"/>
+						  <lit v="no"/>
+                                          </equal>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="2">
+							  <lit v="nun"/>
+						  </get-case-from>
+						  <lit-tag v="adv"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="3">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="1" side="tl" part="gen"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <get-case-from pos="3">
+							  <clip pos="4" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="4" side="tl" part="a_verb"/>
+						  <clip pos="4" side="tl" part="temps"/>
+						  <clip pos="4" side="tl" part="persona"/>
+						  <clip pos="4" side="tl" part="nbr"/>
+					  </lu>
+					  
+				  </out> 
+			  </when>
+			  <when>
+				  <test>
+					  
+						  <in caseless="yes">
+							  <clip pos="2" side="sl" part="lem"/>
+							  <list n="pces"/>
+						  </in>
+					 
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="3">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="1" side="tl" part="gen"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <get-case-from pos="3">
+							  <clip pos="4" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="4" side="tl" part="a_verb"/>
+						  <clip pos="4" side="tl" part="temps"/>
+						  <clip pos="4" side="tl" part="persona"/>
+						  <clip pos="4" side="tl" part="nbr"/>
+					  </lu>
+					  
+				  </out> 
+			  </when>
+			  <otherwise>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <mlu>
+						  <lu>
+							  <get-case-from pos="4">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="4">
+								  <clip pos="3" side="tl" part="lem"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="3" side="tl" part="persona"/>
+							  <clip pos="1" side="tl" part="gen"/>
+							  <clip pos="3" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </otherwise>
+		  </choose>
+	  </action>
+  </rule>
+  
+  
+  <!--	Comprobamos expletivos y leismos
+	regla EGV253b det + nom pronombre(lo) + verbo.
+	
+	el cañón lo tenía juan -> el cañón teníalu Juan
+  	la cerveza la bebía Juan  -> la cerveza bebíala Juan 
+    el amor lo daba él -> l'amor dábalo él
+	
+  -->
+  
+  
+  <rule>
+	  <pattern>
+		  <pattern-item n="det"/>
+		  <pattern-item n="nom"/>
+		  <pattern-item n="proclo"/>
+		  <pattern-item n="verb"/>
+	  </pattern>
+	  <action>
+		  <choose>          
+			  <when>
+				  <test>
+					  
+					  <in caseless="yes">
+						  <clip pos="2" side="sl" part="lem"/>
+						  <list n="incontables"/>
+					  </in>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <mlu>
+						  <lu>
+							  <get-case-from pos="3">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="4">
+								  <lit v="lu"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="3" side="tl" part="persona"/>
+							  <lit-tag v="nt"/>
+							  <clip pos="3" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </when>
+			  
+			  
+			  <otherwise>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <mlu>
+						  <lu>
+							  <get-case-from pos="3">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="4">
+								  <clip pos="3" side="tl" part="lem"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="3" side="tl" part="persona"/>
+							  <clip pos="2" side="tl" part="gen"/>
+							  <clip pos="3" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </otherwise>
+		  </choose>
+	  </action>
+  </rule>
+  
+  
+  <!--	Comprobamos expletivos y leismos
+	regla EGV253c det + nom + proclise + pronombre(lo) + verbo.
+	el cañón no lo tenía Juan -> el cañón nun lu tenía Juan
+  	la cerveza no la bebía Juan  -> la cerveza nun la bebía Juan
+    el amor no lo daba él -> l'amor nun lo daba él
+    la cerveza y la tenía Juan ->   la cerveza y teníala Juan
+  
+  
+  -->
+  
+  
+  <rule>
+	  <pattern>
+		  <pattern-item n="det"/>
+		  <pattern-item n="nom"/>
+		  <pattern-item n="proclise"/>
+		  <pattern-item n="proclo"/>
+		  <pattern-item n="verb"/>
+	  </pattern>
+	  <action>
+		  <choose>          
+			  
+			  
+			  <when>
+				  <test>
+					  <and>
+						  <in caseless="yes">
+							  <clip pos="2" side="sl" part="lem"/>
+							  <list n="incontables"/>
+						  </in>
+						  <equal caseless="yes"> 
+							  <clip pos="3" side="sl" part="lem"/>
+							  <lit v="no"/>
+						  </equal>
+					  </and> 
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="3">
+							  <lit v="nun"/>
+						  </get-case-from>
+						  <lit-tag v="adv"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <get-case-from pos="4">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="4" side="tl" part="persona"/>
+						  <lit-tag v="nt"/>
+						  <clip pos="4" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <get-case-from pos="4">
+							  <clip pos="5" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="5" side="tl" part="a_verb"/>
+						  <clip pos="5" side="tl" part="temps"/>
+						  <clip pos="5" side="tl" part="persona"/>
+						  <clip pos="5" side="tl" part="nbr"/>
+					  </lu>
+					  
+				  </out> 
+			  </when>
+			  
+			  <when>
+				  <test>
+					  <and>
+						  <in caseless="yes">
+							  <clip pos="2" side="sl" part="lem"/>
+							  <list n="incontables"/>
+						  </in>
+						  <in caseless="yes">
+							  <clip pos="3" side="sl" part="lem"/>
+							  <list n="pces"/>
+						  </in>
+					  </and> 
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="3" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="4">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="4" side="tl" part="persona"/>
+						  <lit-tag v="nt"/>
+						  <clip pos="4" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <get-case-from pos="4">
+							  <clip pos="5" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="5" side="tl" part="a_verb"/>
+						  <clip pos="5" side="tl" part="temps"/>
+						  <clip pos="5" side="tl" part="persona"/>
+						  <clip pos="5" side="tl" part="nbr"/>
+					  </lu>
+					  
+				  </out> 
+			  </when>
+			  
+			  <when>
+				  <test>
+					  
+					  <in caseless="yes">
+						  <clip pos="2" side="sl" part="lem"/>
+						  <list n="incontables"/>
+					  </in>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <clip pos="3" side="tl" part="whole"/>
+					  </lu><b/>
+					  <mlu>
+						  <lu>
+							  <get-case-from pos="5">
+								  <clip pos="5" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="5" side="tl" part="a_verb"/>
+							  <clip pos="5" side="tl" part="temps"/>
+							  <clip pos="5" side="tl" part="persona"/>
+							  <clip pos="5" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="5">
+								  <lit v="lu"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <lit-tag v="nt"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </when>
+			  
+			  <when>
+				  <test>
+					  
+					  <equal caseless="yes"> 
+						  <clip pos="3" side="sl" part="lem"/>
+						  <lit v="no"/>
+					  </equal>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="3">
+							  <lit v="nun"/>
+						  </get-case-from>
+						  <lit-tag v="adv"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="4">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="4" side="tl" part="persona"/>
+						  <clip pos="2" side="tl" part="gen"/>
+						  <clip pos="4" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <get-case-from pos="4">
+							  <clip pos="5" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="5" side="tl" part="a_verb"/>
+						  <clip pos="5" side="tl" part="temps"/>
+						  <clip pos="5" side="tl" part="persona"/>
+						  <clip pos="5" side="tl" part="nbr"/>
+					  </lu>
+					  
+				  </out> 
+			  </when>
+			  <when>
+				  <test>
+					  
+					  <in caseless="yes">
+						  <clip pos="3" side="sl" part="lem"/>
+						  <list n="pces"/>
+					  </in>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="3" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="4">
+							  <lit v="lu"/>
+						  </get-case-from>
+						  <lit-tag v="prn.enc"/>
+						  <clip pos="4" side="tl" part="persona"/>
+						  <clip pos="2" side="tl" part="gen"/>
+						  <clip pos="4" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  
+					  <lu>
+						  <get-case-from pos="4">
+							  <clip pos="5" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="5" side="tl" part="a_verb"/>
+						  <clip pos="5" side="tl" part="temps"/>
+						  <clip pos="5" side="tl" part="persona"/>
+						  <clip pos="5" side="tl" part="nbr"/>
+					  </lu>
+					  
+				  </out> 
+			  </when>
+			  <otherwise>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="2" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="3" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <mlu>
+						  <lu>
+							  <get-case-from pos="5">
+								  <clip pos="5" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="5" side="tl" part="a_verb"/>
+							  <clip pos="5" side="tl" part="temps"/>
+							  <clip pos="5" side="tl" part="persona"/>
+							  <clip pos="5" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="5">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="2" side="tl" part="gen"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </otherwise>
+		  </choose>
+	  </action>
+  </rule>
+  
 <!--
 
 Comprobamos expletivos y leismos
@@ -18496,7 +21018,9 @@ que se cae -> que se cai
               </lu>
               <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -18651,7 +21175,9 @@ que se cae -> que se cai
               </lu>
               <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -18706,7 +21232,9 @@ que se cae -> que se cai
               </lu> 
               <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>           
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -18846,7 +21374,9 @@ no le comí a bocados -> nun-y comí a taragaños
 	            </lu>
 		      <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -18967,7 +21497,9 @@ no le comí a bocados -> nun-y comí a taragaños
                    </lu>
 		      <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -19086,7 +21618,9 @@ no le comí a bocados -> nun-y comí a taragaños
                      </lu>
                     <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -19189,7 +21723,9 @@ no le comí a bocados -> nun-y comí a taragaños
               	    </lu>
                     <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -19270,7 +21806,9 @@ no le comí a bocados -> nun-y comí a taragaños
               	    </lu>
                     <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>          
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -19362,7 +21900,9 @@ no le comí a bocados -> nun-y comí a taragaños
              </lu>
               <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -19453,7 +21993,9 @@ no le comí a bocados -> nun-y comí a taragaños
               </lu>
               <b/>
 	      <lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 	        <clip pos="3" side="tl" part="persona"/>
 	        <clip pos="3" side="tl" part="gen"/>
@@ -19645,7 +22187,9 @@ no le comí a bocados -> nun-y comí a taragaños
               </lu> 
               <b/>
 		<lu>
-		<lit v="dir"/>	            
+		<get-case-from pos="3">
+				<lit v="dir"/>
+				</get-case-from>	            
 		<lit-tag v="vblex.pri"/>
 		<clip pos="3" side="tl" part="persona"/>
 		<clip pos="3" side="tl" part="gen"/>
@@ -47232,7 +49776,7 @@ no habérsele caído -> nun cayése-y
                 </lu>
                  <lu>
 		 <lit v="-y"/>
-		<lit-tag v="prn.enc.p4.mf"/>
+		<lit-tag v="prn.enc.p3.mf"/>
                  <clip pos="4" side="tl" part="nbr"/>
 		</lu></mlu>
               
@@ -65119,7 +67663,7 @@ no te lo habrías ido a comprar -> nun lo diríes mercar
       <pattern>
         <pattern-item n="proclise"/>
         <pattern-item n="prnpro"/>
-	<pattern-item n="prnpro"/>
+		<pattern-item n="prnpro"/>
         <pattern-item n="haber"/>
         <pattern-item n="verbir"/>
         <pattern-item n="a"/>
@@ -78449,6 +80993,7 @@ Lo guapo que es Asturias
 <!-- 
 regla EGV45a nombre + por + nombre -> PER (si nombre iguales')
 casa por casa -> casa per casa
+suIcidios por amor -> SUICIDIOS POR AMOR
 
 -->  
 
@@ -78462,22 +81007,18 @@ casa por casa -> casa per casa
 	  <choose>
 	   <when>
         <test>
-	      <and>
-			
-		        <equal caseless="yes">
-		          <clip pos="1" side="sl" part="lem"/>
-		          <clip pos="3" side="sl" part="lem"/>
-		        </equal>
-			   <equal caseless="yes">
-		          <clip pos="1" side="sl" part="nbr"/>
-		          <clip pos="3" side="sl" part="nbr"/>
-		        </equal>
-                         <equal caseless="yes">
-		          <clip pos="1" side="sl" part="gen"/>
-		          <clip pos="3" side="sl" part="gen"/>
-		        </equal>
-
-	      </and>
+		  <and>
+             <not>
+			 <in caseless="yes">
+			      <clip pos="3" side="sl" part="lem"/>
+                  <list n="abstractos"/>
+              </in>
+             </not>
+		     <equal caseless="yes">
+		        <clip pos="3" side="sl" part="nbr"/>
+		        <lit-tag v="sg"/>
+		     </equal>		 
+		  </and>
         </test>
         <out>
            <lu>
@@ -78485,7 +81026,9 @@ casa por casa -> casa per casa
 		   </lu>
 		   <b pos="1"/>
            <lu>
+			<get-case-from pos="2">
 			    <lit v="per"/>
+			</get-case-from>
 				<lit-tag v="pr"/>
 		   </lu>
            <b pos="2"/>
@@ -78515,6 +81058,118 @@ casa por casa -> casa per casa
 
     </rule>
 
+
+<!-- 
+regla EGV45b num + nombre + por + nombre ->
+Tres televisores por familia -> Trés televisiones per familia
+-->  
+
+    <rule>
+      <pattern>
+	<pattern-item n="num"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="por"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	  <choose>
+	   <when>
+        <test>
+		  <and>
+             <not>
+	        <in caseless="yes">
+			  <clip pos="4" side="sl" part="lem"/>
+                  <list n="abstractos"/>
+              </in>
+             </not>
+		     <equal caseless="yes">
+		        <clip pos="4" side="sl" part="nbr"/>
+		        <lit-tag v="sg"/>
+		     </equal>			 
+		  </and>
+        </test>	
+			<out>
+			   <lu>
+			<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b/>
+			<lu>
+			<clip pos="2" side="tl" part="whole"/> 
+		   </lu>
+		   <b/>
+			   <lu>
+			<get-case-from pos="3">
+			    <lit v="per"/>
+			</get-case-from>
+			<lit-tag v="pr"/>
+			   </lu>
+			   <b/>
+			   <lu>
+			<clip pos="4" side="tl" part="whole"/> 
+		   </lu>
+        </out>
+      </when>
+	  <otherwise>
+			<out>
+			   <lu>
+			<clip pos="1" side="tl" part="whole"/> 
+		   </lu>
+		   <b/>
+			<lu>
+			<clip pos="2" side="tl" part="whole"/> 
+		   </lu>
+		   <b/>
+			<lu>
+			<clip pos="3" side="tl" part="whole"/> 
+		   </lu>
+			   <b/>
+			   <lu>
+			<clip pos="4" side="tl" part="whole"/> 
+		   </lu>
+        </out>  
+	  </otherwise>
+      </choose>		
+     </action>
+
+    </rule>
+
+
+<!-- 
+regla EGV45c por + cada + nombre -> PER 
+Por cada casa -> Per cada casa 
+-->  
+
+    <rule>
+      <pattern>
+	<pattern-item n="por"/>
+        <pattern-item n="cada"/>
+	 <pattern-item n="nom"/>
+        
+      </pattern>
+      <action>
+	
+        <out>
+	   <lu>
+		<get-case-from pos="1">
+                <lit v="per"/>
+              </get-case-from>
+		<lit-tag v="pr"/>
+           </lu>
+	  <b/>
+           <lu>
+		<clip pos="2" side="tl" part="whole"/> 
+	   </lu>
+	<b/>
+           <lu>
+		<clip pos="3" side="tl" part="whole"/> 
+	   </lu>
+	  
+        </out>
+     
+  
+     </action>
+
+    </rule>
 <!-- 
 regla EGV45 verbo + por + verbo -> PER (si verbos distintos y verbo en lista 'verbos-per-1')
 comer por comer -> comer por comer
@@ -78555,7 +81210,9 @@ acabar por acabar -> acabar por acabar
 		   </lu>
 		   <b pos="1"/>
            <lu>
+			    <get-case-from pos="2">
 			    <lit v="per"/>
+			</get-case-from>
 				<lit-tag v="pr"/>
 		   </lu>
            <b pos="2"/>
@@ -78637,7 +81294,9 @@ acabar por no acabar -> acabar por nun acabar
 		   </lu>
 		   <b pos="1"/>
            <lu>
+			    <get-case-from pos="2">
 			    <lit v="per"/>
+			</get-case-from>
 				<lit-tag v="pr"/>
 		   </lu>
            <b pos="2"/>
@@ -78688,7 +81347,9 @@ acabar por no acabar -> acabar por nun acabar
 		   </lu>
 		   <b pos="1"/>
            <lu>
+			    <get-case-from pos="2">
 			    <lit v="per"/>
+			</get-case-from>
 				<lit-tag v="pr"/>
 		   </lu>
            <b pos="2"/>
@@ -78791,7 +81452,9 @@ regla EGV48b por + (adj)(det) + nombre -> PER (si nombre en sustantivos-per)
 		<out>
 		
 			<lu>
-			<lit v="per"/>
+			<get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 			<lit-tag v="pr"/>
 			</lu>
 			<b/>
@@ -78843,7 +81506,9 @@ regla EGV48 por + (adj)(det) + nombre -> PER (si nombre en sustantivos-per)
 		<out>
 		
 			<lu>
-			<lit v="per"/>
+			<get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 			<lit-tag v="pr"/>
 			</lu>
 			<b/>
@@ -78921,7 +81586,9 @@ regla EGV48b por + (adj)(det) + (adj)(det) + nombre -> PER (si nombre en sustant
         <out>
                
                 <lu>
-		      <lit v="per"/>
+		      <get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 		      <lit-tag v="pr"/>
 		</lu>
                       <b/>
@@ -78985,8 +81652,11 @@ regla EGV49b por + nombre topónimo -> PER
 		</test>
 		<out>
 		<lu>
-			<lit v="per"/>
+			<get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 			<lit-tag v="pr"/>
+			
 			</lu>
 		<b/>
 		<lu>
@@ -79020,7 +81690,9 @@ regla EGV49c por + nombre propio-> PER
 		</test>
 		<out>
 		<lu>
-			<lit v="per"/>
+			<get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 			<lit-tag v="pr"/>
 			</lu>
 		<b/>
@@ -79057,7 +81729,9 @@ regla EGV49 por + nombre -> PER (si nombre en sustantivos-per)
         <out>
                
                 <lu>
-		      <lit v="per"/>
+		      <get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 		      <lit-tag v="pr"/>
 		</lu>
                       <b/>
@@ -79113,7 +81787,9 @@ regla EGV50 por + adverbio -> PER (si adverbio en adverbios-per)
         <out>
                
                 <lu>
-		      <lit v="per"/>
+		      <get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 		      <lit-tag v="pr"/>
 		</lu>
                       <b/>
@@ -79165,7 +81841,9 @@ regla EGV47 por + nombre topónimo -> PER
         </test>
         <out>
             <lu>
-		      <lit v="per"/>
+		      <get-case-from pos="1">
+			    <lit v="per"/>
+			</get-case-from>
 		      <lit-tag v="pr"/>
     		</lu>
             <b/>
@@ -79450,7 +82128,9 @@ regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sus
         </test>
         <out>
             <lu>
-		       <lit v="dir"/>
+		       <get-case-from pos="1">
+			    <lit v="dir"/>
+			</get-case-from>
                <clip pos="1" side="tl" part="a_verb"/>
                <clip pos="1" side="tl" part="temps"/>
                <clip pos="1" side="tl" part="persona"/>
@@ -79497,7 +82177,9 @@ regla PERIF01 deber + inf -> tener + de + inf
             <b/>
 	    <lu><lit-tag v="a"/></lu>			
             <lu>
-		<lit v="de"/>
+		<get-case-from pos="1">
+			    <lit v="de"/>
+			</get-case-from>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
@@ -79510,8 +82192,90 @@ regla PERIF01 deber + inf -> tener + de + inf
 
 
 <!-- 
-regla PERIF01-1 Ceder +art, ceder +det, ceder + nom> dexar
+regla PERIF01 deber + inf -> tener + de + inf 
  deben ir ->  tienen de dir
+-->  
+ 
+<rule>
+      <pattern>
+        <pattern-item n="deber"/>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+
+        <out>
+	    <lu>
+              <get-case-from pos="1">
+                <lit v="tener"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+	    <lu><lit-tag v="a"/></lu>			
+            <lu>
+		<get-case-from pos="1">
+			    <lit v="de"/>
+			</get-case-from>
+		<lit-tag v="pr"/>
+    	    </lu>
+            <b/>
+            <lu>
+		<clip pos="2" side="tl" part="whole"/> 
+	    </lu>
+        </out>
+     </action>
+</rule>
+
+<!-- 
+regla PERIF01b deber + haber + participio -> tener + de + inf(part)
+ Deben haber dado ->   Tienen de dar
+-->  
+ 
+<rule>
+      <pattern>
+        <pattern-item n="deber"/>
+        <pattern-item n="haber"/>
+		<pattern-item n="part"/>
+      </pattern>
+      <action>
+
+        <out>
+	    <lu>
+              <get-case-from pos="1">
+                <lit v="tener"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+	    <lu><lit-tag v="a"/></lu>			
+            <lu>
+		<get-case-from pos="2">
+			    <lit v="de"/>
+			</get-case-from>
+		<lit-tag v="pr"/>
+    	    </lu>
+            <b/>
+           <lu>
+              <get-case-from pos="2">
+                <clip pos="3" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              
+            </lu>
+        </out>
+     </action>
+</rule>
+
+<!-- 
+regla PERIF01-1 Ceder +art, ceder +det, ceder + nom> dexar
+ ceden los ataques ->  dexan los ataques
 -->  
  
 <rule>
@@ -79875,7 +82639,9 @@ no deben ir ->  nun tienen de dir
             <b/>
 	    <lu><lit-tag v="a"/></lu>			
             <lu>
-		<lit v="de"/>
+		<get-case-from pos="2">
+			    <lit v="de"/>
+			</get-case-from>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
@@ -79886,6 +82652,61 @@ no deben ir ->  nun tienen de dir
      </action>
 </rule>
 
+
+<!-- 
+regla PERIF01b2 no + deber + haber + participio -> tener + de + inf(part)
+ No deben haber dado ->  Nun tienen de dar 
+
+-->  
+ 
+<rule>
+      <pattern>
+	<pattern-item n="no"/>
+        <pattern-item n="deber"/>
+        <pattern-item n="haber"/>
+	<pattern-item n="part"/>
+      </pattern>
+      <action>
+
+        <out>
+
+	   <lu>
+	       <get-case-from pos="1">
+			<lit v="nun"/>
+               </get-case-from>
+		        <lit-tag v="adv"/>
+	       </lu>
+            
+	     <b/>
+	    <lu>
+              <get-case-from pos="2">
+                <lit v="tener"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+	    <lu><lit-tag v="a"/></lu>			
+            <lu>
+		<get-case-from pos="3">
+			    <lit v="de"/>
+			</get-case-from>
+		<lit-tag v="pr"/>
+    	    </lu>
+            <b/>
+           <lu>
+              <get-case-from pos="3">
+                <clip pos="4" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="4" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              
+            </lu>
+        </out>
+     </action>
+</rule>
 <!-- 
 regla PERIF011 tras + inf -> en + ger 
  tras comer el pan  ->  en comiendo'l pan
@@ -79920,9 +82741,44 @@ regla PERIF011 tras + inf -> en + ger
      </action>
 </rule>
 
+
+<!-- 
+regla PERIF011 tras + inf -> en + ger 
+ tras haber sido  ->  en siendo
+-->  
+
+<rule>
+      <pattern>
+        <pattern-item n="tras"/>
+		<pattern-item n="haber"/>
+        <pattern-item n="part"/>
+      </pattern>
+      <action>
+
+        <out>
+            <lu>
+            <get-case-from pos="1">
+		<lit v="en"/>
+            </get-case-from>
+		<lit-tag v="pr"/>
+    	    </lu>
+               
+            <b/>
+             <lu>
+              <get-case-from pos="2">
+               <clip pos="3" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <lit-tag v="ger"/>
+              
+            </lu>
+        </out>
+     </action>
+</rule>
+
 <!-- 
 regla PERIF01b deber + inf -> tener + de + inf + prnenc
- deben ir ->  tienen de dir
+ deben irse ->  tienen de dir
 -->  
  
 <rule>
@@ -79946,7 +82802,9 @@ regla PERIF01b deber + inf -> tener + de + inf + prnenc
             <b/>
 	    <lu><lit-tag v="a"/></lu>			
             <lu>
-		<lit v="de"/>
+		<get-case-from pos="1">
+			    <lit v="de"/>
+			</get-case-from>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
@@ -79962,9 +82820,115 @@ regla PERIF01b deber + inf -> tener + de + inf + prnenc
      </action>
 </rule>
 
+<!-- 
+regla PERIF01b3 deber + haber + prnenc + participio -> tener + de + inf(part)
+deben haberse dormido -> tienen de dormise
+
+
+-->  
+ 
+<rule>
+      <pattern>
+        <pattern-item n="deber"/>
+        <pattern-item n="haber"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="part"/>
+      </pattern>
+      <action>
+
+        <out>
+
+	    <lu>
+              <get-case-from pos="1">
+                <lit v="tener"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="persona"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+	    <lu><lit-tag v="a"/></lu>			
+            <lu>
+		<get-case-from pos="2">
+			    <lit v="de"/>
+			</get-case-from>
+		<lit-tag v="pr"/>
+    	    </lu>
+            <b/>
+           <mlu><lu>
+              <get-case-from pos="2">
+                <clip pos="4" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="4" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              
+            </lu>
+	    <lu>
+		<clip pos="3" side="tl" part="whole"/> 
+	    </lu></mlu>
+        </out>
+     </action>
+</rule>
 
 
 
+<!-- 
+regla PERIF01b4 no + deber + haber + prnenc + participio -> tener + de + inf(part)
+no deben haberse dormido -> nun tienen de dormise
+
+
+-->  
+ 
+<rule>
+      <pattern>
+	<pattern-item n="no"/>
+        <pattern-item n="deber"/>
+        <pattern-item n="haber"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="part"/>
+      </pattern>
+      <action>
+
+        <out>
+	   <lu>
+	        <get-case-from pos="1">
+			<lit v="nun"/>
+               </get-case-from>
+		      <lit-tag v="adv"/>
+	    </lu><b/>
+	    <lu>
+              <get-case-from pos="2">
+                <lit v="tener"/>
+              </get-case-from>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="persona"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+	    <lu><lit-tag v="a"/></lu>			
+            <lu>
+		<get-case-from pos="3">
+			    <lit v="de"/>
+			</get-case-from>
+		<lit-tag v="pr"/>
+    	    </lu>
+            <b/>
+           <mlu><lu>
+              <get-case-from pos="3">
+                <clip pos="5" side="tl" part="lem"/>
+              </get-case-from>
+              <clip pos="5" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              
+            </lu>
+	    <lu>
+		<clip pos="4" side="tl" part="whole"/> 
+	    </lu></mlu>
+        </out>
+     </action>
+</rule>
 <!-- 
 regla PERIF01c deber + inf -> tener + de + inf + prnenc+ prnenc 
  deben decirselo -> tienen de díci-ylo
@@ -80006,7 +82970,9 @@ regla PERIF01c deber + inf -> tener + de + inf + prnenc+ prnenc
             <b/>
 	    <lu><lit-tag v="a"/></lu>			
             <lu>
-		<lit v="de"/>
+		<get-case-from pos="1">
+			    <lit v="de"/>
+			</get-case-from>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
@@ -80040,7 +83006,9 @@ regla PERIF01c deber + inf -> tener + de + inf + prnenc+ prnenc
             <b/>
 	    <lu><lit-tag v="a"/></lu>			
             <lu>
-		<lit v="de"/>
+		<get-case-from pos="1">
+			    <lit v="de"/>
+			</get-case-from>
 		<lit-tag v="pr"/>
     	    </lu>
             <b/>
@@ -81750,6 +84718,371 @@ regla PERIF03 prnpro + poder,etc + inf -> poder,etc + inf+prnpro
 
 
 
+  
+  
+  <!-- 
+       regla PERIF03A prnpro + poder,etc + inf -> poder,etc + inf+prnpro 
+  nunca lo puede bajar->  nunca puede baxalo
+  mañana se puede llegar -> mañana puede llegase
+
+  -->  
+  <rule>
+	  <pattern>
+		  <pattern-item n="proclise"/>
+		  <pattern-item n="prnpro"/>
+		  <pattern-item n="verbos_perifrasis"/>
+		  <pattern-item n="inf"/>
+	  </pattern>
+	  <action>
+		  <choose>          
+			  <when>
+				  <test>
+					  <and>
+						  
+						  <not>
+							  <equal caseless="yes"> 
+								  <clip pos="2" side="sl" part="lem"/>
+								  <lit v="le"/>
+							  </equal>
+						  </not>
+						  <not>
+							  <equal caseless="yes"> 
+								  <clip pos="2" side="sl" part="lem"/>
+								  <lit v="lo"/>
+							  </equal>
+						  </not>
+						  <not>
+							  <in caseless="yes">
+								  <clip pos="4" side="sl" part="lem"/>
+								  <list n="reflexivos"/>
+							  </in>
+						  </not>
+						  <equal caseless="yes">
+							  <clip pos="2" side="sl" part="persona"/>
+							  <clip pos="3" side="sl" part="persona"/>
+						  </equal>
+						  <equal caseless="yes">
+							  <clip pos="2" side="sl" part="nbr"/>
+							  <clip pos="3" side="sl" part="nbr"/>
+						  </equal>
+						  <equal caseless="yes">
+							  <clip pos="3" side="sl" part="temps"/>
+							  <lit-tag v="fts"/>
+						  </equal>				   
+					  </and>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <lit-tag v="pis"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="4" side="tl" part="whole"/>
+					  </lu>
+				  </out> 
+			  </when>
+			  
+			  <when>
+				  <test>
+					  <and>
+						  <not>
+							  <equal caseless="yes"> 
+								  <clip pos="2" side="sl" part="lem"/>
+								  <lit v="le"/>
+							  </equal>
+						  </not>
+						  <not>
+							  <equal caseless="yes"> 
+								  <clip pos="2" side="sl" part="lem"/>
+								  <lit v="lo"/>
+							  </equal>
+						  </not>
+						  <not>
+							  <in caseless="yes">
+								  <clip pos="3" side="sl" part="lem"/>
+								  <list n="reflexivos"/>
+							  </in>
+						  </not>
+						  <equal caseless="yes">
+							  <clip pos="2" side="sl" part="persona"/>
+							  <clip pos="3" side="sl" part="persona"/>
+						  </equal>
+						  <equal caseless="yes">
+							  <clip pos="2" side="sl" part="nbr"/>
+							  <clip pos="3" side="sl" part="nbr"/>
+						  </equal>
+					  </and>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <clip pos="3" side="tl" part="temps"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <clip pos="4" side="tl" part="whole"/>
+					  </lu>
+				  </out> 
+			  </when>	
+			  
+			  
+			  
+			  <when>
+				  <test>
+					  <and>
+						  
+						  <equal caseless="yes"> 
+							  <clip pos="2" side="sl" part="lem"/>
+							  <lit v="le"/>
+						  </equal>
+						  
+						  <in caseless="yes">
+							  <clip pos="4" side="sl" part="lem"/>
+							  <list n="transitivos"/>
+						  </in>
+						  
+					  </and>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu><lit-tag v="a"/></lu>
+					  <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <clip pos="3" side="tl" part="temps"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu><b/>
+					  <mlu> <lu>
+							  <get-case-from pos="3">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="2">
+								  <lit v="lu"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="2" side="tl" part="persona"/>
+							  <lit-tag v="m"/>
+							  <clip pos="2" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </when>	
+			  
+			  <when>
+				  <test>
+					  <and>
+						  
+						  <equal caseless="yes"> 
+							  <clip pos="2" side="sl" part="lem"/>
+							  <lit v="le"/>
+						  </equal>
+						  
+						  <in caseless="yes">
+							  <clip pos="4" side="sl" part="lem"/>
+							  <list n="transitivos"/>
+						  </in>
+						  <equal caseless="yes">
+							  <clip pos="3" side="sl" part="temps"/>
+							  <lit-tag v="fts"/>
+						  </equal>	
+					  </and>
+					  
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu><lit-tag v="a"/></lu>
+					  <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <lit-tag v="pis"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu><b/>
+					  <mlu> <lu>
+							  <get-case-from pos="3">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="2">
+								  <lit v="lu"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="2" side="tl" part="persona"/>
+							  <lit-tag v="m"/>
+							  <clip pos="2" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </when>	
+			  
+			  <when>
+				  <test>
+					  <equal caseless="yes">
+						  <clip pos="3" side="sl" part="temps"/>
+						  <lit-tag v="fts"/>
+					  </equal>				   
+				  </test>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu><lit-tag v="a"/></lu>
+					  <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <lit-tag v="pis"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu><b/>
+					  <mlu> <lu>
+							  <get-case-from pos="3">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="2">
+								  <clip pos="2" side="tl" part="lem"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="2" side="tl" part="persona"/>
+							  <clip pos="2" side="tl" part="gen"/>
+							  <clip pos="2" side="tl" part="nbr"/>
+						  </lu></mlu>			
+				  </out> 
+			  </when>
+			  
+			  
+			  <when>
+				  <test>
+					  <equal caseless="yes">
+						  <clip pos="2" side="sl" part="lem"/>
+						  <lit v="se"/>
+					  </equal>
+				  </test>
+				  
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <clip pos="3" side="tl" part="temps"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu>
+					  <b/>
+					  
+					  <mlu>
+						  <lu>
+							  <clip pos="4" side="tl" part="whole"/> 
+						  </lu>
+						  <lu>
+							  <clip pos="2" side="tl" part="lem"/>
+							  <lit-tag v="prn.enc.ref"/>
+							  <clip pos="2" side="tl" part="persona"/>
+							  <clip pos="2" side="tl" part="gen"/>
+							  <clip pos="2" side="tl" part="nbr"/>
+						  </lu>
+					  </mlu>
+				  </out>
+			  </when>
+			  
+			  <otherwise>
+				  <out>
+					  <lu>
+						  <clip pos="1" side="tl" part="whole"/>
+					  </lu>
+					  <b/>
+					  <lu><lit-tag v="a"/></lu>
+					  <lu>
+						  <get-case-from pos="2">
+							  <clip pos="3" side="tl" part="lem"/>
+						  </get-case-from>
+						  <clip pos="3" side="tl" part="a_verb"/>
+						  <clip pos="3" side="tl" part="temps"/>
+						  <clip pos="3" side="tl" part="persona"/>
+						  <clip pos="3" side="tl" part="nbr"/>
+					  </lu><b/>
+					  <mlu> <lu>
+							  <get-case-from pos="3">
+								  <clip pos="4" side="tl" part="lem"/>
+							  </get-case-from>
+							  <clip pos="4" side="tl" part="a_verb"/>
+							  <clip pos="4" side="tl" part="temps"/>
+							  <clip pos="4" side="tl" part="persona"/>
+							  <clip pos="4" side="tl" part="nbr"/>
+						  </lu>
+						  <lu>
+							  <get-case-from pos="2">
+								  <clip pos="2" side="tl" part="lem"/>
+							  </get-case-from>
+							  <lit-tag v="prn.enc"/>
+							  <clip pos="2" side="tl" part="persona"/>
+							  <clip pos="2" side="tl" part="gen"/>
+							  <clip pos="2" side="tl" part="nbr"/>
+						  </lu></mlu>
+				  </out> 
+			  </otherwise>
+		  </choose>
+	  </action>
+  </rule>
+  
+
+    
 <!-- 
 regla PERIF03 prnpro + poder,etc + inf -> poder,etc + inf+prnpro 
  lo puede bajar->  puede baxalo
@@ -82091,7 +85424,7 @@ regla PERIF03d prnpro + prnpro + verbo_perífrasis + inf -> verbo + gerundio + e
 se lo puede bajar->  puede baxá-ylo
 me lo puede bajar -> puede baxámelo
 me lo puedo dejar -> puedo dexalo
-se le puede olvidar ->puede escaecése-y 
+se le puede olvidar -> puede escaecése-y 
 
 -->  
    <rule>
@@ -84926,7 +88259,9 @@ regla EGV51 hacer + sustantivo_temporal -> DIR + sustantivo_temporal
         </test>
         <out>
             <lu>
-		       <lit v="dir"/>
+		       <get-case-from pos="1">
+			    <lit v="dir"/>
+			</get-case-from>
                <clip pos="1" side="tl" part="a_verb"/>
                <clip pos="1" side="tl" part="temps"/>
                <clip pos="1" side="tl" part="persona"/>
@@ -84995,7 +88330,7 @@ regla EGV51 hacer + sustantivo_temporal -> DIR + sustantivo_temporal
 
 <!--
 regla EGV52 le_les + verbo + infinitivo = verbo-y/yos + inf
-le comí el bocadillo -> comí-y el bocáu
+les vi comer -> vi-yos comer
 -->
 
     <rule> 
@@ -86352,7 +89687,7 @@ al niño no le mordió el perro -> al neñu nun lu mordió'l perru
 
 <!--
 regla EGV25b_b pronombre_procl_le + verbo +  det_nom_prn_num -> verbo-y + det_nom_prn_num 
-al niño  rubio le mordió el perro -> al neñu roxu mordiólu el perru 
+al niño rubio le mordió el perro -> al neñu roxu mordiólu el perru 
 -->
 
     <rule> 
@@ -92349,7 +95684,9 @@ regla recién + participio -> ACABANTE + infinitivo
 
 		<out>
 		<lu>
-			<lit v="acabante"/>
+			<get-case-from pos="1">
+			    <lit v="acabante"/>
+			</get-case-from>
 			<lit-tag v="adv"/>
 			</lu>
 		<b/>
@@ -92364,6 +95701,134 @@ regla recién + participio -> ACABANTE + infinitivo
 </rule>  
 
 
+      <!-- REGLA NP1: NOM NOM-->
+<rule>	
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+      <choose>
+        <when>
+          <test>
+		  <and>
+			  <or>
+				<not>
+				<equal caseless="yes">
+				  <clip pos="1" side="sl" part="gen"/>
+				  <clip pos="2" side="sl" part="gen"/>
+				</equal>
+				</not>
+				<not>
+				<equal caseless="yes">
+				  <clip pos="1" side="sl" part="nbr"/>
+				  <clip pos="2" side="sl" part="nbr"/>
+				</equal>	
+				</not>
+			  </or>
+				<not>
+				<equal caseless="yes">
+				  <clip pos="1" side="sl" part="nbr"/>
+				  <lit-tag v="sp"/>
+				</equal>	
+				</not>
+				<not>
+				<equal caseless="yes">
+				  <clip pos="2" side="sl" part="nbr"/>
+				  <lit-tag v="sp"/>
+				</equal>	
+				</not>				
+				<not>
+				<equal caseless="yes">
+				  <clip pos="1" side="sl" part="gen"/>
+				  <lit-tag v="mf"/>
+				</equal>	
+				</not>	
+				<not>
+				<equal caseless="yes">
+				  <clip pos="1" side="sl" part="gen"/>
+				  <lit-tag v="GD"/>
+				</equal>	
+				</not>
+				<not>
+				<equal caseless="yes">
+				  <clip pos="2" side="sl" part="gen"/>
+				  <lit-tag v="mf"/>
+				</equal>	
+				</not>
+				<not>
+				<equal caseless="yes">
+				  <clip pos="2" side="sl" part="gen"/>
+				  <lit-tag v="GD"/>
+				</equal>	
+				</not>	
+			</and>
+		</test>
+       	<out>
+          		<lu>
+            			<clip pos="1" side="sl" part="lem"/>
+            			<clip pos="1" side="sl" part="a_nom"/>
+            			<clip pos="1" side="sl" part="gen"/>
+            			<clip pos="1" side="sl" part="nbr"/>
+          		</lu>
+          		<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="sl" part="lem"/>
+            			<clip pos="1" side="sl" part="a_nom"/>
+            			<clip pos="2" side="sl" part="gen"/>
+            			<clip pos="2" side="sl" part="nbr"/>
+          		</lu>
+        	</out>
+			
+		</when>
+      <otherwise>
+        	<out>
+          		<lu>
+            			<clip pos="1" side="tl" part="lem"/>
+            			<clip pos="1" side="tl" part="a_nom"/>
+            			<clip pos="1" side="tl" part="gen"/>
+            			<clip pos="1" side="tl" part="nbr"/>
+          		</lu>
+          		<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="lem"/>
+            			<clip pos="1" side="tl" part="a_nom"/>
+            			<clip pos="2" side="tl" part="gen"/>
+            			<clip pos="2" side="tl" part="nbr"/>
+          		</lu>
+        	</out>
+		</otherwise>
+	  </choose>		
+      </action>
+    </rule>
+
+	
+    <!-- REGLA NP1: NOM NP-->
+	
+	<rule>	
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="np"/>
+      </pattern>
+      <action>
+        	<out>
+          		<lu>
+            			<clip pos="1" side="sl" part="lem"/>
+            			<!--<clip pos="1" side="sl" part="a_nom"/>
+            			<clip pos="1" side="sl" part="gen"/>
+            			<clip pos="1" side="sl" part="nbr"/>-->
+          		</lu>
+          		<b pos="1"/>
+          		<lu>
+            			<clip pos="2" side="tl" part="whole"/>
+          		</lu>
+        	</out>		
+      </action>
+    </rule>
+	
+	
 
     </section-rules>
 </transfer>
+
+

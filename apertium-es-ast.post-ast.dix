@@ -233,7 +233,6 @@
 
     <pardef n="apostrofe">
 
-
       <e>
         <p>
           <l><b/><a/></l>
@@ -1871,9 +1870,7 @@
       <e><p><l><a/></l><r><a/></r></p><re>[A-Za-zá-úÁ-Ú]*[AaEeIiOoUuÁÉÍÓÚáéíóú]</re><p><l><a/></l><r><b/></r></p></e>
  
 
-
 	<!-- establecemos prioridades en casos especiales -->
-     
 
       <e><p><l><a/>y<b/><a/><a/>el<b/><a/></l><r>y l'</r></p><par n="vocals"/></e>
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/></l><r>y n'</r></p><par n="vocals"/></e>
@@ -1883,7 +1880,6 @@
       <e><p><l><a/>y<b/><a/><a/>la<b/><a/></l><r>y l'</r></p><par n="vocals"/></e>
       <!--<e><p><l><a/>y<b/><a/><a/>me<b/><a/></l><r>y m'</r></p><par n="vocals"/></e>-->
      <!-- <e><p><l><a/>responder por<b/><a/><a/>la</l><r>responder pola</r></p></e>-->
-
 	
 	
       <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>el</l><r><b/>vueltes<b/>col</r></p></e> 
@@ -1891,12 +1887,17 @@
       <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>la</l><r><b/>vueltes<b/>cola</r></p></e> 
       <e><p><l><a/></l><r/></p><re>[Aa]</re><p><l><b/>vueltes<b/>con<b/><a/><a/>les</l><r><b/>vueltes<b/>coles</r></p></e> 
       <e><p><l><a/><a/>por<b/><a/><a/>el<b/>so<b/><a/>estilu</l><r>por<b/>el<b/>so<b/>estilo</r></p></e> 
-      <e><p><l><a/><a/>tou<b/><a/><a/>lo<b/></l><r>tol<b/></r></p></e> 
+      <e><p><l><a/><a/>Tou<b/><a/><a/>lo<b/></l><r>Tolo<b/></r></p></e> 
+      <e><p><l><a/><a/>Tou<b/><a/><a/>el<b/></l><r>Tol<b/></r></p></e> 
+      <e><p><l><a/><a/>Toa<b/><a/><a/>la<b/></l><r>Tola<b/></r></p></e> 
+      <e><p><l><a/><a/>Toes<b/><a/><a/>les<b/></l><r>Toles<b/></r></p></e>
+      <e><p><l><a/><a/>Toos<b/><a/><a/>los<b/></l><r>Tolos<b/></r></p></e>
+      <e><p><l><a/><a/>tou<b/><a/><a/>lo<b/></l><r>tolo<b/></r></p></e> 
       <e><p><l><a/><a/>tou<b/><a/><a/>el</l><r>tol</r></p></e> 
       <e><p><l><a/><a/>toa<b/><a/><a/>la</l><r>tola</r></p></e> 
       <e><p><l><a/><a/>toes<b/><a/><a/>les</l><r>toles</r></p></e>
       <e><p><l><a/><a/>toos<b/><a/><a/>los</l><r>tolos</r></p></e>
-      <e><p><l><a/><a/>TOU<b/><a/><a/>LO<b/></l><r>TOL<b/></r></p></e> 
+      <e><p><l><a/><a/>TOU<b/><a/><a/>LO<b/></l><r>TOLO<b/></r></p></e> 
       <e><p><l><a/><a/>TOU<b/><a/><a/>EL</l><r>TOL</r></p></e> 
       <e><p><l><a/><a/>TOA<b/><a/><a/>LA</l><r>TOLA</r></p></e> 
       <e><p><l><a/><a/>TOES<b/><a/><a/>LES</l><r>TOLES</r></p></e>
@@ -1959,7 +1960,7 @@
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>elles</l><r>y<b/>nelles</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ellos</l><r>y<b/>nellos</r></p></e>
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ello</l><r>y<b/>nello</r></p></e>
-      <e><p><l><a/>y<b/><a/><a/>tou<b/><a/><a/>lo</l><r>y<b/>nella</r></p></e> 
+      <e><p><l><a/>y<b/><a/><a/>tou<b/><a/><a/>lo</l><r>y<b/>tolo</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>tou<b/><a/><a/>el</l><r>y<b/>tol</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>toa<b/><a/><a/>la</l><r>y<b/>tola</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>toes<b/><a/><a/>les</l><r>y<b/>toles</r></p></e>

@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tagger name="spanish">
 <tagset>
+
   <!-- tagset asturiano -->
-  <def-label name="ADMIRACION" closed="true">
-    <tags-item lemma="¡" tags=""/>
-  </def-label>    
+  <def-label name="CONPR" closed="true">
+    <tags-item lemma="con" tags="pr"/>
+  </def-label> 
+  <def-label name="PREP" closed="true">
+    <tags-item lemma="a" tags="pr"/>
+	<tags-item lemma="ante" tags="pr"/>
+	<tags-item lemma="bajo" tags="pr"/>
+    <tags-item lemma="cabe" tags="pr"/>
+    <tags-item lemma="con" tags="pr"/>
+    <tags-item lemma="contra" tags="pr"/>
+    <tags-item lemma="de" tags="pr"/>
+    <tags-item lemma="desde" tags="pr"/>		  
+    <tags-item lemma="acerca de" tags="pr"/>
+    <tags-item lemma="durante" tags="pr"/>
+    <tags-item lemma="en" tags="pr"/>
+    <tags-item lemma="entre" tags="pr"/>
+    <tags-item lemma="excepto" tags="pr"/>
+    <tags-item lemma="hacia" tags="pr"/>
+    <tags-item lemma="hasta" tags="pr"/>
+    <tags-item lemma="junto a" tags="pr"/>
+    <tags-item lemma="mediante" tags="pr"/>
+    <tags-item lemma="por" tags="pr"/>
+    <tags-item lemma="salvo" tags="pr"/>
+    <tags-item lemma="según" tags="pr"/>
+    <tags-item lemma="sin" tags="pr"/>
+    <tags-item lemma="so" tags="pr"/>	
+    <tags-item lemma="sobre" tags="pr"/>
+    <tags-item lemma="tras" tags="pr"/>
+  </def-label>
   <def-label name="PARAPR" closed="true">
     <tags-item lemma="para" tags="pr"/>
   </def-label>  
@@ -12,6 +39,12 @@
     <tags-item lemma="parar" tags="vblex.imp.p2.sg"/>
     <tags-item lemma="parar" tags="vblex.pri.p3.sg"/>	
   </def-label>  
+  <def-label name="VINOVBLEX" closed="true">
+    <tags-item lemma="venir" tags="vblex.ifi.p3.sg"/>
+  </def-label>
+  <def-label name="VINONOM" closed="true">
+    <tags-item lemma="vino" tags="n.m.sg"/>
+  </def-label>
   <def-label name="PRONTOADJ" closed="true">
     <tags-item lemma="pronto" tags="adj.*"/>
   </def-label>
@@ -25,6 +58,7 @@
     <tags-item lemma="magnífico" tags="adj.*"/>
   </def-label>        
   <!-- fin tagset asturiano-->
+  
   <def-label name="QUECNJ" closed="true">
     <tags-item lemma="que" tags="cnjsub"/>
   </def-label>  
@@ -89,9 +123,6 @@
   <def-label name="PREDET" closed="true">
     <tags-item tags="predet.*"/>
   </def-label>
-  <def-label name="PREP" closed="true">
-    <tags-item tags="pr"/>
-  </def-label>
   <def-label name="PRNTNNT" closed="true">
     <tags-item tags="prn.tn.nt"/>
   </def-label>
@@ -136,7 +167,6 @@
   <def-label name="VBMODIMP">
     <tags-item tags="vbmod.imp.*"/>
   </def-label>
-
   <def-label name="VLEXINF">
     <tags-item tags="vblex.inf"/>
   </def-label>
@@ -208,13 +238,16 @@
   </def-label>
   <def-label name="VHABERIPI" closed="true">
     <tags-item tags="vbhaver.pii.*"/>
-    <tags-item tags="vbhaver.ifi.*"/>
+    <tags-item tags="vbhaver.ifi.*"/> 
   </def-label>
   <def-label name="VHABERSUBJ" closed="true">
     <tags-item tags="vbhaver.prs.*"/>
     <tags-item tags="vbhaver.pis.*"/>
     <tags-item tags="vbhaver.fts.*"/>
   </def-label>
+  <def-label name="ADJMS">
+    <tags-item tags="adj.m.sg"/>
+  </def-label>  
   <def-label name="ADJ">
     <tags-item tags="adj.*"/>
   </def-label>
@@ -234,8 +267,10 @@
   </def-label>
   <def-label name="COMA" closed="true">
     <tags-item tags="cm"/>
-  </def-label>    
-  <def-mult name="NP," closed="true">
+  </def-label>   
+
+  
+   <def-mult name="NP," closed="true">
     <sequence>
       <label-item label="ANTROPONIM"/>
       <tags-item tags="cm"/>
@@ -389,10 +424,72 @@
       <label-item label="PRNENC"/>
     </sequence>
   </def-mult>
-</tagset>
 
+  </tagset>
+
+  
+  
+  
+  
   <forbid>
   <!-- forbid asturiano -->  
+  
+
+  
+  <!-- Prohibiciones 'para' preposición -->
+  <!--
+    <label-sequence>
+      <label-item label="PARAPR"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAPR"/>
+      <label-item label="CONPR"/>
+    </label-sequence>	
+    <label-sequence>
+      <label-item label="PREP"/>
+      <label-item label="PARAPR"/>
+	</label-sequence>  
+    <label-sequence>
+      <label-item label="ADV"/>
+      <label-item label="PARAPR"/>
+	</label-sequence>  
+    <label-sequence>
+      <label-item label="ANTROPONIM"/>
+      <label-item label="PARAPR"/>
+    </label-sequence>		
+	-->
+   <label-sequence>
+      <label-item label="PRNPRO"/>
+      <label-item label="PARAPR"/>
+	</label-sequence>		
+	<!--
+    <label-sequence>
+      <label-item label="VERB"/>
+      <label-item label="PARAPR"/>
+	</label-sequence>	
+	-->
+		
+	
+  <!-- Prohibiciones 'para' verbo -->	
+    <label-sequence>
+      <label-item label="PARAVBLEX"/>	
+      <label-item label="DET"/>
+	</label-sequence>
+    <label-sequence>
+      <label-item label="VERB"/>
+      <label-item label="PARAVBLEX"/>
+	</label-sequence>		
+    <label-sequence>
+      <label-item label="PARAVBLEX"/>	
+      <label-item label="VERB"/>
+	</label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBLEX"/>	
+      <label-item label="VLEXINF"/>
+	</label-sequence>
+	
+  <!-- Prohibiciones imperativo -->	
     <label-sequence>
       <label-item label="NOM"/>
       <label-item label="VLEXIMP"/>
@@ -401,39 +498,35 @@
       <label-item label="ANTROPONIM"/>
       <label-item label="VLEXIMP"/>
     </label-sequence>	
-    <label-sequence>
-      <label-item label="PARAPR"/>
-      <label-item label="PREP"/>
-    </label-sequence>
-    <label-sequence>
-      <label-item label="PREP"/>
-      <label-item label="PARAPR"/>
-	</label-sequence>	
-    <label-sequence>
-      <label-item label="VERB"/>
-      <label-item label="PARAVBLEX"/>
-	</label-sequence>		
-    <label-sequence>
-      <label-item label="PARAVBLEX"/>	
-      <label-item label="VERB"/>
-	</label-sequence>	
-    <label-sequence>
-      <label-item label="PARAVBLEX"/>	
-      <label-item label="VLEXINF"/>
-	</label-sequence>		
-    <label-sequence>
-      <label-item label="PARAVBLEX"/>	
-      <label-item label="DET"/>
-	</label-sequence>		
+
+  <!-- Prohibiciones 'parada' nombre -->		
     <label-sequence>
       <label-item label="VLEXINF"/>
       <label-item label="PARADANOM"/>		  
-	</label-sequence>		
+	</label-sequence>
     <label-sequence>
       <label-item label="ADJBUENO"/>
       <label-item label="PARADANOM"/>		  
+	</label-sequence>
+
+  <!-- Prohibiciones 'vino' nombre -->		
+    <label-sequence>
+      <label-item label="VINONOM"/>
+      <label-item label="DET"/>		  
+	</label-sequence>
+
+  <!-- Prohibiciones 'vino' verbo -->		
+    <label-sequence>
+      <label-item label="VINOVBLEX"/>
+      <label-item label="ADJMS"/>		  
+	</label-sequence>	
+    <label-sequence>
+      <label-item label="VINOVBLEX"/>
+      <label-item label="QUEREL"/>		  
 	</label-sequence>		
-  <!-- fin forbid asturiano --> 	
+			
+  <!-- fin forbid asturiano -->   
+  
     <label-sequence>
       <label-item label="ALGOADV"/>
       <label-item label="QUECNJ"/>
@@ -450,7 +543,7 @@
       <label-item label="PREP"/>
       <label-item label="PREP"/>
     </label-sequence>
-    <label-sequence>
+   <!--<label-sequence>
       <label-item label="PREP"/>
       <label-item label="PREPDET"/>
     </label-sequence>
@@ -505,7 +598,7 @@
     <label-sequence>
       <label-item label="PREP"/>
       <label-item label="VHABERSUBJ"/>
-    </label-sequence>
+    </label-sequence>-->
     <label-sequence>
       <label-item label="DET"/>
       <label-item label="VLEXPFCI"/>
@@ -726,10 +819,12 @@
       <label-item label="DET"/>
       <label-item label="SENT"/>
     </label-sequence>
-    <label-sequence>
+    <!--
+	<label-sequence>
       <label-item label="PREP"/>
       <label-item label="SENT"/>
     </label-sequence>
+	-->
     <label-sequence>
       <label-item label="PREDET"/>
       <label-item label="SENT"/>
@@ -853,12 +948,11 @@
 	<label-sequence>
       <label-item label="PRNTN"/>
       <label-item label="NOM"/>
-    </label-sequence>			
+    </label-sequence>	
   </forbid>
+  
 
-
-
-  <enforce-rules>
+   <enforce-rules>
     <enforce-after label="PRNPRO">
       <label-set>
         <label-item label="PRNPRO"/>
@@ -879,7 +973,8 @@
 
   <preferences>
    <!-- preferencias asturianas -->
-   <prefer tags="vblex.pri.p3.sg"/>   
+   <!--<prefer tags="vblex.pri.p3.sg"/>-->
+   <!--<prefer tags="vblex.ifi.p3.sg"/>-->
    <!-- fin preferencias asturianas -->  
    <prefer tags="vblex.pii.p3.sg"/>
    <prefer tags="vbser.pii.p3.sg"/>
@@ -893,7 +988,6 @@
    <prefer tags="vblex.pis.p3.sg"/>
    <prefer tags="vbser.pis.p3.sg"/>
    <prefer tags="vbhaver.pis.p3.sg"/>
-
    </preferences>
 
 </tagger>
