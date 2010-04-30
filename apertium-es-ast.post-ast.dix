@@ -982,6 +982,20 @@
       </e>
 	  <e>
         <p>
+          <l><b/><a/><a/>ún</l>
+          <r>ún</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+	  <e>
+        <p>
+          <l><b/><a/><a/>ÚN</l>
+          <r>ÚN</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>	 	  
+	  <e>
+        <p>
           <l><b/><a/><a/>uno</l>
           <r>uno</r>
         </p>
@@ -1925,6 +1939,7 @@
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>lo</l><r>y<b/>no</r></p></e> 	  
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>los</l><r>y<b/>nos</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>les</l><r>y<b/>nes</r></p></e>
+	  <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>ún</l><r>y<b/>nún</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>un</l><r>y<b/>nun</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>una</l><r>y<b/>nuna</r></p></e> 
       <e><p><l><a/>y<b/><a/><a/>en<b/><a/><a/>unos</l><r>y<b/>nunos</r></p></e> 

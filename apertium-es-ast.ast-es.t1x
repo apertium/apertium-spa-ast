@@ -2477,10 +2477,10 @@ is not applicable because gender and number cannot be taken from previous rules 
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
           </lu>
-          <b pos="1"/>
+	  <b pos="1"/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>

@@ -223,13 +223,16 @@
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -p -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
+	  
 	  <!--Proper noun recogniser: -->
+	  <!--
       <program name="apertium-pn-recogniser">
         <file name="es-pn.dat"/>
       </program>	  
+	  -->
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
@@ -239,13 +242,15 @@
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -p -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
+	  <!--
       <program name="apertium-pn-recogniser">
         <file name="es-pn.dat"/>
       </program>		  
+	  -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-es-ast.es-ast.t1x"/>
@@ -260,13 +265,15 @@
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -p -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
+	  <!--
       <program name="apertium-pn-recogniser">
         <file name="es-pn.dat"/>
       </program>		  
+	  -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-es-ast.es-ast.t1x"/>
@@ -286,13 +293,15 @@
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -p -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
+	  <!--
       <program name="apertium-pn-recogniser">
         <file name="es-pn.dat"/>
       </program>		  
+	  -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-es-ast.es-ast.t1x"/>
@@ -314,13 +323,15 @@
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -p -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
+	  <!--
       <program name="apertium-pn-recogniser">
         <file name="es-pn.dat"/>
       </program>		  
+	  -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-es-ast.es-ast.t1x"/>
@@ -348,13 +359,15 @@
       <program name="lt-proc">
         <file name="es-ast.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -p -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="es-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
+	  <!--
       <program name="apertium-pn-recogniser">
         <file name="es-pn.dat"/>
       </program>		  
+	  -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
         <file name="apertium-es-ast.es-ast.t1x"/>
@@ -375,7 +388,9 @@
         <file name="es-ast.autopgen2.bin"/>
       </program>
 	  <!-- Removes special mark: -->
+	  <!--
 	  <program name="apertium-pn-recogniser-final"/>	  
+	  -->
     </pipeline>
   </mode>
 
