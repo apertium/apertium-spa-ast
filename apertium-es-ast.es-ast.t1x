@@ -7399,7 +7399,8 @@ es un coche no comprado -> ye un coche ensin mercar
 		<pattern-item n="part"/>
 	</pattern>
 	<action>
-		
+	
+	
 		<out>
 			<lu>
 				<clip pos="1" side="tl" part="whole"/> 
@@ -8216,7 +8217,71 @@ ojalá llueva -> yá que llueva
          	 	<with-param pos="5"/>				
        		</call-macro>
         <choose>
-
+		<when>
+			<test>
+				<and>
+					<not>
+						<equal caseless="yes">
+							<clip pos="2" side="sl" part="gen"/>
+							<lit-tag v="mf"/>
+						</equal>
+					</not>
+					<not>
+						<equal caseless="yes">
+							<clip pos="2" side="sl" part="nbr"/>
+							<lit-tag v="GD"/>
+						</equal>
+					</not>
+					<in caseless="yes"><!--in-->
+						<clip pos="2" side="sl" part="lem"/>
+						<list n="incontables"/>
+					</in>
+					
+					<equal caseless="yes">
+						<clip pos="2" side="sl" part="nbr"/>
+						<lit-tag v="sg"/>
+                			</equal>
+					
+				</and>
+			</test>
+			
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_det"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+				</lu>
+				<b/>
+				<lu>
+					<clip pos="2" side="tl" part="lem"/>
+					<clip pos="2" side="tl" part="a_nom"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+				</lu>
+				<b/>
+				<lu>
+					<clip pos="3" side="tl" part="lem"/>
+					<clip pos="3" side="tl" part="a_adjec"/>
+					<lit-tag v="nt"/>
+					<clip pos="3" side="tl" part="nbr"/>
+				</lu>
+				<b/>	
+				
+				
+				<lu>
+					<clip pos="4" side="tl" part="whole"/>
+				</lu>				
+				
+				<b/>		
+				<lu>
+					<clip pos="5" side="tl" part="lem"/>
+					<clip pos="5" side="tl" part="a_adjec"/>
+					<lit-tag v="nt"/>
+					<clip pos="5" side="tl" part="nbr"/>
+          		</lu>				
+        	</out>
+	</when>
 	<when>
           <test>
 	   <and>
@@ -8269,6 +8334,62 @@ ojalá llueva -> yá que llueva
           		</lu>				
         	</out>
           </when>
+	  <when>
+		  <test>
+			  <and>
+				  <not>
+					  <equal caseless="yes">
+						  <clip pos="2" side="sl" part="gen"/>
+						  <lit-tag v="mf"/>
+					  </equal>
+				  </not>
+				  <not>
+					  <equal caseless="yes">
+						  <clip pos="2" side="sl" part="nbr"/>
+						  <lit-tag v="GD"/>
+					  </equal>
+				  </not>
+				
+			  </and>
+		  </test>
+		  
+		  <out>
+			  <lu>
+				  <clip pos="1" side="tl" part="lem"/>
+				  <clip pos="1" side="tl" part="a_det"/>
+				  <clip pos="2" side="tl" part="gen"/>
+				  <clip pos="1" side="tl" part="nbr"/>
+			  </lu>
+			  <b/>
+			  <lu>
+				  <clip pos="2" side="tl" part="lem"/>
+				  <clip pos="2" side="tl" part="a_nom"/>
+				  <clip pos="2" side="tl" part="gen"/>
+				  <clip pos="2" side="tl" part="nbr"/>
+			  </lu>
+			  <b/>
+			  <lu>
+				  <clip pos="3" side="tl" part="lem"/>
+				  <clip pos="3" side="tl" part="a_adjec"/>
+				  <lit-tag v="nt"/>
+				  <clip pos="3" side="tl" part="nbr"/>
+			  </lu>
+			  <b/>	
+			  
+			  
+			  <lu>
+				  <clip pos="4" side="tl" part="whole"/>
+			  </lu>				
+			  
+			  <b/>		
+			  <lu>
+				  <clip pos="5" side="tl" part="lem"/>
+				  <clip pos="5" side="tl" part="a_adjec"/>
+				  <lit-tag v="nt"/>
+				  <clip pos="5" side="tl" part="nbr"/>
+			  </lu>				
+		  </out>
+	</when>
           <otherwise>
         	<out>
 				<lu>
