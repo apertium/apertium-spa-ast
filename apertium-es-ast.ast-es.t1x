@@ -6,6 +6,12 @@
   
   <section-def-cats>
 
+    <def-cat n="cnj">
+	<cat-item tags="cnjcoo"/>
+	<cat-item tags="cnjsub"/>
+	<cat-item tags="cnjadv"/>
+    </def-cat>
+    
     <def-cat n="proclise">
       <cat-item tags="prn.itg.*"/>
       <cat-item tags="adv.itg"/>
@@ -156,6 +162,13 @@
     <def-cat n="prnpro">
       <cat-item tags="prn.pro.*"/>
     </def-cat>
+    
+    <def-cat n="plus">
+	    <cat-item tags="vblex.pis.*"/>
+	    <cat-item tags="vbser.pis.*"/>
+	    <cat-item tags="vbhaver.pis.*"/>
+    </def-cat>
+    
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
@@ -3416,14 +3429,491 @@ cantara unes canciones guapes -> había cantado unas canciones bonitas
       </action>
     </rule>
    
+    
+    <!--REGRA EGV01b2: V (verbos sen enclíticos)
+	
+    que cantara bien -> Que cantara bien 
 
+    Si cantara bien, pagáben-y más -> Si cantara bien, le pagaban más
+    
+    -->
+    
+    <rule>  
+	    <pattern>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="plus"/>
+	    </pattern>
+	    <action>
+		  
+				    
+				    <out>
+					    <lu>
+						    <clip pos="1" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="2" side="tl" part="lemh"/>
+						    <clip pos="2" side="tl" part="a_verb"/>
+						    <clip pos="2" side="tl" part="temps"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+						    <clip pos="2" side="tl" part="lemq"/>
+					    </lu>
+				    </out>  
+	    </action>
+    </rule>
+    
+	
+    <!--REGRA EGV01b3: V (verbos sen enclíticos)
+    diz que cantara bien -> dice que había cantado bien
+    pregunta si cantara bien -> pregunta si había cantado bien
+    
+    -->
+    
+    <rule>  
+	    <pattern>
+		    <pattern-item n="verb"/>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="plus"/>
+	    </pattern>
+	    <action>
+		    <choose>
+			    
+			    <when>
+				    <test>
+					    <and>
+					    <equal>
+						    <clip pos="3" side="sl" part="temps"/>
+						    <lit-tag v="pis"/>
+					    </equal>
+					    <equal>
+						    <clip pos="1" side="sl" part="temps"/>
+						    <lit-tag v="ifi"/>
+					    </equal>
+				    	   </and>
+				    </test>
+				    <out>
+					    <lu>
+						    
+						    <get-case-from pos="1">		  
+							    <lit v="haber"/>
+						    </get-case-from> 
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="2" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="3" side="sl" part="persona"/>
+						    <clip pos="3" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="lem"/>
+						    <clip pos="3" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>      
+			    
+			    <when>
+				    <test>
+					    <equal>
+						    <clip pos="3" side="sl" part="temps"/>
+						    <lit-tag v="pis"/>
+					    </equal>
+				    </test>
+				    <out>
+					    <lu>
+						    <clip pos="1" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="2" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="3" side="sl" part="persona"/>
+						    <clip pos="3" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="lem"/>
+						    <clip pos="3" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>      
+			    
+			    <otherwise>
+				    
+				    <out>
+					    <lu>
+						    <clip pos="1" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="2" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="lemh"/>
+						    <clip pos="3" side="tl" part="a_verb"/>
+						    <clip pos="3" side="tl" part="temps"/>
+						    <clip pos="3" side="tl" part="persona"/>
+						    <clip pos="3" side="tl" part="gen"/>
+						    <clip pos="3" side="tl" part="nbr"/>
+						    <clip pos="3" side="tl" part="lemq"/>
+					    </lu>
+				    </out>  
+			    </otherwise>
+			    
+		    </choose>     
+		    
+	    </action>
+    </rule>
+
+    
+    <!--REGRA EGV01b3a: V (verbos sen enclíticos)
+	      Preguntó si la neña cantara bien->  Ha preguntado si la niña había cantado bien
+    Preguntaríes si la neña cantara bien -> Preguntarías si la niña había cantado bien
+    
+    
+    -->
+    <rule>
+    <pattern>
+	    <pattern-item n="verb"/>
+	    <pattern-item n="cnj"/>
+	    <pattern-item n="adj_det_num_nom"/>
+	    <pattern-item n="adj_det_num_nom"/>
+	    <pattern-item n="plus"/>
+    </pattern>
+    <action>
+	    <choose>
+		    
+		    <when>
+			    <test>
+				    <equal>
+					    <clip pos="1" side="sl" part="temps"/>
+					    <lit-tag v="ifi"/>
+				    </equal>
+			    </test>
+			    <out>
+				    <lu>
+					    
+					    <get-case-from pos="1">		  
+						    <lit v="haber"/>
+					    </get-case-from> 
+					    <lit-tag v="vbhaver.pri"/>
+					    <clip pos="1" side="sl" part="persona"/>
+					    <clip pos="1" side="sl" part="nbr"/>
+				    </lu>
+				    <b/>
+				    <lu> <get-case-from pos="2">	
+					    <clip pos="1" side="tl" part="lem"/>
+				    </get-case-from> 
+					    <clip pos="1" side="sl" part="a_verb"/>
+					    <lit-tag v="pp"/>
+					    <lit-tag v="m"/>
+					    <lit-tag v="sg"/>
+				    </lu>
+				    <b/>
+				    <lu>
+					    <clip pos="2" side="tl" part="whole"/>
+				    </lu>
+				    <b/>
+				    
+				    <lu>
+				    <clip pos="3" side="tl" part="whole"/>
+			    	    </lu>
+				    <b/>
+				    <lu>
+					    <clip pos="4" side="tl" part="whole"/>
+				    </lu>
+				    <b/>
+				    <lu>
+					    <lit v="haber"/>
+					    <lit-tag v="vbhaver.pii"/>
+					    <clip pos="5" side="sl" part="persona"/>
+					    <clip pos="5" side="sl" part="nbr"/>
+				    </lu>
+				    <b/>
+				    <lu>
+					    <clip pos="5" side="tl" part="lem"/>
+					    <clip pos="5" side="sl" part="a_verb"/>
+					    <lit-tag v="pp"/>
+					    <lit-tag v="m"/>
+					    <lit-tag v="sg"/>
+				    </lu>
+			    </out>
+		    </when>         
+		    <otherwise>
+			    
+			    <out>
+				    <lu>
+					    <clip pos="1" side="tl" part="lemh"/>
+					    <clip pos="1" side="tl" part="a_verb"/>
+					    <clip pos="1" side="tl" part="temps"/>
+					    <clip pos="1" side="tl" part="persona"/>
+					    <clip pos="1" side="tl" part="gen"/>
+					    <clip pos="1" side="tl" part="nbr"/>
+					    <clip pos="1" side="tl" part="lemq"/>
+				    </lu>
+				    <b/>
+				   
+				    <lu>
+					    <clip pos="2" side="tl" part="whole"/>
+				    </lu>
+				    <b/>
+				    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+				    <b/>
+				    
+				    <lu>
+					    <clip pos="4" side="tl" part="whole"/>
+				    </lu>
+				    <b/>
+				    <lu>
+					    <lit v="haber"/>
+					    <lit-tag v="vbhaver.pii"/>
+					    <clip pos="5" side="sl" part="persona"/>
+					    <clip pos="5" side="sl" part="nbr"/>
+				    </lu>
+				    <b/>
+				    <lu>
+					    <clip pos="5" side="tl" part="lem"/>
+					    <clip pos="5" side="sl" part="a_verb"/>
+					    <lit-tag v="pp"/>
+					    <lit-tag v="m"/>
+					    <lit-tag v="sg"/>
+				    </lu>
+			    </out>  
+		    </otherwise>
+		    
+	    </choose>     
+	    
+    </action>
+</rule>
+   
+    
+    <!--REGRA EGV01b3: V (verbos sen enclíticos)
+	      Si la neña cantara bien-> Si la niña cantara @bien
+
+    
+    -->
+    
+    <rule>  
+	    <pattern>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="adj_det_num_nom"/>
+		    <pattern-item n="adj_det_num_nom"/>
+		    <pattern-item n="plus"/>
+	    </pattern>
+	    <action>
+		   
+				    
+				    <out>
+					    <lu>
+						    <clip pos="1" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="2" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+				    </out>  
+	
+	    </action>
+    </rule>
+    
+    
+    
+    <!--REGRA EGV01b3b: V (verbos sen enclíticos)
+	      Preguntó si María cantara bien->    Ha preguntado si María había cantado bien
+    Preguntaríes si María cantara bien ->  Preguntarías si María había cantado bien
+    
+    
+    -->
+    <rule>
+	    <pattern>
+		    <pattern-item n="verb"/>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="categorias2"/>
+		    <pattern-item n="plus"/>
+		    
+	    </pattern>
+	    <action>
+		    <choose>
+			    
+			    <when>
+				    <test>
+					    <equal>
+						    <clip pos="1" side="sl" part="temps"/>
+						    <lit-tag v="ifi"/>
+					    </equal>
+				    </test>
+				    <out>
+					    <lu>
+						    
+						    <get-case-from pos="1">		  
+							    <lit v="haber"/>
+						    </get-case-from> 
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu> <get-case-from pos="2">	
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from> 
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="2" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>         
+			    <otherwise>
+				    
+				    <out>
+					    <lu>
+						    <clip pos="1" side="tl" part="lemh"/>
+						    <clip pos="1" side="tl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="gen"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+						    <clip pos="1" side="tl" part="lemq"/>
+					    </lu>
+					    <b/>
+					    
+					    <lu>
+						    <clip pos="2" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>  
+			    </otherwise>
+			    
+		    </choose>     
+		    
+	    </action>
+    </rule>
+    
+    
+    <!--REGRA EGV01b3: V (verbos sen enclíticos)
+	      si María cantara bien->  si María cantara bien
+    Que María cantara bien, ye posible -> Que María cantara bien, es posible
+    
+    -->
+    
+    <rule>  
+	    <pattern>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="categorias2"/>
+		    <pattern-item n="plus"/>
+	    </pattern>
+	    <action>
+		    
+		    
+		    <out>
+			    <lu>
+				    <clip pos="1" side="tl" part="whole"/>
+			    </lu>
+			    <b/>
+			    <lu>
+				    <clip pos="2" side="tl" part="whole"/>
+			    </lu>
+			    <b/>
+			    <lu>
+				    <clip pos="3" side="tl" part="whole"/>
+			    </lu>
+		    </out>  
+		    
+	    </action>
+    </rule>
+    
+    
+    
+    
     <!--REGRA EGV01b: V (verbos sen enclíticos)
     Antes dixi esto -> Antes dije esto
     Ayeri canté la Traviata -> Ayer canté la Traviata
     Cuando canté, tiráronme agua enriba -> Cuando canté, me han tirado agua 
     ¿cuándo cantó María? ->¿cuándo cantó María?
-    diz que cantara bien -> dice que había cantado bien
-    pregunta si cantara bien -> pregunta si había cantado bien
+    ¿qué cantara ? -> ¿qué había cantado?
     
     -->
     
@@ -3490,10 +3980,561 @@ cantara unes canciones guapes -> había cantado unas canciones bonitas
 	</rule>
 
 	
+	<!--REGRA EGV01b02: (conj,adv,etc) + verbo + enc
+	y comí-yos -> y les comí
+	Ayeri comiólu-> Ayeri le comió
+	Antes comióse -> Antes se comió
+	y comíase -> y se comía
+	Antes cómilo -> Antes cómelo 
+	-->
+	
+	<rule>
+		<pattern>
+			<pattern-item n="categorias"/>
+			<pattern-item n="verb"/>
+			<pattern-item n="prnenc"/>
+		</pattern>
+		<action>
+			<choose>
+				<when>
+					<test>
+						<and>
+							<equal>
+								<clip pos="2" side="sl" part="temps"/>
+								<lit-tag v="pis"/>
+					    		</equal>
+							<equal>
+								<clip pos="3" side="sl" part="a_prnenc"/>
+								<lit-tag v="prn.enc.ref"/>
+							</equal>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out>
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="2">
+								<clip pos="3" side="tl" part="lem"/>
+							</get-case-from>
+							<lit-tag v="prn.pro.ref"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<clip pos="3" side="tl" part="gen"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="2">
+								<lit v="haber"/>
+							</get-case-from>
+							
+							<lit-tag v="vbhaver.pii"/>
+							<clip pos="2" side="sl" part="persona"/>
+							<clip pos="2" side="sl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<lit-tag v="pp"/>
+							<lit-tag v="m"/>
+							<lit-tag v="sg"/>
+					    </lu>
+					  
+					</out>
+				</when>
+				
+				<when>
+					<test>
+						<and>
+							<equal>
+								<clip pos="3" side="sl" part="a_prnenc"/>
+								<lit-tag v="prn.enc.ref"/>
+							</equal>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out>
+						<lu>
+						<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="2">
+								<clip pos="3" side="tl" part="lem"/>
+							</get-case-from>
+							<lit-tag v="prn.pro.ref"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<clip pos="3" side="tl" part="gen"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="3">
+								<clip pos="2" side="tl" part="lem"/>
+							</get-case-from>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="persona"/>
+							<clip pos="2" side="tl" part="nbr"/>
+						</lu>    
+						
+					</out>
+				</when>
+				
+				
+				<when>
+					<test>
+						<and>
+							<equal>
+								<clip pos="2" side="sl" part="temps"/>
+								<lit-tag v="pis"/>
+					    		</equal>
+							<equal>
+								<clip pos="3" side="sl" part="lem"/>
+								<lit v="lu"/>
+							</equal>
+							<equal>
+								<clip pos="3" side="sl" part="gen"/>
+								<lit-tag v="nt"/>
+							</equal>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out> 
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="lo"/>
+							</get-case-from>
+							<lit-tag v="prn.pro"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<lit-tag v="nt"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="haber"/>
+							</get-case-from>
+							<lit-tag v="vbhaver.pii"/>
+							<clip pos="2" side="sl" part="persona"/>
+							<clip pos="2" side="sl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<lit-tag v="pp"/>
+							<lit-tag v="m"/>
+							<lit-tag v="sg"/>
+					    </lu>
+						
+					</out>
+				</when>
+				
+				
+				<when>
+					<test>
+						<and>
+							
+							<equal>
+								<clip pos="3" side="sl" part="lem"/>
+								<lit v="lu"/>
+							</equal>
+							<equal>
+								<clip pos="3" side="sl" part="gen"/>
+								<lit-tag v="nt"/>
+							</equal>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out> 
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="lo"/>
+							</get-case-from>
+							<lit-tag v="prn.pro"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<lit-tag v="nt"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="3">
+								<clip pos="2" side="tl" part="lem"/>
+							</get-case-from>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="persona"/>
+							<clip pos="2" side="tl" part="nbr"/>
+						</lu>    
+						
+					</out>
+				</when>
+				
+				<when>
+					<test>
+						<and>
+							<equal>
+								<clip pos="2" side="sl" part="temps"/>
+								<lit-tag v="pis"/>
+					    		</equal>
+							<equal>
+								<clip pos="3" side="sl" part="lem"/>
+								<lit v="lu"/>
+							</equal>
+							
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out> 
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="le"/>
+							</get-case-from>
+							<lit-tag v="prn.pro"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<lit-tag v="mf"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="haber"/>
+							</get-case-from>
+							<lit-tag v="vbhaver.pii"/>
+							<clip pos="2" side="sl" part="persona"/>
+							<clip pos="2" side="sl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<lit-tag v="pp"/>
+							<lit-tag v="m"/>
+							<lit-tag v="sg"/>
+					    </lu>
+						
+					</out>
+				</when>
+				
+				
+				
+			
+				<when>
+					<test>
+						<and>
+							
+							<equal>
+								<clip pos="3" side="sl" part="lem"/>
+								<lit v="lu"/>
+							</equal>
+							
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out> 
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="le"/>
+							</get-case-from>
+							<lit-tag v="prn.pro"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<lit-tag v="mf"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="3">
+								<clip pos="2" side="tl" part="lem"/>
+							</get-case-from>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="persona"/>
+							<clip pos="2" side="tl" part="nbr"/>
+						</lu>    
+						
+					</out>
+				</when>
+				
+				
+				<when>
+					<test>
+						<and>
+							<equal>
+								<clip pos="2" side="sl" part="temps"/>
+								<lit-tag v="pis"/>
+					    		</equal>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out> 
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="2">
+								<clip pos="3" side="tl" part="lem"/>
+							</get-case-from>
+							<lit-tag v="prn.pro"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<clip pos="3" side="tl" part="gen"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="haber"/>
+							</get-case-from>
+							<lit-tag v="vbhaver.pii"/>
+							<clip pos="2" side="sl" part="persona"/>
+							<clip pos="2" side="sl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<lit-tag v="pp"/>
+							<lit-tag v="m"/>
+							<lit-tag v="sg"/>
+						</lu>
+						
+						
+					</out>
+				</when>
+				
+				
+				<when>
+					<test>
+						<and>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="2" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out> 
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="2">
+								<clip pos="3" side="tl" part="lem"/>
+							</get-case-from>
+							<lit-tag v="prn.pro"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<clip pos="3" side="tl" part="gen"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="3">
+								<clip pos="2" side="tl" part="lem"/>
+							</get-case-from>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="persona"/>
+							<clip pos="2" side="tl" part="nbr"/>
+						</lu>    
+						
+					</out>
+				</when>
+				
+				
+				<when>
+					<test>
+						
+							<equal>
+								<clip pos="2" side="sl" part="temps"/>
+								<lit-tag v="pis"/>
+							</equal>
+							
+					</test>
+					<out> 
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<mlu>
+						<lu>
+							
+							<get-case-from pos="2">
+								<lit v="haber"/>
+							</get-case-from>
+							<lit-tag v="vbhaver.pii"/>
+							<clip pos="2" side="sl" part="persona"/>
+							<clip pos="2" side="sl" part="nbr"/>
+						</lu>
+						<lu>
+							<get-case-from pos="2">
+								<clip pos="3" side="tl" part="lem"/>
+							</get-case-from>
+							<lit-tag v="prn.enc"/>
+							<clip pos="3" side="tl" part="persona"/>
+							<clip pos="3" side="tl" part="gen"/>
+							<clip pos="3" side="tl" part="nbr"/>
+						</lu>
+						</mlu>
+						<b/>
+						<lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="sl" part="a_verb"/>
+							<lit-tag v="pp"/>
+							<lit-tag v="m"/>
+							<lit-tag v="sg"/>
+						</lu>
+						
+						
+					</out>
+				</when>
+				<otherwise>
+					
+					<out>
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<mlu>
+							
+							<lu>
+								<clip pos="2" side="tl" part="lemh"/>
+								<clip pos="2" side="sl" part="a_verb"/>
+								<clip pos="2" side="tl" part="temps"/>
+								<clip pos="2" side="tl" part="persona"/>
+								<clip pos="2" side="tl" part="nbr"/>
+							</lu>
+							<lu>
+								<clip pos="3" side="tl" part="lem"/>
+								<clip pos="3" side="tl" part="a_prnenc"/>
+								<clip pos="3" side="tl" part="persona"/>
+								<clip pos="3" side="tl" part="gen"/>
+								<clip pos="3" side="tl" part="nbr"/>
+								<clip pos="2" side="tl" part="lemq"/>
+							</lu>
+						</mlu>
+					</out>  
+				</otherwise>
+			</choose>     
+		</action>
+	</rule>
+
+	
 	<!--REGRA EGV01b2: V (verbos sen enclíticos)
-	Cuando yo canté-> Cuando yo canté
-	Cuando María cantó -> Cuando María cantó
-	diz que María cantara bien -> dice que María había cantado bien
+	Ayeri yo canté-> Ayer yo canté
+	y María cantó -> y María cantó 
+	Mañana el cantará -> Mañana el cantará 
 	
 	-->
 	
@@ -3569,19 +4610,1920 @@ cantara unes canciones guapes -> había cantado unas canciones bonitas
 	</rule>
 	
 
+	
+	<!--REGRA EGV01b02: (conj,adv,etc) + verbo + enc
+	y yo comí-yos -> y yo les comí 
+	Ayeri María comiólu-> Ayeri María le comió
+	Antes Juan mordióse -> Antes Juan se mordió
+	Antes tu cómilo -> Antes tu cómelo
+	-->
+	
+	<rule>
+		<pattern>
+			<pattern-item n="categorias"/>
+			<pattern-item n="categorias2"/>
+			<pattern-item n="verb"/>
+			<pattern-item n="prnenc"/>
+		</pattern>
+		<action>
+			<choose>
+				<when>
+					<test>
+						<and>
+							<equal>
+								<clip pos="3" side="sl" part="temps"/>
+								<lit-tag v="pis"/>
+							</equal>
+							<equal>
+								<clip pos="4" side="sl" part="a_prnenc"/>
+								<lit-tag v="prn.enc.ref"/>
+							</equal>
+							<not><equal>
+									<clip pos="3" side="sl" part="temps"/>
+									<lit-tag v="inf"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="3" side="sl" part="temps"/>
+									<lit-tag v="ger"/>
+								</equal></not>
+							<not><equal>
+									<clip pos="3" side="sl" part="temps"/>
+									<lit-tag v="imp"/>
+								</equal></not>
+						</and>
+					</test>
+					<out>
+						<lu>
+							<clip pos="1" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="2" side="sl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="3">
+								<clip pos="4" side="tl" part="lem"/>
+							</get-case-from>
+							<lit-tag v="prn.pro.ref"/>
+							<clip pos="4" side="tl" part="persona"/>
+							<clip pos="4" side="tl" part="gen"/>
+							<clip pos="4" side="tl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<get-case-from pos="3">
+								<lit v="haber"/>
+							</get-case-from>
+							
+							<lit-tag v="vbhaver.pii"/>
+							<clip pos="3" side="sl" part="persona"/>
+							<clip pos="3" side="sl" part="nbr"/>
+						</lu>
+						<b/>
+						<lu>
+							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="sl" part="a_verb"/>
+							<lit-tag v="pp"/>
+							<lit-tag v="m"/>
+							<lit-tag v="sg"/>
+						</lu>
+					
+						    
+					    </out>
+				    </when>
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="4" side="sl" part="a_prnenc"/>
+								    <lit-tag v="prn.enc.ref"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						<b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="3">
+								    <clip pos="4" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro.ref"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <clip pos="4" side="tl" part="gen"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="3" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <clip pos="3" side="tl" part="temps"/>
+							    <clip pos="3" side="tl" part="persona"/>
+							    <clip pos="3" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="3" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="4" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    <equal>
+								    <clip pos="4" side="sl" part="gen"/>
+								    <lit-tag v="nt"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						<b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="3">
+								    <lit v="lo"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <lit-tag v="nt"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="3">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="3" side="sl" part="persona"/>
+							    <clip pos="3" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="tl" part="lem"/>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    
+							    <equal>
+								    <clip pos="4" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    <equal>
+								    <clip pos="4" side="sl" part="gen"/>
+								    <lit-tag v="nt"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="3">
+								    <lit v="lo"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <lit-tag v="nt"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="3" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <clip pos="3" side="tl" part="temps"/>
+							    <clip pos="3" side="tl" part="persona"/>
+							    <clip pos="3" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="3" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="4" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						   <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="3">
+								    <lit v="le"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <lit-tag v="mf"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="3">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="3" side="sl" part="persona"/>
+							    <clip pos="3" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="tl" part="lem"/>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    
+							    <equal>
+								    <clip pos="4" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						   <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="3">
+								    <lit v="le"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <lit-tag v="mf"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="3" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <clip pos="3" side="tl" part="temps"/>
+							    <clip pos="3" side="tl" part="persona"/>
+							    <clip pos="3" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="3" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						   <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="3">
+								    <clip pos="4" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <clip pos="4" side="tl" part="gen"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="3">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="3" side="sl" part="persona"/>
+							    <clip pos="3" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="tl" part="lem"/>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="3" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						   <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="3">
+								    <clip pos="4" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <clip pos="4" side="tl" part="gen"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="3" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <clip pos="3" side="tl" part="temps"/>
+							    <clip pos="3" side="tl" part="persona"/>
+							    <clip pos="3" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    
+						    <equal>
+							    <clip pos="3" side="sl" part="temps"/>
+							    <lit-tag v="pis"/>
+						    </equal>
+						    
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						   <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <mlu>
+							    <lu>
+								    
+								    <get-case-from pos="3">
+									    <lit v="haber"/>
+								    </get-case-from>
+								    <lit-tag v="vbhaver.pii"/>
+								    <clip pos="3" side="sl" part="persona"/>
+								    <clip pos="3" side="sl" part="nbr"/>
+							    </lu>
+							    <lu>
+								    <get-case-from pos="3">
+									    <clip pos="4" side="tl" part="lem"/>
+								    </get-case-from>
+								    <lit-tag v="prn.enc"/>
+								    <clip pos="4" side="tl" part="persona"/>
+								    <clip pos="4" side="tl" part="gen"/>
+								    <clip pos="4" side="tl" part="nbr"/>
+							    </lu>
+						    </mlu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="tl" part="lem"/>
+							    <clip pos="3" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    <otherwise>
+					    
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <mlu>
+							    
+							    <lu>
+								    <clip pos="3" side="tl" part="lemh"/>
+								    <clip pos="3" side="sl" part="a_verb"/>
+								    <clip pos="3" side="tl" part="temps"/>
+								    <clip pos="3" side="tl" part="persona"/>
+								    <clip pos="3" side="tl" part="nbr"/>
+							    </lu>
+							    <lu>
+								    <clip pos="4" side="tl" part="lem"/>
+								    <clip pos="4" side="tl" part="a_prnenc"/>
+								    <clip pos="4" side="tl" part="persona"/>
+								    <clip pos="4" side="tl" part="gen"/>
+								    <clip pos="4" side="tl" part="nbr"/>
+								    <clip pos="3" side="tl" part="lemq"/>
+							    </lu>
+						    </mlu>
+					    </out>  
+				    </otherwise>
+			    </choose>     
+		    </action>
+	    </rule>
+	    
+	
 
+	    
+	    
+	    <!--REGRA EGV01b04: 
+	    y el neñu comío-yos -> y el neñu les comió
+	    Ayeri María comiólu-> Ayeri María le comió
+	    Antes el perru mordióse -> Antes el perru se mordió
+	    Antes un neñu comíalo -> Antes un neñu lo comía
+	    -->
+	    
+	    <rule>
+		    <pattern>
+			    <pattern-item n="categorias"/>
+			    <pattern-item n="adj_det_num_nom"/>
+			    <pattern-item n="adj_det_num_nom"/>
+			    <pattern-item n="verb"/>
+			    <pattern-item n="prnenc"/>
+		    </pattern>
+		    <action>
+			    <choose>
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="4" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="5" side="sl" part="a_prnenc"/>
+								    <lit-tag v="prn.enc.ref"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro.ref"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="gen"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="4" side="sl" part="persona"/>
+							    <clip pos="4" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="tl" part="lem"/>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="5" side="sl" part="a_prnenc"/>
+								    <lit-tag v="prn.enc.ref"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro.ref"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="gen"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="4" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <clip pos="4" side="tl" part="temps"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="4" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="5" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    <equal>
+								    <clip pos="5" side="sl" part="gen"/>
+								    <lit-tag v="nt"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="4">
+								    <lit v="lo"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <lit-tag v="nt"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="4">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="4" side="sl" part="persona"/>
+							    <clip pos="4" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="tl" part="lem"/>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    
+							    <equal>
+								    <clip pos="5" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    <equal>
+								    <clip pos="5" side="sl" part="gen"/>
+								    <lit-tag v="nt"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="4">
+								    <lit v="lo"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <lit-tag v="nt"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="4" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <clip pos="4" side="tl" part="temps"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="4" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="5" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="4">
+								    <lit v="le"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <lit-tag v="mf"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="4">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="4" side="sl" part="persona"/>
+							    <clip pos="4" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="tl" part="lem"/>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    
+							    <equal>
+								    <clip pos="5" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="4">
+								    <lit v="le"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <lit-tag v="mf"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="4" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <clip pos="4" side="tl" part="temps"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="4" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="gen"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="4">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="4" side="sl" part="persona"/>
+							    <clip pos="4" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="tl" part="lem"/>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="4" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="4">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="gen"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="4" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <clip pos="4" side="tl" part="temps"/>
+							    <clip pos="4" side="tl" part="persona"/>
+							    <clip pos="4" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    
+						    <equal>
+							    <clip pos="4" side="sl" part="temps"/>
+							    <lit-tag v="pis"/>
+						    </equal>
+						    
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <mlu>
+							    <lu>
+								    
+								    <get-case-from pos="4">
+									    <lit v="haber"/>
+								    </get-case-from>
+								    <lit-tag v="vbhaver.pii"/>
+								    <clip pos="4" side="sl" part="persona"/>
+								    <clip pos="4" side="sl" part="nbr"/>
+							    </lu>
+							    <lu>
+								    <get-case-from pos="4">
+									    <clip pos="5" side="tl" part="lem"/>
+								    </get-case-from>
+								    <lit-tag v="prn.enc"/>
+								    <clip pos="5" side="tl" part="persona"/>
+								    <clip pos="5" side="tl" part="gen"/>
+								    <clip pos="5" side="tl" part="nbr"/>
+							    </lu>
+						    </mlu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="tl" part="lem"/>
+							    <clip pos="4" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    <otherwise>
+					    
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <mlu>
+							    
+							    <lu>
+								    <clip pos="4" side="tl" part="lemh"/>
+								    <clip pos="4" side="sl" part="a_verb"/>
+								    <clip pos="4" side="tl" part="temps"/>
+								    <clip pos="4" side="tl" part="persona"/>
+								    <clip pos="4" side="tl" part="nbr"/>
+							    </lu>
+							    <lu>
+								    <clip pos="5" side="tl" part="lem"/>
+								    <clip pos="5" side="tl" part="a_prnenc"/>
+								    <clip pos="5" side="tl" part="persona"/>
+								    <clip pos="5" side="tl" part="gen"/>
+								    <clip pos="5" side="tl" part="nbr"/>
+								    <clip pos="4" side="tl" part="lemq"/>
+							    </lu>
+						    </mlu>
+					    </out>  
+				    </otherwise>
+			    </choose>     
+		    </action>
+	    </rule>
+	
+	    
+	    
+	    <!--REGRA EGV01b05: 
+	    Ayeri el neñu tontu comió-yos -> Ayer el neñu tontu les comió
+	    Antes el perru grande mordióse -> Antes el perru grande se mordió
+	    Antes un neñu grande comíalo -> Antes un neñu grande lo comía
+	    -->
+	    
+	    <rule>
+		    <pattern>
+			    <pattern-item n="categorias"/>
+			    <pattern-item n="adj_det_num_nom"/>
+			    <pattern-item n="adj_det_num_nom"/>
+			    <pattern-item n="adj_det_num_nom"/>
+			    <pattern-item n="verb"/>
+			    <pattern-item n="prnenc"/>
+		    </pattern>
+		    <action>
+			    <choose>
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="5" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="6" side="sl" part="a_prnenc"/>
+								    <lit-tag v="prn.enc.ref"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="6" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro.ref"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <clip pos="6" side="tl" part="gen"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="5" side="sl" part="persona"/>
+							    <clip pos="5" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="5" side="tl" part="lem"/>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="6" side="sl" part="a_prnenc"/>
+								    <lit-tag v="prn.enc.ref"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="6" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro.ref"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <clip pos="6" side="tl" part="gen"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="6">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <clip pos="5" side="tl" part="temps"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="5" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="6" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    <equal>
+								    <clip pos="6" side="sl" part="gen"/>
+								    <lit-tag v="nt"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="5">
+								    <lit v="lo"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <lit-tag v="nt"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="5">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="5" side="sl" part="persona"/>
+							    <clip pos="5" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="5" side="tl" part="lem"/>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    
+							    <equal>
+								    <clip pos="6" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    <equal>
+								    <clip pos="6" side="sl" part="gen"/>
+								    <lit-tag v="nt"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						   
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="5">
+								    <lit v="lo"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <lit-tag v="nt"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="6">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <clip pos="5" side="tl" part="temps"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="5" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <equal>
+								    <clip pos="6" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="5">
+								    <lit v="le"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <lit-tag v="mf"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="5">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="5" side="sl" part="persona"/>
+							    <clip pos="5" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="5" side="tl" part="lem"/>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    
+							    <equal>
+								    <clip pos="6" side="sl" part="lem"/>
+								    <lit v="lu"/>
+							    </equal>
+							    
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="5">
+								    <lit v="le"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <lit-tag v="mf"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="6">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <clip pos="5" side="tl" part="temps"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <equal>
+								    <clip pos="5" side="sl" part="temps"/>
+								    <lit-tag v="pis"/>
+							    </equal>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="6" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <clip pos="6" side="tl" part="gen"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    
+							    <get-case-from pos="5">
+								    <lit v="haber"/>
+							    </get-case-from>
+							    <lit-tag v="vbhaver.pii"/>
+							    <clip pos="5" side="sl" part="persona"/>
+							    <clip pos="5" side="sl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="5" side="tl" part="lem"/>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    <and>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="inf"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="ger"/>
+								    </equal></not>
+							    <not><equal>
+									    <clip pos="5" side="sl" part="temps"/>
+									    <lit-tag v="imp"/>
+								    </equal></not>
+						    </and>
+					    </test>
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="5">
+								    <clip pos="6" side="tl" part="lem"/>
+							    </get-case-from>
+							    <lit-tag v="prn.pro"/>
+							    <clip pos="6" side="tl" part="persona"/>
+							    <clip pos="6" side="tl" part="gen"/>
+							    <clip pos="6" side="tl" part="nbr"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <get-case-from pos="6">
+								    <clip pos="5" side="tl" part="lem"/>
+							    </get-case-from>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <clip pos="5" side="tl" part="temps"/>
+							    <clip pos="5" side="tl" part="persona"/>
+							    <clip pos="5" side="tl" part="nbr"/>
+						    </lu>    
+						    
+					    </out>
+				    </when>
+				    
+				    
+				    <when>
+					    <test>
+						    
+						    <equal>
+							    <clip pos="5" side="sl" part="temps"/>
+							    <lit-tag v="pis"/>
+						    </equal>
+						    
+					    </test>
+					    <out> 
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <mlu>
+							    <lu>
+								    
+								    <get-case-from pos="5">
+									    <lit v="haber"/>
+								    </get-case-from>
+								    <lit-tag v="vbhaver.pii"/>
+								    <clip pos="5" side="sl" part="persona"/>
+								    <clip pos="5" side="sl" part="nbr"/>
+							    </lu>
+							    <lu>
+								    <get-case-from pos="5">
+									    <clip pos="6" side="tl" part="lem"/>
+								    </get-case-from>
+								    <lit-tag v="prn.enc"/>
+								    <clip pos="6" side="tl" part="persona"/>
+								    <clip pos="6" side="tl" part="gen"/>
+								    <clip pos="6" side="tl" part="nbr"/>
+							    </lu>
+						    </mlu>
+						    <b/>
+						    <lu>
+							    <clip pos="5" side="tl" part="lem"/>
+							    <clip pos="5" side="sl" part="a_verb"/>
+							    <lit-tag v="pp"/>
+							    <lit-tag v="m"/>
+							    <lit-tag v="sg"/>
+						    </lu>
+						    
+						    
+					    </out>
+				    </when>
+				    <otherwise>
+					    
+					    <out>
+						    <lu>
+							    <clip pos="1" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="2" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="3" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <lu>
+							    <clip pos="4" side="sl" part="whole"/>
+						    </lu>
+						    <b/>
+						    <mlu>
+							    
+							    <lu>
+								    <clip pos="5" side="tl" part="lemh"/>
+								    <clip pos="5" side="sl" part="a_verb"/>
+								    <clip pos="5" side="tl" part="temps"/>
+								    <clip pos="5" side="tl" part="persona"/>
+								    <clip pos="5" side="tl" part="nbr"/>
+							    </lu>
+							    <lu>
+								    <clip pos="6" side="tl" part="lem"/>
+								    <clip pos="6" side="tl" part="a_prnenc"/>
+								    <clip pos="6" side="tl" part="persona"/>
+								    <clip pos="6" side="tl" part="gen"/>
+								    <clip pos="6" side="tl" part="nbr"/>
+								    <clip pos="5" side="tl" part="lemq"/>
+							    </lu>
+						    </mlu>
+					    </out>  
+				    </otherwise>
+			    </choose>     
+		    </action>
+	    </rule>
 	
 	<!--REGRA EGV01c: V (verbos sen enclíticos)
 	Cuando la mio prima cantó-> Cuando mi prima cantó
 	Cuando’l sacerdote cantó -> Cuando el sacerdote cantó
-	Pregunta si la neña cantara bien -> Pregunta si la niña había cantado bien
+	
 	-->
 	
 	<rule>  
 		<pattern>
 			<pattern-item n="categorias"/>
-			<pattern-item n="det"/>
-			<pattern-item n="nom"/>
+			<pattern-item n="adj_det_num_nom"/>
+			<pattern-item n="adj_det_num_nom"/>
 			<pattern-item n="verb"/>
 		</pattern>
 		<action>
@@ -3666,9 +6608,9 @@ cantara unes canciones guapes -> había cantado unas canciones bonitas
 	<rule>  
 		<pattern>
 			<pattern-item n="categorias"/>
-			<pattern-item n="det"/>
-			<pattern-item n="nom"/>
-			<pattern-item n="adjec"/>
+			<pattern-item n="adj_det_num_nom"/>
+			<pattern-item n="adj_det_num_nom"/>
+			<pattern-item n="adj_det_num_nom"/>
 			<pattern-item n="verb"/>
 		</pattern>
 		<action>
@@ -3766,6 +6708,7 @@ comióse -> se ha comido
 cómilo -> cómelo
 comelo -> comerlo
 comentándo-yos -> comentándoles
+
 -->
 
   <rule>
@@ -4218,8 +7161,2003 @@ comentándo-yos -> comentándoles
         </choose>     
       </action>
     </rule>
-
+    
  
+ 
+    
+    
+    <!--REGRA EGV02a: V+ENC 
+    preguntó-y si cantara bien ->  le ha preguntado si había cantado bien 
+    preguntaríes-yos que vieran ellí -> les preguntarías que habían visto allí
+    
+    -->
+    
+    <rule>
+	    <pattern>
+		    <pattern-item n="verb"/>
+		    <pattern-item n="prnenc"/>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="plus"/>
+	    </pattern>
+	    <action>
+		    <choose>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="2" side="sl" part="a_prnenc"/>
+							    <lit-tag v="prn.enc.ref"/>
+						    </equal>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out>
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro.ref"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="2" side="sl" part="a_prnenc"/>
+							    <lit-tag v="prn.enc.ref"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out>
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro.ref"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>   
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="gen"/>
+							    <lit-tag v="nt"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="lo"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="nt"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="gen"/>
+							    <lit-tag v="nt"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="lo"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="nt"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>  
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="le"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="mf"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="le"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="mf"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>    
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>   
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="4" side="sl" part="persona"/>
+						    <clip pos="4" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lem"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    <otherwise>
+				    
+				    <out>
+					    <mlu>
+						    <lu>
+							    <clip pos="1" side="tl" part="lemh"/>
+							    <clip pos="1" side="sl" part="a_verb"/>
+							    <clip pos="1" side="tl" part="temps"/>
+							    <clip pos="1" side="tl" part="persona"/>
+							    <clip pos="1" side="tl" part="nbr"/>
+						    </lu>
+						    <lu>
+							    <clip pos="2" side="tl" part="lem"/>
+							    <clip pos="2" side="tl" part="a_prnenc"/>
+							    <clip pos="2" side="tl" part="persona"/>
+							    <clip pos="2" side="tl" part="gen"/>
+							    <clip pos="2" side="tl" part="nbr"/>
+							    <clip pos="1" side="tl" part="lemq"/>
+						    </lu>
+					    </mlu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="lemh"/>
+						    <clip pos="4" side="tl" part="a_verb"/>
+						    <clip pos="4" side="tl" part="temps"/>
+						    <clip pos="4" side="tl" part="persona"/>
+						    <clip pos="4" side="tl" part="gen"/>
+						    <clip pos="4" side="tl" part="nbr"/>
+						    <clip pos="4" side="tl" part="lemq"/>
+					    </lu>
+				    </out>  
+			    </otherwise>
+		    </choose>     
+	    </action>
+    </rule>
+   
+    
+    <!--REGRA EGV02a2: V+ENC 
+    preguntó-y si la neña cantara bien ->   le ha preguntado si la niña había cantado bien
+    preguntaríes-yos si la neña cantara bien -> les preguntarías si la niña había cantado bien
+    preguntaríase si la neña comiera bien ->   se preguntaría si la niña había comido bien 
+    -->
+    
+    <rule>
+	    <pattern>
+		    <pattern-item n="verb"/>
+		    <pattern-item n="prnenc"/>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="adj_det_num_nom"/>
+		    <pattern-item n="adj_det_num_nom"/>
+		    <pattern-item n="plus"/>
+	    </pattern>
+	    <action>
+		    <choose>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="2" side="sl" part="a_prnenc"/>
+							    <lit-tag v="prn.enc.ref"/>
+						    </equal>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out>
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro.ref"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="2" side="sl" part="a_prnenc"/>
+							    <lit-tag v="prn.enc.ref"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out>
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro.ref"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>   
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="gen"/>
+							    <lit-tag v="nt"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="lo"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="nt"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="gen"/>
+							    <lit-tag v="nt"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="lo"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="nt"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>  
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="le"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="mf"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="le"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="mf"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>    
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>   
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="6" side="sl" part="persona"/>
+						    <clip pos="6" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lem"/>
+						    <clip pos="6" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    <otherwise>
+				    
+				    <out>
+					    <mlu>
+						    <lu>
+							    <clip pos="1" side="tl" part="lemh"/>
+							    <clip pos="1" side="sl" part="a_verb"/>
+							    <clip pos="1" side="tl" part="temps"/>
+							    <clip pos="1" side="tl" part="persona"/>
+							    <clip pos="1" side="tl" part="nbr"/>
+						    </lu>
+						    <lu>
+							    <clip pos="2" side="tl" part="lem"/>
+							    <clip pos="2" side="tl" part="a_prnenc"/>
+							    <clip pos="2" side="tl" part="persona"/>
+							    <clip pos="2" side="tl" part="gen"/>
+							    <clip pos="2" side="tl" part="nbr"/>
+							    <clip pos="1" side="tl" part="lemq"/>
+						    </lu>
+					    </mlu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="6" side="tl" part="lemh"/>
+						    <clip pos="6" side="tl" part="a_verb"/>
+						    <clip pos="6" side="tl" part="temps"/>
+						    <clip pos="6" side="tl" part="persona"/>
+						    <clip pos="6" side="tl" part="gen"/>
+						    <clip pos="6" side="tl" part="nbr"/>
+						    <clip pos="6" side="tl" part="lemq"/>
+					    </lu>
+				    </out>  
+			    </otherwise>
+		    </choose>     
+	    </action>
+    </rule>
+    
+ 
+    
+    <!--REGRA EGV02a3: V+ENC 
+	      preguntó-y si María cantara bien ->      le ha preguntado si María había cantado bien
+    preguntaríes-yos si María cantara bien ->     les preguntarías si María había cantado bien 
+    preguntaríase si María comiera bien ->       se preguntaría si María había comido bien
+    -->
+    
+    <rule>
+	    <pattern>
+		    <pattern-item n="verb"/>
+		    <pattern-item n="prnenc"/>
+		    <pattern-item n="cnj"/>
+		    <pattern-item n="categorias2"/>
+		    <pattern-item n="plus"/>
+	    </pattern>
+	    <action>
+		    <choose>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="2" side="sl" part="a_prnenc"/>
+							    <lit-tag v="prn.enc.ref"/>
+						    </equal>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out>
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro.ref"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="2" side="sl" part="a_prnenc"/>
+							    <lit-tag v="prn.enc.ref"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out>
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro.ref"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>   
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="gen"/>
+							    <lit-tag v="nt"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="lo"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="nt"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="gen"/>
+							    <lit-tag v="nt"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="lo"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="nt"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>  
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="le"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="mf"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    
+						    <equal>
+							    <clip pos="2" side="sl" part="lem"/>
+							    <lit v="lu"/>
+						    </equal>
+						    
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    
+						    <get-case-from pos="1">
+							    <lit v="le"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <lit-tag v="mf"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>    
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    
+				    </out>
+			    </when>
+			    
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <equal>
+							    <clip pos="1" side="sl" part="temps"/>
+							    <lit-tag v="ifi"/>
+						    </equal>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <lit v="haber"/>
+						    </get-case-from>
+						    <lit-tag v="vbhaver.pri"/>
+						    <clip pos="1" side="sl" part="persona"/>
+						    <clip pos="1" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="1" side="tl" part="lem"/>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    <when>
+				    <test>
+					    <and>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="inf"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="ger"/>
+							    </equal></not>
+						    <not><equal>
+								    <clip pos="1" side="sl" part="temps"/>
+								    <lit-tag v="imp"/>
+							    </equal></not>
+					    </and>
+				    </test>
+				    <out> 
+					    <lu>
+						    <get-case-from pos="1">
+							    <clip pos="2" side="tl" part="lem"/>
+						    </get-case-from>
+						    <lit-tag v="prn.pro"/>
+						    <clip pos="2" side="tl" part="persona"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						    <clip pos="2" side="tl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <get-case-from pos="2">
+							    <clip pos="1" side="tl" part="lem"/>
+						    </get-case-from>
+						    <clip pos="1" side="sl" part="a_verb"/>
+						    <clip pos="1" side="tl" part="temps"/>
+						    <clip pos="1" side="tl" part="persona"/>
+						    <clip pos="1" side="tl" part="nbr"/>
+					    </lu>   
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					  
+					    <lu>
+						    <lit v="haber"/>
+						    <lit-tag v="vbhaver.pii"/>
+						    <clip pos="5" side="sl" part="persona"/>
+						    <clip pos="5" side="sl" part="nbr"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="5" side="tl" part="lem"/>
+						    <clip pos="5" side="sl" part="a_verb"/>
+						    <lit-tag v="pp"/>
+						    <lit-tag v="m"/>
+						    <lit-tag v="sg"/>
+					    </lu>
+				    </out>
+			    </when>
+			    
+			    <otherwise>
+				    
+				    <out>
+					    <mlu>
+						    <lu>
+							    <clip pos="1" side="tl" part="lemh"/>
+							    <clip pos="1" side="sl" part="a_verb"/>
+							    <clip pos="1" side="tl" part="temps"/>
+							    <clip pos="1" side="tl" part="persona"/>
+							    <clip pos="1" side="tl" part="nbr"/>
+						    </lu>
+						    <lu>
+							    <clip pos="2" side="tl" part="lem"/>
+							    <clip pos="2" side="tl" part="a_prnenc"/>
+							    <clip pos="2" side="tl" part="persona"/>
+							    <clip pos="2" side="tl" part="gen"/>
+							    <clip pos="2" side="tl" part="nbr"/>
+							    <clip pos="1" side="tl" part="lemq"/>
+						    </lu>
+					    </mlu>
+					    <b/>
+					    <lu>
+						    <clip pos="3" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					    <lu>
+						    <clip pos="4" side="tl" part="whole"/>
+					    </lu>
+					    <b/>
+					  
+					    <lu>
+						    <clip pos="5" side="tl" part="lemh"/>
+						    <clip pos="5" side="tl" part="a_verb"/>
+						    <clip pos="5" side="tl" part="temps"/>
+						    <clip pos="5" side="tl" part="persona"/>
+						    <clip pos="5" side="tl" part="gen"/>
+						    <clip pos="5" side="tl" part="nbr"/>
+						    <clip pos="5" side="tl" part="lemq"/>
+					    </lu>
+				    </out>  
+			    </otherwise>
+		    </choose>     
+	    </action>
+    </rule>
+    
 <!--REGRA EGV02b: proclise + ENC + Verbo  
 Nun lu llamé -> No le llamé
 Que-yos debía -> Que les debía
