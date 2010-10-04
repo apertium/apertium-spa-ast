@@ -85,6 +85,10 @@
       <cat-item lemma="en" tags="pr"/>
 	</def-cat>
 
+	<def-cat n="a">
+		<cat-item lemma="a" tags="pr"/>
+	</def-cat>
+	
      <def-cat n="de">
       <cat-item lemma="de" tags="pr"/>
 	</def-cat>
@@ -163,10 +167,26 @@
     </def-cat>		
     <!-- adjetivo neutro -->
 	
+    <def-cat n="cualesquier">
+	    <cat-item lemma="cualquiera" tags="prn.*"/>
+	    <cat-item lemma="cualesquier" tags="prn.*"/>
+	    <cat-item lemma="cualesquier" tags="det.*"/>
+	    <cat-item lemma="cualquier" tags="det.*"/>
+    </def-cat>
+    
+    
     <def-cat n="tener">
 	    <cat-item lemma="tener" tags="vblex.*"/>
     </def-cat>
     <!--verbo deber -->
+    
+    <def-cat n="venir">
+	    <cat-item lemma="venir" tags="vblex.*"/>
+    </def-cat>
+	
+    <def-cat n="entamar">
+	    <cat-item lemma="entamar" tags="vblex.*"/>
+    </def-cat>
     
     <def-cat n="dir">
 	    <cat-item lemma="dir" tags="vblex.pri.*"/>
@@ -178,7 +198,12 @@
 	  <cat-item tags="num.*"/>
      <cat-item tags="n.*"/>
     </def-cat>	
+     
 
+     <def-cat n="nommas">
+	<cat-item tags="n.m.sg"/>
+    </def-cat>
+    
     <def-cat n="nomp">
       <cat-item tags="np.ant"/>
     </def-cat>
@@ -267,6 +292,12 @@
       <cat-item lemma="volver" tags="vblex.*"/>
       <cat-item lemma="acostumar" tags="vblex.*"/>
     </def-cat>
+    
+    <def-cat n="verb_temp">
+	    <cat-item lemma="dir" tags="vblex.pri.p3.sg"/>
+	    <cat-item lemma="hai" tags="vblex.pri.p3.sg"/>
+	    <cat-item lemma="haber" tags="vbhaver.pri.p3.sg"/>
+    </def-cat>
     <def-cat n="verbter">
       <cat-item lemma="tar" tags="vblex.*"/>
     </def-cat>
@@ -306,6 +337,8 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
     </def-attr>
+    
+   
     <def-attr n="a_nomp">
       <attr-item tags="np.ant"/>
     </def-attr>
@@ -2576,7 +2609,78 @@ is not applicable because gender and number cannot be taken from previous rules 
         </out>
       </action>
     </rule>
+    
+    
+    <!-- 
+	 regla EGV19 cualesquier + nombre masculino -> cualequier + nombre
+    
+    pa cualesquier sistema -> para cualquier sistema .
+    
+    -->  
     <rule>
+	    <pattern>
+		    <pattern-item n="cualesquier"/>
+		    <pattern-item n="nommas"/>
+		    
+	    </pattern>
+	    <action>
+		    
+		    <out>
+			    <lu>
+				    <get-case-from pos="1">
+					    <lit v="cualquier"/>
+				    </get-case-from>
+				    <lit-tag v="det.ind.mf.sg"/>
+				    
+			    </lu>
+			    <b/>
+			    <lu>
+				    <clip pos="2" side="tl" part="whole"/> 
+				    
+			    </lu>
+			    
+		    </out>
+	    </action>
+    </rule>
+    
+    
+    <!-- 
+	 regla EGV20 cualesquier + nombre masculino + adj -> cualequier + nombre + adj
+    pa cualesquier sistema operativu -> para cualquier sistema operativo
+    
+    -->  
+    <rule>
+	    <pattern>
+		    <pattern-item n="cualesquier"/>
+		    <pattern-item n="nommas"/>
+		    <pattern-item n="adj"/>
+		    
+	    </pattern>
+	    <action>
+		    
+		    <out>
+			    <lu>
+				    <get-case-from pos="1">
+					    <lit v="cualquier"/>
+				    </get-case-from>
+				    <lit-tag v="det.ind.mf.sg"/>
+				    
+			    </lu>
+			    <b/>
+			    <lu>
+				    <clip pos="2" side="tl" part="whole"/> 
+				    
+			    </lu>
+			    <b/>
+			    
+			    <lu>
+				    <clip pos="3" side="tl" part="whole"/> 
+			    </lu>
+		    </out>
+	    </action>
+    </rule>
+    <rule>
+	   
 <!-- REGLA 5: DETERMINANT NOM -->
       <pattern>
         <pattern-item n="det"/>
@@ -2591,7 +2695,7 @@ is not applicable because gender and number cannot be taken from previous rules 
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
           </lu>
 	  <b pos="1"/>
@@ -2873,7 +2977,7 @@ is not applicable because gender and number cannot be taken from previous rules 
       </action>
     </rule>
 	
-	
+   
 
     <rule>
 <!-- REGLA 9: DET NOM ADJECTIU-->
@@ -2883,34 +2987,77 @@ is not applicable because gender and number cannot be taken from previous rules 
         <pattern-item n="adjec"/>
       </pattern>
       <action>
-	<!--
-        <call-macro n="f_concord3">
-          <with-param pos="2"/>
-          <with-param pos="3"/>
-          <with-param pos="1"/>
-        </call-macro>-->
+	      <call-macro n="f_concord3">
+		      <with-param pos="2"/>
+		      <with-param pos="1"/>
+		      <with-param pos="3"/>
+        </call-macro>
+	      <choose>
+		      <when>
+			      <test>
+				      <or>
+				   
+				      <equal>
+					      <clip pos="3" side="sl" part="gen"/>
+					      <lit-tag v="mf"/>
+				      </equal>
+			 
+				      <equal>
+					      <clip pos="2" side="sl" part="gen"/>
+					      <lit-tag v="mf"/>
+				      </equal>
+			     
+		           </or>
+			      </test>
+			  <out>
+			      <lu>
+				      <clip pos="1" side="tl" part="lem"/>
+				      <clip pos="1" side="tl" part="a_det"/>
+				      <clip pos="1" side="tl" part="gen"/>
+				      <clip pos="1" side="tl" part="nbr"/>
+			      </lu>
+			      <b/>
+			      <lu>
+				      <clip pos="2" side="tl" part="lem"/>
+				      <clip pos="2" side="tl" part="a_nom"/>
+				      <clip pos="2" side="tl" part="gen"/>
+				      <clip pos="2" side="tl" part="nbr"/>
+			      </lu>
+			      <b/>
+			      <lu>
+				      <clip pos="3" side="tl" part="lem"/>
+				      <clip pos="3" side="tl" part="a_adjec"/>
+				      <clip pos="3" side="tl" part="gen"/>
+				      <clip pos="3" side="tl" part="nbr"/>
+          		</lu>
+		</out>
+	</when>
+	
+	<otherwise>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
           </lu>
-          <b pos="1"/>
+	  <b/> 
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
             <clip pos="2" side="tl" part="nbr"/>
           </lu>
-          <b pos="2"/>
+          <b/>
           <lu>
             <clip pos="3" side="tl" part="lem"/>
             <clip pos="3" side="tl" part="a_adjec"/>
-            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="gen"/>
             <clip pos="3" side="tl" part="nbr"/>
           </lu>
         </out>
+     </otherwise>
+    </choose>
       </action>
     </rule>
     <rule>
@@ -3459,7 +3606,7 @@ Nun canté pola nueche -> No he cantado por la noche
                 <clip pos="1" side="sl" part="persona"/>
                 <clip pos="1" side="sl" part="nbr"/>
               </lu>
-              <b/>
+	      <b/>
               <lu>
                 <clip pos="1" side="tl" part="lem"/>
                 <clip pos="1" side="sl" part="a_verb"/>
@@ -9228,7 +9375,7 @@ comentándo-yos -> comentándoles
 					    <b/>
 					    <lu>
 						    <clip pos="4" side="tl" part="lem"/>
-						    <clip pos="3" side="sl" part="a_verb"/>
+						    <clip pos="4" side="sl" part="a_verb"/>
 						    <lit-tag v="pp"/>
 						    <lit-tag v="m"/>
 						    <lit-tag v="sg"/>
@@ -32159,12 +32306,12 @@ Bono d'estudiar -> Fácil de estudiar
 
 
 <!-- 
-regla EGV51 dir + sustantivo_temporal -> facer + sustantivo_temporal
+regla EGV11 dir + sustantivo_temporal -> facer + sustantivo_temporal
 -->  
 
 <rule>
       <pattern>
-        <pattern-item n="verbir"/>
+	<pattern-item n="verb_temp"/>
         <pattern-item n="sustantivo_temporal"/>
       </pattern>
       <action>
@@ -32187,10 +32334,10 @@ regla EGV51 dir + sustantivo_temporal -> facer + sustantivo_temporal
 		       <get-case-from pos="1">
 			    <lit v="hacer"/>
 			</get-case-from>
-               <clip pos="1" side="tl" part="a_verb"/>
-               <clip pos="1" side="tl" part="temps"/>
-               <clip pos="1" side="tl" part="persona"/>
-               <clip pos="1" side="tl" part="nbr"/>
+			<lit-tag v="vblex"/>
+			<clip pos="1" side="tl" part="temps"/>
+               		<clip pos="1" side="tl" part="persona"/>
+               		<clip pos="1" side="tl" part="nbr"/>
 			</lu>
              <b/>
             <lu>
@@ -32204,12 +32351,12 @@ regla EGV51 dir + sustantivo_temporal -> facer + sustantivo_temporal
 
 <!-- VA dos años -> HACE dos años -->
 <!-- 
-regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sustantivo_temporal
+regla EGV12 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sustantivo_temporal
 -->  
 
 <rule>
       <pattern>
-        <pattern-item n="verbir"/>
+	<pattern-item n="verb_temp"/>
 	<pattern-item n="adj_det_num_nom"/>
         <pattern-item n="sustantivo_temporal"/>
       </pattern>
@@ -32237,10 +32384,10 @@ regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sus
 		       <get-case-from pos="1">
 			    <lit v="hacer"/>
 			</get-case-from>
-               <clip pos="1" side="tl" part="a_verb"/>
-               <clip pos="1" side="tl" part="temps"/>
-               <clip pos="1" side="tl" part="persona"/>
-               <clip pos="1" side="tl" part="nbr"/>
+			<lit-tag v="vblex"/>
+			<clip pos="1" side="tl" part="temps"/>
+               		<clip pos="1" side="tl" part="persona"/>
+               		<clip pos="1" side="tl" part="nbr"/>
 			</lu>
             <b/>
             <lu>
@@ -32260,7 +32407,7 @@ regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sus
     
   
     <!-- 
-     regla EGV51 tener + de + inf -> deber + inf
+     regla EGV13 tener + de + inf -> deber + inf
     tienen de cantar -> deben cantar
 
     -->  
@@ -32294,7 +32441,7 @@ regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sus
 
     
     <!-- 
-	 regla EGV52 tener + de + inf + enc -> deber + inf + enc
+	 regla EGV14 tener + de + inf + enc -> deber + inf + enc
     teníen de comeles -> debían comerlas
     
     -->  
@@ -32335,7 +32482,7 @@ regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sus
     
     
     <!-- 
-	 regla EGV53 tener + de + inf + enc + enc-> deber + inf + enc + enc
+	 regla EGV15 tener + de + inf + enc + enc-> deber + inf + enc + enc
     tendríen de coméseles -> deberían comérselas
     
     -->  
@@ -32380,7 +32527,7 @@ regla EGV51 hacer + det/num/adj + sustantivo_temporal -> DIR + det/num/adj + sus
 	
 	
 <!-- 
-regla EGV42 "LO" + ADJ nt + QUE relativo + verbo + determinante + sustantivo -> ADJ género concuerda con nombre
+regla EGV16 "LO" + ADJ nt + QUE relativo + verbo + determinante + sustantivo -> ADJ género concuerda con nombre
 Lo blanco que taba la nieve -> Lo blanca que estaba la nieve
 Lo blanco que taba la nieve -> Lo blanca que estaba la nieve
 -->  
@@ -32441,6 +32588,83 @@ Lo blanco que taba la nieve -> Lo blanca que estaba la nieve
     </rule>	
 	
 	
+    <!-- 
+	 regla EGV17 tener + de + inf -> deber + inf
+    tienen de cantar -> deben cantar
+    
+    -->  
+    
+    <rule>
+	    <pattern>
+		    <pattern-item n="venir"/>
+		    <pattern-item n="de"/>			
+		    <pattern-item n="inf"/>
+	    </pattern>
+	    <action>
+		    
+		    <out>
+			    <lu>
+				    <get-case-from pos="1">
+					    <lit v="acabar"/>
+				    </get-case-from>
+				    <clip pos="1" side="tl" part="a_verb"/>
+				    <clip pos="1" side="tl" part="temps"/>
+				    <clip pos="1" side="tl" part="persona"/>
+				    <clip pos="1" side="tl" part="nbr"/>
+			    </lu>
+			    <b/>
+			    <lu>
+				    <clip pos="2" side="tl" part="whole"/> 
+			    </lu>			  
+			    <b/>
+			    <lu>
+				    <clip pos="3" side="tl" part="whole"/> 
+			    </lu>
+		    </out>
+	    </action>
+    </rule>		
+    
+    <!-- 
+	 regla EGV18 entamar + a + inf -> empezar + a + inf
+    
+    entamen a comer -> empiezan a comer
+    
+    -->  
+    
+    <rule>
+	    <pattern>
+		    <pattern-item n="entamar"/>
+		    <pattern-item n="a"/>
+		    <pattern-item n="inf"/>
+	    </pattern>
+	    <action>
+		    
+		    <out>
+			    <lu>
+				    <get-case-from pos="1">
+					    <lit v="empezar"/>
+				    </get-case-from>
+				    <clip pos="1" side="tl" part="a_verb"/>
+				    <clip pos="1" side="tl" part="temps"/>
+				    <clip pos="1" side="tl" part="persona"/>
+				    <clip pos="1" side="tl" part="nbr"/>
+			    </lu>
+			    <b/>
+			    <lu>
+				        <clip pos="2" side="tl" part="whole"/> 
+			    
+			    </lu>
+			    <b/>
+			    
+			    <lu>
+				    <clip pos="3" side="tl" part="whole"/> 
+			    </lu>
+		    </out>
+	    </action>
+    </rule>		
+    
+    
+  
     <!--
 	REGRA EGN1: contracción(prep+def)+posesivo
 		al mio andamiu -> a mi andamio
