@@ -311,6 +311,17 @@
       <label-item label="PRNENC"/>
    </sequence>
   </def-mult>
+  <def-mult name="VLEXPFCIPRNENC">
+    <sequence>
+      <label-item label="VLEXPFCI"/>
+      <label-item label="PRNENC"/>
+   </sequence>
+    <sequence>
+      <label-item label="VLEXPFCI"/>
+      <label-item label="PRNENC"/>
+      <label-item label="PRNENC"/>
+   </sequence>
+  </def-mult>
   <def-mult name="INFSERPRNENC" closed="true">
     <sequence>
       <label-item label="VSERINF"/>
