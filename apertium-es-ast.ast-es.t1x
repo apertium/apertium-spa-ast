@@ -3608,7 +3608,10 @@ Nun canté pola nueche -> No he cantado por la noche
               </lu>
 	      <b/>
               <lu>
-                <clip pos="1" side="tl" part="lem"/>
+                <get-case-from pos="2">	            
+	        <clip pos="1" side="tl" part="lem"/>
+	       </get-case-from> 
+             
                 <clip pos="1" side="sl" part="a_verb"/>
                 <lit-tag v="pp"/>
                 <lit-tag v="m"/>
@@ -3616,7 +3619,6 @@ Nun canté pola nueche -> No he cantado por la noche
               </lu>
             </out>
           </when>         
-
 	  
 	  <when>
 		  <test>
@@ -3636,8 +3638,11 @@ Nun canté pola nueche -> No he cantado por la noche
 				  <clip pos="1" side="sl" part="nbr"/>
 			  </lu>
 			  <b/>
-			  <lu>
+			  <lu>		
+				  <get-case-from pos="2">	
+                                 
 				  <clip pos="1" side="tl" part="lem"/>
+				  </get-case-from> 
 				  <clip pos="1" side="sl" part="a_verb"/>
 				  <lit-tag v="pp"/>
 				  <lit-tag v="m"/>
