@@ -199,6 +199,10 @@
      <cat-item tags="n.*"/>
     </def-cat>	
      
+	<def-cat n="adj_nom">
+      <cat-item tags="adj.*"/>
+     <cat-item tags="n.*"/>
+    </def-cat>		 
 
      <def-cat n="nommas">
 	<cat-item tags="n.m.sg"/>
@@ -211,13 +215,22 @@
       <cat-item tags="np.loc"/>
     </def-cat>
     <def-cat n="det">
-      <cat-item tags="det.*"/>
+      <cat-item tags="det"/>
+      <cat-item tags="det.def"/>
+      <cat-item tags="det.ind"/>
+      <cat-item tags="det.dem"/>	  	  
+      <cat-item tags="det.def.*"/>
+      <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.dem.*"/>	  
     </def-cat>
     <def-cat n="def">
       <cat-item tags="det.def.*"/>
     </def-cat>
     <def-cat n="pos">
       <cat-item tags="det.pos.*"/>
+      <cat-item tags="adj.pos.*"/>	  
+      <cat-item lemma="so" tags="ij"/>	 	  
+      <cat-item lemma="tos" tags="n.*"/>	 	  
     </def-cat>
 	<def-cat n="posmf">
       <cat-item tags="det.pos.mf.*"/>
@@ -2691,21 +2704,48 @@ is not applicable because gender and number cannot be taken from previous rules 
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="2" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-	  <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="lem"/>
-            <clip pos="2" side="tl" part="a_nom"/>
-            <clip pos="2" side="tl" part="gen"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-        </out>
+	      <choose>
+		      <when>
+			      <test>
+				      <equal>
+					      <clip pos="2" side="sl" part="gen"/>
+					      <lit-tag v="mf"/>
+				      </equal>
+			      </test>
+				<out>
+				  <lu>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_det"/>
+					<clip pos="1" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+				  </lu>
+			      <b pos="1"/>
+				  <lu>
+					<clip pos="2" side="tl" part="lem"/>
+					<clip pos="2" side="tl" part="a_nom"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+				  </lu>
+				</out>
+			  </when>
+			  <otherwise>
+				<out>
+				  <lu>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_det"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+				  </lu>
+			      <b pos="1"/>
+				  <lu>
+					<clip pos="2" side="tl" part="lem"/>
+					<clip pos="2" side="tl" part="a_nom"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+				  </lu>
+				</out>			  
+			  </otherwise>
+		  </choose>
       </action>
     </rule>
     <rule>
@@ -32679,18 +32719,118 @@ Lo blanco que taba la nieve -> Lo blanca que estaba la nieve
       <pattern>
         <pattern-item n="prep"/>
         <pattern-item n="def"/>
-        <pattern-item n="pos"/>
+        <pattern-item n="pos"/> 
+        <pattern-item n="adj_nom"/> 		
       </pattern>
-      <action>
-            <out>
-              <lu>
-                <clip pos="1" side="tl" part="whole"/>  
-              </lu>
-              <b/>
-              <lu>
-                <clip pos="3" side="tl" part="whole"/>  
-              </lu>
-            </out>
+	    <action>
+		  <choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="3" side="sl" part="lem"/>
+						<lit v="mio"/>
+					</equal>
+				</test>
+				<out> 	  
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>  
+				  </lu>
+				  <b/>
+				  <lu>
+					<lit v="mi"/>
+					<lit-tag v="det.pos.mf"/>	
+					<clip pos="3" side="tl" part="nbr"/> 
+				  </lu>
+				  <b/>
+				  <lu>
+					<clip pos="4" side="tl" part="whole"/>  
+				  </lu>						  
+				</out>
+			</when>
+			<when>
+				<test>
+					<equal>
+						<clip pos="3" side="sl" part="lem"/>
+						<lit v="to"/>
+					</equal>
+				</test>
+				<out> 	  
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>  
+				  </lu>
+				  <b/>
+				  <lu>
+					<lit v="tu"/>
+					<lit-tag v="det.pos.mf"/>
+					<clip pos="3" side="tl" part="nbr"/> 					
+				  </lu>
+				  <b/>
+				  <lu>
+					<clip pos="4" side="tl" part="whole"/>  
+				  </lu>						  
+				</out>
+			</when>		
+			<when>
+				<test>
+					<equal>
+						<clip pos="3" side="sl" part="lem"/>
+						<lit v="tos"/>
+					</equal>
+				</test>
+				<out> 	  
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>  
+				  </lu>
+				  <b/>
+				  <lu>
+					<lit v="tu"/>
+					<lit-tag v="det.pos.mf.pl"/>
+				  </lu>
+				  <b/>
+				  <lu>
+					<clip pos="4" side="tl" part="whole"/>  
+				  </lu>						  
+				</out>
+			</when>					
+			<when>
+				<test>
+					<equal>
+						<clip pos="3" side="sl" part="lem"/>
+						<lit v="so"/>
+					</equal>
+				</test>
+				<out> 	  
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>  
+				  </lu>
+				  <b/>
+				  <lu>
+					<lit v="su"/>
+					<lit-tag v="det.pos.mf"/>
+					<clip pos="3" side="tl" part="nbr"/> 					
+				  </lu>
+				  <b/>
+				  <lu>
+					<clip pos="4" side="tl" part="whole"/>  
+				  </lu>				  
+				</out>
+			</when>		
+			<otherwise>
+				<out> 	  
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>  
+				  </lu>
+				  <b/>
+				  <lu>
+					<clip pos="3" side="tl" part="whole"/>  
+				  </lu>
+				  <b/>
+				  <lu>
+					<clip pos="4" side="tl" part="whole"/>  
+				  </lu>				  
+				</out>			
+			</otherwise>			
+		  </choose>
       </action>
     </rule>
 

@@ -387,7 +387,7 @@
       <label-item label="PRNENC"/>
       <label-item label="PRNENC"/>
     </sequence>
-  </def-mult>
+  </def-mult> 
 
   <def-mult name="INFHABERPRNENC" closed="true">
     <sequence>
@@ -411,10 +411,14 @@
       <label-item label="PRNENC"/>
     </sequence>
   </def-mult>
+  <def-mult name="VERBPRNENC" closed="true">
+    <sequence>
+      <label-item label="VERB"/>
+      <label-item label="PRNENC"/>
+    </sequence>
+  </def-mult>  
 
-  </tagset>
-
-  
+  </tagset>  
   
   
   

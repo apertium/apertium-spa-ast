@@ -7,7 +7,7 @@
 <sdef n="detnt"/>
 <sdef n="loc"/>
 <sdef n="ant"/>
-<sdef n="al"/>
+<sdef n="al"/> 
 <sdef n="atn"/>
 <sdef n="enc"/>
 <sdef n="pro"/>
@@ -111814,7 +111814,7 @@
 <e><i>zurd</i><par n="absolut/o__adj"/></e>
 <e lm="tratante de ganado"><i>tratante<b/>de<b/>ganado</i><par n="abundante_multi_sg__adj"/></e>
 <e lm="tratantes de ganado" c="plural"><p><l>tratantes<b/>de<b/>ganado</l><r>tratante<b/>de<b/>ganado</r></p><par n="abundante_multi_pl__adj"/></e>
-    
+<e><i>concienciaci</i><par n="acci/ón__n"/></e>
 
 </section>
 <section id="final" type="inconditional">
