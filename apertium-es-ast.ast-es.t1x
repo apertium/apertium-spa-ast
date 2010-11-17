@@ -53,7 +53,6 @@
       <cat-item tags="pr"/>
       <cat-item tags="cnjadv"/>
     </def-cat>
-
     
     <def-cat n="categorias">
 	    <cat-item lemma="antes" tags="adv"/>
@@ -71,7 +70,7 @@
 	    <cat-item tags="np.*"/>
     </def-cat>
     
-	 <def-cat n="categorias3">
+	<def-cat n="categorias3">
 	    <cat-item tags="prn.tn.*"/>
 	    <cat-item tags="np.*"/>
 	    <cat-item tags="n.*"/>
@@ -81,7 +80,8 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
-     <def-cat n="en">
+	
+    <def-cat n="en">
       <cat-item lemma="en" tags="pr"/>
 	</def-cat>
 
@@ -89,7 +89,7 @@
 		<cat-item lemma="a" tags="pr"/>
 	</def-cat>
 	
-     <def-cat n="de">
+    <def-cat n="de">
       <cat-item lemma="de" tags="pr"/>
 	</def-cat>
 
@@ -100,7 +100,6 @@
 		<cat-item lemma="malu" tags="adj.*"/>
 	</def-cat>
      	
-
 	<def-cat n="sustantivo_temporal">
       <cat-item lemma="segundu" tags="n.*"/>	
       <cat-item lemma="minutu" tags="n.*"/>	  
@@ -116,14 +115,12 @@
       <cat-item lemma="ratu" tags="n.*"/>		
       <cat-item lemma="temporada" tags="n.*"/>			  
 	</def-cat>
-    <!-- sustantivos temporales -->	
-	
+    <!-- sustantivos temporales -->
 	
     <def-cat n="que">
       <cat-item tags="rel.nn.*"/>
     </def-cat>
    <!--relativo "que" -->
-   
    
    <def-cat n="queconj">
 	   <cat-item tags="cnjsub"/>
@@ -136,15 +133,15 @@
     <def-cat n="non">
 	    <cat-item tags="adv"/>
     </def-cat>
+	
     <def-cat n="ye">
 	    <cat-item lemma="ser" tags="vbser.pii.p3.*"/>	
 	    <cat-item lemma="ser" tags="vbser.pri.p3.*"/>
     </def-cat>
     
-   <def-cat n="nun">
+    <def-cat n="nun">
 	   <cat-item lemma="nun" tags="adv"/>
 	   <cat-item lemma="non" tags="adv"/>
-
    </def-cat>
     
    <def-cat n="y">
@@ -157,10 +154,10 @@
    </def-cat>	
    <!-- 'y' y derivados -->	
 	
-    <def-cat n="detnt">
+   <def-cat n="detnt">
       <cat-item tags="detnt"/>
-    </def-cat>
-    <!-- determinante neutro -->
+   </def-cat>
+   <!-- determinante neutro -->
 
 	<def-cat n="adjnt">
       <cat-item tags="adj.nt.*"/>
@@ -173,7 +170,6 @@
 	    <cat-item lemma="cualesquier" tags="det.*"/>
 	    <cat-item lemma="cualquier" tags="det.*"/>
     </def-cat>
-    
     
     <def-cat n="tener">
 	    <cat-item lemma="tener" tags="vblex.*"/>
@@ -251,6 +247,10 @@
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
+    </def-cat>
+   <def-cat n="prep_tou">
+      <cat-item tags="pr"/>
+      <cat-item lemma="tou" tags="predet.*"/>
     </def-cat>
     <def-cat n="cuyo">
       <cat-item tags="rel.aa.*"/>
@@ -2704,7 +2704,7 @@ is not applicable because gender and number cannot be taken from previous rules 
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
-	      <choose>
+	      <choose>	  
 		      <when>
 			      <test>
 				      <equal>
@@ -2727,7 +2727,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 					<clip pos="2" side="tl" part="nbr"/>
 				  </lu>
 				</out>
-			  </when>
+			  </when>	  			  
 			  <otherwise>
 				<out>
 				  <lu>
@@ -2750,6 +2750,268 @@ is not applicable because gender and number cannot be taken from previous rules 
     </rule>
     <rule>
 
+	
+<!-- REGLA 5b: POSESIVO NOM -->
+      <pattern>
+        <pattern-item n="pos"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+	      <choose>
+		      <when>
+			      <test>
+
+					  <or>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l mio"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l to"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l so"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l vuesu"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l nuesu"/>
+				      </equal>					  
+					  </or>
+				
+			      </test>
+				<out>
+				  <b/>				
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>
+				  </lu>
+			      <b/>
+				  <lu>
+					<clip pos="2" side="tl" part="whole"/>
+					<!-- <clip pos="2" side="tl" part="a_nom"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/> -->
+				  </lu>
+				</out>
+			  </when>		  
+		      <when>
+			      <test>
+				      <equal>
+					      <clip pos="2" side="sl" part="gen"/>
+					      <lit-tag v="mf"/>
+				      </equal>
+			      </test>
+				<out>
+				  <lu>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_det"/>
+					<clip pos="1" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+				  </lu>
+			      <b/>
+				  <lu>
+					<clip pos="2" side="tl" part="lem"/>
+					<clip pos="2" side="tl" part="a_nom"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+				  </lu>
+				</out>
+			  </when>
+
+			  <otherwise>
+				<out>
+				  <lu>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_det"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+				  </lu>
+			      <b/>
+				  <lu>
+					<clip pos="2" side="tl" part="lem"/>
+					<clip pos="2" side="tl" part="a_nom"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+				  </lu>
+				</out>			  
+			  </otherwise>
+		  </choose>
+      </action>
+    </rule>
+    <rule>	
+	
+	
+	
+<!-- REGLA 5c: POSESIVO ADJ NOM -->
+      <pattern>
+        <pattern-item n="pos"/>
+        <pattern-item n="adj"/>		
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord3">
+          <with-param pos="3"/>
+          <with-param pos="2"/>		  
+          <with-param pos="1"/>
+        </call-macro>
+	      <choose>
+		      <when>
+			      <test>
+					<and>
+					  <or>
+						  <equal>
+							  <clip pos="3" side="sl" part="gen"/>
+							  <lit-tag v="mf"/>
+						  </equal>
+						  <equal>
+							  <clip pos="2" side="sl" part="gen"/>
+							  <lit-tag v="mf"/>
+						  </equal>
+					  </or>
+					  <or>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l mio"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l to"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l so"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l vuesu"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l nuesu"/>
+				      </equal>					  
+					  </or>
+					</and>
+			      </test>
+				<out>
+				  <b/>				
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>
+				  </lu>				
+				  <b/>				
+				  <lu>
+					<clip pos="2" side="tl" part="whole"/>
+				  </lu>
+			      <b/>
+				  <lu>
+					<clip pos="3" side="tl" part="whole"/>
+				  </lu>
+				</out>
+			  </when>		  
+		      <when>
+			      <test>
+					  <or>
+						  <equal>
+							  <clip pos="3" side="sl" part="gen"/>
+							  <lit-tag v="mf"/>
+						  </equal>
+						  <equal>
+							  <clip pos="2" side="sl" part="gen"/>
+							  <lit-tag v="mf"/>
+						  </equal>
+					  </or>
+			      </test>
+				<out>
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>
+				  </lu>
+			      <b/>				
+				  <lu>
+					<clip pos="2" side="tl" part="whole"/>
+				  </lu>
+			      <b/>
+				  <lu>
+					<clip pos="3" side="tl" part="whole"/>
+				  </lu>
+				</out>
+			  </when>
+		     <when>
+			      <test>
+				  <or>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l mio"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l to"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l so"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l vuesu"/>
+				      </equal>
+					  <equal>
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="'l nuesu"/>
+				      </equal>					  
+					  </or>
+					
+			      </test>
+				<out>
+				  <b/>				
+				  <lu>
+					<clip pos="1" side="tl" part="whole"/>
+				  </lu>				
+				  <b/>				
+				  <lu>
+					<clip pos="2" side="tl" part="lem"/>
+					<clip pos="2" side="tl" part="a_adj"/>
+					<clip pos="3" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+				  </lu>
+			      <b/>
+				  <lu>
+					<clip pos="3" side="tl" part="whole"/>
+				  </lu>
+				</out>
+			  </when> 
+			  <otherwise>
+				<out>
+				  <lu>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_det"/>
+					<clip pos="3" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+				  </lu>		
+				  <b/>
+				  <lu>
+					<clip pos="2" side="tl" part="whole"/>
+				  </lu>
+			      <b/>
+				  <lu>
+					<clip pos="3" side="tl" part="whole"/>
+				  </lu>
+				</out>			  
+			  </otherwise>
+		  </choose>
+      </action>
+    </rule>
+    <rule>		
+	
+	
+	
 <!-- REGLA 6: NOM ADJECTIU-->
       <pattern>
         <pattern-item n="nom"/>
@@ -2778,7 +3040,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="1"/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_adj"/>
+					<clip pos="2" side="tl" part="a_adjec"/>
 					<clip pos="1" side="tl" part="gen"/>
 					<clip pos="2" side="tl" part="nbr"/>
 				  </lu>
@@ -2795,7 +3057,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="1"/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_adj"/>
+					<clip pos="2" side="tl" part="a_adjec"/>
 					<clip pos="2" side="tl" part="gen"/>
 					<clip pos="2" side="tl" part="nbr"/>
 				  </lu>
@@ -2844,7 +3106,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="1"/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_adj"/>
+					<clip pos="2" side="tl" part="a_adjec"/>
 					<clip pos="1" side="tl" part="gen"/>
 					<clip pos="2" side="tl" part="nbr"/>
 				  </lu>
@@ -2855,7 +3117,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="3"/>
 				  <lu>
 					<clip pos="4" side="tl" part="lem"/>
-					<clip pos="4" side="tl" part="a_adj"/>
+					<clip pos="4" side="tl" part="a_adjec"/>
 					<clip pos="1" side="tl" part="gen"/>
 					<clip pos="4" side="tl" part="nbr"/>
 				  </lu>				  
@@ -2878,7 +3140,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="1"/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_adj"/>
+					<clip pos="2" side="tl" part="a_adjec"/>
 					<clip pos="1" side="tl" part="gen"/>
 					<clip pos="2" side="tl" part="nbr"/>
 				  </lu>
@@ -2889,7 +3151,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="3"/>
 				  <lu>
 					<clip pos="4" side="tl" part="lem"/>
-					<clip pos="4" side="tl" part="a_adj"/>
+					<clip pos="4" side="tl" part="a_adjec"/>
 					<clip pos="4" side="tl" part="gen"/>
 					<clip pos="4" side="tl" part="nbr"/>
 				  </lu>				  
@@ -2912,7 +3174,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="1"/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_adj"/>
+					<clip pos="2" side="tl" part="a_adjec"/>
 					<clip pos="2" side="tl" part="gen"/>
 					<clip pos="2" side="tl" part="nbr"/>
 				  </lu>
@@ -2923,7 +3185,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="3"/>
 				  <lu>
 					<clip pos="4" side="tl" part="lem"/>
-					<clip pos="4" side="tl" part="a_adj"/>
+					<clip pos="4" side="tl" part="a_adjec"/>
 					<clip pos="1" side="tl" part="gen"/>
 					<clip pos="4" side="tl" part="nbr"/>
 				  </lu>				  
@@ -2940,7 +3202,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="1"/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_adj"/>
+					<clip pos="2" side="tl" part="a_adjec"/>
 					<clip pos="2" side="tl" part="gen"/>
 					<clip pos="2" side="tl" part="nbr"/>
 				  </lu>
@@ -2951,7 +3213,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 				  <b pos="3"/>
 				  <lu>
 					<clip pos="4" side="tl" part="lem"/>
-					<clip pos="4" side="tl" part="a_adj"/>
+					<clip pos="4" side="tl" part="a_adjec"/>
 					<clip pos="4" side="tl" part="gen"/>
 					<clip pos="4" side="tl" part="nbr"/>
 				  </lu>				  
@@ -26409,7 +26671,7 @@ comentándo-yos -> comentándoles
 					    <b/>
 					    <lu>
 						    
-						    <clip pos="3" side="sl" part="whole"/>
+						    <clip pos="3" side="tl" part="whole"/>
 					    </lu>    
 					    
 				    </out>
@@ -26826,7 +27088,7 @@ comentándo-yos -> comentándoles
 					    <b/>
 					    <lu>
 						    
-						    <clip pos="3" side="sl" part="whole"/>
+						    <clip pos="3" side="tl" part="whole"/>
 						    
 					    </lu>    
 					    
@@ -32717,7 +32979,7 @@ Lo blanco que taba la nieve -> Lo blanca que estaba la nieve
 	
     <rule>
       <pattern>
-        <pattern-item n="prep"/>
+        <pattern-item n="prep_tou"/>
         <pattern-item n="def"/>
         <pattern-item n="pos"/> 
         <pattern-item n="adj_nom"/> 		
@@ -32835,7 +33097,8 @@ Lo blanco que taba la nieve -> Lo blanca que estaba la nieve
     </rule>
 
 
-  
+ 
+
   
   <rule> <!-- REGRA: reset variables-->
     <pattern>
