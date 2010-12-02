@@ -3022,7 +3022,7 @@ is not applicable because gender and number cannot be taken from previous rules 
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
-		<choose>
+		  <choose>
 			  <when>
 				<test>
 				  <equal>
@@ -3037,7 +3037,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 					<clip pos="1" side="tl" part="gen"/>
 					<clip pos="1" side="tl" part="nbr"/>
 				  </lu>
-				  <b pos="1"/>
+				  <b/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
 					<clip pos="2" side="tl" part="a_adjec"/>
@@ -3054,7 +3054,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 					<clip pos="1" side="tl" part="gen"/>
 					<clip pos="1" side="tl" part="nbr"/>
 				  </lu>
-				  <b pos="1"/>
+				  <b/>
 				  <lu>
 					<clip pos="2" side="tl" part="lem"/>
 					<clip pos="2" side="tl" part="a_adjec"/>
@@ -3497,7 +3497,7 @@ is not applicable because gender and number cannot be taken from previous rules 
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
           </lu>
           <b pos="1"/>
@@ -26966,8 +26966,8 @@ comentándo-yos -> comentándoles
 						    </get-case-from>
 						    <lit-tag v="prn.pro"/>
 						    <clip pos="2" side="tl" part="persona"/>
-						    <lit-tag v="nt"/>
-						    <clip pos="3" side="tl" part="nbr"/>
+						    <clip pos="2" side="tl" part="gen"/>
+						     <clip pos="2" side="tl" part="nbr"/>
 					    </lu>
 					    <b/>
 					    <lu>
