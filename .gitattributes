@@ -23,7 +23,9 @@
 /autogen.sh -text
 /configure.ac -text
 dev/asturian.freqlist.txt -text
+dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
+dev/testvoc.sh -text
 /es-ast-unsupervised.make -text
 /es-ast.prob -text svneol=unset#unset
 /modes.xml -text
