@@ -6577,24 +6577,6 @@
         <r>ser<s n="vbser"/><s n="pp"/><s n="nt"/><s n="sg"/></r>
       </p>
     </e>
-    <e i="yes">
-      <p>
-        <l>sidos</l>
-        <r>ser<s n="vbser"/><s n="pp"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e i="yes">
-      <p>
-        <l>sida</l>
-        <r>ser<s n="vbser"/><s n="pp"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e i="yes">
-      <p>
-        <l>sidas</l>
-        <r>ser<s n="vbser"/><s n="pp"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
     <e>
       <p>
         <l>somos</l>
@@ -74786,7 +74768,6 @@
 	
 <e><i>tod</i><par n="tod/o__predet"/></e>
 <!--<e><i>poc</i><par n="tod/o__predet"/></e>-->
-<e i="yes"><i>demasiad</i><par n="tod/o__predet"/></e>	
 <e><i>demasiad</i><par n="tod/o__prn"/></e>	
 <e><i>alg</i><par n="alg/ún__det"/></e>
 <e><i>aquel</i><par n="aquel__det"/></e>
@@ -74827,7 +74808,6 @@
     <!--Conjunciones-->
     <!--Conxunciones-->
 
-<e i="yes"><i>a<b/>fin<b/>de<b/>que</i><par n="aun__cnjadv"/></e>
 <e><i>de<b/>tal<b/>modo<b/>que</i><par n="aun__cnjadv"/></e>
 <e><i>a<b/>cambio<b/>de</i><par n="aun__cnjadv"/></e>
 <e><i>a<b/>menos<b/>que</i><par n="aun__cnjadv"/></e>
@@ -80647,7 +80627,6 @@
 <e><i>andorina</i><par n="abundancia__n"/></e>
 <e><i>andosc</i><par n="abogad/o__n"/></e>
 <e><i>andrajo</i><par n="abandono__n"/></e>
-<e i="yes"><i>andrajoso</i><par n="abandono__n"/></e>
 <e><i>androceo</i><par n="abandono__n"/></e>
 <e><i>androide</i><par n="abandono__n"/></e>
 <e><i>andrómina</i><par n="abundancia__n"/></e>
@@ -81171,7 +81150,6 @@
 <e><i>asiri</i><par n="abogad/o__n"/></e>
 <e><i>asistencia</i><par n="abundancia__n"/></e>
 <e><i>asistente</i><par n="agente__n"/></e>
-<e i="yes"><i>asistent</i><par n="dependient/e__n"/></e>
 <e><i>asitiamiento</i><par n="abandono__n"/></e>
 <e><i>asma</i><par n="abundancia__n"/></e>
 <e><i>asociaci</i><par n="acci/ón__n"/></e>
@@ -81228,7 +81206,6 @@
 <e><i>atadura</i><par n="abundancia__n"/></e>
 <e><i>atafarra</i><par n="abundancia__n"/></e>
 <e><i>ataharre</i><par n="abandono__n"/></e>
-<e i="yes"><i>ataharra</i><par n="abundancia__n"/></e>
 <e><i>atajada</i><par n="abundancia__n"/></e>
 <e><i>atajamiento</i><par n="abandono__n"/></e>
 <e><i>atajo</i><par n="abandono__n"/></e>
@@ -88012,15 +87989,6 @@
   </p>
 </e>
 
-<e i="yes" lm="afín a">
-  <i>af</i>
-  <par n="af/ín__adj"/>
-  <p>
-     <l><b/>a</l>
-     <r><g><b/>a</g></r>
-  </p>
-</e>
-
 <e lm="hacer novillos">
   <i>h</i>
   <par n="h/acer__vblex"/>
@@ -88491,26 +88459,6 @@
   <p>
      <l><b/>mucho</l>
      <r><g><b/>mucho</g></r>
-  </p>
-</e>
-
-<e i="yes" lm="responder por">
-  <i>respond</i>
-  <par n="absorb/er__vblex"/>
-  <p>
-     <l><b/>por</l>
-     <r><g><b/>por</g></r>
-   </p>
-</e>
-<e i="yes" lm="responder por">
-  <p>
-    <l>respónd</l>
-    <r>respond</r>
-  </p>
-  <par n="absórb/er__vblex"/>
-  <p>
-     <l><b/>por</l>
-     <r><g><b/>por</g></r>
   </p>
 </e>
 
@@ -90827,11 +90775,9 @@
 <e><i>comodísim</i><par n="absolut/o__adj"/></e>
 <e><i>compatible</i><par n="abundante__adj"/></e>
 <e><i>competente</i><par n="abundante__adj"/></e>
-<e  i="yes"><i>muy<b/>competente</i><par n="abundante__adj"/></e>
 <e><i>competentísim</i><par n="absolut/o__adj"/></e>
 <e><i>competidor</i><par n="abrumador__adj"/></e>
 <e><i>complicadísim</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>comunísim</i><par n="absolut/o__adj"/></e>
 <e><i>cóncav</i><par n="absolut/o__adj"/></e>
 <e><i>concebible</i><par n="abundante__adj"/></e>
 <e><i>confinad</i><par n="absolut/o__adj"/></e>
@@ -94186,7 +94132,6 @@
 <e><i>espesor</i><par n="abril__n"/></e>
 <e><i>flechazo</i><par n="abandono__n"/></e>
 <e><i>frenazo</i><par n="abandono__n"/></e>
-<e i="yes"><i>gafe</i><par n="agente__n"/></e>
 <e><i>guindo</i><par n="abandono__n"/></e>
 <e><i>insomnio</i><par n="abandono__n"/></e>
 <e><i>manotazo</i><par n="abandono__n"/></e>
@@ -95779,7 +95724,6 @@
 <e><i>ablanad</i><par n="absolut/o__adj"/></e>
 <e><i>ablaner</i><par n="absolut/o__adj"/></e>
 <e><i>avellaniz</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>avellanos</i><par n="absolut/o__adj"/></e>
 <e><i>blanqueador</i><par n="abrumador__adj"/></e>
 <e><i>abobad</i><par n="absolut/o__adj"/></e>
 <e><i>aboc</i><par n="absolut/o__adj"/></e>
@@ -95957,7 +95901,6 @@
 <e><i>aislante</i><par n="abundante__adj"/></e>
 <e><i>alabastrad</i><par n="absolut/o__adj"/></e>
 <e><i>alabastrin</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>alacrad</i><par n="absolut/o__adj"/></e>
 <e><i>alarmista</i><par n="abundante__adj"/></e>
 <e><i>alad</i><par n="absolut/o__adj"/></e>
 <e><i>alav</i><par n="burgu/és__adj"/></e>
@@ -95987,7 +95930,6 @@
 <e><i>alabable</i><par n="abundante__adj"/></e>
 <e><i>alabadiz</i><par n="absolut/o__adj"/></e>
 <e><i>alabador</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>alabancios</i><par n="absolut/o__adj"/></e>
 <e><i>allanador</i><par n="abrumador__adj"/></e>
 <e><i>alland</i><par n="burgu/és__adj"/></e>
 <e><i>alargad</i><par n="absolut/o__adj"/></e>
@@ -96468,12 +96410,10 @@
 <e><i>bronc</i><par n="absolut/o__adj"/></e>
 <e><i>bronquial</i><par n="actual__adj"/></e>
 <e><i>brun</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>bual</i><par n="burgu/és__adj"/></e>
 <e><i>bucólic</i><par n="absolut/o__adj"/></e>
 <e><i>bulbos</i><par n="absolut/o__adj"/></e>
 <e><i>búlgar</i><par n="absolut/o__adj"/></e>
 <e><i>bulímic</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>bultable</i><par n="abundante__adj"/></e>
 <e><i>burgundi</i><par n="absolut/o__adj"/></e>
 <e><i>burocrátic</i><par n="absolut/o__adj"/></e>
 <e><i>burric</i><par n="absolut/o__adj"/></e>
@@ -96494,7 +96434,6 @@
 <e><i>cabriter</i><par n="absolut/o__adj"/></e>
 <e><i>cabr</i><par n="burl/ón__adj"/></e>
 <e><i>cabrun</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>cabruñador</i><par n="abrumador__adj"/></e>
 <e><i>cacareador</i><par n="abrumador__adj"/></e>
 <e><i>cachond</i><par n="absolut/o__adj"/></e>
 <e><i>cachorr</i><par n="absolut/o__adj"/></e>
@@ -97016,7 +96955,6 @@
 <e><i>cúpric</i><par n="absolut/o__adj"/></e>
 <e><i>cuprífer</i><par n="absolut/o__adj"/></e>
 <e><i>curativ</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>curiador</i><par n="abrumador__adj"/></e>
 <e><i>curial</i><par n="actual__adj"/></e>
 <e><i>curri</i><par n="absolut/o__adj"/></e>
 <e><i>curr</i><par n="absolut/o__adj"/></e>
@@ -97325,7 +97263,6 @@
 <e><i>latinista</i><par n="abundante__adj"/></e>
 <e><i>latinoamerican</i><par n="absolut/o__adj"/></e>
 <e><i>latitudinal</i><par n="actual__adj"/></e>
-<e i="yes"><i>lat</i><par n="burl/ón__adj"/></e>
 <e><i>lebanieg</i><par n="absolut/o__adj"/></e>
 <e><i>lechar</i><par n="actual__adj"/></e>
 <e><i>lechad</i><par n="absolut/o__adj"/></e>
@@ -97965,7 +97902,6 @@
 <e><i>papellud</i><par n="absolut/o__adj"/></e>
 <e><i>papilar</i><par n="actual__adj"/></e>
 <e><i>papista</i><par n="abundante__adj"/></e>
-<e i="yes"><i>pap</i><par n="absolut/o__adj"/></e>
 <e><i>paquistaní</i><par n="israelí__adj"/></e>
 <e><i>parabólic</i><par n="absolut/o__adj"/></e>
 <e><i>paradigmátic</i><par n="absolut/o__adj"/></e>
@@ -98054,7 +97990,6 @@
 <e><i>pelad</i><par n="absolut/o__adj"/></e>
 <e><i>pelágic</i><par n="absolut/o__adj"/></e>
 <e><i>pelele</i><par n="abundante__adj"/></e>
-<e i="yes"><i>pelgar</i><par n="absolut/o__adj"/></e>
 <e><i>pelirroj</i><par n="absolut/o__adj"/></e>
 <e><i>pel</i><par n="burl/ón__adj"/></e>
 <e><i>peloponesi</i><par n="absolut/o__adj"/></e>
@@ -98074,7 +98009,6 @@
 <e><i>pentasilábic</i><par n="absolut/o__adj"/></e>
 <e><i>pentasílab</i><par n="absolut/o__adj"/></e>
 <e><i>peñascos</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>peñerador</i><par n="abrumador__adj"/></e>
 <e><i>peñerer</i><par n="absolut/o__adj"/></e>
 <e><i>pequin</i><par n="burgu/és__adj"/></e>
 <e><i>percher</i><par n="absolut/o__adj"/></e>
@@ -98345,7 +98279,6 @@
 <e><i>púbic</i><par n="absolut/o__adj"/></e>
 <e><i>publicable</i><par n="abundante__adj"/></e>
 <e><i>puertorriqueñ</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>pulgador</i><par n="abrumador__adj"/></e>
 <e><i>pulgos</i><par n="absolut/o__adj"/></e>
 <e><i>pulid</i><par n="absolut/o__adj"/></e>
 <e><i>pulmonar</i><par n="actual__adj"/></e>
@@ -98546,7 +98479,6 @@
 <e><i>sacr</i><par n="absolut/o__adj"/></e>
 <e><i>sacudid</i><par n="absolut/o__adj"/></e>
 <e><i>sadomasoquista</i><par n="abundante__adj"/></e>
-<e i="yes"><i>safo</i><par n="absolut/o__adj"/></e>
 <e><i>saguntin</i><par n="absolut/o__adj"/></e>
 <e><i>saharian</i><par n="absolut/o__adj"/></e>
 <e><i>salamantin</i><par n="absolut/o__adj"/></e>
@@ -98848,7 +98780,6 @@
 <e><i>taumatúrgic</i><par n="absolut/o__adj"/></e>
 <e><i>taurin</i><par n="absolut/o__adj"/></e>
 <e><i>tautológic</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>tajador</i><par n="abrumador__adj"/></e>
 <e><i>tazoner</i><par n="absolut/o__adj"/></e>
 <e><i>teatrer</i><par n="absolut/o__adj"/></e>
 <e><i>teban</i><par n="absolut/o__adj"/></e>
@@ -99328,7 +99259,6 @@
 <e><i>zopenc</i><par n="absolut/o__adj"/></e>
 <e><i>zoquete</i><par n="abundante__adj"/></e>
 <e><i>zumbad</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>zurdid</i><par n="absolut/o__adj"/></e>
 <e><i>ex</i><par n="aguafiestas__n"/></e>
 <e><i>romaneo</i><par n="abandono__n"/></e>
 <e><i>escaqueo</i><par n="abandono__n"/></e>
@@ -103483,7 +103413,6 @@
 <e><i>ligamiento</i><par n="abandono__n"/></e>
 <e><i>lima</i><par n="abundancia__n"/></e>
 <e><i>limbo</i><par n="abandono__n"/></e>
-<e i="yes"><i>vareador</i><par n="redactor__n"/></e>
 <e><i>limonada</i><par n="abundancia__n"/></e>
 <e><i>limonero</i><par n="abandono__n"/></e>
 <e><i>limpiador</i><par n="redactor__n"/></e>
@@ -105867,7 +105796,6 @@
 <e><i>rabo</i><par n="abandono__n"/></e>
 <e><i>quórum</i><par n="análisis__n"/></e>
 <e><i>ramaje</i><par n="abandono__n"/></e>
-<e i="yes"><i>chiquillería</i><par n="abundancia__n"/></e>
 <e><i>robledar</i><par n="abril__n"/></e>
 <e><i>escocer</i><par n="abril__n"/></e>
 <e><i>escozor</i><par n="abril__n"/></e>
@@ -107795,7 +107723,6 @@
 <e><i>ahorradiz</i><par n="absolut/o__adj"/></e>
 <e><i>ahorrador</i><par n="abrumador__adj"/></e>
 <e><i>ahorr</i><par n="burl/ón__adj"/></e>
-<e i="yes"><i>ahumante</i><par n="abundante__adj"/></e>
 <e><i>aislador</i><par n="abrumador__adj"/></e>
 <e><i>aislante</i><par n="abundante__adj"/></e>
 <e><i>ajedrecista</i><par n="abundante__adj"/></e>
@@ -108041,7 +107968,6 @@
 <e><i>aullid</i><par n="absolut/o__adj"/></e>
 <e><i>aull</i><par n="burl/ón__adj"/></e>
 <e><i>autobiógraf</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>autodidáutic</i><par n="absolut/o__adj"/></e>
 <e><i>autrig</i><par n="burl/ón__adj"/></e>
 <e><i>auxiliar</i><par n="actual__adj"/></e>
 <e><i>avalador</i><par n="abrumador__adj"/></e>
@@ -108163,7 +108089,6 @@
 <e><i>borgoñ</i><par n="burl/ón__adj"/></e>
 <e><i>boroñer</i><par n="absolut/o__adj"/></e>
 <e><i>borrach</i><par n="bailar/ín__adj"/></e>
-<e i="yes"><i>villavicios</i><par n="bailar/ín__adj"/></e>
 <e><i>borrach</i><par n="absolut/o__adj"/></e>
 <e><i>boticari</i><par n="absolut/o__adj"/></e>
 <e><i>bovin</i><par n="absolut/o__adj"/></e>
@@ -108362,7 +108287,6 @@
 <e><i>citador</i><par n="abrumador__adj"/></e>
 <e><i>citarer</i><par n="absolut/o__adj"/></e>
 <e><i>citerior</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>combatidor</i><par n="abrumador__adj"/></e>
 <e><i>civilizador</i><par n="abrumador__adj"/></e>
 <e><i>cizañer</i><par n="absolut/o__adj"/></e>
 <e><i>cizaños</i><par n="absolut/o__adj"/></e>
@@ -108398,7 +108322,6 @@
 <e><i>colonizador</i><par n="abrumador__adj"/></e>
 <e><i>comandante</i><par n="abundante__adj"/></e>
 <e><i>comanditari</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>combatidor </i><par n="abrumador__adj"/></e>
 <e><i>combinad</i><par n="absolut/o__adj"/></e>
 <e><i>comediógraf</i><par n="absolut/o__adj"/></e>
 <e><i>comensal</i><par n="actual__adj"/></e>
@@ -108598,7 +108521,6 @@
 <e><i>derechista</i><par n="abundante__adj"/></e>
 <e><i>dermatólog</i><par n="absolut/o__adj"/></e>
 <e><i>derretid</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>derrochad</i><par n="absolut/o__adj"/></e>
 <e><i>desaborid</i><par n="absolut/o__adj"/></e>
 <e><i>desaliñad</i><par n="absolut/o__adj"/></e>
 <e><i>desapacible</i><par n="abundante__adj"/></e>
@@ -109238,7 +109160,6 @@
 <e><i>explotador</i><par n="abrumador__adj"/></e>
 <e><i>expoliador</i><par n="abrumador__adj"/></e>
 <e><i>expondaic</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>expontáne</i><par n="absolut/o__adj"/></e>
 <e><i>exportador</i><par n="abrumador__adj"/></e>
 <e><i>expositiv</i><par n="absolut/o__adj"/></e>
 <e><i>expositor</i><par n="abrumador__adj"/></e>
@@ -109271,7 +109192,6 @@
 <e><i>faquir</i><par n="actual__adj"/></e>
 <e><i>faraónic</i><par n="absolut/o__adj"/></e>
 <e><i>farer</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>farfarr</i><par n="burl/ón__adj"/></e>
 <e><i>farinjal</i><par n="actual__adj"/></e>
 <e><i>farisaic</i><par n="absolut/o__adj"/></e>
 <e><i>farise</i><par n="absolut/o__adj"/></e>
@@ -109413,7 +109333,6 @@
 <e><i>frecuentativ</i><par n="absolut/o__adj"/></e>
 <e><i>fregad</i><par n="absolut/o__adj"/></e>
 <e><i>fregador</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>freg</i><par n="burl/ón__adj"/></e>
 <e><i>frenad</i><par n="absolut/o__adj"/></e>
 <e><i>frenopátic</i><par n="absolut/o__adj"/></e>
 <e><i>frescach</i><par n="burl/ón__adj"/></e>
@@ -110052,11 +109971,9 @@
 <e><i>manazas</i><par n="bocazas__adj"/></e>
 <e><i>maniátic</i><par n="absolut/o__adj"/></e>
 <e><i>manirrot</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>medio<b/>descalz</i><par n="absolut/o__adj"/></e>
 <e><i>membrud</i><par n="absolut/o__adj"/></e>
 <e><i>metic</i><par n="burl/ón__adj"/></e>
 <e><i>metomentod</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>mezclad</i><par n="absolut/o__adj"/></e>
 <e><i>modest</i><par n="absolut/o__adj"/></e>
 <e><i>mordisqueador</i><par n="abrumador__adj"/></e>
 <e><i>obsequios</i><par n="absolut/o__adj"/></e>
@@ -110081,7 +109998,6 @@
 <e><i>podador</i><par n="abrumador__adj"/></e>
 <e><i>porquer</i><par n="absolut/o__adj"/></e>
 <e><i>poses</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>precupante</i><par n="abundante__adj"/></e>
 <e><i>presuntuos</i><par n="absolut/o__adj"/></e>
 <e><i>pringos</i><par n="absolut/o__adj"/></e>
 <e><i>proclive</i><par n="abundante__adj"/></e>
@@ -110148,7 +110064,6 @@
 <e><i>calmad</i><par n="absolut/o__adj"/></e>
 <e><i>caracterológic</i><par n="absolut/o__adj"/></e>
 <e><i>ecléctic</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>doscient</i><par n="amb/os__adj"/></e>
 <e><i>trescient</i><par n="amb/os__adj"/></e>
 <e><i>quinient</i><par n="amb/os__adj"/></e>
 <e><i>seiscient</i><par n="amb/os__adj"/></e>
@@ -110384,8 +110299,6 @@
 <e><i>espinal</i><par n="actual__adj"/></e>
 <e><i>exponencial</i><par n="actual__adj"/></e>
 <e><i>estacional</i><par n="actual__adj"/></e>
-<e i="yes"><i>sin<b/>capar</i><par n="bocazas__adj"/></e>
-<e i="yes"><i>sin<b/>castrar</i><par n="bocazas__adj"/></e>
 <e><i>escenificable</i><par n="abundante__adj"/></e>
 <e><i>existencialista</i><par n="abundante__adj"/></e>
 <e><i>esclavista</i><par n="abundante__adj"/></e>
@@ -110588,7 +110501,6 @@
 <e><i>lastrin</i><par n="absolut/o__adj"/></e>
 <e><i>later</i><par n="absolut/o__adj"/></e>
 <e><i>latrocini</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>lauread</i><par n="absolut/o__adj"/></e>
 <e><i>lavad</i><par n="absolut/o__adj"/></e>
 <e><i>lavander</i><par n="absolut/o__adj"/></e>
 <e><i>lavian</i><par n="burgu/és__adj"/></e>
@@ -110597,7 +110509,6 @@
 <e><i>lector</i><par n="abrumador__adj"/></e>
 <e><i>lectorad</i><par n="absolut/o__adj"/></e>
 <e><i>leedor</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>legad</i><par n="absolut/o__adj"/></e>
 <e><i>legionari</i><par n="absolut/o__adj"/></e>
 <e><i>legislador</i><par n="abrumador__adj"/></e>
 <e><i>legitimador</i><par n="abrumador__adj"/></e>
@@ -110663,7 +110574,6 @@
 <e><i>loquer</i><par n="absolut/o__adj"/></e>
 <e><i>luanquin</i><par n="absolut/o__adj"/></e>
 <e><i>luarqu</i><par n="burgu/és__adj"/></e>
-<e i="yes"><i>luarquin</i><par n="absolut/o__adj"/></e>
 <e><i>luchador</i><par n="abrumador__adj"/></e>
 <e><i>lucid</i><par n="absolut/o__adj"/></e>
 <e><i>lueng</i><par n="absolut/o__adj"/></e>
@@ -110679,8 +110589,6 @@
 <e><i>majestuos</i><par n="absolut/o__adj"/></e>
 <e><i>malabarista</i><par n="abundante__adj"/></e>
 <e><i>malavenid</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>mal<b/>acostumbrad</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>mal<b/>tomad</i><par n="absolut/o__adj"/></e>
 <e><i>malencarad</i><par n="absolut/o__adj"/></e>
 <e><i>malgache</i><par n="abundante__adj"/></e>
 <e><i>malhablad</i><par n="absolut/o__adj"/></e>
@@ -110832,10 +110740,6 @@
 <e><i>musicólog</i><par n="absolut/o__adj"/></e>
 <e><i>musti</i><par n="absolut/o__adj"/></e>
 <e><i>musulm</i><par n="alem/án__adj"/></e>
-<e i="yes"><i>muy<b/>brillante</i><par n="abundante__adj"/></e>
-<e i="yes"><i>muy<b/>competente</i><par n="abundante__adj"/></e>
-<e i="yes"><i>muy<b/>práctic</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>muy<b/>válid</i><par n="absolut/o__adj"/></e>
 <e><i>nadador</i><par n="abrumador__adj"/></e>
 <e><i>narizud</i><par n="absolut/o__adj"/></e>
 <e><i>narrador</i><par n="abrumador__adj"/></e>
@@ -110853,7 +110757,6 @@
 <e><i>neurocirujan</i><par n="absolut/o__adj"/></e>
 <e><i>neurólog</i><par n="absolut/o__adj"/></e>
 <e><i>nevad</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>nítric</i><par n="absolut/o__adj"/></e>
 <e><i>non</i><par n="absolut/o__adj"/></e>
 <e><i>normalizador</i><par n="abrumador__adj"/></e>
 <e><i>nostálgic</i><par n="absolut/o__adj"/></e>
@@ -110968,7 +110871,6 @@
 <e><i>pelandrusc</i><par n="absolut/o__adj"/></e>
 <e><i>pelasg</i><par n="absolut/o__adj"/></e>
 <e><i>peleter</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>pelican</i><par n="absolut/o__adj"/></e>
 <e><i>pelícan</i><par n="absolut/o__adj"/></e>
 <e><i>peliculer</i><par n="absolut/o__adj"/></e>
 <e><i>pellejer</i><par n="absolut/o__adj"/></e>
@@ -111099,7 +111001,6 @@
 <e><i>protector</i><par n="abrumador__adj"/></e>
 <e><i>protectorad</i><par n="absolut/o__adj"/></e>
 <e><i>protestador</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>provisor</i><par n="abrumador__adj"/></e>
 <e><i>provist</i><par n="absolut/o__adj"/></e>
 <e><i>provocador</i><par n="abrumador__adj"/></e>
 <e><i>provocativ</i><par n="absolut/o__adj"/></e>
@@ -111204,7 +111105,6 @@
 <e><i>regulador</i><par n="abrumador__adj"/></e>
 <e><i>relajador</i><par n="abrumador__adj"/></e>
 <e><i>relajante</i><par n="abundante__adj"/></e>
-<e i="yes"><i>relambid</i><par n="absolut/o__adj"/></e>
 <e><i>relamid</i><par n="absolut/o__adj"/></e>
 <e><i>relimpi</i><par n="absolut/o__adj"/></e>
 <e><i>relojer</i><par n="absolut/o__adj"/></e>
@@ -111367,7 +111267,6 @@
 <e><i>sermoneador</i><par n="abrumador__adj"/></e>
 <e><i>serrador</i><par n="abrumador__adj"/></e>
 <e><i>servidor</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>sesenta</i><par n="abundante__adj"/></e>
 <e><i>sesent</i><par n="burl/ón__adj"/></e>
 <e><i>sesud</i><par n="absolut/o__adj"/></e>
 <e><i>setembrin</i><par n="absolut/o__adj"/></e>
@@ -111465,10 +111364,8 @@
 <e><i>talcos</i><par n="absolut/o__adj"/></e>
 <e><i>talentos</i><par n="absolut/o__adj"/></e>
 <e><i>tallud</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>tamizad</i><par n="absolut/o__adj"/></e>
 <e><i>tanzan</i><par n="absolut/o__adj"/></e>
 <e><i>tapicer</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>taponad</i><par n="absolut/o__adj"/></e>
 <e><i>taquígraf</i><par n="absolut/o__adj"/></e>
 <e><i>tardí</i><par n="absolut/o__adj"/></e>
 <e><i>tard</i><par n="burl/ón__adj"/></e>
@@ -111558,10 +111455,8 @@
 <e><i>transportista</i><par n="abundante__adj"/></e>
 <e><i>trapacer</i><par n="absolut/o__adj"/></e>
 <e><i>trapicher</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>trasalpin</i><par n="absolut/o__adj"/></e>
 <e><i>trasandin</i><par n="absolut/o__adj"/></e>
 <e><i>trasegador</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>traslad</i><par n="absolut/o__adj"/></e>
 <e><i>traslúcid</i><par n="absolut/o__adj"/></e>
 <e><i>trasnochador</i><par n="abrumador__adj"/></e>
 <e><i>traste</i><par n="abundante__adj"/></e>
@@ -111591,7 +111486,6 @@
 <e><i>tupid</i><par n="absolut/o__adj"/></e>
 <e><i>turbad</i><par n="absolut/o__adj"/></e>
 <e><i>turista</i><par n="abundante__adj"/></e>
-<e i="yes"><i>turuta</i><par n="abundante__adj"/></e>
 <e><i>ultramarin</i><par n="absolut/o__adj"/></e>
 <e><i>umbr</i><par n="absolut/o__adj"/></e>
 <e><i>umbros</i><par n="absolut/o__adj"/></e>
@@ -111624,11 +111518,7 @@
 <e><i>vecinder</i><par n="absolut/o__adj"/></e>
 <e><i>vedad</i><par n="absolut/o__adj"/></e>
 <e><i>veigalin</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>veinte</i><par n="abundante__adj"/></e>
-<e i="yes"><i>veinticinco</i><par n="bocazas__adj"/></e>
-<e i="yes"><i>veinticuatro</i><par n="bocazas__adj"/></e>
 <e><i>veintidosav</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>veintiocho</i><par n="bocazas__adj"/></e>
 <e><i>veintisiete</i><par n="abundante__adj"/></e>
 <e><i>vejestori</i><par n="absolut/o__adj"/></e>
 <e><i>velar</i><par n="actual__adj"/></e>
@@ -111674,7 +111564,6 @@
 <e><i>vivales</i><par n="bocazas__adj"/></e>
 <e><i>viva</i><par n="atro/z__adj"/></e>
 <e><i>vividor</i><par n="abrumador__adj"/></e>
-<e i="yes"><i>voceador</i><par n="abrumador__adj"/></e>
 <e><i>voceras</i><par n="bocazas__adj"/></e>
 <e><i>volador</i><par n="abrumador__adj"/></e>
 <e><i>vulcanólog</i><par n="absolut/o__adj"/></e>
@@ -111720,14 +111609,12 @@
 <e><i>orej</i><par n="burl/ón__adj"/></e>
 <e><i>oíd</i><par n="absolut/o__adj"/></e>
 <e><i>paragógic</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>regoz</i><par n="burl/ón__adj"/></e>
 <e><i>reproductiv</i><par n="absolut/o__adj"/></e>
 <e><i>repuest</i><par n="absolut/o__adj"/></e>
 <e><i>verdial</i><par n="bailar/ín__adj"/></e>
 <e><i>aguacil</i><par n="actual__adj"/></e>
 <e><i>cuidad</i><par n="absolut/o__adj"/></e>
 <e><i>cocinad</i><par n="absolut/o__adj"/></e>
-<e i="yes"><i>culazo</i><par n="macho__adj"/></e>
 <e><i>dependiente</i><par n="abundante__adj"/></e>
 <e><i>rococó</i><par n="abundante__adj"/></e>
 <e><i>azad</i><par n="absolut/o__adj"/></e>
