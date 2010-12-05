@@ -25,6 +25,8 @@
 dev/asturian.freqlist.txt -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
+dev/testvoc-summary.ast-es.txt -text
+dev/testvoc-summary.es-ast.txt -text
 dev/testvoc.sh -text
 /es-ast-unsupervised.make -text
 /es-ast.prob -text svneol=unset#unset
