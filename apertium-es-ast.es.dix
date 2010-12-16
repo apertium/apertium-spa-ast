@@ -72220,6 +72220,32 @@
       </p>
     </e>
   </pardef>
+  <pardef n="el_cual__rel">
+    <e>
+      <p>
+        <l>,<b/>el<b/>cual</l>
+        <r><s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>,<b/>la<b/>cual</l>
+        <r><s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>,<b/>los<b/>cuales</l>
+        <r><s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>,<b/>las<b/>cuales</l>
+        <r><s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+  </pardef>
   <pardef n="que__rel">
     <e>
       <p>
@@ -74874,9 +74900,8 @@
 <e r="RL"><p><l><a/>dónde<b/>está</l><r>dónde<b/>está</r></p><par n="adónde__adv"/></e>
 <e><i>¿dónde<b/>está</i><par n="adónde__adv"/></e>
 
-<e><p><l>gracias<b/>a</l><r>gracias<b/>a<s n="cnjadv"/></r></p></e>
-<e><p><l>junto<b/>a</l><r>junto<b/>a<s n="cnjadv"/></r></p></e>	
-<e><p><l>pese<b/>a<b/>que</l><r>pese<b/>a<b/>que<s n="cnjadv"/></r></p></e>    
+  
+
 
 <e><i>empero</i><par n="aun__cnjadv"/></e>
 
@@ -77960,7 +77985,7 @@
 <e><i>v</i><par n="v/enir__vblex"/></e>
 <e><i>v</i><par n="v/er__vblex"/></e>
 <e><i>v</i><par n="v/estir__vblex"/></e>
-<e><i>inv</i><par n="v/estir__vblex"/></e>
+
 <e><i>v</i><par n="v/olcar__vblex"/></e>
 <e><i>vis</i><par n="abandon/ar__vblex"/></e>
 <e><i>visit</i><par n="abandon/ar__vblex"/></e>
@@ -79763,7 +79788,7 @@
 <e r="LR"><i>bot</i><par n="abandon/ar__vblex"/></e>
 <e><i>cund</i><par n="abat/ir__vblex"/></e>
 <e r="LR"><i>desbro</i><par n="abra/zar__vblex"/></e>
-<e r="LR"><i>inv</i><par n="v/estir__vblex"/></e>
+
 <e><i>mim</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>nomin</i><par n="abandon/ar__vblex"/></e>
 <e><i>person</i><par n="abandon/ar__vblex"/></e>
@@ -79773,7 +79798,7 @@
 <e><i>regl</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>repost</i><par n="abandon/ar__vblex"/></e>
 <e><i>reseñ</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>respect</i><par n="abandon/ar__vblex"/></e>
+<e><i>respect</i><par n="abandon/ar__vblex"/></e>
 <e><i>rezag</i><par n="agreg/ar__vblex"/></e>
 <e><i>r</i><par n="c/eñir__vblex"/></e>
 <e><i>sobrellev</i><par n="abandon/ar__vblex"/></e>
@@ -79826,7 +79851,7 @@
 <e><p><l>régl</l><r>regl</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>repóst</l><r>repost</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>reséñ</l><r>reseñ</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>respéct</l><r>respect</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>respéct</l><r>respect</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>rezág</l><r>rezag</r></p><par n="agrég/ar__vblex"/></e>
 <e><p><l>sobrellév</l><r>sobrellev</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>solá</l><r>sola</r></p><par n="abrá/zar__vblex"/></e>
@@ -85863,11 +85888,7 @@
 <e><i>Barro</i><par n="Muxia__np"/></e>
 <e><i>Bayo</i><par n="Muxia__np"/></e>
 <e><i>Begega</i><par n="Muxia__np"/></e>
-<e><i>,<b/>el<b/>cual</i><par n="cual__rel"/></e>
-<e><i>,<b/>la<b/>cual</i><par n="cual__rel"/></e>
-<e><i>,<b/>lo<b/>cual</i><par n="cual__rel"/></e>
-<e><i>,<b/>los<b/>cual</i><par n="cual__rel"/></e>
-<e><i>,<b/>las<b/>cual</i><par n="cual__rel"/></e>
+<e><i/><par n="el_cual__rel"/></e>
 <e><i>Belmonte<b/>de<b/>Miranda</i><par n="Muxia__np"/></e>
 <e><i>,<b/>en<b/>especial</i><par n="abajo__adv"/></e>
 <e><i>Bernueces</i><par n="Muxia__np"/></e>
@@ -111653,7 +111674,9 @@
 <e><i>ñu</i><par n="abandono__n"/></e>
 <e><i>imbatibilidad</i><par n="a__n"/></e>
 <e><i>por<b/>ahí</i><par n="abajo__adv"/></e>
-
+<e><p><l>gracias<b/>a</l><r>gracias<b/>a<s n="cnjadv"/></r></p></e>
+<e><p><l>junto<b/>a</l><r>junto<b/>a<s n="cnjadv"/></r></p></e>	
+<e><p><l>pese<b/>a<b/>que</l><r>pese<b/>a<b/>que<s n="cnjadv"/></r></p></e> 
 </section>
 <section id="final" type="inconditional">
     <e><par n="separa"/></e>
