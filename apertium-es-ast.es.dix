@@ -74633,6 +74633,7 @@
 
 <e><i>CAF</i><par n="EEUU__n"/></e>
 <e><i>EEUU</i><par n="EEUU__n"/></e>
+<e><i>EE.UU.</i><par n="EEUU__n"/></e>
 <e><i>DOGA</i><par n="IVE__n"/></e>
 <e><i>PSC</i><par n="IVE__n"/></e>
 <e><i>DVD</i><par n="IVE__n"/></e>
@@ -75528,6 +75529,7 @@
 <e><i>en<b/>caso<b/>alguno</i><par n="abajo__adv"/></e>
 <e><i>en<b/>cierta<b/>ocasión</i><par n="abajo__adv"/></e>
 <e><i>en<b/>cierto<b/>modo</i><par n="abajo__adv"/></e>
+<e><i>¿no<b/>es<b/>cierto</i><par n="abajo__adv"/></e>
 <e><i>en<b/>coche</i><par n="abajo__adv"/></e>
 <e><i>en<b/>consonancia</i><par n="abajo__adv"/></e>
 <e><i>en<b/>contra<b/>del<b/>reo</i><par n="abajo__adv"/></e>
@@ -75959,6 +75961,7 @@
 <e><i>y<b/>pico</i><par n="abajo__adv"/></e>
 <e><i>pelillos<b/>a<b/>la<b/>mar</i><par n="abajo__adv"/></e>
 <e><i>a<b/>donde</i><par n="abajo__adv"/></e>
+<e><i>a<b/>donde<b/>así</i><par n="abajo__adv"/></e>
 <e><i>a<b/>horcajadas</i><par n="abajo__adv"/></e>
 <e><i>a<b/>la<b/>buena<b/>de<b/>Dios</i><par n="abajo__adv"/></e>
 <e r="LR"><i>a<b/>lo<b/>lejos</i><par n="abajo__adv"/></e>
@@ -77957,6 +77960,7 @@
 <e><i>v</i><par n="v/enir__vblex"/></e>
 <e><i>v</i><par n="v/er__vblex"/></e>
 <e><i>v</i><par n="v/estir__vblex"/></e>
+<e><i>inv</i><par n="v/estir__vblex"/></e>
 <e><i>v</i><par n="v/olcar__vblex"/></e>
 <e><i>vis</i><par n="abandon/ar__vblex"/></e>
 <e><i>visit</i><par n="abandon/ar__vblex"/></e>
@@ -79734,11 +79738,11 @@
 <e><p><l>vót</l><r>vot</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>vulnér</l><r>vulner</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>yá</l><r>ya</r></p><par n="agradé/cer__vblex"/></e>
-<e r="LR"><i>achuch</i><par n="abandon/ar__vblex"/></e>
+<e><i>achuch</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>achul</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>acoch</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>acolchon</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>acoll</i><par n="abandon/ar__vblex"/></e>
+<e><i>acoch</i><par n="abandon/ar__vblex"/></e>
+<e><i>acolchon</i><par n="abandon/ar__vblex"/></e>
+<e><i>acoll</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>adeud</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>adicion</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>adiner</i><par n="abandon/ar__vblex"/></e>
@@ -79749,12 +79753,12 @@
 <e r="LR"><i>aguijone</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>aguijon</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>ahin</i><par n="abar/car__vblex"/></e>
-<e r="LR"><i>ahit</i><par n="abandon/ar__vblex"/></e>
+<e><i>ahit</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>ahond</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>ahue</i><par n="abar/car__vblex"/></e>
+<e><i>ahue</i><par n="abar/car__vblex"/></e>
 <e r="LR"><i>apacigu</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>apale</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>atras</i><par n="abandon/ar__vblex"/></e>
+<e><i>apale</i><par n="abandon/ar__vblex"/></e>
+<e><i>atras</i><par n="abandon/ar__vblex"/></e>
 <e><i>aup</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>bot</i><par n="abandon/ar__vblex"/></e>
 <e><i>cund</i><par n="abat/ir__vblex"/></e>
@@ -79766,33 +79770,33 @@
 <e r="LR"><i>posicion</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>rebas</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>recab</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>regl</i><par n="abandon/ar__vblex"/></e>
+<e><i>regl</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>repost</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>reseñ</i><par n="abandon/ar__vblex"/></e>
+<e><i>reseñ</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>respect</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>rezag</i><par n="agreg/ar__vblex"/></e>
+<e><i>rezag</i><par n="agreg/ar__vblex"/></e>
 <e><i>r</i><par n="c/eñir__vblex"/></e>
-<e r="LR"><i>sobrellev</i><par n="abandon/ar__vblex"/></e>
+<e><i>sobrellev</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>sola</i><par n="abra/zar__vblex"/></e>
 <e r="LR"><i>solvent</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>subsan</i><par n="abandon/ar__vblex"/></e>
 <e><i>surt</i><par n="abat/ir__vblex"/></e>
 <e r="LR"><i>suscri</i><par n="suscri/bir__vblex"/></e>
 <e><i>tal</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>tild</i><par n="abandon/ar__vblex"/></e>
+<e><i>tild</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>tim</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>trasform</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>trasmit</i><par n="abat/ir__vblex"/></e>
 <e><i>trasport</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>ubi</i><par n="abar/car__vblex"/></e>
-<e r="LR"><i>vole</i><par n="abandon/ar__vblex"/></e>
+<e><i>vole</i><par n="abandon/ar__vblex"/></e>
 <e r="LR"><i>zanj</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><i>zarp</i><par n="abandon/ar__vblex"/></e>
-<e r="LR"><p><l>achúch</l><r>achuch</r></p><par n="abandón/ar__vblex"/></e>
+<e><i>zarp</i><par n="abandon/ar__vblex"/></e>
+<e><p><l>achúch</l><r>achuch</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>achúl</l><r>achul</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>acóch</l><r>acoch</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>acolchón</l><r>acolchon</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>acóll</l><r>acoll</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>acóch</l><r>acoch</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>acolchón</l><r>acolchon</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>acóll</l><r>acoll</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>adéud</l><r>adeud</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>adición</l><r>adicion</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>adiéstr</l><r>adiestr</r></p><par n="abandón/ar__vblex"/></e>
@@ -79803,13 +79807,13 @@
 <e r="LR"><p><l>aguijoné</l><r>aguijone</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>aguijón</l><r>aguijon</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>ahín</l><r>ahin</r></p><par n="abár/car__vblex"/></e>
-<e r="LR"><p><l>ahít</l><r>ahit</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>ahít</l><r>ahit</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>ahónd</l><r>ahond</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>ahué</l><r>ahue</r></p><par n="abár/car__vblex"/></e>
+<e><p><l>ahué</l><r>ahue</r></p><par n="abár/car__vblex"/></e>
 <e r="LR"><p><l>apacígu</l><r>apacigu</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>apalé</l><r>apale</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>apalé</l><r>apale</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>apíñ</l><r>apiñ</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>atrás</l><r>atras</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>atrás</l><r>atras</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>aúp</l><r>aup</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>bót</l><r>bot</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>chulé</l><r>chule</r></p><par n="abandón/ar__vblex"/></e>
@@ -79819,27 +79823,27 @@
 <e r="LR"><p><l>posición</l><r>posicion</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>rebás</l><r>rebas</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>recáb</l><r>recab</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>régl</l><r>regl</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>régl</l><r>regl</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>repóst</l><r>repost</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>reséñ</l><r>reseñ</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>reséñ</l><r>reseñ</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>respéct</l><r>respect</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>rezág</l><r>rezag</r></p><par n="agrég/ar__vblex"/></e>
-<e r="LR"><p><l>sobrellév</l><r>sobrellev</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>rezág</l><r>rezag</r></p><par n="agrég/ar__vblex"/></e>
+<e><p><l>sobrellév</l><r>sobrellev</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>solá</l><r>sola</r></p><par n="abrá/zar__vblex"/></e>
 <e r="LR"><p><l>solvént</l><r>solvent</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>subsán</l><r>subsan</r></p><par n="abandón/ar__vblex"/></e>
 <e><p><l>súrt</l><r>surt</r></p><par n="abát/ir__vblex"/></e>
 <e r="LR"><p><l>suscrí</l><r>suscri</r></p><par n="descrí/bir__vblex"/></e>
 <e r="LR"><p><l>tál</l><r>tal</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>tíld</l><r>tild</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>tíld</l><r>tild</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>tím</l><r>tim</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>trasfórm</l><r>trasform</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>trasmít</l><r>trasmit</r></p><par n="abát/ir__vblex"/></e>
 <e><p><l>traspórt</l><r>trasport</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>ubí</l><r>ubi</r></p><par n="abár/car__vblex"/></e>
-<e r="LR"><p><l>volé</l><r>vole</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>volé</l><r>vole</r></p><par n="abandón/ar__vblex"/></e>
 <e r="LR"><p><l>zanj</l><r>zanj</r></p><par n="abandón/ar__vblex"/></e>
-<e r="LR"><p><l>zárp</l><r>zarp</r></p><par n="abandón/ar__vblex"/></e>
+<e><p><l>zárp</l><r>zarp</r></p><par n="abandón/ar__vblex"/></e>
 <e r="RL"><i>s</i><par n="s/entar__vblex"/></e>
 <e><i>apos</i><par n="s/entar__vblex"/></e>
     
@@ -85502,7 +85506,7 @@
 <e><i>achuch</i><par n="avi/ón__n"/></e>
 <e><i>aclar</i><par n="avi/ón__n"/></e>
 <e r="LR"><i>aeróstato</i><par n="abandono__n"/></e>
-<e r="LR"><i>ano</i><par n="abandono__n"/></e>
+<e><i>ano</i><par n="abandono__n"/></e>
 <e><i>bob</i><par n="abogad/o__n"/></e>
 <e><i>cántiga</i><par n="abundancia__n"/></e>
 <e><i>cetárea</i><par n="abundancia__n"/></e>
@@ -85713,7 +85717,6 @@
 <e><i>acantes</i><par n="abandon/ar__vblex"/></e>
 <e><i>acaramban</i><par n="abandon/ar__vblex"/></e>
 <e><i>acerca<b/>de</i><par n="abajo__adv"/></e>
-<e><i>ácide</i><par n="actri/z__n"/></e>
 <e><i>aclam</i><par n="abandon/ar__vblex"/></e>
 <e><i>ad<b/>cuadrantum</i><par n="abajo__adv"/></e>
 <e><i>ad<b/>interim</i><par n="abajo__adv"/></e>
@@ -86025,7 +86028,7 @@
 <e><i>Colunga</i><par n="Muxia__np"/></e>
 <e><i>como<b/>a<b/>los<b/>ojos<b/>de<b/>su<b/>cara</i><par n="abajo__adv"/></e>
 <e><i>como<b/>alma<b/>que<b/>lleva<b/>el<b/>diablo</i><par n="abajo__adv"/></e>
-<e><i>¿cómo<b/>es<b/>que<b/>...</i><par n="abajo__adv"/></e>
+<e i="yes"><i>¿cómo<b/>es<b/>que<b/>...</i><par n="abajo__adv"/></e>
 <e><i>cómo<b/>no</i><par n="abajo__adv"/></e>
 <e><i>¡cómo<b/>que<b/>no!</i><par n="abajo__adv"/></e>
 <e><i>como<b/>quiera<b/>que<b/>sea</i><par n="abajo__adv"/></e>
@@ -86613,7 +86616,7 @@
 <e><i>¡ni<b/>hablar!</i><par n="abajo__adv"/></e>
 <e><i>ni<b/>pincha<b/>ni<b/>corta</i><par n="abajo__adv"/></e>
 <e><i>ni<b/>que<b/>niño<b/>muerto</i><par n="abajo__adv"/></e>
-<e><i>no<b/>bien,</i><par n="abajo__adv"/></e>
+
 <e><i>no<b/>en<b/>vano</i><par n="abajo__adv"/></e>
 <e><i>¡no<b/>me<b/>digas!</i><par n="abajo__adv"/></e>
 <e><i>no<b/>obstante,</i><par n="abajo__adv"/></e>
@@ -87642,6 +87645,7 @@
 <e><i>hurra</i><par n="Sniff__ij"/></e>
 <e><i>oh</i><par n="Sniff__ij"/></e>
 <e><i>ojalá<b/>que</i><par n="Sniff__ij"/></e>
+<e><i>ojalá</i><par n="Sniff__ij"/></e>
 <e><i>olé</i><par n="Sniff__ij"/></e>
 <e><i>ostras</i><par n="Sniff__ij"/></e>
 <e><i>puf</i><par n="Sniff__ij"/></e>
@@ -111648,7 +111652,6 @@
 <e><i>ñandú</i><par n="dos__n"/></e>
 <e><i>ñu</i><par n="abandono__n"/></e>
 <e><i>imbatibilidad</i><par n="a__n"/></e>
-<e><i>etc.</i><par n="bocazas__adj"/></e>
 <e><i>por<b/>ahí</i><par n="abajo__adv"/></e>
 
 </section>
