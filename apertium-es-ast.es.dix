@@ -72224,25 +72224,25 @@
     <e>
       <p>
         <l>,<b/>el<b/>cual</l>
-        <r><s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r>
+        <r>,<b/>el<b/>cual<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>,<b/>la<b/>cual</l>
-        <r><s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r>
+        <r>,<b/>el<b/>cual<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>,<b/>los<b/>cuales</l>
-        <r><s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r>
+        <r>,<b/>el<b/>cual<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>,<b/>las<b/>cuales</l>
-        <r><s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r>
+        <r>,<b/>el<b/>cual<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
   </pardef>
@@ -86128,7 +86128,6 @@
 <e><i>¡de<b/>ninguna<b/>manera!</i><par n="abajo__adv"/></e>
 <e><i>¡de<b/>ningún<b/>modo!</i><par n="abajo__adv"/></e>
 <e><i>de<b/>oído</i><par n="abajo__adv"/></e>
-<e><i>de<b/>otro<b/>modo,</i><par n="abajo__adv"/></e>
 <e><i>de<b/>otro</i><par n="abajo__adv"/></e>
 <e><i>de<b/>padre<b/>y<b/>muy<b/>señor<b/>mío</i><par n="abajo__adv"/></e>
 <e><i>de<b/>rechupete</i><par n="abajo__adv"/></e>
@@ -111676,7 +111675,9 @@
 <e><i>por<b/>ahí</i><par n="abajo__adv"/></e>
 <e><p><l>gracias<b/>a</l><r>gracias<b/>a<s n="cnjadv"/></r></p></e>
 <e><p><l>junto<b/>a</l><r>junto<b/>a<s n="cnjadv"/></r></p></e>	
-<e><p><l>pese<b/>a<b/>que</l><r>pese<b/>a<b/>que<s n="cnjadv"/></r></p></e> 
+<e><p><l>pese<b/>a<b/>que</l><r>pese<b/>a<b/>que<s n="cnjadv"/></r></p></e>
+<e><p><l>pese<b/>a</l><r>pese<b/>a<s n="cnjadv"/></r></p></e>
+
 </section>
 <section id="final" type="inconditional">
     <e><par n="separa"/></e>
