@@ -14,7 +14,7 @@ TARGETS_COMMON =  \
      $(PREFIX1).t1x.bin \
      $(PREFIX1).post.t1x.bin \
      $(PREFIX2).t1x.bin
-    
+
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix 
 	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
@@ -99,7 +99,7 @@ clean-dicts:
 #	rm $(BASENAME).$(LANG1).dix
 #	rm $(BASENAME).$(LANG2).dix
 #	rm $(BASENAME).$(PREFIX1).dix
-	
+
 apertium_es_astdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
 
@@ -124,17 +124,17 @@ apertium_es_ast_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 					$(PREFIX1).mode modes.xml 
 					$(LANG1)-pn.dat $(LANG2)-pn.dat
 #  $(PREFIX2).mode
-		  
+
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_es_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_es_modesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(apertium_es_astdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(PREFIX1).t1x $(apertium_es_astdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(apertium_es_astdir)
-	$(INSTALL_DATA) $(PREFIX1)-pn.mode $(apertium_es_modesdir)
-	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(apertium_es_modesdir)
-#	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_es_modesdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_es_astdir)
+	$(INSTALL_DATA) $(BASENAME).post-$(PREFIX1).t1x $(DESTDIR)$(apertium_es_astdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_es_astdir)
+	$(INSTALL_DATA) $(PREFIX1)-pn.mode $(DESTDIR)$(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(DESTDIR)$(apertium_es_modesdir)
+#	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_es_modesdir)
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes *~
 
