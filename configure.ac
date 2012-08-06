@@ -45,15 +45,6 @@ AC_DEFUN([PKG_CHECK_APERTIUM], [
 
 
 
-
-AC_CHECK_PROG(PN_RECOGNISER,apertium-pn-recogniser,yes,no)
-      if test x$PN_RECOGNISER = xno
-      then
-        AC_MSG_ERROR([You don't have apertium-pn-recogniser installed.])
-      fi                      
-PKG_CHECK_APERTIUM
-
-
 AC_SUBST(APERTIUM_VER)
 
 AC_OUTPUT([Makefile])
