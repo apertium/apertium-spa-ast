@@ -31993,10 +31993,24 @@ y te le hayas caído -> y cayéras-y
                   <clip pos="1" side="sl" part="lem"/>
                   <list n="pces"/>
                 </in>
-                <equal caseless="yes"> 
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="se"/>
-              </equal>
+                <or>
+                  <equal caseless="yes"> 
+                    <clip pos="2" side="sl" part="lem"/>
+                    <lit v="se"/>
+                  </equal>
+                  <and>
+                    <not>
+                      <equal caseless="yes"> 
+                        <clip pos="2" side="sl" part="lem"/>
+                        <lit v="se"/>
+                      </equal>
+                    </not>
+                    <equal caseless="yes">
+                      <clip pos="2" side="sl" part="nbr"/>
+                      <clip pos="4" side="sl" part="nbr"/>
+                    </equal>
+                  </and>
+                </or>
                 <not>
                 <equal caseless="yes"> 
                 <clip pos="3" side="sl" part="lem"/>
@@ -32180,109 +32194,6 @@ y te le hayas caído -> y cayéras-y
             </call-macro>
           </when>          
  
-
-
-        <when>
-            <test>
-              <and>
-                <in caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <list n="pces"/>
-                </in>
-                <not>
-                <equal caseless="yes"> 
-                <clip pos="2" side="sl" part="lem"/>
-                <lit v="se"/>
-              </equal>
-               </not>
-                <not>
-                <equal caseless="yes"> 
-                <clip pos="3" side="sl" part="lem"/>
-                <lit v="le"/>
-              </equal>
-                </not>
-                  <not>
-                <equal caseless="yes"> 
-                <clip pos="3" side="sl" part="lem"/>
-                <lit v="lo"/>
-              </equal>
-                </not>
-              <in caseless="yes">
-                  <clip pos="5" side="sl" part="lem"/>
-                  <list n="intransitivos"/>
-                </in>
-                <not>
-                <in caseless="yes">
-                  <clip pos="5" side="sl" part="lem"/>
-                  <list n="reflexivos"/>
-                </in>
-                </not>
-               <equal caseless="yes">
-                  <clip pos="2" side="sl" part="persona"/>
-                  <clip pos="4" side="sl" part="persona"/>
-                </equal>
-               <equal caseless="yes">
-                  <clip pos="2" side="sl" part="nbr"/>
-                  <clip pos="4" side="sl" part="nbr"/>
-                </equal>
-	
-                <equal caseless="yes">
-                  <clip pos="4" side="sl" part="temps"/>
-                  <lit-tag v="pri"/>
-                </equal>
-                <equal caseless="yes">
-                  <clip pos="5" side="sl" part="temps"/>
-                  <lit-tag v="pp"/>
-                </equal>
-                <or>
-                <equal caseless="yes">
-                  <clip pos="5" side="sl" part="gen"/>
-                  <lit-tag v="m"/>
-                </equal>
-                 <equal caseless="yes">
-                  <clip pos="5" side="sl" part="gen"/>
-                  <lit-tag v="mf"/>
-                </equal>
-                </or>
-                <or>
-                <equal caseless="yes">
-                  <clip pos="5" side="sl" part="nbr"/>
-                  <lit-tag v="sg"/>
-                </equal>
-                <equal caseless="yes">
-                  <clip pos="5" side="sl" part="nbr"/>
-                  <lit-tag v="sp"/>
-                </equal>
-               </or>
-              </and>
-            </test>
-            <out>
-	     <lu>
-                <clip pos="1" side="tl" part="whole"/> 
-              </lu> 
-             
-              <b/>	
-              <lu>
-                <clip pos="3" side="tl" part="whole"/> 
-              </lu> 
-              <b/>				  
-              <lu>
-                <clip pos="5" side="tl" part="lemh"/>
-                <clip pos="5" side="sl" part="a_verb"/>
-                <lit-tag v="ifi"/>
-                <clip pos="4" side="sl" part="persona"/>
-                <clip pos="4" side="sl" part="nbr"/>
-                <clip pos="5" side="tl" part="lemq"/>
-              </lu>
-            </out>
-            <call-macro n="f_bcond">
-              <with-param pos="4"/>
-              <with-param pos="5"/>
-            </call-macro>
-          </when>          
-
-
-
            <when>
             <test>
               <and>
