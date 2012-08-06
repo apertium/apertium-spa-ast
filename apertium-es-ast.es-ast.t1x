@@ -4828,8 +4828,26 @@
       </choose>
     </def-macro>
 
-
-
+    <def-macro n="no_nun" npar="1">
+      <choose>
+	<when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="no"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="nun"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="tags"/>
+            <lit-tag v="adv"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
 
       <!--To determine value of variables of gender and number and propagate to other rules. Variables are not used again in this rule -->
 
