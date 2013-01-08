@@ -103,14 +103,6 @@ clean-dicts:
 apertium_es_astdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
 
-$(PREFIX1).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-$(PREFIX2).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
 apertium_es_ast_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
                     $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
@@ -121,12 +113,22 @@ apertium_es_ast_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 					$(PREFIX1).t1x.bin \
 					$(PREFIX1).post.t1x.bin \
 					$(PREFIX2).t1x.bin \
-					$(PREFIX1).mode modes.xml 
+					modes.xml 
 					$(LANG1)-pn.dat $(LANG2)-pn.dat
-#  $(PREFIX2).mode
+
+modes/$(PREFIX1).mode: modes.xml 
+	apertium-validate-modes modes.xml
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
+
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
 
 install-data-local:
+	mv modes modes.bak
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
+	rm -rf modes
+	mv modes.bak modes
 	test -d $(DESTDIR)$(apertium_es_modesdir) || mkdir $(DESTDIR)$(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_es_modesdir)
@@ -135,7 +137,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_es_astdir)
 	$(INSTALL_DATA) $(PREFIX1)-pn.mode $(DESTDIR)$(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(DESTDIR)$(apertium_es_modesdir)
-#	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_es_modesdir)
+	rm $(PREFIX1).mode $(PREFIX2).mode $(PREFIX1)-pn.mode $(PREFIX2)-pn.mode
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes *~
 
