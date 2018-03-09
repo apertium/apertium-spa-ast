@@ -1,29 +1,86 @@
-Spanish and Asturian
-===================================================================
+Asturian and Spanish (`apertium-spa-ast`)
+===============================================================================
 
-You need apertium-3.1.0 and lttoolbox-3.0.0 to use this translator. To compile
-the linguistic data simply do:
+This is an Apertium language pair for translating between Asturian and 
+Spanish. What you can use this language package for:
 
-./configure [ --prefix=/path/to/your/dir ]
-make
-make install
+* Translating between Asturian and Spanish
+* Morphological analysis of Asturian and Spanish
+* Part-of-speech tagging of Asturian and Spanish
 
-inside of this directory.
+For information on the latter two points, see subheading "For more 
+information" below
 
-FORMAT
+Requirements
+===============================================================================
 
-All linguistic data is in UTF-8
+You will need the following software installed:
 
-TAGGER
+* lttoolbox (>= 3.1.2)
+* apertium (>= 3.1.1)
+* vspacg3 (>= 0.9.7.5129)
 
-To use this language-pair package with apertium YOU DO NOT NEED TO
-RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
-both the es-ast and the ast-es translation directions which should be
-acceptable for most applications.
+If this does not make any sense, we recommend you look at: www.apertium.org
 
-===================================================================
+Compiling
+===============================================================================
 
-More information about this module, and others can be found on
-the Apertium: Wiki, http://wiki.apertium.org
+Given the requirements being installed, you should be able to just run:
+```
+$ ./configure 
+$ make
+```
+You can use `./autogen.sh` instead of `./configure` you're compiling from
+git. If you're using a `--prefix` to `./configure`, make sure it's the
+same one you used to install apertium itself.
 
+Testing
+===============================================================================
 
+If you are in the source directory after running make, the following
+commands should work:
+```
+$ echo "Esto es una prueba" | apertium -d . spa-ast
+Esto ye una prueba
+```
+After installing somewhere in $PATH, you should be able to do eg.
+```
+$ echo "Esto es una prueba" | apertium spa-ast
+Esto ye una prueba
+```
+The following command runs tests which are on the Apertium wiki page:
+```
+$ ./regression-tests.sh 
+```
+
+Files and data
+===============================================================================
+
+* `apertium-spa-ast.ast.dix`            - Monolingual dictionary for Asturian
+* `apertium-spa-ast.post-ast.dix`       - Postgeneration dictionary for Asturian
+* `apertium-spa-ast.spa-ast.dix`        - Bilingual dictionary 
+* `apertium-spa-ast.bul.dix`            - Monolingual dictionary for Spanish
+* `apertium-spa-ast.post-bul.dix`       - Postgeneration dictionary for Spanish
+* `apertium-spa-ast.spa-ast.t1x`        - Chunker rules for translating into Spanish
+* `apertium-spa-ast.ast-spa.t1x`        - Chunker rules for translating into Asturian
+* `spa-ast.prob`                        - Tagger model for Asturian
+* `ast-spa.prob`                        - Tagger model for Spanish
+* `modes.xml`                           - Translation modes
+
+For more information
+===============================================================================
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-spa-ast
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+* http://wiki.apertium.org/wiki/Constraint_Grammar
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: `#apertium` on `irc.freenode.net`
+
+See also the file AUTHORS included in this distribution.
