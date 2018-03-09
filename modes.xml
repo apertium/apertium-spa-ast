@@ -1,219 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="ast-es" install="yes">
+  <mode name="spa-ast" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="ast-es.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ast-es.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.ast-es.t1x"/>
-        <file name="ast-es.t1x.bin"/>
-        <file name="ast-es.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ast-es.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
       <program name="lt-proc -c -p">
-        <file name="ast-es.autopgen.bin"/>
+        <file name="spa-ast.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
- <mode name="ast-es-pn" install="yes">
+ <mode name="spa-ast-pn" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="ast-es.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -p -g $2">
-        <file name="ast-es.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.ast-es.t1x"/>
-        <file name="ast-es.t1x.bin"/>
-        <file name="ast-es.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ast-es.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
       <program name="lt-proc -c -p">
-        <file name="ast-es.autopgen.bin"/>
+        <file name="spa-ast.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
- <mode name="es-ast-pn" install="yes">
+ <mode name="spa-ast-pn" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>	  
 	  <!--
       <program name="apertium-tagger -p -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
 	  -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.es-ast.t1x"/>
-        <file name="es-ast.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="apertium-transfer -n">
-        <file name="apertium-es-ast.post-es-ast.t1x"/>
-        <file name="es-ast.post.t1x.bin"/>
+        <file name="apertium-spa-ast.post-spa-ast.t1x"/>
+        <file name="spa-ast.post.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-ast.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
       <program name="lt-proc -c -p">
-        <file name="es-ast.autopgen.bin"/>
+        <file name="spa-ast.autopgen.bin"/>
       </program>
       <program name="lt-proc -c -p ">
-        <file name="es-ast.autopgen2.bin"/>
+        <file name="spa-ast.autopgen2.bin"/>
       </program>
 	<!-- Removes special mark: -->
     </pipeline>
   </mode>
   
-  <mode name="es-ast" install="yes">
+  <mode name="spa-ast" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>  
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.es-ast.t1x"/>
-        <file name="es-ast.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
 	  
       <!-- <program name="apertium-pretransfer"/> -->
 	  
       <program name="apertium-transfer -n">
-		<file name="apertium-es-ast.post-es-ast.t1x"/>
-        <file name="es-ast.post.t1x.bin"/>
+		<file name="apertium-spa-ast.post-spa-ast.t1x"/>
+        <file name="spa-ast.post.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-ast.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
       <program name="lt-proc -c -p">
-        <file name="es-ast.autopgen.bin"/>
+        <file name="spa-ast.autopgen.bin"/>
       </program>
       <program name="lt-proc -c -p ">
-        <file name="es-ast.autopgen2.bin"/>
+        <file name="spa-ast.autopgen2.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ast-es-anmor">
+  <mode name="spa-ast-anmor">
     <pipeline>
       <program name="lt-proc">
-        <file name="ast-es.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ast-es-tagger">
+  <mode name="spa-ast-tagger">
     <pipeline>
       <program name="lt-proc">
-        <file name="ast-es.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ast-es.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="ast-es-pretransfer">
+  <mode name="spa-ast-pretransfer">
     <pipeline>
       <program name="lt-proc">
-        <file name="ast-es.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -p -g $2">
-        <file name="ast-es.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="ast-es-transfer">
+  <mode name="spa-ast-transfer">
     <pipeline>
       <program name="lt-proc">
-        <file name="ast-es.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ast-es.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.ast-es.t1x"/>
-        <file name="ast-es.t1x.bin"/>
-        <file name="ast-es.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ast-es-gen">
+  <mode name="spa-ast-gen">
     <pipeline>
       <program name="lt-proc">
-        <file name="ast-es.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ast-es.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.ast-es.t1x"/>
-        <file name="ast-es.t1x.bin"/>
-        <file name="ast-es.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ast-es.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
   
 
-  <mode name="es-ast-anmor">
+  <mode name="spa-ast-anmor">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="es-ast-tagger">
+  <mode name="spa-ast-tagger">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="es-ast-pretransfer">
+  <mode name="spa-ast-pretransfer">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
 	  
 	  <!--Proper noun recogniser: -->
@@ -221,130 +221,130 @@
     </pipeline>
   </mode>
 
-  <mode name="es-ast-transfer">
+  <mode name="spa-ast-transfer">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.es-ast.t1x"/>
-        <file name="es-ast.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-ast-transfer-post">
+  <mode name="spa-ast-transfer-post">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.es-ast.t1x"/>
-        <file name="es-ast.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="apertium-transfer">
-		<file name="apertium-es-ast.post-es-ast.t1x"/>
-        <file name="es-ast.post.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+		<file name="apertium-spa-ast.post-spa-ast.t1x"/>
+        <file name="spa-ast.post.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-ast-gen">
+  <mode name="spa-ast-gen">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.es-ast.t1x"/>
-        <file name="es-ast.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="apertium-transfer -n">
-	<file name="apertium-es-ast.post-es-ast.t1x"/>
-        <file name="es-ast.post.t1x.bin"/>
+	<file name="apertium-spa-ast.post-spa-ast.t1x"/>
+        <file name="spa-ast.post.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-ast.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-ast-postgen-int">
+  <mode name="spa-ast-postgen-int">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.es-ast.t1x"/>
-        <file name="es-ast.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="apertium-transfer -n">
-	<file name="apertium-es-ast.post-es-ast.t1x"/>
-        <file name="es-ast.post.t1x.bin"/>
+	<file name="apertium-spa-ast.post-spa-ast.t1x"/>
+        <file name="spa-ast.post.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-ast.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
       <program name="lt-proc -c -p ">
-        <file name="es-ast.autopgen.bin"/>
+        <file name="spa-ast.autopgen.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-ast.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-ast-postgen">
+  <mode name="spa-ast-postgen">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ast.automorf.bin"/>
+        <file name="spa-ast.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ast.prob"/>
+        <file name="spa-ast.prob"/>
       </program>
 	  <!--Proper noun recogniser: -->
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-ast.es-ast.t1x"/>
-        <file name="es-ast.t1x.bin"/>
-        <file name="es-ast.autobil.bin"/>
+        <file name="apertium-spa-ast.spa-ast.t1x"/>
+        <file name="spa-ast.t1x.bin"/>
+        <file name="spa-ast.autobil.bin"/>
       </program>
       <program name="apertium-transfer -n">
-	<file name="apertium-es-ast.post-es-ast.t1x"/>
-        <file name="es-ast.post.t1x.bin"/>
+	<file name="apertium-spa-ast.post-spa-ast.t1x"/>
+        <file name="spa-ast.post.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-ast.autogen.bin"/>
+        <file name="spa-ast.autogen.bin"/>
       </program>
       <program name="lt-proc -c -p ">
-        <file name="es-ast.autopgen.bin"/>
+        <file name="spa-ast.autopgen.bin"/>
       </program>
       <program name="lt-proc -c -p ">
-        <file name="es-ast.autopgen2.bin"/>
+        <file name="spa-ast.autopgen2.bin"/>
       </program>
 	  <!-- Removes special mark: -->
     </pipeline>
