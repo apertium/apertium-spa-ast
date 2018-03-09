@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="spa-ast" install="yes">
+  <mode name="spa-ast-old" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="spa-ast.automorf.bin"/>
@@ -23,7 +23,7 @@
     </pipeline>
   </mode>
 
- <mode name="spa-ast-pn" install="yes">
+ <mode name="spa-ast-pn-old" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="spa-ast.automorf.bin"/>
@@ -116,38 +116,6 @@
     </pipeline>
   </mode>
 
-  <mode name="spa-ast-anmor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="spa-ast.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="spa-ast-tagger">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="spa-ast.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="spa-ast.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="spa-ast-pretransfer">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="spa-ast.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -p -g $2">
-        <file name="spa-ast.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
   <mode name="spa-ast-transfer">
     <pipeline>
       <program name="lt-proc">
@@ -221,24 +189,6 @@
     </pipeline>
   </mode>
 
-  <mode name="spa-ast-transfer">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="spa-ast.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="spa-ast.prob"/>
-      </program>
-	  <!--Proper noun recogniser: -->
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-spa-ast.spa-ast.t1x"/>
-        <file name="spa-ast.t1x.bin"/>
-        <file name="spa-ast.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
   <mode name="spa-ast-transfer-post">
     <pipeline>
       <program name="lt-proc">
@@ -262,30 +212,6 @@
     </pipeline>
   </mode>
 
-  <mode name="spa-ast-gen">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="spa-ast.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="spa-ast.prob"/>
-      </program>
-	  <!--Proper noun recogniser: -->
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-spa-ast.spa-ast.t1x"/>
-        <file name="spa-ast.t1x.bin"/>
-        <file name="spa-ast.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -n">
-	<file name="apertium-spa-ast.post-spa-ast.t1x"/>
-        <file name="spa-ast.post.t1x.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="spa-ast.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
 
   <mode name="spa-ast-postgen-int">
     <pipeline>
