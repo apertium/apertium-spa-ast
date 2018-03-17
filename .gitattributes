@@ -47,3 +47,8 @@ scripts/script_cliticos_tener -text
 scripts/script_contracciones -text
 scripts/script_neutro -text
 scripts/script_verbos -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
