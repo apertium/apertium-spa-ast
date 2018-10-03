@@ -131,13 +131,15 @@ install-data-local:
 	mv modes.bak modes
 	test -d $(DESTDIR)$(apertium_spa_modesdir) || mkdir $(DESTDIR)$(apertium_spa_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_spa_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_spa_modesdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_spa_astdir)
 	$(INSTALL_DATA) $(BASENAME).post-$(PREFIX1).t1x $(DESTDIR)$(apertium_spa_astdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_spa_astdir)
 	$(INSTALL_DATA) $(PREFIX1)-pn.mode $(DESTDIR)$(apertium_spa_modesdir)
-	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(DESTDIR)$(apertium_spa_modesdir)
-	rm $(PREFIX1).mode $(PREFIX2).mode $(PREFIX1)-pn.mode $(PREFIX2)-pn.mode
+	rm $(PREFIX1).mode  $(PREFIX1)-pn.mode
+
+#	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_spa_modesdir)
+#	$(INSTALL_DATA) $(PREFIX2)-pn.mode $(DESTDIR)$(apertium_spa_modesdir)
+#	rm $(PREFIX1).mode $(PREFIX2).mode $(PREFIX1)-pn.mode $(PREFIX2)-pn.mode
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes *~
 
