@@ -1,7 +1,3 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-
 AC_PREREQ(2.52)
 
 m4_define([required_apertium_version], [3.1.0])
@@ -14,8 +10,6 @@ AC_CONFIG_HEADER([config])
 
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.4 >= required_apertium_version)])
 
-
-
-AC_SUBST(APERTIUM_VER)
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
