@@ -110,6 +110,8 @@ apertium_spa_ast_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX2).autopgen.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
 					$(PREFIX1).t1x.bin \
+					$(BASENAME).$(PREFIX1).t1x \
+					$(BASENAME).post-$(PREFIX1).t1x \
 					$(PREFIX1).post.t1x.bin \
 					$(PREFIX2).t1x.bin
 
