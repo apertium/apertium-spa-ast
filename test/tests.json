@@ -1,0 +1,6 @@
+{
+    "spa-ast-pending": {
+        "input": "spa-ast-pending-input.txt",
+        "mode": "spa-ast"
+    }
+}
